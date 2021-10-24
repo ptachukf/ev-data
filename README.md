@@ -9,9 +9,9 @@ the key for developing EV-related applications.
 This dataset (`data/ev-data.json`) can be freely integrated into ANY
 application. Mentioning Open EV Data as a source is appreciated!
 
-This data is used for [Kilowatt – Electric Car Timer](https://apps.apple.com/us/app/kilowatt-electric-car-timer/id1502312657?itsct=apps_box_link&itscg=30200) app available on the Apple App Store
+This data is used for [Kilowatt – Electric Car Timer](https://apps.apple.com/us/app/kilowatt-electric-car-timer/id1502312657?itsct=apps_box_link&itscg=30200) app available on the Apple App Store.
 
-<a href="https://apps.apple.com/us/app/kilowatt-electric-car-timer/id1502312657?itscg=30200&amp;itsct=apps_box_appicon" style="width: 170px; height: 170px; border-top-left-radius: 22%; border-top-right-radius: 22%; border-bottom-right-radius: 22%; border-bottom-left-radius: 22%; overflow: hidden; display: inline-block; vertical-align: middle;"><img src="https://is3-ssl.mzstatic.com/image/thumb/Purple115/v4/ff/fb/05/fffb05d9-969f-70f0-02b7-3bb2d881cde7/AppIcon-0-1x_U007emarketing-0-8-0-85-220.png/540x540bb.jpg&h=26a8633c6034c9d2d1b1aba4b5daf9ab" alt="Kilowatt – Electric Car Timer" style="width: 170px; height: 170px; border-top-left-radius: 22%; border-top-right-radius: 22%; border-bottom-right-radius: 22%; border-bottom-left-radius: 22%; overflow: hidden; display: inline-block; vertical-align: middle;"></a>
+![Kilowatt App logo](https://is3-ssl.mzstatic.com/image/thumb/Purple115/v4/ff/fb/05/fffb05d9-969f-70f0-02b7-3bb2d881cde7/AppIcon-0-1x_U007emarketing-0-8-0-85-220.png/540x540bb.jpg&h=26a8633c6034c9d2d1b1aba4b5daf9ab)
 
 It's a fork of the side project of the charging price and tariff comparison platform
 [Chargeprice](https://www.chargeprice.app) who stopped maintaining this project.
