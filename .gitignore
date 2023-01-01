@@ -51,3 +51,4 @@ build-iPhoneSimulator/
 
 /scripts/.env
 data/.DS_Store
+.DS_Store
