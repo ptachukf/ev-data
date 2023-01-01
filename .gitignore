@@ -50,3 +50,4 @@ build-iPhoneSimulator/
 .rvmrc
 
 /scripts/.env
+data/.DS_Store
