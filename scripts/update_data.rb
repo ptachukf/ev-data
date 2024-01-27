@@ -14,8 +14,13 @@ PAGE_SIZE = 100
 def load_from_contentful
   entries = fetch_entries
   brands = entries.map do |v|
-    { id: ShortUUID.expand(v.model.brand.id), name: v.model.brand.name }
-  end.uniq.sort_by { |c| c[:name] }
+    model = v.model
+    brand = v.model&.brand if model
+    id = ShortUUID.expand(brand.id) if brand
+    name = brand&.name if brand
+    # pp [v, id, name] if id.nil? || name.nil?
+    { id: id, name: name } 
+  end.compact.uniq.sort_by { |c| c[:name] }
   vehicles = entries.map { |entry| to_model(entry) }.sort_by { |b| b[:brand] }
 
   hash = {
