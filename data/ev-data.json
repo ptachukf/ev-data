@@ -14026,7 +14026,7 @@
       },
       "energy_consumption": {
         "average_consumption": 16.1
-      },
+      }
     },
     {
       "id": "7dbad968-7058-4440-9c8f-8f483cdd973a",
@@ -18181,44 +18181,40 @@
         "max_power": 100.0,
         "charging_curve": [
           {
-            "percentage": 50,
-            "power": 0.0
-          },
-          {
-            "percentage": 60,
-            "power": 10.0
-          },
-          {
-            "percentage": 79,
-            "power": 20.0
-          },
-          {
-            "percentage": 98,
-            "power": 30.0
-          },
-          {
-            "percentage": 98,
-            "power": 30.0
-          },
-          {
-            "percentage": 138,
+            "percentage": 0,
             "power": 50.0
           },
           {
-            "percentage": 148,
+            "percentage": 10,
             "power": 60.0
           },
           {
-            "percentage": 80,
-            "power": 70.0
+            "percentage": 20,
+            "power": 79.0
           },
           {
-            "percentage": 71,
+            "percentage": 30,
+            "power": 98.0
+          },
+          {
+            "percentage": 50,
+            "power": 138.0
+          },
+          {
+            "percentage": 60,
+            "power": 148.0
+          },
+          {
+            "percentage": 70,
             "power": 80.0
           },
           {
-            "percentage": 63,
-            "power": 100.0
+            "percentage": 80,
+            "power": 71.0
+          },
+          {
+            "percentage": 100,
+            "power": 63.0
           }
         ],
         "is_default_charging_curve": false
