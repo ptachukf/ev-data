@@ -49,13 +49,13 @@ data if you need it!
 ## Change Requests
 
 Please file an issue if you have a change request or reach out to
-hello@kilowatt.love
+hello@kilowattcharging.com
 
 ## Contributing
 
 The data is managed by Kilowatt via the Contentful CMS and is regularly
 updated. However we are always looking for people who want to contribute to the
-project! Feel free to contact hello@kilowatt.love in this case!
+project! Feel free to contact hello@kilowattcharging.com in this case!
 
 ## Updating the data
 
