@@ -3209,9 +3209,7 @@
       "usable_battery_size": 5.5,
       "ac_charger": {
         "usable_phases": 1,
-        "ports": [
-
-        ],
+        "ports": [],
         "max_power": 2.3,
         "power_per_charging_point": {
           "2.0": 2.0,
@@ -15936,9 +15934,7 @@
       "usable_battery_size": 95.0,
       "ac_charger": {
         "usable_phases": 3,
-        "ports": [
-
-        ],
+        "ports": [],
         "max_power": 16.5,
         "power_per_charging_point": {
           "2.0": 2.0,
@@ -15998,9 +15994,7 @@
       "usable_battery_size": 95.0,
       "ac_charger": {
         "usable_phases": 3,
-        "ports": [
-
-        ],
+        "ports": [],
         "max_power": 16.5,
         "power_per_charging_point": {
           "2.0": 2.0,
@@ -16060,9 +16054,7 @@
       "usable_battery_size": 72.5,
       "ac_charger": {
         "usable_phases": 3,
-        "ports": [
-
-        ],
+        "ports": [],
         "max_power": 16.5,
         "power_per_charging_point": {
           "2.0": 2.0,
@@ -18668,9 +18660,7 @@
       "usable_battery_size": 6.3,
       "ac_charger": {
         "usable_phases": 1,
-        "ports": [
-
-        ],
+        "ports": [],
         "max_power": 0.65,
         "power_per_charging_point": {
           "2.0": 0.7,
@@ -18701,9 +18691,7 @@
       "usable_battery_size": 12.6,
       "ac_charger": {
         "usable_phases": 1,
-        "ports": [
-
-        ],
+        "ports": [],
         "max_power": 1.3,
         "power_per_charging_point": {
           "2.0": 1.3,
@@ -18734,9 +18722,7 @@
       "usable_battery_size": 6.3,
       "ac_charger": {
         "usable_phases": 2,
-        "ports": [
-
-        ],
+        "ports": [],
         "max_power": 7.3,
         "power_per_charging_point": {
           "2.0": 2.0,
@@ -18767,9 +18753,7 @@
       "usable_battery_size": 15.8,
       "ac_charger": {
         "usable_phases": 1,
-        "ports": [
-
-        ],
+        "ports": [],
         "max_power": 3.7,
         "power_per_charging_point": {
           "2.0": 2.0,
@@ -18833,9 +18817,7 @@
       "usable_battery_size": 12.6,
       "ac_charger": {
         "usable_phases": 1,
-        "ports": [
-
-        ],
+        "ports": [],
         "max_power": 3.7,
         "power_per_charging_point": {
           "2.0": 2.0,
@@ -18965,9 +18947,7 @@
       "usable_battery_size": 12.6,
       "ac_charger": {
         "usable_phases": 1,
-        "ports": [
-
-        ],
+        "ports": [],
         "max_power": 3.7,
         "power_per_charging_point": {
           "2.0": 2.0,
@@ -18998,9 +18978,7 @@
       "usable_battery_size": 15.8,
       "ac_charger": {
         "usable_phases": 1,
-        "ports": [
-
-        ],
+        "ports": [],
         "max_power": 3.7,
         "power_per_charging_point": {
           "2.0": 2.0,
@@ -19064,9 +19042,7 @@
       "usable_battery_size": 12.6,
       "ac_charger": {
         "usable_phases": 1,
-        "ports": [
-
-        ],
+        "ports": [],
         "max_power": 3.7,
         "power_per_charging_point": {
           "2.0": 2.0,
@@ -19097,9 +19073,7 @@
       "usable_battery_size": 6.3,
       "ac_charger": {
         "usable_phases": 1,
-        "ports": [
-
-        ],
+        "ports": [],
         "max_power": 0.65,
         "power_per_charging_point": {
           "2.0": 0.7,
@@ -19130,9 +19104,7 @@
       "usable_battery_size": 6.3,
       "ac_charger": {
         "usable_phases": 1,
-        "ports": [
-
-        ],
+        "ports": [],
         "max_power": 0.65,
         "power_per_charging_point": {
           "2.0": 0.7,
@@ -19163,9 +19135,7 @@
       "usable_battery_size": 15.8,
       "ac_charger": {
         "usable_phases": 1,
-        "ports": [
-
-        ],
+        "ports": [],
         "max_power": 1.3,
         "power_per_charging_point": {
           "2.0": 1.3,
@@ -19229,9 +19199,7 @@
       "usable_battery_size": 12.6,
       "ac_charger": {
         "usable_phases": 1,
-        "ports": [
-
-        ],
+        "ports": [],
         "max_power": 1.3,
         "power_per_charging_point": {
           "2.0": 1.3,
@@ -19262,9 +19230,7 @@
       "usable_battery_size": 15.8,
       "ac_charger": {
         "usable_phases": 1,
-        "ports": [
-
-        ],
+        "ports": [],
         "max_power": 1.3,
         "power_per_charging_point": {
           "2.0": 1.3,
@@ -19328,9 +19294,7 @@
       "usable_battery_size": 6.3,
       "ac_charger": {
         "usable_phases": 1,
-        "ports": [
-
-        ],
+        "ports": [],
         "max_power": 1.3,
         "power_per_charging_point": {
           "2.0": 1.3,
@@ -19427,9 +19391,7 @@
       "usable_battery_size": 15.8,
       "ac_charger": {
         "usable_phases": 1,
-        "ports": [
-
-        ],
+        "ports": [],
         "max_power": 3.7,
         "power_per_charging_point": {
           "2.0": 2.0,
@@ -20295,7 +20257,7 @@
       "charging_voltage": 400
     }
   ],
-  "brands": [
+   "brands": [
     {
       "id": "a43d2607-eead-46c2-9fd5-2ebd3c49d895",
       "name": "Aiways"
@@ -20510,7 +20472,7 @@
     }
   ],
   "meta": {
-    "updated_at": "2024-01-27T19:40:08Z",
+    "updated_at": "2024-06-10T10:30:42Z",
     "overall_count": 366
   }
 }
