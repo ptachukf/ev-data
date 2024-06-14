@@ -6,9 +6,15 @@ require 'multi_json'
 require 'pry'
 require 'dotenv'
 
+# Check if .env file is available
+unless File.exist?('.env')
+  puts "Error: .env file not found. Please create a .env file with the required configuration."
+  exit 1
+end
+
 Dotenv.load('.env')
 
-FILE_NAME = '../data/ev-data.json'
+FILE_NAME = '../data/contentful-export.json'
 PAGE_SIZE = 100
 
 def load_from_contentful
