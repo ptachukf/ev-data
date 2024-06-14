@@ -29,7 +29,6 @@ GEM
       rake (~> 13.0)
     method_source (1.1.0)
     multi_json (1.15.0)
-    optparse (0.5.0)
     pry (0.14.2)
       coderay (~> 1.1)
       method_source (~> 1.0)
@@ -47,7 +46,6 @@ DEPENDENCIES
   contentful (~> 2)
   dotenv
   multi_json
-  optparse
   pry
   pry-byebug
   shortuuid
