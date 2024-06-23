@@ -22,7 +22,7 @@ def load_from_contentful
   brands = entries.map do |v|
     model = v.model
     brand = v.model&.brand if model
-    id = deterministic_uuid(brand.id) if brand
+    id = ShortUUID.expand(brand.id) if brand
     name = brand&.name if brand
     { id: id, name: name } 
   end.compact.uniq.sort_by { |c| c[:name] }
@@ -63,11 +63,11 @@ end
 
 def to_model(entry)
   {
-    id: deterministic_uuid(entry.id),
+    id: ShortUUID.expand(entry.id),
     brand: entry.model.brand.name,
     vehicle_type: entry.model.vehicle_type,
     type: entry.model.ev_type,
-    brand_id: deterministic_uuid(entry.model.brand.id),
+    brand_id: ShortUUID.expand(entry.model.brand.id),
     model: entry.model.name,
     release_year: entry.release_year,
     variant: entry.variant.to_s,
@@ -143,12 +143,9 @@ def power_per_charging_point(entry)
 end
 
 def format_float(value)
-  "%.1f" % value.to_f
+  value.to_f.round(1)
 end
 
-def deterministic_uuid(id)
-  ShortUUID.expand(id)
-end
 
 load_from_contentful
 puts "Saved to #{FILE_NAME}"
