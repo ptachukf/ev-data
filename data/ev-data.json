@@ -1,13 +1,13 @@
 {
   "data": [
     {
-      "id": "72475a6a-aae2-da13-1d17-94cc07e5104f",
+      "id": "6033b26c-1b3c-441b-9f78-7b7cd5512051",
       "brand": "Aiways",
       "vehicle_type": "car",
       "type": "bev",
       "brand_id": "a43d2607-eead-46c2-9fd5-2ebd3c49d895",
       "model": "U5",
-      "release_year": 2021,
+      "release_year": 2020,
       "variant": "",
       "usable_battery_size": 63.0,
       "ac_charger": {
@@ -62,13 +62,13 @@
       "charging_voltage": 400
     },
     {
-      "id": "6033b26c-1b3c-441b-9f78-7b7cd5512051",
+      "id": "72475a6a-aae2-da13-1d17-94cc07e5104f",
       "brand": "Aiways",
       "vehicle_type": "car",
       "type": "bev",
       "brand_id": "a43d2607-eead-46c2-9fd5-2ebd3c49d895",
       "model": "U5",
-      "release_year": 2020,
+      "release_year": 2021,
       "variant": "",
       "usable_battery_size": 63.0,
       "ac_charger": {
@@ -612,6 +612,112 @@
       "charging_voltage": 400
     },
     {
+      "id": "e0616632-4741-5ec5-4820-d65c719b2bfe",
+      "brand": "Audi",
+      "vehicle_type": "car",
+      "type": "bev",
+      "brand_id": "89c2668c-0c50-4344-9386-93e4000f7673",
+      "model": "Q6 e-tron",
+      "release_year": 2024,
+      "variant": "performance",
+      "usable_battery_size": 94.9,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11.0,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.0,
+          "16": 11.0,
+          "22": 11.0,
+          "43": 11.0
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 260.0,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 247.0
+          },
+          {
+            "percentage": 75,
+            "power": 260.0
+          },
+          {
+            "percentage": 100,
+            "power": 11.0
+          }
+        ],
+        "is_default_charging_curve": true
+      },
+      "energy_consumption": {
+        "average_consumption": 19.8
+      },
+      "charging_voltage": 800
+    },
+    {
+      "id": "10299648-b518-4050-a174-0bb0df5f72fc",
+      "brand": "Audi",
+      "vehicle_type": "car",
+      "type": "bev",
+      "brand_id": "89c2668c-0c50-4344-9386-93e4000f7673",
+      "model": "Q6 e-tron",
+      "release_year": 2024,
+      "variant": "quattro",
+      "usable_battery_size": 94.9,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11.0,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.0,
+          "16": 11.0,
+          "22": 11.0,
+          "43": 11.0
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 270.0,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 256.5
+          },
+          {
+            "percentage": 75,
+            "power": 270.0
+          },
+          {
+            "percentage": 100,
+            "power": 11.0
+          }
+        ],
+        "is_default_charging_curve": true
+      },
+      "energy_consumption": {
+        "average_consumption": 20.6
+      },
+      "charging_voltage": 800
+    },
+    {
       "id": "e3656381-6eaa-14cb-4e52-b128d46c48ab",
       "brand": "Audi",
       "vehicle_type": "car",
@@ -769,6 +875,59 @@
         "average_consumption": 20.2
       },
       "charging_voltage": 400
+    },
+    {
+      "id": "2184579a-c5f0-bf61-1331-f68260b58c96",
+      "brand": "Audi",
+      "vehicle_type": "car",
+      "type": "bev",
+      "brand_id": "89c2668c-0c50-4344-9386-93e4000f7673",
+      "model": "SQ6 e-tron",
+      "release_year": 2024,
+      "variant": "",
+      "usable_battery_size": 94.9,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11.0,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.0,
+          "16": 11.0,
+          "22": 11.0,
+          "43": 11.0
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 270.0,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 256.5
+          },
+          {
+            "percentage": 75,
+            "power": 270.0
+          },
+          {
+            "percentage": 100,
+            "power": 11.0
+          }
+        ],
+        "is_default_charging_curve": true
+      },
+      "energy_consumption": {
+        "average_consumption": 21.3
+      },
+      "charging_voltage": 800
     },
     {
       "id": "c6a6bd26-6a8f-4ab7-baf3-6cfa057044e3",
@@ -1421,59 +1580,6 @@
       "charging_voltage": 400
     },
     {
-      "id": "aceb9326-181f-cc73-0467-4c63ee47c0fb",
-      "brand": "BMW",
-      "vehicle_type": "car",
-      "type": "bev",
-      "brand_id": "0742668c-bf59-4191-890e-2b0883508808",
-      "model": "i3S",
-      "release_year": 2020,
-      "variant": "120 Ah",
-      "usable_battery_size": 37.9,
-      "ac_charger": {
-        "usable_phases": 3,
-        "ports": [
-          "type2"
-        ],
-        "max_power": 11.0,
-        "power_per_charging_point": {
-          "2.0": 2.0,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4,
-          "11": 11.0,
-          "16": 11.0,
-          "22": 11.0,
-          "43": 11.0
-        }
-      },
-      "dc_charger": {
-        "ports": [
-          "ccs"
-        ],
-        "max_power": 50.0,
-        "charging_curve": [
-          {
-            "percentage": 0,
-            "power": 47.5
-          },
-          {
-            "percentage": 75,
-            "power": 50.0
-          },
-          {
-            "percentage": 100,
-            "power": 11.0
-          }
-        ],
-        "is_default_charging_curve": true
-      },
-      "energy_consumption": {
-        "average_consumption": 16.2
-      },
-      "charging_voltage": 400
-    },
-    {
       "id": "2390340c-4405-4ca8-b0a5-1565dc842d5a",
       "brand": "BMW",
       "vehicle_type": "car",
@@ -1531,6 +1637,59 @@
       },
       "energy_consumption": {
         "average_consumption": 16.1
+      },
+      "charging_voltage": 400
+    },
+    {
+      "id": "aceb9326-181f-cc73-0467-4c63ee47c0fb",
+      "brand": "BMW",
+      "vehicle_type": "car",
+      "type": "bev",
+      "brand_id": "0742668c-bf59-4191-890e-2b0883508808",
+      "model": "i3S",
+      "release_year": 2020,
+      "variant": "120 Ah",
+      "usable_battery_size": 37.9,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11.0,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.0,
+          "16": 11.0,
+          "22": 11.0,
+          "43": 11.0
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 50.0,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 47.5
+          },
+          {
+            "percentage": 75,
+            "power": 50.0
+          },
+          {
+            "percentage": 100,
+            "power": 11.0
+          }
+        ],
+        "is_default_charging_curve": true
+      },
+      "energy_consumption": {
+        "average_consumption": 16.2
       },
       "charging_voltage": 400
     },
@@ -3113,6 +3272,59 @@
       },
       "energy_consumption": {
         "average_consumption": 17.1
+      },
+      "charging_voltage": 400
+    },
+    {
+      "id": "eff0308f-7f17-f119-f259-f6fc06726018",
+      "brand": "Citroën",
+      "vehicle_type": "car",
+      "type": "bev",
+      "brand_id": "3b3fc191-f4c3-45da-bc3b-21efbe1b264f",
+      "model": "e-C3",
+      "release_year": 2024,
+      "variant": "Aircross",
+      "usable_battery_size": 44.0,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 7.4,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 7.4,
+          "16": 7.4,
+          "22": 7.4,
+          "43": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 100.0,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 95.0
+          },
+          {
+            "percentage": 75,
+            "power": 100.0
+          },
+          {
+            "percentage": 100,
+            "power": 7.4
+          }
+        ],
+        "is_default_charging_curve": true
+      },
+      "energy_consumption": {
+        "average_consumption": 17.6
       },
       "charging_voltage": 400
     },
@@ -6241,30 +6453,30 @@
       "charging_voltage": 400
     },
     {
-      "id": "0f7eae0b-43be-48f8-b4a0-1a8266fd07a9",
+      "id": "68cbedff-8994-4b77-bfb5-6aa22962e3a2",
       "brand": "Kia",
       "vehicle_type": "car",
       "type": "bev",
       "brand_id": "3337d5f0-39de-4ded-831b-843dfec1ebbd",
       "model": "e-Niro",
-      "release_year": 2018,
+      "release_year": 2020,
       "variant": "64 kWh",
       "usable_battery_size": 64.0,
       "ac_charger": {
-        "usable_phases": 1,
+        "usable_phases": 3,
         "ports": [
           "type2"
         ],
-        "max_power": 7.2,
+        "max_power": 11.0,
         "power_per_charging_point": {
           "2.0": 2.0,
           "2.3": 2.3,
           "3.7": 3.7,
-          "7.4": 7.2,
-          "11": 3.7,
-          "16": 5.4,
-          "22": 7.2,
-          "43": 7.2
+          "7.4": 7.4,
+          "11": 11.0,
+          "16": 11.0,
+          "22": 11.0,
+          "43": 11.0
         }
       },
       "dc_charger": {
@@ -6326,30 +6538,30 @@
       "charging_voltage": 400
     },
     {
-      "id": "68cbedff-8994-4b77-bfb5-6aa22962e3a2",
+      "id": "0f7eae0b-43be-48f8-b4a0-1a8266fd07a9",
       "brand": "Kia",
       "vehicle_type": "car",
       "type": "bev",
       "brand_id": "3337d5f0-39de-4ded-831b-843dfec1ebbd",
       "model": "e-Niro",
-      "release_year": 2020,
+      "release_year": 2018,
       "variant": "64 kWh",
       "usable_battery_size": 64.0,
       "ac_charger": {
-        "usable_phases": 3,
+        "usable_phases": 1,
         "ports": [
           "type2"
         ],
-        "max_power": 11.0,
+        "max_power": 7.2,
         "power_per_charging_point": {
           "2.0": 2.0,
           "2.3": 2.3,
           "3.7": 3.7,
-          "7.4": 7.4,
-          "11": 11.0,
-          "16": 11.0,
-          "22": 11.0,
-          "43": 11.0
+          "7.4": 7.2,
+          "11": 3.7,
+          "16": 5.4,
+          "22": 7.2,
+          "43": 7.2
         }
       },
       "dc_charger": {
@@ -7917,6 +8129,59 @@
       "charging_voltage": 400
     },
     {
+      "id": "4ab6673a-2a09-be10-27f4-23007e36d166",
+      "brand": "Mercedes",
+      "vehicle_type": "car",
+      "type": "bev",
+      "brand_id": "b2282fbe-f5d9-48d9-943f-a9b66ec51423",
+      "model": "EQB",
+      "release_year": 2023,
+      "variant": "250+",
+      "usable_battery_size": 70.5,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11.0,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.0,
+          "16": 11.0,
+          "22": 11.0,
+          "43": 11.0
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 102.0,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 96.9
+          },
+          {
+            "percentage": 75,
+            "power": 102.0
+          },
+          {
+            "percentage": 100,
+            "power": 11.0
+          }
+        ],
+        "is_default_charging_curve": true
+      },
+      "energy_consumption": {
+        "average_consumption": 17.0
+      },
+      "charging_voltage": 400
+    },
+    {
       "id": "8a5cd1a2-f84a-22b9-b397-470fe5ca5bca",
       "brand": "Mercedes",
       "vehicle_type": "car",
@@ -8858,6 +9123,112 @@
       },
       "energy_consumption": {
         "average_consumption": 20.7
+      },
+      "charging_voltage": 400
+    },
+    {
+      "id": "8b6d4f7c-0283-ad38-55f7-44540421970c",
+      "brand": "NIO",
+      "vehicle_type": "car",
+      "type": "bev",
+      "brand_id": "2763ca2c-43b8-d4e4-f0ac-60f664743d72",
+      "model": "EL8",
+      "release_year": 2024,
+      "variant": "Long Range",
+      "usable_battery_size": 90.0,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11.0,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.0,
+          "16": 11.0,
+          "22": 11.0,
+          "43": 11.0
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 240.0,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 228.0
+          },
+          {
+            "percentage": 75,
+            "power": 240.0
+          },
+          {
+            "percentage": 100,
+            "power": 11.0
+          }
+        ],
+        "is_default_charging_curve": true
+      },
+      "energy_consumption": {
+        "average_consumption": 21.4
+      },
+      "charging_voltage": 400
+    },
+    {
+      "id": "dc8f4b5e-6c56-6f77-03a9-5f27a7e0c15f",
+      "brand": "NIO",
+      "vehicle_type": "car",
+      "type": "bev",
+      "brand_id": "2763ca2c-43b8-d4e4-f0ac-60f664743d72",
+      "model": "EL8",
+      "release_year": 2024,
+      "variant": "Standard Range",
+      "usable_battery_size": 73.5,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11.0,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.0,
+          "16": 11.0,
+          "22": 11.0,
+          "43": 11.0
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 140.0,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 133.0
+          },
+          {
+            "percentage": 75,
+            "power": 140.0
+          },
+          {
+            "percentage": 100,
+            "power": 11.0
+          }
+        ],
+        "is_default_charging_curve": true
+      },
+      "energy_consumption": {
+        "average_consumption": 21.0
       },
       "charging_voltage": 400
     },
@@ -11865,59 +12236,6 @@
       "charging_voltage": 400
     },
     {
-      "id": "6330cebd-38e0-dd93-a2a4-0d50eaf8ac2d",
-      "brand": "Porsche",
-      "vehicle_type": "car",
-      "type": "bev",
-      "brand_id": "68e11a25-d316-4d22-9444-45c7306c8ab7",
-      "model": "Taycan",
-      "release_year": 2023,
-      "variant": "4S",
-      "usable_battery_size": 71.0,
-      "ac_charger": {
-        "usable_phases": 3,
-        "ports": [
-          "type2"
-        ],
-        "max_power": 11.0,
-        "power_per_charging_point": {
-          "2.0": 2.0,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4,
-          "11": 11.0,
-          "16": 11.0,
-          "22": 11.0,
-          "43": 11.0
-        }
-      },
-      "dc_charger": {
-        "ports": [
-          "ccs"
-        ],
-        "max_power": 223.0,
-        "charging_curve": [
-          {
-            "percentage": 0,
-            "power": 211.9
-          },
-          {
-            "percentage": 75,
-            "power": 223.0
-          },
-          {
-            "percentage": 100,
-            "power": 11.0
-          }
-        ],
-        "is_default_charging_curve": true
-      },
-      "energy_consumption": {
-        "average_consumption": 17.1
-      },
-      "charging_voltage": 400
-    },
-    {
       "id": "34b5ef32-efea-48fc-8386-3800d0b737f0",
       "brand": "Porsche",
       "vehicle_type": "car",
@@ -11969,6 +12287,59 @@
         "average_consumption": 19.5
       },
       "charging_voltage": 800
+    },
+    {
+      "id": "6330cebd-38e0-dd93-a2a4-0d50eaf8ac2d",
+      "brand": "Porsche",
+      "vehicle_type": "car",
+      "type": "bev",
+      "brand_id": "68e11a25-d316-4d22-9444-45c7306c8ab7",
+      "model": "Taycan",
+      "release_year": 2023,
+      "variant": "4S",
+      "usable_battery_size": 71.0,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11.0,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.0,
+          "16": 11.0,
+          "22": 11.0,
+          "43": 11.0
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 223.0,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 211.9
+          },
+          {
+            "percentage": 75,
+            "power": 223.0
+          },
+          {
+            "percentage": 100,
+            "power": 11.0
+          }
+        ],
+        "is_default_charging_curve": true
+      },
+      "energy_consumption": {
+        "average_consumption": 17.1
+      },
+      "charging_voltage": 400
     },
     {
       "id": "8e41db3c-c523-f652-b60c-0f79e97e404a",
@@ -12024,59 +12395,6 @@
       "charging_voltage": 400
     },
     {
-      "id": "6990914a-6a0d-49d4-87f5-ee86ee33344c",
-      "brand": "Porsche",
-      "vehicle_type": "car",
-      "type": "bev",
-      "brand_id": "68e11a25-d316-4d22-9444-45c7306c8ab7",
-      "model": "Taycan",
-      "release_year": 2020,
-      "variant": "4S Plus",
-      "usable_battery_size": 83.7,
-      "ac_charger": {
-        "usable_phases": 3,
-        "ports": [
-          "type2"
-        ],
-        "max_power": 11.0,
-        "power_per_charging_point": {
-          "2.0": 2.0,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4,
-          "11": 11.0,
-          "16": 11.0,
-          "22": 11.0,
-          "43": 11.0
-        }
-      },
-      "dc_charger": {
-        "ports": [
-          "ccs"
-        ],
-        "max_power": 270.0,
-        "charging_curve": [
-          {
-            "percentage": 0,
-            "power": 256.5
-          },
-          {
-            "percentage": 75,
-            "power": 270.0
-          },
-          {
-            "percentage": 100,
-            "power": 11.0
-          }
-        ],
-        "is_default_charging_curve": true
-      },
-      "energy_consumption": {
-        "average_consumption": 19.7
-      },
-      "charging_voltage": 800
-    },
-    {
       "id": "a23c17ce-a077-2532-5185-a77e4d314764",
       "brand": "Porsche",
       "vehicle_type": "car",
@@ -12128,6 +12446,59 @@
         "average_consumption": 17.4
       },
       "charging_voltage": 400
+    },
+    {
+      "id": "6990914a-6a0d-49d4-87f5-ee86ee33344c",
+      "brand": "Porsche",
+      "vehicle_type": "car",
+      "type": "bev",
+      "brand_id": "68e11a25-d316-4d22-9444-45c7306c8ab7",
+      "model": "Taycan",
+      "release_year": 2020,
+      "variant": "4S Plus",
+      "usable_battery_size": 83.7,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11.0,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.0,
+          "16": 11.0,
+          "22": 11.0,
+          "43": 11.0
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 270.0,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 256.5
+          },
+          {
+            "percentage": 75,
+            "power": 270.0
+          },
+          {
+            "percentage": 100,
+            "power": 11.0
+          }
+        ],
+        "is_default_charging_curve": true
+      },
+      "energy_consumption": {
+        "average_consumption": 19.7
+      },
+      "charging_voltage": 800
     },
     {
       "id": "01ad6680-a348-0858-eb29-50ad62bc1e16",
@@ -12342,59 +12713,6 @@
       "charging_voltage": 400
     },
     {
-      "id": "6d5895a8-8c34-7c91-2210-c6bb5b666a2d",
-      "brand": "Porsche",
-      "vehicle_type": "car",
-      "type": "bev",
-      "brand_id": "68e11a25-d316-4d22-9444-45c7306c8ab7",
-      "model": "Taycan",
-      "release_year": 2023,
-      "variant": "Turbo S",
-      "usable_battery_size": 83.7,
-      "ac_charger": {
-        "usable_phases": 3,
-        "ports": [
-          "type2"
-        ],
-        "max_power": 11.0,
-        "power_per_charging_point": {
-          "2.0": 2.0,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4,
-          "11": 11.0,
-          "16": 11.0,
-          "22": 11.0,
-          "43": 11.0
-        }
-      },
-      "dc_charger": {
-        "ports": [
-          "ccs"
-        ],
-        "max_power": 268.0,
-        "charging_curve": [
-          {
-            "percentage": 0,
-            "power": 254.6
-          },
-          {
-            "percentage": 75,
-            "power": 268.0
-          },
-          {
-            "percentage": 100,
-            "power": 11.0
-          }
-        ],
-        "is_default_charging_curve": true
-      },
-      "energy_consumption": {
-        "average_consumption": 19.5
-      },
-      "charging_voltage": 400
-    },
-    {
       "id": "4c04db3b-c493-4b90-9859-21b7304a4ffc",
       "brand": "Porsche",
       "vehicle_type": "car",
@@ -12446,6 +12764,59 @@
         "average_consumption": 22.3
       },
       "charging_voltage": 800
+    },
+    {
+      "id": "6d5895a8-8c34-7c91-2210-c6bb5b666a2d",
+      "brand": "Porsche",
+      "vehicle_type": "car",
+      "type": "bev",
+      "brand_id": "68e11a25-d316-4d22-9444-45c7306c8ab7",
+      "model": "Taycan",
+      "release_year": 2023,
+      "variant": "Turbo S",
+      "usable_battery_size": 83.7,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11.0,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.0,
+          "16": 11.0,
+          "22": 11.0,
+          "43": 11.0
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 268.0,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 254.6
+          },
+          {
+            "percentage": 75,
+            "power": 268.0
+          },
+          {
+            "percentage": 100,
+            "power": 11.0
+          }
+        ],
+        "is_default_charging_curve": true
+      },
+      "energy_consumption": {
+        "average_consumption": 19.5
+      },
+      "charging_voltage": 400
     },
     {
       "id": "1c13fba9-2c09-4be1-b5c6-aecd2b253afb",
@@ -13911,56 +14282,6 @@
       "charging_voltage": 400
     },
     {
-      "id": "db91f06e-4072-f912-b6d6-8dd6dd2ad3c6",
-      "brand": "Tesla",
-      "vehicle_type": "car",
-      "type": "bev",
-      "brand_id": "f37896c3-6bc5-45e1-b442-b9cbc38e3a7c",
-      "model": "Model 3",
-      "release_year": 2021,
-      "variant": "RWD",
-      "usable_battery_size": 57.5,
-      "ac_charger": {
-        "usable_phases": 3,
-        "ports": [
-          "type2"
-        ],
-        "max_power": 11.0,
-        "power_per_charging_point": {
-          "2.0": 2.0,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4,
-          "11": 11.0,
-          "16": 11.0,
-          "22": 11.0,
-          "43": 11.0
-        }
-      },
-      "dc_charger": {
-        "ports": [
-          "ccs",
-          "tesla_ccs"
-        ],
-        "max_power": 170.0,
-        "charging_curve": [
-          {
-            "percentage": 0,
-            "power": 170.0
-          },
-          {
-            "percentage": 100,
-            "power": 25.0
-          }
-        ],
-        "is_default_charging_curve": false
-      },
-      "energy_consumption": {
-        "average_consumption": 15.1
-      },
-      "charging_voltage": 400
-    },
-    {
       "id": "a9461623-1f68-577f-1121-04f50a3abb3c",
       "brand": "Tesla",
       "vehicle_type": "car",
@@ -14007,6 +14328,56 @@
       },
       "energy_consumption": {
         "average_consumption": 15.5
+      },
+      "charging_voltage": 400
+    },
+    {
+      "id": "db91f06e-4072-f912-b6d6-8dd6dd2ad3c6",
+      "brand": "Tesla",
+      "vehicle_type": "car",
+      "type": "bev",
+      "brand_id": "f37896c3-6bc5-45e1-b442-b9cbc38e3a7c",
+      "model": "Model 3",
+      "release_year": 2021,
+      "variant": "RWD",
+      "usable_battery_size": 57.5,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11.0,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.0,
+          "16": 11.0,
+          "22": 11.0,
+          "43": 11.0
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs",
+          "tesla_ccs"
+        ],
+        "max_power": 170.0,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 170.0
+          },
+          {
+            "percentage": 100,
+            "power": 25.0
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "energy_consumption": {
+        "average_consumption": 15.1
       },
       "charging_voltage": 400
     },
@@ -15878,6 +16249,65 @@
       "charging_voltage": 400
     },
     {
+      "id": "355eadbb-0c97-4a66-993d-8fdc61a77ef5",
+      "brand": "Tesla",
+      "vehicle_type": "car",
+      "type": "bev",
+      "brand_id": "f37896c3-6bc5-45e1-b442-b9cbc38e3a7c",
+      "model": "Model X",
+      "release_year": 2019,
+      "variant": "Performance",
+      "usable_battery_size": 100.0,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 16.5,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.1,
+          "16": 16.2,
+          "22": 16.5,
+          "43": 16.5
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs",
+          "chademo",
+          "tesla_suc"
+        ],
+        "max_power": 140.0,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 125.0
+          },
+          {
+            "percentage": 43,
+            "power": 140.0
+          },
+          {
+            "percentage": 80,
+            "power": 37.0
+          },
+          {
+            "percentage": 100,
+            "power": 12.0
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "energy_consumption": {
+        "average_consumption": 22.0
+      },
+      "charging_voltage": 400
+    },
+    {
       "id": "3d010bc6-84ad-480c-9dbb-5a8c7c0210b9",
       "brand": "Tesla",
       "vehicle_type": "car",
@@ -15940,15 +16370,15 @@
       "charging_voltage": 400
     },
     {
-      "id": "355eadbb-0c97-4a66-993d-8fdc61a77ef5",
+      "id": "b7c4ddb8-4806-4328-a4e6-4abb4746016d",
       "brand": "Tesla",
       "vehicle_type": "car",
       "type": "bev",
       "brand_id": "f37896c3-6bc5-45e1-b442-b9cbc38e3a7c",
       "model": "Model X",
       "release_year": 2019,
-      "variant": "Performance",
-      "usable_battery_size": 100.0,
+      "variant": "Standard Range",
+      "usable_battery_size": 75.0,
       "ac_charger": {
         "usable_phases": 3,
         "ports": [
@@ -15994,7 +16424,7 @@
         "is_default_charging_curve": false
       },
       "energy_consumption": {
-        "average_consumption": 22.0
+        "average_consumption": 20.0
       },
       "charging_voltage": 400
     },
@@ -16057,65 +16487,6 @@
       },
       "energy_consumption": {
         "average_consumption": 21.6
-      },
-      "charging_voltage": 400
-    },
-    {
-      "id": "b7c4ddb8-4806-4328-a4e6-4abb4746016d",
-      "brand": "Tesla",
-      "vehicle_type": "car",
-      "type": "bev",
-      "brand_id": "f37896c3-6bc5-45e1-b442-b9cbc38e3a7c",
-      "model": "Model X",
-      "release_year": 2019,
-      "variant": "Standard Range",
-      "usable_battery_size": 75.0,
-      "ac_charger": {
-        "usable_phases": 3,
-        "ports": [
-          "type2"
-        ],
-        "max_power": 16.5,
-        "power_per_charging_point": {
-          "2.0": 2.0,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4,
-          "11": 11.1,
-          "16": 16.2,
-          "22": 16.5,
-          "43": 16.5
-        }
-      },
-      "dc_charger": {
-        "ports": [
-          "ccs",
-          "chademo",
-          "tesla_suc"
-        ],
-        "max_power": 140.0,
-        "charging_curve": [
-          {
-            "percentage": 0,
-            "power": 125.0
-          },
-          {
-            "percentage": 43,
-            "power": 140.0
-          },
-          {
-            "percentage": 80,
-            "power": 37.0
-          },
-          {
-            "percentage": 100,
-            "power": 12.0
-          }
-        ],
-        "is_default_charging_curve": false
-      },
-      "energy_consumption": {
-        "average_consumption": 20.0
       },
       "charging_voltage": 400
     },
@@ -17965,39 +18336,6 @@
       "charging_voltage": 400
     },
     {
-      "id": "57184038-ae77-4540-9367-ccb98beb8cc3",
-      "brand": "Volkswagen",
-      "vehicle_type": "car",
-      "type": "bev",
-      "brand_id": "481793f5-c8b0-4dc9-b3d4-cc615085ac07",
-      "model": "e-up",
-      "release_year": 2020,
-      "variant": "",
-      "usable_battery_size": 32.3,
-      "ac_charger": {
-        "usable_phases": 2,
-        "ports": [
-          "type2"
-        ],
-        "max_power": 7.2,
-        "power_per_charging_point": {
-          "2.0": 2.0,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.2,
-          "11": 7.2,
-          "16": 7.2,
-          "22": 7.2,
-          "43": 7.2
-        }
-      },
-      "dc_charger": null,
-      "energy_consumption": {
-        "average_consumption": 16.6
-      },
-      "charging_voltage": 400
-    },
-    {
       "id": "bcd8700d-241c-43a1-b9df-24ee310ea8e4",
       "brand": "Volkswagen",
       "vehicle_type": "car",
@@ -18027,6 +18365,39 @@
       "dc_charger": null,
       "energy_consumption": {
         "average_consumption": 16.8
+      },
+      "charging_voltage": 400
+    },
+    {
+      "id": "57184038-ae77-4540-9367-ccb98beb8cc3",
+      "brand": "Volkswagen",
+      "vehicle_type": "car",
+      "type": "bev",
+      "brand_id": "481793f5-c8b0-4dc9-b3d4-cc615085ac07",
+      "model": "e-up",
+      "release_year": 2020,
+      "variant": "",
+      "usable_battery_size": 32.3,
+      "ac_charger": {
+        "usable_phases": 2,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 7.2,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.2,
+          "11": 7.2,
+          "16": 7.2,
+          "22": 7.2,
+          "43": 7.2
+        }
+      },
+      "dc_charger": null,
+      "energy_consumption": {
+        "average_consumption": 16.6
       },
       "charging_voltage": 400
     },
@@ -19153,39 +19524,6 @@
       "charging_voltage": 400
     },
     {
-      "id": "5e2257e3-2e02-435a-9fb4-3073af846043",
-      "brand": "Zero Motorcycles",
-      "vehicle_type": "motorbike",
-      "type": "bev",
-      "brand_id": "5686f8db-6a36-41e7-a78c-fbf957ca103a",
-      "model": "S",
-      "release_year": 2019,
-      "variant": "ZF7.2 11 KW",
-      "usable_battery_size": 6.3,
-      "ac_charger": {
-        "usable_phases": 2,
-        "ports": [
-
-        ],
-        "max_power": 7.3,
-        "power_per_charging_point": {
-          "2.0": 2.0,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.3,
-          "11": 7.3,
-          "16": 7.3,
-          "22": 7.3,
-          "43": 7.3
-        }
-      },
-      "dc_charger": null,
-      "energy_consumption": {
-        "average_consumption": 6.3
-      },
-      "charging_voltage": 400
-    },
-    {
       "id": "f370e122-e83f-4461-8f7f-42346fd3307a",
       "brand": "Zero Motorcycles",
       "vehicle_type": "motorbike",
@@ -19210,6 +19548,39 @@
           "16": 1.3,
           "22": 1.3,
           "43": 1.3
+        }
+      },
+      "dc_charger": null,
+      "energy_consumption": {
+        "average_consumption": 6.3
+      },
+      "charging_voltage": 400
+    },
+    {
+      "id": "5e2257e3-2e02-435a-9fb4-3073af846043",
+      "brand": "Zero Motorcycles",
+      "vehicle_type": "motorbike",
+      "type": "bev",
+      "brand_id": "5686f8db-6a36-41e7-a78c-fbf957ca103a",
+      "model": "S",
+      "release_year": 2019,
+      "variant": "ZF7.2 11 KW",
+      "usable_battery_size": 6.3,
+      "ac_charger": {
+        "usable_phases": 2,
+        "ports": [
+
+        ],
+        "max_power": 7.3,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.3,
+          "11": 7.3,
+          "16": 7.3,
+          "22": 7.3,
+          "43": 7.3
         }
       },
       "dc_charger": null,
@@ -19813,108 +20184,55 @@
       "charging_voltage": 400
     },
     {
-      "id": "6d232f3e-b90c-7bd6-7c92-fb89b2a28a48",
-      "brand": "smart",
-      "vehicle_type": "car",
-      "type": "bev",
-      "brand_id": "a462c115-33b4-438b-b590-bc4a33382d1c",
-      "model": "#1",
-      "release_year": 2023,
-      "variant": "Premium",
-      "usable_battery_size": 62.0,
-      "ac_charger": {
-        "usable_phases": 3,
-        "ports": [
-          "type2"
-        ],
-        "max_power": 22.0,
-        "power_per_charging_point": {
-          "2.0": 2.0,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4,
-          "11": 11.1,
-          "16": 16.2,
-          "22": 22.0,
-          "43": 22.0
-        }
-      },
-      "dc_charger": {
-        "ports": [
-          "ccs"
-        ],
-        "max_power": 150.0,
-        "charging_curve": [
-          {
-            "percentage": 0,
-            "power": 142.5
-          },
-          {
-            "percentage": 75,
-            "power": 150.0
-          },
-          {
-            "percentage": 100,
-            "power": 22.0
-          }
-        ],
-        "is_default_charging_curve": true
-      },
-      "energy_consumption": {
-        "average_consumption": 18.5
-      },
-      "charging_voltage": 400
-    },
-    {
       "id": "9a8e280a-5f21-9a8d-0f82-9623f72f1ae0",
       "brand": "smart",
       "vehicle_type": "car",
       "type": "bev",
       "brand_id": "a462c115-33b4-438b-b590-bc4a33382d1c",
       "model": "#1",
-      "release_year": 2023,
-      "variant": "Pro+",
-      "usable_battery_size": 62.0,
+      "release_year": 2024,
+      "variant": "Pure",
+      "usable_battery_size": 47.0,
       "ac_charger": {
         "usable_phases": 3,
         "ports": [
           "type2"
         ],
-        "max_power": 22.0,
+        "max_power": 7.4,
         "power_per_charging_point": {
           "2.0": 2.0,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4,
-          "11": 11.1,
-          "16": 16.2,
-          "22": 22.0,
-          "43": 22.0
+          "11": 7.4,
+          "16": 7.4,
+          "22": 7.4,
+          "43": 7.4
         }
       },
       "dc_charger": {
         "ports": [
           "ccs"
         ],
-        "max_power": 150.0,
+        "max_power": 130.0,
         "charging_curve": [
           {
             "percentage": 0,
-            "power": 142.5
+            "power": 123.5
           },
           {
             "percentage": 75,
-            "power": 150.0
+            "power": 130.0
           },
           {
             "percentage": 100,
-            "power": 22.0
+            "power": 7.4
           }
         ],
         "is_default_charging_curve": true
       },
       "energy_consumption": {
-        "average_consumption": 18.5
+        "average_consumption": 18.8
       },
       "charging_voltage": 400
     },
@@ -19925,8 +20243,8 @@
       "type": "bev",
       "brand_id": "a462c115-33b4-438b-b590-bc4a33382d1c",
       "model": "#1",
-      "release_year": 2023,
-      "variant": "Pulse",
+      "release_year": 2024,
+      "variant": "Pure+",
       "usable_battery_size": 62.0,
       "ac_charger": {
         "usable_phases": 3,
@@ -19967,7 +20285,7 @@
         "is_default_charging_curve": true
       },
       "energy_consumption": {
-        "average_consumption": 19.4
+        "average_consumption": 18.4
       },
       "charging_voltage": 400
     },
@@ -20511,7 +20829,7 @@
     }
   ],
   "meta": {
-    "updated_at": "2024-06-23T14:42:33Z",
-    "overall_count": 366
+    "updated_at": "2024-06-23T15:27:36Z",
+    "overall_count": 372
   }
 }
