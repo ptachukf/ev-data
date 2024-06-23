@@ -32,7 +32,7 @@ def load_from_contentful
     data: vehicles,
     brands: brands,
     meta: {
-      updated_at: Time.now.utc.strftime('%Y-%m-%dT%H:%M:%S.000Z'),
+      updated_at: Time.now.utc.iso8601,
       overall_count: vehicles.size
     }
   }
