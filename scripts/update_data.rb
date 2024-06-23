@@ -22,18 +22,17 @@ def load_from_contentful
   brands = entries.map do |v|
     model = v.model
     brand = v.model&.brand if model
-    id = ShortUUID.expand(brand.id) if brand
+    id = deterministic_uuid(brand.id) if brand
     name = brand&.name if brand
-    # pp [v, id, name] if id.nil? || name.nil?
     { id: id, name: name } 
   end.compact.uniq.sort_by { |c| c[:name] }
-  vehicles = entries.map { |entry| to_model(entry) }.sort_by { |b| b[:brand] }
+  vehicles = entries.map { |entry| to_model(entry) }.sort_by { |v| [v[:brand], v[:model], v[:variant]] }
 
   hash = {
     data: vehicles,
     brands: brands,
     meta: {
-      updated_at: Time.now.utc.iso8601,
+      updated_at: Time.now.utc.strftime('%Y-%m-%dT%H:%M:%S.000Z'),
       overall_count: vehicles.size
     }
   }
@@ -64,20 +63,21 @@ end
 
 def to_model(entry)
   {
-    id: ShortUUID.expand(entry.id),
+    id: deterministic_uuid(entry.id),
     brand: entry.model.brand.name,
     vehicle_type: entry.model.vehicle_type,
     type: entry.model.ev_type,
-    brand_id: ShortUUID.expand(entry.model.brand.id),
+    brand_id: deterministic_uuid(entry.model.brand.id),
     model: entry.model.name,
     release_year: entry.release_year,
     variant: entry.variant.to_s,
-    usable_battery_size: entry.battery_size.to_f,
+    usable_battery_size: format_float(entry.battery_size),
     ac_charger: ac_charger(entry),
     dc_charger: dc_charger(entry),
     energy_consumption: {
-      average_consumption: entry.average_consumption.to_f
-    }
+      average_consumption: format_float(entry.average_consumption)
+    },
+    charging_voltage: entry.charging_voltage.to_i
   }
 end
 
@@ -85,7 +85,7 @@ def ac_charger(entry)
   {
     usable_phases: entry.ac_phases,
     ports: entry.ac_ports || [],
-    max_power: entry.max_ac_power.to_f,
+    max_power: format_float(entry.max_ac_power),
     power_per_charging_point: power_per_charging_point(entry)
   }
 end
@@ -98,7 +98,7 @@ def dc_charger(entry)
   max_power = entry.max_dc_power
   {
     ports: ports,
-    max_power: (curve ? curve.max_by { |v| v[:power] }[:power] : max_power).to_f,
+    max_power: format_float(curve ? curve.max_by { |v| v[:power] }[:power] : max_power),
     charging_curve: dc_charging_curve(entry),
     is_default_charging_curve: !entry.dc_charging_curve
   }
@@ -115,15 +115,15 @@ def dc_charging_curve(entry)
 
   entry.dc_charging_curve.map do |item|
     vals = item.split(',')
-    { percentage: Integer(vals[0]), power: Float(vals[1]) }
+    { percentage: Integer(vals[0]), power: format_float(Float(vals[1])) }
   end
 end
 
 def default_charging_curve(max_dc_power, max_ac_power)
   [
-    { percentage: 0, power: (max_dc_power * 0.95).round(1) },
-    { percentage: 75, power: max_dc_power },
-    { percentage: 100, power: max_ac_power }
+    { percentage: 0, power: format_float(max_dc_power * 0.95) },
+    { percentage: 75, power: format_float(max_dc_power) },
+    { percentage: 100, power: format_float(max_ac_power) }
   ]
 end
 
@@ -131,15 +131,23 @@ def power_per_charging_point(entry)
   max_power = entry.max_ac_power.to_f
   max_phases = entry.ac_phases
   {
-    2.0 => [max_power, 2.0].min.round(1),
-    2.3 => [max_power, 2.3].min.round(1),
-    3.7 => [max_power, 3.7].min.round(1),
-    7.4 => [max_power, 7.4].min.round(1),
-    11 => [max_power, max_phases * 3.7].min.round(1),
-    16 => [max_power, max_phases * 5.4].min.round(1),
-    22 => [max_power, max_phases * 7.4].min.round(1),
-    43 => max_power > 22 ? max_power : [max_power, max_phases * 7.4].min.round(1)
+    2.0 => format_float([max_power, 2.0].min),
+    2.3 => format_float([max_power, 2.3].min),
+    3.7 => format_float([max_power, 3.7].min),
+    7.4 => format_float([max_power, 7.4].min),
+    11 => format_float([max_power, max_phases * 3.7].min),
+    16 => format_float([max_power, max_phases * 5.4].min),
+    22 => format_float([max_power, max_phases * 7.4].min),
+    43 => format_float(max_power > 22 ? max_power : [max_power, max_phases * 7.4].min)
   }
+end
+
+def format_float(value)
+  "%.1f" % value.to_f
+end
+
+def deterministic_uuid(id)
+  ShortUUID.expand(id)
 end
 
 load_from_contentful
