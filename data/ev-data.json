@@ -18786,7 +18786,60 @@
         "ports": [
           "ccs"
         ],
-        "max_power": 134.0,
+        "max_power": 153.0,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 127.3
+          },
+          {
+            "percentage": 75,
+            "power": 134.0
+          },
+          {
+            "percentage": 100,
+            "power": 11.0
+          }
+        ],
+        "is_default_charging_curve": true
+      },
+      "energy_consumption": {
+        "average_consumption": 17.5
+      },
+      "charging_voltage": 400
+    },
+    {
+      "id": "8bbe4e30-04cf-4f7b-9952-0e9211c025a2",
+      "brand": "Volvo",
+      "vehicle_type": "car",
+      "type": "bev",
+      "brand_id": "2e55ea02-c829-4256-94fd-ffc971a1dd8e",
+      "model": "EX30",
+      "release_year": 2023,
+      "variant": "Single Motor ER Ultra",
+      "usable_battery_size": 64.0,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 22.0,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.0,
+          "16": 11.0,
+          "22": 22.0,
+          "43": 22.0
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 153.0,
         "charging_curve": [
           {
             "percentage": 0,
