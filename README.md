@@ -1,6 +1,7 @@
 # Open EV Data
 
 [![Ruby Tests](https://github.com/KilowattApp/open-ev-data/actions/workflows/test.yml/badge.svg)](https://github.com/KilowattApp/open-ev-data/actions/workflows/test.yml)
+[![Sponsor](https://img.shields.io/github/sponsors/KilowattApp?label=Sponsor&logo=GitHub)](https://github.com/sponsors/KilowattApp)
 
 Open Dataset of Electric Vehicles and their specs.
 
