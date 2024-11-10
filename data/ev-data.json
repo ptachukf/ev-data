@@ -18067,24 +18067,24 @@
         "max_power": 100.0,
         "charging_curve": [
           {
-            "percentage": 100,
-            "power": 0.0
-          },
-          {
-            "percentage": 175,
-            "power": 1.0
-          },
-          {
-            "percentage": 183,
-            "power": 12.0
-          },
-          {
-            "percentage": 120,
-            "power": 24.0
-          },
-          {
-            "percentage": 101,
+            "percentage": 0,
             "power": 100.0
+          },
+          {
+            "percentage": 1,
+            "power": 175.0
+          },
+          {
+            "percentage": 12,
+            "power": 183.0
+          },
+          {
+            "percentage": 24,
+            "power": 120.0
+          },
+          {
+            "percentage": 100,
+            "power": 101.0
           }
         ],
         "is_default_charging_curve": false
