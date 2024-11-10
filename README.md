@@ -1,5 +1,7 @@
 # Open EV Data
 
+[![Ruby Tests](https://github.com/KilowattApp/open-ev-data/actions/workflows/test.yml/badge.svg)](https://github.com/KilowattApp/open-ev-data/actions/workflows/test.yml)
+
 Open Dataset of Electric Vehicles and their specs.
 
 In contrast to ICE cars, electric vehicles have very different behavious in
@@ -89,3 +91,10 @@ Your changes should new appear in `data/ev-data.json`.
 1) `git commit -m "ADD charging curve of Aiways U5"` (add a meaningful change
    message)
 2) `git push` (push to master is fine)
+
+### Testing your updates
+
+To do a simple validation of your resulting JSON data use this:
+
+`ruby scripts/test/validators/ev_data_test.rb`
+
