@@ -30,6 +30,7 @@ data if you need it!
 * Variant: Bigger battery, optional faster on-board charger etc.
 * Usable Battery Size: in kWh
 * Average Energy Consumption: in kWh/100km
+* Voltage architecture: 400v or 800v charging
 * AC Charger: Details about the on-board charger.
   * Usable Phases: No. of usable phases for AC charging. Allowed values: 1,2,3
   * Ports: Allowed values: `type1`, `type2`
