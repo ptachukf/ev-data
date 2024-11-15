@@ -60,7 +60,7 @@ project! Feel free to open a PR to contribute!
 
 ### The full walkthrough
 
-![CLI Preview](sources/cli-preview.gif)
+![CLI Preview](docs/assets/images/cli-preview.gif)
 
 * Look up as much data as you can find about the model or model variant of the vehicle you want to add
 * Clone this repository

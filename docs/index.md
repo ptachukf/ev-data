@@ -19,7 +19,7 @@ The dataset (`data/ev-data.json`) can be freely integrated into ANY application 
 
 We welcome contributions! Here's how to add a new vehicle:
 
-![CLI Preview](../sources/cli-preview.gif)
+![CLI Preview](assets/images/cli-preview.gif)
 
 1. Clone the repository
 2. Install Ruby dependencies: `bundle install`
