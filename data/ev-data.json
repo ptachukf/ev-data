@@ -20718,6 +20718,271 @@
         "is_default_charging_curve": true
       },
       "charging_voltage": 400
+    },
+    {
+      "id": "93c552f1-ed23-463a-85b8-5503a2208ea2",
+      "type": "bev",
+      "brand": "BMW",
+      "brand_id": "0742668c-bf59-4191-890e-2b0883508808",
+      "model": "i5",
+      "vehicle_type": "car",
+      "variant": "eDrive40 Touring",
+      "release_year": 2024,
+      "usable_battery_size": 81.2,
+      "energy_consumption": {
+        "average_consumption": 17.8
+      },
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11.0,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.0,
+          "16": 11.0,
+          "22": 11.0,
+          "43": 11.0
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 206.0,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 195.7
+          },
+          {
+            "percentage": 75,
+            "power": 206.0
+          },
+          {
+            "percentage": 100,
+            "power": 11.0
+          }
+        ],
+        "is_default_charging_curve": true
+      },
+      "charging_voltage": 400
+    },
+    {
+      "id": "6b854807-1f8b-47e8-a5c0-01bf415ab055",
+      "type": "bev",
+      "brand": "BMW",
+      "brand_id": "0742668c-bf59-4191-890e-2b0883508808",
+      "model": "i5",
+      "vehicle_type": "car",
+      "variant": "M60 xDrive Sedan",
+      "release_year": 2023,
+      "usable_battery_size": 81.2,
+      "energy_consumption": {
+        "average_consumption": 19.3
+      },
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11.0,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.0,
+          "16": 11.0,
+          "22": 11.0,
+          "43": 11.0
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 206.0,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 195.7
+          },
+          {
+            "percentage": 75,
+            "power": 206.0
+          },
+          {
+            "percentage": 100,
+            "power": 11.0
+          }
+        ],
+        "is_default_charging_curve": true
+      },
+      "charging_voltage": 400
+    },
+    {
+      "id": "513f414c-ab8c-446f-93b1-b386f9002d0e",
+      "type": "bev",
+      "brand": "BMW",
+      "brand_id": "0742668c-bf59-4191-890e-2b0883508808",
+      "model": "i5",
+      "vehicle_type": "car",
+      "variant": "M60 xDrive Sedan",
+      "release_year": 2023,
+      "usable_battery_size": 81.2,
+      "energy_consumption": {
+        "average_consumption": 19.3
+      },
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11.0,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.0,
+          "16": 11.0,
+          "22": 11.0,
+          "43": 11.0
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 206.0,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 195.7
+          },
+          {
+            "percentage": 75,
+            "power": 206.0
+          },
+          {
+            "percentage": 100,
+            "power": 11.0
+          }
+        ],
+        "is_default_charging_curve": true
+      },
+      "charging_voltage": 400
+    },
+    {
+      "id": "874fde81-5e0c-40b7-ae8e-b718c02d1cb3",
+      "type": "bev",
+      "brand": "BMW",
+      "brand_id": "0742668c-bf59-4191-890e-2b0883508808",
+      "model": "i5",
+      "vehicle_type": "car",
+      "variant": "M60 xDrive Touring",
+      "release_year": 2024,
+      "usable_battery_size": 81.2,
+      "energy_consumption": {
+        "average_consumption": 19.6
+      },
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11.0,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.0,
+          "16": 11.0,
+          "22": 11.0,
+          "43": 11.0
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 206.0,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 195.7
+          },
+          {
+            "percentage": 75,
+            "power": 206.0
+          },
+          {
+            "percentage": 100,
+            "power": 11.0
+          }
+        ],
+        "is_default_charging_curve": true
+      },
+      "charging_voltage": 400
+    },
+    {
+      "id": "344c6f18-a465-4e7e-ae9c-351fb4bfaa24",
+      "type": "bev",
+      "brand": "BMW",
+      "brand_id": "0742668c-bf59-4191-890e-2b0883508808",
+      "model": "i5",
+      "vehicle_type": "car",
+      "variant": "xDrive40 Sedan",
+      "release_year": 2024,
+      "usable_battery_size": 81.2,
+      "energy_consumption": {
+        "average_consumption": 17.8
+      },
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11.0,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.0,
+          "16": 11.0,
+          "22": 11.0,
+          "43": 11.0
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 206.0,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 195.7
+          },
+          {
+            "percentage": 75,
+            "power": 206.0
+          },
+          {
+            "percentage": 100,
+            "power": 11.0
+          }
+        ],
+        "is_default_charging_curve": true
+      },
+      "charging_voltage": 400
     }
   ],
   "brands": [
