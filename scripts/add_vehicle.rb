@@ -191,26 +191,51 @@ class VehicleCreator
     charging_data = {}
 
     # AC Charging
-    charging_data["ac_charger"] = {
-      "usable_phases" => @prompt.select("Select AC phases:", [1, 2, 3]),
-      "ports" => @prompt.multi_select("Select AC ports:", ["type1", "type2"]),
-      "max_power" => @prompt.ask("Enter max AC power (kW):", convert: :float) do |q|
-        q.validate { |v| v.to_f > 0 }
+    loop do
+      ac_ports = @prompt.multi_select("Select AC ports (at least one required):", ["type1", "type2"])
+      if ac_ports.empty?
+        puts "❌ Please select at least one AC port"
+        next
       end
-    }
+      
+      charging_data["ac_charger"] = {
+        "usable_phases" => @prompt.select("Select AC phases:", [1, 2, 3]),
+        "ports" => ac_ports,
+        "max_power" => @prompt.ask("Enter max AC power (kW):", convert: :float) do |q|
+          q.validate { |v| v.to_f > 0 }
+        end
+      }
+      break
+    end
     
     # Add power_per_charging_point based on max_power
     charging_data["ac_charger"]["power_per_charging_point"] = generate_power_per_charging_point(charging_data["ac_charger"]["max_power"])
 
     # DC Charging
     if @prompt.yes?("Does this vehicle support DC charging?")
-      charging_data["dc_charger"] = {
-        "ports" => @prompt.multi_select("Select DC ports:", ["ccs", "chademo", "tesla_suc", "tesla_ccs"]),
-        "max_power" => @prompt.ask("Enter max DC power (kW):", convert: :float) do |q|
-          q.validate { |v| v.to_f > 0 }
-        end,
-        "is_default_charging_curve" => true
-      }
+      dc_max_power = @prompt.ask("Enter max DC power (kW):", convert: :float) do |q|
+        q.validate { |v| v.to_f > 0 }
+      end
+
+      loop do
+        dc_ports = @prompt.multi_select("Select DC ports (at least one required):", ["ccs", "chademo", "tesla_suc", "tesla_ccs"])
+        if dc_ports.empty?
+          puts "❌ Please select at least one DC port"
+          next
+        end
+
+        charging_data["dc_charger"] = {
+          "ports" => dc_ports,
+          "max_power" => dc_max_power,
+          "charging_curve" => [
+            { "percentage" => 0, "power" => dc_max_power * 0.95 },
+            { "percentage" => 75, "power" => dc_max_power },
+            { "percentage" => 100, "power" => charging_data["ac_charger"]["max_power"] }
+          ],
+          "is_default_charging_curve" => true
+        }
+        break
+      end
     else
       charging_data["dc_charger"] = nil
     end
