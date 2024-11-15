@@ -10,7 +10,7 @@ class VehicleCreator
 
   def initialize
     @prompt = TTY::Prompt.new
-    @data_file = File.join(File.dirname(__FILE__), '../data/ev-data.json')
+    @data_file = File.join(File.dirname(__FILE__), 'data/ev-data.json')
     @json_data = JSON.parse(File.read(@data_file))
     @existing_brands = @json_data["data"].map { |v| v["brand"] }.uniq.sort
     @existing_models = @json_data["data"].map { |v| "#{v["brand"]} #{v["model"]}" }.uniq.sort

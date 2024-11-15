@@ -16,14 +16,11 @@ jobs:
     - name: Set up Ruby
       uses: ruby/setup-ruby@v1
       with:
-        ruby-version: '3.0' # Adjust this to match your Ruby version
-        bundler-cache: true # This will cache your gem dependencies
-        working-directory: scripts
+        ruby-version: '3.0'
+        bundler-cache: true
 
     - name: Install dependencies
-      run: |
-        cd scripts
-        bundle install
+      run: bundle install
 
     - name: Run tests
-      run: ruby scripts/test/validators/ev_data_test.rb
+      run: ruby test/validators/ev_data_test.rb
