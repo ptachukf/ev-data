@@ -8,3 +8,4 @@ gem "pry"
 gem "pry-byebug"
 gem "dotenv"
 gem "minitest"
+gem 'tty-prompt'
