@@ -3,8 +3,6 @@ layout: default
 title: Home
 ---
 
-# Open EV Data
-
 Open Dataset of Electric Vehicles and their specs.
 
 ## Overview
