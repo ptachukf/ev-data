@@ -84,10 +84,10 @@ This dataset is released under the MIT License with Attribution Requirement. Thi
 
 ### Attribution Requirements
 
-When using this dataset in your project, you must include a clear and visible attribution to "Open EV Data (https://github.com/KilowattApp/open-ev-data)" in one of the following locations:
-- About page or section
-- Documentation
-- README file
-- Other appropriate location where credits are typically displayed
+When using this dataset in your project, you must include a clear and visible attribution to "[Open EV Data](https://github.com/KilowattApp/open-ev-data)" in one of the following locations:
+
+* About page or section
+* Documentation
+* README file
 
 See the [LICENSE](LICENSE) file for the complete terms.
