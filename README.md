@@ -14,15 +14,12 @@ application under the terms of our [license](#license). Attribution is required.
 
 This data is used for [Kilowatt – Electric Car Timer](https://apps.apple.com/us/app/kilowatt-electric-car-timer/id1502312657?itsct=apps_box_link&itscg=30200) app available on the Apple App Store.
 
-This project started as a fork of the side project of the charging price and tariff comparison platform
-[Chargeprice](https://www.chargeprice.app) who stopped maintaining this project.
-
 ## Available Data
 
 At the moment mostly charging related data is available. Feel free to add more
 data if you need it!
 
-[You can also search through our data set!](https://kilowattapp.github.io/search).
+[You can also search through our data set!](https://kilowattapp.github.io/open-ev-data/search).
 
 * ID: Random UUID
 * Brand
@@ -60,7 +57,7 @@ project! Feel free to open a PR to contribute!
 
 ### Documentation
 
-For detailed documentation, please visit our [Open EV Data Website](https://kilowattapp.github.io/).
+For detailed documentation, please visit our [Open EV Data Website](https://kilowattapp.github.io/open-ev-data).
 
 ## License
 
