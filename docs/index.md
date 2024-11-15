@@ -1,0 +1,39 @@
+---
+layout: default
+title: Home
+---
+
+# Open EV Data
+
+Open Dataset of Electric Vehicles and their specs.
+
+## Overview
+
+In contrast to ICE cars, electric vehicles have very different behaviors in terms of charging and charging speed. Having reliable data about a car is key for developing EV-related applications.
+
+## Quick Start
+
+The dataset (`data/ev-data.json`) can be freely integrated into ANY application under the terms of our [license](https://github.com/KilowattApp/open-ev-data#license). Attribution is required.
+
+## Contributing
+
+We welcome contributions! Here's how to add a new vehicle:
+
+![CLI Preview](../sources/cli-preview.gif)
+
+1. Clone the repository
+2. Install Ruby dependencies: `bundle install`
+3. Run the script: `ruby add_vehicle.rb`
+4. Create a pull request with your changes
+
+## Data Structure
+
+The dataset includes:
+
+* Vehicle identification (Brand, Model, Release Year)
+* Battery specifications
+* Charging capabilities (AC/DC)
+* Charging curves
+* Energy consumption data
+
+[View on GitHub](https://github.com/KilowattApp/open-ev-data)
