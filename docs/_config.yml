@@ -1,6 +1,7 @@
 # Site settings
 title: Open EV Data
 description: Open Dataset of Electric Vehicles and their specs
+baseurl: ""
 
 # GitHub metadata
 github:
