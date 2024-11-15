@@ -21,10 +21,23 @@ We welcome contributions! Here's how to add a new vehicle:
 
 ![CLI Preview](assets/images/cli-preview.gif)
 
-1. Clone the repository
-2. Install Ruby dependencies: `bundle install`
-3. Run the script: `ruby add_vehicle.rb`
-4. Create a pull request with your changes
+### The full walkthrough
+
+* Look up as much data as you can find about the model or model variant of the vehicle you want to add
+* Clone this repository
+* Make sure you have Ruby version 3 or higher installed
+* Install the dependencies: `bundle install`
+* Create a git branch for your update: `git checkout -b adding-my-missing-car-model`
+* Run the `add_vehicle.rb` script and answer the questions about the model you are adding
+* Once you've added the missing data run the tests to validate: `ruby scripts/test/validators/ev_data_test.rb`
+* Commit and push your changes: `git commit -am "my JSON updates"`
+* Finally create a pull request with your updated JSON data
+
+### TLDR
+
+* Install the dependencies: `bundle install`
+* Run the `add_vehicle.rb` script and answer the questions about the model you are adding
+* Create a pull request with your updated JSON data
 
 ## Data Structure
 
