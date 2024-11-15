@@ -10,11 +10,11 @@ terms of charging and charging speed. Hence having reliable data about a car is
 the key for developing EV-related applications.
 
 This dataset (`data/ev-data.json`) can be freely integrated into ANY
-application. Mentioning Open EV Data as a source is appreciated!
+application under the terms of our [license](#license). Attribution is required.
 
 This data is used for [Kilowatt – Electric Car Timer](https://apps.apple.com/us/app/kilowatt-electric-car-timer/id1502312657?itsct=apps_box_link&itscg=30200) app available on the Apple App Store.
 
-It's a fork of the side project of the charging price and tariff comparison platform
+This project started as a fork of the side project of the charging price and tariff comparison platform
 [Chargeprice](https://www.chargeprice.app) who stopped maintaining this project.
 
 ## Available Data
@@ -51,57 +51,43 @@ data if you need it!
 
 ## Change Requests
 
-Please file an issue if you have a change request or reach out to
-hello@kilowattcharging.com
+Please file an issue if you have a change request.
 
 ## Contributing
 
-The data is managed by Kilowatt via the Contentful CMS and is regularly
-updated. However we are always looking for people who want to contribute to the
-project! Feel free to contact hello@kilowattcharging.com in this case!
+We are always looking for people who want to contribute to the
+project! Feel free to open a PR to contribute!
 
 ## Updating the data
-### For contributors with Contentful access
 
-After you have **published** the data on Contentful, Open EV Data needs to get
-the changes as well. 
+### The full walkthrough
 
-Follow these steps:
+* Look up as much data as you can find about the model or model variant of the vehicle you want to add
+* Clone this repository
+* Make sure you have Ruby version 3 or higher installed
+* Install the dependencies: `bundle install`
+* Create a git branch for your update: `git checkout -b adding-my-missing-car-model`
+* Run the `add_vehicle.rb` script and answer the questions about the model you are adding
+* Once you've added the missing data run the tests to validate: `ruby scripts/test/validators/ev_data_test.rb`
+* Commit and push your changes: `git commit -am "my JSON updates"`
+* Finally create a pull request with your updated JSON data
 
-### Preconditions
+### TLDR
 
-* Have Ruby installed
-* Have this project checked out
-* Have contentful credentials available and stored in a `scripts/.env` file:
+* Install the dependencies: `bundle install`
+* Run the `add_vehicle.rb` script and answer the questions about the model you are adding
+* Create a pull request with your updated JSON data
 
-```
-CONTENTFUL_ACCESS_TOKEN=<token>
-CONTENTFUL_SPACE_ID=<space-id>
- ```
+## License
 
-### Running the script
+This dataset is released under the MIT License with Attribution Requirement. This means you can freely use this data in your projects, but you must include attribution to Open EV Data.
 
-1) `cd scripts`
-2) Make sure bundler (`bundle -v`) is installed. If not: `gem install bundler`
-3) Install dependencies: `bundle install`
-4) `ruby update_data.rb`
+### Attribution Requirements
 
-Your changes should new appear in `data/ev-data.json`.
+When using this dataset in your project, you must include a clear and visible attribution to "Open EV Data (https://github.com/KilowattApp/open-ev-data)" in one of the following locations:
+- About page or section
+- Documentation
+- README file
+- Other appropriate location where credits are typically displayed
 
-### Pushing the changes
-
-1) `git commit -m "ADD charging curve of Aiways U5"` (add a meaningful change
-   message)
-2) `git push` (push to master is fine)
-
-## Updating the data
-### For contributors without Contentful access
-
-*Simply create a pull request with your updated JSON data.*
-
-
-## Testing your updates
-
-To do a simple validation of your resulting JSON data use this:
-
-`ruby scripts/test/validators/ev_data_test.rb`
+See the [LICENSE](LICENSE) file for the complete terms.
