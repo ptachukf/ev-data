@@ -61,6 +61,7 @@ updated. However we are always looking for people who want to contribute to the
 project! Feel free to contact hello@kilowattcharging.com in this case!
 
 ## Updating the data
+### For contributors with Contentful access
 
 After you have **published** the data on Contentful, Open EV Data needs to get
 the changes as well. 
@@ -93,9 +94,14 @@ Your changes should new appear in `data/ev-data.json`.
    message)
 2) `git push` (push to master is fine)
 
-### Testing your updates
+## Updating the data
+### For contributors without Contentful access
+
+*Simply create a pull request with your updated JSON data.*
+
+
+## Testing your updates
 
 To do a simple validation of your resulting JSON data use this:
 
 `ruby scripts/test/validators/ev_data_test.rb`
-
