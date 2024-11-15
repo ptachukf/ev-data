@@ -22,6 +22,8 @@ This project started as a fork of the side project of the charging price and tar
 At the moment mostly charging related data is available. Feel free to add more
 data if you need it!
 
+[You can also search through our data set!](https://kilowattapp.github.io/search).
+
 * ID: Random UUID
 * Brand
 * Vehicle Type (car, motorbike)
@@ -58,7 +60,7 @@ project! Feel free to open a PR to contribute!
 
 ### Documentation
 
-For detailed documentation, please visit our [GitHub Pages site](https://kilowattapp.github.io/open-ev-data/).
+For detailed documentation, please visit our [Open EV Data Website](https://kilowattapp.github.io/).
 
 ## License
 

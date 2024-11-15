@@ -1,7 +1,6 @@
 # Site settings
 title: Open EV Data
 description: Open Dataset of Electric Vehicles and their specs
-baseurl: "/open-ev-data"  # the subpath of your site, e.g. /blog
 
 # GitHub metadata
 github:
