@@ -47,4 +47,4 @@ The dataset includes:
 * Charging curves
 * Energy consumption data
 
-[View on GitHub](https://github.com/KilowattApp/open-ev-data)
+[View on GitHub]({{ site.github.repository_url }})

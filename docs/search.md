@@ -89,7 +89,6 @@ document.addEventListener('DOMContentLoaded', async () => {
                 const matchesSearch = car.brand.toLowerCase().includes(query) ||
                     car.model.toLowerCase().includes(query) ||
                     (car.variant || '').toLowerCase().includes(query);
-                
                 return matchesSearch && matchesType;
             });
         }
@@ -97,7 +96,6 @@ document.addEventListener('DOMContentLoaded', async () => {
         function displayResults(results) {
             const sortedResults = sortResults(results, sortSelect.value);
             resultCount.textContent = `Found ${results.length} vehicle${results.length === 1 ? '' : 's'}`;
-            
             if (results.length === 0) {
                 resultsDiv.innerHTML = '<div class="no-results">No matches found. Try adjusting your search or filters.</div>';
                 return;
@@ -398,7 +396,6 @@ select {
         flex-direction: column;
         gap: 1rem;
     }
-    
     .filter-group {
         width: 100%;
         justify-content: space-between;
