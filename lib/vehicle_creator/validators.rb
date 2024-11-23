@@ -122,4 +122,27 @@ class Validators
         power_points.values.all? { |power| valid_charging_power?(power) }
     end
   end
+
+  class ChargingValidator
+    def self.validate_charging_details(details)
+      errors = []
+      
+      # Validate AC charger (required)
+      if details["ac_charger"]
+        errors << "AC ports cannot be empty" if details["ac_charger"]["ports"].empty?
+        errors << "AC power must be positive" unless details["ac_charger"]["max_power"].positive?
+        errors << "AC phases must be between 1 and 3" unless (1..3).include?(details["ac_charger"]["usable_phases"])
+      else
+        errors << "AC charger details are required"
+      end
+
+      # Validate DC charger (optional)
+      if details["dc_charger"]
+        errors << "DC ports cannot be empty" if details["dc_charger"]["ports"].empty?
+        errors << "DC power must be positive" unless details["dc_charger"]["max_power"].positive?
+      end
+
+      errors
+    end
+  end
 end

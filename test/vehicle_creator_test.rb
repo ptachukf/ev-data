@@ -1,9 +1,4 @@
-require 'minitest/autorun'
-require 'json'
-require 'fileutils'
-require 'securerandom'
-require_relative '../lib/vehicle_creator/data_store'
-require_relative '../lib/vehicle_creator/charging_details'
+require_relative 'test_helper'
 
 class DataStoreTest < Minitest::Test
   def setup

@@ -1,5 +1,4 @@
-require 'minitest/autorun'
-require 'json'
+require_relative '../test_helper'
 
 class EVDataTest < Minitest::Test
   def setup
@@ -26,9 +25,10 @@ class EVDataTest < Minitest::Test
       # AC charger fields
       assert_ac_charger_fields(vehicle["ac_charger"])
       
-      # DC charger fields (can be null)
+      # DC charger fields (can be null or have ports)
       if vehicle["dc_charger"]
         assert_dc_charger_fields(vehicle["dc_charger"])
+        assert_charging_ports(vehicle)
       end
       
       # Energy consumption
@@ -56,6 +56,9 @@ class EVDataTest < Minitest::Test
     assert_equal "bev", vehicle["type"], "Type should be 'bev'"
     assert vehicle["usable_battery_size"].is_a?(Numeric), "Battery size should be numeric"
     assert vehicle["charging_voltage"].is_a?(Numeric), "Charging voltage should be numeric"
+
+    # Add ports validation
+    assert_charging_ports(vehicle)
   end
 
   def assert_ac_charger_fields(ac_charger)
@@ -92,6 +95,26 @@ class EVDataTest < Minitest::Test
   def assert_energy_consumption_fields(consumption)
     assert consumption.key?("average_consumption"), "Missing average consumption"
     assert consumption["average_consumption"].is_a?(Numeric), "Average consumption should be numeric"
+  end
+
+  def assert_charging_ports(vehicle)
+    # AC charger must have ports
+    if vehicle["ac_charger"]
+      assert vehicle["ac_charger"]["ports"].is_a?(Array), "AC ports must be an array"
+      assert !vehicle["ac_charger"]["ports"].empty?, "AC ports cannot be empty"
+    end
+
+    # DC charger must have ports if it exists and isn't null
+    if vehicle["dc_charger"] && !vehicle["dc_charger"].nil?
+      assert vehicle["dc_charger"]["ports"].is_a?(Array), "DC ports must be an array"
+      assert !vehicle["dc_charger"]["ports"].empty?, "DC ports cannot be empty"
+      
+      # If we have a charging curve, we must have ports
+      if vehicle["dc_charger"]["charging_curve"]
+        assert !vehicle["dc_charger"]["ports"].empty?, 
+          "DC ports cannot be empty when charging curve exists"
+      end
+    end
   end
 
   def find_project_root

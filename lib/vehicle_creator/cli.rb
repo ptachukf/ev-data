@@ -100,33 +100,70 @@ class CLI
   end
 
   def collect_charging_details
-    # AC charging
-    ac_ports = @prompt.multi_select("Select AC ports (at least one required):", ChargingDetails::AC_PORTS)
-    ac_phases = @prompt.select("Select AC phases:", [1, 2, 3])
-    ac_power = @prompt.ask("Enter max AC power (kW):",
-      convert: :float,
-      validate: ->(v) { v.to_f > 0 })
+    details = {}
+    
+    # Collect AC charging details
+    ac_details = collect_ac_details
+    return ac_details if [EXIT_OPTION, BACK_OPTION].include?(ac_details)
+    details["ac_charger"] = ac_details
 
-    # DC charging
-    has_dc = @prompt.yes?("Does this vehicle support DC charging?")
-    dc_charger = nil
-
-    if has_dc
-      dc_power = @prompt.ask("Enter max DC power (kW):",
-        convert: :float,
-        validate: ->(v) { v.to_f > 0 })
-      dc_ports = @prompt.multi_select("Select DC ports (at least one required):", ChargingDetails::DC_PORTS)
-      dc_charger = ChargingDetails.create_dc_charger(dc_ports, dc_power)
+    # Collect DC charging details if applicable
+    if @prompt.yes?("Does this vehicle support DC charging?")
+      dc_details = collect_dc_details
+      return dc_details if [EXIT_OPTION, BACK_OPTION].include?(dc_details)
+      details["dc_charger"] = dc_details
     end
 
-    # Charging voltage
-    voltage = @prompt.select("Select charging voltage:", ChargingDetails::CHARGING_VOLTAGES)
+    # Validate the collected details
+    errors = Validators::ChargingValidator.validate_charging_details(details)
+    if errors.any?
+      errors.each { |error| @prompt.warn(error) }
+      return nil
+    end
 
+    details
+  end
+
+  private
+
+  def collect_ac_details
     {
-      "ac_charger" => ChargingDetails.create_ac_charger(ac_ports, ac_phases, ac_power),
-      "dc_charger" => dc_charger,
-      "charging_voltage" => voltage
+      "ports" => collect_ac_ports,
+      "usable_phases" => collect_ac_phases,
+      "max_power" => collect_ac_power,
+      "power_per_charging_point" => ChargingDetails.calculate_power_per_point(ac_power)
     }
+  end
+
+  def collect_dc_details
+    {
+      "ports" => collect_dc_ports,
+      "max_power" => collect_dc_power
+    }
+  end
+
+  def collect_ac_ports
+    @prompt.multi_select("Select AC ports (at least one required):", ChargingDetails::AC_PORTS)
+  end
+
+  def collect_ac_phases
+    @prompt.select("Select AC phases:", [1, 2, 3])
+  end
+
+  def collect_ac_power
+    @prompt.ask("Enter max AC power (kW):",
+      convert: :float,
+      validate: ->(v) { v.to_f > 0 })
+  end
+
+  def collect_dc_ports
+    @prompt.multi_select("Select DC ports (at least one required):", ChargingDetails::DC_PORTS)
+  end
+
+  def collect_dc_power
+    @prompt.ask("Enter max DC power (kW):",
+      convert: :float,
+      validate: ->(v) { v.to_f > 0 })
   end
 
   def collect_charging_curve(max_power, ac_power)
@@ -184,5 +221,36 @@ class CLI
 
   def start_over?
     @prompt.yes?("Would you like to start over?")
+  end
+
+  def display_and_confirm_vehicle(data)
+    puts "\nPlease confirm the vehicle details:"
+    puts "-----------------------------------"
+    puts "Brand: #{data['brand']}"
+    puts "Model: #{data['model']}"
+    puts "Type: #{data['vehicle_type']}"
+    puts "Variant: #{data['variant']}"
+    puts "Release Year: #{data['release_year']}"
+    puts "Battery Size: #{data['usable_battery_size']} kWh"
+    puts "Energy Consumption: #{data['energy_consumption']['average_consumption']} kWh/100km"
+    puts "\nAC Charging:"
+    puts "- Ports: #{data['ac_charger']['ports'].join(', ')}"
+    puts "- Phases: #{data['ac_charger']['usable_phases']}"
+    puts "- Max Power: #{data['ac_charger']['max_power']} kW"
+    
+    if data['dc_charger']
+      puts "\nDC Charging:"
+      puts "- Ports: #{data['dc_charger']['ports'].join(', ')}"
+      puts "- Max Power: #{data['dc_charger']['max_power']} kW"
+      puts "- Charging Curve:"
+      data['dc_charger']['charging_curve'].each do |point|
+        puts "  #{point['percentage']}%: #{point['power']} kW"
+      end
+    end
+
+    puts "\nCharging Voltage: #{data['charging_voltage']} V"
+    puts "-----------------------------------"
+
+    @prompt.yes?("Would you like to save this vehicle?")
   end
 end

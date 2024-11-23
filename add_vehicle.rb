@@ -42,8 +42,13 @@ class VehicleCreator
 
       # Collect details
       if @cli.collect_and_add_details(vehicle)
-        @data_store.save_vehicle(vehicle.data)
-        break unless @cli.add_another?
+        if @cli.display_and_confirm_vehicle(vehicle.data)
+          @data_store.save_vehicle(vehicle.data)
+          break unless @cli.add_another?
+        else
+          next if @cli.start_over?
+          break
+        end
       else
         next if @cli.start_over?
         break
