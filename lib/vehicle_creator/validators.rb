@@ -127,22 +127,59 @@ class Validators
     def self.validate_charging_details(details)
       errors = []
       
-      # Validate AC charger (required)
+      # AC charging validation
       if details["ac_charger"]
-        errors << "AC ports cannot be empty" if details["ac_charger"]["ports"].empty?
-        errors << "AC power must be positive" unless details["ac_charger"]["max_power"].positive?
-        errors << "AC phases must be between 1 and 3" unless (1..3).include?(details["ac_charger"]["usable_phases"])
+        errors.concat(validate_ac_charging(details["ac_charger"]))
       else
         errors << "AC charger details are required"
       end
 
-      # Validate DC charger (optional)
+      # DC charging validation (optional)
       if details["dc_charger"]
-        errors << "DC ports cannot be empty" if details["dc_charger"]["ports"].empty?
-        errors << "DC power must be positive" unless details["dc_charger"]["max_power"].positive?
+        errors.concat(validate_dc_charging(details["dc_charger"]))
       end
 
       errors
+    end
+
+    private
+
+    def self.validate_ac_charging(ac_charger)
+      errors = []
+      
+      # Validate ports array exists (but can be empty)
+      unless ac_charger["ports"].is_a?(Array)
+        errors << "AC ports must be an array"
+      end
+
+      # Validate other AC charging fields
+      errors << "AC power must be positive" unless ac_charger["max_power"].positive?
+      errors << "AC phases must be between 1 and 3" unless (1..3).include?(ac_charger["usable_phases"])
+
+      errors
+    end
+
+    def self.validate_dc_charging(dc_charger)
+      errors = []
+      
+      # Validate ports
+      unless dc_charger["ports"].is_a?(Array)
+        errors << "DC ports must be an array"
+        return errors
+      end
+
+      errors << "DC ports cannot be empty when DC charging exists" if dc_charger["ports"].empty?
+      errors << "DC power must be positive" unless dc_charger["max_power"].positive?
+
+      if dc_charger["charging_curve"]
+        errors.concat(validate_charging_curve(dc_charger["charging_curve"], dc_charger["max_power"]))
+      end
+
+      errors
+    end
+
+    def self.validate_charging_curve(curve, max_power)
+      # ... existing charging curve validation ...
     end
   end
 end

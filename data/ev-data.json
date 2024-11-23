@@ -3148,9 +3148,7 @@
       "usable_battery_size": 5.5,
       "ac_charger": {
         "usable_phases": 1,
-        "ports": [
-          "type2"
-        ],
+        "ports": [],
         "max_power": 2.3,
         "power_per_charging_point": {
           "2.0": 2.0,
