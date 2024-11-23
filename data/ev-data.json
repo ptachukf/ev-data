@@ -3139,7 +3139,7 @@
     {
       "id": "e39a4268-ddae-a5d5-9e0b-780dd0b3e2d9",
       "brand": "Citroën",
-      "vehicle_type": "car",
+      "vehicle_type": "quadricycle",
       "type": "bev",
       "brand_id": "3b3fc191-f4c3-45da-bc3b-21efbe1b264f",
       "model": "Ami",
@@ -18923,7 +18923,7 @@
       "model": "XC40",
       "release_year": 2020,
       "variant": "P8 Recharge",
-      "usable_battery_size": 75.0,
+      "usable_battery_size": 78.0,
       "ac_charger": {
         "usable_phases": 3,
         "ports": [
@@ -20140,7 +20140,7 @@
     {
       "id": "975b064b-626e-4318-b60c-3ce0729743fd",
       "brand": "e.GO Mobile",
-      "vehicle_type": "car",
+      "vehicle_type": "quadricycle",
       "type": "bev",
       "brand_id": "771bb157-23a2-4917-908c-810d241718d5",
       "model": "Life 20",
@@ -20173,7 +20173,7 @@
     {
       "id": "4f408d10-82c3-4850-ae2b-141f21d745b3",
       "brand": "e.GO Mobile",
-      "vehicle_type": "car",
+      "vehicle_type": "quadricycle",
       "type": "bev",
       "brand_id": "771bb157-23a2-4917-908c-810d241718d5",
       "model": "Life 40",
@@ -20206,7 +20206,7 @@
     {
       "id": "98aacbc9-5a97-4fe4-abcf-4f7bb2910a9f",
       "brand": "e.GO Mobile",
-      "vehicle_type": "car",
+      "vehicle_type": "quadricycle",
       "type": "bev",
       "brand_id": "771bb157-23a2-4917-908c-810d241718d5",
       "model": "Life 60",
@@ -20983,6 +20983,59 @@
         "is_default_charging_curve": true
       },
       "charging_voltage": 400
+    },
+    {
+      "id": "888ae5b2-2c49-47b0-b45f-b40a1f7b93e9",
+      "type": "bev",
+      "brand": "GWM",
+      "brand_id": "80cb3fd7-d557-4d2f-b606-e6c0c84ab5c8",
+      "model": "ORA 03",
+      "vehicle_type": "car",
+      "variant": "48 kWh",
+      "release_year": 2024,
+      "usable_battery_size": 45.4,
+      "energy_consumption": {
+        "average_consumption": 17.5
+      },
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11.0,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.0,
+          "16": 11.0,
+          "22": 11.0,
+          "43": 11.0
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 64.0,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 60.8
+          },
+          {
+            "percentage": 75,
+            "power": 64.0
+          },
+          {
+            "percentage": 100,
+            "power": 11.0
+          }
+        ],
+        "is_default_charging_curve": true
+      },
+      "charging_voltage": 400
     }
   ],
   "brands": [
@@ -21200,7 +21253,7 @@
     }
   ],
   "meta": {
-    "updated_at": "2024-06-23T15:27:36Z",
-    "overall_count": 372
+    "updated_at": "2024-11-23T14:53:26Z",
+    "overall_count": 380
   }
 }

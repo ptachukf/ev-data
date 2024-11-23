@@ -323,6 +323,13 @@ class VehicleCreator
 
   def save_vehicle(data)
     @json_data["data"] << data
+    
+    # Update meta fields
+    @json_data["meta"] = {
+      "updated_at" => Time.now.utc.strftime("%Y-%m-%dT%H:%M:%SZ"),
+      "overall_count" => @json_data["data"].size
+    }
+    
     File.write(@data_file, JSON.pretty_generate(@json_data))
   end
 
