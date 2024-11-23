@@ -59,7 +59,10 @@ class CLI
 
     # Charging curve if DC charging exists
     if charging["dc_charger"]
-      curve = collect_charging_curve(charging["dc_charger"]["max_power"])
+      curve = collect_charging_curve(
+        charging["dc_charger"]["max_power"],
+        charging["ac_charger"]["max_power"]
+      )
       return false if [EXIT_OPTION, BACK_OPTION].include?(curve)
       vehicle.add_charging_curve(curve)
     end
@@ -126,25 +129,53 @@ class CLI
     }
   end
 
-  def collect_charging_curve(max_power)
-    curve = []
-    loop do
-      percentage = @prompt.ask("Enter percentage (or 'done'/'back'/'exit'):")
-      return percentage if [EXIT_OPTION, BACK_OPTION].include?(percentage)
-      break if percentage.downcase == 'done'
+  def collect_charging_curve(max_power, ac_power)
+    use_default = @prompt.yes?("Would you like to use a default charging curve?")
+    return ChargingDetails.default_charging_curve(max_power, ac_power) if use_default
 
-      power = @prompt.ask("Enter power at #{percentage}% (or 'back'/'exit'):",
+    curve = []
+    @prompt.say("Enter charging curve points (minimum 3 points required):")
+    @prompt.say("First point must be 0%, last point must be 100%")
+    
+    loop do
+      percentage = @prompt.ask("Enter percentage (0-100, or 'done'/'back'/'exit'):",
+        convert: :integer,
+        validate: ->(v) { v.to_s.downcase == 'done' || v.to_s.downcase == 'exit' || v.to_s.downcase == 'back' || (v.is_a?(Integer) && v.between?(0, 100)) })
+      
+      return percentage if [EXIT_OPTION, BACK_OPTION].include?(percentage)
+      break if percentage.to_s.downcase == 'done' && curve.length >= 3
+
+      if percentage.to_s.downcase == 'done'
+        @prompt.warn("Minimum 3 points required. Please continue.")
+        next
+      end
+
+      # Check if percentage already exists
+      if curve.any? { |point| point["percentage"] == percentage }
+        @prompt.warn("Percentage #{percentage}% already exists. Please use a different value.")
+        next
+      end
+
+      power = @prompt.ask("Enter power at #{percentage}% (max #{max_power} kW):",
         convert: :float,
-        validate: ->(v) { v.to_s.downcase == 'exit' || v.to_s.downcase == 'back' || (v.to_f > 0 && v.to_f <= max_power) })
-      return power if [EXIT_OPTION, BACK_OPTION].include?(power)
+        validate: ->(v) { v.to_f.positive? && v.to_f <= max_power })
 
       curve << {
-        "percentage" => percentage.to_i,
+        "percentage" => percentage,
         "power" => power
       }
+
+      @prompt.say("Current curve: #{curve.map { |p| "#{p['percentage']}%: #{p['power']}kW" }.join(' → ')}")
     end
 
-    curve
+    # Validate the curve
+    unless curve.first["percentage"] == 0 && curve.last["percentage"] == 100
+      @prompt.warn("Curve must start at 0% and end at 100%. Using default curve instead.")
+      return ChargingDetails.default_charging_curve(max_power, ac_power)
+    end
+
+    # Sort by percentage to ensure correct order
+    curve.sort_by { |point| point["percentage"] }
   end
 
   def add_another?
