@@ -21036,6 +21036,112 @@
         "is_default_charging_curve": true
       },
       "charging_voltage": 400
+    },
+    {
+      "id": "89df9485-f17f-4719-94f0-00f37ee5c9e8",
+      "type": "bev",
+      "brand": "GWM",
+      "brand_id": "80cb3fd7-d557-4d2f-b606-e6c0c84ab5c8",
+      "model": "ORA 03",
+      "vehicle_type": "car",
+      "variant": "63 kWh",
+      "release_year": 2024,
+      "usable_battery_size": 59.3,
+      "energy_consumption": {
+        "average_consumption": 17.4
+      },
+      "ac_charger": {
+        "ports": [
+          "type2"
+        ],
+        "usable_phases": 3,
+        "max_power": 11.0,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.0,
+          "16": 11.0,
+          "22": 11.0,
+          "43": 11.0
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 69.0,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 65.55
+          },
+          {
+            "percentage": 75,
+            "power": 69.0
+          },
+          {
+            "percentage": 100,
+            "power": 11.0
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "charging_voltage": 400
+    },
+    {
+      "id": "d12f7a17-06f2-446b-bfac-53334b453d12",
+      "type": "bev",
+      "brand": "GWM",
+      "brand_id": "80cb3fd7-d557-4d2f-b606-e6c0c84ab5c8",
+      "model": "ORA 03",
+      "vehicle_type": "car",
+      "variant": "GT",
+      "release_year": 2024,
+      "usable_battery_size": 59.3,
+      "energy_consumption": {
+        "average_consumption": 18.2
+      },
+      "ac_charger": {
+        "ports": [
+          "type2"
+        ],
+        "usable_phases": 3,
+        "max_power": 11.0,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.0,
+          "16": 11.0,
+          "22": 11.0,
+          "43": 11.0
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 69.0,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 65.55
+          },
+          {
+            "percentage": 75,
+            "power": 69.0
+          },
+          {
+            "percentage": 100,
+            "power": 11.0
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "charging_voltage": 400
     }
   ],
   "brands": [
@@ -21253,7 +21359,7 @@
     }
   ],
   "meta": {
-    "updated_at": "2024-11-23T14:53:26Z",
-    "overall_count": 380
+    "updated_at": "2024-11-23T15:38:33Z",
+    "overall_count": 382
   }
 }
