@@ -4,6 +4,7 @@ GEM
     minitest (5.25.1)
     pastel (0.8.0)
       tty-color (~> 0.5)
+    rake (13.2.1)
     tty-color (0.6.0)
     tty-cursor (0.7.1)
     tty-prompt (0.23.1)
@@ -21,6 +22,7 @@ PLATFORMS
 
 DEPENDENCIES
   minitest
+  rake
   tty-prompt
 
 RUBY VERSION

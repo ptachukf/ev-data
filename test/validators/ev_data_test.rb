@@ -49,9 +49,9 @@ class EVDataTest < Minitest::Test
       assert vehicle.key?(field), "Vehicle missing required field: #{field}"
     end
 
-    # Update to allow both vehicle types
-    assert %w[car motorbike].include?(vehicle["vehicle_type"]), 
-      "Vehicle type should be either 'car' or 'motorbike', got: #{vehicle["vehicle_type"]}"
+    # Update to allow all three vehicle types
+    assert %w[car motorbike quadricycle].include?(vehicle["vehicle_type"]), 
+      "Vehicle type should be 'car', 'motorbike', or 'quadricycle', got: #{vehicle["vehicle_type"]}"
     
     assert_equal "bev", vehicle["type"], "Type should be 'bev'"
     assert vehicle["usable_battery_size"].is_a?(Numeric), "Battery size should be numeric"
