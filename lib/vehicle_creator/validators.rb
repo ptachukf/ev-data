@@ -1,14 +1,11 @@
 module Validators
   module ClassMethods
     def valid_brand_name?(name)
-      return false if name.nil? || name.empty?
-      name.match?(/\A[A-Za-z0-9\s\-]+\z/)
+      name.is_a?(String) && !name.empty?
     end
 
     def valid_model_name?(name)
-      return false unless name.is_a?(String)
-      return false if name.empty?
-      true
+      name.is_a?(String) && !name.empty?
     end
 
     def valid_year?(year)
@@ -132,8 +129,9 @@ module Validators
     end
   end
 
-  def self.included(base)
-    base.extend(ClassMethods)
+  # Create a singleton instance for module-level validation
+  class << self
+    include ClassMethods
   end
 
   class ChargingValidator

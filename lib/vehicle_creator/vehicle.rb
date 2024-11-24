@@ -47,6 +47,6 @@ class Vehicle
   end
 
   def add_voltage_architecture(voltage)
-    @data["voltage_architecture"] = voltage
+    @data["charging_voltage"] = voltage
   end
 end

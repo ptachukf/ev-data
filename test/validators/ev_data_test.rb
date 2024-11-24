@@ -101,7 +101,8 @@ class EVDataTest < Minitest::Test
     ]
 
     required_fields.each do |field|
-      assert vehicle.key?(field), "Vehicle missing required field: #{field}"
+      assert vehicle.key?(field), 
+        "Vehicle missing required field '#{field}' for #{vehicle['brand']} #{vehicle['model']}"
     end
 
     assert %w[car motorbike microcar].include?(vehicle["vehicle_type"]), 

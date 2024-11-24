@@ -146,7 +146,7 @@ class CLI
     puts "Release Year: #{data['release_year']}"
     puts "Battery Size: #{data['usable_battery_size']} kWh"
     puts "Energy Consumption: #{data['energy_consumption']['average_consumption']} kWh/100km"
-    puts "Voltage Architecture: #{data['voltage_architecture']} V"
+    puts "Charging Voltage: #{data['charging_voltage']} V"
     puts "\nAC Charging:"
     puts "- Ports: #{data['ac_charger']['ports'].join(', ')}"
     puts "- Phases: #{data['ac_charger']['usable_phases']}"
@@ -162,8 +162,7 @@ class CLI
       end
     end
 
-    puts "\nCharging Voltage: #{data['charging_voltage']} V"
-    puts "-----------------------------------"
+    puts "\n-----------------------------------"
 
     @prompt.yes?("Would you like to save this vehicle?")
   end
@@ -191,7 +190,7 @@ class CLI
   end
 
   def collect_ac_ports
-    if @prompt.yes?("Does this vehicle have AC charging ports?")
+    if @prompt.yes?("Does this vehicle have (type1, type2) AC charging ports?")
       @prompt.multi_select("Select AC ports:", ChargingDetails::AC_PORTS)
     else
       []
