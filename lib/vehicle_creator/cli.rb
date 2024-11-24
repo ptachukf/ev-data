@@ -267,7 +267,7 @@ class CLI
   def select_voltage_architecture(vehicle_type)
     choices = case vehicle_type
     when "microcar"
-      [230, 400]  # Microcars typically use 230V or 400V
+      [48, 400]  # Microcars typically use 48V or 400V
     else
       [400, 800]  # Cars and motorbikes use 400V or 800V
     end

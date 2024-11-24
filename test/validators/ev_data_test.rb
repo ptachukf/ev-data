@@ -114,7 +114,7 @@ class EVDataTest < Minitest::Test
     # Updated validation for charging voltage
     valid_voltages = case vehicle["vehicle_type"]
     when "microcar"
-      [230, 400]
+      [48, 400]
     else
       [400, 800]
     end

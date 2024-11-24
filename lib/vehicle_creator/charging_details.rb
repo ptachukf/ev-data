@@ -1,7 +1,7 @@
 class ChargingDetails
   AC_PORTS = ["type1", "type2"]
   DC_PORTS = ["ccs", "chademo", "tesla_suc"]
-  CHARGING_VOLTAGES = [230, 400, 800]
+  CHARGING_VOLTAGES = [48, 400, 800]
 
   def self.calculate_power_per_point(max_power)
     {

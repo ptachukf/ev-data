@@ -3165,7 +3165,7 @@
       "energy_consumption": {
         "average_consumption": 4.5
       },
-      "charging_voltage": 230
+      "charging_voltage": 48
     },
     {
       "id": "e8773876-6036-4a6c-926e-5490aae58971",
@@ -21328,7 +21328,7 @@
           "43": 2.3
         }
       },
-      "charging_voltage": 230
+      "charging_voltage": 48
     },
     {
       "id": "4f384de8-cd5a-4acf-a6db-5b9ef326c8e3",
@@ -21358,7 +21358,7 @@
           "43": 2.3
         }
       },
-      "charging_voltage": 230
+      "charging_voltage": 48
     },
     {
       "id": "ebabe01b-8935-4597-9eb6-0f022a71fd14",
@@ -21388,7 +21388,7 @@
           "43": 2.3
         }
       },
-      "charging_voltage": 230
+      "charging_voltage": 48
     }
   ],
   "brands": [
