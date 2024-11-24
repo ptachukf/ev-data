@@ -39,7 +39,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         }
 
         function search(query) {
-            return evData.filter(car => {
+            return evData.filter(car => {              
                 if (!carFilter.checked && !bikeFilter.checked && !microcarFilter.checked) {
                     return false;
                 }
