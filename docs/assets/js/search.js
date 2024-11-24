@@ -4,6 +4,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     const resultCount = document.getElementById('resultCount');
     const carFilter = document.getElementById('carFilter');
     const bikeFilter = document.getElementById('bikeFilter');
+    const microcarFilter = document.getElementById('microcarFilter');
     const sortSelect = document.getElementById('sortSelect');
     const loading = document.getElementById('loading');
 
@@ -39,13 +40,14 @@ document.addEventListener('DOMContentLoaded', async () => {
 
         function search(query) {
             return evData.filter(car => {
-                if (!carFilter.checked && !bikeFilter.checked) {
+                if (!carFilter.checked && !bikeFilter.checked && !microcarFilter.checked) {
                     return false;
                 }
 
                 const matchesType = 
                     (car.vehicle_type === 'car' && carFilter.checked) ||
-                    (car.vehicle_type === 'motorbike' && bikeFilter.checked);
+                    (car.vehicle_type === 'motorbike' && bikeFilter.checked) ||
+                    (car.vehicle_type === 'microcar' && microcarFilter.checked);
 
                 if (!query) {
                     return matchesType;
@@ -71,7 +73,11 @@ document.addEventListener('DOMContentLoaded', async () => {
                 <div class="car-card">
                     <div class="car-header">
                         <h3>${car.brand} ${car.model} ${car.variant || ''}</h3>
-                        <span class="vehicle-type">${car.vehicle_type === 'car' ? '🚗' : '🏍️'}</span>
+                        <span class="vehicle-type">${
+                            car.vehicle_type === 'car' ? '🚗' : 
+                            car.vehicle_type === 'motorbike' ? '🏍️' : 
+                            '🚐'
+                        }</span>
                     </div>
                     <div class="car-details">
                         <div class="detail-grid">
@@ -145,6 +151,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         searchInput.addEventListener('input', debounceSearch);
         carFilter.addEventListener('change', debounceSearch);
         bikeFilter.addEventListener('change', debounceSearch);
+        microcarFilter.addEventListener('change', debounceSearch);
         sortSelect.addEventListener('change', debounceSearch);
 
         updateResults();

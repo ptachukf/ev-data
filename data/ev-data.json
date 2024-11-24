@@ -3139,7 +3139,7 @@
     {
       "id": "e39a4268-ddae-a5d5-9e0b-780dd0b3e2d9",
       "brand": "Citroën",
-      "vehicle_type": "quadricycle",
+      "vehicle_type": "microcar",
       "type": "bev",
       "brand_id": "3b3fc191-f4c3-45da-bc3b-21efbe1b264f",
       "model": "Ami",
@@ -3148,7 +3148,9 @@
       "usable_battery_size": 5.5,
       "ac_charger": {
         "usable_phases": 1,
-        "ports": [],
+        "ports": [
+
+        ],
         "max_power": 2.3,
         "power_per_charging_point": {
           "2.0": 2.0,
@@ -20138,7 +20140,7 @@
     {
       "id": "975b064b-626e-4318-b60c-3ce0729743fd",
       "brand": "e.GO Mobile",
-      "vehicle_type": "quadricycle",
+      "vehicle_type": "microcar",
       "type": "bev",
       "brand_id": "771bb157-23a2-4917-908c-810d241718d5",
       "model": "Life 20",
@@ -20171,7 +20173,7 @@
     {
       "id": "4f408d10-82c3-4850-ae2b-141f21d745b3",
       "brand": "e.GO Mobile",
-      "vehicle_type": "quadricycle",
+      "vehicle_type": "microcar",
       "type": "bev",
       "brand_id": "771bb157-23a2-4917-908c-810d241718d5",
       "model": "Life 40",
@@ -20204,7 +20206,7 @@
     {
       "id": "98aacbc9-5a97-4fe4-abcf-4f7bb2910a9f",
       "brand": "e.GO Mobile",
-      "vehicle_type": "quadricycle",
+      "vehicle_type": "microcar",
       "type": "bev",
       "brand_id": "771bb157-23a2-4917-908c-810d241718d5",
       "model": "Life 60",

@@ -13,6 +13,7 @@ title: Search EV Database
         <div class="filter-group">
             <label><input type="checkbox" id="carFilter" checked> 🚗 Cars</label>
             <label><input type="checkbox" id="bikeFilter" checked> 🏍️ Motorcycles</label>
+            <label><input type="checkbox" id="microcarFilter" checked> 🚐 Microcars</label>
         </div>
         <div class="filter-group">
             <label>Sort by:

@@ -42,7 +42,7 @@ class CLI
   end
 
   def select_vehicle_type
-    choices = ["car", "motorbike", BACK_OPTION, EXIT_OPTION]
+    choices = ["car", "motorbike", "microcar", BACK_OPTION, EXIT_OPTION]
     @prompt.select("Select vehicle type:", choices)
   end
 

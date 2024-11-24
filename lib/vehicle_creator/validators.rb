@@ -70,7 +70,7 @@ class Validators
     end
 
     def valid_vehicle_type?(type)
-      ["car", "motorbike"].include?(type)
+      ["car", "motorbike", "microcar"].include?(type)
     end
 
     def valid_vehicle_data?(data)
