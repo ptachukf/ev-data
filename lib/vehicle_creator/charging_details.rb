@@ -1,9 +1,9 @@
 class ChargingDetails
   AC_PORTS = ["type1", "type2"]
-  DC_PORTS = ["ccs", "chademo", "tesla_suc", "tesla_ccs"]
-  CHARGING_VOLTAGES = [400, 800]
+  DC_PORTS = ["ccs", "chademo", "tesla_suc"]
+  CHARGING_VOLTAGES = [230, 400, 800]
 
-  def self.generate_power_per_charging_point(max_power)
+  def self.calculate_power_per_point(max_power)
     {
       "2.0" => [2.0, max_power].min,
       "2.3" => [2.3, max_power].min,
@@ -21,7 +21,7 @@ class ChargingDetails
       "ports" => ports,
       "usable_phases" => phases,
       "max_power" => max_power,
-      "power_per_charging_point" => generate_power_per_charging_point(max_power)
+      "power_per_charging_point" => calculate_power_per_point(max_power)
     }
   end
 
@@ -37,8 +37,9 @@ class ChargingDetails
   def self.default_charging_curve(max_power, ac_power)
     [
       { "percentage" => 0, "power" => max_power * 0.95 },
-      { "percentage" => 75, "power" => max_power },
-      { "percentage" => 100, "power" => ac_power }
+      { "percentage" => 50, "power" => max_power },
+      { "percentage" => 80, "power" => [max_power * 0.5, ac_power].max },
+      { "percentage" => 100, "power" => [max_power * 0.2, ac_power].max }
     ]
   end
 

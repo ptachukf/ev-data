@@ -15,9 +15,10 @@ class CLI
       choices = existing_brands + [BACK_OPTION, EXIT_OPTION]
       @prompt.select("Select brand:", choices)
     when "Add new brand"
-      @prompt.ask("Enter new brand name (or 'exit'):", 
-        validate: /\A[A-Za-z0-9\s\-]+\z/,
-        messages: { valid?: "Brand name can only contain letters, numbers, spaces, and hyphens" })
+      @prompt.ask("Enter new brand name (or 'exit'):") do |q|
+        q.validate { |input| Validators.valid_brand_name?(input) }
+        q.messages[:valid?] = "Brand name must be a non-empty string"
+      end
     else
       action
     end
@@ -33,9 +34,10 @@ class CLI
       choices = existing_models + [BACK_OPTION, EXIT_OPTION]
       @prompt.select("Select model:", choices)
     when "Add new model"
-      @prompt.ask("Enter new model name (or 'back'/'exit'):",
-        validate: /\A[A-Za-z0-9\s\-]+\z/,
-        messages: { valid?: "Model name can only contain letters, numbers, spaces, and hyphens" })
+      @prompt.ask("Enter new model name (or 'back'/'exit'):") do |q|
+        q.validate { |input| Validators.valid_model_name?(input) }
+        q.messages[:valid?] = "Model name must be a non-empty string"
+      end
     else
       action
     end
@@ -57,6 +59,11 @@ class CLI
     return false if [EXIT_OPTION, BACK_OPTION].include?(charging)
     vehicle.add_charging_details(charging)
 
+    # Voltage architecture selection - pass vehicle type
+    voltage = select_voltage_architecture(vehicle.data["vehicle_type"])
+    return false if [EXIT_OPTION, BACK_OPTION].include?(voltage)
+    vehicle.add_voltage_architecture(voltage)
+
     # Charging curve if DC charging exists
     if charging["dc_charger"]
       curve = collect_charging_curve(
@@ -71,26 +78,23 @@ class CLI
   end
 
   def collect_variant_details
-    variant = @prompt.ask("Enter variant name (or 'back'/'exit'):")
-    return variant if [EXIT_OPTION, BACK_OPTION].include?(variant)
+    variant = @prompt.ask("Enter variant name (optional):")
+    # Empty variant is fine, continue with other details
+    
+    year = @prompt.ask("Enter release year:", convert: :integer,
+      validate: ->(v) { v.to_i.between?(2010, Time.now.year + 1) })
+    return BACK_OPTION unless year
 
-    year = @prompt.ask("Enter release year (or 'back'/'exit'):",
-      convert: :integer,
-      validate: ->(v) { v.to_s.downcase == 'exit' || v.to_s.downcase == 'back' || v.to_i.between?(2010, Time.now.year + 1) })
-    return year if [EXIT_OPTION, BACK_OPTION].include?(year)
-
-    battery = @prompt.ask("Enter usable battery size (kWh) (or 'back'/'exit'):",
-      convert: :float,
+    battery = @prompt.ask("Enter usable battery size (kWh):", convert: :float,
       validate: ->(v) { v.to_f > 0 })
-    return battery if [EXIT_OPTION, BACK_OPTION].include?(battery)
+    return BACK_OPTION unless battery
 
-    consumption = @prompt.ask("Enter average consumption (kWh/100km) (or 'back'/'exit'):",
-      convert: :float,
+    consumption = @prompt.ask("Enter average consumption (kWh/100km):", convert: :float,
       validate: ->(v) { v.to_f > 0 })
-    return consumption if [EXIT_OPTION, BACK_OPTION].include?(consumption)
+    return BACK_OPTION unless consumption
 
     {
-      "variant" => variant,
+      "variant" => variant || "",  # Use empty string if variant is nil
       "release_year" => year,
       "usable_battery_size" => battery,
       "energy_consumption" => {
@@ -124,14 +128,58 @@ class CLI
     details
   end
 
+  def start_over?
+    @prompt.yes?("Would you like to start over?")
+  end
+
+  def add_another?
+    @prompt.yes?("Would you like to add another vehicle?")
+  end
+
+  def display_and_confirm_vehicle(data)
+    puts "\nPlease confirm the vehicle details:"
+    puts "-----------------------------------"
+    puts "Brand: #{data['brand']}"
+    puts "Model: #{data['model']}"
+    puts "Type: #{data['vehicle_type']}"
+    puts "Variant: #{data['variant']}"
+    puts "Release Year: #{data['release_year']}"
+    puts "Battery Size: #{data['usable_battery_size']} kWh"
+    puts "Energy Consumption: #{data['energy_consumption']['average_consumption']} kWh/100km"
+    puts "Voltage Architecture: #{data['voltage_architecture']} V"
+    puts "\nAC Charging:"
+    puts "- Ports: #{data['ac_charger']['ports'].join(', ')}"
+    puts "- Phases: #{data['ac_charger']['usable_phases']}"
+    puts "- Max Power: #{data['ac_charger']['max_power']} kW"
+    
+    if data['dc_charger']
+      puts "\nDC Charging:"
+      puts "- Ports: #{data['dc_charger']['ports'].join(', ')}"
+      puts "- Max Power: #{data['dc_charger']['max_power']} kW"
+      puts "- Charging Curve:"
+      data['dc_charger']['charging_curve'].each do |point|
+        puts "  #{point['percentage']}%: #{point['power']} kW"
+      end
+    end
+
+    puts "\nCharging Voltage: #{data['charging_voltage']} V"
+    puts "-----------------------------------"
+
+    @prompt.yes?("Would you like to save this vehicle?")
+  end
+
   private
 
   def collect_ac_details
+    ports = collect_ac_ports
+    phases = collect_ac_phases
+    max_power = collect_ac_power
+
     {
-      "ports" => collect_ac_ports,
-      "usable_phases" => collect_ac_phases,
-      "max_power" => collect_ac_power,
-      "power_per_charging_point" => ChargingDetails.calculate_power_per_point(ac_power)
+      "ports" => ports,
+      "usable_phases" => phases,
+      "max_power" => max_power,
+      "power_per_charging_point" => ChargingDetails.calculate_power_per_point(max_power)
     }
   end
 
@@ -143,7 +191,11 @@ class CLI
   end
 
   def collect_ac_ports
-    @prompt.multi_select("Select AC ports (at least one required):", ChargingDetails::AC_PORTS)
+    if @prompt.yes?("Does this vehicle have AC charging ports?")
+      @prompt.multi_select("Select AC ports:", ChargingDetails::AC_PORTS)
+    else
+      []
+    end
   end
 
   def collect_ac_phases
@@ -151,8 +203,7 @@ class CLI
   end
 
   def collect_ac_power
-    @prompt.ask("Enter max AC power (kW):",
-      convert: :float,
+    @prompt.ask("Enter max AC power (kW):", convert: :float,
       validate: ->(v) { v.to_f > 0 })
   end
 
@@ -161,8 +212,7 @@ class CLI
   end
 
   def collect_dc_power
-    @prompt.ask("Enter max DC power (kW):",
-      convert: :float,
+    @prompt.ask("Enter max DC power (kW):", convert: :float,
       validate: ->(v) { v.to_f > 0 })
   end
 
@@ -215,42 +265,14 @@ class CLI
     curve.sort_by { |point| point["percentage"] }
   end
 
-  def add_another?
-    @prompt.yes?("Would you like to add another vehicle?")
-  end
-
-  def start_over?
-    @prompt.yes?("Would you like to start over?")
-  end
-
-  def display_and_confirm_vehicle(data)
-    puts "\nPlease confirm the vehicle details:"
-    puts "-----------------------------------"
-    puts "Brand: #{data['brand']}"
-    puts "Model: #{data['model']}"
-    puts "Type: #{data['vehicle_type']}"
-    puts "Variant: #{data['variant']}"
-    puts "Release Year: #{data['release_year']}"
-    puts "Battery Size: #{data['usable_battery_size']} kWh"
-    puts "Energy Consumption: #{data['energy_consumption']['average_consumption']} kWh/100km"
-    puts "\nAC Charging:"
-    puts "- Ports: #{data['ac_charger']['ports'].join(', ')}"
-    puts "- Phases: #{data['ac_charger']['usable_phases']}"
-    puts "- Max Power: #{data['ac_charger']['max_power']} kW"
-    
-    if data['dc_charger']
-      puts "\nDC Charging:"
-      puts "- Ports: #{data['dc_charger']['ports'].join(', ')}"
-      puts "- Max Power: #{data['dc_charger']['max_power']} kW"
-      puts "- Charging Curve:"
-      data['dc_charger']['charging_curve'].each do |point|
-        puts "  #{point['percentage']}%: #{point['power']} kW"
-      end
+  def select_voltage_architecture(vehicle_type)
+    choices = case vehicle_type
+    when "microcar"
+      [230, 400]  # Microcars typically use 230V or 400V
+    else
+      [400, 800]  # Cars and motorbikes use 400V or 800V
     end
-
-    puts "\nCharging Voltage: #{data['charging_voltage']} V"
-    puts "-----------------------------------"
-
-    @prompt.yes?("Would you like to save this vehicle?")
+    
+    @prompt.select("Select voltage architecture (V):", choices)
   end
 end

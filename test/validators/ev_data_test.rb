@@ -1,6 +1,10 @@
 require_relative '../test_helper'
 
 class EVDataTest < Minitest::Test
+  class << self
+    include Validators::ClassMethods
+  end
+
   def setup
     @json_data = JSON.parse(File.read('data/ev-data.json'))
   end
@@ -77,6 +81,16 @@ class EVDataTest < Minitest::Test
     end
   end
 
+  def test_validates_model_names
+    assert_equal true, self.class.valid_model_name?("S+")
+    assert_equal true, self.class.valid_model_name?("Model S 2.0")
+    assert_equal true, self.class.valid_model_name?("R&D Special")
+    assert_equal true, self.class.valid_model_name?("Über-Model")
+    assert_equal false, self.class.valid_model_name?("")
+    assert_equal false, self.class.valid_model_name?(nil)
+    assert_equal false, self.class.valid_model_name?(123) # non-string input
+  end
+
   private
 
   def assert_vehicle_basic_fields(vehicle)
@@ -90,15 +104,23 @@ class EVDataTest < Minitest::Test
       assert vehicle.key?(field), "Vehicle missing required field: #{field}"
     end
 
-    # Updated to use microcar instead of quadricycle
     assert %w[car motorbike microcar].include?(vehicle["vehicle_type"]), 
       "Vehicle type should be 'car', 'motorbike', or 'microcar', got: #{vehicle["vehicle_type"]}"
     
     assert_equal "bev", vehicle["type"], "Type should be 'bev'"
     assert vehicle["usable_battery_size"].is_a?(Numeric), "Battery size should be numeric"
-    assert vehicle["charging_voltage"].is_a?(Numeric), "Charging voltage should be numeric"
+    
+    # Updated validation for charging voltage
+    valid_voltages = case vehicle["vehicle_type"]
+    when "microcar"
+      [230, 400]
+    else
+      [400, 800]
+    end
+    
+    assert valid_voltages.include?(vehicle["charging_voltage"]), 
+      "Charging voltage should be one of #{valid_voltages.join('V, ')}V for #{vehicle['vehicle_type']}, got: #{vehicle['charging_voltage']}V"
 
-    # Add ports validation
     assert_charging_ports(vehicle)
   end
 

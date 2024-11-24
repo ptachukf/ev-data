@@ -45,4 +45,8 @@ class Vehicle
       "is_default_charging_curve" => is_default
     })
   end
+
+  def add_voltage_architecture(voltage)
+    @data["voltage_architecture"] = voltage
+  end
 end

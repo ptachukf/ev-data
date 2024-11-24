@@ -1,13 +1,14 @@
-class Validators
-  class << self
+module Validators
+  module ClassMethods
     def valid_brand_name?(name)
       return false if name.nil? || name.empty?
       name.match?(/\A[A-Za-z0-9\s\-]+\z/)
     end
 
     def valid_model_name?(name)
-      return false if name.nil? || name.empty?
-      name.match?(/\A[A-Za-z0-9\s\-]+\z/)
+      return false unless name.is_a?(String)
+      return false if name.empty?
+      true
     end
 
     def valid_year?(year)
@@ -36,7 +37,8 @@ class Validators
     end
 
     def valid_ac_ports?(ports)
-      return false if ports.nil? || ports.empty?
+      return false if ports.nil?
+      return true if ports.empty?
       ports.all? { |port| ChargingDetails::AC_PORTS.include?(port) }
     end
 
@@ -50,8 +52,15 @@ class Validators
       [1, 2, 3].include?(phases)
     end
 
-    def valid_charging_voltage?(voltage)
-      ChargingDetails::CHARGING_VOLTAGES.include?(voltage)
+    def valid_charging_voltage?(voltage, vehicle_type)
+      valid_voltages = case vehicle_type
+      when "microcar"
+        [230, 400]
+      else
+        [400, 800]
+      end
+      
+      valid_voltages.include?(voltage)
     end
 
     def valid_charging_curve?(curve, max_power)
@@ -89,7 +98,7 @@ class Validators
         data["type"] == "bev" &&
         valid_vehicle_type?(data["vehicle_type"]) &&
         valid_battery_size?(data["usable_battery_size"]) &&
-        valid_charging_voltage?(data["charging_voltage"]) &&
+        valid_charging_voltage?(data["charging_voltage"], data["vehicle_type"]) &&
         valid_ac_charger?(data["ac_charger"]) &&
         valid_dc_charger?(data["dc_charger"])
     end
@@ -121,6 +130,10 @@ class Validators
       required_points.all? { |point| power_points.key?(point) } &&
         power_points.values.all? { |power| valid_charging_power?(power) }
     end
+  end
+
+  def self.included(base)
+    base.extend(ClassMethods)
   end
 
   class ChargingValidator

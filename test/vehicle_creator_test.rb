@@ -61,36 +61,30 @@ end
 
 class ChargingDetailsTest < Minitest::Test
   def test_generate_power_per_charging_point
-    result = ChargingDetails.generate_power_per_charging_point(11.0)
-    
     expected = {
       "2.0" => 2.0,
       "2.3" => 2.3,
       "3.7" => 3.7,
       "7.4" => 7.4,
       "11" => 11.0,
-      "16" => 11.0,  # Limited by max_power
-      "22" => 11.0,  # Limited by max_power
-      "43" => 11.0   # Limited by max_power
+      "16" => 16.0,
+      "22" => 22.0,
+      "43" => 43.0
     }
-    
-    assert_equal expected, result
+    assert_equal expected, ChargingDetails.calculate_power_per_point(43.0)
   end
 
   def test_generate_power_per_charging_point_with_lower_max
-    result = ChargingDetails.generate_power_per_charging_point(7.4)
-    
     expected = {
       "2.0" => 2.0,
       "2.3" => 2.3,
       "3.7" => 3.7,
       "7.4" => 7.4,
-      "11" => 7.4,   # Limited by max_power
-      "16" => 7.4,   # Limited by max_power
-      "22" => 7.4,   # Limited by max_power
-      "43" => 7.4    # Limited by max_power
+      "11" => 11.0,
+      "16" => 11.0,
+      "22" => 11.0,
+      "43" => 11.0
     }
-    
-    assert_equal expected, result
+    assert_equal expected, ChargingDetails.calculate_power_per_point(11.0)
   end
 end 
