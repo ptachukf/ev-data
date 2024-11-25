@@ -22088,6 +22088,120 @@
         "is_default_charging_curve": true
       },
       "charging_voltage": 400
+    },
+    {
+      "id": "2bd6c024-17a0-4913-ad73-db3eb98b177a",
+      "type": "bev",
+      "brand": "Mercedes",
+      "brand_id": "b2282fbe-f5d9-48d9-943f-a9b66ec51423",
+      "model": "EQE",
+      "vehicle_type": "car",
+      "variant": "300",
+      "release_year": 2024,
+      "usable_battery_size": 89.0,
+      "energy_consumption": {
+        "average_consumption": 17.0
+      },
+      "ac_charger": {
+        "ports": [
+          "type2"
+        ],
+        "usable_phases": 3,
+        "max_power": 11.0,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.0,
+          "16": 11.0,
+          "22": 11.0,
+          "43": 11.0
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 170.0,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 161.5
+          },
+          {
+            "percentage": 50,
+            "power": 170.0
+          },
+          {
+            "percentage": 80,
+            "power": 85.0
+          },
+          {
+            "percentage": 100,
+            "power": 34.0
+          }
+        ],
+        "is_default_charging_curve": true
+      },
+      "charging_voltage": 400
+    },
+    {
+      "id": "998cbadb-1318-4405-9df2-8ae243b18c37",
+      "type": "bev",
+      "brand": "Mercedes",
+      "brand_id": "b2282fbe-f5d9-48d9-943f-a9b66ec51423",
+      "model": "EQE",
+      "vehicle_type": "car",
+      "variant": "SUV 350+",
+      "release_year": 2023,
+      "usable_battery_size": 96.0,
+      "energy_consumption": {
+        "average_consumption": 20.2
+      },
+      "ac_charger": {
+        "ports": [
+          "type2"
+        ],
+        "usable_phases": 3,
+        "max_power": 11.0,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.0,
+          "16": 11.0,
+          "22": 11.0,
+          "43": 11.0
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 173.0,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 164.35
+          },
+          {
+            "percentage": 50,
+            "power": 173.0
+          },
+          {
+            "percentage": 80,
+            "power": 86.5
+          },
+          {
+            "percentage": 100,
+            "power": 34.6
+          }
+        ],
+        "is_default_charging_curve": true
+      },
+      "charging_voltage": 400
     }
   ],
   "brands": [
@@ -22116,6 +22230,10 @@
       "name": "CUPRA"
     },
     {
+      "id": "ff0882f0-bb7f-4259-bf73-9303a299e2c4",
+      "name": "Carver"
+    },
+    {
       "id": "cbca5847-9b23-47d9-80d3-24fa9a8ca21a",
       "name": "Chevrolet"
     },
@@ -22142,6 +22260,10 @@
     {
       "id": "6cf9e9b6-28aa-44c7-b6c3-438d518ac12f",
       "name": "Ford"
+    },
+    {
+      "id": "80cb3fd7-d557-4d2f-b606-e6c0c84ab5c8",
+      "name": "GWM"
     },
     {
       "id": "100b9345-4c0e-fb7b-4502-5535cf6359fd",
@@ -22208,6 +22330,10 @@
       "name": "Mercedes"
     },
     {
+      "id": "26dd1abc-ea35-4f35-8ea6-e9310539331a",
+      "name": "Micro"
+    },
+    {
       "id": "6d9d9248-de4a-4b13-976b-4e9f6688b0b1",
       "name": "Mini"
     },
@@ -22246,6 +22372,10 @@
     {
       "id": "91c527ff-aa74-4dbb-9091-36fb5ddd44b6",
       "name": "Seat"
+    },
+    {
+      "id": "ac088c26-ad28-478a-9e9a-0a6c7f9eeb51",
+      "name": "Silence"
     },
     {
       "id": "43763587-6999-406b-8843-28977e1b82c3",
@@ -22292,6 +22422,10 @@
       "name": "XPENG"
     },
     {
+      "id": "71900a97-a91f-4b09-b78a-de7c654d41a0",
+      "name": "Zeekr"
+    },
+    {
       "id": "5686f8db-6a36-41e7-a78c-fbf957ca103a",
       "name": "Zero Motorcycles"
     },
@@ -22305,7 +22439,7 @@
     }
   ],
   "meta": {
-    "updated_at": "2024-11-25T19:00:56Z",
-    "overall_count": 401
+    "updated_at": "2024-11-25T19:18:28Z",
+    "overall_count": 403
   }
 }
