@@ -3148,7 +3148,9 @@
       "usable_battery_size": 5.5,
       "ac_charger": {
         "usable_phases": 1,
-        "ports": [],
+        "ports": [
+
+        ],
         "max_power": 2.3,
         "power_per_charging_point": {
           "2.0": 2.0,
@@ -21314,7 +21316,9 @@
         "average_consumption": 7.1
       },
       "ac_charger": {
-        "ports": [],
+        "ports": [
+
+        ],
         "usable_phases": 1,
         "max_power": 2.3,
         "power_per_charging_point": {
@@ -21344,7 +21348,9 @@
         "average_consumption": 4.5
       },
       "ac_charger": {
-        "ports": [],
+        "ports": [
+
+        ],
         "usable_phases": 1,
         "max_power": 2.3,
         "power_per_charging_point": {
@@ -21374,7 +21380,73 @@
         "average_consumption": 6.1
       },
       "ac_charger": {
-        "ports": [],
+        "ports": [
+
+        ],
+        "usable_phases": 1,
+        "max_power": 2.3,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 2.3,
+          "7.4": 2.3,
+          "11": 2.3,
+          "16": 2.3,
+          "22": 2.3,
+          "43": 2.3
+        }
+      },
+      "charging_voltage": 48
+    },
+    {
+      "id": "d246d92c-e472-42ee-b38f-2645a39d5ebf",
+      "type": "bev",
+      "brand": "Micro",
+      "brand_id": "26dd1abc-ea35-4f35-8ea6-e9310539331a",
+      "model": "Microlino",
+      "vehicle_type": "microcar",
+      "variant": "Pioneer Series",
+      "release_year": 2022,
+      "usable_battery_size": 10.5,
+      "energy_consumption": {
+        "average_consumption": 8.0
+      },
+      "ac_charger": {
+        "ports": [
+
+        ],
+        "usable_phases": 1,
+        "max_power": 2.3,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 2.3,
+          "7.4": 2.3,
+          "11": 2.3,
+          "16": 2.3,
+          "22": 2.3,
+          "43": 2.3
+        }
+      },
+      "charging_voltage": 48
+    },
+    {
+      "id": "4d21bcc7-7bed-4f75-a3d8-40427b4f52c7",
+      "type": "bev",
+      "brand": "Silence",
+      "brand_id": "ac088c26-ad28-478a-9e9a-0a6c7f9eeb51",
+      "model": "S04",
+      "vehicle_type": "microcar",
+      "variant": "",
+      "release_year": 2023,
+      "usable_battery_size": 11.2,
+      "energy_consumption": {
+        "average_consumption": 8.5
+      },
+      "ac_charger": {
+        "ports": [
+
+        ],
         "usable_phases": 1,
         "max_power": 2.3,
         "power_per_charging_point": {
@@ -21606,7 +21678,7 @@
     }
   ],
   "meta": {
-    "updated_at": "2024-11-24T19:20:53Z",
-    "overall_count": 388
+    "updated_at": "2024-11-25T18:10:22Z",
+    "overall_count": 390
   }
 }
