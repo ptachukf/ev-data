@@ -17,6 +17,12 @@ class DataStoreTest < Minitest::Test
           "vehicle_type" => "car",
           "brand_id" => "test-brand-id-1"
         }
+      ],
+      "brands" => [
+        {
+          "id" => "test-brand-id-1",
+          "name" => "Test Brand"
+        }
       ]
     }
     

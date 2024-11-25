@@ -2,16 +2,26 @@ class DataStore
   def initialize(file_path)
     @file_path = file_path
     @data = load_data
+    @data["brands"] ||= []
   end
 
   def save_vehicle(vehicle_data)
     @data["data"] << vehicle_data
+    
+    unless brand_exists?(vehicle_data["brand"])
+      @data["brands"] << {
+        "id" => vehicle_data["brand_id"],
+        "name" => vehicle_data["brand"]
+      }
+      @data["brands"].sort_by! { |b| b["name"] }
+    end
+    
     update_meta
     write_to_file
   end
 
   def existing_brands
-    @data["data"].map { |v| v["brand"] }.uniq.sort
+    @data["brands"].map { |b| b["name"] }
   end
 
   def existing_models(brand)
@@ -23,14 +33,26 @@ class DataStore
   end
 
   def find_or_create_brand_id(brand)
-    existing = @data["data"].find { |v| v["brand"] == brand }
-    existing ? existing["brand_id"] : SecureRandom.uuid
+    existing = @data["brands"].find { |b| b["name"] == brand }
+    if existing
+      existing["id"]
+    else
+      SecureRandom.uuid
+    end
   end
 
   private
 
+  def brand_exists?(brand_name)
+    @data["brands"].any? { |b| b["name"] == brand_name }
+  end
+
   def load_data
-    JSON.parse(File.read(@file_path))
+    data = JSON.parse(File.read(@file_path))
+    data["brands"] ||= []
+    data["data"] ||= []
+    data["meta"] ||= {}
+    data
   end
 
   def update_meta
