@@ -25,22 +25,24 @@ class ChargingDetails
     }
   end
 
-  def self.create_dc_charger(ports, max_power)
+  def self.create_dc_charger(ports, max_power, curve = nil)
     {
       "ports" => ports,
       "max_power" => max_power,
-      "charging_curve" => [],  # Will be filled later
-      "is_default_charging_curve" => false
+      "charging_curve" => curve || [],
+      "is_default_charging_curve" => curve.nil? ? false : curve.is_a?(DefaultChargingCurve)
     }
   end
 
-  def self.default_charging_curve(max_power, ac_power)
-    [
-      { "percentage" => 0, "power" => max_power * 0.95 },
-      { "percentage" => 50, "power" => max_power },
-      { "percentage" => 80, "power" => [max_power * 0.5, ac_power].max },
-      { "percentage" => 100, "power" => [max_power * 0.2, ac_power].max }
-    ]
+  class DefaultChargingCurve < Array
+    def self.create(max_power, ac_power)
+      new([
+        { "percentage" => 0, "power" => max_power * 0.95 },
+        { "percentage" => 50, "power" => max_power },
+        { "percentage" => 80, "power" => [max_power * 0.5, ac_power].max },
+        { "percentage" => 100, "power" => [max_power * 0.2, ac_power].max }
+      ])
+    end
   end
 
   def self.validate_charging_curve(curve, max_power)

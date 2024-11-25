@@ -71,7 +71,7 @@ class CLI
         charging["ac_charger"]["max_power"]
       )
       return false if [EXIT_OPTION, BACK_OPTION].include?(curve)
-      vehicle.add_charging_curve(curve)
+      vehicle.add_charging_curve(curve, curve.is_a?(ChargingDetails::DefaultChargingCurve))
     end
 
     true
@@ -216,9 +216,40 @@ class CLI
   end
 
   def collect_charging_curve(max_power, ac_power)
-    use_default = @prompt.yes?("Would you like to use a default charging curve?")
-    return ChargingDetails.default_charging_curve(max_power, ac_power) if use_default
+    if @prompt.yes?("Would you like to use a default charging curve?")
+      return ChargingDetails::DefaultChargingCurve.create(max_power, ac_power)
+    end
 
+    curve = collect_manual_charging_curve(max_power)
+    return curve if [EXIT_OPTION, BACK_OPTION].include?(curve)
+    
+    if valid_manual_curve?(curve)
+      curve.sort_by { |point| point["percentage"] }
+    else
+      @prompt.warn("Invalid curve. Using default curve instead.")
+      ChargingDetails::DefaultChargingCurve.create(max_power, ac_power)
+    end
+  end
+
+  def select_voltage_architecture(vehicle_type)
+    # we choose not to add exceptions for motorbikes as they are not common
+    choices = case vehicle_type
+    when "microcar"
+      [48, 400]  # Microcars typically use 48V or 400V
+    else
+      [400, 800]  # Cars use 400V or 800V
+    end
+    
+    @prompt.select("Select voltage architecture (V):", choices)
+  end
+
+  def valid_manual_curve?(curve)
+    curve.length >= 3 && 
+      curve.first["percentage"] == 0 && 
+      curve.last["percentage"] == 100
+  end
+
+  def collect_manual_charging_curve(max_power)
     curve = []
     @prompt.say("Enter charging curve points (minimum 3 points required):")
     @prompt.say("First point must be 0%, last point must be 100%")
@@ -257,21 +288,10 @@ class CLI
     # Validate the curve
     unless curve.first["percentage"] == 0 && curve.last["percentage"] == 100
       @prompt.warn("Curve must start at 0% and end at 100%. Using default curve instead.")
-      return ChargingDetails.default_charging_curve(max_power, ac_power)
+      return ChargingDetails::DefaultChargingCurve.create(max_power, ac_power)
     end
 
     # Sort by percentage to ensure correct order
     curve.sort_by { |point| point["percentage"] }
-  end
-
-  def select_voltage_architecture(vehicle_type)
-    choices = case vehicle_type
-    when "microcar"
-      [48, 400]  # Microcars typically use 48V or 400V
-    else
-      [400, 800]  # Cars and motorbikes use 400V or 800V
-    end
-    
-    @prompt.select("Select voltage architecture (V):", choices)
   end
 end
