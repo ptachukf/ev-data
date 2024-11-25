@@ -21974,6 +21974,120 @@
         "is_default_charging_curve": true
       },
       "charging_voltage": 400
+    },
+    {
+      "id": "2bda1788-0ea1-453b-8fac-7ea7a19a8598",
+      "type": "bev",
+      "brand": "Zeekr",
+      "brand_id": "71900a97-a91f-4b09-b78a-de7c654d41a0",
+      "model": "X",
+      "vehicle_type": "car",
+      "variant": "Long Range RWD",
+      "release_year": 2023,
+      "usable_battery_size": 64.0,
+      "energy_consumption": {
+        "average_consumption": 18.0
+      },
+      "ac_charger": {
+        "ports": [
+          "type2"
+        ],
+        "usable_phases": 3,
+        "max_power": 22.0,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.0,
+          "16": 16.0,
+          "22": 22.0,
+          "43": 22.0
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 158.0,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 150.1
+          },
+          {
+            "percentage": 50,
+            "power": 158.0
+          },
+          {
+            "percentage": 80,
+            "power": 79.0
+          },
+          {
+            "percentage": 100,
+            "power": 31.6
+          }
+        ],
+        "is_default_charging_curve": true
+      },
+      "charging_voltage": 400
+    },
+    {
+      "id": "132d0e67-9444-4efa-a639-707bd104247a",
+      "type": "bev",
+      "brand": "Zeekr",
+      "brand_id": "71900a97-a91f-4b09-b78a-de7c654d41a0",
+      "model": "X",
+      "vehicle_type": "car",
+      "variant": "Privilege AWD",
+      "release_year": 2023,
+      "usable_battery_size": 64.0,
+      "energy_consumption": {
+        "average_consumption": 18.6
+      },
+      "ac_charger": {
+        "ports": [
+          "type2"
+        ],
+        "usable_phases": 3,
+        "max_power": 22.0,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.0,
+          "16": 16.0,
+          "22": 22.0,
+          "43": 22.0
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 158.0,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 150.1
+          },
+          {
+            "percentage": 50,
+            "power": 158.0
+          },
+          {
+            "percentage": 80,
+            "power": 79.0
+          },
+          {
+            "percentage": 100,
+            "power": 31.6
+          }
+        ],
+        "is_default_charging_curve": true
+      },
+      "charging_voltage": 400
     }
   ],
   "brands": [
@@ -22191,7 +22305,7 @@
     }
   ],
   "meta": {
-    "updated_at": "2024-11-25T18:56:09Z",
-    "overall_count": 399
+    "updated_at": "2024-11-25T19:00:56Z",
+    "overall_count": 401
   }
 }
