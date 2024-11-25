@@ -3148,9 +3148,7 @@
       "usable_battery_size": 5.5,
       "ac_charger": {
         "usable_phases": 1,
-        "ports": [
-
-        ],
+        "ports": [],
         "max_power": 2.3,
         "power_per_charging_point": {
           "2.0": 2.0,
@@ -21316,9 +21314,7 @@
         "average_consumption": 7.1
       },
       "ac_charger": {
-        "ports": [
-
-        ],
+        "ports": [],
         "usable_phases": 1,
         "max_power": 2.3,
         "power_per_charging_point": {
@@ -21348,9 +21344,7 @@
         "average_consumption": 4.5
       },
       "ac_charger": {
-        "ports": [
-
-        ],
+        "ports": [],
         "usable_phases": 1,
         "max_power": 2.3,
         "power_per_charging_point": {
@@ -21380,9 +21374,7 @@
         "average_consumption": 6.1
       },
       "ac_charger": {
-        "ports": [
-
-        ],
+        "ports": [],
         "usable_phases": 1,
         "max_power": 2.3,
         "power_per_charging_point": {
@@ -21412,9 +21404,7 @@
         "average_consumption": 8.0
       },
       "ac_charger": {
-        "ports": [
-
-        ],
+        "ports": [],
         "usable_phases": 1,
         "max_power": 2.3,
         "power_per_charging_point": {
@@ -21444,9 +21434,7 @@
         "average_consumption": 8.5
       },
       "ac_charger": {
-        "ports": [
-
-        ],
+        "ports": [],
         "usable_phases": 1,
         "max_power": 2.3,
         "power_per_charging_point": {
@@ -21461,6 +21449,177 @@
         }
       },
       "charging_voltage": 48
+    },
+    {
+      "id": "582da553-f32d-4675-bb60-44f3ad06cdad",
+      "type": "bev",
+      "brand": "BMW",
+      "brand_id": "0742668c-bf59-4191-890e-2b0883508808",
+      "model": "iX",
+      "vehicle_type": "car",
+      "variant": "xDrive 40",
+      "release_year": 2021,
+      "usable_battery_size": 71.0,
+      "energy_consumption": {
+        "average_consumption": 19.7
+      },
+      "ac_charger": {
+        "ports": [
+          "type2"
+        ],
+        "usable_phases": 3,
+        "max_power": 11.0,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.0,
+          "16": 11.0,
+          "22": 11.0,
+          "43": 11.0
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 148.0,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 140.6
+          },
+          {
+            "percentage": 50,
+            "power": 148.0
+          },
+          {
+            "percentage": 80,
+            "power": 74.0
+          },
+          {
+            "percentage": 100,
+            "power": 29.6
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "charging_voltage": 400
+    },
+    {
+      "id": "a1842597-2134-484a-98c8-8ddf13b27536",
+      "type": "bev",
+      "brand": "BMW",
+      "brand_id": "0742668c-bf59-4191-890e-2b0883508808",
+      "model": "iX",
+      "vehicle_type": "car",
+      "variant": "xDrive 50",
+      "release_year": 2021,
+      "usable_battery_size": 105.2,
+      "energy_consumption": {
+        "average_consumption": 20.8
+      },
+      "ac_charger": {
+        "ports": [
+          "type2"
+        ],
+        "usable_phases": 3,
+        "max_power": 11.0,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.0,
+          "16": 11.0,
+          "22": 11.0,
+          "43": 11.0
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 195.0,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 185.25
+          },
+          {
+            "percentage": 50,
+            "power": 195.0
+          },
+          {
+            "percentage": 80,
+            "power": 97.5
+          },
+          {
+            "percentage": 100,
+            "power": 39.0
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "charging_voltage": 400
+    },
+    {
+      "id": "5076b1d4-9b07-4f36-8050-64668d5b3634",
+      "type": "bev",
+      "brand": "BMW",
+      "brand_id": "0742668c-bf59-4191-890e-2b0883508808",
+      "model": "iX",
+      "vehicle_type": "car",
+      "variant": "M60",
+      "release_year": 2022,
+      "usable_battery_size": 105.2,
+      "energy_consumption": {
+        "average_consumption": 21.7
+      },
+      "ac_charger": {
+        "ports": [
+          "type2"
+        ],
+        "usable_phases": 3,
+        "max_power": 22.0,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.0,
+          "16": 16.0,
+          "22": 22.0,
+          "43": 22.0
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 195.0,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 185.25
+          },
+          {
+            "percentage": 50,
+            "power": 195.0
+          },
+          {
+            "percentage": 80,
+            "power": 97.5
+          },
+          {
+            "percentage": 100,
+            "power": 39.0
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "charging_voltage": 400
     }
   ],
   "brands": [
@@ -21678,7 +21837,7 @@
     }
   ],
   "meta": {
-    "updated_at": "2024-11-25T18:10:22Z",
-    "overall_count": 390
+    "updated_at": "2024-11-25T18:25:39Z",
+    "overall_count": 393
   }
 }
