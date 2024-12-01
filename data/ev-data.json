@@ -3148,9 +3148,7 @@
       "usable_battery_size": 5.5,
       "ac_charger": {
         "usable_phases": 1,
-        "ports": [
-
-        ],
+        "ports": [],
         "max_power": 2.3,
         "power_per_charging_point": {
           "2.0": 2.0,
@@ -21316,9 +21314,7 @@
         "average_consumption": 7.1
       },
       "ac_charger": {
-        "ports": [
-
-        ],
+        "ports": [],
         "usable_phases": 1,
         "max_power": 2.3,
         "power_per_charging_point": {
@@ -21348,9 +21344,7 @@
         "average_consumption": 4.5
       },
       "ac_charger": {
-        "ports": [
-
-        ],
+        "ports": [],
         "usable_phases": 1,
         "max_power": 2.3,
         "power_per_charging_point": {
@@ -21380,9 +21374,7 @@
         "average_consumption": 6.1
       },
       "ac_charger": {
-        "ports": [
-
-        ],
+        "ports": [],
         "usable_phases": 1,
         "max_power": 2.3,
         "power_per_charging_point": {
@@ -21412,9 +21404,7 @@
         "average_consumption": 8.0
       },
       "ac_charger": {
-        "ports": [
-
-        ],
+        "ports": [],
         "usable_phases": 1,
         "max_power": 2.3,
         "power_per_charging_point": {
@@ -21444,9 +21434,7 @@
         "average_consumption": 8.5
       },
       "ac_charger": {
-        "ports": [
-
-        ],
+        "ports": [],
         "usable_phases": 1,
         "max_power": 2.3,
         "power_per_charging_point": {
