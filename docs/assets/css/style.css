@@ -25,9 +25,36 @@ body {
 }
 
 .site-header {
-    text-align: center;
     padding: 2rem 1rem 3rem;
     margin: -2rem -2rem 0 -2rem;
+    background: var(--bg-white);
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.logo-container {
+    flex-shrink: 0;
+}
+
+.site-logo {
+    height: 60px;
+    width: auto;
+    transition: transform 0.2s ease;
+    border-radius: 12px;
+}
+
+.site-logo:hover {
+    transform: scale(1.05);
+}
+
+.title-container {
+    text-align: left;
 }
 
 .site-title {
@@ -148,6 +175,20 @@ footer {
     vertical-align: text-bottom;
 }
 
+.social-link {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: var(--text-secondary);
+}
+
+.bluesky-icon {
+    display: inline-block;
+    vertical-align: text-bottom;
+    width: 16px;
+    height: 16px;
+}
+
 img {
     max-width: 100%;
     height: auto;
@@ -173,6 +214,16 @@ pre code {
     .main-nav .github-link {
         width: 100%;  /* Full width on mobile */
         margin: 0.25rem 0 0 0;
+    }
+
+    .header-content {
+        flex-direction: column;
+        text-align: center;
+        gap: 1rem;
+    }
+
+    .title-container {
+        text-align: center;
     }
 }
 

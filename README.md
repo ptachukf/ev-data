@@ -5,9 +5,7 @@
 
 Open Dataset of Electric Vehicles and their specs.
 
-In contrast to ICE cars, electric vehicles have very different behavious in
-terms of charging and charging speed. Hence having reliable data about a car is
-the key for developing EV-related applications.
+In contrast to ICE cars, electric vehicles have very different behaviors in terms of charging and charging speed. Having reliable data about a car is key for developing EV-related applications.
 
 This dataset (`data/ev-data.json`) can be freely integrated into ANY
 application under the terms of our [license](#license). Attribution is required.

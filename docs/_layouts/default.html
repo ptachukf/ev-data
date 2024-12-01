@@ -9,8 +9,15 @@
 <body>
     <header>
         <div class="site-header">
-            <h1 class="site-title">{{ site.title }}</h1>
-            <p class="site-description">{{ site.description }}</p>
+            <div class="header-content">
+                <div class="logo-container">
+                    <img src="{{ '/assets/images/open-ev-data-logo-square.jpeg' | relative_url }}" alt="Kilowatt Logo" class="site-logo">
+                </div>
+                <div class="title-container">
+                    <h1 class="site-title">{{ site.title }}</h1>
+                    <p class="site-description">{{ site.description }}</p>
+                </div>
+            </div>
         </div>
         <nav class="main-nav">
             <!-- Debug output to see what's in site.navigation -->
@@ -40,6 +47,10 @@
 
     <footer>
         <p>Maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
+        <p class="social-link">
+            <img src="{{ '/assets/images/bluesky.svg' | relative_url }}" alt="Bluesky" class="bluesky-icon">
+            Follow us on <a href="https://bsky.app/profile/openevdata.bsky.social" target="_blank">Bluesky</a>
+        </p>
         <p>This project is licensed under the terms specified in the <a href="{{ site.github.repository_url }}/blob/master/LICENSE">LICENSE</a> file.</p>
     </footer>
 </body>
