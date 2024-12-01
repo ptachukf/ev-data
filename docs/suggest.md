@@ -35,31 +35,43 @@ title: Suggest a Vehicle
         <!-- Optional Fields -->
         <div class="form-section">
             <h3>Battery & Charging</h3>
-            <div class="form-group with-unit" data-unit="kWh">
+            <div class="form-group with-unit">
                 <label for="batteryCapacity">Battery Capacity</label>
-                <input type="number" id="batteryCapacity" name="batteryCapacity" step="0.1" min="0"
-                   placeholder="e.g., 58.0">
+                <div class="input-with-unit">
+                    <input type="number" id="batteryCapacity" name="batteryCapacity" step="0.1" min="0"
+                        placeholder="e.g., 58.0">
+                    <span class="unit">kWh</span>
+                </div>
             </div>
             
-            <div class="form-group with-unit" data-unit="kW">
+            <div class="form-group with-unit">
                 <label for="maxAcChargingPower">Max AC Charging Power</label>
-                <input type="number" id="maxAcChargingPower" name="maxAcChargingPower" step="0.1" min="0"
-                   placeholder="e.g., 11.0">
+                <div class="input-with-unit">
+                    <input type="number" id="maxAcChargingPower" name="maxAcChargingPower" step="0.1" min="0"
+                        placeholder="e.g., 11.0">
+                    <span class="unit">kW</span>
+                </div>
             </div>
             
-            <div class="form-group with-unit" data-unit="kW">
+            <div class="form-group with-unit">
                 <label for="maxDcChargingPower">Max DC Charging Power</label>
-                <input type="number" id="maxDcChargingPower" name="maxDcChargingPower" step="0.1" min="0"
-                   placeholder="e.g., 150.0">
+                <div class="input-with-unit">
+                    <input type="number" id="maxDcChargingPower" name="maxDcChargingPower" step="0.1" min="0"
+                        placeholder="e.g., 150.0">
+                    <span class="unit">kW</span>
+                </div>
             </div>
         </div>
 
         <div class="form-section">
             <h3>Performance</h3>
-            <div class="form-group with-unit" data-unit="kWh/100km">
+            <div class="form-group with-unit">
                 <label for="consumption">Consumption</label>
-                <input type="number" id="consumption" name="consumption" step="0.1" min="0"
-                   placeholder="e.g., 18.8">
+                <div class="input-with-unit">
+                    <input type="number" id="consumption" name="consumption" step="0.1" min="0"
+                        placeholder="e.g., 18.8">
+                    <span class="unit">kWh/100km</span>
+                </div>
             </div>
         </div>
 
