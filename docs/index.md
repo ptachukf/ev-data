@@ -3,8 +3,6 @@ layout: default
 title: Home
 ---
 
-Open Dataset of Electric Vehicles and their specs.
-
 ## Overview
 
 In contrast to ICE cars, electric vehicles have very different behaviors in terms of charging and charging speed. Having reliable data about a car is key for developing EV-related applications.

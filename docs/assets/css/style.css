@@ -1,0 +1,149 @@
+:root {
+    /* Main colors */
+    --kw-darker-green: #70CF96;
+    --kw-dark-blue: #9CDDE3;
+    --kw-green: #85F5B1;
+    --kw-main-blue: #2D9CDB;
+    --kw-light-blue: #A7ECF2;
+    --kw-eighty-percent: #F2CA4D;
+    
+    /* Text and background colors */
+    --text-primary: #24292e;
+    --text-secondary: #586069;
+    --bg-primary: #f5fbfc;  /* Very light blue-green tint */
+    --bg-white: #ffffff;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+    color: var(--text-primary);
+    background: var(--bg-primary);
+}
+
+.site-header {
+    text-align: center;
+    padding: 2rem 1rem 3rem;
+    margin: -2rem -2rem 0 -2rem;
+}
+
+.site-title {
+    margin: 0;
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: var(--text-primary);
+}
+
+.site-description {
+    margin: 0.5rem 0 0;
+    color: var(--text-secondary);
+    font-size: 1.1rem;
+}
+
+.main-nav {
+    padding: 1rem;
+    margin: -2rem -2rem 2rem -2rem;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.main-nav a {
+    color: var(--text-primary);
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    margin: 0 0.5rem;
+    border-radius: 4px;
+    transition: all 0.2s;
+}
+
+.main-nav a:hover {
+    background: var(--kw-light-blue);
+    color: var(--text-primary);
+}
+
+.main-nav a.active {
+    background: var(--kw-darker-green);
+    color: white;
+}
+
+.github-link {
+    background: var(--text-primary) !important;
+    color: white !important;
+}
+
+.github-link:hover {
+    background: var(--kw-main-blue) !important;
+}
+
+/* Form styling */
+.form-section {
+    background: var(--bg-white);
+    border-left: 4px solid var(--kw-darker-green);
+}
+
+.submit-button {
+    background: var(--kw-main-blue);
+}
+
+.submit-button:hover {
+    background: var(--kw-dark-blue);
+}
+
+/* Search styling */
+.search-box input {
+    border-color: var(--kw-darker-green);
+}
+
+.search-box input:focus {
+    box-shadow: 0 0 0 2px var(--kw-light-blue);
+}
+
+/* Links */
+a {
+    color: var(--kw-main-blue);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--kw-darker-green);
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+    color: var(--text-primary);
+    padding-bottom: 0.3em;
+}
+
+/* Code blocks */
+code {
+    background-color: #f6f8fa;
+    border: 1px solid var(--kw-light-blue);
+}
+
+/* Footer */
+footer {
+    margin-top: 2rem;
+    padding-top: 2rem;
+    border-top: 3px solid var(--kw-darker-green);
+    color: var(--text-secondary);
+    font-size: 0.9rem;
+}
+
+.github-icon {
+    display: inline-block;
+    vertical-align: text-bottom;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+pre code {
+    display: block;
+    padding: 1rem;
+    overflow-x: auto;
+} 

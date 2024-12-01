@@ -3,11 +3,21 @@ title: Open EV Data
 description: Open Dataset of Electric Vehicles and their specs
 domain: opendata.kilowattcharging.com
 url: https://opendata.kilowattcharging.com
+baseurl: ""
 
 # GitHub metadata
 github:
   owner_name: KilowattApp
   owner_url: https://github.com/KilowattApp
   repository_url: https://github.com/KilowattApp/open-ev-data
+
+# Navigation
+navigation:
+  - title: Home
+    url: /
+  - title: Search
+    url: /search
+  - title: Suggest Vehicle
+    url: /suggest
 
 

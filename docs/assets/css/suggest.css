@@ -1,0 +1,138 @@
+.suggestion-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.form-section {
+    margin-bottom: 30px;
+    padding: 25px;
+    background: #f5f5f5;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    box-sizing: border-box;
+}
+
+.form-section h3 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #e0e0e0;
+    color: #333;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    display: grid;
+    grid-template-columns: minmax(150px, 200px) minmax(200px, 1fr);
+    gap: 15px;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+label {
+    font-weight: 600;
+    color: #444;
+}
+
+label[for="sources"] {
+    align-self: start;
+    padding-top: 8px;
+}
+
+input[type="text"],
+input[type="number"],
+select,
+textarea {
+    width: 100%;
+    max-width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    transition: border-color 0.2s, box-shadow 0.2s;
+    box-sizing: border-box;
+}
+
+input[type="text"]:focus,
+input[type="number"]:focus,
+select:focus,
+textarea:focus {
+    outline: none;
+    border-color: #4CAF50;
+    box-shadow: 0 0 0 2px rgba(76, 175, 80, 0.1);
+}
+
+/* Add units after input fields */
+.form-group.with-unit {
+    position: relative;
+}
+
+.form-group.with-unit input {
+    padding-right: 45px;
+}
+
+.form-group.with-unit::after {
+    content: attr(data-unit);
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #666;
+    font-size: 14px;
+}
+
+textarea {
+    height: 100px;
+    resize: vertical;
+    font-family: inherit;
+}
+
+.submit-button {
+    background: #4CAF50;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+    max-width: 300px;
+    margin: 20px auto 0;
+    display: block;
+    transition: background-color 0.2s;
+}
+
+.submit-button:hover {
+    background: #45a049;
+}
+
+.error {
+    color: #ff0000;
+    font-size: 14px;
+    margin-top: 5px;
+    grid-column: 2;
+}
+
+/* Required field indicator */
+label.required::after {
+    content: " *";
+    color: #ff0000;
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+    .form-group {
+        grid-template-columns: 1fr;
+        gap: 8px;
+    }
+    
+    label {
+        margin-bottom: 5px;
+    }
+    
+    .error {
+        grid-column: 1;
+    }
+}
