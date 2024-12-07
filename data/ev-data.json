@@ -22190,9 +22190,127 @@
         "is_default_charging_curve": true
       },
       "charging_voltage": 400
+    },
+    {
+      "id": "a7805129-057a-45a1-b9a5-3cef58aceb3d",
+      "type": "bev",
+      "brand": "Abarth",
+      "brand_id": "3fcb4e15-c510-4453-a0cd-6a8d1a980e8d",
+      "model": "500E",
+      "vehicle_type": "car",
+      "variant": "hatchback",
+      "release_year": 2024,
+      "usable_battery_size": 42.2,
+      "energy_consumption": {
+        "average_consumption": 22.2
+      },
+      "ac_charger": {
+        "ports": [
+          "type2"
+        ],
+        "usable_phases": 3,
+        "max_power": 11.0,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.0,
+          "16": 11.0,
+          "22": 11.0,
+          "43": 11.0
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 85.0,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 80.75
+          },
+          {
+            "percentage": 50,
+            "power": 85.0
+          },
+          {
+            "percentage": 80,
+            "power": 42.5
+          },
+          {
+            "percentage": 100,
+            "power": 17.0
+          }
+        ],
+        "is_default_charging_curve": true
+      },
+      "charging_voltage": 400
+    },
+    {
+      "id": "8ffc1acf-a079-4415-bd8c-159668e45d62",
+      "type": "bev",
+      "brand": "exit",
+      "brand_id": "b7c3b515-9568-4a3b-a564-e630d5116d90",
+      "model": "U6",
+      "vehicle_type": "car",
+      "variant": "",
+      "release_year": 2024,
+      "usable_battery_size": 63.0,
+      "energy_consumption": {
+        "average_consumption": 22.2
+      },
+      "ac_charger": {
+        "ports": [
+          "type2"
+        ],
+        "usable_phases": 3,
+        "max_power": 11.0,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.0,
+          "16": 11.0,
+          "22": 11.0,
+          "43": 11.0
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 92.0,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 87.39999999999999
+          },
+          {
+            "percentage": 50,
+            "power": 92.0
+          },
+          {
+            "percentage": 80,
+            "power": 46.0
+          },
+          {
+            "percentage": 100,
+            "power": 18.400000000000002
+          }
+        ],
+        "is_default_charging_curve": true
+      },
+      "charging_voltage": 400
     }
   ],
   "brands": [
+    {
+      "id": "3fcb4e15-c510-4453-a0cd-6a8d1a980e8d",
+      "name": "Abarth"
+    },
     {
       "id": "a43d2607-eead-46c2-9fd5-2ebd3c49d895",
       "name": "Aiways"
@@ -22422,12 +22540,16 @@
       "name": "e.GO Mobile"
     },
     {
+      "id": "b7c3b515-9568-4a3b-a564-e630d5116d90",
+      "name": "exit"
+    },
+    {
       "id": "a462c115-33b4-438b-b590-bc4a33382d1c",
       "name": "smart"
     }
   ],
   "meta": {
-    "updated_at": "2024-11-25T19:18:28Z",
-    "overall_count": 403
+    "updated_at": "2024-12-07T15:33:48Z",
+    "overall_count": 405
   }
 }
