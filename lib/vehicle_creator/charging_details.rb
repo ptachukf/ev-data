@@ -94,8 +94,8 @@ class ChargingDetails
   class DefaultChargingCurve < Array
     def self.create(battery_capacity_kwh, max_power, ac_power, voltage)
       # Define some base thresholds
-      points = get_curve_points(battery_capacity_kwh, voltage)
-      new(create_charging_curve_points(max_power, points))
+      points = ChargingDetails.get_curve_points(battery_capacity_kwh, voltage)
+      new(ChargingDetails.create_charging_curve_points(max_power, points))
     end
   end
 
