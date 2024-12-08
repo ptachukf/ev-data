@@ -110,6 +110,12 @@ body {
     color: white !important;
     order: 999;
     margin-left: auto;
+    display: inline-flex;
+    align-items: center;
+    height: 40px;
+    padding: 0 16px;
+    font-size: 14px;
+    border-radius: 5px;
 }
 
 .github-link:hover {
@@ -200,6 +206,29 @@ pre code {
     overflow-x: auto;
 }
 
+.coffee-link {
+    display: inline-flex;
+    align-items: center;
+    margin-left: 10px;
+    text-decoration: none;
+    order: 1000;
+    background: var(--bg-white);
+    padding: 0;
+    border-radius: 5px;
+    height: 40px;
+}
+
+.coffee-icon {
+    height: 40px;
+    width: auto;
+    transition: transform 0.2s ease;
+    border-radius: 5px;
+}
+
+.coffee-link:hover .coffee-icon {
+    transform: scale(1.05);
+}
+
 @media (max-width: 600px) {
     .main-nav {
         padding: 0.75rem;
@@ -207,28 +236,29 @@ pre code {
     }
 
     .main-nav a {
-        width: calc(50% - 0.5rem);  /* Two items per row minus gap */
+        width: calc(50% - 0.5rem);
         justify-content: center;
     }
 
-    .main-nav .github-link {
-        width: 100%;  /* Full width on mobile */
+    .main-nav .github-link,
+    .main-nav .coffee-link {
+        width: 100%;
         margin: 0.25rem 0 0 0;
     }
 
-    .header-content {
-        flex-direction: column;
-        text-align: center;
-        gap: 1rem;
+    .coffee-icon {
+        height: 40px;
     }
 
-    .title-container {
-        text-align: center;
+    .github-link {
+        height: 40px;
     }
 }
 
 @media (max-width: 400px) {
-    .main-nav a {
-        width: 100%;  /* Full width for very small screens */
+    .main-nav a,
+    .main-nav .github-link,
+    .main-nav .coffee-link {
+        width: 100%;
     }
 } 
