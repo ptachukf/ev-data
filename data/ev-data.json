@@ -14022,18 +14022,38 @@
         "charging_curve": [
           {
             "percentage": 0,
-            "power": 161.5
-          },
-          {
-            "percentage": 75,
             "power": 170.0
           },
           {
+            "percentage": 20,
+            "power": 170.0
+          },
+          {
+            "percentage": 35,
+            "power": 170.0
+          },
+          {
+            "percentage": 50,
+            "power": 155.0
+          },
+          {
+            "percentage": 65,
+            "power": 125.0
+          },
+          {
+            "percentage": 80,
+            "power": 90.0
+          },
+          {
+            "percentage": 90,
+            "power": 55.0
+          },
+          {
             "percentage": 100,
-            "power": 11.0
+            "power": 25.0
           }
         ],
-        "is_default_charging_curve": true
+        "is_default_charging_curve": false
       },
       "energy_consumption": {
         "average_consumption": 13.7
@@ -14203,18 +14223,42 @@
         "charging_curve": [
           {
             "percentage": 0,
-            "power": 237.5
-          },
-          {
-            "percentage": 75,
             "power": 250.0
           },
           {
+            "percentage": 5,
+            "power": 250.0
+          },
+          {
+            "percentage": 20,
+            "power": 250.0
+          },
+          {
+            "percentage": 35,
+            "power": 250.0
+          },
+          {
+            "percentage": 50,
+            "power": 200.0
+          },
+          {
+            "percentage": 65,
+            "power": 150.0
+          },
+          {
+            "percentage": 80,
+            "power": 100.0
+          },
+          {
+            "percentage": 90,
+            "power": 60.0
+          },
+          {
             "percentage": 100,
-            "power": 11.0
+            "power": 30.0
           }
         ],
-        "is_default_charging_curve": true
+        "is_default_charging_curve": false
       },
       "energy_consumption": {
         "average_consumption": 14.9
@@ -14228,7 +14272,7 @@
       "type": "bev",
       "brand_id": "f37896c3-6bc5-45e1-b442-b9cbc38e3a7c",
       "model": "Model 3",
-      "release_year": null,
+      "release_year": 2020,
       "variant": "Performance",
       "usable_battery_size": 72.5,
       "ac_charger": {
@@ -14253,7 +14297,6 @@
           "ccs",
           "tesla_ccs"
         ],
-        "max_power": 195.0,
         "charging_curve": [
           {
             "percentage": 0,
@@ -14434,6 +14477,84 @@
       },
       "energy_consumption": {
         "average_consumption": 15.3
+      },
+      "charging_voltage": 400
+    },
+    {
+      "id": "a9461623-1f68-577f-1121-04f50a3abb3c",
+      "brand": "Tesla",
+      "vehicle_type": "car",
+      "type": "bev",
+      "brand_id": "f37896c3-6bc5-45e1-b442-b9cbc38e3a7c",
+      "model": "Model 3",
+      "release_year": 2021,
+      "variant": "Performance",
+      "usable_battery_size": 82.0,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11.0,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.0,
+          "16": 11.0,
+          "22": 11.0,
+          "43": 11.0
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs",
+          "tesla_ccs"
+        ],
+        "max_power": 250.0,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 250.0
+          },
+          {
+            "percentage": 5,
+            "power": 250.0
+          },
+          {
+            "percentage": 20,
+            "power": 250.0
+          },
+          {
+            "percentage": 35,
+            "power": 250.0
+          },
+          {
+            "percentage": 50,
+            "power": 195.0
+          },
+          {
+            "percentage": 65,
+            "power": 145.0
+          },
+          {
+            "percentage": 80,
+            "power": 95.0
+          },
+          {
+            "percentage": 90,
+            "power": 55.0
+          },
+          {
+            "percentage": 100,
+            "power": 25.0
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "energy_consumption": {
+        "average_consumption": 16.9
       },
       "charging_voltage": 400
     },
@@ -22798,6 +22919,67 @@
         "is_default_charging_curve": true
       },
       "charging_voltage": 400
+    },
+    {
+      "id": "3a5b6286-e757-434e-a73d-33c6f71c84de",
+      "type": "bev",
+      "brand": "Mercedes",
+      "brand_id": "b2282fbe-f5d9-48d9-943f-a9b66ec51423",
+      "model": "EQE",
+      "vehicle_type": "car",
+      "variant": "350 4MATIC",
+      "release_year": 2024,
+      "usable_battery_size": 90.6,
+      "energy_consumption": {
+        "average_consumption": 17.6
+      },
+      "ac_charger": {
+        "ports": [
+          "type2"
+        ],
+        "usable_phases": 3,
+        "max_power": 11.0,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.0,
+          "16": 11.0,
+          "22": 11.0,
+          "43": 11.0
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 173.0,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 173.0
+          },
+          {
+            "percentage": 30,
+            "power": 173.0
+          },
+          {
+            "percentage": 60,
+            "power": 155.70
+          },
+          {
+            "percentage": 80,
+            "power": 86.5
+          },
+          {
+            "percentage": 100,
+            "power": 34.6
+          }
+        ],
+        "is_default_charging_curve": true
+      },
+      "charging_voltage": 400
     }
   ],
   "brands": [
@@ -23043,7 +23225,7 @@
     }
   ],
   "meta": {
-    "updated_at": "2024-12-07T15:52:23Z",
-    "overall_count": 413
+    "updated_at": "2024-12-08T09:50:40Z",
+    "overall_count": 414
   }
 }
