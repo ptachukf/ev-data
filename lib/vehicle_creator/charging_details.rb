@@ -35,13 +35,113 @@ class ChargingDetails
   end
 
   class DefaultChargingCurve < Array
-    def self.create(max_power, ac_power)
-      new([
-        { "percentage" => 0, "power" => max_power * 0.95 },
-        { "percentage" => 50, "power" => max_power },
-        { "percentage" => 80, "power" => [max_power * 0.5, ac_power].max },
-        { "percentage" => 100, "power" => [max_power * 0.2, ac_power].max }
-      ])
+    def self.create(battery_capacity_kwh, max_power, ac_power, voltage)
+      # Define some base thresholds
+      small_capacity_threshold = 10
+      medium_capacity_threshold = 30
+      
+      # Adjust the SOC breakpoints based on voltage
+      # Higher voltage = can hold max power longer before taper
+      # Lower voltage = sooner taper
+      
+      case voltage
+      when 48
+        # Treat as small or very small battery with quicker taper
+        if battery_capacity_kwh < small_capacity_threshold
+          # Tight taper due to low voltage and small capacity
+          new([
+            { "percentage" => 0,   "power" => (max_power * 1.00) },
+            { "percentage" => 50,  "power" => (max_power * 1.00) },
+            { "percentage" => 70,  "power" => (max_power * 0.80) },
+            { "percentage" => 100, "power" => (max_power * 0.20) }
+          ])
+        else
+          # If somehow battery is larger at 48V (uncommon)
+          # still keep a conservative taper
+          new([
+            { "percentage" => 0,   "power" => max_power },
+            { "percentage" => 30,  "power" => max_power },
+            { "percentage" => 60,  "power" => (max_power * 0.90) },
+            { "percentage" => 80,  "power" => (max_power * 0.50) },
+            { "percentage" => 100, "power" => (max_power * 0.20) }
+          ])
+        end
+      when 400
+        # Standard approach from earlier logic
+        if battery_capacity_kwh < small_capacity_threshold
+          new([
+            { "percentage" => 0,   "power" => max_power },
+            { "percentage" => 70,  "power" => max_power },
+            { "percentage" => 100, "power" => (max_power * 0.20) }
+          ])
+        elsif battery_capacity_kwh <= medium_capacity_threshold
+          new([
+            { "percentage" => 0,   "power" => max_power },
+            { "percentage" => 50,  "power" => max_power },
+            { "percentage" => 80,  "power" => (max_power * 0.80) },
+            { "percentage" => 100, "power" => (max_power * 0.20) }
+          ])
+        else
+          new([
+            { "percentage" => 0,   "power" => (max_power * 1.00) },
+            { "percentage" => 30,  "power" => (max_power * 1.00) },
+            { "percentage" => 60,  "power" => (max_power * 0.90) },
+            { "percentage" => 80,  "power" => [max_power * 0.50, ac_power].max },
+            { "percentage" => 100, "power" => [max_power * 0.20, ac_power].max }
+          ])
+        end
+      when 800
+        # High voltage: sustain high power longer
+        if battery_capacity_kwh < small_capacity_threshold
+          # Even small at 800V is unusual, but let's still allow a good initial hold
+          new([
+            { "percentage" => 0,   "power" => max_power },
+            { "percentage" => 70,  "power" => max_power },
+            { "percentage" => 100, "power" => (max_power * 0.20) }
+          ])
+        elsif battery_capacity_kwh <= medium_capacity_threshold
+          # Medium battery at high voltage: extend full power phase a bit
+          new([
+            { "percentage" => 0,   "power" => max_power },
+            { "percentage" => 60,  "power" => max_power },
+            { "percentage" => 80,  "power" => [max_power * 0.50, ac_power].max },
+            { "percentage" => 100, "power" => [max_power * 0.20, ac_power].max }
+          ])
+        else
+          # Large battery, high voltage: longer full power, gentler tapers
+          new([
+            { "percentage" => 0,   "power" => (max_power * 1.00) },
+            { "percentage" => 40,  "power" => (max_power * 1.00) },
+            { "percentage" => 70,  "power" => (max_power * 0.90) },
+            { "percentage" => 85,  "power" => [max_power * 0.50, ac_power].max },
+            { "percentage" => 100, "power" => [max_power * 0.20, ac_power].max }
+          ])
+        end
+      else
+        # Default to 400V logic if unknown
+        if battery_capacity_kwh < small_capacity_threshold
+          new([
+            { "percentage" => 0,   "power" => max_power },
+            { "percentage" => 70,  "power" => max_power },
+            { "percentage" => 100, "power" => (max_power * 0.20) }
+          ])
+        elsif battery_capacity_kwh <= medium_capacity_threshold
+          new([
+            { "percentage" => 0,   "power" => max_power },
+            { "percentage" => 50,  "power" => max_power },
+            { "percentage" => 80,  "power" => [max_power * 0.50, ac_power].max },
+            { "percentage" => 100, "power" => [max_power * 0.20, ac_power].max }
+          ])
+        else
+          new([
+            { "percentage" => 0,   "power" => (max_power * 1.00) },
+            { "percentage" => 30,  "power" => (max_power * 1.00) },
+            { "percentage" => 60,  "power" => (max_power * 0.90) },
+            { "percentage" => 80,  "power" => [max_power * 0.50, ac_power].max },
+            { "percentage" => 100, "power" => [max_power * 0.20, ac_power].max }
+         ])
+        end
+      end
     end
   end
 

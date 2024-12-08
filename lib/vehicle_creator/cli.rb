@@ -68,7 +68,9 @@ class CLI
     if charging["dc_charger"]
       curve = collect_charging_curve(
         charging["dc_charger"]["max_power"],
-        charging["ac_charger"]["max_power"]
+        charging["ac_charger"]["max_power"],
+        vehicle.data["usable_battery_size"],
+        voltage
       )
       return false if [EXIT_OPTION, BACK_OPTION].include?(curve)
       vehicle.add_charging_curve(curve, curve.is_a?(ChargingDetails::DefaultChargingCurve))
@@ -215,9 +217,10 @@ class CLI
       validate: ->(v) { v.to_f > 0 })
   end
 
-  def collect_charging_curve(max_power, ac_power)
+
+  def collect_charging_curve(max_power, ac_power, battery_capacity, voltage)
     if @prompt.yes?("Would you like to use a default charging curve?")
-      return ChargingDetails::DefaultChargingCurve.create(max_power, ac_power)
+      return ChargingDetails::DefaultChargingCurve.create(battery_capacity, max_power, ac_power, voltage)
     end
 
     curve = collect_manual_charging_curve(max_power)
@@ -227,7 +230,7 @@ class CLI
       curve.sort_by { |point| point["percentage"] }
     else
       @prompt.warn("Invalid curve. Using default curve instead.")
-      ChargingDetails::DefaultChargingCurve.create(max_power, ac_power)
+      ChargingDetails::DefaultChargingCurve.create(battery_capacity, max_power, ac_power, voltage)
     end
   end
 
