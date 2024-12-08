@@ -91,6 +91,48 @@ class EVDataTest < Minitest::Test
     assert_equal false, self.class.valid_model_name?(123) # non-string input
   end
 
+  def test_all_vehicles_have_required_fields
+    required_fields = {
+      "id" => ->(v) { v.is_a?(String) && !v.empty? },
+      "type" => ->(v) { v == "bev" },
+      "brand" => ->(v) { v.is_a?(String) && !v.empty? },
+      "brand_id" => ->(v) { v.is_a?(String) && !v.empty? },
+      "model" => ->(v) { v.is_a?(String) && !v.empty? },
+      "vehicle_type" => ->(v) { ["car", "motorbike", "microcar"].include?(v) },
+      "variant" => ->(v) { v.is_a?(String) },  # Can be empty but must be present
+      "release_year" => ->(v) { v.is_a?(Integer) && v.between?(2010, Time.now.year + 1) },
+      "usable_battery_size" => ->(v) { v.is_a?(Numeric) && v.positive? },
+      "ac_charger" => ->(v) { 
+        v.is_a?(Hash) && 
+        v["ports"].is_a?(Array) && 
+        v["usable_phases"].is_a?(Integer) && 
+        v["max_power"].is_a?(Numeric) && 
+        v["power_per_charging_point"].is_a?(Hash)
+      },
+      "charging_voltage" => ->(v) { [48, 400, 800].include?(v) },
+      "energy_consumption" => ->(v) { 
+        v.is_a?(Hash) && 
+        v["average_consumption"].is_a?(Numeric) && 
+        v["average_consumption"].positive?
+      }
+    }
+
+    @json_data["data"].each do |vehicle|
+      required_fields.each do |field, validator|
+        assert vehicle.key?(field), 
+          "Vehicle #{vehicle['brand']} #{vehicle['model']} is missing required field: #{field}"
+        
+        assert validator.call(vehicle[field]), 
+          "Vehicle #{vehicle['brand']} #{vehicle['model']} has invalid #{field}: #{vehicle[field].inspect}"
+      end
+
+      # Additional DC charger validation if present
+      if vehicle["dc_charger"]
+        assert_dc_charger_valid(vehicle["dc_charger"], "#{vehicle['brand']} #{vehicle['model']}")
+      end
+    end
+  end
+
   private
 
   def assert_vehicle_basic_fields(vehicle)
@@ -128,5 +170,29 @@ class EVDataTest < Minitest::Test
   def assert_energy_consumption_fields(consumption)
     assert consumption.key?("average_consumption"), "Missing average consumption"
     assert consumption["average_consumption"].is_a?(Numeric), "Average consumption should be numeric"
+  end
+
+  def assert_dc_charger_valid(dc_charger, vehicle_name)
+    assert dc_charger.is_a?(Hash), 
+      "#{vehicle_name}: DC charger must be a hash"
+    
+    assert dc_charger["ports"].is_a?(Array) && !dc_charger["ports"].empty?,
+      "#{vehicle_name}: DC charger must have non-empty ports array"
+    
+    assert dc_charger["max_power"].is_a?(Numeric) && dc_charger["max_power"].positive?,
+      "#{vehicle_name}: DC charger must have positive max power"
+    
+    assert dc_charger["charging_curve"].is_a?(Array),
+      "#{vehicle_name}: DC charger must have charging curve array"
+
+    if dc_charger["charging_curve"].any?
+      dc_charger["charging_curve"].each do |point|
+        assert point["percentage"].is_a?(Numeric) && point["percentage"].between?(0, 100),
+          "#{vehicle_name}: Invalid charging curve percentage: #{point['percentage']}"
+        
+        assert point["power"].is_a?(Numeric) && point["power"].positive? && point["power"] <= dc_charger["max_power"],
+          "#{vehicle_name}: Invalid charging curve power: #{point['power']}"
+      end
+    end
   end
 end

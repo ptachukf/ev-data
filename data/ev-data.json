@@ -1415,7 +1415,7 @@
       "type": "bev",
       "brand_id": "0742668c-bf59-4191-890e-2b0883508808",
       "model": "i3",
-      "release_year": null,
+      "release_year": 2013,
       "variant": "120 Ah",
       "usable_battery_size": 37.9,
       "ac_charger": {
@@ -1468,7 +1468,7 @@
       "type": "bev",
       "brand_id": "0742668c-bf59-4191-890e-2b0883508808",
       "model": "i3",
-      "release_year": null,
+      "release_year": 2013,
       "variant": "60 Ah",
       "usable_battery_size": 18.8,
       "ac_charger": {
@@ -1529,7 +1529,7 @@
       "type": "bev",
       "brand_id": "0742668c-bf59-4191-890e-2b0883508808",
       "model": "i3",
-      "release_year": null,
+      "release_year": 2013,
       "variant": "94 Ah",
       "usable_battery_size": 27.2,
       "ac_charger": {
@@ -2959,7 +2959,7 @@
           },
           {
             "percentage": 100,
-            "power": 0.0
+            "power": 7.0
           }
         ],
         "is_default_charging_curve": false
@@ -3020,7 +3020,7 @@
           },
           {
             "percentage": 100,
-            "power": 0.0
+            "power": 7.0
           }
         ],
         "is_default_charging_curve": false
@@ -3227,7 +3227,7 @@
       "type": "bev",
       "brand_id": "3b3fc191-f4c3-45da-bc3b-21efbe1b264f",
       "model": "C-Zero",
-      "release_year": null,
+      "release_year": 2010,
       "variant": "",
       "usable_battery_size": 14.5,
       "ac_charger": {
@@ -5691,7 +5691,7 @@
       "type": "bev",
       "brand_id": "61fc79a2-04ca-418e-9333-caf5f67ba02f",
       "model": "i-Pace",
-      "release_year": null,
+      "release_year": 2018,
       "variant": "",
       "usable_battery_size": 84.0,
       "ac_charger": {
@@ -6245,7 +6245,7 @@
       "type": "bev",
       "brand_id": "3337d5f0-39de-4ded-831b-843dfec1ebbd",
       "model": "Soul",
-      "release_year": null,
+      "release_year": 2014,
       "variant": "27 kWh",
       "usable_battery_size": 27.0,
       "ac_charger": {
@@ -6298,7 +6298,7 @@
       "type": "bev",
       "brand_id": "3337d5f0-39de-4ded-831b-843dfec1ebbd",
       "model": "Soul",
-      "release_year": null,
+      "release_year": 2014,
       "variant": "30 kWh",
       "usable_battery_size": 30.0,
       "ac_charger": {
@@ -6951,40 +6951,36 @@
         "max_power": 100.0,
         "charging_curve": [
           {
-            "percentage": 100,
-            "power": 0.0
+            "percentage": 0,
+            "power": 95.0
           },
           {
-            "percentage": 250,
-            "power": 1.0
-          },
-          {
-            "percentage": 252,
-            "power": 2.0
-          },
-          {
-            "percentage": 253,
-            "power": 3.0
-          },
-          {
-            "percentage": 254,
-            "power": 5.0
-          },
-          {
-            "percentage": 49,
-            "power": 92.0
-          },
-          {
-            "percentage": 46,
-            "power": 96.0
+            "percentage": 22,
+            "power": 100.0
           },
           {
             "percentage": 27,
             "power": 97.0
           },
           {
-            "percentage": 22,
-            "power": 100.0
+            "percentage": 46,
+            "power": 96.0
+          },
+          {
+            "percentage": 49,
+            "power": 92.0
+          },
+          {
+            "percentage": 75,
+            "power": 60.0
+          },
+          {
+            "percentage": 90,
+            "power": 40.0
+          },
+          {
+            "percentage": 100,
+            "power": 22.0
           }
         ],
         "is_default_charging_curve": false
@@ -7986,7 +7982,7 @@
       "type": "bev",
       "brand_id": "b2282fbe-f5d9-48d9-943f-a9b66ec51423",
       "model": "B-Klasse",
-      "release_year": null,
+      "release_year": 2014,
       "variant": "",
       "usable_battery_size": 28.0,
       "ac_charger": {
@@ -8866,7 +8862,7 @@
       "type": "bev",
       "brand_id": "3cf8cf51-60ac-4cac-9f25-131c21eda12e",
       "model": "i-Miev",
-      "release_year": null,
+      "release_year": 2010,
       "variant": "",
       "usable_battery_size": 14.5,
       "ac_charger": {
@@ -9885,7 +9881,7 @@
       "type": "bev",
       "brand_id": "dab5a47a-e8ce-4d34-9139-0701499205b1",
       "model": "e-NV 200",
-      "release_year": null,
+      "release_year": 2014,
       "variant": "24 kWh",
       "usable_battery_size": 24.0,
       "ac_charger": {
@@ -9946,7 +9942,7 @@
       "type": "bev",
       "brand_id": "dab5a47a-e8ce-4d34-9139-0701499205b1",
       "model": "e-NV 200",
-      "release_year": null,
+      "release_year": 2014,
       "variant": "24 kWh 6,6 kW-AC",
       "usable_battery_size": 24.0,
       "ac_charger": {
@@ -10007,7 +10003,7 @@
       "type": "bev",
       "brand_id": "dab5a47a-e8ce-4d34-9139-0701499205b1",
       "model": "e-NV 200",
-      "release_year": null,
+      "release_year": 2014,
       "variant": "40 kWh",
       "usable_battery_size": 38.0,
       "ac_charger": {
@@ -11070,7 +11066,7 @@
       "type": "bev",
       "brand_id": "f458fe7d-f545-45f3-8c23-2ab8140b8b5d",
       "model": "I-on",
-      "release_year": null,
+      "release_year": 2010,
       "variant": "",
       "usable_battery_size": 14.5,
       "ac_charger": {
@@ -11123,7 +11119,7 @@
       "type": "bev",
       "brand_id": "f458fe7d-f545-45f3-8c23-2ab8140b8b5d",
       "model": "Partner",
-      "release_year": null,
+      "release_year": 2013,
       "variant": "",
       "usable_battery_size": 22.5,
       "ac_charger": {
@@ -12823,7 +12819,7 @@
       "type": "bev",
       "brand_id": "c0d8a60c-34b8-44fe-8af7-9eeb62eedb4b",
       "model": "Kangoo ZE",
-      "release_year": null,
+      "release_year": 2011,
       "variant": "",
       "usable_battery_size": 33.0,
       "ac_charger": {
@@ -13961,23 +13957,31 @@
         "charging_curve": [
           {
             "percentage": 0,
-            "power": 140.0
+            "power": 142.5
           },
           {
-            "percentage": 25,
+            "percentage": 10,
             "power": 150.0
           },
           {
-            "percentage": 40,
-            "power": 115.0
+            "percentage": 30,
+            "power": 150.0
           },
           {
-            "percentage": 70,
-            "power": 50.0
+            "percentage": 50,
+            "power": 120.0
+          },
+          {
+            "percentage": 80,
+            "power": 70.0
+          },
+          {
+            "percentage": 90,
+            "power": 40.0
           },
           {
             "percentage": 100,
-            "power": 0.0
+            "power": 20.0
           }
         ],
         "is_default_charging_curve": false
@@ -14297,6 +14301,7 @@
           "ccs",
           "tesla_ccs"
         ],
+        "max_power": 195.0,
         "charging_curve": [
           {
             "percentage": 0,
@@ -14565,7 +14570,7 @@
       "type": "bev",
       "brand_id": "f37896c3-6bc5-45e1-b442-b9cbc38e3a7c",
       "model": "Model S",
-      "release_year": null,
+      "release_year": 2016,
       "variant": "100",
       "usable_battery_size": 95.0,
       "ac_charger": {
@@ -14687,7 +14692,7 @@
       "type": "bev",
       "brand_id": "f37896c3-6bc5-45e1-b442-b9cbc38e3a7c",
       "model": "Model S",
-      "release_year": null,
+      "release_year": 2012,
       "variant": "60",
       "usable_battery_size": 62.0,
       "ac_charger": {
@@ -14742,7 +14747,7 @@
       "type": "bev",
       "brand_id": "f37896c3-6bc5-45e1-b442-b9cbc38e3a7c",
       "model": "Model S",
-      "release_year": null,
+      "release_year": 2016,
       "variant": "60D",
       "usable_battery_size": 62.0,
       "ac_charger": {
@@ -14797,7 +14802,7 @@
       "type": "bev",
       "brand_id": "f37896c3-6bc5-45e1-b442-b9cbc38e3a7c",
       "model": "Model S",
-      "release_year": null,
+      "release_year": 2015,
       "variant": "70",
       "usable_battery_size": 67.0,
       "ac_charger": {
@@ -14852,7 +14857,7 @@
       "type": "bev",
       "brand_id": "f37896c3-6bc5-45e1-b442-b9cbc38e3a7c",
       "model": "Model S",
-      "release_year": null,
+      "release_year": 2015,
       "variant": "70, 22 kW-AC",
       "usable_battery_size": 67.0,
       "ac_charger": {
@@ -14907,7 +14912,7 @@
       "type": "bev",
       "brand_id": "f37896c3-6bc5-45e1-b442-b9cbc38e3a7c",
       "model": "Model S",
-      "release_year": null,
+      "release_year": 2015,
       "variant": "70D",
       "usable_battery_size": 66.5,
       "ac_charger": {
@@ -14962,7 +14967,7 @@
       "type": "bev",
       "brand_id": "f37896c3-6bc5-45e1-b442-b9cbc38e3a7c",
       "model": "Model S",
-      "release_year": null,
+      "release_year": 2015,
       "variant": "70D, 22 kW-AC",
       "usable_battery_size": 66.5,
       "ac_charger": {
@@ -15017,7 +15022,7 @@
       "type": "bev",
       "brand_id": "f37896c3-6bc5-45e1-b442-b9cbc38e3a7c",
       "model": "Model S",
-      "release_year": null,
+      "release_year": 2016,
       "variant": "75",
       "usable_battery_size": 72.5,
       "ac_charger": {
@@ -15072,7 +15077,7 @@
       "type": "bev",
       "brand_id": "f37896c3-6bc5-45e1-b442-b9cbc38e3a7c",
       "model": "Model S",
-      "release_year": null,
+      "release_year": 2016,
       "variant": "75D",
       "usable_battery_size": 72.5,
       "ac_charger": {
@@ -15127,7 +15132,7 @@
       "type": "bev",
       "brand_id": "f37896c3-6bc5-45e1-b442-b9cbc38e3a7c",
       "model": "Model S",
-      "release_year": null,
+      "release_year": 2012,
       "variant": "85",
       "usable_battery_size": 76.0,
       "ac_charger": {
@@ -15249,7 +15254,7 @@
       "type": "bev",
       "brand_id": "f37896c3-6bc5-45e1-b442-b9cbc38e3a7c",
       "model": "Model S",
-      "release_year": null,
+      "release_year": 2015,
       "variant": "90",
       "usable_battery_size": 81.0,
       "ac_charger": {
@@ -15308,7 +15313,7 @@
       "type": "bev",
       "brand_id": "f37896c3-6bc5-45e1-b442-b9cbc38e3a7c",
       "model": "Model S",
-      "release_year": null,
+      "release_year": 2015,
       "variant": "90D",
       "usable_battery_size": 83.5,
       "ac_charger": {
@@ -15607,7 +15612,7 @@
       "type": "bev",
       "brand_id": "f37896c3-6bc5-45e1-b442-b9cbc38e3a7c",
       "model": "Model S",
-      "release_year": null,
+      "release_year": 2014,
       "variant": "P85D",
       "usable_battery_size": 80.8,
       "ac_charger": {
@@ -15662,7 +15667,7 @@
       "type": "bev",
       "brand_id": "f37896c3-6bc5-45e1-b442-b9cbc38e3a7c",
       "model": "Model S",
-      "release_year": null,
+      "release_year": 2014,
       "variant": "P85D, 22 kW-AC",
       "usable_battery_size": 80.8,
       "ac_charger": {
@@ -17439,23 +17444,35 @@
         "ports": [
           "ccs"
         ],
-        "max_power": 100.0,
+        "max_power": 120.0,
         "charging_curve": [
           {
-            "percentage": 100,
-            "power": 0.0
+            "percentage": 0,
+            "power": 110.0
           },
           {
-            "percentage": 100,
-            "power": 30.0
+            "percentage": 5,
+            "power": 120.0
           },
           {
-            "percentage": 75,
-            "power": 40.0
+            "percentage": 35,
+            "power": 120.0
           },
           {
             "percentage": 50,
-            "power": 100.0
+            "power": 95.0
+          },
+          {
+            "percentage": 75,
+            "power": 60.0
+          },
+          {
+            "percentage": 90,
+            "power": 35.0
+          },
+          {
+            "percentage": 100,
+            "power": 20.0
           }
         ],
         "is_default_charging_curve": false
@@ -17667,47 +17684,35 @@
         "ports": [
           "ccs"
         ],
-        "max_power": 100.0,
+        "max_power": 135.0,
         "charging_curve": [
           {
+            "percentage": 0,
+            "power": 115.0
+          },
+          {
+            "percentage": 15,
+            "power": 135.0
+          },
+          {
+            "percentage": 30,
+            "power": 135.0
+          },
+          {
             "percentage": 50,
-            "power": 0.0
+            "power": 110.0
           },
           {
-            "percentage": 75,
-            "power": 10.0
-          },
-          {
-            "percentage": 100,
-            "power": 20.0
-          },
-          {
-            "percentage": 125,
-            "power": 30.0
-          },
-          {
-            "percentage": 150,
-            "power": 40.0
-          },
-          {
-            "percentage": 175,
-            "power": 50.0
-          },
-          {
-            "percentage": 175,
+            "percentage": 70,
             "power": 70.0
           },
           {
-            "percentage": 150,
-            "power": 80.0
-          },
-          {
-            "percentage": 125,
-            "power": 90.0
+            "percentage": 80,
+            "power": 50.0
           },
           {
             "percentage": 100,
-            "power": 100.0
+            "power": 25.0
           }
         ],
         "is_default_charging_curve": false
@@ -18183,27 +18188,35 @@
         "ports": [
           "ccs"
         ],
-        "max_power": 100.0,
+        "max_power": 170.0,
         "charging_curve": [
           {
             "percentage": 0,
-            "power": 100.0
+            "power": 150.0
           },
           {
-            "percentage": 1,
-            "power": 175.0
+            "percentage": 5,
+            "power": 170.0
           },
           {
-            "percentage": 12,
-            "power": 183.0
+            "percentage": 35,
+            "power": 170.0
           },
           {
-            "percentage": 24,
-            "power": 120.0
+            "percentage": 50,
+            "power": 130.0
+          },
+          {
+            "percentage": 75,
+            "power": 85.0
+          },
+          {
+            "percentage": 90,
+            "power": 50.0
           },
           {
             "percentage": 100,
-            "power": 101.0
+            "power": 25.0
           }
         ],
         "is_default_charging_curve": false
@@ -20627,7 +20640,7 @@
       "type": "bev",
       "brand_id": "a462c115-33b4-438b-b590-bc4a33382d1c",
       "model": "forfour EQ",
-      "release_year": null,
+      "release_year": 2017,
       "variant": "",
       "usable_battery_size": 17.6,
       "ac_charger": {
@@ -20660,7 +20673,7 @@
       "type": "bev",
       "brand_id": "a462c115-33b4-438b-b590-bc4a33382d1c",
       "model": "forfour EQ",
-      "release_year": null,
+      "release_year": 2017,
       "variant": "22 kW-AC",
       "usable_battery_size": 17.6,
       "ac_charger": {
@@ -20693,7 +20706,7 @@
       "type": "bev",
       "brand_id": "a462c115-33b4-438b-b590-bc4a33382d1c",
       "model": "fortwo ED",
-      "release_year": null,
+      "release_year": 2017,
       "variant": "",
       "usable_battery_size": 17.6,
       "ac_charger": {
@@ -20726,7 +20739,7 @@
       "type": "bev",
       "brand_id": "a462c115-33b4-438b-b590-bc4a33382d1c",
       "model": "fortwo ED",
-      "release_year": null,
+      "release_year": 2017,
       "variant": "22 kW-AC",
       "usable_battery_size": 17.6,
       "ac_charger": {
@@ -20759,7 +20772,7 @@
       "type": "bev",
       "brand_id": "a462c115-33b4-438b-b590-bc4a33382d1c",
       "model": "fortwo EQ",
-      "release_year": null,
+      "release_year": 2017,
       "variant": "22 kW-AC",
       "usable_battery_size": 17.6,
       "ac_charger": {
