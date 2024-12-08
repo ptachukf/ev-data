@@ -114,7 +114,7 @@ class CLI
     details["ac_charger"] = ac_details
 
     # Collect DC charging details if applicable
-    if @prompt.yes?("Does this vehicle support DC charging?")
+    if @prompt.yes?("Does this vehicle support DC charging?", default: true)
       dc_details = collect_dc_details
       return dc_details if [EXIT_OPTION, BACK_OPTION].include?(dc_details)
       details["dc_charger"] = dc_details
@@ -185,31 +185,48 @@ class CLI
   end
 
   def collect_dc_details
+    ports = collect_dc_ports
+    return BACK_OPTION if ports.empty?  # Return early if no ports selected
+    
+    max_power = collect_dc_power
+    return BACK_OPTION if max_power.nil?
+
     {
-      "ports" => collect_dc_ports,
-      "max_power" => collect_dc_power
+      "ports" => ports,
+      "max_power" => max_power
     }
   end
 
   def collect_ac_ports
-    if @prompt.yes?("Does this vehicle have (type1, type2) AC charging ports?")
-      @prompt.multi_select("Select AC ports:", ChargingDetails::AC_PORTS)
+    if @prompt.yes?("Does this vehicle have (type1, type2) AC charging ports?", default: true)
+      @prompt.multi_select("Select AC ports:", ChargingDetails::AC_PORTS, default: ["type2"])
     else
       []
     end
   end
 
   def collect_ac_phases
-    @prompt.select("Select AC phases:", [1, 2, 3])
+    @prompt.select("Select AC phases:", [1, 2, 3], default: 3)
   end
 
   def collect_ac_power
     @prompt.ask("Enter max AC power (kW):", convert: :float,
-      validate: ->(v) { v.to_f > 0 })
+      validate: ->(v) { v.to_f > 0 },
+      default: "11.0")
   end
 
   def collect_dc_ports
-    @prompt.multi_select("Select DC ports (at least one required):", ChargingDetails::DC_PORTS)
+    ports = @prompt.multi_select("Select DC ports (at least one required):", 
+      ChargingDetails::DC_PORTS,
+      default: ["ccs"])
+    
+    if ports.empty?
+      @prompt.warn("At least one DC port must be selected")
+      return [] unless @prompt.yes?("Would you like to try again?", default: true)
+      return collect_dc_ports  # Recursively try again
+    end
+    
+    ports
   end
 
   def collect_dc_power

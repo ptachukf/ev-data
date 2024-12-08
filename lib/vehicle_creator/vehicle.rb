@@ -28,6 +28,7 @@ class Vehicle
   end
 
   def add_charging_details(details)
+    return if details.nil?  # Guard against nil input
     @data.merge!(details)
   end
 
