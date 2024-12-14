@@ -188,9 +188,31 @@ module Validators
 
       errors
     end
+    
+    def self.validate_power_per_charging_point(power_per_charging_point)
+      errors = []
+      
+      unless power_per_charging_point.is_a?(Hash)
+        errors << "power_per_charging_point must be a hash"
+        return errors
+      end
 
-    def self.validate_charging_curve(curve, max_power)
-      # ... existing charging curve validation ...
+      power_per_charging_point.each do |point, power|
+        # Validate keys can be converted to numbers
+        begin
+          Float(point)
+        rescue ArgumentError
+          errors << "power_per_charging_point keys must be numeric"
+          next
+        end
+
+        # Validate power values are positive numbers
+        unless power.is_a?(Numeric) && power.positive?
+          errors << "power_per_charging_point values must be positive numbers"
+        end
+      end
+
+      errors
     end
   end
 end

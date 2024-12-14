@@ -133,6 +133,42 @@ class EVDataTest < Minitest::Test
     end
   end
 
+  def test_unique_and_valid_uuids
+    # Collect all UUIDs from vehicles and brands
+    vehicle_ids = @json_data["data"].map { |v| v["id"] }
+    brand_ids = @json_data["brands"].map { |b| b["id"] }
+    all_ids = vehicle_ids + brand_ids
+
+    # Check for duplicates
+    duplicates = all_ids.group_by { |id| id }.select { |_, ids| ids.size > 1 }.keys
+    assert_empty duplicates, "Found duplicate UUIDs: #{duplicates}"
+
+    # UUID validation regex
+    uuid_regex = /^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i
+
+    # Check each vehicle ID
+    @json_data["data"].each do |vehicle|
+      assert uuid_regex.match?(vehicle["id"]), 
+        "Invalid UUID format for vehicle #{vehicle['brand']} #{vehicle['model']}: #{vehicle['id']}"
+      
+      assert uuid_regex.match?(vehicle["brand_id"]), 
+        "Invalid UUID format for brand_id in vehicle #{vehicle['brand']} #{vehicle['model']}: #{vehicle['brand_id']}"
+    end
+
+    # Check each brand ID
+    @json_data["brands"].each do |brand|
+      assert uuid_regex.match?(brand["id"]), 
+        "Invalid UUID format for brand #{brand['name']}: #{brand['id']}"
+    end
+
+    # Verify brand_id references exist
+    brand_ids_set = Set.new(@json_data["brands"].map { |b| b["id"] })
+    @json_data["data"].each do |vehicle|
+      assert brand_ids_set.include?(vehicle["brand_id"]), 
+        "Vehicle #{vehicle['brand']} #{vehicle['model']} references non-existent brand_id: #{vehicle['brand_id']}"
+    end
+  end
+
   private
 
   def assert_vehicle_basic_fields(vehicle)
