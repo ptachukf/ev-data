@@ -1,4 +1,5 @@
 require_relative '../test_helper'
+require 'set'
 
 class EVDataTest < Minitest::Test
   class << self
