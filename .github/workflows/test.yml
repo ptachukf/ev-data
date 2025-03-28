@@ -16,11 +16,11 @@ jobs:
     - name: Set up Ruby
       uses: ruby/setup-ruby@v1
       with:
-        ruby-version: '3.0'
+        ruby-version: '3.2'
         bundler-cache: true
 
     - name: Install dependencies
       run: bundle install
 
     - name: Run tests
-      run: ruby test/validators/ev_data_test.rb
+      run: bundle exec rake test
