@@ -8,6 +8,8 @@ document.addEventListener('DOMContentLoaded', async () => {
     const sortSelect = document.getElementById('sortSelect');
     const loading = document.getElementById('loading');
 
+    // Get the baseurl from Jekyll configuration
+    const baseurl = document.querySelector('meta[name="baseurl"]')?.content || '';
     const GITHUB_RAW_BASE = 'https://raw.githubusercontent.com/KilowattApp/open-ev-data/master/data/v2';
 
     try {
