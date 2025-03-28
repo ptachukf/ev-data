@@ -3,7 +3,7 @@ title: Open EV Data
 description: Open Dataset of Electric Vehicles and their specs
 domain: opendata.kilowattcharging.com
 url: https://opendata.kilowattcharging.com
-baseurl: "/open-ev-data"
+baseurl: ""
 
 # GitHub metadata
 github:
@@ -19,28 +19,3 @@ navigation:
     url: /search
   - title: Suggest Vehicle
     url: /suggest
-
-# Development settings
-livereload: true
-host: 127.0.0.1
-port: 4000
-
-# Exclude unnecessary files
-exclude:
-  - Gemfile
-  - Gemfile.lock
-  - node_modules
-  - vendor
-  - .jekyll-cache
-  - .sass-cache
-  - .git
-  - .github
-  - scripts
-  - test
-  - lib
-  - bin
-  - README.md
-  - LICENSE
-  - CONTRIBUTING.md
-
-
