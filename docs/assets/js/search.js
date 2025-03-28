@@ -8,9 +8,11 @@ document.addEventListener('DOMContentLoaded', async () => {
     const sortSelect = document.getElementById('sortSelect');
     const loading = document.getElementById('loading');
 
+    const GITHUB_RAW_BASE = 'https://raw.githubusercontent.com/KilowattApp/open-ev-data/master/data/v2';
+
     try {
         // Fetch brands data
-        const brandsResponse = await fetch('../data/v2/brands.json');
+        const brandsResponse = await fetch(`${GITHUB_RAW_BASE}/brands.json`);
 
         if (!brandsResponse.ok) {
             throw new Error('Failed to fetch brands data');
@@ -23,7 +25,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 
         // Fetch all model files based on brands
         const modelPromises = brandsData.brands.map(brand => 
-            fetch(`../data/v2/${brand.models_file}`)
+            fetch(`${GITHUB_RAW_BASE}/${brand.models_file}`)
                 .then(response => {
                     if (!response.ok) {
                         console.warn(`No model file found for ${brand.name} (${brand.models_file})`);
