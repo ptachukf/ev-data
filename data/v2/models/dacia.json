@@ -1,0 +1,75 @@
+{
+  "brand_id": "3db0ef48-3566-5fab-00a9-3107c4019b68",
+  "brand_name": "Dacia",
+  "models": [
+    {
+      "id": "db0f0c27-ec80-7479-a5ff-ca8fef1adb1b",
+      "brand": "Dacia",
+      "vehicle_type": "car",
+      "type": "bev",
+      "brand_id": "3db0ef48-3566-5fab-00a9-3107c4019b68",
+      "model": "Spring Electric",
+      "release_year": 2021,
+      "variant": "",
+      "usable_battery_size": 26.8,
+      "ac_charger": {
+        "usable_phases": 1,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 6.6,
+        "power_per_charging_point": {
+          "11": 3.7,
+          "16": 5.4,
+          "22": 6.6,
+          "43": 6.6,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 6.6
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 34,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 23
+          },
+          {
+            "percentage": 20,
+            "power": 34
+          },
+          {
+            "percentage": 40,
+            "power": 32
+          },
+          {
+            "percentage": 42,
+            "power": 28
+          },
+          {
+            "percentage": 58,
+            "power": 28
+          },
+          {
+            "percentage": 61,
+            "power": 24
+          },
+          {
+            "percentage": 100,
+            "power": 10
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "energy_consumption": {
+        "average_consumption": 15.8
+      },
+      "charging_voltage": 400
+    }
+  ]
+}

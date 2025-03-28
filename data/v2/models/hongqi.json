@@ -1,0 +1,59 @@
+{
+  "brand_id": "0885dcd7-55c0-bb48-3c76-1552bcba03ef",
+  "brand_name": "Hongqi",
+  "models": [
+    {
+      "id": "bf03511c-3327-1c81-04d1-9a57476fceb5",
+      "brand": "Hongqi",
+      "vehicle_type": "car",
+      "type": "bev",
+      "brand_id": "0885dcd7-55c0-bb48-3c76-1552bcba03ef",
+      "model": "E-HS9",
+      "release_year": 2023,
+      "variant": "120 kWh",
+      "usable_battery_size": 112,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 130,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 123.5
+          },
+          {
+            "percentage": 75,
+            "power": 130
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": true
+      },
+      "energy_consumption": {
+        "average_consumption": 24.3
+      },
+      "charging_voltage": 400
+    }
+  ]
+}

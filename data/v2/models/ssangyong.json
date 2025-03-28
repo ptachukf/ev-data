@@ -1,0 +1,59 @@
+{
+  "brand_id": "982074e7-7bc9-757a-ac2d-13229192dc0c",
+  "brand_name": "SsangYong",
+  "models": [
+    {
+      "id": "0da4d01f-14b2-68e3-419f-5fba512ed9d1",
+      "brand": "SsangYong",
+      "vehicle_type": "car",
+      "type": "bev",
+      "brand_id": "982074e7-7bc9-757a-ac2d-13229192dc0c",
+      "model": "Korando e-Motion",
+      "release_year": 2022,
+      "variant": "",
+      "usable_battery_size": 56,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 6.6,
+        "power_per_charging_point": {
+          "11": 6.6,
+          "16": 6.6,
+          "22": 6.6,
+          "43": 6.6,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 6.6
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 80,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 76
+          },
+          {
+            "percentage": 75,
+            "power": 80
+          },
+          {
+            "percentage": 100,
+            "power": 6.6
+          }
+        ],
+        "is_default_charging_curve": true
+      },
+      "energy_consumption": {
+        "average_consumption": 19.3
+      },
+      "charging_voltage": 400
+    }
+  ]
+}

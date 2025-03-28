@@ -1,0 +1,63 @@
+{
+  "brand_id": "b7c3b515-9568-4a3b-a564-e630d5116d90",
+  "brand_name": "exit",
+  "models": [
+    {
+      "id": "8ffc1acf-a079-4415-bd8c-159668e45d62",
+      "type": "bev",
+      "brand": "exit",
+      "brand_id": "b7c3b515-9568-4a3b-a564-e630d5116d90",
+      "model": "U6",
+      "vehicle_type": "car",
+      "variant": "",
+      "release_year": 2024,
+      "usable_battery_size": 63,
+      "energy_consumption": {
+        "average_consumption": 22.2
+      },
+      "ac_charger": {
+        "ports": [
+          "type2"
+        ],
+        "usable_phases": 3,
+        "max_power": 11,
+        "power_per_charging_point": {
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 92,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 87.4
+          },
+          {
+            "percentage": 50,
+            "power": 92
+          },
+          {
+            "percentage": 80,
+            "power": 46
+          },
+          {
+            "percentage": 100,
+            "power": 18.400000000000002
+          }
+        ],
+        "is_default_charging_curve": true
+      },
+      "charging_voltage": 400
+    }
+  ]
+}

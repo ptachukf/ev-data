@@ -1,0 +1,67 @@
+{
+  "brand_id": "9b829849-1219-48b8-964e-90ddc1a4fa85",
+  "brand_name": "Mazda",
+  "models": [
+    {
+      "id": "176af738-f385-4dc8-9243-9c701fbd7759",
+      "brand": "Mazda",
+      "vehicle_type": "car",
+      "type": "bev",
+      "brand_id": "9b829849-1219-48b8-964e-90ddc1a4fa85",
+      "model": "MX-30",
+      "release_year": 2020,
+      "variant": "",
+      "usable_battery_size": 32,
+      "ac_charger": {
+        "usable_phases": 1,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 6.6,
+        "power_per_charging_point": {
+          "11": 3.7,
+          "16": 5.4,
+          "22": 6.6,
+          "43": 6.6,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 6.6
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 38,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 30
+          },
+          {
+            "percentage": 55,
+            "power": 38
+          },
+          {
+            "percentage": 70,
+            "power": 30
+          },
+          {
+            "percentage": 90,
+            "power": 18
+          },
+          {
+            "percentage": 100,
+            "power": 12
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "energy_consumption": {
+        "average_consumption": 17.8
+      },
+      "charging_voltage": 400
+    }
+  ]
+}

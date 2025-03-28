@@ -1,0 +1,291 @@
+{
+  "brand_id": "71900a97-a91f-4b09-b78a-de7c654d41a0",
+  "brand_name": "Zeekr",
+  "models": [
+    {
+      "id": "94ad6678-5bb0-4096-b639-2d064fa71a68",
+      "type": "bev",
+      "brand": "Zeekr",
+      "brand_id": "71900a97-a91f-4b09-b78a-de7c654d41a0",
+      "model": "001",
+      "vehicle_type": "car",
+      "variant": "Performance AWD",
+      "release_year": 2023,
+      "usable_battery_size": 94,
+      "energy_consumption": {
+        "average_consumption": 18.8
+      },
+      "ac_charger": {
+        "ports": [
+          "type2"
+        ],
+        "usable_phases": 3,
+        "max_power": 22,
+        "power_per_charging_point": {
+          "11": 11,
+          "16": 16,
+          "22": 22,
+          "43": 22,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 200,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 190
+          },
+          {
+            "percentage": 50,
+            "power": 200
+          },
+          {
+            "percentage": 80,
+            "power": 100
+          },
+          {
+            "percentage": 100,
+            "power": 40
+          }
+        ],
+        "is_default_charging_curve": true
+      },
+      "charging_voltage": 400
+    },
+    {
+      "id": "3562e22d-8e61-4d1f-80ab-9026fad425de",
+      "type": "bev",
+      "brand": "Zeekr",
+      "brand_id": "71900a97-a91f-4b09-b78a-de7c654d41a0",
+      "model": "001",
+      "vehicle_type": "car",
+      "variant": "Long Range RWD",
+      "release_year": 2023,
+      "usable_battery_size": 94,
+      "energy_consumption": {
+        "average_consumption": 17.9
+      },
+      "ac_charger": {
+        "ports": [
+          "type2"
+        ],
+        "usable_phases": 3,
+        "max_power": 22,
+        "power_per_charging_point": {
+          "11": 11,
+          "16": 16,
+          "22": 22,
+          "43": 22,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 200,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 190
+          },
+          {
+            "percentage": 50,
+            "power": 200
+          },
+          {
+            "percentage": 80,
+            "power": 100
+          },
+          {
+            "percentage": 100,
+            "power": 40
+          }
+        ],
+        "is_default_charging_curve": true
+      },
+      "charging_voltage": 400
+    },
+    {
+      "id": "62ca6cbf-ae2f-4311-a539-784cf3aed63e",
+      "type": "bev",
+      "brand": "Zeekr",
+      "brand_id": "71900a97-a91f-4b09-b78a-de7c654d41a0",
+      "model": "001",
+      "vehicle_type": "car",
+      "variant": "Privilege AWD",
+      "release_year": 2023,
+      "usable_battery_size": 94,
+      "energy_consumption": {
+        "average_consumption": 19
+      },
+      "ac_charger": {
+        "ports": [
+          "type2"
+        ],
+        "usable_phases": 3,
+        "max_power": 22,
+        "power_per_charging_point": {
+          "11": 11,
+          "16": 16,
+          "22": 22,
+          "43": 22,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 200,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 190
+          },
+          {
+            "percentage": 50,
+            "power": 200
+          },
+          {
+            "percentage": 80,
+            "power": 100
+          },
+          {
+            "percentage": 100,
+            "power": 40
+          }
+        ],
+        "is_default_charging_curve": true
+      },
+      "charging_voltage": 400
+    },
+    {
+      "id": "2bda1788-0ea1-453b-8fac-7ea7a19a8598",
+      "type": "bev",
+      "brand": "Zeekr",
+      "brand_id": "71900a97-a91f-4b09-b78a-de7c654d41a0",
+      "model": "X",
+      "vehicle_type": "car",
+      "variant": "Long Range RWD",
+      "release_year": 2023,
+      "usable_battery_size": 64,
+      "energy_consumption": {
+        "average_consumption": 18
+      },
+      "ac_charger": {
+        "ports": [
+          "type2"
+        ],
+        "usable_phases": 3,
+        "max_power": 22,
+        "power_per_charging_point": {
+          "11": 11,
+          "16": 16,
+          "22": 22,
+          "43": 22,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 158,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 150.1
+          },
+          {
+            "percentage": 50,
+            "power": 158
+          },
+          {
+            "percentage": 80,
+            "power": 79
+          },
+          {
+            "percentage": 100,
+            "power": 31.6
+          }
+        ],
+        "is_default_charging_curve": true
+      },
+      "charging_voltage": 400
+    },
+    {
+      "id": "132d0e67-9444-4efa-a639-707bd104247a",
+      "type": "bev",
+      "brand": "Zeekr",
+      "brand_id": "71900a97-a91f-4b09-b78a-de7c654d41a0",
+      "model": "X",
+      "vehicle_type": "car",
+      "variant": "Privilege AWD",
+      "release_year": 2023,
+      "usable_battery_size": 64,
+      "energy_consumption": {
+        "average_consumption": 18.6
+      },
+      "ac_charger": {
+        "ports": [
+          "type2"
+        ],
+        "usable_phases": 3,
+        "max_power": 22,
+        "power_per_charging_point": {
+          "11": 11,
+          "16": 16,
+          "22": 22,
+          "43": 22,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 158,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 150.1
+          },
+          {
+            "percentage": 50,
+            "power": 158
+          },
+          {
+            "percentage": 80,
+            "power": 79
+          },
+          {
+            "percentage": 100,
+            "power": 31.6
+          }
+        ],
+        "is_default_charging_curve": true
+      },
+      "charging_voltage": 400
+    }
+  ]
+}

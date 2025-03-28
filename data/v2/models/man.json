@@ -1,0 +1,59 @@
+{
+  "brand_id": "8f65f3e7-430e-4c85-93fd-a70aa181fd9c",
+  "brand_name": "MAN",
+  "models": [
+    {
+      "id": "e7717ac1-90fa-4bea-9272-52afc10facc4",
+      "brand": "MAN",
+      "vehicle_type": "car",
+      "type": "bev",
+      "brand_id": "8f65f3e7-430e-4c85-93fd-a70aa181fd9c",
+      "model": "e TGE",
+      "release_year": 2020,
+      "variant": "",
+      "usable_battery_size": 35.8,
+      "ac_charger": {
+        "usable_phases": 1,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 7.2,
+        "power_per_charging_point": {
+          "11": 3.7,
+          "16": 5.4,
+          "22": 7.2,
+          "43": 7.2,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.2
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 40,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 38
+          },
+          {
+            "percentage": 75,
+            "power": 40
+          },
+          {
+            "percentage": 100,
+            "power": 7.2
+          }
+        ],
+        "is_default_charging_curve": true
+      },
+      "energy_consumption": {
+        "average_consumption": 30.9
+      },
+      "charging_voltage": 400
+    }
+  ]
+}

@@ -1,0 +1,165 @@
+{
+  "brand_id": "104f4958-a505-ab2a-f96c-9f98cd599341",
+  "brand_name": "Vinfast",
+  "models": [
+    {
+      "id": "df92dbd6-fe19-1412-55fe-1ffe68ebdcfe",
+      "brand": "Vinfast",
+      "vehicle_type": "car",
+      "type": "bev",
+      "brand_id": "104f4958-a505-ab2a-f96c-9f98cd599341",
+      "model": "VF 8",
+      "release_year": 2023,
+      "variant": "Eco Extended Range",
+      "usable_battery_size": 87.7,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 150,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 142.5
+          },
+          {
+            "percentage": 75,
+            "power": 150
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": true
+      },
+      "energy_consumption": {
+        "average_consumption": 20.6
+      },
+      "charging_voltage": 400
+    },
+    {
+      "id": "67640576-7319-a016-a026-90ebe94bd58f",
+      "brand": "Vinfast",
+      "vehicle_type": "car",
+      "type": "bev",
+      "brand_id": "104f4958-a505-ab2a-f96c-9f98cd599341",
+      "model": "VF 8",
+      "release_year": 2023,
+      "variant": "Plus Extended Range",
+      "usable_battery_size": 87.7,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 150,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 142.5
+          },
+          {
+            "percentage": 75,
+            "power": 150
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": true
+      },
+      "energy_consumption": {
+        "average_consumption": 20.6
+      },
+      "charging_voltage": 400
+    },
+    {
+      "id": "0290299d-c212-e59a-5dbc-61679056506a",
+      "brand": "Vinfast",
+      "vehicle_type": "car",
+      "type": "bev",
+      "brand_id": "104f4958-a505-ab2a-f96c-9f98cd599341",
+      "model": "VF 9",
+      "release_year": 2024,
+      "variant": "Extended Range",
+      "usable_battery_size": 123,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 170,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 161.5
+          },
+          {
+            "percentage": 75,
+            "power": 170
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": true
+      },
+      "energy_consumption": {
+        "average_consumption": 23.7
+      },
+      "charging_voltage": 400
+    }
+  ]
+}

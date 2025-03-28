@@ -1,0 +1,59 @@
+{
+  "brand_id": "24199511-376f-cc42-0cce-5662566baa1a",
+  "brand_name": "Lucid",
+  "models": [
+    {
+      "id": "90ee193e-f285-7c4e-90ab-ec2779b13e7f",
+      "brand": "Lucid",
+      "vehicle_type": "car",
+      "type": "bev",
+      "brand_id": "24199511-376f-cc42-0cce-5662566baa1a",
+      "model": "Air",
+      "release_year": 2022,
+      "variant": "Dream Edition R",
+      "usable_battery_size": 118,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 22,
+        "power_per_charging_point": {
+          "11": 11.1,
+          "16": 16.2,
+          "22": 22,
+          "43": 22,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 300,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 285
+          },
+          {
+            "percentage": 75,
+            "power": 300
+          },
+          {
+            "percentage": 100,
+            "power": 22
+          }
+        ],
+        "is_default_charging_curve": true
+      },
+      "energy_consumption": {
+        "average_consumption": 17
+      },
+      "charging_voltage": 400
+    }
+  ]
+}

@@ -1,0 +1,235 @@
+{
+  "brand_id": "cbca5847-9b23-47d9-80d3-24fa9a8ca21a",
+  "brand_name": "Chevrolet",
+  "models": [
+    {
+      "id": "b8a76fa8-97f1-4f27-8f9f-80f26df230d1",
+      "brand": "Chevrolet",
+      "vehicle_type": "car",
+      "type": "bev",
+      "brand_id": "cbca5847-9b23-47d9-80d3-24fa9a8ca21a",
+      "model": "Bolt",
+      "release_year": 2017,
+      "variant": "60 kWh",
+      "usable_battery_size": 58,
+      "ac_charger": {
+        "usable_phases": 2,
+        "ports": [
+          "type1",
+          "type2"
+        ],
+        "max_power": 7.2,
+        "power_per_charging_point": {
+          "11": 7.2,
+          "16": 7.2,
+          "22": 7.2,
+          "43": 7.2,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.2
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 55,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 55
+          },
+          {
+            "percentage": 56,
+            "power": 38
+          },
+          {
+            "percentage": 68,
+            "power": 24
+          },
+          {
+            "percentage": 85,
+            "power": 16
+          },
+          {
+            "percentage": 100,
+            "power": 7
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "energy_consumption": {
+        "average_consumption": 12.9
+      },
+      "charging_voltage": 400
+    },
+    {
+      "id": "36f83e57-b697-66f0-2ba4-693e6f9d91ef",
+      "brand": "Chevrolet",
+      "vehicle_type": "car",
+      "type": "bev",
+      "brand_id": "cbca5847-9b23-47d9-80d3-24fa9a8ca21a",
+      "model": "Bolt",
+      "release_year": 2020,
+      "variant": "66 kWh",
+      "usable_battery_size": 66,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type1"
+        ],
+        "max_power": 7.2,
+        "power_per_charging_point": {
+          "11": 7.2,
+          "16": 7.2,
+          "22": 7.2,
+          "43": 7.2,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.2
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 55,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 55
+          },
+          {
+            "percentage": 56,
+            "power": 38
+          },
+          {
+            "percentage": 68,
+            "power": 24
+          },
+          {
+            "percentage": 85,
+            "power": 16
+          },
+          {
+            "percentage": 100,
+            "power": 7
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "energy_consumption": {
+        "average_consumption": 12.9
+      },
+      "charging_voltage": 400
+    },
+    {
+      "id": "6a4c5e58-d1cb-49ad-a1cf-c0025fb7246f",
+      "brand": "Chevrolet",
+      "vehicle_type": "car",
+      "type": "bev",
+      "brand_id": "cbca5847-9b23-47d9-80d3-24fa9a8ca21a",
+      "model": "Spark EV",
+      "release_year": 2015,
+      "variant": "19 kWh",
+      "usable_battery_size": 19,
+      "ac_charger": {
+        "usable_phases": 1,
+        "ports": [
+          "type1"
+        ],
+        "max_power": 3.3,
+        "power_per_charging_point": {
+          "11": 3.3,
+          "16": 3.3,
+          "22": 3.3,
+          "43": 3.3,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.3,
+          "7.4": 3.3
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 50,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 47.5
+          },
+          {
+            "percentage": 75,
+            "power": 50
+          },
+          {
+            "percentage": 100,
+            "power": 3.3
+          }
+        ],
+        "is_default_charging_curve": true
+      },
+      "energy_consumption": {
+        "average_consumption": 14
+      },
+      "charging_voltage": 400
+    },
+    {
+      "id": "7508892b-e7e7-42ba-9cca-57753426cd86",
+      "brand": "Chevrolet",
+      "vehicle_type": "car",
+      "type": "bev",
+      "brand_id": "cbca5847-9b23-47d9-80d3-24fa9a8ca21a",
+      "model": "Spark EV",
+      "release_year": 2013,
+      "variant": "21 kWh",
+      "usable_battery_size": 21.3,
+      "ac_charger": {
+        "usable_phases": 1,
+        "ports": [
+          "type1"
+        ],
+        "max_power": 3.3,
+        "power_per_charging_point": {
+          "11": 3.3,
+          "16": 3.3,
+          "22": 3.3,
+          "43": 3.3,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.3,
+          "7.4": 3.3
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 50,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 47.5
+          },
+          {
+            "percentage": 75,
+            "power": 50
+          },
+          {
+            "percentage": 100,
+            "power": 3.3
+          }
+        ],
+        "is_default_charging_curve": true
+      },
+      "energy_consumption": {
+        "average_consumption": 16
+      },
+      "charging_voltage": 400
+    }
+  ]
+}

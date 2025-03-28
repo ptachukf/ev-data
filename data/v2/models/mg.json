@@ -1,0 +1,665 @@
+{
+  "brand_id": "5663b87a-d940-4bab-9846-d74c8c0ae260",
+  "brand_name": "MG",
+  "models": [
+    {
+      "id": "1027bba7-b3fe-c11c-2af6-afba3eb1b378",
+      "brand": "MG",
+      "vehicle_type": "car",
+      "type": "bev",
+      "brand_id": "5663b87a-d940-4bab-9846-d74c8c0ae260",
+      "model": "MG4 EV",
+      "release_year": 2023,
+      "variant": "77 kWh",
+      "usable_battery_size": 74.4,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 144,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 136.8
+          },
+          {
+            "percentage": 75,
+            "power": 144
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": true
+      },
+      "energy_consumption": {
+        "average_consumption": 17.5
+      },
+      "charging_voltage": 400
+    },
+    {
+      "id": "3eeb9402-b4af-2db7-6c0a-93490753db61",
+      "brand": "MG",
+      "vehicle_type": "car",
+      "type": "bev",
+      "brand_id": "5663b87a-d940-4bab-9846-d74c8c0ae260",
+      "model": "MG4 EV",
+      "release_year": 2022,
+      "variant": "Long Range",
+      "usable_battery_size": 61.7,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 135,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 128.3
+          },
+          {
+            "percentage": 75,
+            "power": 135
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": true
+      },
+      "energy_consumption": {
+        "average_consumption": 16.9
+      },
+      "charging_voltage": 400
+    },
+    {
+      "id": "c9ee14b6-1c4d-1286-dfba-037b02df7033",
+      "brand": "MG",
+      "vehicle_type": "car",
+      "type": "bev",
+      "brand_id": "5663b87a-d940-4bab-9846-d74c8c0ae260",
+      "model": "MG4 EV",
+      "release_year": 2022,
+      "variant": "Standard Range",
+      "usable_battery_size": 50.8,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 6.6,
+        "power_per_charging_point": {
+          "11": 6.6,
+          "16": 6.6,
+          "22": 6.6,
+          "43": 6.6,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 6.6
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 117,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 111.2
+          },
+          {
+            "percentage": 75,
+            "power": 117
+          },
+          {
+            "percentage": 100,
+            "power": 6.6
+          }
+        ],
+        "is_default_charging_curve": true
+      },
+      "energy_consumption": {
+        "average_consumption": 16.9
+      },
+      "charging_voltage": 400
+    },
+    {
+      "id": "7216348a-c522-65d8-6240-6d70af08a832",
+      "brand": "MG",
+      "vehicle_type": "car",
+      "type": "bev",
+      "brand_id": "5663b87a-d940-4bab-9846-d74c8c0ae260",
+      "model": "MG4 EV",
+      "release_year": 2023,
+      "variant": "XPOWER",
+      "usable_battery_size": 61.7,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 140,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 133
+          },
+          {
+            "percentage": 75,
+            "power": 140
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": true
+      },
+      "energy_consumption": {
+        "average_consumption": 19.3
+      },
+      "charging_voltage": 400
+    },
+    {
+      "id": "c1fda7bf-9307-03c9-86c1-0350de0994cb",
+      "brand": "MG",
+      "vehicle_type": "car",
+      "type": "bev",
+      "brand_id": "5663b87a-d940-4bab-9846-d74c8c0ae260",
+      "model": "MG5 EV",
+      "release_year": 2020,
+      "variant": "",
+      "usable_battery_size": 48.8,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 6.6,
+        "power_per_charging_point": {
+          "11": 6.6,
+          "16": 6.6,
+          "22": 6.6,
+          "43": 6.6,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 6.6
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 80,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 70
+          },
+          {
+            "percentage": 10,
+            "power": 80
+          },
+          {
+            "percentage": 20,
+            "power": 70
+          },
+          {
+            "percentage": 80,
+            "power": 55
+          },
+          {
+            "percentage": 83,
+            "power": 18
+          },
+          {
+            "percentage": 90,
+            "power": 18
+          },
+          {
+            "percentage": 100,
+            "power": 6.6
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "energy_consumption": {
+        "average_consumption": 16.5
+      },
+      "charging_voltage": 400
+    },
+    {
+      "id": "188ee036-2a8a-92df-a3da-c4b17e50b3ab",
+      "brand": "MG",
+      "vehicle_type": "car",
+      "type": "bev",
+      "brand_id": "5663b87a-d940-4bab-9846-d74c8c0ae260",
+      "model": "MG5 EV",
+      "release_year": 2022,
+      "variant": "Long Range",
+      "usable_battery_size": 57,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 80,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 70
+          },
+          {
+            "percentage": 10,
+            "power": 80
+          },
+          {
+            "percentage": 20,
+            "power": 70
+          },
+          {
+            "percentage": 80,
+            "power": 55
+          },
+          {
+            "percentage": 83,
+            "power": 18
+          },
+          {
+            "percentage": 90,
+            "power": 18
+          },
+          {
+            "percentage": 100,
+            "power": 6.6
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "energy_consumption": {
+        "average_consumption": 17.5
+      },
+      "charging_voltage": 400
+    },
+    {
+      "id": "933da078-3837-2c26-4827-113279f07952",
+      "brand": "MG",
+      "vehicle_type": "car",
+      "type": "bev",
+      "brand_id": "5663b87a-d940-4bab-9846-d74c8c0ae260",
+      "model": "Marvel R",
+      "release_year": 2021,
+      "variant": "",
+      "usable_battery_size": 65,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 94,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 89.3
+          },
+          {
+            "percentage": 75,
+            "power": 94
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": true
+      },
+      "energy_consumption": {
+        "average_consumption": 19.1
+      },
+      "charging_voltage": 400
+    },
+    {
+      "id": "7d16f3cc-37cb-344a-cfd7-a08f4fc596f0",
+      "brand": "MG",
+      "vehicle_type": "car",
+      "type": "bev",
+      "brand_id": "5663b87a-d940-4bab-9846-d74c8c0ae260",
+      "model": "Marvel R",
+      "release_year": 2021,
+      "variant": "Performance",
+      "usable_battery_size": 65,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 94,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 89.3
+          },
+          {
+            "percentage": 75,
+            "power": 94
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": true
+      },
+      "energy_consumption": {
+        "average_consumption": 19.7
+      },
+      "charging_voltage": 400
+    },
+    {
+      "id": "7da9d7cf-332c-fea0-2876-fb81f47933b2",
+      "brand": "MG",
+      "vehicle_type": "car",
+      "type": "bev",
+      "brand_id": "5663b87a-d940-4bab-9846-d74c8c0ae260",
+      "model": "ZS EV",
+      "release_year": 2022,
+      "variant": "",
+      "usable_battery_size": 69.9,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 94,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 75
+          },
+          {
+            "percentage": 5,
+            "power": 85
+          },
+          {
+            "percentage": 45,
+            "power": 94
+          },
+          {
+            "percentage": 46,
+            "power": 75
+          },
+          {
+            "percentage": 60,
+            "power": 78
+          },
+          {
+            "percentage": 75,
+            "power": 60
+          },
+          {
+            "percentage": 83,
+            "power": 60
+          },
+          {
+            "percentage": 85,
+            "power": 25
+          },
+          {
+            "percentage": 90,
+            "power": 25
+          },
+          {
+            "percentage": 100,
+            "power": 6
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "energy_consumption": {
+        "average_consumption": 18.5
+      },
+      "charging_voltage": 400
+    },
+    {
+      "id": "567edd8d-f8de-8c8e-c3ed-6f46598a2393",
+      "brand": "MG",
+      "vehicle_type": "car",
+      "type": "bev",
+      "brand_id": "5663b87a-d940-4bab-9846-d74c8c0ae260",
+      "model": "ZS EV",
+      "release_year": 2020,
+      "variant": "Long Range",
+      "usable_battery_size": 68.3,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 76,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 72.2
+          },
+          {
+            "percentage": 75,
+            "power": 76
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": true
+      },
+      "energy_consumption": {
+        "average_consumption": 18.5
+      },
+      "charging_voltage": 400
+    },
+    {
+      "id": "8b0195b6-5318-46d9-a6fd-1b5f75e8b495",
+      "brand": "MG",
+      "vehicle_type": "car",
+      "type": "bev",
+      "brand_id": "5663b87a-d940-4bab-9846-d74c8c0ae260",
+      "model": "ZS EV",
+      "release_year": 2020,
+      "variant": "Standard Range",
+      "usable_battery_size": 48,
+      "ac_charger": {
+        "usable_phases": 1,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 6.6,
+        "power_per_charging_point": {
+          "11": 3.7,
+          "16": 5.4,
+          "22": 6.6,
+          "43": 6.6,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 6.6
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 80,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 70
+          },
+          {
+            "percentage": 10,
+            "power": 80
+          },
+          {
+            "percentage": 20,
+            "power": 70
+          },
+          {
+            "percentage": 80,
+            "power": 55
+          },
+          {
+            "percentage": 83,
+            "power": 18
+          },
+          {
+            "percentage": 90,
+            "power": 18
+          },
+          {
+            "percentage": 100,
+            "power": 6.6
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "energy_consumption": {
+        "average_consumption": 18.5
+      },
+      "charging_voltage": 400
+    }
+  ]
+}

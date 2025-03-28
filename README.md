@@ -4,7 +4,7 @@
 [![Sponsor](https://img.shields.io/github/sponsors/KilowattApp?label=Sponsor&logo=GitHub)](https://github.com/sponsors/KilowattApp)
 [![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=flat&logo=buy-me-a-coffee&logoColor=black)](https://www.buymeacoffee.com/xoCRGwybBs)
 
-Open Dataset of Electric Vehicles and their specs.
+A comprehensive database of electric vehicle specifications, focusing on charging capabilities and energy consumption.
 
 In contrast to ICE cars, electric vehicles have very different behaviors in terms of charging and charging speed. Having reliable data about a car is key for developing EV-related applications.
 
@@ -20,30 +20,40 @@ data if you need it!
 
 [You can also search through our data set!](https://kilowattapp.github.io/open-ev-data/search).
 
-* ID: Random UUID
-* Brand
-* Vehicle Type (car, motorbike)
-* Model
-* Release Year: Mainly to distinquish models with the same name.
-* Variant: Bigger battery, optional faster on-board charger etc.
-* Usable Battery Size: in kWh
-* Average Energy Consumption: in kWh/100km
-* Voltage architecture: 400v or 800v charging
-* AC Charger: Details about the on-board charger.
-  * Usable Phases: No. of usable phases for AC charging. Allowed values: 1,2,3
-  * Ports: Allowed values: `type1`, `type2`
-  * Max Power: in kW
-* DC Charger: `null` if the car doesn't support DC charging
-  * Ports: Allowed values: `ccs`, `chademo`, `tesla_suc`, `tesla_ccs`
-  * Max Power: in kW
-  * Charging Curve: Simplified charging behaviour based on various charging
-    curve charts (e.g. Fastned). If no charging curve data is available, the
-    default curve is assumed to be: 0%: 95% of max. DC power, 75%: max. DC
-    power, 100%: max. AC power.
-    * percentage: Charging level of battery in percentage
-    * power: in kW
-  * Is Default Charging Curve: `true` if the charging curve is based on the
-    default curve instead of real measured data.
+## Data Formats
+
+### V1 Format (Legacy)
+
+The original format is available in `data/ev-data.json`. This single file contains all vehicle and brand information.
+
+### V2 Format (Current)
+
+The current format splits the data into multiple files for better maintainability. See [V2 Format Documentation](data/v2/README.md) for details.
+
+## Data Structure
+
+Each vehicle entry contains:
+
+- Basic information (brand, model, variant, release year)
+- Battery specifications
+- AC charging capabilities
+- DC charging capabilities (optional)
+- Energy consumption data
+
+## Validation
+
+The data is validated using Ruby-based validators that ensure:
+
+- Data integrity and consistency
+- Valid charging specifications
+- Correct relationships between brands and vehicles
+- Proper UUID formats
+- Valid charging curves and power levels
+
+## Scripts
+
+- `scripts/update_meta.rb`: Updates meta information in the v2 format
+- `scripts/split_data.rb`: Converts data from v1 to v2 format
 
 ## Change Requests
 
@@ -66,8 +76,8 @@ This dataset is released under the MIT License with Attribution Requirement. Thi
 
 When using this dataset in your project, you must include a clear and visible attribution to "[Open EV Data](https://github.com/KilowattApp/open-ev-data)" in one of the following locations:
 
-* About page or section
-* Documentation
-* README file
+- About page or section
+- Documentation
+- README file
 
 See the [LICENSE](LICENSE) file for the complete terms.

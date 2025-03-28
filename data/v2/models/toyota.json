@@ -1,0 +1,176 @@
+{
+  "brand_id": "b586dda4-a6ba-54e4-ee6d-9d6a098d4751",
+  "brand_name": "Toyota",
+  "models": [
+    {
+      "id": "dbb8a458-92bd-84df-a3a6-34606b2dab50",
+      "brand": "Toyota",
+      "vehicle_type": "car",
+      "type": "bev",
+      "brand_id": "b586dda4-a6ba-54e4-ee6d-9d6a098d4751",
+      "model": "ProAce City Electric",
+      "release_year": 2021,
+      "variant": "50 kWh",
+      "usable_battery_size": 45,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 100,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 100
+          },
+          {
+            "percentage": 30,
+            "power": 97
+          },
+          {
+            "percentage": 32,
+            "power": 78
+          },
+          {
+            "percentage": 58,
+            "power": 78
+          },
+          {
+            "percentage": 59,
+            "power": 60
+          },
+          {
+            "percentage": 66,
+            "power": 60
+          },
+          {
+            "percentage": 68,
+            "power": 55
+          },
+          {
+            "percentage": 78,
+            "power": 55
+          },
+          {
+            "percentage": 80,
+            "power": 27
+          },
+          {
+            "percentage": 90,
+            "power": 27
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "energy_consumption": {
+        "average_consumption": 22.5
+      },
+      "charging_voltage": 400
+    },
+    {
+      "id": "26c992bd-03f9-46d7-5bc4-7e478c23aa47",
+      "brand": "Toyota",
+      "vehicle_type": "car",
+      "type": "bev",
+      "brand_id": "b586dda4-a6ba-54e4-ee6d-9d6a098d4751",
+      "model": "ProAce Electric",
+      "release_year": 2021,
+      "variant": "50 kWh",
+      "usable_battery_size": 45,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 100,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 100
+          },
+          {
+            "percentage": 30,
+            "power": 97
+          },
+          {
+            "percentage": 32,
+            "power": 78
+          },
+          {
+            "percentage": 58,
+            "power": 78
+          },
+          {
+            "percentage": 59,
+            "power": 60
+          },
+          {
+            "percentage": 66,
+            "power": 60
+          },
+          {
+            "percentage": 68,
+            "power": 55
+          },
+          {
+            "percentage": 78,
+            "power": 55
+          },
+          {
+            "percentage": 80,
+            "power": 27
+          },
+          {
+            "percentage": 90,
+            "power": 27
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "energy_consumption": {
+        "average_consumption": 22
+      },
+      "charging_voltage": 400
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "brand_id": "171a1e6d-8cbc-41a9-a8bb-e05b7ee98889",
+  "brand_name": "Maxus",
+  "models": [
+    {
+      "id": "2ae110f8-8906-4b03-b4bc-83e5577c1cc1",
+      "brand": "Maxus",
+      "vehicle_type": "car",
+      "type": "bev",
+      "brand_id": "171a1e6d-8cbc-41a9-a8bb-e05b7ee98889",
+      "model": "EV80",
+      "release_year": 2018,
+      "variant": "",
+      "usable_battery_size": 56,
+      "ac_charger": {
+        "usable_phases": 2,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 6.6,
+        "power_per_charging_point": {
+          "11": 6.6,
+          "16": 6.6,
+          "22": 6.6,
+          "43": 6.6,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 6.6
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 28,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 26.6
+          },
+          {
+            "percentage": 75,
+            "power": 28
+          },
+          {
+            "percentage": 100,
+            "power": 6.6
+          }
+        ],
+        "is_default_charging_curve": true
+      },
+      "energy_consumption": {
+        "average_consumption": 35
+      },
+      "charging_voltage": 400
+    }
+  ]
+}

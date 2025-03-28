@@ -1,0 +1,250 @@
+{
+  "brand_id": "3291e5ba-862c-49fa-8437-71105743875e",
+  "brand_name": "Fiat",
+  "models": [
+    {
+      "id": "53f0d524-01bf-dace-0553-897eef13cb0c",
+      "brand": "Fiat",
+      "vehicle_type": "car",
+      "type": "bev",
+      "brand_id": "3291e5ba-862c-49fa-8437-71105743875e",
+      "model": "500e",
+      "release_year": 2013,
+      "variant": "",
+      "usable_battery_size": 21.3,
+      "ac_charger": {
+        "usable_phases": 1,
+        "ports": [
+          "type1"
+        ],
+        "max_power": 6.6,
+        "power_per_charging_point": {
+          "11": 3.7,
+          "16": 5.4,
+          "22": 6.6,
+          "43": 6.6,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 6.6
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 40,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 38
+          },
+          {
+            "percentage": 75,
+            "power": 40
+          },
+          {
+            "percentage": 100,
+            "power": 6.6
+          }
+        ],
+        "is_default_charging_curve": true
+      },
+      "energy_consumption": {
+        "average_consumption": 13.5
+      },
+      "charging_voltage": 400
+    },
+    {
+      "id": "2f2b159b-9b03-450f-9818-c139323d1735",
+      "brand": "Fiat",
+      "vehicle_type": "car",
+      "type": "bev",
+      "brand_id": "3291e5ba-862c-49fa-8437-71105743875e",
+      "model": "500e",
+      "release_year": 2021,
+      "variant": "Berlina 25 kWh",
+      "usable_battery_size": 21.3,
+      "ac_charger": {
+        "usable_phases": 1,
+        "ports": [
+          "type1"
+        ],
+        "max_power": 6.6,
+        "power_per_charging_point": {
+          "11": 3.7,
+          "16": 5.4,
+          "22": 6.6,
+          "43": 6.6,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 6.6
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 50,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 30
+          },
+          {
+            "percentage": 10,
+            "power": 50
+          },
+          {
+            "percentage": 80,
+            "power": 50
+          },
+          {
+            "percentage": 100,
+            "power": 6.6
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "energy_consumption": {
+        "average_consumption": 15.8
+      },
+      "charging_voltage": 400
+    },
+    {
+      "id": "22f521ce-42ca-40d7-bfdb-5d33b1bd9cbe",
+      "brand": "Fiat",
+      "vehicle_type": "car",
+      "type": "bev",
+      "brand_id": "3291e5ba-862c-49fa-8437-71105743875e",
+      "model": "500e",
+      "release_year": 2020,
+      "variant": "Berlina 42 kWh",
+      "usable_battery_size": 37.3,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 85,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 75
+          },
+          {
+            "percentage": 10,
+            "power": 75
+          },
+          {
+            "percentage": 20,
+            "power": 85
+          },
+          {
+            "percentage": 35,
+            "power": 80
+          },
+          {
+            "percentage": 40,
+            "power": 60
+          },
+          {
+            "percentage": 55,
+            "power": 60
+          },
+          {
+            "percentage": 60,
+            "power": 52
+          },
+          {
+            "percentage": 85,
+            "power": 45
+          },
+          {
+            "percentage": 90,
+            "power": 12
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "energy_consumption": {
+        "average_consumption": 15.9
+      },
+      "charging_voltage": 400
+    },
+    {
+      "id": "55dcbaf7-e28f-254c-9b39-409b5fdd8947",
+      "brand": "Fiat",
+      "vehicle_type": "car",
+      "type": "bev",
+      "brand_id": "3291e5ba-862c-49fa-8437-71105743875e",
+      "model": "600e",
+      "release_year": 2023,
+      "variant": "",
+      "usable_battery_size": 50.8,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 100,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 95
+          },
+          {
+            "percentage": 75,
+            "power": 100
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": true
+      },
+      "energy_consumption": {
+        "average_consumption": 16.7
+      },
+      "charging_voltage": 400
+    }
+  ]
+}

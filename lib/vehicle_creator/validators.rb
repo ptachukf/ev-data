@@ -5,7 +5,9 @@ module Validators
     end
 
     def valid_model_name?(name)
-      name.is_a?(String) && !name.empty?
+      return false unless name.is_a?(String)
+      return false if name.empty?
+      true
     end
 
     def valid_year?(year)
@@ -100,6 +102,41 @@ module Validators
         valid_dc_charger?(data["dc_charger"])
     end
 
+    def valid_uuid?(uuid)
+      uuid_regex = /^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i
+      uuid_regex.match?(uuid)
+    end
+
+    def validate_vehicle_base(vehicle)
+      errors = []
+      
+      required_fields = {
+        "id" => ->(v) { v.is_a?(String) && valid_uuid?(v) },
+        "type" => ->(v) { v == "bev" },
+        "brand" => ->(v) { v.is_a?(String) && !v.empty? },
+        "brand_id" => ->(v) { v.is_a?(String) && valid_uuid?(v) },
+        "model" => ->(v) { v.is_a?(String) && valid_model_name?(v) },
+        "vehicle_type" => ->(v) { ["car", "motorbike", "microcar"].include?(v) },
+        "variant" => ->(v) { v.is_a?(String) },
+        "release_year" => ->(v) { v.is_a?(Integer) && v.between?(2010, Time.now.year + 1) },
+        "usable_battery_size" => ->(v) { v.is_a?(Numeric) && v.positive? },
+        "charging_voltage" => ->(v) { [48, 400, 800].include?(v) }
+      }
+
+      required_fields.each do |field, validator|
+        unless vehicle.key?(field)
+          errors << "Vehicle #{vehicle['brand']} #{vehicle['model']} is missing required field: #{field}"
+          next
+        end
+
+        unless validator.call(vehicle[field])
+          errors << "Vehicle #{vehicle['brand']} #{vehicle['model']} has invalid #{field}: #{vehicle[field].inspect}"
+        end
+      end
+
+      errors
+    end
+
     private
 
     def valid_ac_charger?(charger)
@@ -134,56 +171,99 @@ module Validators
     include ClassMethods
   end
 
-  class ChargingValidator
-    def self.validate_charging_details(details)
+  module ChargingValidator
+    def self.validate_charging_details(data)
       errors = []
       
-      # AC charging validation
-      if details["ac_charger"]
-        errors.concat(validate_ac_charging(details["ac_charger"]))
+      if ac_charger = data['ac_charger']
+        errors.concat(validate_ac_charger(ac_charger))
       else
         errors << "AC charger details are required"
       end
-
-      # DC charging validation (optional)
-      if details["dc_charger"]
-        errors.concat(validate_dc_charging(details["dc_charger"]))
+      
+      if dc_charger = data['dc_charger']
+        errors.concat(validate_dc_charger(dc_charger))
       end
-
+      
       errors
     end
 
-    private
-
-    def self.validate_ac_charging(ac_charger)
+    def self.validate_ac_charger(ac_charger)
       errors = []
       
-      # Validate ports array exists (but can be empty)
-      unless ac_charger["ports"].is_a?(Array)
+      # Validate ports array
+      unless ac_charger['ports'].is_a?(Array)
         errors << "AC ports must be an array"
       end
 
-      # Validate other AC charging fields
-      errors << "AC power must be positive" unless ac_charger["max_power"].positive?
-      errors << "AC phases must be between 1 and 3" unless (1..3).include?(ac_charger["usable_phases"])
+      # Validate usable phases
+      unless ac_charger['usable_phases'].is_a?(Integer) && (1..3).include?(ac_charger['usable_phases'])
+        errors << "AC phases must be between 1 and 3"
+      end
+
+      # Validate max power
+      unless ac_charger['max_power'].is_a?(Numeric) && ac_charger['max_power'].positive?
+        errors << "AC power must be positive"
+      end
+
+      # Validate power per charging point
+      if points = ac_charger['power_per_charging_point']
+        unless points.is_a?(Hash) && points.values.all? { |v| v.is_a?(Numeric) && v.positive? }
+          errors << "Invalid power per charging point structure"
+        end
+
+        # Validate required power points
+        required_points = ["2.0", "2.3", "3.7", "7.4", "11", "16", "22", "43"]
+        missing_points = required_points - points.keys
+        unless missing_points.empty?
+          errors << "Missing required power points: #{missing_points.join(', ')}"
+        end
+
+        # Validate power values
+        points.each do |point, power|
+          unless power <= ac_charger['max_power']
+            errors << "Power point #{point} exceeds max power"
+          end
+        end
+      else
+        errors << "Missing power per charging point"
+      end
 
       errors
     end
 
-    def self.validate_dc_charging(dc_charger)
+    def self.validate_dc_charger(dc_charger)
       errors = []
       
-      # Validate ports
-      unless dc_charger["ports"].is_a?(Array)
+      # Validate ports array
+      unless dc_charger['ports'].is_a?(Array)
         errors << "DC ports must be an array"
-        return errors
       end
 
-      errors << "DC ports cannot be empty when DC charging exists" if dc_charger["ports"].empty?
-      errors << "DC power must be positive" unless dc_charger["max_power"].positive?
+      if dc_charger['ports'].empty?
+        errors << "DC ports cannot be empty when DC charging exists"
+      end
 
-      if dc_charger["charging_curve"]
-        errors.concat(validate_charging_curve(dc_charger["charging_curve"], dc_charger["max_power"]))
+      # Validate max power
+      unless dc_charger['max_power'].is_a?(Numeric) && dc_charger['max_power'].positive?
+        errors << "DC power must be positive"
+      end
+
+      # Validate charging curve if present
+      if curve = dc_charger['charging_curve']
+        unless curve.is_a?(Array)
+          errors << "Charging curve must be an array"
+        end
+
+        curve.each do |point|
+          unless point['percentage'].is_a?(Numeric) && point['percentage'].between?(0, 100)
+            errors << "Invalid charging curve percentage: #{point['percentage']}"
+          end
+
+          unless point['power'].is_a?(Numeric) && point['power'].positive? && point['power'] <= dc_charger['max_power']
+            errors << "Invalid charging curve power: #{point['power']}"
+          end
+        end
       end
 
       errors

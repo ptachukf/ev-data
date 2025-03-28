@@ -1,0 +1,59 @@
+{
+  "brand_id": "9bb828a8-dc16-5090-42f3-2d26b2245f1f",
+  "brand_name": "Lexus",
+  "models": [
+    {
+      "id": "ed264f4c-a42d-3d6e-bc8f-c098261d4721",
+      "brand": "Lexus",
+      "vehicle_type": "car",
+      "type": "bev",
+      "brand_id": "9bb828a8-dc16-5090-42f3-2d26b2245f1f",
+      "model": "RZ 450e",
+      "release_year": 2022,
+      "variant": "",
+      "usable_battery_size": 71.4,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 150,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 142.5
+          },
+          {
+            "percentage": 75,
+            "power": 150
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": true
+      },
+      "energy_consumption": {
+        "average_consumption": 19.6
+      },
+      "charging_voltage": 400
+    }
+  ]
+}

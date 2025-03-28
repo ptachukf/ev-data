@@ -1,0 +1,950 @@
+{
+  "brand_id": "3337d5f0-39de-4ded-831b-843dfec1ebbd",
+  "brand_name": "Kia",
+  "models": [
+    {
+      "id": "776644a5-1ec8-cb13-92d1-ac9d10c36826",
+      "brand": "Kia",
+      "vehicle_type": "car",
+      "type": "bev",
+      "brand_id": "3337d5f0-39de-4ded-831b-843dfec1ebbd",
+      "model": "EV6",
+      "release_year": 2021,
+      "variant": "Long Range 2WD",
+      "usable_battery_size": 77.4,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 250,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 237.5
+          },
+          {
+            "percentage": 75,
+            "power": 250
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": true
+      },
+      "energy_consumption": {
+        "average_consumption": 18.5
+      },
+      "charging_voltage": 800
+    },
+    {
+      "id": "9b0481fc-60cf-5975-6eb2-ce03cd7bc5f8",
+      "brand": "Kia",
+      "vehicle_type": "car",
+      "type": "bev",
+      "brand_id": "3337d5f0-39de-4ded-831b-843dfec1ebbd",
+      "model": "EV6",
+      "release_year": 2021,
+      "variant": "Standard Range 2WD",
+      "usable_battery_size": 58,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 175,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 166.3
+          },
+          {
+            "percentage": 75,
+            "power": 175
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": true
+      },
+      "energy_consumption": {
+        "average_consumption": 17.3
+      },
+      "charging_voltage": 800
+    },
+    {
+      "id": "583ea81e-83f7-8f60-4b80-ba128a937ad0",
+      "brand": "Kia",
+      "vehicle_type": "car",
+      "type": "bev",
+      "brand_id": "3337d5f0-39de-4ded-831b-843dfec1ebbd",
+      "model": "EV9",
+      "release_year": 2023,
+      "variant": "99.8 kWh AWD",
+      "usable_battery_size": 96,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 210,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 199.5
+          },
+          {
+            "percentage": 75,
+            "power": 210
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": true
+      },
+      "energy_consumption": {
+        "average_consumption": 22.6
+      },
+      "charging_voltage": 800
+    },
+    {
+      "id": "c4cb4ee0-da24-03fd-41e6-9909394617a5",
+      "brand": "Kia",
+      "vehicle_type": "car",
+      "type": "bev",
+      "brand_id": "3337d5f0-39de-4ded-831b-843dfec1ebbd",
+      "model": "EV9",
+      "release_year": 2023,
+      "variant": "99.8 kWh RWD",
+      "usable_battery_size": 96,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 210,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 199.5
+          },
+          {
+            "percentage": 75,
+            "power": 210
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": true
+      },
+      "energy_consumption": {
+        "average_consumption": 21.3
+      },
+      "charging_voltage": 800
+    },
+    {
+      "id": "dad75b07-de13-5499-0bc1-94ab78021f46",
+      "brand": "Kia",
+      "vehicle_type": "car",
+      "type": "bev",
+      "brand_id": "3337d5f0-39de-4ded-831b-843dfec1ebbd",
+      "model": "EV9",
+      "release_year": 2023,
+      "variant": "AWD GT-Line",
+      "usable_battery_size": 95,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 240,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 228
+          },
+          {
+            "percentage": 75,
+            "power": 240
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": true
+      },
+      "energy_consumption": {
+        "average_consumption": 22.9
+      },
+      "charging_voltage": 800
+    },
+    {
+      "id": "bc318a9b-d468-c4f5-17d2-09ad143e453a",
+      "brand": "Kia",
+      "vehicle_type": "car",
+      "type": "bev",
+      "brand_id": "3337d5f0-39de-4ded-831b-843dfec1ebbd",
+      "model": "Niro EV",
+      "release_year": 2022,
+      "variant": "",
+      "usable_battery_size": 68.4,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 80,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 76
+          },
+          {
+            "percentage": 75,
+            "power": 80
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": true
+      },
+      "energy_consumption": {
+        "average_consumption": 17.1
+      },
+      "charging_voltage": 400
+    },
+    {
+      "id": "add28704-7b59-474d-bfa6-2338e54ccaef",
+      "brand": "Kia",
+      "vehicle_type": "car",
+      "type": "bev",
+      "brand_id": "3337d5f0-39de-4ded-831b-843dfec1ebbd",
+      "model": "Soul",
+      "release_year": 2014,
+      "variant": "27 kWh",
+      "usable_battery_size": 27,
+      "ac_charger": {
+        "usable_phases": 1,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 6.6,
+        "power_per_charging_point": {
+          "11": 3.7,
+          "16": 5.4,
+          "22": 6.6,
+          "43": 6.6,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 6.6
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "chademo"
+        ],
+        "max_power": 50,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 47.5
+          },
+          {
+            "percentage": 75,
+            "power": 50
+          },
+          {
+            "percentage": 100,
+            "power": 6.6
+          }
+        ],
+        "is_default_charging_curve": true
+      },
+      "energy_consumption": {
+        "average_consumption": 17.6
+      },
+      "charging_voltage": 400
+    },
+    {
+      "id": "5e1746c9-56a2-4fb9-8a76-b75c95a037ee",
+      "brand": "Kia",
+      "vehicle_type": "car",
+      "type": "bev",
+      "brand_id": "3337d5f0-39de-4ded-831b-843dfec1ebbd",
+      "model": "Soul",
+      "release_year": 2014,
+      "variant": "30 kWh",
+      "usable_battery_size": 30,
+      "ac_charger": {
+        "usable_phases": 1,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 6.6,
+        "power_per_charging_point": {
+          "11": 3.7,
+          "16": 5.4,
+          "22": 6.6,
+          "43": 6.6,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 6.6
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "chademo"
+        ],
+        "max_power": 50,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 47.5
+          },
+          {
+            "percentage": 75,
+            "power": 50
+          },
+          {
+            "percentage": 100,
+            "power": 6.6
+          }
+        ],
+        "is_default_charging_curve": true
+      },
+      "energy_consumption": {
+        "average_consumption": 17.6
+      },
+      "charging_voltage": 400
+    },
+    {
+      "id": "66cb7bea-24b7-458f-ae3e-11d4a852568b",
+      "brand": "Kia",
+      "vehicle_type": "car",
+      "type": "bev",
+      "brand_id": "3337d5f0-39de-4ded-831b-843dfec1ebbd",
+      "model": "e-Niro",
+      "release_year": 2018,
+      "variant": "39 kWh",
+      "usable_battery_size": 39,
+      "ac_charger": {
+        "usable_phases": 1,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 7.2,
+        "power_per_charging_point": {
+          "11": 3.7,
+          "16": 5.4,
+          "22": 7.2,
+          "43": 7.2,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.2
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 50,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 47.5
+          },
+          {
+            "percentage": 75,
+            "power": 50
+          },
+          {
+            "percentage": 100,
+            "power": 7.2
+          }
+        ],
+        "is_default_charging_curve": true
+      },
+      "energy_consumption": {
+        "average_consumption": 16.3
+      },
+      "charging_voltage": 400
+    },
+    {
+      "id": "63cd9718-5737-4898-a4f4-e594b28c74c0",
+      "brand": "Kia",
+      "vehicle_type": "car",
+      "type": "bev",
+      "brand_id": "3337d5f0-39de-4ded-831b-843dfec1ebbd",
+      "model": "e-Niro",
+      "release_year": 2020,
+      "variant": "39 kWh 11 kW-AC",
+      "usable_battery_size": 39,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 50,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 47.5
+          },
+          {
+            "percentage": 75,
+            "power": 50
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": true
+      },
+      "energy_consumption": {
+        "average_consumption": 16.3
+      },
+      "charging_voltage": 400
+    },
+    {
+      "id": "68cbedff-8994-4b77-bfb5-6aa22962e3a2",
+      "brand": "Kia",
+      "vehicle_type": "car",
+      "type": "bev",
+      "brand_id": "3337d5f0-39de-4ded-831b-843dfec1ebbd",
+      "model": "e-Niro",
+      "release_year": 2020,
+      "variant": "64 kWh",
+      "usable_battery_size": 64,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 77,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 70
+          },
+          {
+            "percentage": 40,
+            "power": 77
+          },
+          {
+            "percentage": 42,
+            "power": 70
+          },
+          {
+            "percentage": 53,
+            "power": 71
+          },
+          {
+            "percentage": 55,
+            "power": 57
+          },
+          {
+            "percentage": 71,
+            "power": 58
+          },
+          {
+            "percentage": 72,
+            "power": 38
+          },
+          {
+            "percentage": 76,
+            "power": 38
+          },
+          {
+            "percentage": 78,
+            "power": 25
+          },
+          {
+            "percentage": 88,
+            "power": 25
+          },
+          {
+            "percentage": 100,
+            "power": 8
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "energy_consumption": {
+        "average_consumption": 17.3
+      },
+      "charging_voltage": 400
+    },
+    {
+      "id": "0f7eae0b-43be-48f8-b4a0-1a8266fd07a9",
+      "brand": "Kia",
+      "vehicle_type": "car",
+      "type": "bev",
+      "brand_id": "3337d5f0-39de-4ded-831b-843dfec1ebbd",
+      "model": "e-Niro",
+      "release_year": 2018,
+      "variant": "64 kWh",
+      "usable_battery_size": 64,
+      "ac_charger": {
+        "usable_phases": 1,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 7.2,
+        "power_per_charging_point": {
+          "11": 3.7,
+          "16": 5.4,
+          "22": 7.2,
+          "43": 7.2,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.2
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 77,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 70
+          },
+          {
+            "percentage": 40,
+            "power": 77
+          },
+          {
+            "percentage": 42,
+            "power": 70
+          },
+          {
+            "percentage": 53,
+            "power": 71
+          },
+          {
+            "percentage": 55,
+            "power": 57
+          },
+          {
+            "percentage": 71,
+            "power": 58
+          },
+          {
+            "percentage": 72,
+            "power": 38
+          },
+          {
+            "percentage": 76,
+            "power": 38
+          },
+          {
+            "percentage": 78,
+            "power": 25
+          },
+          {
+            "percentage": 88,
+            "power": 25
+          },
+          {
+            "percentage": 100,
+            "power": 8
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "energy_consumption": {
+        "average_consumption": 17.3
+      },
+      "charging_voltage": 400
+    },
+    {
+      "id": "58661a4c-e1f9-4dc2-8d09-3bb42be62554",
+      "brand": "Kia",
+      "vehicle_type": "car",
+      "type": "bev",
+      "brand_id": "3337d5f0-39de-4ded-831b-843dfec1ebbd",
+      "model": "e-Soul",
+      "release_year": 2019,
+      "variant": "39 kWh",
+      "usable_battery_size": 39,
+      "ac_charger": {
+        "usable_phases": 1,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 7.2,
+        "power_per_charging_point": {
+          "11": 3.7,
+          "16": 5.4,
+          "22": 7.2,
+          "43": 7.2,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.2
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 50,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 47.5
+          },
+          {
+            "percentage": 75,
+            "power": 50
+          },
+          {
+            "percentage": 100,
+            "power": 7.2
+          }
+        ],
+        "is_default_charging_curve": true
+      },
+      "energy_consumption": {
+        "average_consumption": 17
+      },
+      "charging_voltage": 400
+    },
+    {
+      "id": "600a7816-ea65-4e6a-ac91-c5528b379028",
+      "brand": "Kia",
+      "vehicle_type": "car",
+      "type": "bev",
+      "brand_id": "3337d5f0-39de-4ded-831b-843dfec1ebbd",
+      "model": "e-Soul",
+      "release_year": 2019,
+      "variant": "39 kWh 11 kW-AC",
+      "usable_battery_size": 39,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 50,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 47.5
+          },
+          {
+            "percentage": 75,
+            "power": 50
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": true
+      },
+      "energy_consumption": {
+        "average_consumption": 17
+      },
+      "charging_voltage": 400
+    },
+    {
+      "id": "3c933da2-1fa1-4094-825a-a181610dbfd0",
+      "brand": "Kia",
+      "vehicle_type": "car",
+      "type": "bev",
+      "brand_id": "3337d5f0-39de-4ded-831b-843dfec1ebbd",
+      "model": "e-Soul",
+      "release_year": 2019,
+      "variant": "64 kWh",
+      "usable_battery_size": 64,
+      "ac_charger": {
+        "usable_phases": 1,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 7.2,
+        "power_per_charging_point": {
+          "11": 3.7,
+          "16": 5.4,
+          "22": 7.2,
+          "43": 7.2,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.2
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 77,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 70
+          },
+          {
+            "percentage": 40,
+            "power": 77
+          },
+          {
+            "percentage": 42,
+            "power": 70
+          },
+          {
+            "percentage": 53,
+            "power": 71
+          },
+          {
+            "percentage": 55,
+            "power": 57
+          },
+          {
+            "percentage": 71,
+            "power": 58
+          },
+          {
+            "percentage": 72,
+            "power": 38
+          },
+          {
+            "percentage": 76,
+            "power": 38
+          },
+          {
+            "percentage": 78,
+            "power": 25
+          },
+          {
+            "percentage": 88,
+            "power": 25
+          },
+          {
+            "percentage": 100,
+            "power": 8
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "energy_consumption": {
+        "average_consumption": 17.5
+      },
+      "charging_voltage": 400
+    },
+    {
+      "id": "87e73c44-93ba-4687-877c-32a3aa940a09",
+      "brand": "Kia",
+      "vehicle_type": "car",
+      "type": "bev",
+      "brand_id": "3337d5f0-39de-4ded-831b-843dfec1ebbd",
+      "model": "e-Soul",
+      "release_year": 2020,
+      "variant": "64 kWh 11 kW-AC",
+      "usable_battery_size": 64,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 77,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 73.1
+          },
+          {
+            "percentage": 75,
+            "power": 77
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": true
+      },
+      "energy_consumption": {
+        "average_consumption": 17.5
+      },
+      "charging_voltage": 400
+    }
+  ]
+}

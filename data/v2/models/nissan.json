@@ -1,0 +1,727 @@
+{
+  "brand_id": "dab5a47a-e8ce-4d34-9139-0701499205b1",
+  "brand_name": "Nissan",
+  "models": [
+    {
+      "id": "603af6f7-121b-7063-c143-af9d62ca960b",
+      "brand": "Nissan",
+      "vehicle_type": "car",
+      "type": "bev",
+      "brand_id": "dab5a47a-e8ce-4d34-9139-0701499205b1",
+      "model": "Ariya",
+      "release_year": 2022,
+      "variant": "63kWh",
+      "usable_battery_size": 63,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 7.4,
+        "power_per_charging_point": {
+          "11": 7.4,
+          "16": 7.4,
+          "22": 7.4,
+          "43": 7.4,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 130,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 123.5
+          },
+          {
+            "percentage": 75,
+            "power": 130
+          },
+          {
+            "percentage": 100,
+            "power": 7.4
+          }
+        ],
+        "is_default_charging_curve": true
+      },
+      "energy_consumption": {
+        "average_consumption": 18.8
+      },
+      "charging_voltage": 400
+    },
+    {
+      "id": "2839152f-e855-705a-2e79-976d57e572b1",
+      "brand": "Nissan",
+      "vehicle_type": "car",
+      "type": "bev",
+      "brand_id": "dab5a47a-e8ce-4d34-9139-0701499205b1",
+      "model": "Ariya",
+      "release_year": 2022,
+      "variant": "87kWh",
+      "usable_battery_size": 87,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 22,
+        "power_per_charging_point": {
+          "11": 11.1,
+          "16": 16.2,
+          "22": 22,
+          "43": 22,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 130,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 123.5
+          },
+          {
+            "percentage": 75,
+            "power": 130
+          },
+          {
+            "percentage": 100,
+            "power": 22
+          }
+        ],
+        "is_default_charging_curve": true
+      },
+      "energy_consumption": {
+        "average_consumption": 19.6
+      },
+      "charging_voltage": 400
+    },
+    {
+      "id": "e4d03d93-517b-4c0b-1e6a-52fd74accf3e",
+      "brand": "Nissan",
+      "vehicle_type": "car",
+      "type": "bev",
+      "brand_id": "dab5a47a-e8ce-4d34-9139-0701499205b1",
+      "model": "Ariya",
+      "release_year": 2022,
+      "variant": "e-4ORCE 87kWh",
+      "usable_battery_size": 87,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 22,
+        "power_per_charging_point": {
+          "11": 11.1,
+          "16": 16.2,
+          "22": 22,
+          "43": 22,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 130,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 123.5
+          },
+          {
+            "percentage": 75,
+            "power": 130
+          },
+          {
+            "percentage": 100,
+            "power": 22
+          }
+        ],
+        "is_default_charging_curve": true
+      },
+      "energy_consumption": {
+        "average_consumption": 20.7
+      },
+      "charging_voltage": 400
+    },
+    {
+      "id": "1241ed45-6289-0c6d-9093-4ab9da6ca608",
+      "brand": "Nissan",
+      "vehicle_type": "car",
+      "type": "bev",
+      "brand_id": "dab5a47a-e8ce-4d34-9139-0701499205b1",
+      "model": "Ariya",
+      "release_year": 2022,
+      "variant": "e-4ORCE 87kWh Performance",
+      "usable_battery_size": 87,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 22,
+        "power_per_charging_point": {
+          "11": 11.1,
+          "16": 16.2,
+          "22": 22,
+          "43": 22,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 130,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 123.5
+          },
+          {
+            "percentage": 75,
+            "power": 130
+          },
+          {
+            "percentage": 100,
+            "power": 22
+          }
+        ],
+        "is_default_charging_curve": true
+      },
+      "energy_consumption": {
+        "average_consumption": 22.6
+      },
+      "charging_voltage": 400
+    },
+    {
+      "id": "dc7d163b-29bc-45cf-8156-60eb3e3b1294",
+      "brand": "Nissan",
+      "vehicle_type": "car",
+      "type": "bev",
+      "brand_id": "dab5a47a-e8ce-4d34-9139-0701499205b1",
+      "model": "Leaf",
+      "release_year": 2011,
+      "variant": "24 kWh",
+      "usable_battery_size": 24,
+      "ac_charger": {
+        "usable_phases": 1,
+        "ports": [
+          "type1"
+        ],
+        "max_power": 3.6,
+        "power_per_charging_point": {
+          "11": 3.6,
+          "16": 3.6,
+          "22": 3.6,
+          "43": 3.6,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.6,
+          "7.4": 3.6
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "chademo"
+        ],
+        "max_power": 46,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 40
+          },
+          {
+            "percentage": 22,
+            "power": 46
+          },
+          {
+            "percentage": 100,
+            "power": 10
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "energy_consumption": {
+        "average_consumption": 16.9
+      },
+      "charging_voltage": 400
+    },
+    {
+      "id": "3b649ae3-935b-425b-b5d6-75c549b96d40",
+      "brand": "Nissan",
+      "vehicle_type": "car",
+      "type": "bev",
+      "brand_id": "dab5a47a-e8ce-4d34-9139-0701499205b1",
+      "model": "Leaf",
+      "release_year": 2011,
+      "variant": "24 kWh 6,6 kW-AC",
+      "usable_battery_size": 24,
+      "ac_charger": {
+        "usable_phases": 1,
+        "ports": [
+          "type1"
+        ],
+        "max_power": 6.6,
+        "power_per_charging_point": {
+          "11": 3.7,
+          "16": 5.4,
+          "22": 6.6,
+          "43": 6.6,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 6.6
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "chademo"
+        ],
+        "max_power": 46,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 40
+          },
+          {
+            "percentage": 22,
+            "power": 46
+          },
+          {
+            "percentage": 100,
+            "power": 10
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "energy_consumption": {
+        "average_consumption": 16.9
+      },
+      "charging_voltage": 400
+    },
+    {
+      "id": "83ec0576-bfb8-400a-9af9-483b2684673c",
+      "brand": "Nissan",
+      "vehicle_type": "car",
+      "type": "bev",
+      "brand_id": "dab5a47a-e8ce-4d34-9139-0701499205b1",
+      "model": "Leaf",
+      "release_year": 2015,
+      "variant": "30 kWh",
+      "usable_battery_size": 30,
+      "ac_charger": {
+        "usable_phases": 1,
+        "ports": [
+          "type1"
+        ],
+        "max_power": 3.6,
+        "power_per_charging_point": {
+          "11": 3.6,
+          "16": 3.6,
+          "22": 3.6,
+          "43": 3.6,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.6,
+          "7.4": 3.6
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "chademo"
+        ],
+        "max_power": 47,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 41
+          },
+          {
+            "percentage": 80,
+            "power": 47
+          },
+          {
+            "percentage": 90,
+            "power": 30
+          },
+          {
+            "percentage": 100,
+            "power": 10
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "energy_consumption": {
+        "average_consumption": 16.5
+      },
+      "charging_voltage": 400
+    },
+    {
+      "id": "74f2c3a5-f78f-459a-823a-dfc0a21e5aeb",
+      "brand": "Nissan",
+      "vehicle_type": "car",
+      "type": "bev",
+      "brand_id": "dab5a47a-e8ce-4d34-9139-0701499205b1",
+      "model": "Leaf",
+      "release_year": 2015,
+      "variant": "30 kWh 6,6 kW-AC",
+      "usable_battery_size": 30,
+      "ac_charger": {
+        "usable_phases": 1,
+        "ports": [
+          "type1"
+        ],
+        "max_power": 6.6,
+        "power_per_charging_point": {
+          "11": 3.7,
+          "16": 5.4,
+          "22": 6.6,
+          "43": 6.6,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 6.6
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "chademo"
+        ],
+        "max_power": 47,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 41
+          },
+          {
+            "percentage": 80,
+            "power": 47
+          },
+          {
+            "percentage": 90,
+            "power": 30
+          },
+          {
+            "percentage": 100,
+            "power": 10
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "energy_consumption": {
+        "average_consumption": 16.5
+      },
+      "charging_voltage": 400
+    },
+    {
+      "id": "77028f96-eb9b-4c65-b452-c92011b1fc1c",
+      "brand": "Nissan",
+      "vehicle_type": "car",
+      "type": "bev",
+      "brand_id": "dab5a47a-e8ce-4d34-9139-0701499205b1",
+      "model": "Leaf",
+      "release_year": 2018,
+      "variant": "40 kWh",
+      "usable_battery_size": 38,
+      "ac_charger": {
+        "usable_phases": 1,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 6.6,
+        "power_per_charging_point": {
+          "11": 3.7,
+          "16": 5.4,
+          "22": 6.6,
+          "43": 6.6,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 6.6
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "chademo"
+        ],
+        "max_power": 45,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 41
+          },
+          {
+            "percentage": 62,
+            "power": 45
+          },
+          {
+            "percentage": 65,
+            "power": 36
+          },
+          {
+            "percentage": 100,
+            "power": 15
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "energy_consumption": {
+        "average_consumption": 16.4
+      },
+      "charging_voltage": 400
+    },
+    {
+      "id": "78b14a0f-5c62-4885-95ef-2e3f81197260",
+      "brand": "Nissan",
+      "vehicle_type": "car",
+      "type": "bev",
+      "brand_id": "dab5a47a-e8ce-4d34-9139-0701499205b1",
+      "model": "Leaf",
+      "release_year": 2019,
+      "variant": "e+ 62 kWh",
+      "usable_battery_size": 62,
+      "ac_charger": {
+        "usable_phases": 1,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 6.6,
+        "power_per_charging_point": {
+          "11": 3.7,
+          "16": 5.4,
+          "22": 6.6,
+          "43": 6.6,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 6.6
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "chademo"
+        ],
+        "max_power": 100,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 95
+          },
+          {
+            "percentage": 75,
+            "power": 100
+          },
+          {
+            "percentage": 100,
+            "power": 6.6
+          }
+        ],
+        "is_default_charging_curve": true
+      },
+      "energy_consumption": {
+        "average_consumption": 17.2
+      },
+      "charging_voltage": 400
+    },
+    {
+      "id": "86290f48-f554-4db5-bd35-4a8b7828689a",
+      "brand": "Nissan",
+      "vehicle_type": "car",
+      "type": "bev",
+      "brand_id": "dab5a47a-e8ce-4d34-9139-0701499205b1",
+      "model": "e-NV 200",
+      "release_year": 2014,
+      "variant": "24 kWh",
+      "usable_battery_size": 24,
+      "ac_charger": {
+        "usable_phases": 1,
+        "ports": [
+          "type1"
+        ],
+        "max_power": 3.6,
+        "power_per_charging_point": {
+          "11": 3.6,
+          "16": 3.6,
+          "22": 3.6,
+          "43": 3.6,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.6,
+          "7.4": 3.6
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "chademo"
+        ],
+        "max_power": 46,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 40
+          },
+          {
+            "percentage": 10,
+            "power": 45
+          },
+          {
+            "percentage": 23,
+            "power": 46
+          },
+          {
+            "percentage": 80,
+            "power": 25
+          },
+          {
+            "percentage": 100,
+            "power": 10
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "energy_consumption": {
+        "average_consumption": 20
+      },
+      "charging_voltage": 400
+    },
+    {
+      "id": "2644bfd3-a593-4276-bb1f-c8965e33797e",
+      "brand": "Nissan",
+      "vehicle_type": "car",
+      "type": "bev",
+      "brand_id": "dab5a47a-e8ce-4d34-9139-0701499205b1",
+      "model": "e-NV 200",
+      "release_year": 2014,
+      "variant": "24 kWh 6,6 kW-AC",
+      "usable_battery_size": 24,
+      "ac_charger": {
+        "usable_phases": 1,
+        "ports": [
+          "type1"
+        ],
+        "max_power": 6.6,
+        "power_per_charging_point": {
+          "11": 3.7,
+          "16": 5.4,
+          "22": 6.6,
+          "43": 6.6,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 6.6
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "chademo"
+        ],
+        "max_power": 46,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 40
+          },
+          {
+            "percentage": 10,
+            "power": 45
+          },
+          {
+            "percentage": 23,
+            "power": 46
+          },
+          {
+            "percentage": 80,
+            "power": 25
+          },
+          {
+            "percentage": 100,
+            "power": 10
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "energy_consumption": {
+        "average_consumption": 20
+      },
+      "charging_voltage": 400
+    },
+    {
+      "id": "daa3573d-60ea-4c7a-8048-79c575e3db4c",
+      "brand": "Nissan",
+      "vehicle_type": "car",
+      "type": "bev",
+      "brand_id": "dab5a47a-e8ce-4d34-9139-0701499205b1",
+      "model": "e-NV 200",
+      "release_year": 2014,
+      "variant": "40 kWh",
+      "usable_battery_size": 38,
+      "ac_charger": {
+        "usable_phases": 1,
+        "ports": [
+          "type1"
+        ],
+        "max_power": 6.6,
+        "power_per_charging_point": {
+          "11": 3.7,
+          "16": 5.4,
+          "22": 6.6,
+          "43": 6.6,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 6.6
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "chademo"
+        ],
+        "max_power": 45,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 40
+          },
+          {
+            "percentage": 62,
+            "power": 45
+          },
+          {
+            "percentage": 75,
+            "power": 36
+          },
+          {
+            "percentage": 100,
+            "power": 15
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "energy_consumption": {
+        "average_consumption": 20
+      },
+      "charging_voltage": 400
+    }
+  ]
+}

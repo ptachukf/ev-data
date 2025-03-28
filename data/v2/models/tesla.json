@@ -1,0 +1,284 @@
+{
+  "brand_id": "f37896c3-6bc5-45e1-b442-b9cbc38e3a7c",
+  "brand_name": "Tesla",
+  "models": [
+    {
+      "id": "fbffc80f-062d-ed16-d6df-5f621bb35848",
+      "brand": "Tesla",
+      "vehicle_type": "car",
+      "type": "bev",
+      "brand_id": "f37896c3-6bc5-45e1-b442-b9cbc38e3a7c",
+      "model": "Model 3",
+      "release_year": 2023,
+      "variant": "",
+      "usable_battery_size": 57.5,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.0,
+          "16": 11.0,
+          "22": 11.0,
+          "43": 11.0
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 170,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 170
+          },
+          {
+            "percentage": 20,
+            "power": 170
+          },
+          {
+            "percentage": 35,
+            "power": 170
+          },
+          {
+            "percentage": 50,
+            "power": 155
+          },
+          {
+            "percentage": 65,
+            "power": 125
+          },
+          {
+            "percentage": 80,
+            "power": 90
+          },
+          {
+            "percentage": 90,
+            "power": 55
+          },
+          {
+            "percentage": 100,
+            "power": 25
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "energy_consumption": {
+        "average_consumption": 13.7
+      },
+      "charging_voltage": 400
+    },
+    {
+      "id": "7de25a64-e9fa-484f-bf99-d02b02cfb17d",
+      "brand": "Tesla",
+      "vehicle_type": "car",
+      "type": "bev",
+      "brand_id": "f37896c3-6bc5-45e1-b442-b9cbc38e3a7c",
+      "model": "Model 3",
+      "release_year": 2020,
+      "variant": "LR",
+      "usable_battery_size": 74,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.0,
+          "16": 11.0,
+          "22": 11.0,
+          "43": 11.0
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs",
+          "tesla_ccs"
+        ],
+        "max_power": 195,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 180
+          },
+          {
+            "percentage": 40,
+            "power": 195
+          },
+          {
+            "percentage": 60,
+            "power": 110
+          },
+          {
+            "percentage": 100,
+            "power": 12
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "energy_consumption": {
+        "average_consumption": 16.1
+      },
+      "charging_voltage": 400
+    },
+    {
+      "id": "7833cbf1-969a-908f-eadb-cce65d96ed53",
+      "brand": "Tesla",
+      "vehicle_type": "car",
+      "type": "bev",
+      "brand_id": "f37896c3-6bc5-45e1-b442-b9cbc38e3a7c",
+      "model": "Model 3",
+      "release_year": 2021,
+      "variant": "LR",
+      "usable_battery_size": 76,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.0,
+          "16": 11.0,
+          "22": 11.0,
+          "43": 11.0
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs",
+          "tesla_ccs"
+        ],
+        "max_power": 250,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 75
+          },
+          {
+            "percentage": 5,
+            "power": 220
+          },
+          {
+            "percentage": 10,
+            "power": 250
+          },
+          {
+            "percentage": 20,
+            "power": 250
+          },
+          {
+            "percentage": 30,
+            "power": 140
+          },
+          {
+            "percentage": 40,
+            "power": 140
+          },
+          {
+            "percentage": 100,
+            "power": 10
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "energy_consumption": {
+        "average_consumption": 16.1
+      },
+      "charging_voltage": 400
+    },
+    {
+      "id": "df6a7df8-1b86-8eea-b6b9-19a51055e648",
+      "brand": "Tesla",
+      "vehicle_type": "car",
+      "type": "bev",
+      "brand_id": "f37896c3-6bc5-45e1-b442-b9cbc38e3a7c",
+      "model": "Model 3",
+      "release_year": 2023,
+      "variant": "Long Range Dual Motor",
+      "usable_battery_size": 75,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.0,
+          "16": 11.0,
+          "22": 11.0,
+          "43": 11.0
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 250,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 250
+          },
+          {
+            "percentage": 5,
+            "power": 250
+          },
+          {
+            "percentage": 20,
+            "power": 250
+          },
+          {
+            "percentage": 35,
+            "power": 250
+          },
+          {
+            "percentage": 50,
+            "power": 200
+          },
+          {
+            "percentage": 65,
+            "power": 150
+          },
+          {
+            "percentage": 80,
+            "power": 100
+          },
+          {
+            "percentage": 90,
+            "power": 50
+          },
+          {
+            "percentage": 100,
+            "power": 25
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "energy_consumption": {
+        "average_consumption": 16.1
+      },
+      "charging_voltage": 400
+    }
+  ]
+}

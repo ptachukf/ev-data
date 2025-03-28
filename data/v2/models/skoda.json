@@ -1,0 +1,974 @@
+{
+  "brand_id": "43763587-6999-406b-8843-28977e1b82c3",
+  "brand_name": "Skoda",
+  "models": [
+    {
+      "id": "ffcd3116-4e17-49ff-a926-941c062643ea",
+      "brand": "Skoda",
+      "vehicle_type": "car",
+      "type": "bev",
+      "brand_id": "43763587-6999-406b-8843-28977e1b82c3",
+      "model": "CITIGOe iV",
+      "release_year": 2020,
+      "variant": "CCS",
+      "usable_battery_size": 32.3,
+      "ac_charger": {
+        "usable_phases": 2,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 7.2,
+        "power_per_charging_point": {
+          "11": 7.2,
+          "16": 7.2,
+          "22": 7.2,
+          "43": 7.2,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.2
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 34,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 32
+          },
+          {
+            "percentage": 27,
+            "power": 34
+          },
+          {
+            "percentage": 80,
+            "power": 14
+          },
+          {
+            "percentage": 100,
+            "power": 7
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "energy_consumption": {
+        "average_consumption": 16.6
+      },
+      "charging_voltage": 400
+    },
+    {
+      "id": "ff261470-8556-4051-afec-c049abd5fe6a",
+      "brand": "Skoda",
+      "vehicle_type": "car",
+      "type": "bev",
+      "brand_id": "43763587-6999-406b-8843-28977e1b82c3",
+      "model": "Enyaq iV",
+      "release_year": 2020,
+      "variant": "55 kWh",
+      "usable_battery_size": 52,
+      "ac_charger": {
+        "usable_phases": 2,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 7.2,
+        "power_per_charging_point": {
+          "11": 7.2,
+          "16": 7.2,
+          "22": 7.2,
+          "43": 7.2,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.2
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 50,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 47.5
+          },
+          {
+            "percentage": 75,
+            "power": 50
+          },
+          {
+            "percentage": 100,
+            "power": 7.2
+          }
+        ],
+        "is_default_charging_curve": true
+      },
+      "energy_consumption": {
+        "average_consumption": 18.7
+      },
+      "charging_voltage": 400
+    },
+    {
+      "id": "55ac0aaf-6bae-4a8e-ba50-4a9a7ab5b4af",
+      "brand": "Skoda",
+      "vehicle_type": "car",
+      "type": "bev",
+      "brand_id": "43763587-6999-406b-8843-28977e1b82c3",
+      "model": "Enyaq iV",
+      "release_year": 2020,
+      "variant": "62 kWh 100 kW-DC",
+      "usable_battery_size": 58,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 100,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 90
+          },
+          {
+            "percentage": 5,
+            "power": 100
+          },
+          {
+            "percentage": 30,
+            "power": 100
+          },
+          {
+            "percentage": 50,
+            "power": 75
+          },
+          {
+            "percentage": 70,
+            "power": 50
+          },
+          {
+            "percentage": 80,
+            "power": 50
+          },
+          {
+            "percentage": 90,
+            "power": 25
+          },
+          {
+            "percentage": 100,
+            "power": 10
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "energy_consumption": {
+        "average_consumption": 18.7
+      },
+      "charging_voltage": 400
+    },
+    {
+      "id": "4dc6b014-8612-4fa7-bb34-9ea4d7fa5220",
+      "brand": "Skoda",
+      "vehicle_type": "car",
+      "type": "bev",
+      "brand_id": "43763587-6999-406b-8843-28977e1b82c3",
+      "model": "Enyaq iV",
+      "release_year": 2020,
+      "variant": "62 kWh 50 kW-DC",
+      "usable_battery_size": 58,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 50,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 50
+          },
+          {
+            "percentage": 80,
+            "power": 50
+          },
+          {
+            "percentage": 90,
+            "power": 25
+          },
+          {
+            "percentage": 100,
+            "power": 10
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "energy_consumption": {
+        "average_consumption": 18.7
+      },
+      "charging_voltage": 400
+    },
+    {
+      "id": "aa69b5e8-fc4e-40f8-8060-2c96248f62ef",
+      "brand": "Skoda",
+      "vehicle_type": "car",
+      "type": "bev",
+      "brand_id": "43763587-6999-406b-8843-28977e1b82c3",
+      "model": "Enyaq iV",
+      "release_year": 2020,
+      "variant": "82 kWh 125 kW-DC",
+      "usable_battery_size": 77,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 125,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 125
+          },
+          {
+            "percentage": 35,
+            "power": 125
+          },
+          {
+            "percentage": 50,
+            "power": 100
+          },
+          {
+            "percentage": 70,
+            "power": 70
+          },
+          {
+            "percentage": 80,
+            "power": 70
+          },
+          {
+            "percentage": 90,
+            "power": 37
+          },
+          {
+            "percentage": 100,
+            "power": 25
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "energy_consumption": {
+        "average_consumption": 19
+      },
+      "charging_voltage": 400
+    },
+    {
+      "id": "18bb40bd-321b-4326-a404-e46652538830",
+      "brand": "Skoda",
+      "vehicle_type": "car",
+      "type": "bev",
+      "brand_id": "43763587-6999-406b-8843-28977e1b82c3",
+      "model": "Enyaq iV",
+      "release_year": 2020,
+      "variant": "82 kWh 50 kW-DC",
+      "usable_battery_size": 77,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 50,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 50
+          },
+          {
+            "percentage": 80,
+            "power": 50
+          },
+          {
+            "percentage": 90,
+            "power": 25
+          },
+          {
+            "percentage": 100,
+            "power": 10
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "energy_consumption": {
+        "average_consumption": 19
+      },
+      "charging_voltage": 400
+    },
+    {
+      "id": "8c8b6921-b0d7-41bd-8f45-fff68ed8b34a",
+      "type": "bev",
+      "brand": "Skoda",
+      "brand_id": "43763587-6999-406b-8843-28977e1b82c3",
+      "model": "Enyaq",
+      "vehicle_type": "car",
+      "variant": "85",
+      "release_year": 2023,
+      "usable_battery_size": 77,
+      "energy_consumption": {
+        "average_consumption": 17.1
+      },
+      "ac_charger": {
+        "ports": [],
+        "usable_phases": 3,
+        "max_power": 11,
+        "power_per_charging_point": {
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 135,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 135
+          },
+          {
+            "percentage": 30,
+            "power": 135
+          },
+          {
+            "percentage": 60,
+            "power": 121.5
+          },
+          {
+            "percentage": 80,
+            "power": 67.5
+          },
+          {
+            "percentage": 100,
+            "power": 27
+          }
+        ],
+        "is_default_charging_curve": true
+      },
+      "charging_voltage": 400
+    },
+    {
+      "id": "3568f6a2-06e9-437b-be27-e93f21e529b0",
+      "type": "bev",
+      "brand": "Skoda",
+      "brand_id": "43763587-6999-406b-8843-28977e1b82c3",
+      "model": "Elroq",
+      "vehicle_type": "car",
+      "variant": "85",
+      "release_year": 2024,
+      "usable_battery_size": 77,
+      "energy_consumption": {
+        "average_consumption": 17.1
+      },
+      "ac_charger": {
+        "ports": [
+          "type2"
+        ],
+        "usable_phases": 3,
+        "max_power": 11,
+        "power_per_charging_point": {
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 175,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 175
+          },
+          {
+            "percentage": 30,
+            "power": 175
+          },
+          {
+            "percentage": 60,
+            "power": 157.5
+          },
+          {
+            "percentage": 80,
+            "power": 87.5
+          },
+          {
+            "percentage": 100,
+            "power": 35
+          }
+        ],
+        "is_default_charging_curve": true
+      },
+      "charging_voltage": 400
+    },
+    {
+      "id": "9930db05-3314-4b9d-b169-e9acca4324fc",
+      "type": "bev",
+      "brand": "Skoda",
+      "brand_id": "43763587-6999-406b-8843-28977e1b82c3",
+      "model": "Elroq",
+      "vehicle_type": "car",
+      "variant": "60",
+      "release_year": 2024,
+      "usable_battery_size": 59,
+      "energy_consumption": {
+        "average_consumption": 17.1
+      },
+      "ac_charger": {
+        "ports": [
+          "type2"
+        ],
+        "usable_phases": 3,
+        "max_power": 11,
+        "power_per_charging_point": {
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 165,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 165
+          },
+          {
+            "percentage": 30,
+            "power": 165
+          },
+          {
+            "percentage": 60,
+            "power": 148.5
+          },
+          {
+            "percentage": 80,
+            "power": 82.5
+          },
+          {
+            "percentage": 100,
+            "power": 33
+          }
+        ],
+        "is_default_charging_curve": true
+      },
+      "charging_voltage": 400
+    },
+    {
+      "id": "6f6a1ab7-410c-4b5c-b887-e6bfb61f6811",
+      "type": "bev",
+      "brand": "Skoda",
+      "brand_id": "43763587-6999-406b-8843-28977e1b82c3",
+      "model": "Enyaq Coupe",
+      "vehicle_type": "car",
+      "variant": "85",
+      "release_year": 2023,
+      "usable_battery_size": 77,
+      "energy_consumption": {
+        "average_consumption": 16
+      },
+      "ac_charger": {
+        "ports": [],
+        "usable_phases": 3,
+        "max_power": 11,
+        "power_per_charging_point": {
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 135,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 135
+          },
+          {
+            "percentage": 30,
+            "power": 135
+          },
+          {
+            "percentage": 60,
+            "power": 121.5
+          },
+          {
+            "percentage": 80,
+            "power": 67.5
+          },
+          {
+            "percentage": 100,
+            "power": 27
+          }
+        ],
+        "is_default_charging_curve": true
+      },
+      "charging_voltage": 400
+    },
+    {
+      "id": "b81a13b0-beca-447b-a6aa-11d0689c1773",
+      "type": "bev",
+      "brand": "Skoda",
+      "brand_id": "43763587-6999-406b-8843-28977e1b82c3",
+      "model": "Elroq",
+      "vehicle_type": "car",
+      "variant": "50",
+      "release_year": 2024,
+      "usable_battery_size": 52,
+      "energy_consumption": {
+        "average_consumption": 16.5
+      },
+      "ac_charger": {
+        "ports": [],
+        "usable_phases": 3,
+        "max_power": 11,
+        "power_per_charging_point": {
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 145,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 145
+          },
+          {
+            "percentage": 30,
+            "power": 145
+          },
+          {
+            "percentage": 60,
+            "power": 130.5
+          },
+          {
+            "percentage": 80,
+            "power": 72.5
+          },
+          {
+            "percentage": 100,
+            "power": 29
+          }
+        ],
+        "is_default_charging_curve": true
+      },
+      "charging_voltage": 400
+    },
+    {
+      "id": "93728022-b25a-4385-863b-efa610ca0f35",
+      "type": "bev",
+      "brand": "Skoda",
+      "brand_id": "43763587-6999-406b-8843-28977e1b82c3",
+      "model": "Enyaq",
+      "vehicle_type": "car",
+      "variant": "85x",
+      "release_year": 2023,
+      "usable_battery_size": 77,
+      "energy_consumption": {
+        "average_consumption": 17.5
+      },
+      "ac_charger": {
+        "ports": [],
+        "usable_phases": 3,
+        "max_power": 11,
+        "power_per_charging_point": {
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 175,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 175
+          },
+          {
+            "percentage": 30,
+            "power": 175
+          },
+          {
+            "percentage": 60,
+            "power": 157.5
+          },
+          {
+            "percentage": 80,
+            "power": 87.5
+          },
+          {
+            "percentage": 100,
+            "power": 35
+          }
+        ],
+        "is_default_charging_curve": true
+      },
+      "charging_voltage": 400
+    },
+    {
+      "id": "a0da502a-5e68-4dc7-949d-754f397a7809",
+      "type": "bev",
+      "brand": "Skoda",
+      "brand_id": "43763587-6999-406b-8843-28977e1b82c3",
+      "model": "Enyaq Coupe",
+      "vehicle_type": "car",
+      "variant": "85x",
+      "release_year": 2023,
+      "usable_battery_size": 77,
+      "energy_consumption": {
+        "average_consumption": 16.2
+      },
+      "ac_charger": {
+        "ports": [
+          "type2"
+        ],
+        "usable_phases": 3,
+        "max_power": 11,
+        "power_per_charging_point": {
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 175,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 175
+          },
+          {
+            "percentage": 30,
+            "power": 175
+          },
+          {
+            "percentage": 60,
+            "power": 157.5
+          },
+          {
+            "percentage": 80,
+            "power": 87.5
+          },
+          {
+            "percentage": 100,
+            "power": 35
+          }
+        ],
+        "is_default_charging_curve": true
+      },
+      "charging_voltage": 400
+    },
+    {
+      "id": "f3e34027-0e72-485a-9899-9186b4422371",
+      "type": "bev",
+      "brand": "Skoda",
+      "brand_id": "43763587-6999-406b-8843-28977e1b82c3",
+      "model": "Enyaq Coupe",
+      "vehicle_type": "car",
+      "variant": "RS",
+      "release_year": 2023,
+      "usable_battery_size": 77,
+      "energy_consumption": {
+        "average_consumption": 16.7
+      },
+      "ac_charger": {
+        "ports": [
+          "type2"
+        ],
+        "usable_phases": 3,
+        "max_power": 11,
+        "power_per_charging_point": {
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 175,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 175
+          },
+          {
+            "percentage": 30,
+            "power": 175
+          },
+          {
+            "percentage": 60,
+            "power": 157.5
+          },
+          {
+            "percentage": 80,
+            "power": 87.5
+          },
+          {
+            "percentage": 100,
+            "power": 35
+          }
+        ],
+        "is_default_charging_curve": true
+      },
+      "charging_voltage": 400
+    },
+    {
+      "id": "cdda9d0c-0c6b-400a-b2b3-ed69cdde18ac",
+      "type": "bev",
+      "brand": "Skoda",
+      "brand_id": "43763587-6999-406b-8843-28977e1b82c3",
+      "model": "Enyaq",
+      "vehicle_type": "car",
+      "variant": "50",
+      "release_year": 2024,
+      "usable_battery_size": 52,
+      "energy_consumption": {
+        "average_consumption": 16.8
+      },
+      "ac_charger": {
+        "ports": [
+          "type2"
+        ],
+        "usable_phases": 3,
+        "max_power": 11,
+        "power_per_charging_point": {
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 145,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 145
+          },
+          {
+            "percentage": 30,
+            "power": 145
+          },
+          {
+            "percentage": 60,
+            "power": 130.5
+          },
+          {
+            "percentage": 80,
+            "power": 72.5
+          },
+          {
+            "percentage": 100,
+            "power": 29
+          }
+        ],
+        "is_default_charging_curve": true
+      },
+      "charging_voltage": 400
+    },
+    {
+      "id": "1f174522-5c12-4658-8fa9-70ec4a673327",
+      "type": "bev",
+      "brand": "Skoda",
+      "brand_id": "43763587-6999-406b-8843-28977e1b82c3",
+      "model": "Enyaq",
+      "vehicle_type": "car",
+      "variant": "RS",
+      "release_year": 2023,
+      "usable_battery_size": 77,
+      "energy_consumption": {
+        "average_consumption": 17.7
+      },
+      "ac_charger": {
+        "ports": [
+          "type2"
+        ],
+        "usable_phases": 3,
+        "max_power": 11,
+        "power_per_charging_point": {
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 175,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 175
+          },
+          {
+            "percentage": 30,
+            "power": 175
+          },
+          {
+            "percentage": 60,
+            "power": 157.5
+          },
+          {
+            "percentage": 80,
+            "power": 87.5
+          },
+          {
+            "percentage": 100,
+            "power": 35
+          }
+        ],
+        "is_default_charging_curve": true
+      },
+      "charging_voltage": 400
+    }
+  ]
+}

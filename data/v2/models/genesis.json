@@ -1,0 +1,271 @@
+{
+  "brand_id": "100b9345-4c0e-fb7b-4502-5535cf6359fd",
+  "brand_name": "Genesis",
+  "models": [
+    {
+      "id": "2435a5f0-6bb1-a16c-e503-8452c808bb6a",
+      "brand": "Genesis",
+      "vehicle_type": "car",
+      "type": "bev",
+      "brand_id": "100b9345-4c0e-fb7b-4502-5535cf6359fd",
+      "model": "G80",
+      "release_year": 2023,
+      "variant": "Electrified Luxury",
+      "usable_battery_size": 82.5,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 230,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 218.5
+          },
+          {
+            "percentage": 75,
+            "power": 230
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": true
+      },
+      "energy_consumption": {
+        "average_consumption": 18.8
+      },
+      "charging_voltage": 800
+    },
+    {
+      "id": "fe395361-5e09-beea-5ee2-18cc684f5665",
+      "brand": "Genesis",
+      "vehicle_type": "car",
+      "type": "bev",
+      "brand_id": "100b9345-4c0e-fb7b-4502-5535cf6359fd",
+      "model": "GV60",
+      "release_year": 2022,
+      "variant": "Premium",
+      "usable_battery_size": 74,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 233,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 221.4
+          },
+          {
+            "percentage": 75,
+            "power": 233
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": true
+      },
+      "energy_consumption": {
+        "average_consumption": 19
+      },
+      "charging_voltage": 800
+    },
+    {
+      "id": "6867ef1d-34a1-1d83-33d1-e7258e52590f",
+      "brand": "Genesis",
+      "vehicle_type": "car",
+      "type": "bev",
+      "brand_id": "100b9345-4c0e-fb7b-4502-5535cf6359fd",
+      "model": "GV60",
+      "release_year": 2022,
+      "variant": "Sport",
+      "usable_battery_size": 74,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 233,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 221.4
+          },
+          {
+            "percentage": 75,
+            "power": 233
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": true
+      },
+      "energy_consumption": {
+        "average_consumption": 19.5
+      },
+      "charging_voltage": 800
+    },
+    {
+      "id": "020da0e0-9d0b-6b20-0937-a306d699aad2",
+      "brand": "Genesis",
+      "vehicle_type": "car",
+      "type": "bev",
+      "brand_id": "100b9345-4c0e-fb7b-4502-5535cf6359fd",
+      "model": "GV60",
+      "release_year": 2022,
+      "variant": "Sport Plus",
+      "usable_battery_size": 74,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 233,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 221.4
+          },
+          {
+            "percentage": 75,
+            "power": 233
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": true
+      },
+      "energy_consumption": {
+        "average_consumption": 20.3
+      },
+      "charging_voltage": 800
+    },
+    {
+      "id": "7bf188fa-855f-858a-6a65-29be38396706",
+      "brand": "Genesis",
+      "vehicle_type": "car",
+      "type": "bev",
+      "brand_id": "100b9345-4c0e-fb7b-4502-5535cf6359fd",
+      "model": "GV70",
+      "release_year": 2023,
+      "variant": "Electrified Sport",
+      "usable_battery_size": 74,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 233,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 221.4
+          },
+          {
+            "percentage": 75,
+            "power": 233
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": true
+      },
+      "energy_consumption": {
+        "average_consumption": 21.1
+      },
+      "charging_voltage": 800
+    }
+  ]
+}

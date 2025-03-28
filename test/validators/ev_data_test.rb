@@ -30,13 +30,27 @@ class EVDataTest < Minitest::Test
   def test_charging_validation
     valid_data = {
       "ac_charger" => {
-        "ports" => [],  # Empty ports are now valid
+        "ports" => ["type2"],
         "max_power" => 11.0,
-        "usable_phases" => 3
+        "usable_phases" => 3,
+        "power_per_charging_point" => {
+          "2.0" => 2.0,
+          "2.3" => 2.3,
+          "3.7" => 3.7,
+          "7.4" => 7.4,
+          "11" => 11.0,
+          "16" => 11.0,
+          "22" => 11.0,
+          "43" => 11.0
+        }
       },
       "dc_charger" => {
         "ports" => ["ccs"],
-        "max_power" => 150.0
+        "max_power" => 150.0,
+        "charging_curve" => [
+          {"percentage" => 0, "power" => 150.0},
+          {"percentage" => 80, "power" => 70.0}
+        ]
       }
     }
 
@@ -49,7 +63,17 @@ class EVDataTest < Minitest::Test
       "ac_charger" => {
         "ports" => "type2",  # Should be an array
         "max_power" => 11.0,
-        "usable_phases" => 3
+        "usable_phases" => 3,
+        "power_per_charging_point" => {
+          "2.0" => 2.0,
+          "2.3" => 2.3,
+          "3.7" => 3.7,
+          "7.4" => 7.4,
+          "11" => 11.0,
+          "16" => 11.0,
+          "22" => 11.0,
+          "43" => 11.0
+        }
       }
     }
 
@@ -60,9 +84,19 @@ class EVDataTest < Minitest::Test
   def test_empty_dc_ports
     invalid_data = {
       "ac_charger" => {
-        "ports" => [],
+        "ports" => ["type2"],
         "max_power" => 11.0,
-        "usable_phases" => 3
+        "usable_phases" => 3,
+        "power_per_charging_point" => {
+          "2.0" => 2.0,
+          "2.3" => 2.3,
+          "3.7" => 3.7,
+          "7.4" => 7.4,
+          "11" => 11.0,
+          "16" => 11.0,
+          "22" => 11.0,
+          "43" => 11.0
+        }
       },
       "dc_charger" => {
         "ports" => [],  # Empty DC ports are not valid

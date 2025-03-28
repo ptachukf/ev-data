@@ -1,0 +1,791 @@
+{
+  "brand_id": "3500fb3e-bd2c-478e-ae5e-ac9ee490594b",
+  "brand_name": "Opel / Vauxhall",
+  "models": [
+    {
+      "id": "f33f0a4f-9b53-4e21-807b-f8b2ca4a24f6",
+      "brand": "Opel / Vauxhall",
+      "vehicle_type": "car",
+      "type": "bev",
+      "brand_id": "3500fb3e-bd2c-478e-ae5e-ac9ee490594b",
+      "model": "Ampera e",
+      "release_year": 2017,
+      "variant": "CCS",
+      "usable_battery_size": 60,
+      "ac_charger": {
+        "usable_phases": 1,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 7.2,
+        "power_per_charging_point": {
+          "11": 3.7,
+          "16": 5.4,
+          "22": 7.2,
+          "43": 7.2,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.2
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 45,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 45
+          },
+          {
+            "percentage": 50,
+            "power": 45
+          },
+          {
+            "percentage": 100,
+            "power": 15
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "energy_consumption": {
+        "average_consumption": 17.3
+      },
+      "charging_voltage": 400
+    },
+    {
+      "id": "7f4bf402-f8e2-47da-b456-30f1bdfce8ac",
+      "brand": "Opel / Vauxhall",
+      "vehicle_type": "car",
+      "type": "bev",
+      "brand_id": "3500fb3e-bd2c-478e-ae5e-ac9ee490594b",
+      "model": "Ampera e-Pionier",
+      "release_year": 2012,
+      "variant": "",
+      "usable_battery_size": 10.6,
+      "ac_charger": {
+        "usable_phases": 1,
+        "ports": [
+          "type1"
+        ],
+        "max_power": 2.2,
+        "power_per_charging_point": {
+          "11": 2.2,
+          "16": 2.2,
+          "22": 2.2,
+          "43": 2.2,
+          "2.0": 2,
+          "2.3": 2.2,
+          "3.7": 2.2,
+          "7.4": 2.2
+        }
+      },
+      "dc_charger": null,
+      "energy_consumption": {
+        "average_consumption": 16.9
+      },
+      "charging_voltage": 400
+    },
+    {
+      "id": "6e75fcfb-7190-1744-e51c-a6e7a1262bc4",
+      "brand": "Opel / Vauxhall",
+      "vehicle_type": "car",
+      "type": "bev",
+      "brand_id": "3500fb3e-bd2c-478e-ae5e-ac9ee490594b",
+      "model": "Corsa Electric",
+      "release_year": 2023,
+      "variant": "50 kWh",
+      "usable_battery_size": 46.3,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 101,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 95.9
+          },
+          {
+            "percentage": 75,
+            "power": 101
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": true
+      },
+      "energy_consumption": {
+        "average_consumption": 15.7
+      },
+      "charging_voltage": 400
+    },
+    {
+      "id": "6f96c616-e87a-4958-bbe7-b4278be00170",
+      "brand": "Opel / Vauxhall",
+      "vehicle_type": "car",
+      "type": "bev",
+      "brand_id": "3500fb3e-bd2c-478e-ae5e-ac9ee490594b",
+      "model": "Corsa-e",
+      "release_year": 2021,
+      "variant": "11 kW-AC",
+      "usable_battery_size": 45,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 100,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 100
+          },
+          {
+            "percentage": 30,
+            "power": 97
+          },
+          {
+            "percentage": 32,
+            "power": 78
+          },
+          {
+            "percentage": 58,
+            "power": 78
+          },
+          {
+            "percentage": 59,
+            "power": 60
+          },
+          {
+            "percentage": 66,
+            "power": 60
+          },
+          {
+            "percentage": 68,
+            "power": 55
+          },
+          {
+            "percentage": 78,
+            "power": 55
+          },
+          {
+            "percentage": 80,
+            "power": 27
+          },
+          {
+            "percentage": 90,
+            "power": 27
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "energy_consumption": {
+        "average_consumption": 15.8
+      },
+      "charging_voltage": 400
+    },
+    {
+      "id": "1cec7821-632f-4f17-8a58-644b6ab23f44",
+      "brand": "Opel / Vauxhall",
+      "vehicle_type": "car",
+      "type": "bev",
+      "brand_id": "3500fb3e-bd2c-478e-ae5e-ac9ee490594b",
+      "model": "Corsa-e",
+      "release_year": 2020,
+      "variant": "7,4 kW-AC",
+      "usable_battery_size": 45,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 7.4,
+        "power_per_charging_point": {
+          "11": 7.4,
+          "16": 7.4,
+          "22": 7.4,
+          "43": 7.4,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 100,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 100
+          },
+          {
+            "percentage": 30,
+            "power": 97
+          },
+          {
+            "percentage": 32,
+            "power": 78
+          },
+          {
+            "percentage": 58,
+            "power": 78
+          },
+          {
+            "percentage": 59,
+            "power": 60
+          },
+          {
+            "percentage": 66,
+            "power": 60
+          },
+          {
+            "percentage": 68,
+            "power": 55
+          },
+          {
+            "percentage": 78,
+            "power": 55
+          },
+          {
+            "percentage": 80,
+            "power": 27
+          },
+          {
+            "percentage": 90,
+            "power": 27
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "energy_consumption": {
+        "average_consumption": 16.4
+      },
+      "charging_voltage": 400
+    },
+    {
+      "id": "3edfe7a5-17a1-9be4-4079-70801a53eed7",
+      "brand": "Opel / Vauxhall",
+      "vehicle_type": "car",
+      "type": "bev",
+      "brand_id": "3500fb3e-bd2c-478e-ae5e-ac9ee490594b",
+      "model": "Corsa-e",
+      "release_year": 2021,
+      "variant": "7,4 kW-AC",
+      "usable_battery_size": 45,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 7.4,
+        "power_per_charging_point": {
+          "11": 7.4,
+          "16": 7.4,
+          "22": 7.4,
+          "43": 7.4,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 100,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 100
+          },
+          {
+            "percentage": 30,
+            "power": 97
+          },
+          {
+            "percentage": 32,
+            "power": 78
+          },
+          {
+            "percentage": 58,
+            "power": 78
+          },
+          {
+            "percentage": 59,
+            "power": 60
+          },
+          {
+            "percentage": 66,
+            "power": 60
+          },
+          {
+            "percentage": 68,
+            "power": 55
+          },
+          {
+            "percentage": 78,
+            "power": 55
+          },
+          {
+            "percentage": 80,
+            "power": 27
+          },
+          {
+            "percentage": 90,
+            "power": 27
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "energy_consumption": {
+        "average_consumption": 15.8
+      },
+      "charging_voltage": 400
+    },
+    {
+      "id": "557ce8e0-56c0-258e-6012-60c591df3b77",
+      "brand": "Opel / Vauxhall",
+      "vehicle_type": "car",
+      "type": "bev",
+      "brand_id": "3500fb3e-bd2c-478e-ae5e-ac9ee490594b",
+      "model": "Mokka-e",
+      "release_year": 2021,
+      "variant": "",
+      "usable_battery_size": 47.5,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 100,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 100
+          },
+          {
+            "percentage": 30,
+            "power": 97
+          },
+          {
+            "percentage": 32,
+            "power": 78
+          },
+          {
+            "percentage": 58,
+            "power": 78
+          },
+          {
+            "percentage": 59,
+            "power": 60
+          },
+          {
+            "percentage": 66,
+            "power": 60
+          },
+          {
+            "percentage": 68,
+            "power": 55
+          },
+          {
+            "percentage": 78,
+            "power": 55
+          },
+          {
+            "percentage": 80,
+            "power": 27
+          },
+          {
+            "percentage": 90,
+            "power": 27
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "energy_consumption": {
+        "average_consumption": 17.6
+      },
+      "charging_voltage": 400
+    },
+    {
+      "id": "e1747900-189a-25e7-450f-1e218cd56e6c",
+      "brand": "Opel / Vauxhall",
+      "vehicle_type": "car",
+      "type": "bev",
+      "brand_id": "3500fb3e-bd2c-478e-ae5e-ac9ee490594b",
+      "model": "Mokka-e",
+      "release_year": 2023,
+      "variant": "54 kWh",
+      "usable_battery_size": 50.8,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 100,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 100
+          },
+          {
+            "percentage": 30,
+            "power": 97
+          },
+          {
+            "percentage": 32,
+            "power": 78
+          },
+          {
+            "percentage": 58,
+            "power": 78
+          },
+          {
+            "percentage": 59,
+            "power": 60
+          },
+          {
+            "percentage": 66,
+            "power": 60
+          },
+          {
+            "percentage": 68,
+            "power": 55
+          },
+          {
+            "percentage": 78,
+            "power": 55
+          },
+          {
+            "percentage": 80,
+            "power": 27
+          },
+          {
+            "percentage": 90,
+            "power": 27
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "energy_consumption": {
+        "average_consumption": 17.5
+      },
+      "charging_voltage": 400
+    },
+    {
+      "id": "7bff132a-ecad-af92-99e6-9bea47805e21",
+      "brand": "Opel / Vauxhall",
+      "vehicle_type": "car",
+      "type": "bev",
+      "brand_id": "3500fb3e-bd2c-478e-ae5e-ac9ee490594b",
+      "model": "Vivaro-e",
+      "release_year": 2020,
+      "variant": "50 kWh",
+      "usable_battery_size": 50,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 100,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 100
+          },
+          {
+            "percentage": 30,
+            "power": 97
+          },
+          {
+            "percentage": 32,
+            "power": 78
+          },
+          {
+            "percentage": 58,
+            "power": 78
+          },
+          {
+            "percentage": 59,
+            "power": 60
+          },
+          {
+            "percentage": 66,
+            "power": 60
+          },
+          {
+            "percentage": 68,
+            "power": 55
+          },
+          {
+            "percentage": 78,
+            "power": 55
+          },
+          {
+            "percentage": 80,
+            "power": 27
+          },
+          {
+            "percentage": 90,
+            "power": 27
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "energy_consumption": {
+        "average_consumption": 21.7
+      },
+      "charging_voltage": 400
+    },
+    {
+      "id": "c9e46cfd-6fb0-99b1-1911-d25a9d762e37",
+      "brand": "Opel / Vauxhall",
+      "vehicle_type": "car",
+      "type": "bev",
+      "brand_id": "3500fb3e-bd2c-478e-ae5e-ac9ee490594b",
+      "model": "Vivaro-e",
+      "release_year": 2020,
+      "variant": "75 kWh",
+      "usable_battery_size": 75,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 100,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 95
+          },
+          {
+            "percentage": 75,
+            "power": 100
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": true
+      },
+      "energy_consumption": {
+        "average_consumption": 21.7
+      },
+      "charging_voltage": 400
+    },
+    {
+      "id": "5655021c-128f-49cf-970e-91b133335eec",
+      "brand": "Opel / Vauxhall",
+      "vehicle_type": "car",
+      "type": "bev",
+      "brand_id": "3500fb3e-bd2c-478e-ae5e-ac9ee490594b",
+      "model": "Zafira e-life",
+      "release_year": 2021,
+      "variant": "Zafira-e Life 50 kWh",
+      "usable_battery_size": 46,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 100,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 95
+          },
+          {
+            "percentage": 75,
+            "power": 100
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": true
+      },
+      "energy_consumption": {
+        "average_consumption": 16.4
+      },
+      "charging_voltage": 400
+    },
+    {
+      "id": "4f384de8-cd5a-4acf-a6db-5b9ef326c8e3",
+      "type": "bev",
+      "brand": "Opel / Vauxhall",
+      "brand_id": "3500fb3e-bd2c-478e-ae5e-ac9ee490594b",
+      "model": "Rocks-e",
+      "vehicle_type": "microcar",
+      "variant": "",
+      "release_year": 2021,
+      "usable_battery_size": 5.5,
+      "energy_consumption": {
+        "average_consumption": 4.5
+      },
+      "ac_charger": {
+        "ports": [],
+        "usable_phases": 1,
+        "max_power": 2.3,
+        "power_per_charging_point": {
+          "11": 2.3,
+          "16": 2.3,
+          "22": 2.3,
+          "43": 2.3,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 2.3,
+          "7.4": 2.3
+        }
+      },
+      "charging_voltage": 48
+    }
+  ]
+}

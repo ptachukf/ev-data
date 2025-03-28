@@ -1,0 +1,348 @@
+{
+  "brand_id": "df115651-4cef-01f0-14ef-fdeef60f674c",
+  "brand_name": "CUPRA",
+  "models": [
+    {
+      "id": "ab631897-9d68-4971-8cbc-b81d0ef2ccaa",
+      "brand": "CUPRA",
+      "vehicle_type": "car",
+      "type": "bev",
+      "brand_id": "df115651-4cef-01f0-14ef-fdeef60f674c",
+      "model": "Born",
+      "release_year": 2021,
+      "variant": "110 kW - 55 kWh",
+      "usable_battery_size": 45,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 7.2,
+        "power_per_charging_point": {
+          "11": 7.2,
+          "16": 7.2,
+          "22": 7.2,
+          "43": 7.2,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.2
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 100,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 95
+          },
+          {
+            "percentage": 75,
+            "power": 100
+          },
+          {
+            "percentage": 100,
+            "power": 7.2
+          }
+        ],
+        "is_default_charging_curve": true
+      },
+      "energy_consumption": {
+        "average_consumption": 16.4
+      },
+      "charging_voltage": 400
+    },
+    {
+      "id": "c0217035-4247-877f-43ba-446d583db76c",
+      "brand": "CUPRA",
+      "vehicle_type": "car",
+      "type": "bev",
+      "brand_id": "df115651-4cef-01f0-14ef-fdeef60f674c",
+      "model": "Born",
+      "release_year": 2021,
+      "variant": "150 kW - 62 kWh",
+      "usable_battery_size": 58,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 100,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 100
+          },
+          {
+            "percentage": 30,
+            "power": 100
+          },
+          {
+            "percentage": 70,
+            "power": 50
+          },
+          {
+            "percentage": 80,
+            "power": 50
+          },
+          {
+            "percentage": 100,
+            "power": 25
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "energy_consumption": {
+        "average_consumption": 16.6
+      },
+      "charging_voltage": 400
+    },
+    {
+      "id": "a9344438-3cea-e564-5532-969591f070c8",
+      "brand": "CUPRA",
+      "vehicle_type": "car",
+      "type": "bev",
+      "brand_id": "df115651-4cef-01f0-14ef-fdeef60f674c",
+      "model": "Born",
+      "release_year": 2022,
+      "variant": "170 kW - 62 kWh",
+      "usable_battery_size": 58,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 100,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 100
+          },
+          {
+            "percentage": 30,
+            "power": 100
+          },
+          {
+            "percentage": 70,
+            "power": 50
+          },
+          {
+            "percentage": 80,
+            "power": 50
+          },
+          {
+            "percentage": 100,
+            "power": 25
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "energy_consumption": {
+        "average_consumption": 16.8
+      },
+      "charging_voltage": 400
+    },
+    {
+      "id": "93754920-4a86-c1e9-7f58-7b183afbdbef",
+      "brand": "CUPRA",
+      "vehicle_type": "car",
+      "type": "bev",
+      "brand_id": "df115651-4cef-01f0-14ef-fdeef60f674c",
+      "model": "Born",
+      "release_year": 2021,
+      "variant": "170 kW - 82 kWh",
+      "usable_battery_size": 77,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 125,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 125
+          },
+          {
+            "percentage": 35,
+            "power": 125
+          },
+          {
+            "percentage": 70,
+            "power": 65
+          },
+          {
+            "percentage": 80,
+            "power": 65
+          },
+          {
+            "percentage": 100,
+            "power": 25
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "energy_consumption": {
+        "average_consumption": 17.1
+      },
+      "charging_voltage": 400
+    },
+    {
+      "id": "9753959b-5843-001e-086f-a5ed640240f2",
+      "brand": "CUPRA",
+      "vehicle_type": "car",
+      "type": "bev",
+      "brand_id": "df115651-4cef-01f0-14ef-fdeef60f674c",
+      "model": "Tavascan",
+      "release_year": 2024,
+      "variant": "Endurance",
+      "usable_battery_size": 77,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 135,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 128.3
+          },
+          {
+            "percentage": 75,
+            "power": 135
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": true
+      },
+      "energy_consumption": {
+        "average_consumption": 17.1
+      },
+      "charging_voltage": 400
+    },
+    {
+      "id": "4c02abfc-7c75-f5ee-ec01-ccc3da0b60c9",
+      "brand": "CUPRA",
+      "vehicle_type": "car",
+      "type": "bev",
+      "brand_id": "df115651-4cef-01f0-14ef-fdeef60f674c",
+      "model": "Tavascan",
+      "release_year": 2024,
+      "variant": "VZ",
+      "usable_battery_size": 77,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 175,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 166.3
+          },
+          {
+            "percentage": 75,
+            "power": 175
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": true
+      },
+      "energy_consumption": {
+        "average_consumption": 17.9
+      },
+      "charging_voltage": 400
+    }
+  ]
+}

@@ -1,0 +1,189 @@
+{
+  "brand_id": "61fc79a2-04ca-418e-9333-caf5f67ba02f",
+  "brand_name": "Jaguar",
+  "models": [
+    {
+      "id": "8da12395-cf7a-4ccf-886f-e25ade426457",
+      "brand": "Jaguar",
+      "vehicle_type": "car",
+      "type": "bev",
+      "brand_id": "61fc79a2-04ca-418e-9333-caf5f67ba02f",
+      "model": "i-Pace",
+      "release_year": 2018,
+      "variant": "",
+      "usable_battery_size": 84,
+      "ac_charger": {
+        "usable_phases": 1,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 7.4,
+        "power_per_charging_point": {
+          "11": 3.7,
+          "16": 5.4,
+          "22": 7.4,
+          "43": 7.4,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 105,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 100
+          },
+          {
+            "percentage": 30,
+            "power": 105
+          },
+          {
+            "percentage": 80,
+            "power": 55
+          },
+          {
+            "percentage": 90,
+            "power": 37
+          },
+          {
+            "percentage": 100,
+            "power": 12
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "energy_consumption": {
+        "average_consumption": 23.2
+      },
+      "charging_voltage": 400
+    },
+    {
+      "id": "755da8dd-f3d7-48de-a92a-bee65c5e6201",
+      "brand": "Jaguar",
+      "vehicle_type": "car",
+      "type": "bev",
+      "brand_id": "61fc79a2-04ca-418e-9333-caf5f67ba02f",
+      "model": "i-Pace",
+      "release_year": 2020,
+      "variant": "EV320",
+      "usable_battery_size": 84,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 105,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 100
+          },
+          {
+            "percentage": 30,
+            "power": 105
+          },
+          {
+            "percentage": 80,
+            "power": 55
+          },
+          {
+            "percentage": 90,
+            "power": 37
+          },
+          {
+            "percentage": 100,
+            "power": 12
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "energy_consumption": {
+        "average_consumption": 23.2
+      },
+      "charging_voltage": 400
+    },
+    {
+      "id": "f77ac610-ac67-48c7-af8a-f78e0bf31c70",
+      "brand": "Jaguar",
+      "vehicle_type": "car",
+      "type": "bev",
+      "brand_id": "61fc79a2-04ca-418e-9333-caf5f67ba02f",
+      "model": "i-Pace",
+      "release_year": 2020,
+      "variant": "EV400",
+      "usable_battery_size": 84,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 105,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 100
+          },
+          {
+            "percentage": 30,
+            "power": 105
+          },
+          {
+            "percentage": 80,
+            "power": 55
+          },
+          {
+            "percentage": 90,
+            "power": 37
+          },
+          {
+            "percentage": 100,
+            "power": 12
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "energy_consumption": {
+        "average_consumption": 23.2
+      },
+      "charging_voltage": 400
+    }
+  ]
+}

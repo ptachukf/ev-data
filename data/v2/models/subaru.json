@@ -1,0 +1,75 @@
+{
+  "brand_id": "b6aceebb-eeff-f9a9-4bf6-cbe56475172b",
+  "brand_name": "Subaru",
+  "models": [
+    {
+      "id": "70b58a2f-76e8-fcb9-a2f9-638914d7f429",
+      "brand": "Subaru",
+      "vehicle_type": "car",
+      "type": "bev",
+      "brand_id": "b6aceebb-eeff-f9a9-4bf6-cbe56475172b",
+      "model": "Solterra",
+      "release_year": 2022,
+      "variant": "AWD",
+      "usable_battery_size": 64,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 6.6,
+        "power_per_charging_point": {
+          "11": 6.6,
+          "16": 6.6,
+          "22": 6.6,
+          "43": 6.6,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 6.6
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 150,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 142.5
+          },
+          {
+            "percentage": 10,
+            "power": 150
+          },
+          {
+            "percentage": 30,
+            "power": 150
+          },
+          {
+            "percentage": 50,
+            "power": 120
+          },
+          {
+            "percentage": 80,
+            "power": 70
+          },
+          {
+            "percentage": 90,
+            "power": 40
+          },
+          {
+            "percentage": 100,
+            "power": 20
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "energy_consumption": {
+        "average_consumption": 20
+      },
+      "charging_voltage": 400
+    }
+  ]
+}

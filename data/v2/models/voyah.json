@@ -1,0 +1,59 @@
+{
+  "brand_id": "0a1b404b-dc45-2a39-c92e-331a87ff5ccc",
+  "brand_name": "Voyah",
+  "models": [
+    {
+      "id": "4e77364e-693a-609b-b92a-13374b18496b",
+      "brand": "Voyah",
+      "vehicle_type": "car",
+      "type": "bev",
+      "brand_id": "0a1b404b-dc45-2a39-c92e-331a87ff5ccc",
+      "model": "Free",
+      "release_year": 2023,
+      "variant": "106 kWh Premium Standaard",
+      "usable_battery_size": 100,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 100,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 95
+          },
+          {
+            "percentage": 75,
+            "power": 100
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": true
+      },
+      "energy_consumption": {
+        "average_consumption": 20.8
+      },
+      "charging_voltage": 400
+    }
+  ]
+}

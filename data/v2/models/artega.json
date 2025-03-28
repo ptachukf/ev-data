@@ -1,0 +1,39 @@
+{
+  "brand_id": "97d0d03a-63c6-4f33-99d7-6e944f71d7c5",
+  "brand_name": "Artega",
+  "models": [
+    {
+      "id": "1c9126d4-24d6-4e9f-a49d-15813fa49728",
+      "brand": "Artega",
+      "vehicle_type": "car",
+      "type": "bev",
+      "brand_id": "97d0d03a-63c6-4f33-99d7-6e944f71d7c5",
+      "model": "Karo",
+      "release_year": 2020,
+      "variant": "Range Plus",
+      "usable_battery_size": 14.4,
+      "ac_charger": {
+        "usable_phases": 1,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 4,
+        "power_per_charging_point": {
+          "11": 3.7,
+          "16": 4,
+          "22": 4,
+          "43": 4,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 4
+        }
+      },
+      "dc_charger": null,
+      "energy_consumption": {
+        "average_consumption": 7.2
+      },
+      "charging_voltage": 400
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "brand_id": "ff0882f0-bb7f-4259-bf73-9303a299e2c4",
+  "brand_name": "Carver",
+  "models": [
+    {
+      "id": "37e12bfc-d3c8-4308-b62f-e631c10e6d43",
+      "type": "bev",
+      "brand": "Carver",
+      "brand_id": "ff0882f0-bb7f-4259-bf73-9303a299e2c4",
+      "model": "S+",
+      "vehicle_type": "microcar",
+      "variant": "",
+      "release_year": 2020,
+      "usable_battery_size": 7.1,
+      "energy_consumption": {
+        "average_consumption": 7.1
+      },
+      "ac_charger": {
+        "ports": [],
+        "usable_phases": 1,
+        "max_power": 2.3,
+        "power_per_charging_point": {
+          "11": 2.3,
+          "16": 2.3,
+          "22": 2.3,
+          "43": 2.3,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 2.3,
+          "7.4": 2.3
+        }
+      },
+      "charging_voltage": 48
+    }
+  ]
+}

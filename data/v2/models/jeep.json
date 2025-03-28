@@ -1,0 +1,59 @@
+{
+  "brand_id": "3f1649fc-a64c-fd11-53a6-56031d7757aa",
+  "brand_name": "Jeep",
+  "models": [
+    {
+      "id": "28b17ead-a637-9680-a128-e058374567ce",
+      "brand": "Jeep",
+      "vehicle_type": "car",
+      "type": "bev",
+      "brand_id": "3f1649fc-a64c-fd11-53a6-56031d7757aa",
+      "model": "Avenger",
+      "release_year": 2023,
+      "variant": "1st Edition",
+      "usable_battery_size": 50.8,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 100,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 95
+          },
+          {
+            "percentage": 75,
+            "power": 100
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": true
+      },
+      "energy_consumption": {
+        "average_consumption": 17.2
+      },
+      "charging_voltage": 400
+    }
+  ]
+}

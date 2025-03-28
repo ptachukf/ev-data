@@ -1,0 +1,397 @@
+{
+  "brand_id": "6cf9e9b6-28aa-44c7-b6c3-438d518ac12f",
+  "brand_name": "Ford",
+  "models": [
+    {
+      "id": "c0a26929-1157-4fb4-a999-4f172df9cad7",
+      "brand": "Ford",
+      "vehicle_type": "car",
+      "type": "bev",
+      "brand_id": "6cf9e9b6-28aa-44c7-b6c3-438d518ac12f",
+      "model": "Focus electric",
+      "release_year": 2017,
+      "variant": "",
+      "usable_battery_size": 33.5,
+      "ac_charger": {
+        "usable_phases": 1,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 6.6,
+        "power_per_charging_point": {
+          "11": 3.7,
+          "16": 5.4,
+          "22": 6.6,
+          "43": 6.6,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 6.6
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 50,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 47.5
+          },
+          {
+            "percentage": 75,
+            "power": 50
+          },
+          {
+            "percentage": 100,
+            "power": 6.6
+          }
+        ],
+        "is_default_charging_curve": true
+      },
+      "energy_consumption": {
+        "average_consumption": 16.4
+      },
+      "charging_voltage": 400
+    },
+    {
+      "id": "6cd5ba89-6523-4bca-9423-ea92227a8b8d",
+      "brand": "Ford",
+      "vehicle_type": "car",
+      "type": "bev",
+      "brand_id": "6cf9e9b6-28aa-44c7-b6c3-438d518ac12f",
+      "model": "Focus electric",
+      "release_year": 2013,
+      "variant": "",
+      "usable_battery_size": 23,
+      "ac_charger": {
+        "usable_phases": 1,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 6.6,
+        "power_per_charging_point": {
+          "11": 3.7,
+          "16": 5.4,
+          "22": 6.6,
+          "43": 6.6,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 6.6
+        }
+      },
+      "dc_charger": null,
+      "energy_consumption": {
+        "average_consumption": 16.4
+      },
+      "charging_voltage": 400
+    },
+    {
+      "id": "b93051f8-a4c4-488f-9862-6c92a8ab7f11",
+      "brand": "Ford",
+      "vehicle_type": "car",
+      "type": "bev",
+      "brand_id": "6cf9e9b6-28aa-44c7-b6c3-438d518ac12f",
+      "model": "Mustang Mach e",
+      "release_year": 2022,
+      "variant": "AWD 75,7 kWh",
+      "usable_battery_size": 70,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 113,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 113
+          },
+          {
+            "percentage": 30,
+            "power": 99
+          },
+          {
+            "percentage": 60,
+            "power": 77
+          },
+          {
+            "percentage": 85,
+            "power": 36
+          },
+          {
+            "percentage": 100,
+            "power": 13
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "energy_consumption": {
+        "average_consumption": 17.9
+      },
+      "charging_voltage": 400
+    },
+    {
+      "id": "4d84c2e6-2902-4086-aa87-f3852a42d15d",
+      "brand": "Ford",
+      "vehicle_type": "car",
+      "type": "bev",
+      "brand_id": "6cf9e9b6-28aa-44c7-b6c3-438d518ac12f",
+      "model": "Mustang Mach e",
+      "release_year": 2022,
+      "variant": "AWD 98,8 kWh",
+      "usable_battery_size": 88,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 148,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 148
+          },
+          {
+            "percentage": 35,
+            "power": 147
+          },
+          {
+            "percentage": 60,
+            "power": 118
+          },
+          {
+            "percentage": 80,
+            "power": 73
+          },
+          {
+            "percentage": 100,
+            "power": 27
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "energy_consumption": {
+        "average_consumption": 18.1
+      },
+      "charging_voltage": 400
+    },
+    {
+      "id": "2a41f004-7fe8-4dfe-8e6c-57691c9b6283",
+      "brand": "Ford",
+      "vehicle_type": "car",
+      "type": "bev",
+      "brand_id": "6cf9e9b6-28aa-44c7-b6c3-438d518ac12f",
+      "model": "Mustang Mach e",
+      "release_year": 2022,
+      "variant": "GT",
+      "usable_battery_size": 88,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 148,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 148
+          },
+          {
+            "percentage": 35,
+            "power": 147
+          },
+          {
+            "percentage": 60,
+            "power": 118
+          },
+          {
+            "percentage": 80,
+            "power": 73
+          },
+          {
+            "percentage": 100,
+            "power": 27
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "energy_consumption": {
+        "average_consumption": 20
+      },
+      "charging_voltage": 400
+    },
+    {
+      "id": "f44095b1-b4b0-430b-a88f-257a164d9dfd",
+      "brand": "Ford",
+      "vehicle_type": "car",
+      "type": "bev",
+      "brand_id": "6cf9e9b6-28aa-44c7-b6c3-438d518ac12f",
+      "model": "Mustang Mach e",
+      "release_year": 2022,
+      "variant": "RWD 75,7 kWh",
+      "usable_battery_size": 70,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 113,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 113
+          },
+          {
+            "percentage": 30,
+            "power": 99
+          },
+          {
+            "percentage": 60,
+            "power": 77
+          },
+          {
+            "percentage": 85,
+            "power": 36
+          },
+          {
+            "percentage": 100,
+            "power": 13
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "energy_consumption": {
+        "average_consumption": 16.5
+      },
+      "charging_voltage": 400
+    },
+    {
+      "id": "b1aa6457-c0af-458d-96dc-178ad1977e47",
+      "brand": "Ford",
+      "vehicle_type": "car",
+      "type": "bev",
+      "brand_id": "6cf9e9b6-28aa-44c7-b6c3-438d518ac12f",
+      "model": "Mustang Mach e",
+      "release_year": 2022,
+      "variant": "RWD 98,8 kWh",
+      "usable_battery_size": 88,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 148,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 148
+          },
+          {
+            "percentage": 35,
+            "power": 147
+          },
+          {
+            "percentage": 60,
+            "power": 118
+          },
+          {
+            "percentage": 80,
+            "power": 73
+          },
+          {
+            "percentage": 100,
+            "power": 27
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "energy_consumption": {
+        "average_consumption": 16.5
+      },
+      "charging_voltage": 400
+    }
+  ]
+}

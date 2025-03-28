@@ -1,0 +1,112 @@
+{
+  "brand_id": "9ca5e092-76e2-4868-afc1-c06abeedf81b",
+  "brand_name": "Honda",
+  "models": [
+    {
+      "id": "5bfa9a87-7b35-4e3a-bd3f-dc2ac55e184b",
+      "brand": "Honda",
+      "vehicle_type": "car",
+      "type": "bev",
+      "brand_id": "9ca5e092-76e2-4868-afc1-c06abeedf81b",
+      "model": "e",
+      "release_year": 2020,
+      "variant": "",
+      "usable_battery_size": 32,
+      "ac_charger": {
+        "usable_phases": 1,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 6.6,
+        "power_per_charging_point": {
+          "11": 3.7,
+          "16": 5.4,
+          "22": 6.6,
+          "43": 6.6,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 6.6
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 60,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 57
+          },
+          {
+            "percentage": 75,
+            "power": 60
+          },
+          {
+            "percentage": 100,
+            "power": 6.6
+          }
+        ],
+        "is_default_charging_curve": true
+      },
+      "energy_consumption": {
+        "average_consumption": 16
+      },
+      "charging_voltage": 400
+    },
+    {
+      "id": "89ef5a3e-dd5c-af06-ada1-50a5d1abdada",
+      "brand": "Honda",
+      "vehicle_type": "car",
+      "type": "bev",
+      "brand_id": "9ca5e092-76e2-4868-afc1-c06abeedf81b",
+      "model": "e:Ny1",
+      "release_year": 2023,
+      "variant": "",
+      "usable_battery_size": 62,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 78,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 74.1
+          },
+          {
+            "percentage": 75,
+            "power": 78
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": true
+      },
+      "energy_consumption": {
+        "average_consumption": 17.2
+      },
+      "charging_voltage": 400
+    }
+  ]
+}

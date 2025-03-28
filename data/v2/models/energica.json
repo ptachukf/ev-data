@@ -1,0 +1,79 @@
+{
+  "brand_id": "ef55e52a-51bd-740c-876d-92cbc6a6cac1",
+  "brand_name": "Energica",
+  "models": [
+    {
+      "id": "52528a60-360d-0fd8-05ec-826572b4d327",
+      "brand": "Energica",
+      "vehicle_type": "motorbike",
+      "type": "bev",
+      "brand_id": "ef55e52a-51bd-740c-876d-92cbc6a6cac1",
+      "model": "Eva",
+      "release_year": 2020,
+      "variant": "Ribelle",
+      "usable_battery_size": 18.9,
+      "ac_charger": {
+        "usable_phases": 1,
+        "ports": [
+          "type1"
+        ],
+        "max_power": 3,
+        "power_per_charging_point": {
+          "11": 3,
+          "16": 3,
+          "22": 3,
+          "43": 3,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3,
+          "7.4": 3
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 23,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 22
+          },
+          {
+            "percentage": 25,
+            "power": 23
+          },
+          {
+            "percentage": 35,
+            "power": 23
+          },
+          {
+            "percentage": 50,
+            "power": 18
+          },
+          {
+            "percentage": 60,
+            "power": 17
+          },
+          {
+            "percentage": 75,
+            "power": 15
+          },
+          {
+            "percentage": 85,
+            "power": 15
+          },
+          {
+            "percentage": 100,
+            "power": 3
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "energy_consumption": {
+        "average_consumption": 11.6
+      },
+      "charging_voltage": 400
+    }
+  ]
+}

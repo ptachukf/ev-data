@@ -1,0 +1,59 @@
+{
+  "brand_id": "ea09bbcb-55a3-1ba4-c516-03869a5c497a",
+  "brand_name": "XPENG",
+  "models": [
+    {
+      "id": "e02242d9-cfcd-24a3-d088-9027698f41e4",
+      "brand": "XPENG",
+      "vehicle_type": "car",
+      "type": "bev",
+      "brand_id": "ea09bbcb-55a3-1ba4-c516-03869a5c497a",
+      "model": "P5",
+      "release_year": 2022,
+      "variant": "",
+      "usable_battery_size": 60,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 80,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 76
+          },
+          {
+            "percentage": 75,
+            "power": 80
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": true
+      },
+      "energy_consumption": {
+        "average_consumption": 15.6
+      },
+      "charging_voltage": 400
+    }
+  ]
+}

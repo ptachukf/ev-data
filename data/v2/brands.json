@@ -1,0 +1,308 @@
+{
+  "meta": {
+    "updated_at": "2025-03-28T15:27:48Z",
+    "overall_count": 378
+  },
+  "brands": [
+    {
+      "id": "3fcb4e15-c510-4453-a0cd-6a8d1a980e8d",
+      "name": "Abarth",
+      "models_file": "models/abarth.json"
+    },
+    {
+      "id": "a43d2607-eead-46c2-9fd5-2ebd3c49d895",
+      "name": "Aiways",
+      "models_file": "models/aiways.json"
+    },
+    {
+      "id": "97d0d03a-63c6-4f33-99d7-6e944f71d7c5",
+      "name": "Artega",
+      "models_file": "models/artega.json"
+    },
+    {
+      "id": "89c2668c-0c50-4344-9386-93e4000f7673",
+      "name": "Audi",
+      "models_file": "models/audi.json"
+    },
+    {
+      "id": "0742668c-bf59-4191-890e-2b0883508808",
+      "name": "BMW",
+      "models_file": "models/bmw.json"
+    },
+    {
+      "id": "591fd9d3-d14f-4d55-f498-594f4a9d2f1f",
+      "name": "BYD",
+      "models_file": "models/byd.json"
+    },
+    {
+      "id": "df115651-4cef-01f0-14ef-fdeef60f674c",
+      "name": "CUPRA",
+      "models_file": "models/cupra.json"
+    },
+    {
+      "id": "ff0882f0-bb7f-4259-bf73-9303a299e2c4",
+      "name": "Carver",
+      "models_file": "models/carver.json"
+    },
+    {
+      "id": "cbca5847-9b23-47d9-80d3-24fa9a8ca21a",
+      "name": "Chevrolet",
+      "models_file": "models/chevrolet.json"
+    },
+    {
+      "id": "3b3fc191-f4c3-45da-bc3b-21efbe1b264f",
+      "name": "Citroën",
+      "models_file": "models/citro_n.json"
+    },
+    {
+      "id": "37bfdacf-1aca-4eb7-8daa-8dc5b14c59e9",
+      "name": "DS",
+      "models_file": "models/ds.json"
+    },
+    {
+      "id": "3db0ef48-3566-5fab-00a9-3107c4019b68",
+      "name": "Dacia",
+      "models_file": "models/dacia.json"
+    },
+    {
+      "id": "ef55e52a-51bd-740c-876d-92cbc6a6cac1",
+      "name": "Energica",
+      "models_file": "models/energica.json"
+    },
+    {
+      "id": "3291e5ba-862c-49fa-8437-71105743875e",
+      "name": "Fiat",
+      "models_file": "models/fiat.json"
+    },
+    {
+      "id": "6cf9e9b6-28aa-44c7-b6c3-438d518ac12f",
+      "name": "Ford",
+      "models_file": "models/ford.json"
+    },
+    {
+      "id": "80cb3fd7-d557-4d2f-b606-e6c0c84ab5c8",
+      "name": "GWM",
+      "models_file": "models/gwm.json"
+    },
+    {
+      "id": "100b9345-4c0e-fb7b-4502-5535cf6359fd",
+      "name": "Genesis",
+      "models_file": "models/genesis.json"
+    },
+    {
+      "id": "9ca5e092-76e2-4868-afc1-c06abeedf81b",
+      "name": "Honda",
+      "models_file": "models/honda.json"
+    },
+    {
+      "id": "0885dcd7-55c0-bb48-3c76-1552bcba03ef",
+      "name": "Hongqi",
+      "models_file": "models/hongqi.json"
+    },
+    {
+      "id": "9771afb8-9e25-4ae6-a5b3-b2a5b9f363f0",
+      "name": "Hyundai",
+      "models_file": "models/hyundai.json"
+    },
+    {
+      "id": "61fc79a2-04ca-418e-9333-caf5f67ba02f",
+      "name": "Jaguar",
+      "models_file": "models/jaguar.json"
+    },
+    {
+      "id": "3f1649fc-a64c-fd11-53a6-56031d7757aa",
+      "name": "Jeep",
+      "models_file": "models/jeep.json"
+    },
+    {
+      "id": "3337d5f0-39de-4ded-831b-843dfec1ebbd",
+      "name": "Kia",
+      "models_file": "models/kia.json"
+    },
+    {
+      "id": "9bb828a8-dc16-5090-42f3-2d26b2245f1f",
+      "name": "Lexus",
+      "models_file": "models/lexus.json"
+    },
+    {
+      "id": "c1ca0a1d-4762-0e9b-005e-5791ed0a040e",
+      "name": "Lotus",
+      "models_file": "models/lotus.json"
+    },
+    {
+      "id": "24199511-376f-cc42-0cce-5662566baa1a",
+      "name": "Lucid",
+      "models_file": "models/lucid.json"
+    },
+    {
+      "id": "8f65f3e7-430e-4c85-93fd-a70aa181fd9c",
+      "name": "MAN",
+      "models_file": "models/man.json"
+    },
+    {
+      "id": "5663b87a-d940-4bab-9846-d74c8c0ae260",
+      "name": "MG",
+      "models_file": "models/mg.json"
+    },
+    {
+      "id": "60f3085b-d0c0-cffd-e904-ffe9f6ea7c2a",
+      "name": "Maserati",
+      "models_file": "models/maserati.json"
+    },
+    {
+      "id": "171a1e6d-8cbc-41a9-a8bb-e05b7ee98889",
+      "name": "Maxus",
+      "models_file": "models/maxus.json"
+    },
+    {
+      "id": "9b829849-1219-48b8-964e-90ddc1a4fa85",
+      "name": "Mazda",
+      "models_file": "models/mazda.json"
+    },
+    {
+      "id": "b2282fbe-f5d9-48d9-943f-a9b66ec51423",
+      "name": "Mercedes",
+      "models_file": "models/mercedes.json"
+    },
+    {
+      "id": "26dd1abc-ea35-4f35-8ea6-e9310539331a",
+      "name": "Micro",
+      "models_file": "models/micro.json"
+    },
+    {
+      "id": "6d9d9248-de4a-4b13-976b-4e9f6688b0b1",
+      "name": "Mini",
+      "models_file": "models/mini.json"
+    },
+    {
+      "id": "3cf8cf51-60ac-4cac-9f25-131c21eda12e",
+      "name": "Mitsubishi",
+      "models_file": "models/mitsubishi.json"
+    },
+    {
+      "id": "2763ca2c-43b8-d4e4-f0ac-60f664743d72",
+      "name": "NIO",
+      "models_file": "models/nio.json"
+    },
+    {
+      "id": "dab5a47a-e8ce-4d34-9139-0701499205b1",
+      "name": "Nissan",
+      "models_file": "models/nissan.json"
+    },
+    {
+      "id": "3500fb3e-bd2c-478e-ae5e-ac9ee490594b",
+      "name": "Opel / Vauxhall",
+      "models_file": "models/opel_vauxhall.json"
+    },
+    {
+      "id": "f458fe7d-f545-45f3-8c23-2ab8140b8b5d",
+      "name": "Peugeot",
+      "models_file": "models/peugeot.json"
+    },
+    {
+      "id": "391f000f-d9d1-4c13-b744-95f0b9c8a2e1",
+      "name": "Polestar",
+      "models_file": "models/polestar.json"
+    },
+    {
+      "id": "68e11a25-d316-4d22-9444-45c7306c8ab7",
+      "name": "Porsche",
+      "models_file": "models/porsche.json"
+    },
+    {
+      "id": "c0d8a60c-34b8-44fe-8af7-9eeb62eedb4b",
+      "name": "Renault",
+      "models_file": "models/renault.json"
+    },
+    {
+      "id": "91c527ff-aa74-4dbb-9091-36fb5ddd44b6",
+      "name": "Seat",
+      "models_file": "models/seat.json"
+    },
+    {
+      "id": "ac088c26-ad28-478a-9e9a-0a6c7f9eeb51",
+      "name": "Silence",
+      "models_file": "models/silence.json"
+    },
+    {
+      "id": "43763587-6999-406b-8843-28977e1b82c3",
+      "name": "Skoda",
+      "models_file": "models/skoda.json"
+    },
+    {
+      "id": "99db8cfc-9f1b-3f6b-6295-cb025fc28052",
+      "name": "Sono",
+      "models_file": "models/sono.json"
+    },
+    {
+      "id": "982074e7-7bc9-757a-ac2d-13229192dc0c",
+      "name": "SsangYong",
+      "models_file": "models/ssangyong.json"
+    },
+    {
+      "id": "b6aceebb-eeff-f9a9-4bf6-cbe56475172b",
+      "name": "Subaru",
+      "models_file": "models/subaru.json"
+    },
+    {
+      "id": "f37896c3-6bc5-45e1-b442-b9cbc38e3a7c",
+      "name": "Tesla",
+      "models_file": "models/tesla.json"
+    },
+    {
+      "id": "b586dda4-a6ba-54e4-ee6d-9d6a098d4751",
+      "name": "Toyota",
+      "models_file": "models/toyota.json"
+    },
+    {
+      "id": "104f4958-a505-ab2a-f96c-9f98cd599341",
+      "name": "Vinfast",
+      "models_file": "models/vinfast.json"
+    },
+    {
+      "id": "481793f5-c8b0-4dc9-b3d4-cc615085ac07",
+      "name": "Volkswagen",
+      "models_file": "models/volkswagen.json"
+    },
+    {
+      "id": "2e55ea02-c829-4256-94fd-ffc971a1dd8e",
+      "name": "Volvo",
+      "models_file": "models/volvo.json"
+    },
+    {
+      "id": "0a1b404b-dc45-2a39-c92e-331a87ff5ccc",
+      "name": "Voyah",
+      "models_file": "models/voyah.json"
+    },
+    {
+      "id": "ea09bbcb-55a3-1ba4-c516-03869a5c497a",
+      "name": "XPENG",
+      "models_file": "models/xpeng.json"
+    },
+    {
+      "id": "71900a97-a91f-4b09-b78a-de7c654d41a0",
+      "name": "Zeekr",
+      "models_file": "models/zeekr.json"
+    },
+    {
+      "id": "5686f8db-6a36-41e7-a78c-fbf957ca103a",
+      "name": "Zero Motorcycles",
+      "models_file": "models/zero_motorcycles.json"
+    },
+    {
+      "id": "771bb157-23a2-4917-908c-810d241718d5",
+      "name": "e.GO Mobile",
+      "models_file": "models/e_go_mobile.json"
+    },
+    {
+      "id": "b7c3b515-9568-4a3b-a564-e630d5116d90",
+      "name": "exit",
+      "models_file": "models/exit.json"
+    },
+    {
+      "id": "a462c115-33b4-438b-b590-bc4a33382d1c",
+      "name": "smart",
+      "models_file": "models/smart.json"
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "brand_id": "91c527ff-aa74-4dbb-9091-36fb5ddd44b6",
+  "brand_name": "Seat",
+  "models": [
+    {
+      "id": "2eea1ef2-0fd1-481d-adee-68044666614e",
+      "brand": "Seat",
+      "vehicle_type": "car",
+      "type": "bev",
+      "brand_id": "91c527ff-aa74-4dbb-9091-36fb5ddd44b6",
+      "model": "Mii Electric",
+      "release_year": 2020,
+      "variant": "CCS",
+      "usable_battery_size": 32.3,
+      "ac_charger": {
+        "usable_phases": 2,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 7.2,
+        "power_per_charging_point": {
+          "11": 7.2,
+          "16": 7.2,
+          "22": 7.2,
+          "43": 7.2,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.2
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 34,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 32
+          },
+          {
+            "percentage": 27,
+            "power": 34
+          },
+          {
+            "percentage": 80,
+            "power": 14
+          },
+          {
+            "percentage": 100,
+            "power": 7
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "energy_consumption": {
+        "average_consumption": 16.6
+      },
+      "charging_voltage": 400
+    }
+  ]
+}

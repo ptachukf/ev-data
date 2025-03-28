@@ -1,0 +1,105 @@
+{
+  "brand_id": "771bb157-23a2-4917-908c-810d241718d5",
+  "brand_name": "e.GO Mobile",
+  "models": [
+    {
+      "id": "975b064b-626e-4318-b60c-3ce0729743fd",
+      "brand": "e.GO Mobile",
+      "vehicle_type": "microcar",
+      "type": "bev",
+      "brand_id": "771bb157-23a2-4917-908c-810d241718d5",
+      "model": "Life 20",
+      "release_year": 2019,
+      "variant": "",
+      "usable_battery_size": 14.5,
+      "ac_charger": {
+        "usable_phases": 1,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 3.6,
+        "power_per_charging_point": {
+          "11": 3.6,
+          "16": 3.6,
+          "22": 3.6,
+          "43": 3.6,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.6,
+          "7.4": 3.6
+        }
+      },
+      "dc_charger": null,
+      "energy_consumption": {
+        "average_consumption": 15.5
+      },
+      "charging_voltage": 400
+    },
+    {
+      "id": "4f408d10-82c3-4850-ae2b-141f21d745b3",
+      "brand": "e.GO Mobile",
+      "vehicle_type": "microcar",
+      "type": "bev",
+      "brand_id": "771bb157-23a2-4917-908c-810d241718d5",
+      "model": "Life 40",
+      "release_year": 2019,
+      "variant": "",
+      "usable_battery_size": 17.5,
+      "ac_charger": {
+        "usable_phases": 1,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 3.6,
+        "power_per_charging_point": {
+          "11": 3.6,
+          "16": 3.6,
+          "22": 3.6,
+          "43": 3.6,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.6,
+          "7.4": 3.6
+        }
+      },
+      "dc_charger": null,
+      "energy_consumption": {
+        "average_consumption": 15.5
+      },
+      "charging_voltage": 400
+    },
+    {
+      "id": "98aacbc9-5a97-4fe4-abcf-4f7bb2910a9f",
+      "brand": "e.GO Mobile",
+      "vehicle_type": "microcar",
+      "type": "bev",
+      "brand_id": "771bb157-23a2-4917-908c-810d241718d5",
+      "model": "Life 60",
+      "release_year": 2019,
+      "variant": "",
+      "usable_battery_size": 21,
+      "ac_charger": {
+        "usable_phases": 1,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 3.6,
+        "power_per_charging_point": {
+          "11": 3.6,
+          "16": 3.6,
+          "22": 3.6,
+          "43": 3.6,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.6,
+          "7.4": 3.6
+        }
+      },
+      "dc_charger": null,
+      "energy_consumption": {
+        "average_consumption": 15.5
+      },
+      "charging_voltage": 400
+    }
+  ]
+}

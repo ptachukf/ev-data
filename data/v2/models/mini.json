@@ -1,0 +1,553 @@
+{
+  "brand_id": "6d9d9248-de4a-4b13-976b-4e9f6688b0b1",
+  "brand_name": "Mini",
+  "models": [
+    {
+      "id": "d8c11860-a582-4784-9e58-d29e94a67fc2",
+      "brand": "Mini",
+      "vehicle_type": "car",
+      "type": "bev",
+      "brand_id": "6d9d9248-de4a-4b13-976b-4e9f6688b0b1",
+      "model": "Cooper SE",
+      "release_year": 2020,
+      "variant": "",
+      "usable_battery_size": 28.9,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 50,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 47.5
+          },
+          {
+            "percentage": 75,
+            "power": 50
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": true
+      },
+      "energy_consumption": {
+        "average_consumption": 16.1
+      },
+      "charging_voltage": 400
+    },
+    {
+      "id": "91a05bbc-978f-4e36-9d36-5e59bee46c8d",
+      "type": "bev",
+      "brand": "Mini",
+      "brand_id": "6d9d9248-de4a-4b13-976b-4e9f6688b0b1",
+      "model": "Cooper",
+      "vehicle_type": "car",
+      "variant": "SE",
+      "release_year": 2024,
+      "usable_battery_size": 49.2,
+      "energy_consumption": {
+        "average_consumption": 14.9
+      },
+      "ac_charger": {
+        "ports": [
+          "type2"
+        ],
+        "usable_phases": 3,
+        "max_power": 11,
+        "power_per_charging_point": {
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 95,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 10
+          },
+          {
+            "percentage": 15,
+            "power": 95
+          },
+          {
+            "percentage": 20,
+            "power": 80
+          },
+          {
+            "percentage": 50,
+            "power": 75
+          },
+          {
+            "percentage": 70,
+            "power": 75
+          },
+          {
+            "percentage": 80,
+            "power": 47.5
+          },
+          {
+            "percentage": 90,
+            "power": 25
+          },
+          {
+            "percentage": 100,
+            "power": 19
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "charging_voltage": 400
+    },
+    {
+      "id": "3a50ddc0-c42d-4bf2-9bdb-48db144a5bcb",
+      "type": "bev",
+      "brand": "Mini",
+      "brand_id": "6d9d9248-de4a-4b13-976b-4e9f6688b0b1",
+      "model": "Cooper",
+      "vehicle_type": "car",
+      "variant": "E",
+      "release_year": 2024,
+      "usable_battery_size": 36.6,
+      "energy_consumption": {
+        "average_consumption": 14.6
+      },
+      "ac_charger": {
+        "ports": [],
+        "usable_phases": 3,
+        "max_power": 11,
+        "power_per_charging_point": {
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 70,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 66.5
+          },
+          {
+            "percentage": 50,
+            "power": 70
+          },
+          {
+            "percentage": 80,
+            "power": 35
+          },
+          {
+            "percentage": 100,
+            "power": 14
+          }
+        ],
+        "is_default_charging_curve": true
+      },
+      "charging_voltage": 400
+    },
+    {
+      "id": "1b30c350-78e2-4414-821f-4797d917508c",
+      "type": "bev",
+      "brand": "Mini",
+      "brand_id": "6d9d9248-de4a-4b13-976b-4e9f6688b0b1",
+      "model": "Countryman",
+      "vehicle_type": "car",
+      "variant": "E",
+      "release_year": 2024,
+      "usable_battery_size": 64.6,
+      "energy_consumption": {
+        "average_consumption": 17
+      },
+      "ac_charger": {
+        "ports": [
+          "type2"
+        ],
+        "usable_phases": 3,
+        "max_power": 11,
+        "power_per_charging_point": {
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 128,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 121.6
+          },
+          {
+            "percentage": 50,
+            "power": 128
+          },
+          {
+            "percentage": 80,
+            "power": 64
+          },
+          {
+            "percentage": 100,
+            "power": 25.6
+          }
+        ],
+        "is_default_charging_curve": true
+      },
+      "charging_voltage": 400
+    },
+    {
+      "id": "d5ccb7f8-797d-4450-b4ad-f74e8d6eba7d",
+      "type": "bev",
+      "brand": "Mini",
+      "brand_id": "6d9d9248-de4a-4b13-976b-4e9f6688b0b1",
+      "model": "Aceman",
+      "vehicle_type": "car",
+      "variant": "SE",
+      "release_year": 2024,
+      "usable_battery_size": 49.2,
+      "energy_consumption": {
+        "average_consumption": 17
+      },
+      "ac_charger": {
+        "ports": [
+          "type2"
+        ],
+        "usable_phases": 3,
+        "max_power": 11,
+        "power_per_charging_point": {
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 95,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 10
+          },
+          {
+            "percentage": 15,
+            "power": 95
+          },
+          {
+            "percentage": 20,
+            "power": 80
+          },
+          {
+            "percentage": 50,
+            "power": 75
+          },
+          {
+            "percentage": 70,
+            "power": 75
+          },
+          {
+            "percentage": 80,
+            "power": 47.5
+          },
+          {
+            "percentage": 90,
+            "power": 25
+          },
+          {
+            "percentage": 100,
+            "power": 19
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "charging_voltage": 400
+    },
+    {
+      "id": "47b3546c-5bae-444a-bd7a-5a0739520f4a",
+      "type": "bev",
+      "brand": "Mini",
+      "brand_id": "6d9d9248-de4a-4b13-976b-4e9f6688b0b1",
+      "model": "Countryman",
+      "vehicle_type": "car",
+      "variant": "SE ALL4",
+      "release_year": 2024,
+      "usable_battery_size": 64.6,
+      "energy_consumption": {
+        "average_consumption": 17.7
+      },
+      "ac_charger": {
+        "ports": [
+          "type2"
+        ],
+        "usable_phases": 3,
+        "max_power": 11,
+        "power_per_charging_point": {
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 128,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 121.6
+          },
+          {
+            "percentage": 20,
+            "power": 128
+          },
+          {
+            "percentage": 50,
+            "power": 95
+          },
+          {
+            "percentage": 80,
+            "power": 50
+          },
+          {
+            "percentage": 90,
+            "power": 40
+          },
+          {
+            "percentage": 100,
+            "power": 22.6
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "charging_voltage": 400
+    },
+    {
+      "id": "8e3fd711-8e1e-4518-a9f4-5dab84aa6668",
+      "type": "bev",
+      "brand": "Mini",
+      "brand_id": "6d9d9248-de4a-4b13-976b-4e9f6688b0b1",
+      "model": "Cooper",
+      "vehicle_type": "car",
+      "variant": "JCW",
+      "release_year": 2024,
+      "usable_battery_size": 49.2,
+      "energy_consumption": {
+        "average_consumption": 17
+      },
+      "ac_charger": {
+        "ports": [
+          "type2"
+        ],
+        "usable_phases": 3,
+        "max_power": 11,
+        "power_per_charging_point": {
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 95,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 90.25
+          },
+          {
+            "percentage": 50,
+            "power": 95
+          },
+          {
+            "percentage": 80,
+            "power": 47.5
+          },
+          {
+            "percentage": 100,
+            "power": 19
+          }
+        ],
+        "is_default_charging_curve": true
+      },
+      "charging_voltage": 400
+    },
+    {
+      "id": "be22705a-6cef-4d91-95ed-41891ccbbf8c",
+      "type": "bev",
+      "brand": "Mini",
+      "brand_id": "6d9d9248-de4a-4b13-976b-4e9f6688b0b1",
+      "model": "Aceman",
+      "vehicle_type": "car",
+      "variant": "E",
+      "release_year": 2024,
+      "usable_battery_size": 38.5,
+      "energy_consumption": {
+        "average_consumption": 16.7
+      },
+      "ac_charger": {
+        "ports": [
+          "type2"
+        ],
+        "usable_phases": 3,
+        "max_power": 11,
+        "power_per_charging_point": {
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 70,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 66.5
+          },
+          {
+            "percentage": 50,
+            "power": 70
+          },
+          {
+            "percentage": 80,
+            "power": 35
+          },
+          {
+            "percentage": 100,
+            "power": 14
+          }
+        ],
+        "is_default_charging_curve": true
+      },
+      "charging_voltage": 400
+    },
+    {
+      "id": "0eafc7e9-bbdd-4893-860b-b8f3b8388133",
+      "type": "bev",
+      "brand": "Mini",
+      "brand_id": "6d9d9248-de4a-4b13-976b-4e9f6688b0b1",
+      "model": "Aceman",
+      "vehicle_type": "car",
+      "variant": "JCW",
+      "release_year": 2024,
+      "usable_battery_size": 49.2,
+      "energy_consumption": {
+        "average_consumption": 17.6
+      },
+      "ac_charger": {
+        "ports": [
+          "type2"
+        ],
+        "usable_phases": 3,
+        "max_power": 11,
+        "power_per_charging_point": {
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 95,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 90.25
+          },
+          {
+            "percentage": 50,
+            "power": 95
+          },
+          {
+            "percentage": 80,
+            "power": 47.5
+          },
+          {
+            "percentage": 100,
+            "power": 19
+          }
+        ],
+        "is_default_charging_curve": true
+      },
+      "charging_voltage": 400
+    }
+  ]
+}

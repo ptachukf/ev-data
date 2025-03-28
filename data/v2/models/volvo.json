@@ -1,0 +1,462 @@
+{
+  "brand_id": "2e55ea02-c829-4256-94fd-ffc971a1dd8e",
+  "brand_name": "Volvo",
+  "models": [
+    {
+      "id": "f149d723-c5c1-6071-ac30-8c20481a0837",
+      "brand": "Volvo",
+      "vehicle_type": "car",
+      "type": "bev",
+      "brand_id": "2e55ea02-c829-4256-94fd-ffc971a1dd8e",
+      "model": "C40",
+      "release_year": 2023,
+      "variant": "Recharge Single Motor",
+      "usable_battery_size": 67,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 150,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 142.5
+          },
+          {
+            "percentage": 75,
+            "power": 150
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": true
+      },
+      "energy_consumption": {
+        "average_consumption": 19.4
+      },
+      "charging_voltage": 400
+    },
+    {
+      "id": "685aa15b-e3f3-da7c-f230-c3ed16414fee",
+      "brand": "Volvo",
+      "vehicle_type": "car",
+      "type": "bev",
+      "brand_id": "2e55ea02-c829-4256-94fd-ffc971a1dd8e",
+      "model": "C40",
+      "release_year": 2023,
+      "variant": "Recharge Single Motor ER",
+      "usable_battery_size": 78,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 200,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 190
+          },
+          {
+            "percentage": 75,
+            "power": 200
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": true
+      },
+      "energy_consumption": {
+        "average_consumption": 19.5
+      },
+      "charging_voltage": 400
+    },
+    {
+      "id": "e2a34ad6-8cc1-5462-d48e-ab0babfd40a6",
+      "brand": "Volvo",
+      "vehicle_type": "car",
+      "type": "bev",
+      "brand_id": "2e55ea02-c829-4256-94fd-ffc971a1dd8e",
+      "model": "C40",
+      "release_year": 2023,
+      "variant": "Recharge Twin Motor",
+      "usable_battery_size": 78,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 200,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 190
+          },
+          {
+            "percentage": 75,
+            "power": 200
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": true
+      },
+      "energy_consumption": {
+        "average_consumption": 20
+      },
+      "charging_voltage": 400
+    },
+    {
+      "id": "6c80abb4-36bf-6dd2-167d-6e715d40f763",
+      "brand": "Volvo",
+      "vehicle_type": "car",
+      "type": "bev",
+      "brand_id": "2e55ea02-c829-4256-94fd-ffc971a1dd8e",
+      "model": "EX30",
+      "release_year": 2023,
+      "variant": "Single Motor",
+      "usable_battery_size": 49,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 148,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 50
+          },
+          {
+            "percentage": 10,
+            "power": 60
+          },
+          {
+            "percentage": 20,
+            "power": 79
+          },
+          {
+            "percentage": 30,
+            "power": 98
+          },
+          {
+            "percentage": 50,
+            "power": 138
+          },
+          {
+            "percentage": 60,
+            "power": 148
+          },
+          {
+            "percentage": 70,
+            "power": 80
+          },
+          {
+            "percentage": 80,
+            "power": 71
+          },
+          {
+            "percentage": 100,
+            "power": 63
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "energy_consumption": {
+        "average_consumption": 17.5
+      },
+      "charging_voltage": 400
+    },
+    {
+      "id": "12bf535a-a2fb-55cf-cd1a-4433104a0108",
+      "brand": "Volvo",
+      "vehicle_type": "car",
+      "type": "bev",
+      "brand_id": "2e55ea02-c829-4256-94fd-ffc971a1dd8e",
+      "model": "EX30",
+      "release_year": 2023,
+      "variant": "Single Motor ER",
+      "usable_battery_size": 64,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 153,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 127.3
+          },
+          {
+            "percentage": 75,
+            "power": 134
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": true
+      },
+      "energy_consumption": {
+        "average_consumption": 17.5
+      },
+      "charging_voltage": 400
+    },
+    {
+      "id": "8bbe4e30-04cf-4f7b-9952-0e9211c025a2",
+      "brand": "Volvo",
+      "vehicle_type": "car",
+      "type": "bev",
+      "brand_id": "2e55ea02-c829-4256-94fd-ffc971a1dd8e",
+      "model": "EX30",
+      "release_year": 2023,
+      "variant": "Single Motor ER Ultra",
+      "usable_battery_size": 64,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 22,
+        "power_per_charging_point": {
+          "11": 11,
+          "16": 11,
+          "22": 22,
+          "43": 22,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 153,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 127.3
+          },
+          {
+            "percentage": 75,
+            "power": 134
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": true
+      },
+      "energy_consumption": {
+        "average_consumption": 17.5
+      },
+      "charging_voltage": 400
+    },
+    {
+      "id": "6d511b8a-447a-b34b-a514-4f93fbc04c76",
+      "brand": "Volvo",
+      "vehicle_type": "car",
+      "type": "bev",
+      "brand_id": "2e55ea02-c829-4256-94fd-ffc971a1dd8e",
+      "model": "EX90",
+      "release_year": 2023,
+      "variant": "Single Motor",
+      "usable_battery_size": 101,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 250,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 237.5
+          },
+          {
+            "percentage": 75,
+            "power": 250
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": true
+      },
+      "energy_consumption": {
+        "average_consumption": 22
+      },
+      "charging_voltage": 400
+    },
+    {
+      "id": "a746d26e-2a73-4816-a0e4-a40bfb6ba7d7",
+      "brand": "Volvo",
+      "vehicle_type": "car",
+      "type": "bev",
+      "brand_id": "2e55ea02-c829-4256-94fd-ffc971a1dd8e",
+      "model": "XC40",
+      "release_year": 2020,
+      "variant": "P8 Recharge",
+      "usable_battery_size": 78,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 148,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 148
+          },
+          {
+            "percentage": 35,
+            "power": 147
+          },
+          {
+            "percentage": 70,
+            "power": 98
+          },
+          {
+            "percentage": 85,
+            "power": 59
+          },
+          {
+            "percentage": 100,
+            "power": 10
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "energy_consumption": {
+        "average_consumption": 17.6
+      },
+      "charging_voltage": 400
+    }
+  ]
+}
