@@ -23,7 +23,7 @@
           "16": 5.4,
           "22": 7.2,
           "43": 7.2,
-          "2.0": 2,
+          "2.0": 2.0,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.2
@@ -76,7 +76,7 @@
           "16": 2.2,
           "22": 2.2,
           "43": 2.2,
-          "2.0": 2,
+          "2.0": 2.0,
           "2.3": 2.2,
           "3.7": 2.2,
           "7.4": 2.2
@@ -105,11 +105,11 @@
         ],
         "max_power": 11,
         "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
+          "11": 11.0,
+          "16": 11.0,
+          "22": 11.0,
+          "43": 11.0,
+          "2.0": 2.0,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4
@@ -158,11 +158,11 @@
         ],
         "max_power": 11,
         "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
+          "11": 11.0,
+          "16": 11.0,
+          "22": 11.0,
+          "43": 11.0,
+          "2.0": 2.0,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4
@@ -247,7 +247,7 @@
           "16": 7.4,
           "22": 7.4,
           "43": 7.4,
-          "2.0": 2,
+          "2.0": 2.0,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4
@@ -312,91 +312,6 @@
       "charging_voltage": 400
     },
     {
-      "id": "3edfe7a5-17a1-9be4-4079-70801a53eed7",
-      "brand": "Opel / Vauxhall",
-      "vehicle_type": "car",
-      "type": "bev",
-      "brand_id": "3500fb3e-bd2c-478e-ae5e-ac9ee490594b",
-      "model": "Corsa-e",
-      "release_year": 2021,
-      "variant": "7,4 kW-AC",
-      "usable_battery_size": 45,
-      "ac_charger": {
-        "usable_phases": 3,
-        "ports": [
-          "type2"
-        ],
-        "max_power": 7.4,
-        "power_per_charging_point": {
-          "11": 7.4,
-          "16": 7.4,
-          "22": 7.4,
-          "43": 7.4,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
-      },
-      "dc_charger": {
-        "ports": [
-          "ccs"
-        ],
-        "max_power": 100,
-        "charging_curve": [
-          {
-            "percentage": 0,
-            "power": 100
-          },
-          {
-            "percentage": 30,
-            "power": 97
-          },
-          {
-            "percentage": 32,
-            "power": 78
-          },
-          {
-            "percentage": 58,
-            "power": 78
-          },
-          {
-            "percentage": 59,
-            "power": 60
-          },
-          {
-            "percentage": 66,
-            "power": 60
-          },
-          {
-            "percentage": 68,
-            "power": 55
-          },
-          {
-            "percentage": 78,
-            "power": 55
-          },
-          {
-            "percentage": 80,
-            "power": 27
-          },
-          {
-            "percentage": 90,
-            "power": 27
-          },
-          {
-            "percentage": 100,
-            "power": 11
-          }
-        ],
-        "is_default_charging_curve": false
-      },
-      "energy_consumption": {
-        "average_consumption": 15.8
-      },
-      "charging_voltage": 400
-    },
-    {
       "id": "557ce8e0-56c0-258e-6012-60c591df3b77",
       "brand": "Opel / Vauxhall",
       "vehicle_type": "car",
@@ -413,11 +328,11 @@
         ],
         "max_power": 11,
         "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
+          "11": 11.0,
+          "16": 11.0,
+          "22": 11.0,
+          "43": 11.0,
+          "2.0": 2.0,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4
@@ -498,11 +413,11 @@
         ],
         "max_power": 11,
         "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
+          "11": 11.0,
+          "16": 11.0,
+          "22": 11.0,
+          "43": 11.0,
+          "2.0": 2.0,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4
@@ -567,6 +482,36 @@
       "charging_voltage": 400
     },
     {
+      "id": "4f384de8-cd5a-4acf-a6db-5b9ef326c8e3",
+      "type": "bev",
+      "brand": "Opel / Vauxhall",
+      "brand_id": "3500fb3e-bd2c-478e-ae5e-ac9ee490594b",
+      "model": "Rocks-e",
+      "vehicle_type": "microcar",
+      "variant": "",
+      "release_year": 2021,
+      "usable_battery_size": 5.5,
+      "energy_consumption": {
+        "average_consumption": 4.5
+      },
+      "ac_charger": {
+        "ports": [],
+        "usable_phases": 1,
+        "max_power": 2.3,
+        "power_per_charging_point": {
+          "11": 2.3,
+          "16": 2.3,
+          "22": 2.3,
+          "43": 2.3,
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 2.3,
+          "7.4": 2.3
+        }
+      },
+      "charging_voltage": 48
+    },
+    {
       "id": "7bff132a-ecad-af92-99e6-9bea47805e21",
       "brand": "Opel / Vauxhall",
       "vehicle_type": "car",
@@ -583,11 +528,11 @@
         ],
         "max_power": 11,
         "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
+          "11": 11.0,
+          "16": 11.0,
+          "22": 11.0,
+          "43": 11.0,
+          "2.0": 2.0,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4
@@ -668,11 +613,11 @@
         ],
         "max_power": 11,
         "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
+          "11": 11.0,
+          "16": 11.0,
+          "22": 11.0,
+          "43": 11.0,
+          "2.0": 2.0,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4
@@ -721,11 +666,11 @@
         ],
         "max_power": 11,
         "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
+          "11": 11.0,
+          "16": 11.0,
+          "22": 11.0,
+          "43": 11.0,
+          "2.0": 2.0,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4
@@ -756,36 +701,6 @@
         "average_consumption": 16.4
       },
       "charging_voltage": 400
-    },
-    {
-      "id": "4f384de8-cd5a-4acf-a6db-5b9ef326c8e3",
-      "type": "bev",
-      "brand": "Opel / Vauxhall",
-      "brand_id": "3500fb3e-bd2c-478e-ae5e-ac9ee490594b",
-      "model": "Rocks-e",
-      "vehicle_type": "microcar",
-      "variant": "",
-      "release_year": 2021,
-      "usable_battery_size": 5.5,
-      "energy_consumption": {
-        "average_consumption": 4.5
-      },
-      "ac_charger": {
-        "ports": [],
-        "usable_phases": 1,
-        "max_power": 2.3,
-        "power_per_charging_point": {
-          "11": 2.3,
-          "16": 2.3,
-          "22": 2.3,
-          "43": 2.3,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 2.3,
-          "7.4": 2.3
-        }
-      },
-      "charging_voltage": 48
     }
   ]
 }

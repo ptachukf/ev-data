@@ -9,9 +9,43 @@ document.addEventListener('DOMContentLoaded', async () => {
     const loading = document.getElementById('loading');
 
     try {
-        const response = await fetch('https://raw.githubusercontent.com/KilowattApp/open-ev-data/refs/heads/master/data/ev-data.json');
-        const data = await response.json();
-        const evData = data.data;
+        // Fetch brands data
+        const brandsResponse = await fetch('../data/v2/brands.json');
+
+        if (!brandsResponse.ok) {
+            throw new Error('Failed to fetch brands data');
+        }
+
+        const brandsData = await brandsResponse.json();
+
+        // Create a map of brand IDs to brand data for quick lookup
+        const brandMap = new Map(brandsData.brands.map(brand => [brand.id, brand]));
+
+        // Fetch all model files based on brands
+        const modelPromises = brandsData.brands.map(brand => 
+            fetch(`../data/v2/${brand.models_file}`)
+                .then(response => {
+                    if (!response.ok) {
+                        console.warn(`No model file found for ${brand.name} (${brand.models_file})`);
+                        return { models: [] };
+                    }
+                    return response.json();
+                })
+                .catch(error => {
+                    console.warn(`Failed to load models for ${brand.name}:`, error);
+                    return { models: [] };
+                })
+        );
+
+        const modelResponses = await Promise.all(modelPromises);
+        
+        // Combine all vehicle data
+        const evData = modelResponses.flatMap(response => response.models || []);
+        
+        if (evData.length === 0) {
+            throw new Error('No vehicle data found');
+        }
+
         loading.style.display = 'none';
 
         function formatPorts(ports) {
@@ -63,7 +97,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 
         function displayResults(results) {
             const sortedResults = sortResults(results, sortSelect.value);
-            resultCount.textContent = `Found ${results.length} vehicle${results.length === 1 ? '' : 's'}`;
+            resultCount.textContent = `Found ${results.length} vehicle${results.length === 1 ? '' : 's'} (Updated: ${new Date(brandsData.updated_at).toLocaleDateString()})`;
             if (results.length === 0) {
                 resultsDiv.innerHTML = '<div class="no-results">No matches found. Try adjusting your search or filters.</div>';
                 return;
@@ -154,10 +188,11 @@ document.addEventListener('DOMContentLoaded', async () => {
         microcarFilter.addEventListener('change', debounceSearch);
         sortSelect.addEventListener('change', debounceSearch);
 
+        // Initialize with all vehicles
         updateResults();
 
     } catch (error) {
-        loading.innerHTML = 'Error loading vehicle database. Please try again later.';
+        loading.innerHTML = `Error loading vehicle database: ${error.message}. Please try again later.`;
         console.error('Error:', error);
     }
 });

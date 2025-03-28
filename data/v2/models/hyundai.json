@@ -19,11 +19,11 @@
         ],
         "max_power": 11,
         "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
+          "11": 11.0,
+          "16": 11.0,
+          "22": 11.0,
+          "43": 11.0,
+          "2.0": 2.0,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4
@@ -96,11 +96,11 @@
         ],
         "max_power": 11,
         "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
+          "11": 11.0,
+          "16": 11.0,
+          "22": 11.0,
+          "43": 11.0,
+          "2.0": 2.0,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4
@@ -173,11 +173,11 @@
         ],
         "max_power": 11,
         "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
+          "11": 11.0,
+          "16": 11.0,
+          "22": 11.0,
+          "43": 11.0,
+          "2.0": 2.0,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4
@@ -210,67 +210,6 @@
       "charging_voltage": 800
     },
     {
-      "id": "c576bee8-8066-4174-bc69-5fe9f2e666ee",
-      "brand": "Hyundai",
-      "vehicle_type": "car",
-      "type": "bev",
-      "brand_id": "9771afb8-9e25-4ae6-a5b3-b2a5b9f363f0",
-      "model": "Ioniq",
-      "release_year": 2016,
-      "variant": "",
-      "usable_battery_size": 28,
-      "ac_charger": {
-        "usable_phases": 1,
-        "ports": [
-          "type2"
-        ],
-        "max_power": 6.6,
-        "power_per_charging_point": {
-          "11": 3.7,
-          "16": 5.4,
-          "22": 6.6,
-          "43": 6.6,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 6.6
-        }
-      },
-      "dc_charger": {
-        "ports": [
-          "ccs"
-        ],
-        "max_power": 69,
-        "charging_curve": [
-          {
-            "percentage": 0,
-            "power": 60
-          },
-          {
-            "percentage": 76,
-            "power": 69
-          },
-          {
-            "percentage": 84,
-            "power": 23
-          },
-          {
-            "percentage": 92,
-            "power": 23
-          },
-          {
-            "percentage": 100,
-            "power": 10
-          }
-        ],
-        "is_default_charging_curve": false
-      },
-      "energy_consumption": {
-        "average_consumption": 14.4
-      },
-      "charging_voltage": 400
-    },
-    {
       "id": "3038b11b-2dfc-4f9f-b22c-4bfdc08d0c4b",
       "brand": "Hyundai",
       "vehicle_type": "car",
@@ -291,7 +230,7 @@
           "16": 5.4,
           "22": 7.2,
           "43": 7.2,
-          "2.0": 2,
+          "2.0": 2.0,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.2
@@ -348,6 +287,67 @@
       "charging_voltage": 400
     },
     {
+      "id": "c576bee8-8066-4174-bc69-5fe9f2e666ee",
+      "brand": "Hyundai",
+      "vehicle_type": "car",
+      "type": "bev",
+      "brand_id": "9771afb8-9e25-4ae6-a5b3-b2a5b9f363f0",
+      "model": "Ioniq",
+      "release_year": 2016,
+      "variant": "",
+      "usable_battery_size": 28,
+      "ac_charger": {
+        "usable_phases": 1,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 6.6,
+        "power_per_charging_point": {
+          "11": 3.7,
+          "16": 5.4,
+          "22": 6.6,
+          "43": 6.6,
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 6.6
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 69,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 60
+          },
+          {
+            "percentage": 76,
+            "power": 69
+          },
+          {
+            "percentage": 84,
+            "power": 23
+          },
+          {
+            "percentage": 92,
+            "power": 23
+          },
+          {
+            "percentage": 100,
+            "power": 10
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "energy_consumption": {
+        "average_consumption": 14.4
+      },
+      "charging_voltage": 400
+    },
+    {
       "id": "e81564b0-46e3-41f6-b6a6-70370a37f685",
       "brand": "Hyundai",
       "vehicle_type": "car",
@@ -364,11 +364,11 @@
         ],
         "max_power": 11,
         "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
+          "11": 11.0,
+          "16": 11.0,
+          "22": 11.0,
+          "43": 11.0,
+          "2.0": 2.0,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4
@@ -421,7 +421,7 @@
           "16": 5.4,
           "22": 7.2,
           "43": 7.2,
-          "2.0": 2,
+          "2.0": 2.0,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.2
@@ -470,11 +470,11 @@
         ],
         "max_power": 11,
         "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
+          "11": 11.0,
+          "16": 11.0,
+          "22": 11.0,
+          "43": 11.0,
+          "2.0": 2.0,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4
@@ -559,7 +559,7 @@
           "16": 5.4,
           "22": 7.2,
           "43": 7.2,
-          "2.0": 2,
+          "2.0": 2.0,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.2

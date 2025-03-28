@@ -22,11 +22,11 @@
         ],
         "max_power": 11,
         "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
+          "11": 11.0,
+          "16": 11.0,
+          "22": 11.0,
+          "43": 11.0,
+          "2.0": 2.0,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4
@@ -75,11 +75,11 @@
         "usable_phases": 3,
         "max_power": 11,
         "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
+          "11": 11.0,
+          "16": 11.0,
+          "22": 11.0,
+          "43": 11.0,
+          "2.0": 2.0,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4
@@ -128,11 +128,11 @@
         "usable_phases": 3,
         "max_power": 11,
         "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
+          "11": 11.0,
+          "16": 11.0,
+          "22": 11.0,
+          "43": 11.0,
+          "2.0": 2.0,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4
@@ -151,59 +151,6 @@
           {
             "percentage": 75,
             "power": 69
-          },
-          {
-            "percentage": 100,
-            "power": 11
-          }
-        ],
-        "is_default_charging_curve": true
-      },
-      "charging_voltage": 400
-    },
-    {
-      "id": "14e658c4-0776-4e52-a7ff-2e515165a384",
-      "type": "bev",
-      "brand": "GWM",
-      "brand_id": "80cb3fd7-d557-4d2f-b606-e6c0c84ab5c8",
-      "model": "ORA 07",
-      "vehicle_type": "car",
-      "variant": "Pure",
-      "release_year": 2024,
-      "usable_battery_size": 64.3,
-      "energy_consumption": {
-        "average_consumption": 18.4
-      },
-      "ac_charger": {
-        "ports": [
-          "type2"
-        ],
-        "usable_phases": 3,
-        "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
-      },
-      "dc_charger": {
-        "ports": [
-          "ccs"
-        ],
-        "max_power": 88,
-        "charging_curve": [
-          {
-            "percentage": 0,
-            "power": 83.6
-          },
-          {
-            "percentage": 75,
-            "power": 88
           },
           {
             "percentage": 100,
@@ -234,11 +181,11 @@
         "usable_phases": 3,
         "max_power": 11,
         "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
+          "11": 11.0,
+          "16": 11.0,
+          "22": 11.0,
+          "43": 11.0,
+          "2.0": 2.0,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4
@@ -287,11 +234,64 @@
         "usable_phases": 3,
         "max_power": 11,
         "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
+          "11": 11.0,
+          "16": 11.0,
+          "22": 11.0,
+          "43": 11.0,
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 88,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 83.6
+          },
+          {
+            "percentage": 75,
+            "power": 88
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": true
+      },
+      "charging_voltage": 400
+    },
+    {
+      "id": "14e658c4-0776-4e52-a7ff-2e515165a384",
+      "type": "bev",
+      "brand": "GWM",
+      "brand_id": "80cb3fd7-d557-4d2f-b606-e6c0c84ab5c8",
+      "model": "ORA 07",
+      "vehicle_type": "car",
+      "variant": "Pure",
+      "release_year": 2024,
+      "usable_battery_size": 64.3,
+      "energy_consumption": {
+        "average_consumption": 18.4
+      },
+      "ac_charger": {
+        "ports": [
+          "type2"
+        ],
+        "usable_phases": 3,
+        "max_power": 11,
+        "power_per_charging_point": {
+          "11": 11.0,
+          "16": 11.0,
+          "22": 11.0,
+          "43": 11.0,
+          "2.0": 2.0,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4

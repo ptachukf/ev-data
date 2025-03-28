@@ -3,6 +3,177 @@
   "brand_name": "Renault",
   "models": [
     {
+      "id": "b1309023-ddeb-4642-acd3-ba6ab546bf5f",
+      "type": "bev",
+      "brand": "Renault",
+      "brand_id": "c0d8a60c-34b8-44fe-8af7-9eeb62eedb4b",
+      "model": "5 E-Tech",
+      "vehicle_type": "car",
+      "variant": "40kWh 120hp",
+      "release_year": 2025,
+      "usable_battery_size": 40,
+      "energy_consumption": {
+        "average_consumption": 15.7
+      },
+      "ac_charger": {
+        "ports": [
+          "type2"
+        ],
+        "usable_phases": 3,
+        "max_power": 11,
+        "power_per_charging_point": {
+          "11": 11.0,
+          "16": 11.0,
+          "22": 11.0,
+          "43": 11.0,
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 80,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 76
+          },
+          {
+            "percentage": 50,
+            "power": 80
+          },
+          {
+            "percentage": 80,
+            "power": 40
+          },
+          {
+            "percentage": 100,
+            "power": 16
+          }
+        ],
+        "is_default_charging_curve": true
+      },
+      "charging_voltage": 400
+    },
+    {
+      "id": "53cae930-8a60-40cb-8062-3fd1f4fdd078",
+      "type": "bev",
+      "brand": "Renault",
+      "brand_id": "c0d8a60c-34b8-44fe-8af7-9eeb62eedb4b",
+      "model": "5 E-Tech",
+      "vehicle_type": "car",
+      "variant": "40kWh 95hp",
+      "release_year": 2025,
+      "usable_battery_size": 40,
+      "energy_consumption": {
+        "average_consumption": 15.7
+      },
+      "ac_charger": {
+        "ports": [
+          "type2"
+        ],
+        "usable_phases": 3,
+        "max_power": 11,
+        "power_per_charging_point": {
+          "11": 11.0,
+          "16": 11.0,
+          "22": 11.0,
+          "43": 11.0,
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 80,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 76
+          },
+          {
+            "percentage": 50,
+            "power": 80
+          },
+          {
+            "percentage": 80,
+            "power": 40
+          },
+          {
+            "percentage": 100,
+            "power": 16
+          }
+        ],
+        "is_default_charging_curve": true
+      },
+      "charging_voltage": 400
+    },
+    {
+      "id": "db068f42-0987-4d3f-8858-4735b2d38dc4",
+      "type": "bev",
+      "brand": "Renault",
+      "brand_id": "c0d8a60c-34b8-44fe-8af7-9eeb62eedb4b",
+      "model": "5 E-Tech",
+      "vehicle_type": "car",
+      "variant": "52kWh 150hp",
+      "release_year": 2025,
+      "usable_battery_size": 52,
+      "energy_consumption": {
+        "average_consumption": 16.3
+      },
+      "ac_charger": {
+        "ports": [
+          "type2"
+        ],
+        "usable_phases": 3,
+        "max_power": 11,
+        "power_per_charging_point": {
+          "11": 11.0,
+          "16": 11.0,
+          "22": 11.0,
+          "43": 11.0,
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 100,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 95
+          },
+          {
+            "percentage": 50,
+            "power": 100
+          },
+          {
+            "percentage": 80,
+            "power": 50
+          },
+          {
+            "percentage": 100,
+            "power": 20
+          }
+        ],
+        "is_default_charging_curve": true
+      },
+      "charging_voltage": 400
+    },
+    {
       "id": "1c13fba9-2c09-4be1-b5c6-aecd2b253afb",
       "brand": "Renault",
       "vehicle_type": "car",
@@ -23,7 +194,7 @@
           "16": 5.4,
           "22": 7.2,
           "43": 7.2,
-          "2.0": 2,
+          "2.0": 2.0,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.2
@@ -54,9 +225,9 @@
         "power_per_charging_point": {
           "11": 11.1,
           "16": 16.2,
-          "22": 22,
-          "43": 22,
-          "2.0": 2,
+          "22": 22.0,
+          "43": 22.0,
+          "2.0": 2.0,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4
@@ -107,9 +278,9 @@
         "power_per_charging_point": {
           "11": 11.1,
           "16": 16.2,
-          "22": 22,
-          "43": 22,
-          "2.0": 2,
+          "22": 22.0,
+          "43": 22.0,
+          "2.0": 2.0,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4
@@ -160,9 +331,9 @@
         "power_per_charging_point": {
           "11": 11.1,
           "16": 16.2,
-          "22": 22,
-          "43": 22,
-          "2.0": 2,
+          "22": 22.0,
+          "43": 22.0,
+          "2.0": 2.0,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4
@@ -213,9 +384,9 @@
         "power_per_charging_point": {
           "11": 11.1,
           "16": 16.2,
-          "22": 22,
-          "43": 22,
-          "2.0": 2,
+          "22": 22.0,
+          "43": 22.0,
+          "2.0": 2.0,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4
@@ -266,9 +437,9 @@
         "power_per_charging_point": {
           "11": 11.1,
           "16": 16.2,
-          "22": 22,
-          "43": 22,
-          "2.0": 2,
+          "22": 22.0,
+          "43": 22.0,
+          "2.0": 2.0,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4
@@ -279,6 +450,36 @@
         "average_consumption": 16.3
       },
       "charging_voltage": 400
+    },
+    {
+      "id": "ebabe01b-8935-4597-9eb6-0f022a71fd14",
+      "type": "bev",
+      "brand": "Renault",
+      "brand_id": "c0d8a60c-34b8-44fe-8af7-9eeb62eedb4b",
+      "model": "Twizy",
+      "vehicle_type": "microcar",
+      "variant": "",
+      "release_year": 2012,
+      "usable_battery_size": 6.1,
+      "energy_consumption": {
+        "average_consumption": 6.1
+      },
+      "ac_charger": {
+        "ports": [],
+        "usable_phases": 1,
+        "max_power": 2.3,
+        "power_per_charging_point": {
+          "11": 2.3,
+          "16": 2.3,
+          "22": 2.3,
+          "43": 2.3,
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 2.3,
+          "7.4": 2.3
+        }
+      },
+      "charging_voltage": 48
     },
     {
       "id": "9666138c-1d24-4fa8-9083-0ffba09ab1ef",
@@ -300,8 +501,8 @@
           "11": 11.1,
           "16": 16.2,
           "22": 22.2,
-          "43": 43,
-          "2.0": 2,
+          "43": 43.0,
+          "2.0": 2.0,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4
@@ -333,8 +534,8 @@
           "11": 11.1,
           "16": 16.2,
           "22": 22.2,
-          "43": 30,
-          "2.0": 2,
+          "43": 30.0,
+          "2.0": 2.0,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4
@@ -365,9 +566,9 @@
         "power_per_charging_point": {
           "11": 11.1,
           "16": 16.2,
-          "22": 22,
-          "43": 22,
-          "2.0": 2,
+          "22": 22.0,
+          "43": 22.0,
+          "2.0": 2.0,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4
@@ -398,9 +599,9 @@
         "power_per_charging_point": {
           "11": 11.1,
           "16": 16.2,
-          "22": 22,
-          "43": 22,
-          "2.0": 2,
+          "22": 22.0,
+          "43": 22.0,
+          "2.0": 2.0,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4
@@ -431,9 +632,9 @@
         "power_per_charging_point": {
           "11": 11.1,
           "16": 16.2,
-          "22": 22,
-          "43": 22,
-          "2.0": 2,
+          "22": 22.0,
+          "43": 22.0,
+          "2.0": 2.0,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4
@@ -488,9 +689,9 @@
         "power_per_charging_point": {
           "11": 11.1,
           "16": 16.2,
-          "22": 22,
-          "43": 22,
-          "2.0": 2,
+          "22": 22.0,
+          "43": 22.0,
+          "2.0": 2.0,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4
@@ -545,9 +746,9 @@
         "power_per_charging_point": {
           "11": 11.1,
           "16": 16.2,
-          "22": 22,
-          "43": 22,
-          "2.0": 2,
+          "22": 22.0,
+          "43": 22.0,
+          "2.0": 2.0,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4
@@ -580,207 +781,6 @@
       },
       "energy_consumption": {
         "average_consumption": 17.4
-      },
-      "charging_voltage": 400
-    },
-    {
-      "id": "ebabe01b-8935-4597-9eb6-0f022a71fd14",
-      "type": "bev",
-      "brand": "Renault",
-      "brand_id": "c0d8a60c-34b8-44fe-8af7-9eeb62eedb4b",
-      "model": "Twizy",
-      "vehicle_type": "microcar",
-      "variant": "",
-      "release_year": 2012,
-      "usable_battery_size": 6.1,
-      "energy_consumption": {
-        "average_consumption": 6.1
-      },
-      "ac_charger": {
-        "ports": [],
-        "usable_phases": 1,
-        "max_power": 2.3,
-        "power_per_charging_point": {
-          "11": 2.3,
-          "16": 2.3,
-          "22": 2.3,
-          "43": 2.3,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 2.3,
-          "7.4": 2.3
-        }
-      },
-      "charging_voltage": 48
-    },
-    {
-      "id": "db068f42-0987-4d3f-8858-4735b2d38dc4",
-      "type": "bev",
-      "brand": "Renault",
-      "brand_id": "c0d8a60c-34b8-44fe-8af7-9eeb62eedb4b",
-      "model": "5 E-Tech",
-      "vehicle_type": "car",
-      "variant": "52kWh 150hp",
-      "release_year": 2025,
-      "usable_battery_size": 52,
-      "energy_consumption": {
-        "average_consumption": 16.3
-      },
-      "ac_charger": {
-        "ports": [
-          "type2"
-        ],
-        "usable_phases": 3,
-        "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
-      },
-      "dc_charger": {
-        "ports": [
-          "ccs"
-        ],
-        "max_power": 100,
-        "charging_curve": [
-          {
-            "percentage": 0,
-            "power": 95
-          },
-          {
-            "percentage": 50,
-            "power": 100
-          },
-          {
-            "percentage": 80,
-            "power": 50
-          },
-          {
-            "percentage": 100,
-            "power": 20
-          }
-        ],
-        "is_default_charging_curve": true
-      },
-      "charging_voltage": 400
-    },
-    {
-      "id": "53cae930-8a60-40cb-8062-3fd1f4fdd078",
-      "type": "bev",
-      "brand": "Renault",
-      "brand_id": "c0d8a60c-34b8-44fe-8af7-9eeb62eedb4b",
-      "model": "5 E-Tech",
-      "vehicle_type": "car",
-      "variant": "40kWh 95hp",
-      "release_year": 2025,
-      "usable_battery_size": 40,
-      "energy_consumption": {
-        "average_consumption": 15.7
-      },
-      "ac_charger": {
-        "ports": [
-          "type2"
-        ],
-        "usable_phases": 3,
-        "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
-      },
-      "dc_charger": {
-        "ports": [
-          "ccs"
-        ],
-        "max_power": 80,
-        "charging_curve": [
-          {
-            "percentage": 0,
-            "power": 76
-          },
-          {
-            "percentage": 50,
-            "power": 80
-          },
-          {
-            "percentage": 80,
-            "power": 40
-          },
-          {
-            "percentage": 100,
-            "power": 16
-          }
-        ],
-        "is_default_charging_curve": true
-      },
-      "charging_voltage": 400
-    },
-    {
-      "id": "b1309023-ddeb-4642-acd3-ba6ab546bf5f",
-      "type": "bev",
-      "brand": "Renault",
-      "brand_id": "c0d8a60c-34b8-44fe-8af7-9eeb62eedb4b",
-      "model": "5 E-Tech",
-      "vehicle_type": "car",
-      "variant": "40kWh 120hp",
-      "release_year": 2025,
-      "usable_battery_size": 40,
-      "energy_consumption": {
-        "average_consumption": 15.7
-      },
-      "ac_charger": {
-        "ports": [
-          "type2"
-        ],
-        "usable_phases": 3,
-        "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
-      },
-      "dc_charger": {
-        "ports": [
-          "ccs"
-        ],
-        "max_power": 80,
-        "charging_curve": [
-          {
-            "percentage": 0,
-            "power": 76
-          },
-          {
-            "percentage": 50,
-            "power": 80
-          },
-          {
-            "percentage": 80,
-            "power": 40
-          },
-          {
-            "percentage": 100,
-            "power": 16
-          }
-        ],
-        "is_default_charging_curve": true
       },
       "charging_voltage": 400
     }

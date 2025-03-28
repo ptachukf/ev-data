@@ -20,4 +20,31 @@ navigation:
   - title: Suggest Vehicle
     url: /suggest
 
+# Include data files
+include:
+  - "data"
+  - "data/v2"
+  - "data/v2/models"
+  - ".nojekyll"
+
+# Exclude unnecessary files
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+
+# Set proper paths for data files
+defaults:
+  - scope:
+      path: "data"
+    values:
+      layout: null
+      sitemap: false
+
+# Development settings
+livereload: true
+host: 127.0.0.1
+port: 4000
+
 

@@ -3,17 +3,17 @@
   "brand_name": "Zeekr",
   "models": [
     {
-      "id": "94ad6678-5bb0-4096-b639-2d064fa71a68",
+      "id": "3562e22d-8e61-4d1f-80ab-9026fad425de",
       "type": "bev",
       "brand": "Zeekr",
       "brand_id": "71900a97-a91f-4b09-b78a-de7c654d41a0",
       "model": "001",
       "vehicle_type": "car",
-      "variant": "Performance AWD",
+      "variant": "Long Range RWD",
       "release_year": 2023,
       "usable_battery_size": 94,
       "energy_consumption": {
-        "average_consumption": 18.8
+        "average_consumption": 17.9
       },
       "ac_charger": {
         "ports": [
@@ -22,11 +22,11 @@
         "usable_phases": 3,
         "max_power": 22,
         "power_per_charging_point": {
-          "11": 11,
-          "16": 16,
-          "22": 22,
-          "43": 22,
-          "2.0": 2,
+          "11": 11.0,
+          "16": 16.0,
+          "22": 22.0,
+          "43": 22.0,
+          "2.0": 2.0,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4
@@ -60,17 +60,17 @@
       "charging_voltage": 400
     },
     {
-      "id": "3562e22d-8e61-4d1f-80ab-9026fad425de",
+      "id": "94ad6678-5bb0-4096-b639-2d064fa71a68",
       "type": "bev",
       "brand": "Zeekr",
       "brand_id": "71900a97-a91f-4b09-b78a-de7c654d41a0",
       "model": "001",
       "vehicle_type": "car",
-      "variant": "Long Range RWD",
+      "variant": "Performance AWD",
       "release_year": 2023,
       "usable_battery_size": 94,
       "energy_consumption": {
-        "average_consumption": 17.9
+        "average_consumption": 18.8
       },
       "ac_charger": {
         "ports": [
@@ -79,11 +79,11 @@
         "usable_phases": 3,
         "max_power": 22,
         "power_per_charging_point": {
-          "11": 11,
-          "16": 16,
-          "22": 22,
-          "43": 22,
-          "2.0": 2,
+          "11": 11.0,
+          "16": 16.0,
+          "22": 22.0,
+          "43": 22.0,
+          "2.0": 2.0,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4
@@ -136,11 +136,11 @@
         "usable_phases": 3,
         "max_power": 22,
         "power_per_charging_point": {
-          "11": 11,
-          "16": 16,
-          "22": 22,
-          "43": 22,
-          "2.0": 2,
+          "11": 11.0,
+          "16": 16.0,
+          "22": 22.0,
+          "43": 22.0,
+          "2.0": 2.0,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4
@@ -193,11 +193,11 @@
         "usable_phases": 3,
         "max_power": 22,
         "power_per_charging_point": {
-          "11": 11,
-          "16": 16,
-          "22": 22,
-          "43": 22,
-          "2.0": 2,
+          "11": 11.0,
+          "16": 16.0,
+          "22": 22.0,
+          "43": 22.0,
+          "2.0": 2.0,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4
@@ -250,11 +250,11 @@
         "usable_phases": 3,
         "max_power": 22,
         "power_per_charging_point": {
-          "11": 11,
-          "16": 16,
-          "22": 22,
-          "43": 22,
-          "2.0": 2,
+          "11": 11.0,
+          "16": 16.0,
+          "22": 22.0,
+          "43": 22.0,
+          "2.0": 2.0,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4
