@@ -22,11 +22,11 @@
         "usable_phases": 3,
         "max_power": 11,
         "power_per_charging_point": {
-          "11": 11.0,
-          "16": 11.0,
-          "22": 11.0,
-          "43": 11.0,
-          "2.0": 2.0,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4
@@ -57,6 +57,246 @@
         ],
         "is_default_charging_curve": true
       },
+      "charging_voltage": 400
+    },
+    {
+      "brand": "Abarth",
+      "model": "600e Scorpionissima",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2024,
+      "battery_size": 50.8,
+      "range": 280,
+      "consumption": 18.1,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.0,
+          "16": 11,
+          "22": 11,
+          "43": 11
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 100,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 100
+          },
+          {
+            "percentage": 50,
+            "power": 100
+          },
+          {
+            "percentage": 80,
+            "power": 60
+          },
+          {
+            "percentage": 100,
+            "power": 30
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "id": "4c8056b2-f149-49c8-aa9e-0c41dbdc8fcd",
+      "brand_id": "3fcb4e15-c510-4453-a0cd-6a8d1a980e8d",
+      "usable_battery_size": 50.8,
+      "energy_consumption": {
+        "average_consumption": 18.1
+      },
+      "vehicle_type": "car",
+      "charging_voltage": 400
+    },
+    {
+      "brand": "Abarth",
+      "model": "500e Convertible",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2023,
+      "battery_size": 37.8,
+      "range": 225,
+      "consumption": 16.8,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.0,
+          "16": 11,
+          "22": 11,
+          "43": 11
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 85,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 85
+          },
+          {
+            "percentage": 50,
+            "power": 85
+          },
+          {
+            "percentage": 80,
+            "power": 51
+          },
+          {
+            "percentage": 100,
+            "power": 25.5
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "id": "2273eb5b-1f60-408b-9225-962e0ee51520",
+      "brand_id": "3fcb4e15-c510-4453-a0cd-6a8d1a980e8d",
+      "usable_battery_size": 37.8,
+      "energy_consumption": {
+        "average_consumption": 16.8
+      },
+      "vehicle_type": "car",
+      "charging_voltage": 400
+    },
+    {
+      "brand": "Abarth",
+      "model": "500e Scorpionissima",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2023,
+      "battery_size": 37.8,
+      "range": 225,
+      "consumption": 16.8,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.0,
+          "16": 11,
+          "22": 11,
+          "43": 11
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 85,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 85
+          },
+          {
+            "percentage": 50,
+            "power": 85
+          },
+          {
+            "percentage": 80,
+            "power": 51
+          },
+          {
+            "percentage": 100,
+            "power": 25.5
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "id": "5ae0a3e1-bc84-4a36-99c8-8fc5480882da",
+      "brand_id": "3fcb4e15-c510-4453-a0cd-6a8d1a980e8d",
+      "usable_battery_size": 37.8,
+      "energy_consumption": {
+        "average_consumption": 16.8
+      },
+      "vehicle_type": "car",
+      "charging_voltage": 400
+    },
+    {
+      "brand": "Abarth",
+      "model": "600e Turismo",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2024,
+      "battery_size": 50.8,
+      "range": 280,
+      "consumption": 18.1,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.0,
+          "16": 11,
+          "22": 11,
+          "43": 11
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 100,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 100
+          },
+          {
+            "percentage": 50,
+            "power": 100
+          },
+          {
+            "percentage": 80,
+            "power": 60
+          },
+          {
+            "percentage": 100,
+            "power": 30
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "id": "4af9142c-1a9a-4dc1-92a1-999277a44f6d",
+      "brand_id": "3fcb4e15-c510-4453-a0cd-6a8d1a980e8d",
+      "usable_battery_size": 50.8,
+      "energy_consumption": {
+        "average_consumption": 18.1
+      },
+      "vehicle_type": "car",
       "charging_voltage": 400
     }
   ]

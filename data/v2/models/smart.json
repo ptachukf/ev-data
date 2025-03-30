@@ -23,7 +23,7 @@
           "16": 7.4,
           "22": 7.4,
           "43": 7.4,
-          "2.0": 2.0,
+          "2.0": 2,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4
@@ -74,9 +74,9 @@
         "power_per_charging_point": {
           "11": 11.1,
           "16": 16.2,
-          "22": 22.0,
-          "43": 22.0,
-          "2.0": 2.0,
+          "22": 22,
+          "43": 22,
+          "2.0": 2,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4
@@ -127,9 +127,9 @@
         "power_per_charging_point": {
           "11": 11.1,
           "16": 16.2,
-          "22": 22.0,
-          "43": 22.0,
-          "2.0": 2.0,
+          "22": 22,
+          "43": 22,
+          "2.0": 2,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4
@@ -182,7 +182,7 @@
           "16": 7.4,
           "22": 7.4,
           "43": 7.4,
-          "2.0": 2.0,
+          "2.0": 2,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4
@@ -233,9 +233,9 @@
         "power_per_charging_point": {
           "11": 11.1,
           "16": 16.2,
-          "22": 22.0,
-          "43": 22.0,
-          "2.0": 2.0,
+          "22": 22,
+          "43": 22,
+          "2.0": 2,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4
@@ -288,7 +288,7 @@
           "16": 3.6,
           "22": 3.6,
           "43": 3.6,
-          "2.0": 2.0,
+          "2.0": 2,
           "2.3": 2.3,
           "3.7": 3.6,
           "7.4": 3.6
@@ -319,9 +319,9 @@
         "power_per_charging_point": {
           "11": 11.1,
           "16": 16.2,
-          "22": 22.0,
-          "43": 22.0,
-          "2.0": 2.0,
+          "22": 22,
+          "43": 22,
+          "2.0": 2,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4
@@ -354,7 +354,7 @@
           "16": 3.6,
           "22": 3.6,
           "43": 3.6,
-          "2.0": 2.0,
+          "2.0": 2,
           "2.3": 2.3,
           "3.7": 3.6,
           "7.4": 3.6
@@ -385,9 +385,9 @@
         "power_per_charging_point": {
           "11": 11.1,
           "16": 16.2,
-          "22": 22.0,
-          "43": 22.0,
-          "2.0": 2.0,
+          "22": 22,
+          "43": 22,
+          "2.0": 2,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4
@@ -418,9 +418,9 @@
         "power_per_charging_point": {
           "11": 11.1,
           "16": 16.2,
-          "22": 22.0,
-          "43": 22.0,
-          "2.0": 2.0,
+          "22": 22,
+          "43": 22,
+          "2.0": 2,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4
@@ -431,6 +431,873 @@
         "average_consumption": 16.7
       },
       "charging_voltage": 400
+    },
+    {
+      "brand": "smart",
+      "model": "EQ fortwo coupe",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2020,
+      "range": 100,
+      "dc_charger": null,
+      "id": "2cdf228e-5f4a-447c-98e2-447e6e1e4fb8",
+      "brand_id": "a462c115-33b4-438b-b590-bc4a33382d1c",
+      "usable_battery_size": 16.7,
+      "energy_consumption": {
+        "average_consumption": 16.7,
+        "range": 100
+      },
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "vehicle_type": "car",
+      "charging_voltage": 400
+    },
+    {
+      "brand": "smart",
+      "model": "#1 Pro+",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2023,
+      "range": 335,
+      "id": "7b8a8b63-5b87-48dc-a921-b6b2c9348915",
+      "brand_id": "a462c115-33b4-438b-b590-bc4a33382d1c",
+      "usable_battery_size": 62,
+      "energy_consumption": {
+        "average_consumption": 18.5,
+        "range": 335
+      },
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 150,
+        "is_default_charging_curve": false,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 150
+          },
+          {
+            "percentage": 50,
+            "power": 150
+          },
+          {
+            "percentage": 80,
+            "power": 75
+          },
+          {
+            "percentage": 100,
+            "power": 30
+          }
+        ]
+      },
+      "vehicle_type": "car",
+      "charging_voltage": 400
+    },
+    {
+      "brand": "smart",
+      "model": "#5 Summit Edition",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2025,
+      "range": 455,
+      "id": "e62405a3-6147-4594-b173-51757a7dae56",
+      "brand_id": "a462c115-33b4-438b-b590-bc4a33382d1c",
+      "usable_battery_size": 94,
+      "energy_consumption": {
+        "average_consumption": 20.7,
+        "range": 455
+      },
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 400,
+        "is_default_charging_curve": false,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 400
+          },
+          {
+            "percentage": 50,
+            "power": 400
+          },
+          {
+            "percentage": 80,
+            "power": 200
+          },
+          {
+            "percentage": 100,
+            "power": 80
+          }
+        ]
+      },
+      "vehicle_type": "car",
+      "charging_voltage": 400
+    },
+    {
+      "brand": "smart",
+      "model": "#5 Pro+",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2025,
+      "range": 465,
+      "id": "4416a83a-9121-4da5-99e6-b4f7be052167",
+      "brand_id": "a462c115-33b4-438b-b590-bc4a33382d1c",
+      "usable_battery_size": 94,
+      "energy_consumption": {
+        "average_consumption": 20.2,
+        "range": 465
+      },
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 400,
+        "is_default_charging_curve": false,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 400
+          },
+          {
+            "percentage": 50,
+            "power": 400
+          },
+          {
+            "percentage": 80,
+            "power": 200
+          },
+          {
+            "percentage": 100,
+            "power": 80
+          }
+        ]
+      },
+      "vehicle_type": "car",
+      "charging_voltage": 400
+    },
+    {
+      "brand": "smart",
+      "model": "#1 Brabus",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2023,
+      "range": 325,
+      "id": "9f31eb55-a879-49ea-bbbd-c6f81b2a9eab",
+      "brand_id": "a462c115-33b4-438b-b590-bc4a33382d1c",
+      "usable_battery_size": 62,
+      "energy_consumption": {
+        "average_consumption": 19.1,
+        "range": 325
+      },
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 150,
+        "is_default_charging_curve": false,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 150
+          },
+          {
+            "percentage": 50,
+            "power": 150
+          },
+          {
+            "percentage": 80,
+            "power": 75
+          },
+          {
+            "percentage": 100,
+            "power": 30
+          }
+        ]
+      },
+      "vehicle_type": "car",
+      "charging_voltage": 400
+    },
+    {
+      "brand": "smart",
+      "model": "EQ forfour",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2020,
+      "range": 95,
+      "dc_charger": null,
+      "id": "b5751928-c916-40fb-b369-49de888edd7c",
+      "brand_id": "a462c115-33b4-438b-b590-bc4a33382d1c",
+      "usable_battery_size": 16.7,
+      "energy_consumption": {
+        "average_consumption": 17.6,
+        "range": 95
+      },
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "vehicle_type": "car",
+      "charging_voltage": 400
+    },
+    {
+      "brand": "smart",
+      "model": "#5 Premium",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2025,
+      "range": 465,
+      "id": "8a2df956-eb5c-401d-9944-91199ec6c47b",
+      "brand_id": "a462c115-33b4-438b-b590-bc4a33382d1c",
+      "usable_battery_size": 94,
+      "energy_consumption": {
+        "average_consumption": 20.2,
+        "range": 465
+      },
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 400,
+        "is_default_charging_curve": false,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 400
+          },
+          {
+            "percentage": 50,
+            "power": 400
+          },
+          {
+            "percentage": 80,
+            "power": 200
+          },
+          {
+            "percentage": 100,
+            "power": 80
+          }
+        ]
+      },
+      "vehicle_type": "car",
+      "charging_voltage": 400
+    },
+    {
+      "brand": "smart",
+      "model": "#3 Premium",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2024,
+      "range": 355,
+      "id": "474f02fc-bea6-461a-bf02-a54a7b2ac898",
+      "brand_id": "a462c115-33b4-438b-b590-bc4a33382d1c",
+      "usable_battery_size": 62,
+      "energy_consumption": {
+        "average_consumption": 17.5,
+        "range": 355
+      },
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 150,
+        "is_default_charging_curve": false,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 150
+          },
+          {
+            "percentage": 50,
+            "power": 150
+          },
+          {
+            "percentage": 80,
+            "power": 90
+          },
+          {
+            "percentage": 100,
+            "power": 45
+          }
+        ]
+      },
+      "vehicle_type": "car",
+      "charging_voltage": 400
+    },
+    {
+      "brand": "smart",
+      "model": "#5 Pro",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2025,
+      "range": 370,
+      "id": "0720da11-25f4-4e74-9324-bc2eca611d0e",
+      "brand_id": "a462c115-33b4-438b-b590-bc4a33382d1c",
+      "usable_battery_size": 74.4,
+      "energy_consumption": {
+        "average_consumption": 20.1,
+        "range": 370
+      },
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 150,
+        "is_default_charging_curve": false,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 150
+          },
+          {
+            "percentage": 50,
+            "power": 150
+          },
+          {
+            "percentage": 80,
+            "power": 90
+          },
+          {
+            "percentage": 100,
+            "power": 45
+          }
+        ]
+      },
+      "vehicle_type": "car",
+      "charging_voltage": 400
+    },
+    {
+      "brand": "smart",
+      "model": "ForTwo Electric Drive",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2017,
+      "battery_size": 16.7,
+      "range": 100,
+      "consumption": 16.7,
+      "ac_charger": {
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.0,
+          "16": 11,
+          "22": 11,
+          "43": 11
+        },
+        "usable_phases": 3
+      },
+      "dc_charger": null,
+      "id": "ee0e58a8-6c62-4a38-8c9a-48af62a8b610",
+      "brand_id": "a462c115-33b4-438b-b590-bc4a33382d1c",
+      "vehicle_type": "car",
+      "charging_voltage": 400,
+      "usable_battery_size": 16.7,
+      "energy_consumption": {
+        "average_consumption": 16.7
+      }
+    },
+    {
+      "brand": "smart",
+      "model": "#5 Pulse",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2025,
+      "battery_size": 94,
+      "range": 455,
+      "consumption": 20.7,
+      "ac_charger": {
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.0,
+          "16": 11,
+          "22": 11,
+          "43": 11
+        },
+        "usable_phases": 3
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 400,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 400
+          },
+          {
+            "percentage": 50,
+            "power": 400
+          },
+          {
+            "percentage": 80,
+            "power": 200
+          },
+          {
+            "percentage": 100,
+            "power": 80
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "id": "5373bd8f-2558-408d-9901-47aeac5d3769",
+      "brand_id": "a462c115-33b4-438b-b590-bc4a33382d1c",
+      "vehicle_type": "car",
+      "charging_voltage": 400,
+      "usable_battery_size": 94.0,
+      "energy_consumption": {
+        "average_consumption": 20.7
+      }
+    },
+    {
+      "brand": "smart",
+      "model": "#1 Premium",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2023,
+      "battery_size": 62,
+      "range": 335,
+      "consumption": 18.5,
+      "ac_charger": {
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.0,
+          "16": 11,
+          "22": 11,
+          "43": 11
+        },
+        "usable_phases": 3
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 150,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 150
+          },
+          {
+            "percentage": 50,
+            "power": 150
+          },
+          {
+            "percentage": 80,
+            "power": 75
+          },
+          {
+            "percentage": 100,
+            "power": 30
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "id": "722eca8b-c407-4ccd-bde0-722f331d243a",
+      "brand_id": "a462c115-33b4-438b-b590-bc4a33382d1c",
+      "vehicle_type": "car",
+      "charging_voltage": 400,
+      "usable_battery_size": 62.0,
+      "energy_consumption": {
+        "average_consumption": 18.5
+      }
+    },
+    {
+      "brand": "smart",
+      "model": "#1 Pro",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2023,
+      "battery_size": 47,
+      "range": 250,
+      "consumption": 18.8,
+      "ac_charger": {
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.0,
+          "16": 11,
+          "22": 11,
+          "43": 11
+        },
+        "usable_phases": 3
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 130,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 130
+          },
+          {
+            "percentage": 50,
+            "power": 130
+          },
+          {
+            "percentage": 80,
+            "power": 65
+          },
+          {
+            "percentage": 100,
+            "power": 26
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "id": "f361d0f6-7d0c-484a-b46c-a445b00a8644",
+      "brand_id": "a462c115-33b4-438b-b590-bc4a33382d1c",
+      "vehicle_type": "car",
+      "charging_voltage": 400,
+      "usable_battery_size": 47.0,
+      "energy_consumption": {
+        "average_consumption": 18.8
+      }
+    },
+    {
+      "brand": "smart",
+      "model": "EQ fortwo cabrio",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2020,
+      "battery_size": 16.7,
+      "range": 95,
+      "consumption": 17.6,
+      "ac_charger": {
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.0,
+          "16": 11,
+          "22": 11,
+          "43": 11
+        },
+        "usable_phases": 3
+      },
+      "dc_charger": null,
+      "id": "533f5a6a-d9d8-4375-9148-e47d7b1b95ab",
+      "brand_id": "a462c115-33b4-438b-b590-bc4a33382d1c",
+      "vehicle_type": "car",
+      "charging_voltage": 400,
+      "usable_battery_size": 16.7,
+      "energy_consumption": {
+        "average_consumption": 17.6
+      }
+    },
+    {
+      "brand": "smart",
+      "model": "#1 Pulse",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2023,
+      "battery_size": 62,
+      "range": 325,
+      "consumption": 19.1,
+      "ac_charger": {
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.0,
+          "16": 11,
+          "22": 11,
+          "43": 11
+        },
+        "usable_phases": 3
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 150,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 150
+          },
+          {
+            "percentage": 50,
+            "power": 150
+          },
+          {
+            "percentage": 80,
+            "power": 75
+          },
+          {
+            "percentage": 100,
+            "power": 30
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "id": "d9815311-3ed7-4ac8-a860-99c22177dd20",
+      "brand_id": "a462c115-33b4-438b-b590-bc4a33382d1c",
+      "vehicle_type": "car",
+      "charging_voltage": 400,
+      "usable_battery_size": 62.0,
+      "energy_consumption": {
+        "average_consumption": 19.1
+      }
+    },
+    {
+      "brand": "smart",
+      "model": "ForFour Electric Drive",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2017,
+      "battery_size": 16.7,
+      "range": 95,
+      "consumption": 17.6,
+      "ac_charger": {
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.0,
+          "16": 11,
+          "22": 11,
+          "43": 11
+        },
+        "usable_phases": 3
+      },
+      "dc_charger": null,
+      "id": "c8ebb855-2d9e-4007-a4e7-0733d6f53e1e",
+      "brand_id": "a462c115-33b4-438b-b590-bc4a33382d1c",
+      "vehicle_type": "car",
+      "charging_voltage": 400,
+      "usable_battery_size": 16.7,
+      "energy_consumption": {
+        "average_consumption": 17.6
+      }
+    },
+    {
+      "brand": "smart",
+      "model": "ForTwo Cabrio Electric Drive",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2017,
+      "battery_size": 16.7,
+      "range": 95,
+      "consumption": 17.6,
+      "ac_charger": {
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.0,
+          "16": 11,
+          "22": 11,
+          "43": 11
+        },
+        "usable_phases": 3
+      },
+      "dc_charger": null,
+      "id": "2a17d5c7-8d48-4448-baca-8e0f4836e557",
+      "brand_id": "a462c115-33b4-438b-b590-bc4a33382d1c",
+      "vehicle_type": "car",
+      "charging_voltage": 400,
+      "usable_battery_size": 16.7,
+      "energy_consumption": {
+        "average_consumption": 17.6
+      }
     }
   ]
 }

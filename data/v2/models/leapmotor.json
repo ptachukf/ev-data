@@ -1,0 +1,126 @@
+{
+  "brand_id": "c0bfaf9e-8d7c-46b5-a2b1-a09f8e7d6c54",
+  "brand_name": "Leapmotor",
+  "models": [
+    {
+      "brand": "Leapmotor",
+      "model": "C10",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2024,
+      "range": 355,
+      "id": "09c6f7d4-638c-44e6-8a31-1a2501ca3d52",
+      "brand_id": "c0bfaf9e-8d7c-46b5-a2b1-a09f8e7d6c54",
+      "usable_battery_size": 69.9,
+      "energy_consumption": {
+        "average_consumption": 19.7,
+        "range": 355
+      },
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 84,
+        "is_default_charging_curve": false,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 84
+          },
+          {
+            "percentage": 50,
+            "power": 84
+          },
+          {
+            "percentage": 80,
+            "power": 50.4
+          },
+          {
+            "percentage": 100,
+            "power": 25.2
+          }
+        ]
+      },
+      "vehicle_type": "car",
+      "charging_voltage": 400
+    },
+    {
+      "brand": "Leapmotor",
+      "model": "T03",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2024,
+      "battery_size": 36,
+      "range": 230,
+      "consumption": 15.7,
+      "ac_charger": {
+        "phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.0,
+          "16": 11,
+          "22": 11,
+          "43": 11
+        },
+        "usable_phases": 3
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 48,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 48
+          },
+          {
+            "percentage": 50,
+            "power": 48
+          },
+          {
+            "percentage": 80,
+            "power": 24
+          },
+          {
+            "percentage": 100,
+            "power": 9.600000000000001
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "id": "48d99eed-87fe-41d1-8ad1-9e649cdf4163",
+      "brand_id": "c0bfaf9e-8d7c-46b5-a2b1-a09f8e7d6c54",
+      "vehicle_type": "car",
+      "charging_voltage": 400,
+      "usable_battery_size": 37.3,
+      "energy_consumption": {
+        "average_consumption": 13.6
+      }
+    }
+  ]
+}

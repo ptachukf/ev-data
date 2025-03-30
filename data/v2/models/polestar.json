@@ -19,11 +19,11 @@
         ],
         "max_power": 11,
         "power_per_charging_point": {
-          "11": 11.0,
-          "16": 11.0,
-          "22": 11.0,
-          "43": 11.0,
-          "2.0": 2.0,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4
@@ -100,11 +100,11 @@
         ],
         "max_power": 11,
         "power_per_charging_point": {
-          "11": 11.0,
-          "16": 11.0,
-          "22": 11.0,
-          "43": 11.0,
-          "2.0": 2.0,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4
@@ -181,11 +181,11 @@
         ],
         "max_power": 11,
         "power_per_charging_point": {
-          "11": 11.0,
-          "16": 11.0,
-          "22": 11.0,
-          "43": 11.0,
-          "2.0": 2.0,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4
@@ -236,9 +236,9 @@
         "power_per_charging_point": {
           "11": 11.1,
           "16": 16.2,
-          "22": 22.0,
-          "43": 22.0,
-          "2.0": 2.0,
+          "22": 22,
+          "43": 22,
+          "2.0": 2,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4
@@ -289,9 +289,9 @@
         "power_per_charging_point": {
           "11": 11.1,
           "16": 16.2,
-          "22": 22.0,
-          "43": 22.0,
-          "2.0": 2.0,
+          "22": 22,
+          "43": 22,
+          "2.0": 2,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4
@@ -321,6 +321,301 @@
       "energy_consumption": {
         "average_consumption": 19
       },
+      "charging_voltage": 400
+    },
+    {
+      "brand": "Polestar",
+      "model": "2",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2020,
+      "range": 390,
+      "id": "38afd813-3c15-4b30-a874-ae0d5b645a31",
+      "brand_id": "391f000f-d9d1-4c13-b744-95f0b9c8a2e1",
+      "usable_battery_size": 75,
+      "energy_consumption": {
+        "average_consumption": 19.2,
+        "range": 390
+      },
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 149,
+        "is_default_charging_curve": false,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 149
+          },
+          {
+            "percentage": 50,
+            "power": 149
+          },
+          {
+            "percentage": 80,
+            "power": 89.39999999999999
+          },
+          {
+            "percentage": 100,
+            "power": 44.699999999999996
+          }
+        ]
+      },
+      "vehicle_type": "car",
+      "charging_voltage": 400
+    },
+    {
+      "brand": "Polestar",
+      "model": "3 Long Range Dual motor",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2022,
+      "range": 485,
+      "id": "abc46582-74f1-4edf-9bd9-4d9b0d17013b",
+      "brand_id": "391f000f-d9d1-4c13-b744-95f0b9c8a2e1",
+      "usable_battery_size": 107,
+      "energy_consumption": {
+        "average_consumption": 22.1,
+        "range": 485
+      },
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 250,
+        "is_default_charging_curve": false,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 250
+          },
+          {
+            "percentage": 50,
+            "power": 250
+          },
+          {
+            "percentage": 80,
+            "power": 125
+          },
+          {
+            "percentage": 100,
+            "power": 50
+          }
+        ]
+      },
+      "vehicle_type": "car",
+      "charging_voltage": 400
+    },
+    {
+      "brand": "Polestar",
+      "model": "3 Long Range Single motor",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2024,
+      "range": 500,
+      "id": "11474075-8844-4649-812f-4ea0cb88188c",
+      "brand_id": "391f000f-d9d1-4c13-b744-95f0b9c8a2e1",
+      "usable_battery_size": 107,
+      "energy_consumption": {
+        "average_consumption": 21.4,
+        "range": 500
+      },
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 250,
+        "is_default_charging_curve": false,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 250
+          },
+          {
+            "percentage": 50,
+            "power": 250
+          },
+          {
+            "percentage": 80,
+            "power": 125
+          },
+          {
+            "percentage": 100,
+            "power": 50
+          }
+        ]
+      },
+      "vehicle_type": "car",
+      "charging_voltage": 400
+    },
+    {
+      "brand": "Polestar",
+      "model": "3 Long Range Performance",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2022,
+      "range": 470,
+      "id": "e5d99af0-35a9-483c-bd3f-49bb87b7c585",
+      "brand_id": "391f000f-d9d1-4c13-b744-95f0b9c8a2e1",
+      "usable_battery_size": 107,
+      "energy_consumption": {
+        "average_consumption": 22.8,
+        "range": 470
+      },
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 250,
+        "is_default_charging_curve": false,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 250
+          },
+          {
+            "percentage": 50,
+            "power": 250
+          },
+          {
+            "percentage": 80,
+            "power": 125
+          },
+          {
+            "percentage": 100,
+            "power": 50
+          }
+        ]
+      },
+      "vehicle_type": "car",
+      "charging_voltage": 400
+    },
+    {
+      "brand": "Polestar",
+      "model": "2 Long Range Performance",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2024,
+      "range": 450,
+      "id": "7aa6113f-863e-4d29-b79e-68a8e83e63e7",
+      "brand_id": "391f000f-d9d1-4c13-b744-95f0b9c8a2e1",
+      "usable_battery_size": 79,
+      "energy_consumption": {
+        "average_consumption": 17.6,
+        "range": 450
+      },
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 205,
+        "is_default_charging_curve": false,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 205
+          },
+          {
+            "percentage": 50,
+            "power": 205
+          },
+          {
+            "percentage": 80,
+            "power": 102.5
+          },
+          {
+            "percentage": 100,
+            "power": 41
+          }
+        ]
+      },
+      "vehicle_type": "car",
       "charging_voltage": 400
     }
   ]

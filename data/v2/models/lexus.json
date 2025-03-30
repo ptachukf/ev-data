@@ -19,11 +19,11 @@
         ],
         "max_power": 11,
         "power_per_charging_point": {
-          "11": 11.0,
-          "16": 11.0,
-          "22": 11.0,
-          "43": 11.0,
-          "2.0": 2.0,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4
@@ -53,6 +53,124 @@
       "energy_consumption": {
         "average_consumption": 19.6
       },
+      "charging_voltage": 400
+    },
+    {
+      "brand": "Lexus",
+      "model": "RZ 300e",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2023,
+      "range": 365,
+      "id": "0ff167bc-3131-4bd7-88d1-161c76a6c473",
+      "brand_id": "9bb828a8-dc16-5090-42f3-2d26b2245f1f",
+      "usable_battery_size": 64,
+      "energy_consumption": {
+        "average_consumption": 17.5,
+        "range": 365
+      },
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 147,
+        "is_default_charging_curve": false,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 147
+          },
+          {
+            "percentage": 50,
+            "power": 147
+          },
+          {
+            "percentage": 80,
+            "power": 73.5
+          },
+          {
+            "percentage": 100,
+            "power": 29.400000000000002
+          }
+        ]
+      },
+      "vehicle_type": "car",
+      "charging_voltage": 400
+    },
+    {
+      "brand": "Lexus",
+      "model": "UX 300e",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2023,
+      "range": 340,
+      "id": "c2a863f0-c68e-48d1-bde8-cfe5a097113a",
+      "brand_id": "9bb828a8-dc16-5090-42f3-2d26b2245f1f",
+      "usable_battery_size": 64,
+      "energy_consumption": {
+        "average_consumption": 18.8,
+        "range": 340
+      },
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "chademo"
+        ],
+        "max_power": 50,
+        "is_default_charging_curve": false,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 50
+          },
+          {
+            "percentage": 50,
+            "power": 50
+          },
+          {
+            "percentage": 80,
+            "power": 25
+          },
+          {
+            "percentage": 100,
+            "power": 10
+          }
+        ]
+      },
+      "vehicle_type": "car",
       "charging_voltage": 400
     }
   ]

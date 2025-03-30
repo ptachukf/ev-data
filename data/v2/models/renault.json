@@ -22,11 +22,11 @@
         "usable_phases": 3,
         "max_power": 11,
         "power_per_charging_point": {
-          "11": 11.0,
-          "16": 11.0,
-          "22": 11.0,
-          "43": 11.0,
-          "2.0": 2.0,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4
@@ -79,11 +79,11 @@
         "usable_phases": 3,
         "max_power": 11,
         "power_per_charging_point": {
-          "11": 11.0,
-          "16": 11.0,
-          "22": 11.0,
-          "43": 11.0,
-          "2.0": 2.0,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4
@@ -136,11 +136,11 @@
         "usable_phases": 3,
         "max_power": 11,
         "power_per_charging_point": {
-          "11": 11.0,
-          "16": 11.0,
-          "22": 11.0,
-          "43": 11.0,
-          "2.0": 2.0,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4
@@ -194,7 +194,7 @@
           "16": 5.4,
           "22": 7.2,
           "43": 7.2,
-          "2.0": 2.0,
+          "2.0": 2,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.2
@@ -225,9 +225,9 @@
         "power_per_charging_point": {
           "11": 11.1,
           "16": 16.2,
-          "22": 22.0,
-          "43": 22.0,
-          "2.0": 2.0,
+          "22": 22,
+          "43": 22,
+          "2.0": 2,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4
@@ -278,9 +278,9 @@
         "power_per_charging_point": {
           "11": 11.1,
           "16": 16.2,
-          "22": 22.0,
-          "43": 22.0,
-          "2.0": 2.0,
+          "22": 22,
+          "43": 22,
+          "2.0": 2,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4
@@ -331,9 +331,9 @@
         "power_per_charging_point": {
           "11": 11.1,
           "16": 16.2,
-          "22": 22.0,
-          "43": 22.0,
-          "2.0": 2.0,
+          "22": 22,
+          "43": 22,
+          "2.0": 2,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4
@@ -384,9 +384,9 @@
         "power_per_charging_point": {
           "11": 11.1,
           "16": 16.2,
-          "22": 22.0,
-          "43": 22.0,
-          "2.0": 2.0,
+          "22": 22,
+          "43": 22,
+          "2.0": 2,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4
@@ -437,9 +437,9 @@
         "power_per_charging_point": {
           "11": 11.1,
           "16": 16.2,
-          "22": 22.0,
-          "43": 22.0,
-          "2.0": 2.0,
+          "22": 22,
+          "43": 22,
+          "2.0": 2,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4
@@ -473,7 +473,7 @@
           "16": 2.3,
           "22": 2.3,
           "43": 2.3,
-          "2.0": 2.0,
+          "2.0": 2,
           "2.3": 2.3,
           "3.7": 2.3,
           "7.4": 2.3
@@ -501,8 +501,8 @@
           "11": 11.1,
           "16": 16.2,
           "22": 22.2,
-          "43": 43.0,
-          "2.0": 2.0,
+          "43": 43,
+          "2.0": 2,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4
@@ -534,8 +534,8 @@
           "11": 11.1,
           "16": 16.2,
           "22": 22.2,
-          "43": 30.0,
-          "2.0": 2.0,
+          "43": 30,
+          "2.0": 2,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4
@@ -566,9 +566,9 @@
         "power_per_charging_point": {
           "11": 11.1,
           "16": 16.2,
-          "22": 22.0,
-          "43": 22.0,
-          "2.0": 2.0,
+          "22": 22,
+          "43": 22,
+          "2.0": 2,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4
@@ -599,9 +599,9 @@
         "power_per_charging_point": {
           "11": 11.1,
           "16": 16.2,
-          "22": 22.0,
-          "43": 22.0,
-          "2.0": 2.0,
+          "22": 22,
+          "43": 22,
+          "2.0": 2,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4
@@ -632,9 +632,9 @@
         "power_per_charging_point": {
           "11": 11.1,
           "16": 16.2,
-          "22": 22.0,
-          "43": 22.0,
-          "2.0": 2.0,
+          "22": 22,
+          "43": 22,
+          "2.0": 2,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4
@@ -689,9 +689,9 @@
         "power_per_charging_point": {
           "11": 11.1,
           "16": 16.2,
-          "22": 22.0,
-          "43": 22.0,
-          "2.0": 2.0,
+          "22": 22,
+          "43": 22,
+          "2.0": 2,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4
@@ -746,9 +746,9 @@
         "power_per_charging_point": {
           "11": 11.1,
           "16": 16.2,
-          "22": 22.0,
-          "43": 22.0,
-          "2.0": 2.0,
+          "22": 22,
+          "43": 22,
+          "2.0": 2,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4
@@ -782,6 +782,918 @@
       "energy_consumption": {
         "average_consumption": 17.4
       },
+      "charging_voltage": 400
+    },
+    {
+      "brand": "Renault",
+      "model": "4 E-Tech 52kWh 150hp",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2025,
+      "range": 315,
+      "id": "af7b1ae7-fe86-4548-9219-bad34dbcae86",
+      "brand_id": "c0d8a60c-34b8-44fe-8af7-9eeb62eedb4b",
+      "usable_battery_size": 52,
+      "energy_consumption": {
+        "average_consumption": 16.5,
+        "range": 315
+      },
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 100,
+        "is_default_charging_curve": false,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 100
+          },
+          {
+            "percentage": 50,
+            "power": 100
+          },
+          {
+            "percentage": 80,
+            "power": 50
+          },
+          {
+            "percentage": 100,
+            "power": 20
+          }
+        ]
+      },
+      "vehicle_type": "car",
+      "charging_voltage": 400
+    },
+    {
+      "brand": "Renault",
+      "model": "Megane E-Tech EV60 220hp",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2025,
+      "range": 380,
+      "id": "9883b3d1-55f8-4dd3-be76-b09f69ee3ab5",
+      "brand_id": "c0d8a60c-34b8-44fe-8af7-9eeb62eedb4b",
+      "usable_battery_size": 60,
+      "energy_consumption": {
+        "average_consumption": 15.8,
+        "range": 380
+      },
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 129,
+        "is_default_charging_curve": false,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 129
+          },
+          {
+            "percentage": 50,
+            "power": 129
+          },
+          {
+            "percentage": 80,
+            "power": 64.5
+          },
+          {
+            "percentage": 100,
+            "power": 25.8
+          }
+        ]
+      },
+      "vehicle_type": "car",
+      "charging_voltage": 400
+    },
+    {
+      "brand": "Renault",
+      "model": "Zoe ZE50 R135",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2019,
+      "range": 310,
+      "id": "19cbc943-5149-407a-be9c-73c19aaf198c",
+      "brand_id": "c0d8a60c-34b8-44fe-8af7-9eeb62eedb4b",
+      "usable_battery_size": 52,
+      "energy_consumption": {
+        "average_consumption": 16.8,
+        "range": 310
+      },
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 46,
+        "is_default_charging_curve": false,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 46
+          },
+          {
+            "percentage": 50,
+            "power": 46
+          },
+          {
+            "percentage": 80,
+            "power": 27.599999999999998
+          },
+          {
+            "percentage": 100,
+            "power": 13.799999999999999
+          }
+        ]
+      },
+      "vehicle_type": "car",
+      "charging_voltage": 400
+    },
+    {
+      "brand": "Renault",
+      "model": "Twingo Electric",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2020,
+      "range": 135,
+      "dc_charger": null,
+      "id": "32024ea9-ff23-4abd-a13b-7f2732d81bfc",
+      "brand_id": "c0d8a60c-34b8-44fe-8af7-9eeb62eedb4b",
+      "usable_battery_size": 21.3,
+      "energy_consumption": {
+        "average_consumption": 15.8,
+        "range": 135
+      },
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "vehicle_type": "car",
+      "charging_voltage": 400
+    },
+    {
+      "brand": "Renault",
+      "model": "Megane E-Tech EV60 130hp",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2025,
+      "range": 380,
+      "id": "468bac3a-0cc5-4fc8-bd76-e635897463cb",
+      "brand_id": "c0d8a60c-34b8-44fe-8af7-9eeb62eedb4b",
+      "usable_battery_size": 60,
+      "energy_consumption": {
+        "average_consumption": 15.8,
+        "range": 380
+      },
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 129,
+        "is_default_charging_curve": false,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 129
+          },
+          {
+            "percentage": 50,
+            "power": 129
+          },
+          {
+            "percentage": 80,
+            "power": 64.5
+          },
+          {
+            "percentage": 100,
+            "power": 25.8
+          }
+        ]
+      },
+      "vehicle_type": "car",
+      "charging_voltage": 400
+    },
+    {
+      "brand": "Renault",
+      "model": "Kangoo E-Tech Electric",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2022,
+      "range": 225,
+      "id": "7330268f-f92e-402f-b401-ac78f37b6516",
+      "brand_id": "c0d8a60c-34b8-44fe-8af7-9eeb62eedb4b",
+      "usable_battery_size": 45,
+      "energy_consumption": {
+        "average_consumption": 20,
+        "range": 225
+      },
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 80,
+        "is_default_charging_curve": false,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 80
+          },
+          {
+            "percentage": 50,
+            "power": 80
+          },
+          {
+            "percentage": 80,
+            "power": 40
+          },
+          {
+            "percentage": 100,
+            "power": 16
+          }
+        ]
+      },
+      "vehicle_type": "car",
+      "charging_voltage": 400
+    },
+    {
+      "brand": "Renault",
+      "model": "Kangoo Maxi ZE 33",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2017,
+      "range": 160,
+      "dc_charger": null,
+      "id": "20f77b9c-5fea-41a2-b1c7-55d630bfc993",
+      "brand_id": "c0d8a60c-34b8-44fe-8af7-9eeb62eedb4b",
+      "usable_battery_size": 31,
+      "energy_consumption": {
+        "average_consumption": 19.4,
+        "range": 160
+      },
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "vehicle_type": "car",
+      "charging_voltage": 400
+    },
+    {
+      "brand": "Renault",
+      "model": "Zoe R110",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2018,
+      "range": 250,
+      "dc_charger": null,
+      "id": "91413796-1642-47d9-b3e8-407b52d842d7",
+      "brand_id": "c0d8a60c-34b8-44fe-8af7-9eeb62eedb4b",
+      "usable_battery_size": 41,
+      "energy_consumption": {
+        "average_consumption": 16.4,
+        "range": 250
+      },
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "vehicle_type": "car",
+      "charging_voltage": 400
+    },
+    {
+      "brand": "Renault",
+      "model": "Scenic E-Tech EV60 170hp",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2023,
+      "range": 340,
+      "id": "884da45a-5607-46e3-9974-d3d57cb15194",
+      "brand_id": "c0d8a60c-34b8-44fe-8af7-9eeb62eedb4b",
+      "usable_battery_size": 60,
+      "energy_consumption": {
+        "average_consumption": 17.6,
+        "range": 340
+      },
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 130,
+        "is_default_charging_curve": false,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 130
+          },
+          {
+            "percentage": 50,
+            "power": 130
+          },
+          {
+            "percentage": 80,
+            "power": 65
+          },
+          {
+            "percentage": 100,
+            "power": 26
+          }
+        ]
+      },
+      "vehicle_type": "car",
+      "charging_voltage": 400
+    },
+    {
+      "brand": "Renault",
+      "model": "Zoe ZE40 R110",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2019,
+      "range": 255,
+      "id": "5d224876-e1ac-4eaf-ae79-fb5db90c22cc",
+      "brand_id": "c0d8a60c-34b8-44fe-8af7-9eeb62eedb4b",
+      "usable_battery_size": 41,
+      "energy_consumption": {
+        "average_consumption": 16.1,
+        "range": 255
+      },
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 45,
+        "is_default_charging_curve": false,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 45
+          },
+          {
+            "percentage": 50,
+            "power": 45
+          },
+          {
+            "percentage": 80,
+            "power": 27
+          },
+          {
+            "percentage": 100,
+            "power": 13.5
+          }
+        ]
+      },
+      "vehicle_type": "car",
+      "charging_voltage": 400
+    },
+    {
+      "brand": "Renault",
+      "model": "4 E-Tech 40kWh 120hp",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2025,
+      "battery_size": 40,
+      "range": 245,
+      "consumption": 16.3,
+      "ac_charger": {
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.0,
+          "16": 11,
+          "22": 11,
+          "43": 11
+        },
+        "usable_phases": 3
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 80,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 80
+          },
+          {
+            "percentage": 50,
+            "power": 80
+          },
+          {
+            "percentage": 80,
+            "power": 40
+          },
+          {
+            "percentage": 100,
+            "power": 16
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "id": "f1987e38-6616-4fe8-bdbd-6135f954caac",
+      "brand_id": "c0d8a60c-34b8-44fe-8af7-9eeb62eedb4b",
+      "vehicle_type": "car",
+      "charging_voltage": 400,
+      "usable_battery_size": 40.0,
+      "energy_consumption": {
+        "average_consumption": 16.3
+      }
+    },
+    {
+      "brand": "Renault",
+      "model": "Megane E-Tech EV40 130hp",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2022,
+      "battery_size": 40,
+      "range": 260,
+      "consumption": 15.4,
+      "ac_charger": {
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.0,
+          "16": 11,
+          "22": 11,
+          "43": 11
+        },
+        "usable_phases": 3
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 85,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 85
+          },
+          {
+            "percentage": 50,
+            "power": 85
+          },
+          {
+            "percentage": 80,
+            "power": 42.5
+          },
+          {
+            "percentage": 100,
+            "power": 17
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "id": "86bc7a35-f05f-4ba1-b02a-502f8132abae",
+      "brand_id": "c0d8a60c-34b8-44fe-8af7-9eeb62eedb4b",
+      "vehicle_type": "car",
+      "charging_voltage": 400,
+      "usable_battery_size": 40.0,
+      "energy_consumption": {
+        "average_consumption": 15.4
+      }
+    },
+    {
+      "brand": "Renault",
+      "model": "Kangoo Grand E-Tech Electric",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2024,
+      "battery_size": 45,
+      "range": 220,
+      "consumption": 20.5,
+      "ac_charger": {
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.0,
+          "16": 11,
+          "22": 11,
+          "43": 11
+        },
+        "usable_phases": 3
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 80,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 80
+          },
+          {
+            "percentage": 50,
+            "power": 80
+          },
+          {
+            "percentage": 80,
+            "power": 40
+          },
+          {
+            "percentage": 100,
+            "power": 16
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "id": "79da8e71-f1fb-49d4-bbd9-0734a9388ab9",
+      "brand_id": "c0d8a60c-34b8-44fe-8af7-9eeb62eedb4b",
+      "vehicle_type": "car",
+      "charging_voltage": 400,
+      "usable_battery_size": 45.0,
+      "energy_consumption": {
+        "average_consumption": 20.5
+      }
+    },
+    {
+      "brand": "Renault",
+      "model": "Zoe R90 Entry",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2017,
+      "battery_size": 23.3,
+      "range": 140,
+      "consumption": 16.6,
+      "ac_charger": {
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.0,
+          "16": 11,
+          "22": 11,
+          "43": 11
+        },
+        "usable_phases": 3
+      },
+      "dc_charger": null,
+      "id": "fdd890a5-96fd-4640-82dd-57f851c650cf",
+      "brand_id": "c0d8a60c-34b8-44fe-8af7-9eeb62eedb4b",
+      "vehicle_type": "car",
+      "charging_voltage": 400,
+      "usable_battery_size": 23.3,
+      "energy_consumption": {
+        "average_consumption": 16.6
+      }
+    },
+    {
+      "brand": "Renault",
+      "model": "Scenic E-Tech EV87 220hp",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2023,
+      "battery_size": 87,
+      "range": 480,
+      "consumption": 18.1,
+      "ac_charger": {
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.0,
+          "16": 11,
+          "22": 11,
+          "43": 11
+        },
+        "usable_phases": 3
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 150,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 150
+          },
+          {
+            "percentage": 50,
+            "power": 150
+          },
+          {
+            "percentage": 80,
+            "power": 75
+          },
+          {
+            "percentage": 100,
+            "power": 30
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "id": "b122370e-85a7-44c2-9531-9bec0a8f85f2",
+      "brand_id": "c0d8a60c-34b8-44fe-8af7-9eeb62eedb4b",
+      "vehicle_type": "car",
+      "charging_voltage": 400,
+      "usable_battery_size": 87.0,
+      "energy_consumption": {
+        "average_consumption": 18.1
+      }
+    },
+    {
+      "brand": "Renault",
+      "model": "Zoe ZE50 R110",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2019,
+      "battery_size": 52,
+      "range": 315,
+      "consumption": 16.5,
+      "ac_charger": {
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.0,
+          "16": 11,
+          "22": 11,
+          "43": 11
+        },
+        "usable_phases": 3
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 46,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 46
+          },
+          {
+            "percentage": 50,
+            "power": 46
+          },
+          {
+            "percentage": 80,
+            "power": 27.599999999999998
+          },
+          {
+            "percentage": 100,
+            "power": 13.799999999999999
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "id": "3a5aec49-6b1c-49ad-9291-f14a78091b97",
+      "brand_id": "c0d8a60c-34b8-44fe-8af7-9eeb62eedb4b",
+      "vehicle_type": "car",
+      "charging_voltage": 400,
+      "usable_battery_size": 52.0,
+      "energy_consumption": {
+        "average_consumption": 16.5
+      }
+    },
+    {
+      "brand": "Renault",
+      "model": "Zoe Q210",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2013,
+      "usable_battery_size": 23.3,
+      "range": 130,
+      "energy_consumption": {
+        "average_consumption": 17.9
+      },
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.0,
+          "16": 11,
+          "22": 11,
+          "43": 11
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 43,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 43
+          },
+          {
+            "percentage": 50,
+            "power": 43
+          },
+          {
+            "percentage": 80,
+            "power": 25.8
+          },
+          {
+            "percentage": 100,
+            "power": 12.9
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "id": "0df343c3-719e-479a-905e-d2f7f723b287",
+      "brand_id": "c0d8a60c-34b8-44fe-8af7-9eeb62eedb4b",
+      "vehicle_type": "car",
       "charging_voltage": 400
     }
   ]

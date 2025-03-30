@@ -1,0 +1,66 @@
+{
+  "brand_id": "b5a4f3e2-d1c0-4bfa-7c6d-5e4f3a2b1a09",
+  "brand_name": "Elaris",
+  "models": [
+    {
+      "brand": "Elaris",
+      "model": "BEO 86 kWh",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2023,
+      "battery_size": 81,
+      "range": 390,
+      "consumption": 20.8,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.0,
+          "16": 11,
+          "22": 11,
+          "43": 11
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 100,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 100
+          },
+          {
+            "percentage": 50,
+            "power": 100
+          },
+          {
+            "percentage": 80,
+            "power": 50
+          },
+          {
+            "percentage": 100,
+            "power": 20
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "id": "e81cda37-cbd7-443f-9c1b-a22764953a04",
+      "brand_id": "b5a4f3e2-d1c0-4bfa-7c6d-5e4f3a2b1a09",
+      "usable_battery_size": 81,
+      "energy_consumption": {
+        "average_consumption": 20.8
+      },
+      "vehicle_type": "car",
+      "charging_voltage": 400
+    }
+  ]
+}

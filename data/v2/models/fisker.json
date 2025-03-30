@@ -1,0 +1,245 @@
+{
+  "brand_id": "a4f3e2d1-c0bf-4ae9-6d5e-4f3a2b1a09f8",
+  "brand_name": "Fisker",
+  "models": [
+    {
+      "brand": "Fisker",
+      "model": "Ocean One",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2023,
+      "range": 530,
+      "id": "ecb8c4fd-dc57-4b57-ba71-a1bb57e69b0a",
+      "brand_id": "a4f3e2d1-c0bf-4ae9-6d5e-4f3a2b1a09f8",
+      "usable_battery_size": 106.5,
+      "energy_consumption": {
+        "average_consumption": 20.1,
+        "range": 530
+      },
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 250,
+        "is_default_charging_curve": false,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 250
+          },
+          {
+            "percentage": 50,
+            "power": 250
+          },
+          {
+            "percentage": 80,
+            "power": 125
+          },
+          {
+            "percentage": 100,
+            "power": 50
+          }
+        ]
+      },
+      "vehicle_type": "car",
+      "charging_voltage": 400
+    },
+    {
+      "brand": "Fisker",
+      "model": "Ocean Ultra",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2023,
+      "battery_size": 106.5,
+      "range": 510,
+      "consumption": 20.9,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.0,
+          "16": 11,
+          "22": 11,
+          "43": 11
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 250,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 250
+          },
+          {
+            "percentage": 50,
+            "power": 250
+          },
+          {
+            "percentage": 80,
+            "power": 125
+          },
+          {
+            "percentage": 100,
+            "power": 50
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "id": "817bc60e-ae15-4eae-9fe4-f92df5eb4df1",
+      "brand_id": "a4f3e2d1-c0bf-4ae9-6d5e-4f3a2b1a09f8",
+      "usable_battery_size": 106.5,
+      "energy_consumption": {
+        "average_consumption": 20.9
+      },
+      "vehicle_type": "car",
+      "charging_voltage": 400
+    },
+    {
+      "brand": "Fisker",
+      "model": "Ocean Sport",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2023,
+      "battery_size": 71,
+      "range": 350,
+      "consumption": 20.3,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.0,
+          "16": 11,
+          "22": 11,
+          "43": 11
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 200,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 200
+          },
+          {
+            "percentage": 50,
+            "power": 200
+          },
+          {
+            "percentage": 80,
+            "power": 100
+          },
+          {
+            "percentage": 100,
+            "power": 40
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "id": "9102f0d4-b395-4251-9795-7fae8b7b9e25",
+      "brand_id": "a4f3e2d1-c0bf-4ae9-6d5e-4f3a2b1a09f8",
+      "usable_battery_size": 71,
+      "energy_consumption": {
+        "average_consumption": 20.3
+      },
+      "vehicle_type": "car",
+      "charging_voltage": 400
+    },
+    {
+      "brand": "Fisker",
+      "model": "Ocean Extreme",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2023,
+      "battery_size": 106.5,
+      "range": 490,
+      "consumption": 21.7,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.0,
+          "16": 11,
+          "22": 11,
+          "43": 11
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 250,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 250
+          },
+          {
+            "percentage": 50,
+            "power": 250
+          },
+          {
+            "percentage": 80,
+            "power": 125
+          },
+          {
+            "percentage": 100,
+            "power": 50
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "id": "ecea7a00-75af-4fc6-8df2-4457fc3581cd",
+      "brand_id": "a4f3e2d1-c0bf-4ae9-6d5e-4f3a2b1a09f8",
+      "usable_battery_size": 106.5,
+      "energy_consumption": {
+        "average_consumption": 21.7
+      },
+      "vehicle_type": "car",
+      "charging_voltage": 400
+    }
+  ]
+}

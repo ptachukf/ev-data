@@ -23,7 +23,7 @@
           "16": 5.4,
           "22": 6.6,
           "43": 6.6,
-          "2.0": 2.0,
+          "2.0": 2,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 6.6
@@ -76,7 +76,7 @@
           "16": 5.4,
           "22": 6.6,
           "43": 6.6,
-          "2.0": 2.0,
+          "2.0": 2,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 6.6
@@ -129,11 +129,11 @@
         ],
         "max_power": 11,
         "power_per_charging_point": {
-          "11": 11.0,
-          "16": 11.0,
-          "22": 11.0,
-          "43": 11.0,
-          "2.0": 2.0,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4
@@ -210,11 +210,11 @@
         ],
         "max_power": 11,
         "power_per_charging_point": {
-          "11": 11.0,
-          "16": 11.0,
-          "22": 11.0,
-          "43": 11.0,
-          "2.0": 2.0,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4
@@ -244,6 +244,306 @@
       "energy_consumption": {
         "average_consumption": 16.7
       },
+      "charging_voltage": 400
+    },
+    {
+      "brand": "Fiat",
+      "model": "E-Ulysse L2 75 kWh",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2022,
+      "battery_size": 68,
+      "range": 265,
+      "consumption": 25.7,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.0,
+          "16": 11,
+          "22": 11,
+          "43": 11
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 100,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 100
+          },
+          {
+            "percentage": 50,
+            "power": 100
+          },
+          {
+            "percentage": 80,
+            "power": 60
+          },
+          {
+            "percentage": 100,
+            "power": 30
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "id": "1c804ccf-72fb-49c7-9a0e-ca0c7a663bef",
+      "brand_id": "3291e5ba-862c-49fa-8437-71105743875e",
+      "usable_battery_size": 68,
+      "energy_consumption": {
+        "average_consumption": 25.7
+      },
+      "vehicle_type": "car",
+      "charging_voltage": 400
+    },
+    {
+      "brand": "Fiat",
+      "model": "E-Ulysse L2 50 kWh",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2022,
+      "battery_size": 46.3,
+      "range": 185,
+      "consumption": 25,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.0,
+          "16": 11,
+          "22": 11,
+          "43": 11
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 101,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 101
+          },
+          {
+            "percentage": 50,
+            "power": 101
+          },
+          {
+            "percentage": 80,
+            "power": 60.599999999999994
+          },
+          {
+            "percentage": 100,
+            "power": 30.299999999999997
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "id": "4b22bd00-15c6-448b-9ebb-4b5a6da57b07",
+      "brand_id": "3291e5ba-862c-49fa-8437-71105743875e",
+      "usable_battery_size": 46.3,
+      "energy_consumption": {
+        "average_consumption": 25
+      },
+      "vehicle_type": "car",
+      "charging_voltage": 400
+    },
+    {
+      "brand": "Fiat",
+      "model": "E-Ulysse L3 75 kWh",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2022,
+      "battery_size": 68,
+      "range": 260,
+      "consumption": 26.2,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.0,
+          "16": 11,
+          "22": 11,
+          "43": 11
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 100,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 100
+          },
+          {
+            "percentage": 50,
+            "power": 100
+          },
+          {
+            "percentage": 80,
+            "power": 60
+          },
+          {
+            "percentage": 100,
+            "power": 30
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "id": "999bf31d-a129-4081-8496-507214f4f3f4",
+      "brand_id": "3291e5ba-862c-49fa-8437-71105743875e",
+      "usable_battery_size": 68,
+      "energy_consumption": {
+        "average_consumption": 26.2
+      },
+      "vehicle_type": "car",
+      "charging_voltage": 400
+    },
+    {
+      "brand": "Fiat",
+      "model": "E-Ulysse L3 50 kWh",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2022,
+      "battery_size": 46.3,
+      "range": 180,
+      "consumption": 25.7,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.0,
+          "16": 11,
+          "22": 11,
+          "43": 11
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 101,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 101
+          },
+          {
+            "percentage": 50,
+            "power": 101
+          },
+          {
+            "percentage": 80,
+            "power": 60.599999999999994
+          },
+          {
+            "percentage": 100,
+            "power": 30.299999999999997
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "id": "4f788c25-1cf9-4772-bf6c-dcec5a49df42",
+      "brand_id": "3291e5ba-862c-49fa-8437-71105743875e",
+      "usable_battery_size": 46.3,
+      "energy_consumption": {
+        "average_consumption": 25.7
+      },
+      "vehicle_type": "car",
+      "charging_voltage": 400
+    },
+    {
+      "brand": "Fiat",
+      "model": "Grande Panda",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2024,
+      "battery_size": 43.8,
+      "range": 260,
+      "consumption": 16.8,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.0,
+          "16": 11,
+          "22": 11,
+          "43": 11
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 100,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 100
+          },
+          {
+            "percentage": 50,
+            "power": 100
+          },
+          {
+            "percentage": 80,
+            "power": 50
+          },
+          {
+            "percentage": 100,
+            "power": 20
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "id": "76e810fd-df36-43f9-aa0b-152cbb3e8f16",
+      "brand_id": "3291e5ba-862c-49fa-8437-71105743875e",
+      "usable_battery_size": 43.8,
+      "energy_consumption": {
+        "average_consumption": 16.8
+      },
+      "vehicle_type": "car",
       "charging_voltage": 400
     }
   ]

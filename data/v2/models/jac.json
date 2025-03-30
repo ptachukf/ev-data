@@ -1,0 +1,66 @@
+{
+  "brand_id": "f3e2d1c0-bfaf-49e8-5e4f-3a2b1a09f8e7",
+  "brand_name": "JAC",
+  "models": [
+    {
+      "brand": "JAC",
+      "model": "iEV7s",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2021,
+      "battery_size": 39,
+      "range": 225,
+      "consumption": 17.3,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.0,
+          "16": 11,
+          "22": 11,
+          "43": 11
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 37,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 37
+          },
+          {
+            "percentage": 50,
+            "power": 37
+          },
+          {
+            "percentage": 80,
+            "power": 22.2
+          },
+          {
+            "percentage": 100,
+            "power": 11.1
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "id": "cb8e468c-62dd-4fb3-8e91-aaaed678e5b7",
+      "brand_id": "f3e2d1c0-bfaf-49e8-5e4f-3a2b1a09f8e7",
+      "usable_battery_size": 39,
+      "energy_consumption": {
+        "average_consumption": 17.3
+      },
+      "vehicle_type": "car",
+      "charging_voltage": 400
+    }
+  ]
+}

@@ -21,9 +21,9 @@
         "power_per_charging_point": {
           "11": 11.1,
           "16": 16.2,
-          "22": 22.0,
-          "43": 22.0,
-          "2.0": 2.0,
+          "22": 22,
+          "43": 22,
+          "2.0": 2,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4
@@ -54,6 +54,304 @@
         "average_consumption": 17
       },
       "charging_voltage": 400
+    },
+    {
+      "brand": "Lucid",
+      "model": "Air Grand Touring",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2023,
+      "range": 665,
+      "id": "6cf03c78-21ae-4a57-a1f5-246515fe37cd",
+      "brand_id": "24199511-376f-cc42-0cce-5662566baa1a",
+      "usable_battery_size": 112,
+      "energy_consumption": {
+        "average_consumption": 16.8,
+        "range": 665
+      },
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 253,
+        "is_default_charging_curve": false,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 253
+          },
+          {
+            "percentage": 50,
+            "power": 253
+          },
+          {
+            "percentage": 80,
+            "power": 151.79999999999998
+          },
+          {
+            "percentage": 100,
+            "power": 75.89999999999999
+          }
+        ]
+      },
+      "vehicle_type": "car",
+      "charging_voltage": 400
+    },
+    {
+      "brand": "Lucid",
+      "model": "Air Touring",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2023,
+      "range": 580,
+      "id": "c727205b-f69f-488b-88dc-5517904c8d19",
+      "brand_id": "24199511-376f-cc42-0cce-5662566baa1a",
+      "usable_battery_size": 92,
+      "energy_consumption": {
+        "average_consumption": 15.9,
+        "range": 580
+      },
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 200,
+        "is_default_charging_curve": false,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 200
+          },
+          {
+            "percentage": 50,
+            "power": 200
+          },
+          {
+            "percentage": 80,
+            "power": 120
+          },
+          {
+            "percentage": 100,
+            "power": 60
+          }
+        ]
+      },
+      "vehicle_type": "car",
+      "charging_voltage": 400
+    },
+    {
+      "brand": "Lucid",
+      "model": "Air Pure RWD",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2024,
+      "battery_size": 92,
+      "range": 565,
+      "consumption": 16.3,
+      "ac_charger": {
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.0,
+          "16": 11,
+          "22": 11,
+          "43": 11
+        },
+        "usable_phases": 3
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 200,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 200
+          },
+          {
+            "percentage": 50,
+            "power": 200
+          },
+          {
+            "percentage": 80,
+            "power": 120
+          },
+          {
+            "percentage": 100,
+            "power": 60
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "id": "6d0b722e-f5bb-4b17-a9dd-5a4cc609544a",
+      "brand_id": "24199511-376f-cc42-0cce-5662566baa1a",
+      "vehicle_type": "car",
+      "charging_voltage": 400,
+      "usable_battery_size": 92.0,
+      "energy_consumption": {
+        "average_consumption": 14.9
+      }
+    },
+    {
+      "brand": "Lucid",
+      "model": "Air Dream Edition P",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2022,
+      "battery_size": 118,
+      "range": 665,
+      "consumption": 17.7,
+      "ac_charger": {
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.0,
+          "16": 11,
+          "22": 11,
+          "43": 11
+        },
+        "usable_phases": 3
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 300,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 300
+          },
+          {
+            "percentage": 50,
+            "power": 300
+          },
+          {
+            "percentage": 80,
+            "power": 150
+          },
+          {
+            "percentage": 100,
+            "power": 60
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "id": "afb131a1-bff2-4d5d-857a-e08140fa96c3",
+      "brand_id": "24199511-376f-cc42-0cce-5662566baa1a",
+      "vehicle_type": "car",
+      "charging_voltage": 400,
+      "usable_battery_size": 118.0,
+      "energy_consumption": {
+        "average_consumption": 19.2
+      }
+    },
+    {
+      "brand": "Lucid",
+      "model": "Air Pure AWD",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2023,
+      "battery_size": 92,
+      "range": 560,
+      "consumption": 16.4,
+      "ac_charger": {
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.0,
+          "16": 11,
+          "22": 11,
+          "43": 11
+        },
+        "usable_phases": 3
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 200,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 200
+          },
+          {
+            "percentage": 50,
+            "power": 200
+          },
+          {
+            "percentage": 80,
+            "power": 120
+          },
+          {
+            "percentage": 100,
+            "power": 60
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "id": "b517de4a-9763-4bd2-a626-8c04601421fe",
+      "brand_id": "24199511-376f-cc42-0cce-5662566baa1a",
+      "vehicle_type": "car",
+      "charging_voltage": 400,
+      "usable_battery_size": 92.0,
+      "energy_consumption": {
+        "average_consumption": 15.6
+      }
     }
   ]
 }

@@ -23,7 +23,7 @@
           "16": 5.4,
           "22": 6.6,
           "43": 6.6,
-          "2.0": 2.0,
+          "2.0": 2,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 6.6
@@ -61,6 +61,66 @@
       "energy_consumption": {
         "average_consumption": 18.8
       },
+      "charging_voltage": 400
+    },
+    {
+      "brand": "Aiways",
+      "model": "U6",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2022,
+      "battery_size": 60,
+      "range": 350,
+      "consumption": 17.1,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.0,
+          "16": 11,
+          "22": 11,
+          "43": 11
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 92,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 92
+          },
+          {
+            "percentage": 50,
+            "power": 92
+          },
+          {
+            "percentage": 80,
+            "power": 55.199999999999996
+          },
+          {
+            "percentage": 100,
+            "power": 27.599999999999998
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "id": "6b7e4753-42d2-4bf3-93fe-28e8f10e6fd8",
+      "brand_id": "a43d2607-eead-46c2-9fd5-2ebd3c49d895",
+      "usable_battery_size": 60,
+      "energy_consumption": {
+        "average_consumption": 17.1
+      },
+      "vehicle_type": "car",
       "charging_voltage": 400
     }
   ]

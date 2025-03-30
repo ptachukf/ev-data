@@ -1,7 +1,7 @@
 {
   "meta": {
-    "updated_at": "2024-12-08T10:35:09Z",
-    "overall_count": 421
+    "updated_at": "2025-03-29T16:52:37.960Z",
+    "overall_count": 805
   },
   "brands": [
     {
@@ -13,6 +13,16 @@
       "id": "a43d2607-eead-46c2-9fd5-2ebd3c49d895",
       "name": "Aiways",
       "models_file": "models/aiways.json"
+    },
+    {
+      "id": "f9a8b7c6-d5e4-4f32-1a0b-9c8d7e6f5a4b",
+      "name": "Alfa Romeo",
+      "models_file": "models/alfa_romeo.json"
+    },
+    {
+      "id": "e8d7c6b5-a4f3-4e21-0b9a-8b7c6d5e4f3a",
+      "name": "Alpine",
+      "models_file": "models/alpine.json"
     },
     {
       "id": "97d0d03a-63c6-4f33-99d7-6e944f71d7c5",
@@ -35,9 +45,9 @@
       "models_file": "models/byd.json"
     },
     {
-      "id": "df115651-4cef-01f0-14ef-fdeef60f674c",
-      "name": "CUPRA",
-      "models_file": "models/cupra.json"
+      "id": "d7c6b5a4-f3e2-4d10-9a8b-7c6d5e4f3a2b",
+      "name": "Cadillac",
+      "models_file": "models/cadillac.json"
     },
     {
       "id": "ff0882f0-bb7f-4259-bf73-9303a299e2c4",
@@ -52,12 +62,12 @@
     {
       "id": "3b3fc191-f4c3-45da-bc3b-21efbe1b264f",
       "name": "Citroën",
-      "models_file": "models/citro_n.json"
+      "models_file": "models/citroen.json"
     },
     {
-      "id": "37bfdacf-1aca-4eb7-8daa-8dc5b14c59e9",
-      "name": "DS",
-      "models_file": "models/ds.json"
+      "id": "df115651-4cef-01f0-14ef-fdeef60f674c",
+      "name": "CUPRA",
+      "models_file": "models/cupra.json"
     },
     {
       "id": "3db0ef48-3566-5fab-00a9-3107c4019b68",
@@ -65,14 +75,44 @@
       "models_file": "models/dacia.json"
     },
     {
+      "id": "37bfdacf-1aca-4eb7-8daa-8dc5b14c59e9",
+      "name": "DS",
+      "models_file": "models/ds.json"
+    },
+    {
+      "id": "c6b5a4f3-e2d1-4c0f-8b7c-6d5e4f3a2b1a",
+      "name": "Dongfeng",
+      "models_file": "models/dongfeng.json"
+    },
+    {
+      "id": "771bb157-23a2-4917-908c-810d241718d5",
+      "name": "e.GO Mobile",
+      "models_file": "models/e_go_mobile.json"
+    },
+    {
+      "id": "b5a4f3e2-d1c0-4bfa-7c6d-5e4f3a2b1a09",
+      "name": "Elaris",
+      "models_file": "models/elaris.json"
+    },
+    {
       "id": "ef55e52a-51bd-740c-876d-92cbc6a6cac1",
       "name": "Energica",
       "models_file": "models/energica.json"
     },
     {
+      "id": "b7c3b515-9568-4a3b-a564-e630d5116d90",
+      "name": "exit",
+      "models_file": "models/exit.json"
+    },
+    {
       "id": "3291e5ba-862c-49fa-8437-71105743875e",
       "name": "Fiat",
       "models_file": "models/fiat.json"
+    },
+    {
+      "id": "a4f3e2d1-c0bf-4ae9-6d5e-4f3a2b1a09f8",
+      "name": "Fisker",
+      "models_file": "models/fisker.json"
     },
     {
       "id": "6cf9e9b6-28aa-44c7-b6c3-438d518ac12f",
@@ -105,6 +145,11 @@
       "models_file": "models/hyundai.json"
     },
     {
+      "id": "f3e2d1c0-bfaf-49e8-5e4f-3a2b1a09f8e7",
+      "name": "JAC",
+      "models_file": "models/jac.json"
+    },
+    {
       "id": "61fc79a2-04ca-418e-9333-caf5f67ba02f",
       "name": "Jaguar",
       "models_file": "models/jaguar.json"
@@ -115,14 +160,34 @@
       "models_file": "models/jeep.json"
     },
     {
+      "id": "e2d1c0bf-af9e-48d7-4f3a-2b1a09f8e7d6",
+      "name": "KGM",
+      "models_file": "models/kgm.json"
+    },
+    {
       "id": "3337d5f0-39de-4ded-831b-843dfec1ebbd",
       "name": "Kia",
       "models_file": "models/kia.json"
     },
     {
+      "id": "d1c0bfaf-9e8d-47c6-3a2b-1a09f8e7d6c5",
+      "name": "Lancia",
+      "models_file": "models/lancia.json"
+    },
+    {
+      "id": "c0bfaf9e-8d7c-46b5-a2b1-a09f8e7d6c54",
+      "name": "Leapmotor",
+      "models_file": "models/leapmotor.json"
+    },
+    {
       "id": "9bb828a8-dc16-5090-42f3-2d26b2245f1f",
       "name": "Lexus",
       "models_file": "models/lexus.json"
+    },
+    {
+      "id": "bfaf9e8d-7c6b-45a4-b1a0-9f8e7d6c5433",
+      "name": "Lightyear",
+      "models_file": "models/lightyear.json"
     },
     {
       "id": "c1ca0a1d-4762-0e9b-005e-5791ed0a040e",
@@ -133,6 +198,11 @@
       "id": "24199511-376f-cc42-0cce-5662566baa1a",
       "name": "Lucid",
       "models_file": "models/lucid.json"
+    },
+    {
+      "id": "af9e8d7c-6b5a-4493-1a09-f8e7d6c54332",
+      "name": "Lynk&Co",
+      "models_file": "models/lynk_co.json"
     },
     {
       "id": "8f65f3e7-430e-4c85-93fd-a70aa181fd9c",
@@ -190,9 +260,19 @@
       "models_file": "models/nissan.json"
     },
     {
+      "id": "9e8d7c6b-5a44-4382-a09f-8e7d6c543321",
+      "name": "ORA",
+      "models_file": "models/ora.json"
+    },
+    {
+      "id": "8d7c6b5a-4438-4271-9f8e-7d6c5433210a",
+      "name": "Omoda",
+      "models_file": "models/omoda.json"
+    },
+    {
       "id": "3500fb3e-bd2c-478e-ae5e-ac9ee490594b",
       "name": "Opel / Vauxhall",
-      "models_file": "models/opel_vauxhall.json"
+      "models_file": "models/opel.json"
     },
     {
       "id": "f458fe7d-f545-45f3-8c23-2ab8140b8b5d",
@@ -215,9 +295,19 @@
       "models_file": "models/renault.json"
     },
     {
+      "id": "7c6b5a44-3827-4160-8e7d-6c5433210a9f",
+      "name": "Rolls-Royce",
+      "models_file": "models/rolls_royce.json"
+    },
+    {
       "id": "91c527ff-aa74-4dbb-9091-36fb5ddd44b6",
-      "name": "Seat",
+      "name": "SEAT",
       "models_file": "models/seat.json"
+    },
+    {
+      "id": "6b5a4438-2716-405f-7d6c-5433210a9f8e",
+      "name": "Seres",
+      "models_file": "models/seres.json"
     },
     {
       "id": "ac088c26-ad28-478a-9e9a-0a6c7f9eeb51",
@@ -228,6 +318,16 @@
       "id": "43763587-6999-406b-8843-28977e1b82c3",
       "name": "Skoda",
       "models_file": "models/skoda.json"
+    },
+    {
+      "id": "5a443827-160f-4f9d-6c54-33210a9f8e7d",
+      "name": "Skywell",
+      "models_file": "models/skywell.json"
+    },
+    {
+      "id": "a462c115-33b4-438b-b590-bc4a33382d1c",
+      "name": "smart",
+      "models_file": "models/smart.json"
     },
     {
       "id": "99db8cfc-9f1b-3f6b-6295-cb025fc28052",
@@ -288,21 +388,6 @@
       "id": "5686f8db-6a36-41e7-a78c-fbf957ca103a",
       "name": "Zero Motorcycles",
       "models_file": "models/zero_motorcycles.json"
-    },
-    {
-      "id": "771bb157-23a2-4917-908c-810d241718d5",
-      "name": "e.GO Mobile",
-      "models_file": "models/e_go_mobile.json"
-    },
-    {
-      "id": "b7c3b515-9568-4a3b-a564-e630d5116d90",
-      "name": "exit",
-      "models_file": "models/exit.json"
-    },
-    {
-      "id": "a462c115-33b4-438b-b590-bc4a33382d1c",
-      "name": "smart",
-      "models_file": "models/smart.json"
     }
   ]
 }

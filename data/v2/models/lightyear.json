@@ -1,0 +1,66 @@
+{
+  "brand_id": "bfaf9e8d-7c6b-45a4-b1a0-9f8e7d6c5433",
+  "brand_name": "Lightyear",
+  "models": [
+    {
+      "brand": "Lightyear",
+      "model": "0",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2022,
+      "battery_size": 60,
+      "range": 550,
+      "consumption": 10.9,
+      "ac_charger": {
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.0,
+          "16": 11,
+          "22": 11,
+          "43": 11
+        },
+        "usable_phases": 3
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 75,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 75
+          },
+          {
+            "percentage": 50,
+            "power": 75
+          },
+          {
+            "percentage": 80,
+            "power": 45
+          },
+          {
+            "percentage": 100,
+            "power": 22.5
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "id": "2b5cce7a-fa85-4c46-b335-b5e70f3665b1",
+      "brand_id": "bfaf9e8d-7c6b-45a4-b1a0-9f8e7d6c5433",
+      "vehicle_type": "car",
+      "charging_voltage": 400,
+      "usable_battery_size": 60.0,
+      "energy_consumption": {
+        "average_consumption": 10.9
+      }
+    }
+  ]
+}

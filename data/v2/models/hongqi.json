@@ -19,11 +19,11 @@
         ],
         "max_power": 11,
         "power_per_charging_point": {
-          "11": 11.0,
-          "16": 11.0,
-          "22": 11.0,
-          "43": 11.0,
-          "2.0": 2.0,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4
@@ -53,6 +53,126 @@
       "energy_consumption": {
         "average_consumption": 24.3
       },
+      "charging_voltage": 400
+    },
+    {
+      "brand": "Hongqi",
+      "model": "E-HS9 84 kWh",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2022,
+      "battery_size": 76.5,
+      "range": 320,
+      "consumption": 23.9,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.0,
+          "16": 11,
+          "22": 11,
+          "43": 11
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 140,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 140
+          },
+          {
+            "percentage": 50,
+            "power": 140
+          },
+          {
+            "percentage": 80,
+            "power": 84
+          },
+          {
+            "percentage": 100,
+            "power": 42
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "id": "718a4930-0503-45ae-8276-859c3f19e8e5",
+      "brand_id": "0885dcd7-55c0-bb48-3c76-1552bcba03ef",
+      "usable_battery_size": 76.5,
+      "energy_consumption": {
+        "average_consumption": 23.9
+      },
+      "vehicle_type": "car",
+      "charging_voltage": 400
+    },
+    {
+      "brand": "Hongqi",
+      "model": "E-HS9 99 kWh",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2022,
+      "battery_size": 90,
+      "range": 370,
+      "consumption": 24.3,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.0,
+          "16": 11,
+          "22": 11,
+          "43": 11
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 140,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 140
+          },
+          {
+            "percentage": 50,
+            "power": 140
+          },
+          {
+            "percentage": 80,
+            "power": 84
+          },
+          {
+            "percentage": 100,
+            "power": 42
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "id": "9f0477eb-6fec-4172-b63c-dc734d53aa5b",
+      "brand_id": "0885dcd7-55c0-bb48-3c76-1552bcba03ef",
+      "usable_battery_size": 90,
+      "energy_consumption": {
+        "average_consumption": 24.3
+      },
+      "vehicle_type": "car",
       "charging_voltage": 400
     }
   ]

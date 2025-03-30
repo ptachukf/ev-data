@@ -19,11 +19,11 @@
         ],
         "max_power": 11,
         "power_per_charging_point": {
-          "11": 11.0,
-          "16": 11.0,
-          "22": 11.0,
-          "43": 11.0,
-          "2.0": 2.0,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4
@@ -72,11 +72,11 @@
         ],
         "max_power": 11,
         "power_per_charging_point": {
-          "11": 11.0,
-          "16": 11.0,
-          "22": 11.0,
-          "43": 11.0,
-          "2.0": 2.0,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4
@@ -115,24 +115,24 @@
       "type": "bev",
       "brand_id": "3337d5f0-39de-4ded-831b-843dfec1ebbd",
       "model": "EV9",
-      "release_year": 2023,
-      "variant": "99.8 kWh AWD",
-      "usable_battery_size": 96,
+      "release_year": 2024,
+      "variant": "76.1 kWh RWD",
+      "usable_battery_size": 73,
       "ac_charger": {
         "usable_phases": 3,
         "ports": [
           "type2"
         ],
-        "max_power": 11,
+        "max_power": 160,
         "power_per_charging_point": {
-          "11": 11.0,
-          "16": 11.0,
-          "22": 11.0,
-          "43": 11.0,
           "2.0": 2.0,
           "2.3": 2.3,
           "3.7": 3.7,
-          "7.4": 7.4
+          "7.4": 7.4,
+          "11": 11.0,
+          "16": 16.0,
+          "22": 22.0,
+          "43": 43.0
         }
       },
       "dc_charger": {
@@ -143,23 +143,30 @@
         "charging_curve": [
           {
             "percentage": 0,
-            "power": 199.5
-          },
-          {
-            "percentage": 75,
             "power": 210
           },
           {
+            "percentage": 50,
+            "power": 210
+          },
+          {
+            "percentage": 80,
+            "power": 126
+          },
+          {
             "percentage": 100,
-            "power": 11
+            "power": 63
           }
         ],
-        "is_default_charging_curve": true
+        "is_default_charging_curve": false
       },
       "energy_consumption": {
-        "average_consumption": 22.6
+        "average_consumption": 20.6
       },
-      "charging_voltage": 800
+      "charging_voltage": 800,
+      "nominal_battery_size": 76.1,
+      "battery_type": "Lithium-ion",
+      "range": 400
     },
     {
       "id": "c4cb4ee0-da24-03fd-41e6-9909394617a5",
@@ -178,11 +185,11 @@
         ],
         "max_power": 11,
         "power_per_charging_point": {
-          "11": 11.0,
-          "16": 11.0,
-          "22": 11.0,
-          "43": 11.0,
-          "2.0": 2.0,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4
@@ -231,11 +238,11 @@
         ],
         "max_power": 11,
         "power_per_charging_point": {
-          "11": 11.0,
-          "16": 11.0,
-          "22": 11.0,
-          "43": 11.0,
-          "2.0": 2.0,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4
@@ -284,11 +291,11 @@
         ],
         "max_power": 11,
         "power_per_charging_point": {
-          "11": 11.0,
-          "16": 11.0,
-          "22": 11.0,
-          "43": 11.0,
-          "2.0": 2.0,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4
@@ -341,7 +348,7 @@
           "16": 5.4,
           "22": 6.6,
           "43": 6.6,
-          "2.0": 2.0,
+          "2.0": 2,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 6.6
@@ -394,7 +401,7 @@
           "16": 5.4,
           "22": 6.6,
           "43": 6.6,
-          "2.0": 2.0,
+          "2.0": 2,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 6.6
@@ -447,7 +454,7 @@
           "16": 5.4,
           "22": 7.2,
           "43": 7.2,
-          "2.0": 2.0,
+          "2.0": 2,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.2
@@ -496,11 +503,11 @@
         ],
         "max_power": 11,
         "power_per_charging_point": {
-          "11": 11.0,
-          "16": 11.0,
-          "22": 11.0,
-          "43": 11.0,
-          "2.0": 2.0,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4
@@ -549,11 +556,11 @@
         ],
         "max_power": 11,
         "power_per_charging_point": {
-          "11": 11.0,
-          "16": 11.0,
-          "22": 11.0,
-          "43": 11.0,
-          "2.0": 2.0,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4
@@ -638,7 +645,7 @@
           "16": 5.4,
           "22": 7.2,
           "43": 7.2,
-          "2.0": 2.0,
+          "2.0": 2,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.2
@@ -709,51 +716,58 @@
       "type": "bev",
       "brand_id": "3337d5f0-39de-4ded-831b-843dfec1ebbd",
       "model": "e-Soul",
-      "release_year": 2019,
-      "variant": "39 kWh",
-      "usable_battery_size": 39,
+      "release_year": 2022,
+      "variant": "39.2 kWh",
+      "usable_battery_size": 39.2,
       "ac_charger": {
-        "usable_phases": 1,
+        "usable_phases": 3,
         "ports": [
           "type2"
         ],
-        "max_power": 7.2,
+        "max_power": 37,
         "power_per_charging_point": {
-          "11": 3.7,
-          "16": 5.4,
-          "22": 7.2,
-          "43": 7.2,
           "2.0": 2.0,
           "2.3": 2.3,
           "3.7": 3.7,
-          "7.4": 7.2
+          "7.4": 7.4,
+          "11": 11.0,
+          "16": 16.0,
+          "22": 22.0,
+          "43": 37
         }
       },
       "dc_charger": {
         "ports": [
           "ccs"
         ],
-        "max_power": 50,
+        "max_power": 44,
         "charging_curve": [
           {
             "percentage": 0,
-            "power": 47.5
+            "power": 44
           },
           {
-            "percentage": 75,
-            "power": 50
+            "percentage": 50,
+            "power": 44
+          },
+          {
+            "percentage": 80,
+            "power": 26.4
           },
           {
             "percentage": 100,
-            "power": 7.2
+            "power": 13.2
           }
         ],
-        "is_default_charging_curve": true
+        "is_default_charging_curve": false
       },
       "energy_consumption": {
         "average_consumption": 17
       },
-      "charging_voltage": 400
+      "charging_voltage": 400,
+      "nominal_battery_size": 42,
+      "battery_type": "Lithium-ion",
+      "range": 265
     },
     {
       "id": "600a7816-ea65-4e6a-ac91-c5528b379028",
@@ -772,11 +786,11 @@
         ],
         "max_power": 11,
         "power_per_charging_point": {
-          "11": 11.0,
-          "16": 11.0,
-          "22": 11.0,
-          "43": 11.0,
-          "2.0": 2.0,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4
@@ -829,7 +843,7 @@
           "16": 5.4,
           "22": 7.2,
           "43": 7.2,
-          "2.0": 2.0,
+          "2.0": 2,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.2
@@ -910,11 +924,11 @@
         ],
         "max_power": 11,
         "power_per_charging_point": {
-          "11": 11.0,
-          "16": 11.0,
-          "22": 11.0,
-          "43": 11.0,
-          "2.0": 2.0,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4
@@ -945,6 +959,673 @@
         "average_consumption": 17.5
       },
       "charging_voltage": 400
+    },
+    {
+      "brand": "Kia",
+      "model": "EV3 Long Range",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2024,
+      "range": 455,
+      "id": "7a854fa3-b6c3-4b62-b1aa-7e9123930000",
+      "brand_id": "3337d5f0-39de-4ded-831b-843dfec1ebbd",
+      "usable_battery_size": 78,
+      "energy_consumption": {
+        "average_consumption": 17.1,
+        "range": 455
+      },
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 135,
+        "is_default_charging_curve": false,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 135
+          },
+          {
+            "percentage": 50,
+            "power": 135
+          },
+          {
+            "percentage": 80,
+            "power": 81
+          },
+          {
+            "percentage": 100,
+            "power": 40.5
+          }
+        ]
+      },
+      "vehicle_type": "car",
+      "charging_voltage": 400
+    },
+    {
+      "brand": "Kia",
+      "model": "EV6 Long Range AWD",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2024,
+      "range": 450,
+      "id": "f6af4032-78a1-4394-9f0e-d70d67691255",
+      "brand_id": "3337d5f0-39de-4ded-831b-843dfec1ebbd",
+      "usable_battery_size": 80,
+      "energy_consumption": {
+        "average_consumption": 17.8,
+        "range": 450
+      },
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 263,
+        "is_default_charging_curve": false,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 263
+          },
+          {
+            "percentage": 50,
+            "power": 263
+          },
+          {
+            "percentage": 80,
+            "power": 157.79999999999998
+          },
+          {
+            "percentage": 100,
+            "power": 78.89999999999999
+          }
+        ]
+      },
+      "vehicle_type": "car",
+      "charging_voltage": 400
+    },
+    {
+      "brand": "Kia",
+      "model": "EV6 GT",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2025,
+      "range": 385,
+      "id": "51f81489-1ec9-4a1f-a0cd-abb0d05b4a30",
+      "brand_id": "3337d5f0-39de-4ded-831b-843dfec1ebbd",
+      "usable_battery_size": 80,
+      "energy_consumption": {
+        "average_consumption": 20.8,
+        "range": 385
+      },
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 263,
+        "is_default_charging_curve": false,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 263
+          },
+          {
+            "percentage": 50,
+            "power": 263
+          },
+          {
+            "percentage": 80,
+            "power": 157.79999999999998
+          },
+          {
+            "percentage": 100,
+            "power": 78.89999999999999
+          }
+        ]
+      },
+      "vehicle_type": "car",
+      "charging_voltage": 400
+    },
+    {
+      "brand": "Kia",
+      "model": "EV9 99.8 kWh AWD GT-Line",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2023,
+      "range": 425,
+      "id": "f7cb07a5-156c-40d6-a4e4-fbe69e803477",
+      "brand_id": "3337d5f0-39de-4ded-831b-843dfec1ebbd",
+      "usable_battery_size": 96,
+      "energy_consumption": {
+        "average_consumption": 22.6,
+        "range": 425
+      },
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 209,
+        "is_default_charging_curve": false,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 209
+          },
+          {
+            "percentage": 50,
+            "power": 209
+          },
+          {
+            "percentage": 80,
+            "power": 125.39999999999999
+          },
+          {
+            "percentage": 100,
+            "power": 62.699999999999996
+          }
+        ]
+      },
+      "vehicle_type": "car",
+      "charging_voltage": 400
+    },
+    {
+      "brand": "Kia",
+      "model": "Soul EV",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2017,
+      "battery_size": 30,
+      "range": 195,
+      "consumption": 17.6,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 40,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.0,
+          "16": 16.0,
+          "22": 22.0,
+          "43": 40
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "chademo"
+        ],
+        "max_power": 50,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 50
+          },
+          {
+            "percentage": 50,
+            "power": 50
+          },
+          {
+            "percentage": 80,
+            "power": 30
+          },
+          {
+            "percentage": 100,
+            "power": 15
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "id": "cdeb8e37-6ca5-484e-b5bf-ffb2a1c47c5e",
+      "brand_id": "3337d5f0-39de-4ded-831b-843dfec1ebbd",
+      "usable_battery_size": 30,
+      "nominal_battery_size": 33,
+      "battery_type": "Lithium-ion",
+      "energy_consumption": {
+        "average_consumption": 17.6
+      },
+      "vehicle_type": "car",
+      "charging_voltage": 400
+    },
+    {
+      "brand": "Kia",
+      "model": "EV4 Hatchback Standard Range",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2025,
+      "battery_size": 55,
+      "range": 395,
+      "consumption": 16.2,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 80,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.0,
+          "16": 16.0,
+          "22": 22.0,
+          "43": 43.0
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 100,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 100
+          },
+          {
+            "percentage": 50,
+            "power": 100
+          },
+          {
+            "percentage": 80,
+            "power": 60
+          },
+          {
+            "percentage": 100,
+            "power": 30
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "id": "7ec5e8d4-171c-4493-ad67-8601bb397a20",
+      "brand_id": "3337d5f0-39de-4ded-831b-843dfec1ebbd",
+      "usable_battery_size": 55,
+      "nominal_battery_size": 58.3,
+      "battery_type": "Lithium-ion",
+      "energy_consumption": {
+        "average_consumption": 16.2
+      },
+      "vehicle_type": "car",
+      "charging_voltage": 400
+    },
+    {
+      "brand": "Kia",
+      "model": "EV4 Sedan Standard Range",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2025,
+      "battery_size": 55,
+      "range": 415,
+      "consumption": 15.5,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 80,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.0,
+          "16": 16.0,
+          "22": 22.0,
+          "43": 43.0
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 100,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 100
+          },
+          {
+            "percentage": 50,
+            "power": 100
+          },
+          {
+            "percentage": 80,
+            "power": 60
+          },
+          {
+            "percentage": 100,
+            "power": 30
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "id": "c1b5c426-96e2-410f-a34a-39e74e58677c",
+      "brand_id": "3337d5f0-39de-4ded-831b-843dfec1ebbd",
+      "usable_battery_size": 55,
+      "nominal_battery_size": 58.3,
+      "battery_type": "Lithium-ion",
+      "energy_consumption": {
+        "average_consumption": 15.5
+      },
+      "vehicle_type": "car",
+      "charging_voltage": 400
+    },
+    {
+      "brand": "Kia",
+      "model": "EV9 76.1 kWh RWD",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2024,
+      "battery_size": 73,
+      "range": 355,
+      "consumption": 20.6,
+      "ac_charger": {
+        "phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.0,
+          "16": 11,
+          "22": 11,
+          "43": 11
+        },
+        "usable_phases": 3
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 210,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 210
+          },
+          {
+            "percentage": 50,
+            "power": 210
+          },
+          {
+            "percentage": 80,
+            "power": 126
+          },
+          {
+            "percentage": 100,
+            "power": 63
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "id": "9dbb6ca7-be6f-40f7-b5ac-e32763b50446",
+      "brand_id": "3337d5f0-39de-4ded-831b-843dfec1ebbd",
+      "vehicle_type": "car",
+      "charging_voltage": 400,
+      "usable_battery_size": 76.1,
+      "energy_consumption": {
+        "average_consumption": 20.0
+      }
+    },
+    {
+      "brand": "Kia",
+      "model": "e-Soul 39.2 kWh",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2022,
+      "battery_size": 39.2,
+      "range": 230,
+      "consumption": 17,
+      "ac_charger": {
+        "phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.0,
+          "16": 11,
+          "22": 11,
+          "43": 11
+        },
+        "usable_phases": 3
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 44,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 44
+          },
+          {
+            "percentage": 50,
+            "power": 44
+          },
+          {
+            "percentage": 80,
+            "power": 26.4
+          },
+          {
+            "percentage": 100,
+            "power": 13.2
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "id": "7fd32bc7-30a7-4a08-b690-3b2c4b3d9d71",
+      "brand_id": "3337d5f0-39de-4ded-831b-843dfec1ebbd",
+      "vehicle_type": "car",
+      "charging_voltage": 400,
+      "usable_battery_size": 39.2,
+      "energy_consumption": {
+        "average_consumption": 15.7
+      }
+    },
+    {
+      "brand": "Kia",
+      "model": "EV4 Hatchback Long Range",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2025,
+      "battery_size": 78,
+      "range": 550,
+      "consumption": 16.4,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 105,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.0,
+          "16": 16.0,
+          "22": 22.0,
+          "43": 43.0
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 135,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 135
+          },
+          {
+            "percentage": 50,
+            "power": 135
+          },
+          {
+            "percentage": 80,
+            "power": 81
+          },
+          {
+            "percentage": 100,
+            "power": 40.5
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "id": "e0c30316-9d27-4f93-8416-95d4be30a67d",
+      "brand_id": "3337d5f0-39de-4ded-831b-843dfec1ebbd",
+      "usable_battery_size": 78,
+      "nominal_battery_size": 81.4,
+      "battery_type": "Lithium-ion",
+      "energy_consumption": {
+        "average_consumption": 16.4
+      },
+      "vehicle_type": "car",
+      "charging_voltage": 400
+    },
+    {
+      "brand": "Kia",
+      "model": "EV4 Sedan Long Range",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2025,
+      "battery_size": 78,
+      "range": 495,
+      "consumption": 15.8,
+      "ac_charger": {
+        "phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.0,
+          "16": 11,
+          "22": 11,
+          "43": 11
+        },
+        "usable_phases": 3
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 135,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 135
+          },
+          {
+            "percentage": 50,
+            "power": 135
+          },
+          {
+            "percentage": 80,
+            "power": 81
+          },
+          {
+            "percentage": 100,
+            "power": 40.5
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "id": "72028bf3-4620-4a10-b6fe-3a1f9a494c47",
+      "brand_id": "3337d5f0-39de-4ded-831b-843dfec1ebbd",
+      "vehicle_type": "car",
+      "charging_voltage": 400,
+      "usable_battery_size": 72.8,
+      "energy_consumption": {
+        "average_consumption": 14.8
+      }
     }
   ]
 }

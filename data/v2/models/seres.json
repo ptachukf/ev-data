@@ -1,0 +1,65 @@
+{
+  "brand_id": "6b5a4438-2716-405f-7d6c-5433210a9f8e",
+  "brand_name": "Seres",
+  "models": [
+    {
+      "brand": "Seres",
+      "model": "3",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2021,
+      "range": 260,
+      "id": "06569dcf-5e95-4904-9f88-2ec179600764",
+      "brand_id": "6b5a4438-2716-405f-7d6c-5433210a9f8e",
+      "usable_battery_size": 51,
+      "energy_consumption": {
+        "average_consumption": 19.6,
+        "range": 260
+      },
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 56,
+        "is_default_charging_curve": false,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 56
+          },
+          {
+            "percentage": 50,
+            "power": 56
+          },
+          {
+            "percentage": 80,
+            "power": 33.6
+          },
+          {
+            "percentage": 100,
+            "power": 16.8
+          }
+        ]
+      },
+      "vehicle_type": "car",
+      "charging_voltage": 400
+    }
+  ]
+}

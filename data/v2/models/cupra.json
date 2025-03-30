@@ -23,7 +23,7 @@
           "16": 7.2,
           "22": 7.2,
           "43": 7.2,
-          "2.0": 2.0,
+          "2.0": 2,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.2
@@ -72,11 +72,11 @@
         ],
         "max_power": 11,
         "power_per_charging_point": {
-          "11": 11.0,
-          "16": 11.0,
-          "22": 11.0,
-          "43": 11.0,
-          "2.0": 2.0,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4
@@ -133,11 +133,11 @@
         ],
         "max_power": 11,
         "power_per_charging_point": {
-          "11": 11.0,
-          "16": 11.0,
-          "22": 11.0,
-          "43": 11.0,
-          "2.0": 2.0,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4
@@ -194,11 +194,11 @@
         ],
         "max_power": 11,
         "power_per_charging_point": {
-          "11": 11.0,
-          "16": 11.0,
-          "22": 11.0,
-          "43": 11.0,
-          "2.0": 2.0,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4
@@ -255,11 +255,11 @@
         ],
         "max_power": 11,
         "power_per_charging_point": {
-          "11": 11.0,
-          "16": 11.0,
-          "22": 11.0,
-          "43": 11.0,
-          "2.0": 2.0,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4
@@ -308,11 +308,11 @@
         ],
         "max_power": 11,
         "power_per_charging_point": {
-          "11": 11.0,
-          "16": 11.0,
-          "22": 11.0,
-          "43": 11.0,
-          "2.0": 2.0,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4
@@ -342,6 +342,303 @@
       "energy_consumption": {
         "average_consumption": 17.9
       },
+      "charging_voltage": 400
+    },
+    {
+      "brand": "CUPRA",
+      "model": "Born 170 kW - 77 kWh",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2024,
+      "range": 460,
+      "id": "75137ed1-ea5b-4a6a-9ae0-268fc416df71",
+      "brand_id": "df115651-4cef-01f0-14ef-fdeef60f674c",
+      "usable_battery_size": 77,
+      "energy_consumption": {
+        "average_consumption": 16.7,
+        "range": 460
+      },
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 175,
+        "is_default_charging_curve": false,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 175
+          },
+          {
+            "percentage": 50,
+            "power": 175
+          },
+          {
+            "percentage": 80,
+            "power": 105
+          },
+          {
+            "percentage": 100,
+            "power": 52.5
+          }
+        ]
+      },
+      "vehicle_type": "car",
+      "charging_voltage": 400
+    },
+    {
+      "brand": "CUPRA",
+      "model": "Born VZ",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2024,
+      "range": 465,
+      "id": "e4de431d-4b24-482a-9a4e-f0401016a40d",
+      "brand_id": "df115651-4cef-01f0-14ef-fdeef60f674c",
+      "usable_battery_size": 79,
+      "energy_consumption": {
+        "average_consumption": 17,
+        "range": 465
+      },
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 185,
+        "is_default_charging_curve": false,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 185
+          },
+          {
+            "percentage": 50,
+            "power": 185
+          },
+          {
+            "percentage": 80,
+            "power": 111
+          },
+          {
+            "percentage": 100,
+            "power": 55.5
+          }
+        ]
+      },
+      "vehicle_type": "car",
+      "charging_voltage": 400
+    },
+    {
+      "brand": "CUPRA",
+      "model": "Born 170 kW - 59 kWh",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2024,
+      "range": 360,
+      "id": "036027d0-ba5f-4eca-b439-be8a5a570b89",
+      "brand_id": "df115651-4cef-01f0-14ef-fdeef60f674c",
+      "usable_battery_size": 59,
+      "energy_consumption": {
+        "average_consumption": 16.4,
+        "range": 360
+      },
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 165,
+        "is_default_charging_curve": false,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 165
+          },
+          {
+            "percentage": 50,
+            "power": 165
+          },
+          {
+            "percentage": 80,
+            "power": 82.5
+          },
+          {
+            "percentage": 100,
+            "power": 33
+          }
+        ]
+      },
+      "vehicle_type": "car",
+      "charging_voltage": 400
+    },
+    {
+      "brand": "CUPRA",
+      "model": "Born 170 kW - 58 kWh",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2022,
+      "battery_size": 58,
+      "range": 345,
+      "consumption": 16.8,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.0,
+          "16": 11,
+          "22": 11,
+          "43": 11
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 124,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 124
+          },
+          {
+            "percentage": 50,
+            "power": 124
+          },
+          {
+            "percentage": 80,
+            "power": 62
+          },
+          {
+            "percentage": 100,
+            "power": 24.8
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "id": "32df59fd-da33-4e1c-97d7-dc60c3f1753e",
+      "brand_id": "df115651-4cef-01f0-14ef-fdeef60f674c",
+      "usable_battery_size": 58,
+      "energy_consumption": {
+        "average_consumption": 16.8
+      },
+      "vehicle_type": "car",
+      "charging_voltage": 400
+    },
+    {
+      "brand": "CUPRA",
+      "model": "Born 150 kW - 58 kWh",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2021,
+      "battery_size": 58,
+      "range": 350,
+      "consumption": 16.6,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.0,
+          "16": 11,
+          "22": 11,
+          "43": 11
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 124,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 124
+          },
+          {
+            "percentage": 50,
+            "power": 124
+          },
+          {
+            "percentage": 80,
+            "power": 62
+          },
+          {
+            "percentage": 100,
+            "power": 24.8
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "id": "364cc674-b827-473f-b197-21809b8c4c07",
+      "brand_id": "df115651-4cef-01f0-14ef-fdeef60f674c",
+      "usable_battery_size": 58,
+      "energy_consumption": {
+        "average_consumption": 16.6
+      },
+      "vehicle_type": "car",
       "charging_voltage": 400
     }
   ]

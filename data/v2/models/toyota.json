@@ -19,11 +19,11 @@
         ],
         "max_power": 11,
         "power_per_charging_point": {
-          "11": 11.0,
-          "16": 11.0,
-          "22": 11.0,
-          "43": 11.0,
-          "2.0": 2.0,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4
@@ -104,11 +104,11 @@
         ],
         "max_power": 11,
         "power_per_charging_point": {
-          "11": 11.0,
-          "16": 11.0,
-          "22": 11.0,
-          "43": 11.0,
-          "2.0": 2.0,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4
@@ -171,6 +171,665 @@
         "average_consumption": 22
       },
       "charging_voltage": 400
+    },
+    {
+      "brand": "Toyota",
+      "model": "bZ4X AWD",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2022,
+      "range": 345,
+      "id": "32d73f44-3116-4fa0-ae7e-1067116094e5",
+      "brand_id": "b586dda4-a6ba-54e4-ee6d-9d6a098d4751",
+      "usable_battery_size": 64,
+      "energy_consumption": {
+        "average_consumption": 18.6,
+        "range": 345
+      },
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 147,
+        "is_default_charging_curve": false,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 147
+          },
+          {
+            "percentage": 50,
+            "power": 147
+          },
+          {
+            "percentage": 80,
+            "power": 73.5
+          },
+          {
+            "percentage": 100,
+            "power": 29.400000000000002
+          }
+        ]
+      },
+      "vehicle_type": "car",
+      "charging_voltage": 400
+    },
+    {
+      "brand": "Toyota",
+      "model": "PROACE Verso L 75 kWh",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2024,
+      "battery_size": 68,
+      "range": 260,
+      "consumption": 26.2,
+      "ac_charger": {
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.0,
+          "16": 11,
+          "22": 11,
+          "43": 11
+        },
+        "usable_phases": 3
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 100,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 100
+          },
+          {
+            "percentage": 50,
+            "power": 100
+          },
+          {
+            "percentage": 80,
+            "power": 60
+          },
+          {
+            "percentage": 100,
+            "power": 30
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "id": "8b3bb451-585e-49f4-9709-8e3122a61279",
+      "brand_id": "b586dda4-a6ba-54e4-ee6d-9d6a098d4751",
+      "vehicle_type": "car",
+      "charging_voltage": 400,
+      "usable_battery_size": 75.0,
+      "energy_consumption": {
+        "average_consumption": 26.2
+      }
+    },
+    {
+      "brand": "Toyota",
+      "model": "Proace City Verso Electric L1 50 kWh",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2024,
+      "battery_size": 50,
+      "range": 235,
+      "consumption": 21.3,
+      "ac_charger": {
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.0,
+          "16": 11,
+          "22": 11,
+          "43": 11
+        },
+        "usable_phases": 3
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 100,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 100
+          },
+          {
+            "percentage": 50,
+            "power": 100
+          },
+          {
+            "percentage": 80,
+            "power": 60
+          },
+          {
+            "percentage": 100,
+            "power": 30
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "id": "d8e39465-cb9a-4153-aa4a-ba09378836aa",
+      "brand_id": "b586dda4-a6ba-54e4-ee6d-9d6a098d4751",
+      "vehicle_type": "car",
+      "charging_voltage": 400,
+      "usable_battery_size": 50.0,
+      "energy_consumption": {
+        "average_consumption": 21.3
+      }
+    },
+    {
+      "brand": "Toyota",
+      "model": "Proace City Verso Electric L2 50 kWh",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2024,
+      "battery_size": 50,
+      "range": 230,
+      "consumption": 21.7,
+      "ac_charger": {
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.0,
+          "16": 11,
+          "22": 11,
+          "43": 11
+        },
+        "usable_phases": 3
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 100,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 100
+          },
+          {
+            "percentage": 50,
+            "power": 100
+          },
+          {
+            "percentage": 80,
+            "power": 60
+          },
+          {
+            "percentage": 100,
+            "power": 30
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "id": "a4714fdf-79d8-46a6-9e69-054d0af9ba36",
+      "brand_id": "b586dda4-a6ba-54e4-ee6d-9d6a098d4751",
+      "vehicle_type": "car",
+      "charging_voltage": 400,
+      "usable_battery_size": 50.0,
+      "energy_consumption": {
+        "average_consumption": 21.7
+      }
+    },
+    {
+      "brand": "Toyota",
+      "model": "PROACE Verso M 50 kWh",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2024,
+      "battery_size": 46.3,
+      "range": 180,
+      "consumption": 25.7,
+      "ac_charger": {
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.0,
+          "16": 11,
+          "22": 11,
+          "43": 11
+        },
+        "usable_phases": 3
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 101,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 101
+          },
+          {
+            "percentage": 50,
+            "power": 101
+          },
+          {
+            "percentage": 80,
+            "power": 60.599999999999994
+          },
+          {
+            "percentage": 100,
+            "power": 30.299999999999997
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "id": "663e27df-6505-480a-ac25-c277b9686d38",
+      "brand_id": "b586dda4-a6ba-54e4-ee6d-9d6a098d4751",
+      "vehicle_type": "car",
+      "charging_voltage": 400,
+      "usable_battery_size": 50.0,
+      "energy_consumption": {
+        "average_consumption": 25.7
+      }
+    },
+    {
+      "brand": "Toyota",
+      "model": "PROACE Verso M 75 kWh",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2024,
+      "battery_size": 68,
+      "range": 260,
+      "consumption": 26.2,
+      "ac_charger": {
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.0,
+          "16": 11,
+          "22": 11,
+          "43": 11
+        },
+        "usable_phases": 3
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 100,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 100
+          },
+          {
+            "percentage": 50,
+            "power": 100
+          },
+          {
+            "percentage": 80,
+            "power": 60
+          },
+          {
+            "percentage": 100,
+            "power": 30
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "id": "34e18fa6-10a4-436c-a527-2765067e3019",
+      "brand_id": "b586dda4-a6ba-54e4-ee6d-9d6a098d4751",
+      "vehicle_type": "car",
+      "charging_voltage": 400,
+      "usable_battery_size": 75.0,
+      "energy_consumption": {
+        "average_consumption": 26.2
+      }
+    },
+    {
+      "brand": "Toyota",
+      "model": "PROACE Verso L 50 kWh",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2021,
+      "battery_size": 46.3,
+      "range": 180,
+      "consumption": 25.7,
+      "ac_charger": {
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.0,
+          "16": 11,
+          "22": 11,
+          "43": 11
+        },
+        "usable_phases": 3
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 101,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 101
+          },
+          {
+            "percentage": 50,
+            "power": 101
+          },
+          {
+            "percentage": 80,
+            "power": 60.599999999999994
+          },
+          {
+            "percentage": 100,
+            "power": 30.299999999999997
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "id": "a08c3a34-ff8d-4485-a237-a3b1ec021bc1",
+      "brand_id": "b586dda4-a6ba-54e4-ee6d-9d6a098d4751",
+      "vehicle_type": "car",
+      "charging_voltage": 400,
+      "usable_battery_size": 50.0,
+      "energy_consumption": {
+        "average_consumption": 25.7
+      }
+    },
+    {
+      "brand": "Toyota",
+      "model": "PROACE Shuttle M 50 kWh",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2021,
+      "battery_size": 46.3,
+      "range": 185,
+      "consumption": 25,
+      "ac_charger": {
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.0,
+          "16": 11,
+          "22": 11,
+          "43": 11
+        },
+        "usable_phases": 3
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 101,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 101
+          },
+          {
+            "percentage": 50,
+            "power": 101
+          },
+          {
+            "percentage": 80,
+            "power": 60.599999999999994
+          },
+          {
+            "percentage": 100,
+            "power": 30.299999999999997
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "id": "8322a6d5-60f0-4ff3-b18d-a6375bcf0649",
+      "brand_id": "b586dda4-a6ba-54e4-ee6d-9d6a098d4751",
+      "vehicle_type": "car",
+      "charging_voltage": 400,
+      "usable_battery_size": 50.0,
+      "energy_consumption": {
+        "average_consumption": 25.0
+      }
+    },
+    {
+      "brand": "Toyota",
+      "model": "PROACE Shuttle M 75 kWh",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2021,
+      "battery_size": 68,
+      "range": 265,
+      "consumption": 25.7,
+      "ac_charger": {
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.0,
+          "16": 11,
+          "22": 11,
+          "43": 11
+        },
+        "usable_phases": 3
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 100,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 100
+          },
+          {
+            "percentage": 50,
+            "power": 100
+          },
+          {
+            "percentage": 80,
+            "power": 60
+          },
+          {
+            "percentage": 100,
+            "power": 30
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "id": "a150970e-8631-4d63-b696-4619b5d42cf0",
+      "brand_id": "b586dda4-a6ba-54e4-ee6d-9d6a098d4751",
+      "vehicle_type": "car",
+      "charging_voltage": 400,
+      "usable_battery_size": 75.0,
+      "energy_consumption": {
+        "average_consumption": 25.7
+      }
+    },
+    {
+      "brand": "Toyota",
+      "model": "PROACE Shuttle L 75 kWh",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2021,
+      "battery_size": 68,
+      "range": 260,
+      "consumption": 26.2,
+      "ac_charger": {
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.0,
+          "16": 11,
+          "22": 11,
+          "43": 11
+        },
+        "usable_phases": 3
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 100,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 100
+          },
+          {
+            "percentage": 50,
+            "power": 100
+          },
+          {
+            "percentage": 80,
+            "power": 60
+          },
+          {
+            "percentage": 100,
+            "power": 30
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "id": "c26a55f4-0199-4220-8a22-fc5f26a761a7",
+      "brand_id": "b586dda4-a6ba-54e4-ee6d-9d6a098d4751",
+      "vehicle_type": "car",
+      "charging_voltage": 400,
+      "usable_battery_size": 75.0,
+      "energy_consumption": {
+        "average_consumption": 26.2
+      }
+    },
+    {
+      "brand": "Toyota",
+      "model": "PROACE Shuttle L 50 kWh",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2021,
+      "battery_size": 46.3,
+      "range": 180,
+      "consumption": 25.7,
+      "ac_charger": {
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.0,
+          "16": 11,
+          "22": 11,
+          "43": 11
+        },
+        "usable_phases": 3
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 101,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 101
+          },
+          {
+            "percentage": 50,
+            "power": 101
+          },
+          {
+            "percentage": 80,
+            "power": 60.599999999999994
+          },
+          {
+            "percentage": 100,
+            "power": 30.299999999999997
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "id": "1a013921-4fc3-4826-9c8f-b5822ca98bb7",
+      "brand_id": "b586dda4-a6ba-54e4-ee6d-9d6a098d4751",
+      "vehicle_type": "car",
+      "charging_voltage": 400,
+      "usable_battery_size": 50.0,
+      "energy_consumption": {
+        "average_consumption": 25.7
+      }
     }
   ]
 }

@@ -19,11 +19,11 @@
         ],
         "max_power": 11,
         "power_per_charging_point": {
-          "11": 11.0,
-          "16": 11.0,
-          "22": 11.0,
-          "43": 11.0,
-          "2.0": 2.0,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4
@@ -53,6 +53,125 @@
       "energy_consumption": {
         "average_consumption": 17.2
       },
+      "charging_voltage": 400
+    },
+    {
+      "brand": "Jeep",
+      "model": "Avenger Electric",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2023,
+      "range": 310,
+      "id": "ffbc06b2-c096-4278-b367-977dc336e794",
+      "brand_id": "3f1649fc-a64c-fd11-53a6-56031d7757aa",
+      "usable_battery_size": 50.8,
+      "energy_consumption": {
+        "average_consumption": 16.4,
+        "range": 310
+      },
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 100,
+        "is_default_charging_curve": false,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 100
+          },
+          {
+            "percentage": 50,
+            "power": 100
+          },
+          {
+            "percentage": 80,
+            "power": 60
+          },
+          {
+            "percentage": 100,
+            "power": 30
+          }
+        ]
+      },
+      "vehicle_type": "car",
+      "charging_voltage": 400
+    },
+    {
+      "brand": "Jeep",
+      "model": "Avenger Electric 1st Edition",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2023,
+      "battery_size": 50.8,
+      "range": 310,
+      "consumption": 16.4,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.0,
+          "16": 11,
+          "22": 11,
+          "43": 11
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 100,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 100
+          },
+          {
+            "percentage": 50,
+            "power": 100
+          },
+          {
+            "percentage": 80,
+            "power": 60
+          },
+          {
+            "percentage": 100,
+            "power": 30
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "id": "c3d2bfc7-44a8-4732-aeec-f3eebef90e63",
+      "brand_id": "3f1649fc-a64c-fd11-53a6-56031d7757aa",
+      "usable_battery_size": 50.8,
+      "energy_consumption": {
+        "average_consumption": 16.4
+      },
+      "vehicle_type": "car",
       "charging_voltage": 400
     }
   ]

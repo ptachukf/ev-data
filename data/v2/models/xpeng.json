@@ -19,11 +19,11 @@
         ],
         "max_power": 11,
         "power_per_charging_point": {
-          "11": 11.0,
-          "16": 11.0,
-          "22": 11.0,
-          "43": 11.0,
-          "2.0": 2.0,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4
@@ -54,6 +54,539 @@
         "average_consumption": 15.6
       },
       "charging_voltage": 400
+    },
+    {
+      "brand": "XPENG",
+      "model": "G9 RWD Long Range",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2023,
+      "range": 480,
+      "id": "2c72724a-2b0e-4efe-b58e-7260ed6eb7bd",
+      "brand_id": "ea09bbcb-55a3-1ba4-c516-03869a5c497a",
+      "usable_battery_size": 93.1,
+      "energy_consumption": {
+        "average_consumption": 19.4,
+        "range": 480
+      },
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 319,
+        "is_default_charging_curve": false,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 319
+          },
+          {
+            "percentage": 50,
+            "power": 319
+          },
+          {
+            "percentage": 80,
+            "power": 191.4
+          },
+          {
+            "percentage": 100,
+            "power": 95.7
+          }
+        ]
+      },
+      "vehicle_type": "car",
+      "charging_voltage": 400
+    },
+    {
+      "brand": "XPENG",
+      "model": "G6 RWD Standard Range",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2024,
+      "range": 370,
+      "id": "cf41a7d1-03f1-4246-945c-dd192d122a47",
+      "brand_id": "ea09bbcb-55a3-1ba4-c516-03869a5c497a",
+      "usable_battery_size": 66,
+      "energy_consumption": {
+        "average_consumption": 17.8,
+        "range": 370
+      },
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 215,
+        "is_default_charging_curve": false,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 215
+          },
+          {
+            "percentage": 50,
+            "power": 215
+          },
+          {
+            "percentage": 80,
+            "power": 107.5
+          },
+          {
+            "percentage": 100,
+            "power": 43
+          }
+        ]
+      },
+      "vehicle_type": "car",
+      "charging_voltage": 400
+    },
+    {
+      "brand": "XPENG",
+      "model": "G6 AWD Performance",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2024,
+      "range": 475,
+      "id": "313f4d73-bf0a-407b-baae-3600183a9d91",
+      "brand_id": "ea09bbcb-55a3-1ba4-c516-03869a5c497a",
+      "usable_battery_size": 87.5,
+      "energy_consumption": {
+        "average_consumption": 18.4,
+        "range": 475
+      },
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 280,
+        "is_default_charging_curve": false,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 280
+          },
+          {
+            "percentage": 50,
+            "power": 280
+          },
+          {
+            "percentage": 80,
+            "power": 140
+          },
+          {
+            "percentage": 100,
+            "power": 56
+          }
+        ]
+      },
+      "vehicle_type": "car",
+      "charging_voltage": 400
+    },
+    {
+      "brand": "XPENG",
+      "model": "P7 RWD Long Range",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2023,
+      "range": 495,
+      "id": "25e2270e-57e2-4866-bda9-728714a7e8fe",
+      "brand_id": "ea09bbcb-55a3-1ba4-c516-03869a5c497a",
+      "usable_battery_size": 82.7,
+      "energy_consumption": {
+        "average_consumption": 16.7,
+        "range": 495
+      },
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 182,
+        "is_default_charging_curve": false,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 182
+          },
+          {
+            "percentage": 50,
+            "power": 182
+          },
+          {
+            "percentage": 80,
+            "power": 109.2
+          },
+          {
+            "percentage": 100,
+            "power": 54.6
+          }
+        ]
+      },
+      "vehicle_type": "car",
+      "charging_voltage": 400
+    },
+    {
+      "brand": "XPENG",
+      "model": "G9 AWD Performance",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2023,
+      "range": 465,
+      "id": "2e9b4545-ddf5-422b-a37e-ebaed70d5c7d",
+      "brand_id": "ea09bbcb-55a3-1ba4-c516-03869a5c497a",
+      "usable_battery_size": 93.1,
+      "energy_consumption": {
+        "average_consumption": 20,
+        "range": 465
+      },
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 319,
+        "is_default_charging_curve": false,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 319
+          },
+          {
+            "percentage": 50,
+            "power": 319
+          },
+          {
+            "percentage": 80,
+            "power": 191.4
+          },
+          {
+            "percentage": 100,
+            "power": 95.7
+          }
+        ]
+      },
+      "vehicle_type": "car",
+      "charging_voltage": 400
+    },
+    {
+      "brand": "XPENG",
+      "model": "P7 Wing Edition",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2023,
+      "range": 455,
+      "id": "89aec69e-f172-46fb-a117-aebde47e9a0d",
+      "brand_id": "ea09bbcb-55a3-1ba4-c516-03869a5c497a",
+      "usable_battery_size": 82.7,
+      "energy_consumption": {
+        "average_consumption": 18.2,
+        "range": 455
+      },
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 182,
+        "is_default_charging_curve": false,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 182
+          },
+          {
+            "percentage": 50,
+            "power": 182
+          },
+          {
+            "percentage": 80,
+            "power": 109.2
+          },
+          {
+            "percentage": 100,
+            "power": 54.6
+          }
+        ]
+      },
+      "vehicle_type": "car",
+      "charging_voltage": 400
+    },
+    {
+      "brand": "XPENG",
+      "model": "G9 RWD Standard Range",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2023,
+      "range": 395,
+      "id": "b2eac246-0437-4176-aaf9-1f9cd8292005",
+      "brand_id": "ea09bbcb-55a3-1ba4-c516-03869a5c497a",
+      "usable_battery_size": 75.8,
+      "energy_consumption": {
+        "average_consumption": 19.2,
+        "range": 395
+      },
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 260,
+        "is_default_charging_curve": false,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 260
+          },
+          {
+            "percentage": 50,
+            "power": 260
+          },
+          {
+            "percentage": 80,
+            "power": 130
+          },
+          {
+            "percentage": 100,
+            "power": 52
+          }
+        ]
+      },
+      "vehicle_type": "car",
+      "charging_voltage": 400
+    },
+    {
+      "brand": "XPENG",
+      "model": "P7 AWD Performance",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2023,
+      "battery_size": 82.7,
+      "range": 460,
+      "consumption": 18,
+      "ac_charger": {
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.0,
+          "16": 11,
+          "22": 11,
+          "43": 11
+        },
+        "usable_phases": 3
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 182,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 182
+          },
+          {
+            "percentage": 50,
+            "power": 182
+          },
+          {
+            "percentage": 80,
+            "power": 109.2
+          },
+          {
+            "percentage": 100,
+            "power": 54.6
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "id": "bc43a6c5-375d-445a-ac12-c078035028ba",
+      "brand_id": "ea09bbcb-55a3-1ba4-c516-03869a5c497a",
+      "vehicle_type": "car",
+      "charging_voltage": 400,
+      "usable_battery_size": 82.7,
+      "energy_consumption": {
+        "average_consumption": 18.0
+      }
+    },
+    {
+      "brand": "XPENG",
+      "model": "G6 RWD Long Range",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2024,
+      "battery_size": 87.5,
+      "range": 480,
+      "consumption": 18.2,
+      "ac_charger": {
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.0,
+          "16": 11,
+          "22": 11,
+          "43": 11
+        },
+        "usable_phases": 3
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 280,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 280
+          },
+          {
+            "percentage": 50,
+            "power": 280
+          },
+          {
+            "percentage": 80,
+            "power": 140
+          },
+          {
+            "percentage": 100,
+            "power": 56
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "id": "5e158fa1-9e56-4213-843a-a9720d0edd2e",
+      "brand_id": "ea09bbcb-55a3-1ba4-c516-03869a5c497a",
+      "vehicle_type": "car",
+      "charging_voltage": 400,
+      "usable_battery_size": 87.5,
+      "energy_consumption": {
+        "average_consumption": 18.2
+      }
     }
   ]
 }

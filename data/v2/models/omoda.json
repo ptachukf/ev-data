@@ -1,0 +1,65 @@
+{
+  "brand_id": "8d7c6b5a-4438-4271-9f8e-7d6c5433210a",
+  "brand_name": "Omoda",
+  "models": [
+    {
+      "brand": "Omoda",
+      "model": "E5",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2024,
+      "range": 345,
+      "id": "d51fe748-caa6-4a04-97f1-0441d1573582",
+      "brand_id": "8d7c6b5a-4438-4271-9f8e-7d6c5433210a",
+      "usable_battery_size": 61,
+      "energy_consumption": {
+        "average_consumption": 17.7,
+        "range": 345
+      },
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 80,
+        "is_default_charging_curve": false,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 80
+          },
+          {
+            "percentage": 50,
+            "power": 80
+          },
+          {
+            "percentage": 80,
+            "power": 48
+          },
+          {
+            "percentage": 100,
+            "power": 24
+          }
+        ]
+      },
+      "vehicle_type": "car",
+      "charging_voltage": 400
+    }
+  ]
+}

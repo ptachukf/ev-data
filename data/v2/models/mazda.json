@@ -23,7 +23,7 @@
           "16": 5.4,
           "22": 6.6,
           "43": 6.6,
-          "2.0": 2.0,
+          "2.0": 2,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 6.6
@@ -62,6 +62,125 @@
         "average_consumption": 17.8
       },
       "charging_voltage": 400
+    },
+    {
+      "brand": "Mazda",
+      "model": "6e Long Range",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2025,
+      "range": 440,
+      "id": "c1d9e262-1caf-4c30-b3ba-7323f16032fc",
+      "brand_id": "9b829849-1219-48b8-964e-90ddc1a4fa85",
+      "usable_battery_size": 75,
+      "energy_consumption": {
+        "average_consumption": 17,
+        "range": 440
+      },
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 95,
+        "is_default_charging_curve": false,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 95
+          },
+          {
+            "percentage": 50,
+            "power": 95
+          },
+          {
+            "percentage": 80,
+            "power": 57
+          },
+          {
+            "percentage": 100,
+            "power": 28.5
+          }
+        ]
+      },
+      "vehicle_type": "car",
+      "charging_voltage": 400
+    },
+    {
+      "brand": "Mazda",
+      "model": "6e",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2025,
+      "battery_size": 66,
+      "range": 390,
+      "consumption": 16.9,
+      "ac_charger": {
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.0,
+          "16": 11,
+          "22": 11,
+          "43": 11
+        },
+        "usable_phases": 3
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 200,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 200
+          },
+          {
+            "percentage": 50,
+            "power": 200
+          },
+          {
+            "percentage": 80,
+            "power": 100
+          },
+          {
+            "percentage": 100,
+            "power": 40
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "id": "60e200b2-d7d5-4dc0-b663-c633876d8ba3",
+      "brand_id": "9b829849-1219-48b8-964e-90ddc1a4fa85",
+      "vehicle_type": "car",
+      "charging_voltage": 400,
+      "usable_battery_size": 86.0,
+      "energy_consumption": {
+        "average_consumption": 17.8
+      }
     }
   ]
 }

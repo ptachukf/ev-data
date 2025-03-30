@@ -1,0 +1,65 @@
+{
+  "brand_id": "d1c0bfaf-9e8d-47c6-3a2b-1a09f8e7d6c5",
+  "brand_name": "Lancia",
+  "models": [
+    {
+      "brand": "Lancia",
+      "model": "Ypsilon",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2024,
+      "range": 310,
+      "id": "aa5ff953-ac14-4ce3-95c5-351ed18b35db",
+      "brand_id": "d1c0bfaf-9e8d-47c6-3a2b-1a09f8e7d6c5",
+      "usable_battery_size": 48.1,
+      "energy_consumption": {
+        "average_consumption": 15.5,
+        "range": 310
+      },
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 100,
+        "is_default_charging_curve": false,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 100
+          },
+          {
+            "percentage": 50,
+            "power": 100
+          },
+          {
+            "percentage": 80,
+            "power": 60
+          },
+          {
+            "percentage": 100,
+            "power": 30
+          }
+        ]
+      },
+      "vehicle_type": "car",
+      "charging_voltage": 400
+    }
+  ]
+}

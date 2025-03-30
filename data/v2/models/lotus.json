@@ -21,9 +21,9 @@
         "power_per_charging_point": {
           "11": 11.1,
           "16": 16.2,
-          "22": 22.0,
-          "43": 22.0,
-          "2.0": 2.0,
+          "22": 22,
+          "43": 22,
+          "2.0": 2,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4
@@ -74,6 +74,305 @@
         "average_consumption": 22.7
       },
       "charging_voltage": 400
+    },
+    {
+      "brand": "Lotus",
+      "model": "Eletre",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2023,
+      "range": 495,
+      "id": "e61aca2c-1657-4905-a839-8b303e9c532d",
+      "brand_id": "c1ca0a1d-4762-0e9b-005e-5791ed0a040e",
+      "usable_battery_size": 109,
+      "energy_consumption": {
+        "average_consumption": 22,
+        "range": 495
+      },
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 367,
+        "is_default_charging_curve": false,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 367
+          },
+          {
+            "percentage": 50,
+            "power": 367
+          },
+          {
+            "percentage": 80,
+            "power": 220.2
+          },
+          {
+            "percentage": 100,
+            "power": 110.1
+          }
+        ]
+      },
+      "vehicle_type": "car",
+      "charging_voltage": 400
+    },
+    {
+      "brand": "Lotus",
+      "model": "Emeya",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2024,
+      "battery_size": 98.9,
+      "range": 520,
+      "consumption": 19,
+      "ac_charger": {
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.0,
+          "16": 11,
+          "22": 11,
+          "43": 11
+        },
+        "usable_phases": 3
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 350,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 350
+          },
+          {
+            "percentage": 50,
+            "power": 350
+          },
+          {
+            "percentage": 80,
+            "power": 175
+          },
+          {
+            "percentage": 100,
+            "power": 70
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "id": "514b2b0d-c323-4257-acf8-19ad9d748593",
+      "brand_id": "c1ca0a1d-4762-0e9b-005e-5791ed0a040e",
+      "vehicle_type": "car",
+      "charging_voltage": 400,
+      "usable_battery_size": 102.0,
+      "energy_consumption": {
+        "average_consumption": 18.5
+      }
+    },
+    {
+      "brand": "Lotus",
+      "model": "Eletre R",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2023,
+      "battery_size": 109,
+      "range": 455,
+      "consumption": 24,
+      "ac_charger": {
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.0,
+          "16": 11,
+          "22": 11,
+          "43": 11
+        },
+        "usable_phases": 3
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 367,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 367
+          },
+          {
+            "percentage": 50,
+            "power": 367
+          },
+          {
+            "percentage": 80,
+            "power": 220.2
+          },
+          {
+            "percentage": 100,
+            "power": 110.1
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "id": "838cf5a4-7e51-40dd-8af3-cc4ccc661c51",
+      "brand_id": "c1ca0a1d-4762-0e9b-005e-5791ed0a040e",
+      "vehicle_type": "car",
+      "charging_voltage": 400,
+      "usable_battery_size": 112.0,
+      "energy_consumption": {
+        "average_consumption": 22.5
+      }
+    },
+    {
+      "brand": "Lotus",
+      "model": "Emeya R",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2024,
+      "battery_size": 98.9,
+      "range": 465,
+      "consumption": 21.3,
+      "ac_charger": {
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.0,
+          "16": 11,
+          "22": 11,
+          "43": 11
+        },
+        "usable_phases": 3
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 350,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 350
+          },
+          {
+            "percentage": 50,
+            "power": 350
+          },
+          {
+            "percentage": 80,
+            "power": 175
+          },
+          {
+            "percentage": 100,
+            "power": 70
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "id": "5444bb06-a36e-4514-9348-06b759caea26",
+      "brand_id": "c1ca0a1d-4762-0e9b-005e-5791ed0a040e",
+      "vehicle_type": "car",
+      "charging_voltage": 400,
+      "usable_battery_size": 102.0,
+      "energy_consumption": {
+        "average_consumption": 20.0
+      }
+    },
+    {
+      "brand": "Lotus",
+      "model": "Emeya S",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2024,
+      "battery_size": 98.9,
+      "range": 520,
+      "consumption": 19,
+      "ac_charger": {
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.0,
+          "16": 11,
+          "22": 11,
+          "43": 11
+        },
+        "usable_phases": 3
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 350,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 350
+          },
+          {
+            "percentage": 50,
+            "power": 350
+          },
+          {
+            "percentage": 80,
+            "power": 175
+          },
+          {
+            "percentage": 100,
+            "power": 70
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "id": "c72b3136-491c-4c8a-b875-644c0c0bf571",
+      "brand_id": "c1ca0a1d-4762-0e9b-005e-5791ed0a040e",
+      "vehicle_type": "car",
+      "charging_voltage": 400,
+      "usable_battery_size": 102.0,
+      "energy_consumption": {
+        "average_consumption": 17.9
+      }
     }
   ]
 }

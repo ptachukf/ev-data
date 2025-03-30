@@ -19,11 +19,11 @@
         ],
         "max_power": 11,
         "power_per_charging_point": {
-          "11": 11.0,
-          "16": 11.0,
-          "22": 11.0,
-          "43": 11.0,
-          "2.0": 2.0,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4
@@ -92,11 +92,11 @@
         ],
         "max_power": 11,
         "power_per_charging_point": {
-          "11": 11.0,
-          "16": 11.0,
-          "22": 11.0,
-          "43": 11.0,
-          "2.0": 2.0,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4
@@ -185,7 +185,7 @@
           "16": 7.4,
           "22": 7.4,
           "43": 7.4,
-          "2.0": 2.0,
+          "2.0": 2,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4
@@ -274,7 +274,7 @@
           "16": 3.6,
           "22": 3.6,
           "43": 3.6,
-          "2.0": 2.0,
+          "2.0": 2,
           "2.3": 2.3,
           "3.7": 3.6,
           "7.4": 3.6
@@ -327,7 +327,7 @@
           "16": 3.2,
           "22": 3.2,
           "43": 3.2,
-          "2.0": 2.0,
+          "2.0": 2,
           "2.3": 2.3,
           "3.7": 3.2,
           "7.4": 3.2
@@ -376,11 +376,11 @@
         ],
         "max_power": 11,
         "power_per_charging_point": {
-          "11": 11.0,
-          "16": 11.0,
-          "22": 11.0,
-          "43": 11.0,
-          "2.0": 2.0,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4
@@ -461,11 +461,11 @@
         ],
         "max_power": 11,
         "power_per_charging_point": {
-          "11": 11.0,
-          "16": 11.0,
-          "22": 11.0,
-          "43": 11.0,
-          "2.0": 2.0,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4
@@ -518,7 +518,7 @@
           "16": 5.4,
           "22": 7.4,
           "43": 7.4,
-          "2.0": 2.0,
+          "2.0": 2,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4
@@ -599,11 +599,11 @@
         ],
         "max_power": 11,
         "power_per_charging_point": {
-          "11": 11.0,
-          "16": 11.0,
-          "22": 11.0,
-          "43": 11.0,
-          "2.0": 2.0,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4
@@ -684,11 +684,11 @@
         ],
         "max_power": 11,
         "power_per_charging_point": {
-          "11": 11.0,
-          "16": 11.0,
-          "22": 11.0,
-          "43": 11.0,
-          "2.0": 2.0,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4
@@ -741,7 +741,7 @@
           "16": 5.4,
           "22": 7.4,
           "43": 7.4,
-          "2.0": 2.0,
+          "2.0": 2,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4
@@ -822,11 +822,11 @@
         ],
         "max_power": 11,
         "power_per_charging_point": {
-          "11": 11.0,
-          "16": 11.0,
-          "22": 11.0,
-          "43": 11.0,
-          "2.0": 2.0,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4
@@ -875,11 +875,11 @@
         ],
         "max_power": 11,
         "power_per_charging_point": {
-          "11": 11.0,
-          "16": 11.0,
-          "22": 11.0,
-          "43": 11.0,
-          "2.0": 2.0,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4
@@ -928,11 +928,11 @@
         ],
         "max_power": 11,
         "power_per_charging_point": {
-          "11": 11.0,
-          "16": 11.0,
-          "22": 11.0,
-          "43": 11.0,
-          "2.0": 2.0,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4
@@ -995,6 +995,1797 @@
         "average_consumption": 22.5
       },
       "charging_voltage": 400
+    },
+    {
+      "brand": "Peugeot",
+      "model": "e-3008 73 kWh",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2023,
+      "range": 380,
+      "id": "c017a9e7-136e-4417-9d67-34c23176230d",
+      "brand_id": "f458fe7d-f545-45f3-8c23-2ab8140b8b5d",
+      "usable_battery_size": 73,
+      "energy_consumption": {
+        "average_consumption": 19.2,
+        "range": 380
+      },
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 160,
+        "is_default_charging_curve": false,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 160
+          },
+          {
+            "percentage": 50,
+            "power": 160
+          },
+          {
+            "percentage": 80,
+            "power": 80
+          },
+          {
+            "percentage": 100,
+            "power": 32
+          }
+        ]
+      },
+      "vehicle_type": "car",
+      "charging_voltage": 400
+    },
+    {
+      "brand": "Peugeot",
+      "model": "e-2008 SUV",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2021,
+      "range": 270,
+      "id": "7676a1a9-a78c-42ed-846d-c9e72767a37d",
+      "brand_id": "f458fe7d-f545-45f3-8c23-2ab8140b8b5d",
+      "usable_battery_size": 46.3,
+      "energy_consumption": {
+        "average_consumption": 17.1,
+        "range": 270
+      },
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 101,
+        "is_default_charging_curve": false,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 101
+          },
+          {
+            "percentage": 50,
+            "power": 101
+          },
+          {
+            "percentage": 80,
+            "power": 60.599999999999994
+          },
+          {
+            "percentage": 100,
+            "power": 30.299999999999997
+          }
+        ]
+      },
+      "vehicle_type": "car",
+      "charging_voltage": 400
+    },
+    {
+      "brand": "Peugeot",
+      "model": "e-2008 54 kWh",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2023,
+      "range": 300,
+      "id": "f84478bc-3d6d-4fa6-9853-08ef9e9f6849",
+      "brand_id": "f458fe7d-f545-45f3-8c23-2ab8140b8b5d",
+      "usable_battery_size": 50.8,
+      "energy_consumption": {
+        "average_consumption": 16.9,
+        "range": 300
+      },
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 100,
+        "is_default_charging_curve": false,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 100
+          },
+          {
+            "percentage": 50,
+            "power": 100
+          },
+          {
+            "percentage": 80,
+            "power": 60
+          },
+          {
+            "percentage": 100,
+            "power": 30
+          }
+        ]
+      },
+      "vehicle_type": "car",
+      "charging_voltage": 400
+    },
+    {
+      "brand": "Peugeot",
+      "model": "e-5008 73 kWh",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2024,
+      "range": 370,
+      "id": "bc53f413-a9b9-45da-8af6-521c4b6b0235",
+      "brand_id": "f458fe7d-f545-45f3-8c23-2ab8140b8b5d",
+      "usable_battery_size": 73,
+      "energy_consumption": {
+        "average_consumption": 19.7,
+        "range": 370
+      },
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 160,
+        "is_default_charging_curve": false,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 160
+          },
+          {
+            "percentage": 50,
+            "power": 160
+          },
+          {
+            "percentage": 80,
+            "power": 80
+          },
+          {
+            "percentage": 100,
+            "power": 32
+          }
+        ]
+      },
+      "vehicle_type": "car",
+      "charging_voltage": 400
+    },
+    {
+      "brand": "Peugeot",
+      "model": "e-5008 97 kWh Long Range",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2024,
+      "range": 485,
+      "id": "40ce641c-a183-4c33-9270-0f358705645d",
+      "brand_id": "f458fe7d-f545-45f3-8c23-2ab8140b8b5d",
+      "usable_battery_size": 96.9,
+      "energy_consumption": {
+        "average_consumption": 20,
+        "range": 485
+      },
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 160,
+        "is_default_charging_curve": false,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 160
+          },
+          {
+            "percentage": 50,
+            "power": 160
+          },
+          {
+            "percentage": 80,
+            "power": 96
+          },
+          {
+            "percentage": 100,
+            "power": 48
+          }
+        ]
+      },
+      "vehicle_type": "car",
+      "charging_voltage": 400
+    },
+    {
+      "brand": "Peugeot",
+      "model": "e-208",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2021,
+      "range": 285,
+      "id": "f252509a-673d-44b2-92d5-7b42dd38ba6d",
+      "brand_id": "f458fe7d-f545-45f3-8c23-2ab8140b8b5d",
+      "usable_battery_size": 46.3,
+      "energy_consumption": {
+        "average_consumption": 16.2,
+        "range": 285
+      },
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 101,
+        "is_default_charging_curve": false,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 101
+          },
+          {
+            "percentage": 50,
+            "power": 101
+          },
+          {
+            "percentage": 80,
+            "power": 60.599999999999994
+          },
+          {
+            "percentage": 100,
+            "power": 30.299999999999997
+          }
+        ]
+      },
+      "vehicle_type": "car",
+      "charging_voltage": 400
+    },
+    {
+      "brand": "Peugeot",
+      "model": "e-208 51 kWh",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2023,
+      "range": 310,
+      "id": "733c8dff-3281-4e5f-acef-a481f931711e",
+      "brand_id": "f458fe7d-f545-45f3-8c23-2ab8140b8b5d",
+      "usable_battery_size": 48.1,
+      "energy_consumption": {
+        "average_consumption": 15.5,
+        "range": 310
+      },
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 100,
+        "is_default_charging_curve": false,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 100
+          },
+          {
+            "percentage": 50,
+            "power": 100
+          },
+          {
+            "percentage": 80,
+            "power": 60
+          },
+          {
+            "percentage": 100,
+            "power": 30
+          }
+        ]
+      },
+      "vehicle_type": "car",
+      "charging_voltage": 400
+    },
+    {
+      "brand": "Peugeot",
+      "model": "e-308",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2023,
+      "range": 300,
+      "id": "6717cf3f-cf4b-401b-9280-caa4bee8be4b",
+      "brand_id": "f458fe7d-f545-45f3-8c23-2ab8140b8b5d",
+      "usable_battery_size": 50.8,
+      "energy_consumption": {
+        "average_consumption": 16.9,
+        "range": 300
+      },
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 100,
+        "is_default_charging_curve": false,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 100
+          },
+          {
+            "percentage": 50,
+            "power": 100
+          },
+          {
+            "percentage": 80,
+            "power": 60
+          },
+          {
+            "percentage": 100,
+            "power": 30
+          }
+        ]
+      },
+      "vehicle_type": "car",
+      "charging_voltage": 400
+    },
+    {
+      "brand": "Peugeot",
+      "model": "e-408 58 kWh",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2024,
+      "range": 375,
+      "id": "96bfbf8a-002b-4d95-9b7a-d15727787608",
+      "brand_id": "f458fe7d-f545-45f3-8c23-2ab8140b8b5d",
+      "usable_battery_size": 58.2,
+      "energy_consumption": {
+        "average_consumption": 15.5,
+        "range": 375
+      },
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 120,
+        "is_default_charging_curve": false,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 120
+          },
+          {
+            "percentage": 50,
+            "power": 120
+          },
+          {
+            "percentage": 80,
+            "power": 60
+          },
+          {
+            "percentage": 100,
+            "power": 24
+          }
+        ]
+      },
+      "vehicle_type": "car",
+      "charging_voltage": 400
+    },
+    {
+      "brand": "Peugeot",
+      "model": "e-308 SW",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2023,
+      "battery_size": 50.8,
+      "range": 300,
+      "consumption": 16.9,
+      "ac_charger": {
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.0,
+          "16": 11,
+          "22": 11,
+          "43": 11
+        },
+        "usable_phases": 3
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 100,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 100
+          },
+          {
+            "percentage": 50,
+            "power": 100
+          },
+          {
+            "percentage": 80,
+            "power": 60
+          },
+          {
+            "percentage": 100,
+            "power": 30
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "id": "8317fb78-fa67-4ebd-8567-1d7f1ad16cd8",
+      "brand_id": "f458fe7d-f545-45f3-8c23-2ab8140b8b5d",
+      "vehicle_type": "car",
+      "charging_voltage": 400,
+      "usable_battery_size": 50.8,
+      "energy_consumption": {
+        "average_consumption": 16.9
+      }
+    },
+    {
+      "brand": "Peugeot",
+      "model": "e-5008 73 kWh Dual Motor",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2025,
+      "battery_size": 73,
+      "range": 360,
+      "consumption": 20.3,
+      "ac_charger": {
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.0,
+          "16": 11,
+          "22": 11,
+          "43": 11
+        },
+        "usable_phases": 3
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 160,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 160
+          },
+          {
+            "percentage": 50,
+            "power": 160
+          },
+          {
+            "percentage": 80,
+            "power": 80
+          },
+          {
+            "percentage": 100,
+            "power": 32
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "id": "11b25a85-4f21-4a7c-98d2-025639fcc0cf",
+      "brand_id": "f458fe7d-f545-45f3-8c23-2ab8140b8b5d",
+      "vehicle_type": "car",
+      "charging_voltage": 400,
+      "usable_battery_size": 73.0,
+      "energy_consumption": {
+        "average_consumption": 20.3
+      }
+    },
+    {
+      "brand": "Peugeot",
+      "model": "e-Expert Combi Standard 75 kWh",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2021,
+      "battery_size": 68,
+      "range": 265,
+      "consumption": 25.7,
+      "ac_charger": {
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.0,
+          "16": 11,
+          "22": 11,
+          "43": 11
+        },
+        "usable_phases": 3
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 100,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 100
+          },
+          {
+            "percentage": 50,
+            "power": 100
+          },
+          {
+            "percentage": 80,
+            "power": 60
+          },
+          {
+            "percentage": 100,
+            "power": 30
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "id": "8bf0df83-d81a-4626-a731-d24792224a45",
+      "brand_id": "f458fe7d-f545-45f3-8c23-2ab8140b8b5d",
+      "vehicle_type": "car",
+      "charging_voltage": 400,
+      "usable_battery_size": 75.0,
+      "energy_consumption": {
+        "average_consumption": 25.7
+      }
+    },
+    {
+      "brand": "Peugeot",
+      "model": "e-Rifter M 50 kWh",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2024,
+      "battery_size": 50,
+      "range": 235,
+      "consumption": 21.3,
+      "ac_charger": {
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.0,
+          "16": 11,
+          "22": 11,
+          "43": 11
+        },
+        "usable_phases": 3
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 100,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 100
+          },
+          {
+            "percentage": 50,
+            "power": 100
+          },
+          {
+            "percentage": 80,
+            "power": 60
+          },
+          {
+            "percentage": 100,
+            "power": 30
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "id": "f79dd895-5348-4bb4-938f-9573026b489f",
+      "brand_id": "f458fe7d-f545-45f3-8c23-2ab8140b8b5d",
+      "vehicle_type": "car",
+      "charging_voltage": 400,
+      "usable_battery_size": 50.0,
+      "energy_consumption": {
+        "average_consumption": 21.3
+      }
+    },
+    {
+      "brand": "Peugeot",
+      "model": "e-Traveller L3 75 kWh",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2024,
+      "battery_size": 68,
+      "range": 260,
+      "consumption": 26.2,
+      "ac_charger": {
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.0,
+          "16": 11,
+          "22": 11,
+          "43": 11
+        },
+        "usable_phases": 3
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 100,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 100
+          },
+          {
+            "percentage": 50,
+            "power": 100
+          },
+          {
+            "percentage": 80,
+            "power": 60
+          },
+          {
+            "percentage": 100,
+            "power": 30
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "id": "6f58af11-b5ec-472b-ba57-25a71d89750c",
+      "brand_id": "f458fe7d-f545-45f3-8c23-2ab8140b8b5d",
+      "vehicle_type": "car",
+      "charging_voltage": 400,
+      "usable_battery_size": 75.0,
+      "energy_consumption": {
+        "average_consumption": 26.2
+      }
+    },
+    {
+      "brand": "Peugeot",
+      "model": "e-Expert Combi Long 75 kWh",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2021,
+      "battery_size": 68,
+      "range": 260,
+      "consumption": 26.2,
+      "ac_charger": {
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.0,
+          "16": 11,
+          "22": 11,
+          "43": 11
+        },
+        "usable_phases": 3
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 100,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 100
+          },
+          {
+            "percentage": 50,
+            "power": 100
+          },
+          {
+            "percentage": 80,
+            "power": 60
+          },
+          {
+            "percentage": 100,
+            "power": 30
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "id": "9c0fd4b2-e0d6-4fa8-9ac6-cea4c1051494",
+      "brand_id": "f458fe7d-f545-45f3-8c23-2ab8140b8b5d",
+      "vehicle_type": "car",
+      "charging_voltage": 400,
+      "usable_battery_size": 75.0,
+      "energy_consumption": {
+        "average_consumption": 26.2
+      }
+    },
+    {
+      "brand": "Peugeot",
+      "model": "e-Traveller Long 75 kWh",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2021,
+      "battery_size": 68,
+      "range": 260,
+      "consumption": 26.2,
+      "ac_charger": {
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.0,
+          "16": 11,
+          "22": 11,
+          "43": 11
+        },
+        "usable_phases": 3
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 100,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 100
+          },
+          {
+            "percentage": 50,
+            "power": 100
+          },
+          {
+            "percentage": 80,
+            "power": 60
+          },
+          {
+            "percentage": 100,
+            "power": 30
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "id": "036e6741-2643-460f-b6ab-0ecf1a281dac",
+      "brand_id": "f458fe7d-f545-45f3-8c23-2ab8140b8b5d",
+      "vehicle_type": "car",
+      "charging_voltage": 400,
+      "usable_battery_size": 75.0,
+      "energy_consumption": {
+        "average_consumption": 26.2
+      }
+    },
+    {
+      "brand": "Peugeot",
+      "model": "e-Expert Combi Standard 50 kWh",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2021,
+      "battery_size": 46.3,
+      "range": 185,
+      "consumption": 25,
+      "ac_charger": {
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.0,
+          "16": 11,
+          "22": 11,
+          "43": 11
+        },
+        "usable_phases": 3
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 101,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 101
+          },
+          {
+            "percentage": 50,
+            "power": 101
+          },
+          {
+            "percentage": 80,
+            "power": 60.599999999999994
+          },
+          {
+            "percentage": 100,
+            "power": 30.299999999999997
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "id": "262b7ab9-9dbe-49b5-a3b3-e1766c307a2b",
+      "brand_id": "f458fe7d-f545-45f3-8c23-2ab8140b8b5d",
+      "vehicle_type": "car",
+      "charging_voltage": 400,
+      "usable_battery_size": 50.0,
+      "energy_consumption": {
+        "average_consumption": 25.0
+      }
+    },
+    {
+      "brand": "Peugeot",
+      "model": "e-Rifter XL 50 kWh",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2024,
+      "battery_size": 50,
+      "range": 230,
+      "consumption": 21.7,
+      "ac_charger": {
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.0,
+          "16": 11,
+          "22": 11,
+          "43": 11
+        },
+        "usable_phases": 3
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 100,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 100
+          },
+          {
+            "percentage": 50,
+            "power": 100
+          },
+          {
+            "percentage": 80,
+            "power": 60
+          },
+          {
+            "percentage": 100,
+            "power": 30
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "id": "d9c6a912-b7fb-4a71-a3cd-f3030ca9e2d2",
+      "brand_id": "f458fe7d-f545-45f3-8c23-2ab8140b8b5d",
+      "vehicle_type": "car",
+      "charging_voltage": 400,
+      "usable_battery_size": 50.0,
+      "energy_consumption": {
+        "average_consumption": 21.7
+      }
+    },
+    {
+      "brand": "Peugeot",
+      "model": "e-Rifter Long 50 kWh",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2021,
+      "battery_size": 46.3,
+      "range": 200,
+      "consumption": 23.2,
+      "ac_charger": {
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.0,
+          "16": 11,
+          "22": 11,
+          "43": 11
+        },
+        "usable_phases": 3
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 101,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 101
+          },
+          {
+            "percentage": 50,
+            "power": 101
+          },
+          {
+            "percentage": 80,
+            "power": 60.599999999999994
+          },
+          {
+            "percentage": 100,
+            "power": 30.299999999999997
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "id": "f6bcc16d-fc3f-464b-bf7b-49c6e3378faf",
+      "brand_id": "f458fe7d-f545-45f3-8c23-2ab8140b8b5d",
+      "vehicle_type": "car",
+      "charging_voltage": 400,
+      "usable_battery_size": 50.0,
+      "energy_consumption": {
+        "average_consumption": 23.2
+      }
+    },
+    {
+      "brand": "Peugeot",
+      "model": "e-Traveller Standard 50 kWh",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2020,
+      "battery_size": 46.3,
+      "range": 185,
+      "consumption": 25,
+      "ac_charger": {
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.0,
+          "16": 11,
+          "22": 11,
+          "43": 11
+        },
+        "usable_phases": 3
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 101,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 101
+          },
+          {
+            "percentage": 50,
+            "power": 101
+          },
+          {
+            "percentage": 80,
+            "power": 60.599999999999994
+          },
+          {
+            "percentage": 100,
+            "power": 30.299999999999997
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "id": "c290b499-c9a5-476d-bd08-c162ac326bee",
+      "brand_id": "f458fe7d-f545-45f3-8c23-2ab8140b8b5d",
+      "vehicle_type": "car",
+      "charging_voltage": 400,
+      "usable_battery_size": 50.0,
+      "energy_consumption": {
+        "average_consumption": 25.0
+      }
+    },
+    {
+      "brand": "Peugeot",
+      "model": "e-Rifter Standard 50 kWh",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2021,
+      "battery_size": 46.3,
+      "range": 205,
+      "consumption": 22.6,
+      "ac_charger": {
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.0,
+          "16": 11,
+          "22": 11,
+          "43": 11
+        },
+        "usable_phases": 3
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 101,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 101
+          },
+          {
+            "percentage": 50,
+            "power": 101
+          },
+          {
+            "percentage": 80,
+            "power": 60.599999999999994
+          },
+          {
+            "percentage": 100,
+            "power": 30.299999999999997
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "id": "8a17417a-36ed-405b-bfb7-a7742afd87a9",
+      "brand_id": "f458fe7d-f545-45f3-8c23-2ab8140b8b5d",
+      "vehicle_type": "car",
+      "charging_voltage": 400,
+      "usable_battery_size": 50.0,
+      "energy_consumption": {
+        "average_consumption": 22.6
+      }
+    },
+    {
+      "brand": "Peugeot",
+      "model": "e-Traveller Standard 75 kWh",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2021,
+      "battery_size": 68,
+      "range": 265,
+      "consumption": 25.7,
+      "ac_charger": {
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.0,
+          "16": 11,
+          "22": 11,
+          "43": 11
+        },
+        "usable_phases": 3
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 100,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 100
+          },
+          {
+            "percentage": 50,
+            "power": 100
+          },
+          {
+            "percentage": 80,
+            "power": 60
+          },
+          {
+            "percentage": 100,
+            "power": 30
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "id": "9719e8fd-41c1-48aa-9b55-67ddb91b78fa",
+      "brand_id": "f458fe7d-f545-45f3-8c23-2ab8140b8b5d",
+      "vehicle_type": "car",
+      "charging_voltage": 400,
+      "usable_battery_size": 75.0,
+      "energy_consumption": {
+        "average_consumption": 25.7
+      }
+    },
+    {
+      "brand": "Peugeot",
+      "model": "e-Traveller L2 50 kWh",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2024,
+      "battery_size": 46.3,
+      "range": 180,
+      "consumption": 25.7,
+      "ac_charger": {
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.0,
+          "16": 11,
+          "22": 11,
+          "43": 11
+        },
+        "usable_phases": 3
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 101,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 101
+          },
+          {
+            "percentage": 50,
+            "power": 101
+          },
+          {
+            "percentage": 80,
+            "power": 60.599999999999994
+          },
+          {
+            "percentage": 100,
+            "power": 30.299999999999997
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "id": "c73895f9-0675-4893-88e3-4fda9926e102",
+      "brand_id": "f458fe7d-f545-45f3-8c23-2ab8140b8b5d",
+      "vehicle_type": "car",
+      "charging_voltage": 400,
+      "usable_battery_size": 50.0,
+      "energy_consumption": {
+        "average_consumption": 25.7
+      }
+    },
+    {
+      "brand": "Peugeot",
+      "model": "e-Traveller L2 75 kWh",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2024,
+      "battery_size": 68,
+      "range": 260,
+      "consumption": 26.2,
+      "ac_charger": {
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.0,
+          "16": 11,
+          "22": 11,
+          "43": 11
+        },
+        "usable_phases": 3
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 100,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 100
+          },
+          {
+            "percentage": 50,
+            "power": 100
+          },
+          {
+            "percentage": 80,
+            "power": 60
+          },
+          {
+            "percentage": 100,
+            "power": 30
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "id": "3f211093-53bb-4b1a-bdbd-b1659a6775f5",
+      "brand_id": "f458fe7d-f545-45f3-8c23-2ab8140b8b5d",
+      "vehicle_type": "car",
+      "charging_voltage": 400,
+      "usable_battery_size": 75.0,
+      "energy_consumption": {
+        "average_consumption": 26.2
+      }
+    },
+    {
+      "brand": "Peugeot",
+      "model": "e-Traveller Long 50 kWh",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2020,
+      "battery_size": 46.3,
+      "range": 185,
+      "consumption": 25,
+      "ac_charger": {
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.0,
+          "16": 11,
+          "22": 11,
+          "43": 11
+        },
+        "usable_phases": 3
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 101,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 101
+          },
+          {
+            "percentage": 50,
+            "power": 101
+          },
+          {
+            "percentage": 80,
+            "power": 60.599999999999994
+          },
+          {
+            "percentage": 100,
+            "power": 30.299999999999997
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "id": "f82da320-fbb2-4ca5-af7e-785d54dd2bf9",
+      "brand_id": "f458fe7d-f545-45f3-8c23-2ab8140b8b5d",
+      "vehicle_type": "car",
+      "charging_voltage": 400,
+      "usable_battery_size": 50.0,
+      "energy_consumption": {
+        "average_consumption": 25.0
+      }
+    },
+    {
+      "brand": "Peugeot",
+      "model": "e-Traveller L3 50 kWh",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2024,
+      "battery_size": 46.3,
+      "range": 180,
+      "consumption": 25.7,
+      "ac_charger": {
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.0,
+          "16": 11,
+          "22": 11,
+          "43": 11
+        },
+        "usable_phases": 3
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 101,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 101
+          },
+          {
+            "percentage": 50,
+            "power": 101
+          },
+          {
+            "percentage": 80,
+            "power": 60.599999999999994
+          },
+          {
+            "percentage": 100,
+            "power": 30.299999999999997
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "id": "ea47d238-9eb0-4ee6-8fcb-7fc94b56dfdf",
+      "brand_id": "f458fe7d-f545-45f3-8c23-2ab8140b8b5d",
+      "vehicle_type": "car",
+      "charging_voltage": 400,
+      "usable_battery_size": 50.0,
+      "energy_consumption": {
+        "average_consumption": 25.7
+      }
+    },
+    {
+      "brand": "Peugeot",
+      "model": "e-Expert Combi Long 50 kWh",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2021,
+      "battery_size": 46.3,
+      "range": 185,
+      "consumption": 25,
+      "ac_charger": {
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.0,
+          "16": 11,
+          "22": 11,
+          "43": 11
+        },
+        "usable_phases": 3
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 101,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 101
+          },
+          {
+            "percentage": 50,
+            "power": 101
+          },
+          {
+            "percentage": 80,
+            "power": 60.599999999999994
+          },
+          {
+            "percentage": 100,
+            "power": 30.299999999999997
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "id": "f87a9281-d7f4-47dc-9dab-9ee85a9fa2c5",
+      "brand_id": "f458fe7d-f545-45f3-8c23-2ab8140b8b5d",
+      "vehicle_type": "car",
+      "charging_voltage": 400,
+      "usable_battery_size": 50.0,
+      "energy_consumption": {
+        "average_consumption": 25.0
+      }
+    },
+    {
+      "brand": "Peugeot",
+      "model": "e-Expert Combi Compact 50 kWh",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2021,
+      "battery_size": 46.3,
+      "range": 185,
+      "consumption": 25,
+      "ac_charger": {
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.0,
+          "16": 11,
+          "22": 11,
+          "43": 11
+        },
+        "usable_phases": 3
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 101,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 101
+          },
+          {
+            "percentage": 50,
+            "power": 101
+          },
+          {
+            "percentage": 80,
+            "power": 60.599999999999994
+          },
+          {
+            "percentage": 100,
+            "power": 30.299999999999997
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "id": "12fa953c-24ec-4b5d-9310-060b49f5a859",
+      "brand_id": "f458fe7d-f545-45f3-8c23-2ab8140b8b5d",
+      "vehicle_type": "car",
+      "charging_voltage": 400,
+      "usable_battery_size": 50.0,
+      "energy_consumption": {
+        "average_consumption": 25.0
+      }
+    },
+    {
+      "brand": "Peugeot",
+      "model": "e-3008 97 kWh Long Range",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2024,
+      "battery_size": 96.9,
+      "range": 500,
+      "consumption": 19.4,
+      "ac_charger": {
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.0,
+          "16": 11,
+          "22": 11,
+          "43": 11
+        },
+        "usable_phases": 3
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 160,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 160
+          },
+          {
+            "percentage": 50,
+            "power": 160
+          },
+          {
+            "percentage": 80,
+            "power": 96
+          },
+          {
+            "percentage": 100,
+            "power": 48
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "id": "67a0155f-1e43-477c-ba92-0990a4d3c875",
+      "brand_id": "f458fe7d-f545-45f3-8c23-2ab8140b8b5d",
+      "vehicle_type": "car",
+      "charging_voltage": 400,
+      "usable_battery_size": 97.0,
+      "energy_consumption": {
+        "average_consumption": 19.4
+      }
+    },
+    {
+      "brand": "Peugeot",
+      "model": "e-Traveller Compact 50 kWh",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2021,
+      "battery_size": 46.3,
+      "range": 185,
+      "consumption": 25,
+      "ac_charger": {
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.0,
+          "16": 11,
+          "22": 11,
+          "43": 11
+        },
+        "usable_phases": 3
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 101,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 101
+          },
+          {
+            "percentage": 50,
+            "power": 101
+          },
+          {
+            "percentage": 80,
+            "power": 60.599999999999994
+          },
+          {
+            "percentage": 100,
+            "power": 30.299999999999997
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "id": "fca5d551-bfdb-4fcf-9ab7-f7978678ff59",
+      "brand_id": "f458fe7d-f545-45f3-8c23-2ab8140b8b5d",
+      "vehicle_type": "car",
+      "charging_voltage": 400,
+      "usable_battery_size": 50.0,
+      "energy_consumption": {
+        "average_consumption": 25.0
+      }
     }
   ]
 }

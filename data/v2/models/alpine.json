@@ -1,0 +1,126 @@
+{
+  "brand_id": "e8d7c6b5-a4f3-4e21-0b9a-8b7c6d5e4f3a",
+  "brand_name": "Alpine",
+  "models": [
+    {
+      "brand": "Alpine",
+      "model": "A290 Electric 220 hp",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2024,
+      "battery_size": 52,
+      "range": 305,
+      "consumption": 17,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.0,
+          "16": 11,
+          "22": 11,
+          "43": 11
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 100,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 100
+          },
+          {
+            "percentage": 50,
+            "power": 100
+          },
+          {
+            "percentage": 80,
+            "power": 50
+          },
+          {
+            "percentage": 100,
+            "power": 20
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "id": "6639910f-4391-4845-a5f8-b1097f1f734f",
+      "brand_id": "e8d7c6b5-a4f3-4e21-0b9a-8b7c6d5e4f3a",
+      "usable_battery_size": 52,
+      "energy_consumption": {
+        "average_consumption": 17
+      },
+      "vehicle_type": "car",
+      "charging_voltage": 400
+    },
+    {
+      "brand": "Alpine",
+      "model": "A290 Electric 180 hp",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2024,
+      "battery_size": 52,
+      "range": 310,
+      "consumption": 16.8,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.0,
+          "16": 11,
+          "22": 11,
+          "43": 11
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 100,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 100
+          },
+          {
+            "percentage": 50,
+            "power": 100
+          },
+          {
+            "percentage": 80,
+            "power": 50
+          },
+          {
+            "percentage": 100,
+            "power": 20
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "id": "b04a629e-598e-4bb8-bb75-1023e93abf5b",
+      "brand_id": "e8d7c6b5-a4f3-4e21-0b9a-8b7c6d5e4f3a",
+      "usable_battery_size": 52,
+      "energy_consumption": {
+        "average_consumption": 16.8
+      },
+      "vehicle_type": "car",
+      "charging_voltage": 400
+    }
+  ]
+}

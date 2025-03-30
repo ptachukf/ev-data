@@ -21,9 +21,9 @@
         "power_per_charging_point": {
           "11": 11.1,
           "16": 16.2,
-          "22": 22.0,
-          "43": 22.0,
-          "2.0": 2.0,
+          "22": 22,
+          "43": 22,
+          "2.0": 2,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4
@@ -74,9 +74,9 @@
         "power_per_charging_point": {
           "11": 11.1,
           "16": 16.2,
-          "22": 22.0,
-          "43": 22.0,
-          "2.0": 2.0,
+          "22": 22,
+          "43": 22,
+          "2.0": 2,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4
@@ -107,6 +107,66 @@
         "average_consumption": 23.5
       },
       "charging_voltage": 400
+    },
+    {
+      "brand": "Maserati",
+      "model": "GranCabrio Folgore",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2024,
+      "battery_size": 83,
+      "range": 395,
+      "consumption": 21,
+      "ac_charger": {
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.0,
+          "16": 11,
+          "22": 11,
+          "43": 11
+        },
+        "usable_phases": 3
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 270,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 270
+          },
+          {
+            "percentage": 50,
+            "power": 270
+          },
+          {
+            "percentage": 80,
+            "power": 162
+          },
+          {
+            "percentage": 100,
+            "power": 81
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "id": "e26f0508-4eea-4111-89d6-6625aec9b5de",
+      "brand_id": "60f3085b-d0c0-cffd-e904-ffe9f6ea7c2a",
+      "vehicle_type": "car",
+      "charging_voltage": 400,
+      "usable_battery_size": 83.0,
+      "energy_consumption": {
+        "average_consumption": 22.7
+      }
     }
   ]
 }

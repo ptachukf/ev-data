@@ -1,0 +1,65 @@
+{
+  "brand_id": "d7c6b5a4-f3e2-4d10-9a8b-7c6d5e4f3a2b",
+  "brand_name": "Cadillac",
+  "models": [
+    {
+      "brand": "Cadillac",
+      "model": "Lyriq 600 E4",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2024,
+      "range": 460,
+      "id": "f21bbedf-e8f5-44eb-8793-891a2c61156f",
+      "brand_id": "d7c6b5a4-f3e2-4d10-9a8b-7c6d5e4f3a2b",
+      "usable_battery_size": 102,
+      "energy_consumption": {
+        "average_consumption": 22.2,
+        "range": 460
+      },
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 190,
+        "is_default_charging_curve": false,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 190
+          },
+          {
+            "percentage": 50,
+            "power": 190
+          },
+          {
+            "percentage": 80,
+            "power": 114
+          },
+          {
+            "percentage": 100,
+            "power": 57
+          }
+        ]
+      },
+      "vehicle_type": "car",
+      "charging_voltage": 400
+    }
+  ]
+}

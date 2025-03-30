@@ -19,11 +19,11 @@
         ],
         "max_power": 11,
         "power_per_charging_point": {
-          "11": 11.0,
-          "16": 11.0,
-          "22": 11.0,
-          "43": 11.0,
-          "2.0": 2.0,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4
@@ -92,11 +92,11 @@
         ],
         "max_power": 11,
         "power_per_charging_point": {
-          "11": 11.0,
-          "16": 11.0,
-          "22": 11.0,
-          "43": 11.0,
-          "2.0": 2.0,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4
@@ -150,11 +150,11 @@
         ],
         "max_power": 11,
         "power_per_charging_point": {
-          "11": 11.0,
-          "16": 11.0,
-          "22": 11.0,
-          "43": 11.0,
-          "2.0": 2.0,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4
@@ -220,11 +220,11 @@
         ],
         "max_power": 11,
         "power_per_charging_point": {
-          "11": 11.0,
-          "16": 11.0,
-          "22": 11.0,
-          "43": 11.0,
-          "2.0": 2.0,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4
@@ -281,64 +281,6 @@
       "charging_voltage": 400
     },
     {
-      "id": "caa51cb8-78ee-4949-a1c4-2907e7e7cf2d",
-      "brand": "Tesla",
-      "vehicle_type": "car",
-      "type": "bev",
-      "brand_id": "f37896c3-6bc5-45e1-b442-b9cbc38e3a7c",
-      "model": "Model 3",
-      "release_year": 2024,
-      "variant": "Long Range RWD",
-      "usable_battery_size": 75,
-      "charging_voltage": 400,
-      "ac_charger": {
-        "usable_phases": 3,
-        "ports": [
-          "type2"
-        ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11.0,
-          "16": 11.0,
-          "22": 11.0,
-          "43": 11.0,
-          "2.0": 2.0,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
-      },
-      "dc_charger": {
-        "ports": [
-          "ccs"
-        ],
-        "max_power": 250,
-        "is_default_charging_curve": false,
-        "charging_curve": [
-          {
-            "percentage": 0,
-            "power": 250
-          },
-          {
-            "percentage": 50,
-            "power": 250
-          },
-          {
-            "percentage": 80,
-            "power": 100
-          },
-          {
-            "percentage": 100,
-            "power": 25
-          }
-        ]
-      },
-      "energy_consumption": {
-        "average_consumption": 13.8,
-        "range": 545
-      }
-    },
-    {
       "id": "7dbad968-7058-4440-9c8f-8f483cdd973a",
       "brand": "Tesla",
       "vehicle_type": "car",
@@ -355,11 +297,11 @@
         ],
         "max_power": 11,
         "power_per_charging_point": {
-          "11": 11.0,
-          "16": 11.0,
-          "22": 11.0,
-          "43": 11.0,
-          "2.0": 2.0,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4
@@ -413,11 +355,11 @@
         ],
         "max_power": 11,
         "power_per_charging_point": {
-          "11": 11.0,
-          "16": 11.0,
-          "22": 11.0,
-          "43": 11.0,
-          "2.0": 2.0,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4
@@ -491,11 +433,11 @@
         ],
         "max_power": 11,
         "power_per_charging_point": {
-          "11": 11.0,
-          "16": 11.0,
-          "22": 11.0,
-          "43": 11.0,
-          "2.0": 2.0,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4
@@ -541,11 +483,11 @@
         ],
         "max_power": 11,
         "power_per_charging_point": {
-          "11": 11.0,
-          "16": 11.0,
-          "22": 11.0,
-          "43": 11.0,
-          "2.0": 2.0,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4
@@ -591,11 +533,11 @@
         ],
         "max_power": 11,
         "power_per_charging_point": {
-          "11": 11.0,
-          "16": 11.0,
-          "22": 11.0,
-          "43": 11.0,
-          "2.0": 2.0,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4
@@ -653,7 +595,7 @@
           "16": 16.2,
           "22": 16.5,
           "43": 16.5,
-          "2.0": 2.0,
+          "2.0": 2,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4
@@ -712,7 +654,7 @@
           "16": 16.2,
           "22": 16.5,
           "43": 16.5,
-          "2.0": 2.0,
+          "2.0": 2,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4
@@ -775,7 +717,7 @@
           "16": 16.2,
           "22": 16.5,
           "43": 16.5,
-          "2.0": 2.0,
+          "2.0": 2,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4
@@ -830,7 +772,7 @@
           "16": 16.2,
           "22": 16.5,
           "43": 16.5,
-          "2.0": 2.0,
+          "2.0": 2,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4
@@ -881,11 +823,11 @@
         ],
         "max_power": 11,
         "power_per_charging_point": {
-          "11": 11.0,
-          "16": 11.0,
-          "22": 11.0,
-          "43": 11.0,
-          "2.0": 2.0,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4
@@ -938,9 +880,9 @@
         "power_per_charging_point": {
           "11": 11.1,
           "16": 16.2,
-          "22": 22.0,
-          "43": 22.0,
-          "2.0": 2.0,
+          "22": 22,
+          "43": 22,
+          "2.0": 2,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4
@@ -991,11 +933,11 @@
         ],
         "max_power": 11,
         "power_per_charging_point": {
-          "11": 11.0,
-          "16": 11.0,
-          "22": 11.0,
-          "43": 11.0,
-          "2.0": 2.0,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4
@@ -1048,9 +990,9 @@
         "power_per_charging_point": {
           "11": 11.1,
           "16": 16.2,
-          "22": 22.0,
-          "43": 22.0,
-          "2.0": 2.0,
+          "22": 22,
+          "43": 22,
+          "2.0": 2,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4
@@ -1105,7 +1047,7 @@
           "16": 16.2,
           "22": 16.5,
           "43": 16.5,
-          "2.0": 2.0,
+          "2.0": 2,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4
@@ -1160,7 +1102,7 @@
           "16": 16.2,
           "22": 16.5,
           "43": 16.5,
-          "2.0": 2.0,
+          "2.0": 2,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4
@@ -1211,11 +1153,11 @@
         ],
         "max_power": 11,
         "power_per_charging_point": {
-          "11": 11.0,
-          "16": 11.0,
-          "22": 11.0,
-          "43": 11.0,
-          "2.0": 2.0,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4
@@ -1274,7 +1216,7 @@
           "16": 16.2,
           "22": 16.5,
           "43": 16.5,
-          "2.0": 2.0,
+          "2.0": 2,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4
@@ -1337,7 +1279,7 @@
           "16": 16.2,
           "22": 16.5,
           "43": 16.5,
-          "2.0": 2.0,
+          "2.0": 2,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4
@@ -1396,7 +1338,7 @@
           "16": 16.2,
           "22": 16.5,
           "43": 16.5,
-          "2.0": 2.0,
+          "2.0": 2,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4
@@ -1451,7 +1393,7 @@
           "16": 16.2,
           "22": 16.5,
           "43": 16.5,
-          "2.0": 2.0,
+          "2.0": 2,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4
@@ -1514,7 +1456,7 @@
           "16": 16.2,
           "22": 16.5,
           "43": 16.5,
-          "2.0": 2.0,
+          "2.0": 2,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4
@@ -1569,7 +1511,7 @@
           "16": 16.2,
           "22": 16.5,
           "43": 16.5,
-          "2.0": 2.0,
+          "2.0": 2,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4
@@ -1632,7 +1574,7 @@
           "16": 16.2,
           "22": 16.5,
           "43": 16.5,
-          "2.0": 2.0,
+          "2.0": 2,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4
@@ -1691,11 +1633,11 @@
         ],
         "max_power": 11,
         "power_per_charging_point": {
-          "11": 11.0,
-          "16": 11.0,
-          "22": 11.0,
-          "43": 11.0,
-          "2.0": 2.0,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4
@@ -1748,9 +1690,9 @@
         "power_per_charging_point": {
           "11": 11.1,
           "16": 16.2,
-          "22": 22.0,
-          "43": 22.0,
-          "2.0": 2.0,
+          "22": 22,
+          "43": 22,
+          "2.0": 2,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4
@@ -1805,7 +1747,7 @@
           "16": 16.2,
           "22": 16.5,
           "43": 16.5,
-          "2.0": 2.0,
+          "2.0": 2,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4
@@ -1868,7 +1810,7 @@
           "16": 16.2,
           "22": 16.5,
           "43": 16.5,
-          "2.0": 2.0,
+          "2.0": 2,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4
@@ -1931,7 +1873,7 @@
           "16": 16.2,
           "22": 16.5,
           "43": 16.5,
-          "2.0": 2.0,
+          "2.0": 2,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4
@@ -1986,7 +1928,7 @@
           "16": 16.2,
           "22": 16.5,
           "43": 16.5,
-          "2.0": 2.0,
+          "2.0": 2,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4
@@ -2049,7 +1991,7 @@
           "16": 16.2,
           "22": 16.5,
           "43": 16.5,
-          "2.0": 2.0,
+          "2.0": 2,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4
@@ -2104,11 +2046,11 @@
         ],
         "max_power": 11,
         "power_per_charging_point": {
-          "11": 11.0,
-          "16": 11.0,
-          "22": 11.0,
-          "43": 11.0,
-          "2.0": 2.0,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4
@@ -2167,7 +2109,7 @@
           "16": 16.2,
           "22": 16.5,
           "43": 16.5,
-          "2.0": 2.0,
+          "2.0": 2,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4
@@ -2222,11 +2164,11 @@
         ],
         "max_power": 11,
         "power_per_charging_point": {
-          "11": 11.0,
-          "16": 11.0,
-          "22": 11.0,
-          "43": 11.0,
-          "2.0": 2.0,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4
@@ -2285,7 +2227,7 @@
           "16": 16.2,
           "22": 16.5,
           "43": 16.5,
-          "2.0": 2.0,
+          "2.0": 2,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4
@@ -2344,7 +2286,7 @@
           "16": 16.2,
           "22": 16.5,
           "43": 16.5,
-          "2.0": 2.0,
+          "2.0": 2,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4
@@ -2399,11 +2341,11 @@
         ],
         "max_power": 11,
         "power_per_charging_point": {
-          "11": 11.0,
-          "16": 11.0,
-          "22": 11.0,
-          "43": 11.0,
-          "2.0": 2.0,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4
@@ -2462,7 +2404,7 @@
           "16": 16.2,
           "22": 16.5,
           "43": 16.5,
-          "2.0": 2.0,
+          "2.0": 2,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4
@@ -2524,7 +2466,7 @@
           "16": 16.2,
           "22": 16.5,
           "43": 16.5,
-          "2.0": 2.0,
+          "2.0": 2,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4
@@ -2583,7 +2525,7 @@
           "16": 16.2,
           "22": 16.5,
           "43": 16.5,
-          "2.0": 2.0,
+          "2.0": 2,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4
@@ -2645,7 +2587,7 @@
           "16": 16.2,
           "22": 16.5,
           "43": 16.5,
-          "2.0": 2.0,
+          "2.0": 2,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4
@@ -2704,7 +2646,7 @@
           "16": 16.2,
           "22": 16.5,
           "43": 16.5,
-          "2.0": 2.0,
+          "2.0": 2,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4
@@ -2762,11 +2704,11 @@
         ],
         "max_power": 11,
         "power_per_charging_point": {
-          "11": 11.0,
-          "16": 11.0,
-          "22": 11.0,
-          "43": 11.0,
-          "2.0": 2.0,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4
@@ -2815,11 +2757,11 @@
         ],
         "max_power": 11,
         "power_per_charging_point": {
-          "11": 11.0,
-          "16": 11.0,
-          "22": 11.0,
-          "43": 11.0,
-          "2.0": 2.0,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4
@@ -2874,11 +2816,11 @@
         ],
         "max_power": 11,
         "power_per_charging_point": {
-          "11": 11.0,
-          "16": 11.0,
-          "22": 11.0,
-          "43": 11.0,
-          "2.0": 2.0,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4
@@ -2935,9 +2877,9 @@
         "power_per_charging_point": {
           "11": 11.1,
           "16": 16.2,
-          "22": 22.0,
-          "43": 22.0,
-          "2.0": 2.0,
+          "22": 22,
+          "43": 22,
+          "2.0": 2,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4
@@ -2969,6 +2911,898 @@
         "average_consumption": 20.6
       },
       "charging_voltage": 400
+    },
+    {
+      "brand": "Tesla",
+      "model": "Model Y",
+      "variant": "Long Range Dual Motor",
+      "type": "bev",
+      "release_year": 2022,
+      "range": 445,
+      "id": "3012e28f-2dc0-4b2b-9bab-2fe03279b082",
+      "brand_id": "f37896c3-6bc5-45e1-b442-b9cbc38e3a7c",
+      "usable_battery_size": 75,
+      "energy_consumption": {
+        "average_consumption": 16.9,
+        "range": 445
+      },
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 250,
+        "is_default_charging_curve": false,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 250
+          },
+          {
+            "percentage": 50,
+            "power": 250
+          },
+          {
+            "percentage": 80,
+            "power": 100
+          },
+          {
+            "percentage": 100,
+            "power": 25
+          }
+        ]
+      },
+      "vehicle_type": "car",
+      "charging_voltage": 400
+    },
+    {
+      "brand": "Tesla",
+      "model": "Model X",
+      "variant": "Plaid",
+      "type": "bev",
+      "release_year": 2022,
+      "range": 465,
+      "id": "9cac6eaa-e72c-41c9-95f8-bd0164da5514",
+      "brand_id": "f37896c3-6bc5-45e1-b442-b9cbc38e3a7c",
+      "usable_battery_size": 95,
+      "energy_consumption": {
+        "average_consumption": 20.4,
+        "range": 465
+      },
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 250,
+        "is_default_charging_curve": false,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 250
+          },
+          {
+            "percentage": 50,
+            "power": 250
+          },
+          {
+            "percentage": 80,
+            "power": 125
+          },
+          {
+            "percentage": 100,
+            "power": 50
+          }
+        ]
+      },
+      "vehicle_type": "car",
+      "charging_voltage": 400
+    },
+    {
+      "brand": "Tesla",
+      "model": "Model X",
+      "variant": "Dual Motor",
+      "type": "bev",
+      "release_year": 2023,
+      "range": 485,
+      "id": "bcbb1484-c8b1-4393-8d13-47be44a0eb32",
+      "brand_id": "f37896c3-6bc5-45e1-b442-b9cbc38e3a7c",
+      "usable_battery_size": 95,
+      "energy_consumption": {
+        "average_consumption": 19.6,
+        "range": 485
+      },
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 250,
+        "is_default_charging_curve": false,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 250
+          },
+          {
+            "percentage": 50,
+            "power": 250
+          },
+          {
+            "percentage": 80,
+            "power": 125
+          },
+          {
+            "percentage": 100,
+            "power": 50
+          }
+        ]
+      },
+      "vehicle_type": "car",
+      "charging_voltage": 400
+    },
+    {
+      "brand": "Tesla",
+      "model": "Model 3",
+      "variant": "Standard Range Plus LFP",
+      "type": "bev",
+      "release_year": 2020,
+      "range": 350,
+      "id": "592abdda-fd06-4c3a-8299-1ebaf6e2b511",
+      "brand_id": "f37896c3-6bc5-45e1-b442-b9cbc38e3a7c",
+      "usable_battery_size": 52.5,
+      "energy_consumption": {
+        "average_consumption": 15,
+        "range": 350
+      },
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 170,
+        "is_default_charging_curve": false,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 170
+          },
+          {
+            "percentage": 50,
+            "power": 170
+          },
+          {
+            "percentage": 80,
+            "power": 85
+          },
+          {
+            "percentage": 100,
+            "power": 34
+          }
+        ]
+      },
+      "vehicle_type": "car",
+      "charging_voltage": 400
+    },
+    {
+      "brand": "Tesla",
+      "model": "Model 3",
+      "variant": "Long Range Performance",
+      "type": "bev",
+      "release_year": 2019,
+      "range": 440,
+      "id": "e60e37d2-d7f7-43ab-8c8f-5eb82c0b448a",
+      "brand_id": "f37896c3-6bc5-45e1-b442-b9cbc38e3a7c",
+      "usable_battery_size": 73.5,
+      "energy_consumption": {
+        "average_consumption": 16.7,
+        "range": 440
+      },
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 250,
+        "is_default_charging_curve": false,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 250
+          },
+          {
+            "percentage": 50,
+            "power": 250
+          },
+          {
+            "percentage": 80,
+            "power": 125
+          },
+          {
+            "percentage": 100,
+            "power": 50
+          }
+        ]
+      },
+      "vehicle_type": "car",
+      "charging_voltage": 400
+    },
+    {
+      "brand": "Tesla",
+      "model": "Model S",
+      "variant": "Long Range Plus",
+      "type": "bev",
+      "release_year": 2020,
+      "range": 555,
+      "id": "cbada916-9beb-4f28-9f95-1611971dc902",
+      "brand_id": "f37896c3-6bc5-45e1-b442-b9cbc38e3a7c",
+      "usable_battery_size": 98,
+      "energy_consumption": {
+        "average_consumption": 17.7,
+        "range": 555
+      },
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 250,
+        "is_default_charging_curve": false,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 250
+          },
+          {
+            "percentage": 50,
+            "power": 250
+          },
+          {
+            "percentage": 80,
+            "power": 125
+          },
+          {
+            "percentage": 100,
+            "power": 50
+          }
+        ]
+      },
+      "vehicle_type": "car",
+      "charging_voltage": 400
+    },
+    {
+      "id": "65ab6616-4b88-49fb-9563-2e51e0c66d83",
+      "brand": "Tesla",
+      "vehicle_type": "car",
+      "type": "bev",
+      "brand_id": "f37896c3-6bc5-45e1-b442-b9cbc38e3a7c",
+      "model": "Model 3",
+      "release_year": 2024,
+      "variant": "Long Range RWD",
+      "usable_battery_size": 75,
+      "charging_voltage": 400,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 250,
+        "is_default_charging_curve": false,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 250
+          },
+          {
+            "percentage": 50,
+            "power": 250
+          },
+          {
+            "percentage": 80,
+            "power": 100
+          },
+          {
+            "percentage": 100,
+            "power": 25
+          }
+        ]
+      },
+      "energy_consumption": {
+        "average_consumption": 13.8,
+        "range": 545
+      }
+    },
+    {
+      "brand": "Tesla",
+      "model": "Model X",
+      "variant": "Long Range Plus",
+      "type": "bev",
+      "release_year": 2020,
+      "battery_size": 98,
+      "range": 480,
+      "consumption": 20.4,
+      "ac_charger": {
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.0,
+          "16": 11,
+          "22": 11,
+          "43": 11
+        },
+        "usable_phases": 3
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 250,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 250
+          },
+          {
+            "percentage": 50,
+            "power": 250
+          },
+          {
+            "percentage": 80,
+            "power": 125
+          },
+          {
+            "percentage": 100,
+            "power": 50
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "id": "95b3a97a-659a-4ba8-8639-1616c2d6374e",
+      "brand_id": "f37896c3-6bc5-45e1-b442-b9cbc38e3a7c",
+      "vehicle_type": "car",
+      "charging_voltage": 400,
+      "usable_battery_size": 98.0,
+      "energy_consumption": {
+        "average_consumption": 20.4
+      }
+    },
+    {
+      "brand": "Tesla",
+      "model": "Model X",
+      "variant": "Ludicrous Performance",
+      "type": "bev",
+      "release_year": 2019,
+      "battery_size": 95,
+      "range": 440,
+      "consumption": 21.6,
+      "ac_charger": {
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.0,
+          "16": 11,
+          "22": 11,
+          "43": 11
+        },
+        "usable_phases": 3
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 145,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 145
+          },
+          {
+            "percentage": 50,
+            "power": 145
+          },
+          {
+            "percentage": 80,
+            "power": 72.5
+          },
+          {
+            "percentage": 100,
+            "power": 29
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "id": "5202d927-86b2-4454-bd95-3d2fa24b7635",
+      "brand_id": "f37896c3-6bc5-45e1-b442-b9cbc38e3a7c",
+      "vehicle_type": "car",
+      "charging_voltage": 400,
+      "usable_battery_size": 95.0,
+      "energy_consumption": {
+        "average_consumption": 21.6
+      }
+    },
+    {
+      "brand": "Tesla",
+      "model": "Model S",
+      "variant": "P90DL",
+      "type": "bev",
+      "release_year": 2016,
+      "battery_size": 85.5,
+      "range": 405,
+      "consumption": 21.1,
+      "ac_charger": {
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.0,
+          "16": 11,
+          "22": 11,
+          "43": 11
+        },
+        "usable_phases": 3
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 120,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 120
+          },
+          {
+            "percentage": 50,
+            "power": 120
+          },
+          {
+            "percentage": 80,
+            "power": 72
+          },
+          {
+            "percentage": 100,
+            "power": 36
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "id": "b349466b-024b-43c0-bcf9-da839f7cb93b",
+      "brand_id": "f37896c3-6bc5-45e1-b442-b9cbc38e3a7c",
+      "vehicle_type": "car",
+      "charging_voltage": 400,
+      "usable_battery_size": 85.5,
+      "energy_consumption": {
+        "average_consumption": 21.1
+      }
+    },
+    {
+      "brand": "Tesla",
+      "model": "Model X",
+      "variant": "P90DL",
+      "type": "bev",
+      "release_year": 2016,
+      "battery_size": 85.5,
+      "range": 375,
+      "consumption": 22.8,
+      "ac_charger": {
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.0,
+          "16": 11,
+          "22": 11,
+          "43": 11
+        },
+        "usable_phases": 3
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 120,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 120
+          },
+          {
+            "percentage": 50,
+            "power": 120
+          },
+          {
+            "percentage": 80,
+            "power": 72
+          },
+          {
+            "percentage": 100,
+            "power": 36
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "id": "50770714-24ec-47e8-8b44-c609c3878d60",
+      "brand_id": "f37896c3-6bc5-45e1-b442-b9cbc38e3a7c",
+      "vehicle_type": "car",
+      "charging_voltage": 400,
+      "usable_battery_size": 85.5,
+      "energy_consumption": {
+        "average_consumption": 22.8
+      }
+    },
+    {
+      "brand": "Tesla",
+      "model": "Model S",
+      "variant": "Plaid",
+      "type": "bev",
+      "release_year": 2022,
+      "battery_size": 95,
+      "range": 560,
+      "consumption": 17,
+      "ac_charger": {
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.0,
+          "16": 11,
+          "22": 11,
+          "43": 11
+        },
+        "usable_phases": 3
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 250,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 250
+          },
+          {
+            "percentage": 50,
+            "power": 250
+          },
+          {
+            "percentage": 80,
+            "power": 125
+          },
+          {
+            "percentage": 100,
+            "power": 50
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "id": "18a7ca77-00d5-4c1c-abf4-1e64b59ced5b",
+      "brand_id": "f37896c3-6bc5-45e1-b442-b9cbc38e3a7c",
+      "vehicle_type": "car",
+      "charging_voltage": 400,
+      "usable_battery_size": 95.0,
+      "energy_consumption": {
+        "average_consumption": 17.0
+      }
+    },
+    {
+      "brand": "Tesla",
+      "model": "Model 3",
+      "variant": "Standard Range Plus",
+      "type": "bev",
+      "release_year": 2021,
+      "battery_size": 51,
+      "range": 350,
+      "consumption": 14.6,
+      "ac_charger": {
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.0,
+          "16": 11,
+          "22": 11,
+          "43": 11
+        },
+        "usable_phases": 3
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 170,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 170
+          },
+          {
+            "percentage": 50,
+            "power": 170
+          },
+          {
+            "percentage": 80,
+            "power": 85
+          },
+          {
+            "percentage": 100,
+            "power": 34
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "id": "a853b5a1-5cb7-4a5c-8975-a18d57284170",
+      "brand_id": "f37896c3-6bc5-45e1-b442-b9cbc38e3a7c",
+      "vehicle_type": "car",
+      "charging_voltage": 400,
+      "usable_battery_size": 51.0,
+      "energy_consumption": {
+        "average_consumption": 14.6
+      }
+    },
+    {
+      "brand": "Tesla",
+      "model": "Model S",
+      "variant": "Dual Motor",
+      "type": "bev",
+      "release_year": 2023,
+      "battery_size": 95,
+      "range": 575,
+      "consumption": 16.5,
+      "ac_charger": {
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.0,
+          "16": 11,
+          "22": 11,
+          "43": 11
+        },
+        "usable_phases": 3
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 250,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 250
+          },
+          {
+            "percentage": 50,
+            "power": 250
+          },
+          {
+            "percentage": 80,
+            "power": 125
+          },
+          {
+            "percentage": 100,
+            "power": 50
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "id": "b5c47e4b-762a-4b66-b1c6-9bf076d66252",
+      "brand_id": "f37896c3-6bc5-45e1-b442-b9cbc38e3a7c",
+      "vehicle_type": "car",
+      "charging_voltage": 400,
+      "usable_battery_size": 95.0,
+      "energy_consumption": {
+        "average_consumption": 16.5
+      }
+    },
+    {
+      "brand": "Tesla",
+      "model": "Model Y",
+      "variant": "Long Range AWD Launch Series",
+      "type": "bev",
+      "release_year": 2025,
+      "battery_size": 75,
+      "range": 450,
+      "consumption": 16.7,
+      "ac_charger": {
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.0,
+          "16": 11,
+          "22": 11,
+          "43": 11
+        },
+        "usable_phases": 3
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 250,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 250
+          },
+          {
+            "percentage": 50,
+            "power": 250
+          },
+          {
+            "percentage": 80,
+            "power": 100
+          },
+          {
+            "percentage": 100,
+            "power": 25
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "id": "f971d26b-2207-45d1-869b-6721d0b38a9b",
+      "brand_id": "f37896c3-6bc5-45e1-b442-b9cbc38e3a7c",
+      "vehicle_type": "car",
+      "charging_voltage": 400,
+      "usable_battery_size": 75.0,
+      "energy_consumption": {
+        "average_consumption": 16.7
+      }
     }
   ]
 }

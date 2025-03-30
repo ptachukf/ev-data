@@ -1,0 +1,186 @@
+{
+  "brand_id": "9e8d7c6b-5a44-4382-a09f-8e7d6c543321",
+  "brand_name": "ORA",
+  "models": [
+    {
+      "brand": "ORA",
+      "model": "Funky Cat GT",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2023,
+      "battery_size": 59.3,
+      "range": 330,
+      "consumption": 18,
+      "ac_charger": {
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.0,
+          "16": 11,
+          "22": 11,
+          "43": 11
+        },
+        "usable_phases": 3
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 69,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 69
+          },
+          {
+            "percentage": 50,
+            "power": 69
+          },
+          {
+            "percentage": 80,
+            "power": 41.4
+          },
+          {
+            "percentage": 100,
+            "power": 20.7
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "id": "b5f82608-005f-435e-903b-14af6dad0532",
+      "brand_id": "9e8d7c6b-5a44-4382-a09f-8e7d6c543321",
+      "vehicle_type": "car",
+      "charging_voltage": 400,
+      "usable_battery_size": 59.3,
+      "energy_consumption": {
+        "average_consumption": 18.0
+      }
+    },
+    {
+      "brand": "ORA",
+      "model": "Funky Cat 48 kWh",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2022,
+      "battery_size": 45.4,
+      "range": 260,
+      "consumption": 17.5,
+      "ac_charger": {
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.0,
+          "16": 11,
+          "22": 11,
+          "43": 11
+        },
+        "usable_phases": 3
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 64,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 64
+          },
+          {
+            "percentage": 50,
+            "power": 64
+          },
+          {
+            "percentage": 80,
+            "power": 38.4
+          },
+          {
+            "percentage": 100,
+            "power": 19.2
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "id": "2df555af-c559-4057-9359-575ce2224a81",
+      "brand_id": "9e8d7c6b-5a44-4382-a09f-8e7d6c543321",
+      "vehicle_type": "car",
+      "charging_voltage": 400,
+      "usable_battery_size": 48.0,
+      "energy_consumption": {
+        "average_consumption": 17.5
+      }
+    },
+    {
+      "brand": "ORA",
+      "model": "Funky Cat 63 kWh",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2023,
+      "battery_size": 59.3,
+      "range": 340,
+      "consumption": 17.4,
+      "ac_charger": {
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.0,
+          "16": 11,
+          "22": 11,
+          "43": 11
+        },
+        "usable_phases": 3
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 69,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 69
+          },
+          {
+            "percentage": 50,
+            "power": 69
+          },
+          {
+            "percentage": 80,
+            "power": 41.4
+          },
+          {
+            "percentage": 100,
+            "power": 20.7
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "id": "ea6ca8a9-0d4d-4577-b1ef-d6d9acaf0734",
+      "brand_id": "9e8d7c6b-5a44-4382-a09f-8e7d6c543321",
+      "vehicle_type": "car",
+      "charging_voltage": 400,
+      "usable_battery_size": 63.0,
+      "energy_consumption": {
+        "average_consumption": 17.4
+      }
+    }
+  ]
+}

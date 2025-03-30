@@ -1,0 +1,126 @@
+{
+  "brand_id": "5a443827-160f-4f9d-6c54-33210a9f8e7d",
+  "brand_name": "Skywell",
+  "models": [
+    {
+      "brand": "Skywell",
+      "model": "BE11 Long Range",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2024,
+      "battery_size": 81,
+      "range": 390,
+      "consumption": 20.8,
+      "ac_charger": {
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.0,
+          "16": 11,
+          "22": 11,
+          "43": 11
+        },
+        "usable_phases": 3
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 80,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 80
+          },
+          {
+            "percentage": 50,
+            "power": 80
+          },
+          {
+            "percentage": 80,
+            "power": 40
+          },
+          {
+            "percentage": 100,
+            "power": 16
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "id": "4db06f95-3b39-4ad5-9d60-9e828b431b06",
+      "brand_id": "5a443827-160f-4f9d-6c54-33210a9f8e7d",
+      "vehicle_type": "car",
+      "charging_voltage": 400,
+      "usable_battery_size": 81.0,
+      "energy_consumption": {
+        "average_consumption": 20.8
+      }
+    },
+    {
+      "brand": "Skywell",
+      "model": "BE11 Standard Range",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2024,
+      "battery_size": 68,
+      "range": 330,
+      "consumption": 20.6,
+      "ac_charger": {
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.0,
+          "16": 11,
+          "22": 11,
+          "43": 11
+        },
+        "usable_phases": 3
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 80,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 80
+          },
+          {
+            "percentage": 50,
+            "power": 80
+          },
+          {
+            "percentage": 80,
+            "power": 40
+          },
+          {
+            "percentage": 100,
+            "power": 16
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "id": "9bb6da9c-c7e7-4502-9d68-92fa377ec115",
+      "brand_id": "5a443827-160f-4f9d-6c54-33210a9f8e7d",
+      "vehicle_type": "car",
+      "charging_voltage": 400,
+      "usable_battery_size": 68.0,
+      "energy_consumption": {
+        "average_consumption": 20.6
+      }
+    }
+  ]
+}

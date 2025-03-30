@@ -22,11 +22,11 @@
         "usable_phases": 3,
         "max_power": 22,
         "power_per_charging_point": {
-          "11": 11.0,
-          "16": 16.0,
-          "22": 22.0,
-          "43": 22.0,
-          "2.0": 2.0,
+          "11": 11,
+          "16": 16,
+          "22": 22,
+          "43": 22,
+          "2.0": 2,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4
@@ -79,11 +79,11 @@
         "usable_phases": 3,
         "max_power": 22,
         "power_per_charging_point": {
-          "11": 11.0,
-          "16": 16.0,
-          "22": 22.0,
-          "43": 22.0,
-          "2.0": 2.0,
+          "11": 11,
+          "16": 16,
+          "22": 22,
+          "43": 22,
+          "2.0": 2,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4
@@ -136,11 +136,11 @@
         "usable_phases": 3,
         "max_power": 22,
         "power_per_charging_point": {
-          "11": 11.0,
-          "16": 16.0,
-          "22": 22.0,
-          "43": 22.0,
-          "2.0": 2.0,
+          "11": 11,
+          "16": 16,
+          "22": 22,
+          "43": 22,
+          "2.0": 2,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4
@@ -193,11 +193,11 @@
         "usable_phases": 3,
         "max_power": 22,
         "power_per_charging_point": {
-          "11": 11.0,
-          "16": 16.0,
-          "22": 22.0,
-          "43": 22.0,
-          "2.0": 2.0,
+          "11": 11,
+          "16": 16,
+          "22": 22,
+          "43": 22,
+          "2.0": 2,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4
@@ -250,11 +250,11 @@
         "usable_phases": 3,
         "max_power": 22,
         "power_per_charging_point": {
-          "11": 11.0,
-          "16": 16.0,
-          "22": 22.0,
-          "43": 22.0,
-          "2.0": 2.0,
+          "11": 11,
+          "16": 16,
+          "22": 22,
+          "43": 22,
+          "2.0": 2,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4
@@ -286,6 +286,184 @@
         "is_default_charging_curve": true
       },
       "charging_voltage": 400
+    },
+    {
+      "brand": "Zeekr",
+      "model": "7X Performance AWD",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2025,
+      "range": 475,
+      "id": "b8840491-ecfb-41b6-b4b3-bc9af8a0e07e",
+      "brand_id": "71900a97-a91f-4b09-b78a-de7c654d41a0",
+      "usable_battery_size": 94,
+      "energy_consumption": {
+        "average_consumption": 19.8,
+        "range": 475
+      },
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 360,
+        "is_default_charging_curve": false,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 360
+          },
+          {
+            "percentage": 50,
+            "power": 360
+          },
+          {
+            "percentage": 80,
+            "power": 216
+          },
+          {
+            "percentage": 100,
+            "power": 108
+          }
+        ]
+      },
+      "vehicle_type": "car",
+      "charging_voltage": 400
+    },
+    {
+      "brand": "Zeekr",
+      "model": "7X Premium RWD",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2025,
+      "range": 390,
+      "id": "399a401a-035a-430f-8dcb-e5b3587970ec",
+      "brand_id": "71900a97-a91f-4b09-b78a-de7c654d41a0",
+      "usable_battery_size": 71,
+      "energy_consumption": {
+        "average_consumption": 18.2,
+        "range": 390
+      },
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 360,
+        "is_default_charging_curve": false,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 360
+          },
+          {
+            "percentage": 50,
+            "power": 360
+          },
+          {
+            "percentage": 80,
+            "power": 180
+          },
+          {
+            "percentage": 100,
+            "power": 72
+          }
+        ]
+      },
+      "vehicle_type": "car",
+      "charging_voltage": 400
+    },
+    {
+      "brand": "Zeekr",
+      "model": "7X Long Range RWD",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2025,
+      "battery_size": 94,
+      "range": 510,
+      "consumption": 18.4,
+      "ac_charger": {
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.0,
+          "16": 11,
+          "22": 11,
+          "43": 11
+        },
+        "usable_phases": 3
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 360,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 360
+          },
+          {
+            "percentage": 50,
+            "power": 360
+          },
+          {
+            "percentage": 80,
+            "power": 216
+          },
+          {
+            "percentage": 100,
+            "power": 108
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "id": "c4f6d361-2dc4-4338-ae95-88340fc694d2",
+      "brand_id": "71900a97-a91f-4b09-b78a-de7c654d41a0",
+      "vehicle_type": "car",
+      "charging_voltage": 400,
+      "usable_battery_size": 94.0,
+      "energy_consumption": {
+        "average_consumption": 18.4
+      }
     }
   ]
 }

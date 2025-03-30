@@ -1,10 +1,10 @@
 {
   "brand_id": "91c527ff-aa74-4dbb-9091-36fb5ddd44b6",
-  "brand_name": "Seat",
+  "brand_name": "SEAT",
   "models": [
     {
       "id": "2eea1ef2-0fd1-481d-adee-68044666614e",
-      "brand": "Seat",
+      "brand": "SEAT",
       "vehicle_type": "car",
       "type": "bev",
       "brand_id": "91c527ff-aa74-4dbb-9091-36fb5ddd44b6",
@@ -23,7 +23,7 @@
           "16": 7.2,
           "22": 7.2,
           "43": 7.2,
-          "2.0": 2.0,
+          "2.0": 2,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.2
@@ -58,6 +58,66 @@
         "average_consumption": 16.6
       },
       "charging_voltage": 400
+    },
+    {
+      "brand": "SEAT",
+      "model": "Mii Electric",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2020,
+      "battery_size": 32.3,
+      "range": 205,
+      "consumption": 15.8,
+      "ac_charger": {
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.0,
+          "16": 11,
+          "22": 11,
+          "43": 11
+        },
+        "usable_phases": 3
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 37,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 37
+          },
+          {
+            "percentage": 50,
+            "power": 37
+          },
+          {
+            "percentage": 80,
+            "power": 22.2
+          },
+          {
+            "percentage": 100,
+            "power": 11.1
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "id": "a3a49de6-975e-47d4-afeb-90f21e6a6f50",
+      "brand_id": "91c527ff-aa74-4dbb-9091-36fb5ddd44b6",
+      "vehicle_type": "car",
+      "charging_voltage": 400,
+      "usable_battery_size": 32.3,
+      "energy_consumption": {
+        "average_consumption": 15.8
+      }
     }
   ]
 }

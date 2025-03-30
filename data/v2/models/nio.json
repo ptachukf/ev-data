@@ -19,11 +19,11 @@
         ],
         "max_power": 11,
         "power_per_charging_point": {
-          "11": 11.0,
-          "16": 11.0,
-          "22": 11.0,
-          "43": 11.0,
-          "2.0": 2.0,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4
@@ -72,11 +72,11 @@
         ],
         "max_power": 11,
         "power_per_charging_point": {
-          "11": 11.0,
-          "16": 11.0,
-          "22": 11.0,
-          "43": 11.0,
-          "2.0": 2.0,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4
@@ -125,11 +125,11 @@
         ],
         "max_power": 11,
         "power_per_charging_point": {
-          "11": 11.0,
-          "16": 11.0,
-          "22": 11.0,
-          "43": 11.0,
-          "2.0": 2.0,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4
@@ -178,11 +178,11 @@
         ],
         "max_power": 11,
         "power_per_charging_point": {
-          "11": 11.0,
-          "16": 11.0,
-          "22": 11.0,
-          "43": 11.0,
-          "2.0": 2.0,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4
@@ -231,11 +231,11 @@
         ],
         "max_power": 11,
         "power_per_charging_point": {
-          "11": 11.0,
-          "16": 11.0,
-          "22": 11.0,
-          "43": 11.0,
-          "2.0": 2.0,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4
@@ -284,11 +284,11 @@
         ],
         "max_power": 11,
         "power_per_charging_point": {
-          "11": 11.0,
-          "16": 11.0,
-          "22": 11.0,
-          "43": 11.0,
-          "2.0": 2.0,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4
@@ -337,11 +337,11 @@
         ],
         "max_power": 11,
         "power_per_charging_point": {
-          "11": 11.0,
-          "16": 11.0,
-          "22": 11.0,
-          "43": 11.0,
-          "2.0": 2.0,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4
@@ -390,11 +390,11 @@
         ],
         "max_power": 11,
         "power_per_charging_point": {
-          "11": 11.0,
-          "16": 11.0,
-          "22": 11.0,
-          "43": 11.0,
-          "2.0": 2.0,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4
@@ -425,6 +425,542 @@
         "average_consumption": 17.8
       },
       "charging_voltage": 400
+    },
+    {
+      "brand": "NIO",
+      "model": "EL7 Long Range",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2022,
+      "range": 430,
+      "id": "062f5c3f-bdf5-4710-ad3c-9c3d8c94f1b4",
+      "brand_id": "2763ca2c-43b8-d4e4-f0ac-60f664743d72",
+      "usable_battery_size": 90,
+      "energy_consumption": {
+        "average_consumption": 20.9,
+        "range": 430
+      },
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 127,
+        "is_default_charging_curve": false,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 127
+          },
+          {
+            "percentage": 50,
+            "power": 127
+          },
+          {
+            "percentage": 80,
+            "power": 76.2
+          },
+          {
+            "percentage": 100,
+            "power": 38.1
+          }
+        ]
+      },
+      "vehicle_type": "car",
+      "charging_voltage": 400
+    },
+    {
+      "brand": "NIO",
+      "model": "ET7 Standard Range",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2022,
+      "range": 415,
+      "id": "2ba4aa86-99ff-4f17-bf73-78c5306841c2",
+      "brand_id": "2763ca2c-43b8-d4e4-f0ac-60f664743d72",
+      "usable_battery_size": 73.5,
+      "energy_consumption": {
+        "average_consumption": 17.7,
+        "range": 415
+      },
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 140,
+        "is_default_charging_curve": false,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 140
+          },
+          {
+            "percentage": 50,
+            "power": 140
+          },
+          {
+            "percentage": 80,
+            "power": 84
+          },
+          {
+            "percentage": 100,
+            "power": 42
+          }
+        ]
+      },
+      "vehicle_type": "car",
+      "charging_voltage": 400
+    },
+    {
+      "brand": "NIO",
+      "model": "EL6 Long Range",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2023,
+      "range": 435,
+      "id": "d42885b0-0c15-4db4-a1de-99021c897fda",
+      "brand_id": "2763ca2c-43b8-d4e4-f0ac-60f664743d72",
+      "usable_battery_size": 90,
+      "energy_consumption": {
+        "average_consumption": 20.7,
+        "range": 435
+      },
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 180,
+        "is_default_charging_curve": false,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 180
+          },
+          {
+            "percentage": 50,
+            "power": 180
+          },
+          {
+            "percentage": 80,
+            "power": 108
+          },
+          {
+            "percentage": 100,
+            "power": 54
+          }
+        ]
+      },
+      "vehicle_type": "car",
+      "charging_voltage": 400
+    },
+    {
+      "brand": "NIO",
+      "model": "ET7 Long Range",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2022,
+      "range": 505,
+      "id": "6adb04c2-3e3c-46c7-ab61-212efb4488e4",
+      "brand_id": "2763ca2c-43b8-d4e4-f0ac-60f664743d72",
+      "usable_battery_size": 90,
+      "energy_consumption": {
+        "average_consumption": 17.8,
+        "range": 505
+      },
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 127,
+        "is_default_charging_curve": false,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 127
+          },
+          {
+            "percentage": 50,
+            "power": 127
+          },
+          {
+            "percentage": 80,
+            "power": 76.2
+          },
+          {
+            "percentage": 100,
+            "power": 38.1
+          }
+        ]
+      },
+      "vehicle_type": "car",
+      "charging_voltage": 400
+    },
+    {
+      "brand": "NIO",
+      "model": "ET5 Touring Long Range",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2023,
+      "battery_size": 90,
+      "range": 485,
+      "consumption": 18.6,
+      "ac_charger": {
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.0,
+          "16": 11,
+          "22": 11,
+          "43": 11
+        },
+        "usable_phases": 3
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 180,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 180
+          },
+          {
+            "percentage": 50,
+            "power": 180
+          },
+          {
+            "percentage": 80,
+            "power": 108
+          },
+          {
+            "percentage": 100,
+            "power": 54
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "id": "a3f6aa3f-fa42-4d63-89e7-bae07b8b52b0",
+      "brand_id": "2763ca2c-43b8-d4e4-f0ac-60f664743d72",
+      "vehicle_type": "car",
+      "charging_voltage": 400,
+      "usable_battery_size": 100.0,
+      "energy_consumption": {
+        "average_consumption": 18.0
+      }
+    },
+    {
+      "brand": "NIO",
+      "model": "ET5 Standard Range",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2022,
+      "battery_size": 73.5,
+      "range": 410,
+      "consumption": 17.9,
+      "ac_charger": {
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.0,
+          "16": 11,
+          "22": 11,
+          "43": 11
+        },
+        "usable_phases": 3
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 140,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 140
+          },
+          {
+            "percentage": 50,
+            "power": 140
+          },
+          {
+            "percentage": 80,
+            "power": 84
+          },
+          {
+            "percentage": 100,
+            "power": 42
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "id": "6bc6f3f5-1f31-40d4-a671-01b8779d464f",
+      "brand_id": "2763ca2c-43b8-d4e4-f0ac-60f664743d72",
+      "vehicle_type": "car",
+      "charging_voltage": 400,
+      "usable_battery_size": 75.0,
+      "energy_consumption": {
+        "average_consumption": 18.0
+      }
+    },
+    {
+      "brand": "NIO",
+      "model": "EL6 Standard Range",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2023,
+      "battery_size": 73.5,
+      "range": 365,
+      "consumption": 20.1,
+      "ac_charger": {
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.0,
+          "16": 11,
+          "22": 11,
+          "43": 11
+        },
+        "usable_phases": 3
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 140,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 140
+          },
+          {
+            "percentage": 50,
+            "power": 140
+          },
+          {
+            "percentage": 80,
+            "power": 84
+          },
+          {
+            "percentage": 100,
+            "power": 42
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "id": "bc8bff05-0b9c-43c8-b913-6952282c0010",
+      "brand_id": "2763ca2c-43b8-d4e4-f0ac-60f664743d72",
+      "vehicle_type": "car",
+      "charging_voltage": 400,
+      "usable_battery_size": 75.0,
+      "energy_consumption": {
+        "average_consumption": 19.5
+      }
+    },
+    {
+      "brand": "NIO",
+      "model": "ET5 Touring Standard Range",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2023,
+      "battery_size": 73.5,
+      "range": 400,
+      "consumption": 18.4,
+      "ac_charger": {
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.0,
+          "16": 11,
+          "22": 11,
+          "43": 11
+        },
+        "usable_phases": 3
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 140,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 140
+          },
+          {
+            "percentage": 50,
+            "power": 140
+          },
+          {
+            "percentage": 80,
+            "power": 84
+          },
+          {
+            "percentage": 100,
+            "power": 42
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "id": "e68ba3f7-46f5-4c81-b55e-d2d8ae0a1643",
+      "brand_id": "2763ca2c-43b8-d4e4-f0ac-60f664743d72",
+      "vehicle_type": "car",
+      "charging_voltage": 400,
+      "usable_battery_size": 75.0,
+      "energy_consumption": {
+        "average_consumption": 18.0
+      }
+    },
+    {
+      "brand": "NIO",
+      "model": "EL7 Standard Range",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2022,
+      "battery_size": 73.5,
+      "range": 355,
+      "consumption": 20.7,
+      "ac_charger": {
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.0,
+          "16": 11,
+          "22": 11,
+          "43": 11
+        },
+        "usable_phases": 3
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 140,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 140
+          },
+          {
+            "percentage": 50,
+            "power": 140
+          },
+          {
+            "percentage": 80,
+            "power": 84
+          },
+          {
+            "percentage": 100,
+            "power": 42
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "id": "4c68df8f-6a35-4be4-8300-a4d5472db8a5",
+      "brand_id": "2763ca2c-43b8-d4e4-f0ac-60f664743d72",
+      "vehicle_type": "car",
+      "charging_voltage": 400,
+      "usable_battery_size": 75.0,
+      "energy_consumption": {
+        "average_consumption": 20.5
+      }
     }
   ]
 }

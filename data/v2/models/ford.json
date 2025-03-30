@@ -23,7 +23,7 @@
           "16": 5.4,
           "22": 6.6,
           "43": 6.6,
-          "2.0": 2.0,
+          "2.0": 2,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 6.6
@@ -76,7 +76,7 @@
           "16": 5.4,
           "22": 6.6,
           "43": 6.6,
-          "2.0": 2.0,
+          "2.0": 2,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 6.6
@@ -105,11 +105,11 @@
         ],
         "max_power": 11,
         "power_per_charging_point": {
-          "11": 11.0,
-          "16": 11.0,
-          "22": 11.0,
-          "43": 11.0,
-          "2.0": 2.0,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4
@@ -166,11 +166,11 @@
         ],
         "max_power": 11,
         "power_per_charging_point": {
-          "11": 11.0,
-          "16": 11.0,
-          "22": 11.0,
-          "43": 11.0,
-          "2.0": 2.0,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4
@@ -227,11 +227,11 @@
         ],
         "max_power": 11,
         "power_per_charging_point": {
-          "11": 11.0,
-          "16": 11.0,
-          "22": 11.0,
-          "43": 11.0,
-          "2.0": 2.0,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4
@@ -288,11 +288,11 @@
         ],
         "max_power": 11,
         "power_per_charging_point": {
-          "11": 11.0,
-          "16": 11.0,
-          "22": 11.0,
-          "43": 11.0,
-          "2.0": 2.0,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4
@@ -349,11 +349,11 @@
         ],
         "max_power": 11,
         "power_per_charging_point": {
-          "11": 11.0,
-          "16": 11.0,
-          "22": 11.0,
-          "43": 11.0,
-          "2.0": 2.0,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4
@@ -391,6 +391,761 @@
       "energy_consumption": {
         "average_consumption": 16.5
       },
+      "charging_voltage": 400
+    },
+    {
+      "brand": "Ford",
+      "model": "Puma Gen-E",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2024,
+      "range": 275,
+      "id": "1f679d9e-ca47-4cb0-b86f-f9f96dbddb29",
+      "brand_id": "6cf9e9b6-28aa-44c7-b6c3-438d518ac12f",
+      "usable_battery_size": 43.6,
+      "energy_consumption": {
+        "average_consumption": 15.9,
+        "range": 275
+      },
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 100,
+        "is_default_charging_curve": false,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 100
+          },
+          {
+            "percentage": 50,
+            "power": 100
+          },
+          {
+            "percentage": 80,
+            "power": 60
+          },
+          {
+            "percentage": 100,
+            "power": 30
+          }
+        ]
+      },
+      "vehicle_type": "car",
+      "charging_voltage": 400
+    },
+    {
+      "brand": "Ford",
+      "model": "Capri Extended Range RWD",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2024,
+      "range": 455,
+      "id": "a85ff817-5358-4092-928e-b5518e64a30d",
+      "brand_id": "6cf9e9b6-28aa-44c7-b6c3-438d518ac12f",
+      "usable_battery_size": 77,
+      "energy_consumption": {
+        "average_consumption": 16.9,
+        "range": 455
+      },
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 135,
+        "is_default_charging_curve": false,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 135
+          },
+          {
+            "percentage": 50,
+            "power": 135
+          },
+          {
+            "percentage": 80,
+            "power": 81
+          },
+          {
+            "percentage": 100,
+            "power": 40.5
+          }
+        ]
+      },
+      "vehicle_type": "car",
+      "charging_voltage": 400
+    },
+    {
+      "brand": "Ford",
+      "model": "Mustang Mach-E ER RWD",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2024,
+      "range": 480,
+      "id": "654b8a0f-80f9-4577-8349-95d87169882e",
+      "brand_id": "6cf9e9b6-28aa-44c7-b6c3-438d518ac12f",
+      "usable_battery_size": 91,
+      "energy_consumption": {
+        "average_consumption": 19,
+        "range": 480
+      },
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 150,
+        "is_default_charging_curve": false,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 150
+          },
+          {
+            "percentage": 50,
+            "power": 150
+          },
+          {
+            "percentage": 80,
+            "power": 90
+          },
+          {
+            "percentage": 100,
+            "power": 45
+          }
+        ]
+      },
+      "vehicle_type": "car",
+      "charging_voltage": 400
+    },
+    {
+      "brand": "Ford",
+      "model": "Capri Extended Range AWD",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2024,
+      "range": 455,
+      "id": "cfcc8774-9626-454b-a3c8-3c009ad240ce",
+      "brand_id": "6cf9e9b6-28aa-44c7-b6c3-438d518ac12f",
+      "usable_battery_size": 79,
+      "energy_consumption": {
+        "average_consumption": 17.4,
+        "range": 455
+      },
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 185,
+        "is_default_charging_curve": false,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 185
+          },
+          {
+            "percentage": 50,
+            "power": 185
+          },
+          {
+            "percentage": 80,
+            "power": 111
+          },
+          {
+            "percentage": 100,
+            "power": 55.5
+          }
+        ]
+      },
+      "vehicle_type": "car",
+      "charging_voltage": 400
+    },
+    {
+      "brand": "Ford",
+      "model": "Explorer Extended Range AWD",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2024,
+      "range": 440,
+      "id": "b075897d-5450-4749-9db8-2e62e014bcd1",
+      "brand_id": "6cf9e9b6-28aa-44c7-b6c3-438d518ac12f",
+      "usable_battery_size": 79,
+      "energy_consumption": {
+        "average_consumption": 18,
+        "range": 440
+      },
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 185,
+        "is_default_charging_curve": false,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 185
+          },
+          {
+            "percentage": 50,
+            "power": 185
+          },
+          {
+            "percentage": 80,
+            "power": 111
+          },
+          {
+            "percentage": 100,
+            "power": 55.5
+          }
+        ]
+      },
+      "vehicle_type": "car",
+      "charging_voltage": 400
+    },
+    {
+      "brand": "Ford",
+      "model": "Mustang Mach-E ER AWD",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2024,
+      "battery_size": 91,
+      "range": 500,
+      "consumption": 20.7,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 115,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.0,
+          "16": 16.0,
+          "22": 22.0,
+          "43": 43.0
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 150,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 150
+          },
+          {
+            "percentage": 50,
+            "power": 150
+          },
+          {
+            "percentage": 80,
+            "power": 90
+          },
+          {
+            "percentage": 100,
+            "power": 45
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "id": "cb06741d-b006-45bf-bd46-d8780e553150",
+      "brand_id": "6cf9e9b6-28aa-44c7-b6c3-438d518ac12f",
+      "usable_battery_size": 91,
+      "nominal_battery_size": 98.7,
+      "battery_type": "Lithium-ion",
+      "energy_consumption": {
+        "average_consumption": 20.7
+      },
+      "vehicle_type": "car",
+      "charging_voltage": 400
+    },
+    {
+      "brand": "Ford",
+      "model": "Capri Standard Range RWD",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2024,
+      "battery_size": 52,
+      "range": 320,
+      "consumption": 16.3,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.0,
+          "16": 11,
+          "22": 11,
+          "43": 11
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 145,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 145
+          },
+          {
+            "percentage": 50,
+            "power": 145
+          },
+          {
+            "percentage": 80,
+            "power": 72.5
+          },
+          {
+            "percentage": 100,
+            "power": 29
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "id": "2549345e-fdf2-43e4-ba96-1f7643100056",
+      "brand_id": "6cf9e9b6-28aa-44c7-b6c3-438d518ac12f",
+      "usable_battery_size": 52,
+      "energy_consumption": {
+        "average_consumption": 16.3
+      },
+      "vehicle_type": "car",
+      "charging_voltage": 400
+    },
+    {
+      "brand": "Ford",
+      "model": "Explorer Extended Range RWD",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2024,
+      "battery_size": 79,
+      "range": 435,
+      "consumption": 17.6,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.0,
+          "16": 11,
+          "22": 11,
+          "43": 11
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 135,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 135
+          },
+          {
+            "percentage": 50,
+            "power": 135
+          },
+          {
+            "percentage": 80,
+            "power": 81
+          },
+          {
+            "percentage": 100,
+            "power": 40.5
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "id": "d44abee9-5e05-4438-984c-d35bbab84c1b",
+      "brand_id": "6cf9e9b6-28aa-44c7-b6c3-438d518ac12f",
+      "usable_battery_size": 77,
+      "energy_consumption": {
+        "average_consumption": 17.7
+      },
+      "vehicle_type": "car",
+      "charging_voltage": 400
+    },
+    {
+      "brand": "Ford",
+      "model": "Explorer Standard Range RWD",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2024,
+      "battery_size": 52,
+      "range": 305,
+      "consumption": 17,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.0,
+          "16": 11,
+          "22": 11,
+          "43": 11
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 145,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 145
+          },
+          {
+            "percentage": 50,
+            "power": 145
+          },
+          {
+            "percentage": 80,
+            "power": 72.5
+          },
+          {
+            "percentage": 100,
+            "power": 29
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "id": "99e0abb4-782c-4a54-bd3e-5f287aed0afb",
+      "brand_id": "6cf9e9b6-28aa-44c7-b6c3-438d518ac12f",
+      "usable_battery_size": 52,
+      "energy_consumption": {
+        "average_consumption": 17
+      },
+      "vehicle_type": "car",
+      "charging_voltage": 400
+    },
+    {
+      "brand": "Ford",
+      "model": "Mustang Mach-E SR RWD",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2024,
+      "battery_size": 72.6,
+      "range": 435,
+      "consumption": 18.9,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 95,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.0,
+          "16": 16.0,
+          "22": 22.0,
+          "43": 43.0
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 150,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 150
+          },
+          {
+            "percentage": 50,
+            "power": 150
+          },
+          {
+            "percentage": 80,
+            "power": 75
+          },
+          {
+            "percentage": 100,
+            "power": 30
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "id": "13eb81e6-536c-42e5-b996-ad41cf948d25",
+      "brand_id": "6cf9e9b6-28aa-44c7-b6c3-438d518ac12f",
+      "usable_battery_size": 72.6,
+      "nominal_battery_size": 75,
+      "battery_type": "Lithium-ion",
+      "energy_consumption": {
+        "average_consumption": 18.9
+      },
+      "vehicle_type": "car",
+      "charging_voltage": 400
+    },
+    {
+      "brand": "Ford",
+      "model": "Mustang Mach-E Rally",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2024,
+      "battery_size": 91,
+      "range": 410,
+      "consumption": 22.2,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.0,
+          "16": 11,
+          "22": 11,
+          "43": 11
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 150,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 150
+          },
+          {
+            "percentage": 50,
+            "power": 150
+          },
+          {
+            "percentage": 80,
+            "power": 90
+          },
+          {
+            "percentage": 100,
+            "power": 45
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "id": "f7429e36-b03b-4589-8230-2604748bb25c",
+      "brand_id": "6cf9e9b6-28aa-44c7-b6c3-438d518ac12f",
+      "usable_battery_size": 91,
+      "energy_consumption": {
+        "average_consumption": 22.2
+      },
+      "vehicle_type": "car",
+      "charging_voltage": 400
+    },
+    {
+      "brand": "Ford",
+      "model": "Mustang Mach-E SR AWD",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2024,
+      "battery_size": 72.6,
+      "range": 395,
+      "consumption": 20.7,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 95,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.0,
+          "16": 16.0,
+          "22": 22.0,
+          "43": 43.0
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 150,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 150
+          },
+          {
+            "percentage": 50,
+            "power": 150
+          },
+          {
+            "percentage": 80,
+            "power": 75
+          },
+          {
+            "percentage": 100,
+            "power": 30
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "id": "00ad1272-18a0-443e-a38f-fb7021270ff1",
+      "brand_id": "6cf9e9b6-28aa-44c7-b6c3-438d518ac12f",
+      "usable_battery_size": 72.6,
+      "nominal_battery_size": 75,
+      "battery_type": "Lithium-ion",
+      "energy_consumption": {
+        "average_consumption": 20.7
+      },
+      "vehicle_type": "car",
+      "charging_voltage": 400
+    },
+    {
+      "brand": "Ford",
+      "model": "Focus Electric",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2013,
+      "usable_battery_size": 19.6,
+      "range": 105,
+      "energy_consumption": {
+        "average_consumption": 18.6
+      },
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.0,
+          "16": 11,
+          "22": 11,
+          "43": 11
+        }
+      },
+      "dc_charger": null,
+      "id": "95f31d11-6317-41d4-a144-695223ec9ca0",
+      "brand_id": "6cf9e9b6-28aa-44c7-b6c3-438d518ac12f",
+      "vehicle_type": "car",
       "charging_voltage": 400
     }
   ]

@@ -19,11 +19,11 @@
         ],
         "max_power": 11,
         "power_per_charging_point": {
-          "11": 11.0,
-          "16": 11.0,
-          "22": 11.0,
-          "43": 11.0,
-          "2.0": 2.0,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4
@@ -108,7 +108,7 @@
           "16": 5.4,
           "22": 7.4,
           "43": 7.4,
-          "2.0": 2.0,
+          "2.0": 2,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4
@@ -138,6 +138,308 @@
       "energy_consumption": {
         "average_consumption": 18.4
       },
+      "charging_voltage": 400
+    },
+    {
+      "brand": "DS",
+      "model": "N°8 FWD Long Range",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2024,
+      "range": 555,
+      "id": "c4b087b3-3e2c-4723-ab25-cc9d5fe8a159",
+      "brand_id": "37bfdacf-1aca-4eb7-8daa-8dc5b14c59e9",
+      "usable_battery_size": 97.2,
+      "energy_consumption": {
+        "average_consumption": 17.5,
+        "range": 555
+      },
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 200,
+        "is_default_charging_curve": false,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 200
+          },
+          {
+            "percentage": 50,
+            "power": 200
+          },
+          {
+            "percentage": 80,
+            "power": 100
+          },
+          {
+            "percentage": 100,
+            "power": 40
+          }
+        ]
+      },
+      "vehicle_type": "car",
+      "charging_voltage": 400
+    },
+    {
+      "brand": "DS",
+      "model": "N°8 AWD Long Range",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2024,
+      "range": 535,
+      "id": "76a9bb0f-4256-46d5-8795-5614a2733735",
+      "brand_id": "37bfdacf-1aca-4eb7-8daa-8dc5b14c59e9",
+      "usable_battery_size": 97.2,
+      "energy_consumption": {
+        "average_consumption": 18.2,
+        "range": 535
+      },
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 200,
+        "is_default_charging_curve": false,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 200
+          },
+          {
+            "percentage": 50,
+            "power": 200
+          },
+          {
+            "percentage": 80,
+            "power": 100
+          },
+          {
+            "percentage": 100,
+            "power": 40
+          }
+        ]
+      },
+      "vehicle_type": "car",
+      "charging_voltage": 400
+    },
+    {
+      "brand": "DS",
+      "model": "3 E-Tense",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2022,
+      "battery_size": 50.8,
+      "range": 345,
+      "consumption": 16.9,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 85,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.0,
+          "16": 16.0,
+          "22": 22.0,
+          "43": 43.0
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 100,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 100
+          },
+          {
+            "percentage": 50,
+            "power": 100
+          },
+          {
+            "percentage": 80,
+            "power": 60
+          },
+          {
+            "percentage": 100,
+            "power": 30
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "id": "6e7d9d39-c9cf-4fa0-8aa8-316641daf63d",
+      "brand_id": "37bfdacf-1aca-4eb7-8daa-8dc5b14c59e9",
+      "usable_battery_size": 50.8,
+      "nominal_battery_size": 54,
+      "battery_type": "Lithium-ion",
+      "energy_consumption": {
+        "average_consumption": 16.9
+      },
+      "vehicle_type": "car",
+      "charging_voltage": 400
+    },
+    {
+      "brand": "DS",
+      "model": "3 Crossback E-Tense",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2021,
+      "battery_size": 46.3,
+      "range": 305,
+      "consumption": 17.5,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 78,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.0,
+          "16": 16.0,
+          "22": 22.0,
+          "43": 43.0
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 101,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 101
+          },
+          {
+            "percentage": 50,
+            "power": 101
+          },
+          {
+            "percentage": 80,
+            "power": 60.599999999999994
+          },
+          {
+            "percentage": 100,
+            "power": 30.299999999999997
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "id": "cf1010ad-5985-4d73-8d7f-47a4b922c49c",
+      "brand_id": "37bfdacf-1aca-4eb7-8daa-8dc5b14c59e9",
+      "usable_battery_size": 46.3,
+      "nominal_battery_size": 50,
+      "battery_type": "Lithium-ion",
+      "energy_consumption": {
+        "average_consumption": 17.5
+      },
+      "vehicle_type": "car",
+      "charging_voltage": 400
+    },
+    {
+      "brand": "DS",
+      "model": "N°8 FWD",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2024,
+      "battery_size": 74,
+      "range": 425,
+      "consumption": 17.4,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.0,
+          "16": 11,
+          "22": 11,
+          "43": 11
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 160,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 160
+          },
+          {
+            "percentage": 50,
+            "power": 160
+          },
+          {
+            "percentage": 80,
+            "power": 80
+          },
+          {
+            "percentage": 100,
+            "power": 32
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "id": "b8f734dd-f727-4217-9475-652fb12f37ed",
+      "brand_id": "37bfdacf-1aca-4eb7-8daa-8dc5b14c59e9",
+      "usable_battery_size": 74,
+      "energy_consumption": {
+        "average_consumption": 17.4
+      },
+      "vehicle_type": "car",
       "charging_voltage": 400
     }
   ]

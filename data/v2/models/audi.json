@@ -19,11 +19,11 @@
         ],
         "max_power": 11,
         "power_per_charging_point": {
-          "11": 11.0,
-          "16": 11.0,
-          "22": 11.0,
-          "43": 11.0,
-          "2.0": 2.0,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4
@@ -72,11 +72,11 @@
         ],
         "max_power": 11,
         "power_per_charging_point": {
-          "11": 11.0,
-          "16": 11.0,
-          "22": 11.0,
-          "43": 11.0,
-          "2.0": 2.0,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4
@@ -129,7 +129,7 @@
           "16": 7.2,
           "22": 7.2,
           "43": 7.2,
-          "2.0": 2.0,
+          "2.0": 2,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.2
@@ -178,11 +178,11 @@
         ],
         "max_power": 11,
         "power_per_charging_point": {
-          "11": 11.0,
-          "16": 11.0,
-          "22": 11.0,
-          "43": 11.0,
-          "2.0": 2.0,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4
@@ -243,7 +243,7 @@
           "16": 7.2,
           "22": 7.2,
           "43": 7.2,
-          "2.0": 2.0,
+          "2.0": 2,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.2
@@ -292,11 +292,11 @@
         ],
         "max_power": 11,
         "power_per_charging_point": {
-          "11": 11.0,
-          "16": 11.0,
-          "22": 11.0,
-          "43": 11.0,
-          "2.0": 2.0,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4
@@ -357,11 +357,11 @@
         ],
         "max_power": 11,
         "power_per_charging_point": {
-          "11": 11.0,
-          "16": 11.0,
-          "22": 11.0,
-          "43": 11.0,
-          "2.0": 2.0,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4
@@ -410,11 +410,11 @@
         ],
         "max_power": 11,
         "power_per_charging_point": {
-          "11": 11.0,
-          "16": 11.0,
-          "22": 11.0,
-          "43": 11.0,
-          "2.0": 2.0,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4
@@ -475,11 +475,11 @@
         ],
         "max_power": 11,
         "power_per_charging_point": {
-          "11": 11.0,
-          "16": 11.0,
-          "22": 11.0,
-          "43": 11.0,
-          "2.0": 2.0,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4
@@ -528,11 +528,11 @@
         ],
         "max_power": 11,
         "power_per_charging_point": {
-          "11": 11.0,
-          "16": 11.0,
-          "22": 11.0,
-          "43": 11.0,
-          "2.0": 2.0,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4
@@ -581,11 +581,11 @@
         ],
         "max_power": 11,
         "power_per_charging_point": {
-          "11": 11.0,
-          "16": 11.0,
-          "22": 11.0,
-          "43": 11.0,
-          "2.0": 2.0,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4
@@ -634,11 +634,11 @@
         ],
         "max_power": 11,
         "power_per_charging_point": {
-          "11": 11.0,
-          "16": 11.0,
-          "22": 11.0,
-          "43": 11.0,
-          "2.0": 2.0,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4
@@ -687,11 +687,11 @@
         ],
         "max_power": 11,
         "power_per_charging_point": {
-          "11": 11.0,
-          "16": 11.0,
-          "22": 11.0,
-          "43": 11.0,
-          "2.0": 2.0,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4
@@ -740,11 +740,11 @@
         ],
         "max_power": 11,
         "power_per_charging_point": {
-          "11": 11.0,
-          "16": 11.0,
-          "22": 11.0,
-          "43": 11.0,
-          "2.0": 2.0,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4
@@ -793,11 +793,11 @@
         ],
         "max_power": 11,
         "power_per_charging_point": {
-          "11": 11.0,
-          "16": 11.0,
-          "22": 11.0,
-          "43": 11.0,
-          "2.0": 2.0,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4
@@ -864,9 +864,9 @@
         "power_per_charging_point": {
           "11": 11.1,
           "16": 16.2,
-          "22": 22.0,
-          "43": 22.0,
-          "2.0": 2.0,
+          "22": 22,
+          "43": 22,
+          "2.0": 2,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4
@@ -931,11 +931,11 @@
         ],
         "max_power": 11,
         "power_per_charging_point": {
-          "11": 11.0,
-          "16": 11.0,
-          "22": 11.0,
-          "43": 11.0,
-          "2.0": 2.0,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4
@@ -998,9 +998,9 @@
         "power_per_charging_point": {
           "11": 11.1,
           "16": 16.2,
-          "22": 22.0,
-          "43": 22.0,
-          "2.0": 2.0,
+          "22": 22,
+          "43": 22,
+          "2.0": 2,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4
@@ -1063,9 +1063,9 @@
         "power_per_charging_point": {
           "11": 11.1,
           "16": 16.2,
-          "22": 22.0,
-          "43": 22.0,
-          "2.0": 2.0,
+          "22": 22,
+          "43": 22,
+          "2.0": 2,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4
@@ -1132,9 +1132,9 @@
         "power_per_charging_point": {
           "11": 11.1,
           "16": 16.2,
-          "22": 22.0,
-          "43": 22.0,
-          "2.0": 2.0,
+          "22": 22,
+          "43": 22,
+          "2.0": 2,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4
@@ -1176,6 +1176,1698 @@
       "energy_consumption": {
         "average_consumption": 27
       },
+      "charging_voltage": 400
+    },
+    {
+      "brand": "Audi",
+      "model": "e-tron GT quattro",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2021,
+      "range": 420,
+      "id": "c945af76-3df3-4f30-bc19-a3b4b1d83be9",
+      "brand_id": "89c2668c-0c50-4344-9386-93e4000f7673",
+      "usable_battery_size": 85,
+      "energy_consumption": {
+        "average_consumption": 20.2,
+        "range": 420
+      },
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 268,
+        "is_default_charging_curve": false,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 268
+          },
+          {
+            "percentage": 50,
+            "power": 268
+          },
+          {
+            "percentage": 80,
+            "power": 160.79999999999998
+          },
+          {
+            "percentage": 100,
+            "power": 80.39999999999999
+          }
+        ]
+      },
+      "vehicle_type": "car",
+      "charging_voltage": 400
+    },
+    {
+      "brand": "Audi",
+      "model": "A6 Sportback e-tron quattro",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2024,
+      "range": 585,
+      "id": "4c2c01f1-81ea-4c26-bc26-8d57ab2dbc33",
+      "brand_id": "89c2668c-0c50-4344-9386-93e4000f7673",
+      "usable_battery_size": 94.9,
+      "energy_consumption": {
+        "average_consumption": 16.2,
+        "range": 585
+      },
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 270,
+        "is_default_charging_curve": false,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 270
+          },
+          {
+            "percentage": 50,
+            "power": 270
+          },
+          {
+            "percentage": 80,
+            "power": 162
+          },
+          {
+            "percentage": 100,
+            "power": 81
+          }
+        ]
+      },
+      "vehicle_type": "car",
+      "charging_voltage": 400
+    },
+    {
+      "brand": "Audi",
+      "model": "e-tron GT RS",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2024,
+      "range": 525,
+      "id": "72539c24-2a60-48be-976e-7b309db2f579",
+      "brand_id": "89c2668c-0c50-4344-9386-93e4000f7673",
+      "usable_battery_size": 97,
+      "energy_consumption": {
+        "average_consumption": 18.5,
+        "range": 525
+      },
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 320,
+        "is_default_charging_curve": false,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 320
+          },
+          {
+            "percentage": 50,
+            "power": 320
+          },
+          {
+            "percentage": 80,
+            "power": 192
+          },
+          {
+            "percentage": 100,
+            "power": 96
+          }
+        ]
+      },
+      "vehicle_type": "car",
+      "charging_voltage": 400
+    },
+    {
+      "brand": "Audi",
+      "model": "e-tron GT S",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2024,
+      "range": 540,
+      "id": "1cc5ae76-c065-4330-b08a-79c2323afc98",
+      "brand_id": "89c2668c-0c50-4344-9386-93e4000f7673",
+      "usable_battery_size": 97,
+      "energy_consumption": {
+        "average_consumption": 18,
+        "range": 540
+      },
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 320,
+        "is_default_charging_curve": false,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 320
+          },
+          {
+            "percentage": 50,
+            "power": 320
+          },
+          {
+            "percentage": 80,
+            "power": 192
+          },
+          {
+            "percentage": 100,
+            "power": 96
+          }
+        ]
+      },
+      "vehicle_type": "car",
+      "charging_voltage": 400
+    },
+    {
+      "brand": "Audi",
+      "model": "A6 Avant e-tron quattro",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2024,
+      "range": 535,
+      "id": "12aec4b8-620a-4daf-863f-4a78169ae7b5",
+      "brand_id": "89c2668c-0c50-4344-9386-93e4000f7673",
+      "usable_battery_size": 94.9,
+      "energy_consumption": {
+        "average_consumption": 17.7,
+        "range": 535
+      },
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 270,
+        "is_default_charging_curve": false,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 270
+          },
+          {
+            "percentage": 50,
+            "power": 270
+          },
+          {
+            "percentage": 80,
+            "power": 162
+          },
+          {
+            "percentage": 100,
+            "power": 81
+          }
+        ]
+      },
+      "vehicle_type": "car",
+      "charging_voltage": 400
+    },
+    {
+      "brand": "Audi",
+      "model": "Q6 e-tron",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2024,
+      "range": 395,
+      "id": "dbd1a40b-c680-4af1-a58f-07d7486668bd",
+      "brand_id": "89c2668c-0c50-4344-9386-93e4000f7673",
+      "usable_battery_size": 75.8,
+      "energy_consumption": {
+        "average_consumption": 19.2,
+        "range": 395
+      },
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 225,
+        "is_default_charging_curve": false,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 225
+          },
+          {
+            "percentage": 50,
+            "power": 225
+          },
+          {
+            "percentage": 80,
+            "power": 112.5
+          },
+          {
+            "percentage": 100,
+            "power": 45
+          }
+        ]
+      },
+      "vehicle_type": "car",
+      "charging_voltage": 400
+    },
+    {
+      "brand": "Audi",
+      "model": "e-tron Sportback 55 quattro",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2020,
+      "range": 380,
+      "id": "61ba8028-b272-4e02-97a8-367f8cf89c55",
+      "brand_id": "89c2668c-0c50-4344-9386-93e4000f7673",
+      "usable_battery_size": 86.5,
+      "energy_consumption": {
+        "average_consumption": 22.8,
+        "range": 380
+      },
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 155,
+        "is_default_charging_curve": false,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 155
+          },
+          {
+            "percentage": 50,
+            "power": 155
+          },
+          {
+            "percentage": 80,
+            "power": 93
+          },
+          {
+            "percentage": 100,
+            "power": 46.5
+          }
+        ]
+      },
+      "vehicle_type": "car",
+      "charging_voltage": 400
+    },
+    {
+      "brand": "Audi",
+      "model": "Q4 e-tron 55 quattro",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2023,
+      "range": 395,
+      "id": "80a8992c-3246-4b00-b49d-e9d9ca153a4a",
+      "brand_id": "89c2668c-0c50-4344-9386-93e4000f7673",
+      "usable_battery_size": 77,
+      "energy_consumption": {
+        "average_consumption": 19.5,
+        "range": 395
+      },
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 175,
+        "is_default_charging_curve": false,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 175
+          },
+          {
+            "percentage": 50,
+            "power": 175
+          },
+          {
+            "percentage": 80,
+            "power": 87.5
+          },
+          {
+            "percentage": 100,
+            "power": 35
+          }
+        ]
+      },
+      "vehicle_type": "car",
+      "charging_voltage": 400
+    },
+    {
+      "brand": "Audi",
+      "model": "A6 Avant e-tron",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2024,
+      "range": 475,
+      "id": "f1f9e903-142e-486f-a2bf-ac30d523aa82",
+      "brand_id": "89c2668c-0c50-4344-9386-93e4000f7673",
+      "usable_battery_size": 75.8,
+      "energy_consumption": {
+        "average_consumption": 16,
+        "range": 475
+      },
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 225,
+        "is_default_charging_curve": false,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 225
+          },
+          {
+            "percentage": 50,
+            "power": 225
+          },
+          {
+            "percentage": 80,
+            "power": 112.5
+          },
+          {
+            "percentage": 100,
+            "power": 45
+          }
+        ]
+      },
+      "vehicle_type": "car",
+      "charging_voltage": 400
+    },
+    {
+      "brand": "Audi",
+      "model": "A6 Sportback e-tron",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2024,
+      "range": 485,
+      "id": "6e50ee19-233b-4324-914e-8e44662b9d13",
+      "brand_id": "89c2668c-0c50-4344-9386-93e4000f7673",
+      "usable_battery_size": 75.8,
+      "energy_consumption": {
+        "average_consumption": 15.6,
+        "range": 485
+      },
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 225,
+        "is_default_charging_curve": false,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 225
+          },
+          {
+            "percentage": 50,
+            "power": 225
+          },
+          {
+            "percentage": 80,
+            "power": 112.5
+          },
+          {
+            "percentage": 100,
+            "power": 45
+          }
+        ]
+      },
+      "vehicle_type": "car",
+      "charging_voltage": 400
+    },
+    {
+      "brand": "Audi",
+      "model": "e-tron 50 quattro",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2021,
+      "range": 280,
+      "id": "b79ce407-2cd0-4846-96a4-3abb16485e26",
+      "brand_id": "89c2668c-0c50-4344-9386-93e4000f7673",
+      "usable_battery_size": 64.7,
+      "energy_consumption": {
+        "average_consumption": 23.1,
+        "range": 280
+      },
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 120,
+        "is_default_charging_curve": false,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 120
+          },
+          {
+            "percentage": 50,
+            "power": 120
+          },
+          {
+            "percentage": 80,
+            "power": 72
+          },
+          {
+            "percentage": 100,
+            "power": 36
+          }
+        ]
+      },
+      "vehicle_type": "car",
+      "charging_voltage": 400
+    },
+    {
+      "brand": "Audi",
+      "model": "e-tron 55 quattro",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2020,
+      "range": 365,
+      "id": "99c63b50-d23a-4058-bfd0-ba781fa101fc",
+      "brand_id": "89c2668c-0c50-4344-9386-93e4000f7673",
+      "usable_battery_size": 86.5,
+      "energy_consumption": {
+        "average_consumption": 23.7,
+        "range": 365
+      },
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 155,
+        "is_default_charging_curve": false,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 155
+          },
+          {
+            "percentage": 50,
+            "power": 155
+          },
+          {
+            "percentage": 80,
+            "power": 93
+          },
+          {
+            "percentage": 100,
+            "power": 46.5
+          }
+        ]
+      },
+      "vehicle_type": "car",
+      "charging_voltage": 400
+    },
+    {
+      "brand": "Audi",
+      "model": "e-tron GT RS performance",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2024,
+      "battery_size": 97,
+      "range": 525,
+      "consumption": 18.5,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.0,
+          "16": 11,
+          "22": 11,
+          "43": 11
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 320,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 320
+          },
+          {
+            "percentage": 50,
+            "power": 320
+          },
+          {
+            "percentage": 80,
+            "power": 192
+          },
+          {
+            "percentage": 100,
+            "power": 96
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "id": "47a273c3-54de-456f-a2f1-92c246aea3f1",
+      "brand_id": "89c2668c-0c50-4344-9386-93e4000f7673",
+      "usable_battery_size": 97,
+      "energy_consumption": {
+        "average_consumption": 18.5
+      },
+      "vehicle_type": "car",
+      "charging_voltage": 400
+    },
+    {
+      "brand": "Audi",
+      "model": "Q4 Sportback e-tron 45",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2023,
+      "battery_size": 77,
+      "range": 435,
+      "consumption": 17.7,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.0,
+          "16": 11,
+          "22": 11,
+          "43": 11
+        }
+      },
+      "dc_charger": null,
+      "id": "d5d31894-1a64-4c91-8ed0-066cc5744f8b",
+      "brand_id": "89c2668c-0c50-4344-9386-93e4000f7673",
+      "usable_battery_size": 77,
+      "energy_consumption": {
+        "average_consumption": 17.7
+      },
+      "vehicle_type": "car",
+      "charging_voltage": 400
+    },
+    {
+      "brand": "Audi",
+      "model": "S6 Sportback e-tron",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2024,
+      "battery_size": 94.9,
+      "range": 550,
+      "consumption": 17.3,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.0,
+          "16": 11,
+          "22": 11,
+          "43": 11
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 270,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 270
+          },
+          {
+            "percentage": 50,
+            "power": 270
+          },
+          {
+            "percentage": 80,
+            "power": 162
+          },
+          {
+            "percentage": 100,
+            "power": 81
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "id": "24d45d42-9357-42ac-8354-32e2412afe30",
+      "brand_id": "89c2668c-0c50-4344-9386-93e4000f7673",
+      "usable_battery_size": 94.9,
+      "energy_consumption": {
+        "average_consumption": 17.3
+      },
+      "vehicle_type": "car",
+      "charging_voltage": 400
+    },
+    {
+      "brand": "Audi",
+      "model": "Q6 e-tron Sportback performance",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2024,
+      "battery_size": 94.9,
+      "range": 510,
+      "consumption": 18.6,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.0,
+          "16": 11,
+          "22": 11,
+          "43": 11
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 260,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 260
+          },
+          {
+            "percentage": 50,
+            "power": 260
+          },
+          {
+            "percentage": 80,
+            "power": 156
+          },
+          {
+            "percentage": 100,
+            "power": 78
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "id": "40a2f001-0b95-4ca8-9471-321b5c0d52df",
+      "brand_id": "89c2668c-0c50-4344-9386-93e4000f7673",
+      "usable_battery_size": 94.9,
+      "energy_consumption": {
+        "average_consumption": 18.6
+      },
+      "vehicle_type": "car",
+      "charging_voltage": 400
+    },
+    {
+      "brand": "Audi",
+      "model": "S6 Avant e-tron",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2024,
+      "battery_size": 94.9,
+      "range": 525,
+      "consumption": 18.1,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.0,
+          "16": 11,
+          "22": 11,
+          "43": 11
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 270,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 270
+          },
+          {
+            "percentage": 50,
+            "power": 270
+          },
+          {
+            "percentage": 80,
+            "power": 162
+          },
+          {
+            "percentage": 100,
+            "power": 81
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "id": "1fc09086-9853-4d79-b317-3b1281e5902c",
+      "brand_id": "89c2668c-0c50-4344-9386-93e4000f7673",
+      "usable_battery_size": 94.9,
+      "energy_consumption": {
+        "average_consumption": 18.1
+      },
+      "vehicle_type": "car",
+      "charging_voltage": 400
+    },
+    {
+      "brand": "Audi",
+      "model": "Q4 Sportback e-tron 40",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2021,
+      "battery_size": 76.6,
+      "range": 425,
+      "consumption": 18,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.0,
+          "16": 11,
+          "22": 11,
+          "43": 11
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 143,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 143
+          },
+          {
+            "percentage": 50,
+            "power": 143
+          },
+          {
+            "percentage": 80,
+            "power": 85.8
+          },
+          {
+            "percentage": 100,
+            "power": 42.9
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "id": "645e2574-40c4-45ca-ba5f-be85d1928e0d",
+      "brand_id": "89c2668c-0c50-4344-9386-93e4000f7673",
+      "usable_battery_size": 76.6,
+      "energy_consumption": {
+        "average_consumption": 18
+      },
+      "vehicle_type": "car",
+      "charging_voltage": 400
+    },
+    {
+      "brand": "Audi",
+      "model": "e-tron Sportback 50 quattro",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2021,
+      "battery_size": 64.7,
+      "range": 295,
+      "consumption": 21.9,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.0,
+          "16": 11,
+          "22": 11,
+          "43": 11
+        }
+      },
+      "dc_charger": null,
+      "id": "f813b472-d164-41b9-b599-a8347f04adce",
+      "brand_id": "89c2668c-0c50-4344-9386-93e4000f7673",
+      "usable_battery_size": 64.7,
+      "energy_consumption": {
+        "average_consumption": 21.9
+      },
+      "vehicle_type": "car",
+      "charging_voltage": 400
+    },
+    {
+      "brand": "Audi",
+      "model": "Q6 e-tron Sportback quattro",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2024,
+      "battery_size": 94.9,
+      "range": 500,
+      "consumption": 19,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.0,
+          "16": 11,
+          "22": 11,
+          "43": 11
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 270,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 270
+          },
+          {
+            "percentage": 50,
+            "power": 270
+          },
+          {
+            "percentage": 80,
+            "power": 162
+          },
+          {
+            "percentage": 100,
+            "power": 81
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "id": "7b2957ec-f139-4e32-a768-343fad7c5de3",
+      "brand_id": "89c2668c-0c50-4344-9386-93e4000f7673",
+      "usable_battery_size": 94.9,
+      "energy_consumption": {
+        "average_consumption": 19
+      },
+      "vehicle_type": "car",
+      "charging_voltage": 400
+    },
+    {
+      "brand": "Audi",
+      "model": "Q4 e-tron 45 quattro",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2023,
+      "battery_size": 77,
+      "range": 395,
+      "consumption": 19.5,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.0,
+          "16": 11,
+          "22": 11,
+          "43": 11
+        }
+      },
+      "dc_charger": null,
+      "id": "22e9874b-60b1-43a1-b150-2d42181d6c7c",
+      "brand_id": "89c2668c-0c50-4344-9386-93e4000f7673",
+      "usable_battery_size": 77,
+      "energy_consumption": {
+        "average_consumption": 19.5
+      },
+      "vehicle_type": "car",
+      "charging_voltage": 400
+    },
+    {
+      "brand": "Audi",
+      "model": "Q4 Sportback e-tron 45 quattro",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2023,
+      "battery_size": 77,
+      "range": 410,
+      "consumption": 18.8,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.0,
+          "16": 11,
+          "22": 11,
+          "43": 11
+        }
+      },
+      "dc_charger": null,
+      "id": "e767341e-a7dc-44e3-aa0f-4cd134b6d130",
+      "brand_id": "89c2668c-0c50-4344-9386-93e4000f7673",
+      "usable_battery_size": 77,
+      "energy_consumption": {
+        "average_consumption": 18.8
+      },
+      "vehicle_type": "car",
+      "charging_voltage": 400
+    },
+    {
+      "brand": "Audi",
+      "model": "Q4 Sportback e-tron 55 quattro",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2023,
+      "battery_size": 77,
+      "range": 415,
+      "consumption": 18.6,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.0,
+          "16": 11,
+          "22": 11,
+          "43": 11
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 175,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 175
+          },
+          {
+            "percentage": 50,
+            "power": 175
+          },
+          {
+            "percentage": 80,
+            "power": 87.5
+          },
+          {
+            "percentage": 100,
+            "power": 35
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "id": "a368aa50-fa4e-4842-b363-8b7a7e13977d",
+      "brand_id": "89c2668c-0c50-4344-9386-93e4000f7673",
+      "usable_battery_size": 77,
+      "energy_consumption": {
+        "average_consumption": 18.6
+      },
+      "vehicle_type": "car",
+      "charging_voltage": 400
+    },
+    {
+      "brand": "Audi",
+      "model": "Q6 e-tron Sportback",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2024,
+      "battery_size": 75.8,
+      "range": 410,
+      "consumption": 18.5,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.0,
+          "16": 11,
+          "22": 11,
+          "43": 11
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 225,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 225
+          },
+          {
+            "percentage": 50,
+            "power": 225
+          },
+          {
+            "percentage": 80,
+            "power": 112.5
+          },
+          {
+            "percentage": 100,
+            "power": 45
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "id": "7cff223c-ff32-4d90-a5ca-4612e4fe7f52",
+      "brand_id": "89c2668c-0c50-4344-9386-93e4000f7673",
+      "usable_battery_size": 75.8,
+      "energy_consumption": {
+        "average_consumption": 18.5
+      },
+      "vehicle_type": "car",
+      "charging_voltage": 400
+    },
+    {
+      "brand": "Audi",
+      "model": "SQ8 e-tron",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2023,
+      "battery_size": 106,
+      "range": 455,
+      "consumption": 23.3,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.0,
+          "16": 11,
+          "22": 11,
+          "43": 11
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 168,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 168
+          },
+          {
+            "percentage": 50,
+            "power": 168
+          },
+          {
+            "percentage": 80,
+            "power": 100.8
+          },
+          {
+            "percentage": 100,
+            "power": 50.4
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "id": "4e07cf56-819a-4c04-a6a4-d26fddefe947",
+      "brand_id": "89c2668c-0c50-4344-9386-93e4000f7673",
+      "usable_battery_size": 106,
+      "energy_consumption": {
+        "average_consumption": 23.3
+      },
+      "vehicle_type": "car",
+      "charging_voltage": 400
+    },
+    {
+      "brand": "Audi",
+      "model": "SQ6 e-tron Sportback",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2024,
+      "battery_size": 94.9,
+      "range": 495,
+      "consumption": 19.2,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.0,
+          "16": 11,
+          "22": 11,
+          "43": 11
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 270,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 270
+          },
+          {
+            "percentage": 50,
+            "power": 270
+          },
+          {
+            "percentage": 80,
+            "power": 162
+          },
+          {
+            "percentage": 100,
+            "power": 81
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "id": "4eae3008-b4d0-4d7d-9abd-826d21906c5c",
+      "brand_id": "89c2668c-0c50-4344-9386-93e4000f7673",
+      "usable_battery_size": 94.9,
+      "energy_consumption": {
+        "average_consumption": 19.2
+      },
+      "vehicle_type": "car",
+      "charging_voltage": 400
+    },
+    {
+      "brand": "Audi",
+      "model": "Q8 e-tron Sportback 50 quattro",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2022,
+      "battery_size": 89,
+      "range": 445,
+      "consumption": 20,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.0,
+          "16": 11,
+          "22": 11,
+          "43": 11
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 155,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 155
+          },
+          {
+            "percentage": 50,
+            "power": 155
+          },
+          {
+            "percentage": 80,
+            "power": 93
+          },
+          {
+            "percentage": 100,
+            "power": 46.5
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "id": "396f3574-dfc0-43d6-b322-17fa29b3d8ac",
+      "brand_id": "89c2668c-0c50-4344-9386-93e4000f7673",
+      "usable_battery_size": 89,
+      "energy_consumption": {
+        "average_consumption": 20
+      },
+      "vehicle_type": "car",
+      "charging_voltage": 400
+    },
+    {
+      "brand": "Audi",
+      "model": "SQ8 e-tron Sportback",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2023,
+      "battery_size": 106,
+      "range": 480,
+      "consumption": 22.1,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.0,
+          "16": 11,
+          "22": 11,
+          "43": 11
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 168,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 168
+          },
+          {
+            "percentage": 50,
+            "power": 168
+          },
+          {
+            "percentage": 80,
+            "power": 100.8
+          },
+          {
+            "percentage": 100,
+            "power": 50.4
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "id": "6cd3fde1-d17d-410c-9798-d80c88bf193e",
+      "brand_id": "89c2668c-0c50-4344-9386-93e4000f7673",
+      "usable_battery_size": 106,
+      "energy_consumption": {
+        "average_consumption": 22.1
+      },
+      "vehicle_type": "car",
+      "charging_voltage": 400
+    },
+    {
+      "brand": "Audi",
+      "model": "A6 Sportback e-tron performance",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2024,
+      "battery_size": 94.9,
+      "range": 600,
+      "consumption": 15.8,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.0,
+          "16": 11,
+          "22": 11,
+          "43": 11
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 270,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 270
+          },
+          {
+            "percentage": 50,
+            "power": 270
+          },
+          {
+            "percentage": 80,
+            "power": 162
+          },
+          {
+            "percentage": 100,
+            "power": 81
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "id": "8ad2b7ba-0b74-478e-8353-e9247cb09240",
+      "brand_id": "89c2668c-0c50-4344-9386-93e4000f7673",
+      "usable_battery_size": 94.9,
+      "energy_consumption": {
+        "average_consumption": 15.8
+      },
+      "vehicle_type": "car",
+      "charging_voltage": 400
+    },
+    {
+      "brand": "Audi",
+      "model": "A6 Avant e-tron performance",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2024,
+      "battery_size": 94.9,
+      "range": 565,
+      "consumption": 16.8,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.0,
+          "16": 11,
+          "22": 11,
+          "43": 11
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 270,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 270
+          },
+          {
+            "percentage": 50,
+            "power": 270
+          },
+          {
+            "percentage": 80,
+            "power": 162
+          },
+          {
+            "percentage": 100,
+            "power": 81
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "id": "0962462b-34d5-4b00-becf-1a1a4be68709",
+      "brand_id": "89c2668c-0c50-4344-9386-93e4000f7673",
+      "usable_battery_size": 94.9,
+      "energy_consumption": {
+        "average_consumption": 16.8
+      },
+      "vehicle_type": "car",
       "charging_voltage": 400
     }
   ]

@@ -3,59 +3,6 @@
   "brand_name": "BYD",
   "models": [
     {
-      "id": "713ec866-81af-ddec-f30e-d4e1adf244c5",
-      "brand": "BYD",
-      "vehicle_type": "car",
-      "type": "bev",
-      "brand_id": "591fd9d3-d14f-4d55-f498-594f4a9d2f1f",
-      "model": "ATTO 3",
-      "release_year": 2022,
-      "variant": "",
-      "usable_battery_size": 60,
-      "ac_charger": {
-        "usable_phases": 3,
-        "ports": [
-          "type2"
-        ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11.0,
-          "16": 11.0,
-          "22": 11.0,
-          "43": 11.0,
-          "2.0": 2.0,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
-      },
-      "dc_charger": {
-        "ports": [
-          "ccs"
-        ],
-        "max_power": 88,
-        "charging_curve": [
-          {
-            "percentage": 0,
-            "power": 83.6
-          },
-          {
-            "percentage": 75,
-            "power": 88
-          },
-          {
-            "percentage": 100,
-            "power": 11
-          }
-        ],
-        "is_default_charging_curve": true
-      },
-      "energy_consumption": {
-        "average_consumption": 18.8
-      },
-      "charging_voltage": 400
-    },
-    {
       "id": "352427b1-f39e-03e1-606f-bd34c653166e",
       "brand": "BYD",
       "vehicle_type": "car",
@@ -72,11 +19,11 @@
         ],
         "max_power": 11,
         "power_per_charging_point": {
-          "11": 11.0,
-          "16": 11.0,
-          "22": 11.0,
-          "43": 11.0,
-          "2.0": 2.0,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4
@@ -129,7 +76,7 @@
           "16": 7.4,
           "22": 7.4,
           "43": 7.4,
-          "2.0": 2.0,
+          "2.0": 2,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4
@@ -182,7 +129,7 @@
           "16": 7.4,
           "22": 7.4,
           "43": 7.4,
-          "2.0": 2.0,
+          "2.0": 2,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4
@@ -231,11 +178,11 @@
         ],
         "max_power": 11,
         "power_per_charging_point": {
-          "11": 11.0,
-          "16": 11.0,
-          "22": 11.0,
-          "43": 11.0,
-          "2.0": 2.0,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4
@@ -284,11 +231,11 @@
         ],
         "max_power": 11,
         "power_per_charging_point": {
-          "11": 11.0,
-          "16": 11.0,
-          "22": 11.0,
-          "43": 11.0,
-          "2.0": 2.0,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4
@@ -337,11 +284,11 @@
         ],
         "max_power": 11,
         "power_per_charging_point": {
-          "11": 11.0,
-          "16": 11.0,
-          "22": 11.0,
-          "43": 11.0,
-          "2.0": 2.0,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4
@@ -394,7 +341,7 @@
           "16": 7.4,
           "22": 7.4,
           "43": 7.4,
-          "2.0": 2.0,
+          "2.0": 2,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4
@@ -424,6 +371,420 @@
       "energy_consumption": {
         "average_consumption": 24
       },
+      "charging_voltage": 400
+    },
+    {
+      "brand": "BYD",
+      "model": "SEAL",
+      "variant": "U 71.8 kWh Comfort",
+      "type": "bev",
+      "release_year": 2024,
+      "range": 360,
+      "id": "05a4162c-6ab6-4c6a-b28e-92425aa271e1",
+      "brand_id": "591fd9d3-d14f-4d55-f498-594f4a9d2f1f",
+      "usable_battery_size": 71.8,
+      "energy_consumption": {
+        "average_consumption": 19.9,
+        "range": 360
+      },
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 115,
+        "is_default_charging_curve": false,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 115
+          },
+          {
+            "percentage": 50,
+            "power": 115
+          },
+          {
+            "percentage": 80,
+            "power": 57.5
+          },
+          {
+            "percentage": 100,
+            "power": 23
+          }
+        ]
+      },
+      "vehicle_type": "car",
+      "charging_voltage": 400
+    },
+    {
+      "brand": "BYD",
+      "model": "DOLPHIN",
+      "variant": "44.9 kWh Active",
+      "type": "bev",
+      "release_year": 2023,
+      "range": 265,
+      "id": "6b6e802d-fd00-4d53-800e-aa602f3993ed",
+      "brand_id": "591fd9d3-d14f-4d55-f498-594f4a9d2f1f",
+      "usable_battery_size": 44.9,
+      "energy_consumption": {
+        "average_consumption": 16.9,
+        "range": 265
+      },
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 60,
+        "is_default_charging_curve": false,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 60
+          },
+          {
+            "percentage": 50,
+            "power": 60
+          },
+          {
+            "percentage": 80,
+            "power": 36
+          },
+          {
+            "percentage": 100,
+            "power": 18
+          }
+        ]
+      },
+      "vehicle_type": "car",
+      "charging_voltage": 400
+    },
+    {
+      "brand": "BYD",
+      "model": "SEAL",
+      "variant": "61.4 kWh RWD Comfort",
+      "type": "bev",
+      "release_year": 2025,
+      "range": 370,
+      "id": "c2832ebc-649e-47e6-b835-32413c05d260",
+      "brand_id": "591fd9d3-d14f-4d55-f498-594f4a9d2f1f",
+      "usable_battery_size": 61.4,
+      "energy_consumption": {
+        "average_consumption": 16.6,
+        "range": 370
+      },
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 110,
+        "is_default_charging_curve": false,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 110
+          },
+          {
+            "percentage": 50,
+            "power": 110
+          },
+          {
+            "percentage": 80,
+            "power": 55
+          },
+          {
+            "percentage": 100,
+            "power": 22
+          }
+        ]
+      },
+      "vehicle_type": "car",
+      "charging_voltage": 400
+    },
+    {
+      "id": "d5ad08a1-03c4-4d7c-8df5-72d8618fac36",
+      "brand": "BYD",
+      "vehicle_type": "car",
+      "type": "bev",
+      "brand_id": "591fd9d3-d14f-4d55-f498-594f4a9d2f1f",
+      "model": "ATTO 3",
+      "release_year": 2022,
+      "variant": "",
+      "usable_battery_size": 60.5,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 89,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 89
+          },
+          {
+            "percentage": 50,
+            "power": 89
+          },
+          {
+            "percentage": 80,
+            "power": 53.4
+          },
+          {
+            "percentage": 100,
+            "power": 26.7
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "energy_consumption": {
+        "average_consumption": 18.55
+      },
+      "charging_voltage": 400
+    },
+    {
+      "brand": "BYD",
+      "model": "DOLPHIN",
+      "variant": "44.9 kWh Boost",
+      "type": "bev",
+      "release_year": 2023,
+      "battery_size": 44.9,
+      "range": 260,
+      "consumption": 17.3,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.0,
+          "16": 11,
+          "22": 11,
+          "43": 11
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 60,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 60
+          },
+          {
+            "percentage": 50,
+            "power": 60
+          },
+          {
+            "percentage": 80,
+            "power": 36
+          },
+          {
+            "percentage": 100,
+            "power": 18
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "id": "1f18ba9c-a5f2-4a66-8cf7-7fb3ca56e3d1",
+      "brand_id": "591fd9d3-d14f-4d55-f498-594f4a9d2f1f",
+      "usable_battery_size": 44.9,
+      "energy_consumption": {
+        "average_consumption": 17.3
+      },
+      "vehicle_type": "car",
+      "charging_voltage": 400
+    },
+    {
+      "brand": "BYD",
+      "model": "DOLPHIN",
+      "variant": "60.4 kWh",
+      "type": "bev",
+      "release_year": 2023,
+      "battery_size": 60.5,
+      "range": 350,
+      "consumption": 17.3,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.0,
+          "16": 11,
+          "22": 11,
+          "43": 11
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 88,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 88
+          },
+          {
+            "percentage": 50,
+            "power": 88
+          },
+          {
+            "percentage": 80,
+            "power": 52.8
+          },
+          {
+            "percentage": 100,
+            "power": 26.4
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "id": "563faa98-0993-4e73-a3ab-de8ad6a1abe3",
+      "brand_id": "591fd9d3-d14f-4d55-f498-594f4a9d2f1f",
+      "usable_battery_size": 60.5,
+      "energy_consumption": {
+        "average_consumption": 17.3
+      },
+      "vehicle_type": "car",
+      "charging_voltage": 400
+    },
+    {
+      "brand": "BYD",
+      "model": "SEAL",
+      "variant": "U 87 kWh Design",
+      "type": "bev",
+      "release_year": 2024,
+      "battery_size": 87,
+      "range": 425,
+      "consumption": 20.5,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.0,
+          "16": 11,
+          "22": 11,
+          "43": 11
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 140,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 140
+          },
+          {
+            "percentage": 50,
+            "power": 140
+          },
+          {
+            "percentage": 80,
+            "power": 70
+          },
+          {
+            "percentage": 100,
+            "power": 28
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "id": "7085ed02-a2e8-4ff9-ac80-4ae3bba07b89",
+      "brand_id": "591fd9d3-d14f-4d55-f498-594f4a9d2f1f",
+      "usable_battery_size": 87,
+      "energy_consumption": {
+        "average_consumption": 20.5
+      },
+      "vehicle_type": "car",
       "charging_voltage": 400
     }
   ]

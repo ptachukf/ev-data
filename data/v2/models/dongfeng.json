@@ -1,0 +1,124 @@
+{
+  "brand_id": "c6b5a4f3-e2d1-4c0f-8b7c-6d5e4f3a2b1a",
+  "brand_name": "Dongfeng",
+  "models": [
+    {
+      "brand": "Dongfeng",
+      "model": "Box 42.3 kWh",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2024,
+      "range": 255,
+      "id": "89ef2a99-63db-4436-89ec-f58cd33fa639",
+      "brand_id": "c6b5a4f3-e2d1-4c0f-8b7c-6d5e4f3a2b1a",
+      "usable_battery_size": 40,
+      "energy_consumption": {
+        "average_consumption": 15.7,
+        "range": 255
+      },
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 60,
+        "is_default_charging_curve": false,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 60
+          },
+          {
+            "percentage": 50,
+            "power": 60
+          },
+          {
+            "percentage": 80,
+            "power": 36
+          },
+          {
+            "percentage": 100,
+            "power": 18
+          }
+        ]
+      },
+      "vehicle_type": "car",
+      "charging_voltage": 400
+    },
+    {
+      "brand": "Dongfeng",
+      "model": "Box 31.4 kWh",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2025,
+      "range": 190,
+      "id": "7e216838-52f3-46eb-9017-6f8e5b0e1e6c",
+      "brand_id": "c6b5a4f3-e2d1-4c0f-8b7c-6d5e4f3a2b1a",
+      "usable_battery_size": 29,
+      "energy_consumption": {
+        "average_consumption": 15.3,
+        "range": 190
+      },
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 57,
+        "is_default_charging_curve": false,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 57
+          },
+          {
+            "percentage": 50,
+            "power": 57
+          },
+          {
+            "percentage": 80,
+            "power": 34.199999999999996
+          },
+          {
+            "percentage": 100,
+            "power": 17.099999999999998
+          }
+        ]
+      },
+      "vehicle_type": "car",
+      "charging_voltage": 400
+    }
+  ]
+}

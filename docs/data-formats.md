@@ -70,22 +70,26 @@ The v2 format splits the data into multiple files for better maintainability:
 
 ```
 data/v2/
-├── brands.json           # Brand information
-├── models/              # Vehicle model files
-│   ├── brand1.json
-│   ├── brand2.json
-│   └── ...
-└── meta.json           # Meta information
+├── brands.json           # Brand and meta information
+└── models/              # Vehicle model files
+    ├── brand1.json
+    ├── brand2.json
+    └── ...
 ```
 
 ### Brands File (`brands.json`)
 
 ```json
 {
+  "meta": {
+    "updated_at": "2024-03-28T12:00:00Z",
+    "overall_count": 424
+  },
   "brands": [
     {
       "id": "uuid",
-      "name": "Brand Name"
+      "name": "Brand Name",
+      "models_file": "models/brand_name.json"
     }
   ]
 }
@@ -136,15 +140,6 @@ data/v2/
 }
 ```
 
-### Meta File (`meta.json`)
-
-```json
-{
-  "updated_at": "2024-03-28T12:00:00Z",
-  "overall_count": 424
-}
-```
-
 ## Validation Rules
 
 Both formats enforce the same validation rules:
@@ -184,17 +179,16 @@ vehicles = data['data']
 ```ruby
 require 'json'
 
-# Read brands
-brands = JSON.parse(File.read('data/v2/brands.json'))['brands']
+# Read brands and meta information
+brands_data = JSON.parse(File.read('data/v2/brands.json'))
+brands = brands_data['brands']
+meta = brands_data['meta']
 
 # Read all models
 models_dir = 'data/v2/models'
 all_vehicles = Dir["#{models_dir}/*.json"].flat_map do |file|
   JSON.parse(File.read(file))['models']
 end
-
-# Read meta information
-meta = JSON.parse(File.read('data/v2/meta.json'))
 ```
 
 ## Contributing

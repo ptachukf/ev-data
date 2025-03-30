@@ -19,11 +19,11 @@
         ],
         "max_power": 11,
         "power_per_charging_point": {
-          "11": 11.0,
-          "16": 11.0,
-          "22": 11.0,
-          "43": 11.0,
-          "2.0": 2.0,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4
@@ -96,11 +96,11 @@
         ],
         "max_power": 11,
         "power_per_charging_point": {
-          "11": 11.0,
-          "16": 11.0,
-          "22": 11.0,
-          "43": 11.0,
-          "2.0": 2.0,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4
@@ -173,11 +173,11 @@
         ],
         "max_power": 11,
         "power_per_charging_point": {
-          "11": 11.0,
-          "16": 11.0,
-          "22": 11.0,
-          "43": 11.0,
-          "2.0": 2.0,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4
@@ -230,7 +230,7 @@
           "16": 5.4,
           "22": 7.2,
           "43": 7.2,
-          "2.0": 2.0,
+          "2.0": 2,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.2
@@ -307,7 +307,7 @@
           "16": 5.4,
           "22": 6.6,
           "43": 6.6,
-          "2.0": 2.0,
+          "2.0": 2,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 6.6
@@ -364,11 +364,11 @@
         ],
         "max_power": 11,
         "power_per_charging_point": {
-          "11": 11.0,
-          "16": 11.0,
-          "22": 11.0,
-          "43": 11.0,
-          "2.0": 2.0,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4
@@ -421,7 +421,7 @@
           "16": 5.4,
           "22": 7.2,
           "43": 7.2,
-          "2.0": 2.0,
+          "2.0": 2,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.2
@@ -470,11 +470,11 @@
         ],
         "max_power": 11,
         "power_per_charging_point": {
-          "11": 11.0,
-          "16": 11.0,
-          "22": 11.0,
-          "43": 11.0,
-          "2.0": 2.0,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4
@@ -559,7 +559,7 @@
           "16": 5.4,
           "22": 7.2,
           "43": 7.2,
-          "2.0": 2.0,
+          "2.0": 2,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.2
@@ -621,6 +621,363 @@
       "energy_consumption": {
         "average_consumption": 15.8
       },
+      "charging_voltage": 400
+    },
+    {
+      "brand": "Hyundai",
+      "model": "Kona Electric 48 kWh",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2023,
+      "range": 295,
+      "id": "21442a76-9bde-4723-b35e-3c6179d20b36",
+      "brand_id": "9771afb8-9e25-4ae6-a5b3-b2a5b9f363f0",
+      "usable_battery_size": 48.4,
+      "energy_consumption": {
+        "average_consumption": 16.4,
+        "range": 295
+      },
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 75,
+        "is_default_charging_curve": false,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 75
+          },
+          {
+            "percentage": 50,
+            "power": 75
+          },
+          {
+            "percentage": 80,
+            "power": 37.5
+          },
+          {
+            "percentage": 100,
+            "power": 15
+          }
+        ]
+      },
+      "vehicle_type": "car",
+      "charging_voltage": 400
+    },
+    {
+      "brand": "Hyundai",
+      "model": "Kona Electric 39 kWh",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2021,
+      "range": 245,
+      "id": "7a8b44ba-f0d4-4b51-930f-074a66e0cbac",
+      "brand_id": "9771afb8-9e25-4ae6-a5b3-b2a5b9f363f0",
+      "usable_battery_size": 39.2,
+      "energy_consumption": {
+        "average_consumption": 16,
+        "range": 245
+      },
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 44,
+        "is_default_charging_curve": false,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 44
+          },
+          {
+            "percentage": 50,
+            "power": 44
+          },
+          {
+            "percentage": 80,
+            "power": 26.4
+          },
+          {
+            "percentage": 100,
+            "power": 13.2
+          }
+        ]
+      },
+      "vehicle_type": "car",
+      "charging_voltage": 400
+    },
+    {
+      "brand": "Hyundai",
+      "model": "Kona Electric 64 kWh",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2021,
+      "range": 390,
+      "id": "d405e843-fe80-4de9-ac30-bbaeb2f44e42",
+      "brand_id": "9771afb8-9e25-4ae6-a5b3-b2a5b9f363f0",
+      "usable_battery_size": 64,
+      "energy_consumption": {
+        "average_consumption": 16.4,
+        "range": 390
+      },
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 77,
+        "is_default_charging_curve": false,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 77
+          },
+          {
+            "percentage": 50,
+            "power": 77
+          },
+          {
+            "percentage": 80,
+            "power": 46.199999999999996
+          },
+          {
+            "percentage": 100,
+            "power": 23.099999999999998
+          }
+        ]
+      },
+      "vehicle_type": "car",
+      "charging_voltage": 400
+    },
+    {
+      "brand": "Hyundai",
+      "model": "Kona Electric 65 kWh",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2023,
+      "battery_size": 65.4,
+      "range": 390,
+      "consumption": 16.8,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.0,
+          "16": 11,
+          "22": 11,
+          "43": 11
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 105,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 105
+          },
+          {
+            "percentage": 50,
+            "power": 105
+          },
+          {
+            "percentage": 80,
+            "power": 63
+          },
+          {
+            "percentage": 100,
+            "power": 31.5
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "id": "b9e7c949-6ebd-4dc4-99f1-407805f8bb88",
+      "brand_id": "9771afb8-9e25-4ae6-a5b3-b2a5b9f363f0",
+      "usable_battery_size": 65.4,
+      "energy_consumption": {
+        "average_consumption": 16.8
+      },
+      "vehicle_type": "car",
+      "charging_voltage": 400
+    },
+    {
+      "brand": "Hyundai",
+      "model": "INSTER Long Range",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2024,
+      "battery_size": 46,
+      "range": 295,
+      "consumption": 15.6,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.0,
+          "16": 11,
+          "22": 11,
+          "43": 11
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 85,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 85
+          },
+          {
+            "percentage": 50,
+            "power": 85
+          },
+          {
+            "percentage": 80,
+            "power": 51
+          },
+          {
+            "percentage": 100,
+            "power": 25.5
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "id": "ae97d97d-2783-43e0-84fd-e059ec54aac0",
+      "brand_id": "9771afb8-9e25-4ae6-a5b3-b2a5b9f363f0",
+      "usable_battery_size": 46,
+      "energy_consumption": {
+        "average_consumption": 15.6
+      },
+      "vehicle_type": "car",
+      "charging_voltage": 400
+    },
+    {
+      "brand": "Hyundai",
+      "model": "INSTER Standard Range",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2024,
+      "battery_size": 39,
+      "range": 250,
+      "consumption": 15.6,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.0,
+          "16": 11,
+          "22": 11,
+          "43": 11
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 73,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 73
+          },
+          {
+            "percentage": 50,
+            "power": 73
+          },
+          {
+            "percentage": 80,
+            "power": 43.8
+          },
+          {
+            "percentage": 100,
+            "power": 21.9
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "id": "f6b6f37b-91fd-4caf-84d5-daca24ef4b02",
+      "brand_id": "9771afb8-9e25-4ae6-a5b3-b2a5b9f363f0",
+      "usable_battery_size": 39,
+      "energy_consumption": {
+        "average_consumption": 15.6
+      },
+      "vehicle_type": "car",
       "charging_voltage": 400
     }
   ]

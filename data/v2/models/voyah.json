@@ -19,11 +19,11 @@
         ],
         "max_power": 11,
         "power_per_charging_point": {
-          "11": 11.0,
-          "16": 11.0,
-          "22": 11.0,
-          "43": 11.0,
-          "2.0": 2.0,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4
@@ -53,6 +53,65 @@
       "energy_consumption": {
         "average_consumption": 20.8
       },
+      "charging_voltage": 400
+    },
+    {
+      "brand": "Voyah",
+      "model": "Free 106 kWh",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2023,
+      "range": 480,
+      "id": "2a891d9e-817b-44be-8fd9-b6b4f978dc4f",
+      "brand_id": "0a1b404b-dc45-2a39-c92e-331a87ff5ccc",
+      "usable_battery_size": 100,
+      "energy_consumption": {
+        "average_consumption": 20.8,
+        "range": 480
+      },
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 100,
+        "is_default_charging_curve": false,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 100
+          },
+          {
+            "percentage": 50,
+            "power": 100
+          },
+          {
+            "percentage": 80,
+            "power": 60
+          },
+          {
+            "percentage": 100,
+            "power": 30
+          }
+        ]
+      },
+      "vehicle_type": "car",
       "charging_voltage": 400
     }
   ]

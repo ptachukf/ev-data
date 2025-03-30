@@ -1,0 +1,66 @@
+{
+  "brand_id": "e2d1c0bf-af9e-48d7-4f3a-2b1a09f8e7d6",
+  "brand_name": "KGM",
+  "models": [
+    {
+      "brand": "KGM",
+      "model": "Torres EVX",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2024,
+      "battery_size": 72,
+      "range": 370,
+      "consumption": 19.5,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.0,
+          "16": 11,
+          "22": 11,
+          "43": 11
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 120,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 120
+          },
+          {
+            "percentage": 50,
+            "power": 120
+          },
+          {
+            "percentage": 80,
+            "power": 72
+          },
+          {
+            "percentage": 100,
+            "power": 36
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "id": "fec6bdda-9859-4fc6-9943-e242c6fc9f0d",
+      "brand_id": "e2d1c0bf-af9e-48d7-4f3a-2b1a09f8e7d6",
+      "usable_battery_size": 72,
+      "energy_consumption": {
+        "average_consumption": 19.5
+      },
+      "vehicle_type": "car",
+      "charging_voltage": 400
+    }
+  ]
+}

@@ -23,7 +23,7 @@
           "16": 5.4,
           "22": 6.6,
           "43": 6.6,
-          "2.0": 2.0,
+          "2.0": 2,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 6.6
@@ -69,6 +69,184 @@
       "energy_consumption": {
         "average_consumption": 15.8
       },
+      "charging_voltage": 400
+    },
+    {
+      "brand": "Dacia",
+      "model": "Spring Electric 45",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2024,
+      "range": 165,
+      "id": "005874fa-8049-4ee7-925c-d46134d024d4",
+      "brand_id": "3db0ef48-3566-5fab-00a9-3107c4019b68",
+      "usable_battery_size": 25,
+      "energy_consumption": {
+        "average_consumption": 15.2,
+        "range": 165
+      },
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 34,
+        "is_default_charging_curve": false,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 34
+          },
+          {
+            "percentage": 50,
+            "power": 34
+          },
+          {
+            "percentage": 80,
+            "power": 20.4
+          },
+          {
+            "percentage": 100,
+            "power": 10.2
+          }
+        ]
+      },
+      "vehicle_type": "car",
+      "charging_voltage": 400
+    },
+    {
+      "brand": "Dacia",
+      "model": "Spring Electric 65",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2024,
+      "range": 160,
+      "id": "f5735245-a0a5-427e-97cf-ae091ae0c870",
+      "brand_id": "3db0ef48-3566-5fab-00a9-3107c4019b68",
+      "usable_battery_size": 25,
+      "energy_consumption": {
+        "average_consumption": 15.6,
+        "range": 160
+      },
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 34,
+        "is_default_charging_curve": false,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 34
+          },
+          {
+            "percentage": 50,
+            "power": 34
+          },
+          {
+            "percentage": 80,
+            "power": 20.4
+          },
+          {
+            "percentage": 100,
+            "power": 10.2
+          }
+        ]
+      },
+      "vehicle_type": "car",
+      "charging_voltage": 400
+    },
+    {
+      "brand": "Dacia",
+      "model": "Spring Electric 65 Extreme",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2023,
+      "battery_size": 25,
+      "range": 160,
+      "consumption": 15.6,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2.0": 2.0,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "11": 11.0,
+          "16": 11,
+          "22": 11,
+          "43": 11
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 34,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 34
+          },
+          {
+            "percentage": 50,
+            "power": 34
+          },
+          {
+            "percentage": 80,
+            "power": 20.4
+          },
+          {
+            "percentage": 100,
+            "power": 10.2
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "id": "5d75ebdb-c8e6-454e-80d3-ffc6fcf40f78",
+      "brand_id": "3db0ef48-3566-5fab-00a9-3107c4019b68",
+      "usable_battery_size": 25,
+      "energy_consumption": {
+        "average_consumption": 15.6
+      },
+      "vehicle_type": "car",
       "charging_voltage": 400
     }
   ]

@@ -19,11 +19,11 @@
         ],
         "max_power": 11,
         "power_per_charging_point": {
-          "11": 11.0,
-          "16": 11.0,
-          "22": 11.0,
-          "43": 11.0,
-          "2.0": 2.0,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4
@@ -52,11 +52,11 @@
         ],
         "max_power": 11,
         "power_per_charging_point": {
-          "11": 11.0,
-          "16": 11.0,
-          "22": 11.0,
-          "43": 11.0,
-          "2.0": 2.0,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4
@@ -113,11 +113,11 @@
         ],
         "max_power": 11,
         "power_per_charging_point": {
-          "11": 11.0,
-          "16": 11.0,
-          "22": 11.0,
-          "43": 11.0,
-          "2.0": 2.0,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4
@@ -166,11 +166,11 @@
         ],
         "max_power": 11,
         "power_per_charging_point": {
-          "11": 11.0,
-          "16": 11.0,
-          "22": 11.0,
-          "43": 11.0,
-          "2.0": 2.0,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4
@@ -219,11 +219,11 @@
         ],
         "max_power": 11,
         "power_per_charging_point": {
-          "11": 11.0,
-          "16": 11.0,
-          "22": 11.0,
-          "43": 11.0,
-          "2.0": 2.0,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4
@@ -284,7 +284,7 @@
           "16": 7.4,
           "22": 7.4,
           "43": 7.4,
-          "2.0": 2.0,
+          "2.0": 2,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4
@@ -344,11 +344,11 @@
         "usable_phases": 3,
         "max_power": 11,
         "power_per_charging_point": {
-          "11": 11.0,
-          "16": 11.0,
-          "22": 11.0,
-          "43": 11.0,
-          "2.0": 2.0,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4
@@ -401,11 +401,11 @@
         "usable_phases": 3,
         "max_power": 11,
         "power_per_charging_point": {
-          "11": 11.0,
-          "16": 11.0,
-          "22": 11.0,
-          "43": 11.0,
-          "2.0": 2.0,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4
@@ -462,11 +462,11 @@
         "usable_phases": 3,
         "max_power": 11,
         "power_per_charging_point": {
-          "11": 11.0,
-          "16": 11.0,
-          "22": 11.0,
-          "43": 11.0,
-          "2.0": 2.0,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4
@@ -516,11 +516,11 @@
         ],
         "max_power": 11,
         "power_per_charging_point": {
-          "11": 11.0,
-          "16": 11.0,
-          "22": 11.0,
-          "43": 11.0,
-          "2.0": 2.0,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4
@@ -569,11 +569,11 @@
         ],
         "max_power": 11,
         "power_per_charging_point": {
-          "11": 11.0,
-          "16": 11.0,
-          "22": 11.0,
-          "43": 11.0,
-          "2.0": 2.0,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4
@@ -630,11 +630,11 @@
         ],
         "max_power": 11,
         "power_per_charging_point": {
-          "11": 11.0,
-          "16": 11.0,
-          "22": 11.0,
-          "43": 11.0,
-          "2.0": 2.0,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4
@@ -691,11 +691,11 @@
         ],
         "max_power": 11,
         "power_per_charging_point": {
-          "11": 11.0,
-          "16": 11.0,
-          "22": 11.0,
-          "43": 11.0,
-          "2.0": 2.0,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4
@@ -752,11 +752,11 @@
         ],
         "max_power": 11,
         "power_per_charging_point": {
-          "11": 11.0,
-          "16": 11.0,
-          "22": 11.0,
-          "43": 11.0,
-          "2.0": 2.0,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4
@@ -813,11 +813,11 @@
         ],
         "max_power": 11,
         "power_per_charging_point": {
-          "11": 11.0,
-          "16": 11.0,
-          "22": 11.0,
-          "43": 11.0,
-          "2.0": 2.0,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4
@@ -874,11 +874,11 @@
         ],
         "max_power": 11,
         "power_per_charging_point": {
-          "11": 11.0,
-          "16": 11.0,
-          "22": 11.0,
-          "43": 11.0,
-          "2.0": 2.0,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4
@@ -935,11 +935,11 @@
         ],
         "max_power": 11,
         "power_per_charging_point": {
-          "11": 11.0,
-          "16": 11.0,
-          "22": 11.0,
-          "43": 11.0,
-          "2.0": 2.0,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.4
@@ -992,7 +992,7 @@
           "16": 7.2,
           "22": 7.2,
           "43": 7.2,
-          "2.0": 2.0,
+          "2.0": 2,
           "2.3": 2.3,
           "3.7": 3.7,
           "7.4": 7.2
@@ -1002,6 +1002,1044 @@
       "energy_consumption": {
         "average_consumption": 26.2
       },
+      "charging_voltage": 400
+    },
+    {
+      "brand": "Mercedes",
+      "model": "CLA",
+      "variant": "250+",
+      "type": "bev",
+      "release_year": 2025,
+      "range": 565,
+      "id": "976be64e-a7d0-4ac1-b488-65ec5cafba71",
+      "brand_id": "b2282fbe-f5d9-48d9-943f-a9b66ec51423",
+      "usable_battery_size": 85,
+      "energy_consumption": {
+        "average_consumption": 15,
+        "range": 565
+      },
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 320,
+        "is_default_charging_curve": false,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 320
+          },
+          {
+            "percentage": 50,
+            "power": 320
+          },
+          {
+            "percentage": 80,
+            "power": 160
+          },
+          {
+            "percentage": 100,
+            "power": 64
+          }
+        ]
+      },
+      "vehicle_type": "car",
+      "charging_voltage": 400
+    },
+    {
+      "brand": "Mercedes",
+      "model": "EQE",
+      "variant": "350+",
+      "type": "bev",
+      "release_year": 2024,
+      "range": 555,
+      "id": "8ad87428-e2a0-430c-ae31-903743d903ab",
+      "brand_id": "b2282fbe-f5d9-48d9-943f-a9b66ec51423",
+      "usable_battery_size": 96,
+      "energy_consumption": {
+        "average_consumption": 17.3,
+        "range": 555
+      },
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 173,
+        "is_default_charging_curve": false,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 173
+          },
+          {
+            "percentage": 50,
+            "power": 173
+          },
+          {
+            "percentage": 80,
+            "power": 103.8
+          },
+          {
+            "percentage": 100,
+            "power": 51.9
+          }
+        ]
+      },
+      "vehicle_type": "car",
+      "charging_voltage": 400
+    },
+    {
+      "brand": "Mercedes",
+      "model": "EQA",
+      "variant": "250+",
+      "type": "bev",
+      "release_year": 2023,
+      "range": 420,
+      "id": "783fe9c0-b151-4d5d-95ac-28cc282d2c69",
+      "brand_id": "b2282fbe-f5d9-48d9-943f-a9b66ec51423",
+      "usable_battery_size": 70.5,
+      "energy_consumption": {
+        "average_consumption": 16.8,
+        "range": 420
+      },
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 102,
+        "is_default_charging_curve": false,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 102
+          },
+          {
+            "percentage": 50,
+            "power": 102
+          },
+          {
+            "percentage": 80,
+            "power": 61.199999999999996
+          },
+          {
+            "percentage": 100,
+            "power": 30.599999999999998
+          }
+        ]
+      },
+      "vehicle_type": "car",
+      "charging_voltage": 400
+    },
+    {
+      "brand": "Mercedes",
+      "model": "G 580",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2024,
+      "range": 360,
+      "id": "01c982f2-355e-462f-9a4a-c578fc4371fe",
+      "brand_id": "b2282fbe-f5d9-48d9-943f-a9b66ec51423",
+      "usable_battery_size": 116,
+      "energy_consumption": {
+        "average_consumption": 32.2,
+        "range": 360
+      },
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 200,
+        "is_default_charging_curve": false,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 200
+          },
+          {
+            "percentage": 50,
+            "power": 200
+          },
+          {
+            "percentage": 80,
+            "power": 120
+          },
+          {
+            "percentage": 100,
+            "power": 60
+          }
+        ]
+      },
+      "vehicle_type": "car",
+      "charging_voltage": 400
+    },
+    {
+      "brand": "Mercedes",
+      "model": "EQS",
+      "variant": "450+",
+      "type": "bev",
+      "release_year": 2024,
+      "range": 690,
+      "id": "376b14a1-046d-462c-957c-9755c160a886",
+      "brand_id": "b2282fbe-f5d9-48d9-943f-a9b66ec51423",
+      "usable_battery_size": 118,
+      "energy_consumption": {
+        "average_consumption": 17.1,
+        "range": 690
+      },
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 200,
+        "is_default_charging_curve": false,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 200
+          },
+          {
+            "percentage": 50,
+            "power": 200
+          },
+          {
+            "percentage": 80,
+            "power": 120
+          },
+          {
+            "percentage": 100,
+            "power": 60
+          }
+        ]
+      },
+      "vehicle_type": "car",
+      "charging_voltage": 400
+    },
+    {
+      "brand": "Mercedes",
+      "model": "EQS",
+      "variant": "580 4MATIC",
+      "type": "bev",
+      "release_year": 2024,
+      "range": 640,
+      "id": "7a148b48-4207-40b5-b207-aed3091efac2",
+      "brand_id": "b2282fbe-f5d9-48d9-943f-a9b66ec51423",
+      "usable_battery_size": 118,
+      "energy_consumption": {
+        "average_consumption": 18.4,
+        "range": 640
+      },
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 200,
+        "is_default_charging_curve": false,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 200
+          },
+          {
+            "percentage": 50,
+            "power": 200
+          },
+          {
+            "percentage": 80,
+            "power": 120
+          },
+          {
+            "percentage": 100,
+            "power": 60
+          }
+        ]
+      },
+      "vehicle_type": "car",
+      "charging_voltage": 400
+    },
+    {
+      "brand": "Mercedes",
+      "model": "EQE",
+      "variant": "300",
+      "type": "bev",
+      "release_year": 2024,
+      "range": 525,
+      "id": "2662e4c0-e4d9-4634-a739-8b62fabbed90",
+      "brand_id": "b2282fbe-f5d9-48d9-943f-a9b66ec51423",
+      "usable_battery_size": 89,
+      "energy_consumption": {
+        "average_consumption": 17,
+        "range": 525
+      },
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 170,
+        "is_default_charging_curve": false,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 170
+          },
+          {
+            "percentage": 50,
+            "power": 170
+          },
+          {
+            "percentage": 80,
+            "power": 102
+          },
+          {
+            "percentage": 100,
+            "power": 51
+          }
+        ]
+      },
+      "vehicle_type": "car",
+      "charging_voltage": 400
+    },
+    {
+      "brand": "Mercedes",
+      "model": "EQS",
+      "variant": "SUV 450 4MATIC",
+      "type": "bev",
+      "release_year": 2023,
+      "range": 530,
+      "id": "d4a2a219-e9f5-4858-b547-acc49679f439",
+      "brand_id": "b2282fbe-f5d9-48d9-943f-a9b66ec51423",
+      "usable_battery_size": 118,
+      "energy_consumption": {
+        "average_consumption": 22.3,
+        "range": 530
+      },
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 200,
+        "is_default_charging_curve": false,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 200
+          },
+          {
+            "percentage": 50,
+            "power": 200
+          },
+          {
+            "percentage": 80,
+            "power": 120
+          },
+          {
+            "percentage": 100,
+            "power": 60
+          }
+        ]
+      },
+      "vehicle_type": "car",
+      "charging_voltage": 400
+    },
+    {
+      "brand": "Mercedes",
+      "model": "B 250e",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2015,
+      "range": 150,
+      "dc_charger": null,
+      "id": "94766af6-063d-4516-9775-2246a3a01d1d",
+      "brand_id": "b2282fbe-f5d9-48d9-943f-a9b66ec51423",
+      "usable_battery_size": 28,
+      "energy_consumption": {
+        "average_consumption": 18.7,
+        "range": 150
+      },
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "vehicle_type": "car",
+      "charging_voltage": 400
+    },
+    {
+      "brand": "Mercedes",
+      "model": "EQV",
+      "variant": "300 Long",
+      "type": "bev",
+      "release_year": 2024,
+      "range": 315,
+      "id": "7d3a2f16-c439-4093-9de6-4b03c5794b4a",
+      "brand_id": "b2282fbe-f5d9-48d9-943f-a9b66ec51423",
+      "usable_battery_size": 90,
+      "energy_consumption": {
+        "average_consumption": 28.6,
+        "range": 315
+      },
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 110,
+        "is_default_charging_curve": false,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 110
+          },
+          {
+            "percentage": 50,
+            "power": 110
+          },
+          {
+            "percentage": 80,
+            "power": 66
+          },
+          {
+            "percentage": 100,
+            "power": 33
+          }
+        ]
+      },
+      "vehicle_type": "car",
+      "charging_voltage": 400
+    },
+    {
+      "brand": "Mercedes",
+      "model": "EQB",
+      "variant": "300 4MATIC",
+      "type": "bev",
+      "release_year": 2023,
+      "range": 345,
+      "id": "12e04cfb-632a-4cf8-bb24-5abb08338bb5",
+      "brand_id": "b2282fbe-f5d9-48d9-943f-a9b66ec51423",
+      "usable_battery_size": 66.5,
+      "energy_consumption": {
+        "average_consumption": 19.3,
+        "range": 345
+      },
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 112,
+        "is_default_charging_curve": false,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 112
+          },
+          {
+            "percentage": 50,
+            "power": 112
+          },
+          {
+            "percentage": 80,
+            "power": 67.2
+          },
+          {
+            "percentage": 100,
+            "power": 33.6
+          }
+        ]
+      },
+      "vehicle_type": "car",
+      "charging_voltage": 400
+    },
+    {
+      "brand": "Mercedes",
+      "model": "EQE",
+      "variant": "350 4MATIC",
+      "type": "bev",
+      "release_year": 2024,
+      "range": 515,
+      "id": "63a6d73b-a2c5-421a-90e1-08d8be105617",
+      "brand_id": "b2282fbe-f5d9-48d9-943f-a9b66ec51423",
+      "usable_battery_size": 90.6,
+      "energy_consumption": {
+        "average_consumption": 17.6,
+        "range": 515
+      },
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 173,
+        "is_default_charging_curve": false,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 173
+          },
+          {
+            "percentage": 50,
+            "power": 173
+          },
+          {
+            "percentage": 80,
+            "power": 103.8
+          },
+          {
+            "percentage": 100,
+            "power": 51.9
+          }
+        ]
+      },
+      "vehicle_type": "car",
+      "charging_voltage": 400
+    },
+    {
+      "brand": "Mercedes",
+      "model": "EQS",
+      "variant": "SUV Maybach 680",
+      "type": "bev",
+      "release_year": 2024,
+      "range": 490,
+      "id": "95e2738d-9030-435b-8c1b-bb4eb6b01152",
+      "brand_id": "b2282fbe-f5d9-48d9-943f-a9b66ec51423",
+      "usable_battery_size": 118,
+      "energy_consumption": {
+        "average_consumption": 24.1,
+        "range": 490
+      },
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 200,
+        "is_default_charging_curve": false,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 200
+          },
+          {
+            "percentage": 50,
+            "power": 200
+          },
+          {
+            "percentage": 80,
+            "power": 120
+          },
+          {
+            "percentage": 100,
+            "power": 60
+          }
+        ]
+      },
+      "vehicle_type": "car",
+      "charging_voltage": 400
+    },
+    {
+      "brand": "Mercedes",
+      "model": "EQB",
+      "variant": "350 4MATIC",
+      "type": "bev",
+      "release_year": 2023,
+      "range": 345,
+      "id": "3c0bd61a-e37f-4cf3-bb5a-e4df78035395",
+      "brand_id": "b2282fbe-f5d9-48d9-943f-a9b66ec51423",
+      "usable_battery_size": 66.5,
+      "energy_consumption": {
+        "average_consumption": 19.3,
+        "range": 345
+      },
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 112,
+        "is_default_charging_curve": false,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 112
+          },
+          {
+            "percentage": 50,
+            "power": 112
+          },
+          {
+            "percentage": 80,
+            "power": 67.2
+          },
+          {
+            "percentage": 100,
+            "power": 33.6
+          }
+        ]
+      },
+      "vehicle_type": "car",
+      "charging_voltage": 400
+    },
+    {
+      "brand": "Mercedes",
+      "model": "EQS",
+      "variant": "SUV 580 4MATIC",
+      "type": "bev",
+      "release_year": 2023,
+      "range": 530,
+      "id": "12607c6f-2b65-427c-b2e8-1bf637c08bd7",
+      "brand_id": "b2282fbe-f5d9-48d9-943f-a9b66ec51423",
+      "usable_battery_size": 118,
+      "energy_consumption": {
+        "average_consumption": 22.3,
+        "range": 530
+      },
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 200,
+        "is_default_charging_curve": false,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 200
+          },
+          {
+            "percentage": 50,
+            "power": 200
+          },
+          {
+            "percentage": 80,
+            "power": 120
+          },
+          {
+            "percentage": 100,
+            "power": 60
+          }
+        ]
+      },
+      "vehicle_type": "car",
+      "charging_voltage": 400
+    },
+    {
+      "brand": "Mercedes",
+      "model": "EQA",
+      "variant": "250",
+      "type": "bev",
+      "release_year": 2023,
+      "range": 395,
+      "id": "dbd87e96-697f-4cf9-a2b8-1c3f57c54f8b",
+      "brand_id": "b2282fbe-f5d9-48d9-943f-a9b66ec51423",
+      "usable_battery_size": 66.5,
+      "energy_consumption": {
+        "average_consumption": 16.8,
+        "range": 395
+      },
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 112,
+        "is_default_charging_curve": false,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 112
+          },
+          {
+            "percentage": 50,
+            "power": 112
+          },
+          {
+            "percentage": 80,
+            "power": 67.2
+          },
+          {
+            "percentage": 100,
+            "power": 33.6
+          }
+        ]
+      },
+      "vehicle_type": "car",
+      "charging_voltage": 400
+    },
+    {
+      "brand": "Mercedes",
+      "model": "EQB",
+      "variant": "250",
+      "type": "bev",
+      "release_year": 2022,
+      "range": 385,
+      "id": "ea66c6e8-ad56-4b1c-9d77-65f9e223524e",
+      "brand_id": "b2282fbe-f5d9-48d9-943f-a9b66ec51423",
+      "usable_battery_size": 66.5,
+      "energy_consumption": {
+        "average_consumption": 17.3,
+        "range": 385
+      },
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 112,
+        "is_default_charging_curve": false,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 112
+          },
+          {
+            "percentage": 50,
+            "power": 112
+          },
+          {
+            "percentage": 80,
+            "power": 67.2
+          },
+          {
+            "percentage": 100,
+            "power": 33.6
+          }
+        ]
+      },
+      "vehicle_type": "car",
+      "charging_voltage": 400
+    },
+    {
+      "brand": "Mercedes",
+      "model": "EQS",
+      "variant": "350",
+      "type": "bev",
+      "release_year": 2021,
+      "range": 540,
+      "id": "590529f1-5b6d-43d8-bf1c-4bdeb8fcc488",
+      "brand_id": "b2282fbe-f5d9-48d9-943f-a9b66ec51423",
+      "usable_battery_size": 90.6,
+      "energy_consumption": {
+        "average_consumption": 16.8,
+        "range": 540
+      },
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 173,
+        "is_default_charging_curve": false,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 173
+          },
+          {
+            "percentage": 50,
+            "power": 173
+          },
+          {
+            "percentage": 80,
+            "power": 103.8
+          },
+          {
+            "percentage": 100,
+            "power": 51.9
+          }
+        ]
+      },
+      "vehicle_type": "car",
       "charging_voltage": 400
     }
   ]
