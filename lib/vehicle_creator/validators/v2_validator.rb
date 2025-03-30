@@ -1,4 +1,5 @@
 require_relative 'charging_validator'
+require 'date'
 
 module Validators
   class V2Validator
@@ -18,6 +19,16 @@ module Validators
         # Validate meta
         unless data['meta']['updated_at'] && data['meta']['overall_count']
           errors << "Meta must contain 'updated_at' and 'overall_count'"
+        end
+
+        # Validate updated_at format (ISO 8601)
+        if data['meta']['updated_at']
+          begin
+            # Attempt to parse the date to ensure it's in a valid ISO 8601 format
+            Date.iso8601(data['meta']['updated_at'])
+          rescue ArgumentError
+            errors << "Invalid date format for updated_at: #{data['meta']['updated_at']}. Must be ISO 8601 format."
+          end
         end
 
         # Validate brands array

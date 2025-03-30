@@ -101,7 +101,11 @@ document.addEventListener('DOMContentLoaded', async () => {
 
         function displayResults(results) {
             const sortedResults = sortResults(results, sortSelect.value);
-            resultCount.textContent = `Found ${results.length} vehicle${results.length === 1 ? '' : 's'} (Updated: ${new Date(brandsData.updated_at).toLocaleDateString()})`;
+            // Format date with explicit parsing to ensure browser compatibility
+            const updateDate = brandsData.meta?.updated_at ? 
+                new Date(brandsData.meta.updated_at).toLocaleDateString(undefined, { year: 'numeric', month: 'long', day: 'numeric' }) : 
+                'Unknown date';
+            resultCount.textContent = `Found ${results.length} vehicle${results.length === 1 ? '' : 's'} (Updated: ${updateDate})`;
             if (results.length === 0) {
                 resultsDiv.innerHTML = '<div class="no-results">No matches found. Try adjusting your search or filters.</div>';
                 return;

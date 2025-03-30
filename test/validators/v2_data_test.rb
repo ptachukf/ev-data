@@ -1,5 +1,6 @@
 require_relative '../test_helper'
 require 'set'
+require 'date'
 
 class V2DataTest < Minitest::Test
   def setup
@@ -10,6 +11,25 @@ class V2DataTest < Minitest::Test
   def test_brands_file_structure
     errors = @validator.validate_brands_file('data/v2/brands.json')
     assert_empty errors, "Expected no validation errors in brands.json, got: #{errors}"
+  end
+
+  def test_meta_date_format
+    # Check that updated_at is in ISO 8601 format
+    updated_at = @brands_data['meta']['updated_at']
+    assert updated_at, "Missing updated_at in meta"
+    
+    # Try parsing the date to verify format
+    begin
+      parsed_date = Date.iso8601(updated_at)
+      # Check that we get a valid Date object
+      assert parsed_date.is_a?(Date), "Failed to parse date: #{updated_at}"
+      
+      # Verify the date is within a reasonable range (not too far in the past or future)
+      assert parsed_date > Date.today - 5 * 365, "Date is too far in the past: #{updated_at}"
+      assert parsed_date < Date.today + 2 * 365, "Date is too far in the future: #{updated_at}"
+    rescue ArgumentError => e
+      flunk "Invalid ISO 8601 date format: #{updated_at} - #{e.message}"
+    end
   end
 
   def test_brand_references_exist
