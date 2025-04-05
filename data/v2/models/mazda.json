@@ -137,14 +137,14 @@
         ],
         "max_power": 11,
         "power_per_charging_point": {
-          "2.0": 2.0,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4,
-          "11": 11.0,
+          "11": 11,
           "16": 11,
           "22": 11,
-          "43": 11
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
         },
         "usable_phases": 3
       },
@@ -177,7 +177,7 @@
       "brand_id": "9b829849-1219-48b8-964e-90ddc1a4fa85",
       "vehicle_type": "car",
       "charging_voltage": 400,
-      "usable_battery_size": 86.0,
+      "usable_battery_size": 86,
       "energy_consumption": {
         "average_consumption": 17.8
       }

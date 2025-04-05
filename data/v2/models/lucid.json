@@ -188,14 +188,14 @@
         ],
         "max_power": 11,
         "power_per_charging_point": {
-          "2.0": 2.0,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4,
-          "11": 11.0,
+          "11": 11,
           "16": 11,
           "22": 11,
-          "43": 11
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
         },
         "usable_phases": 3
       },
@@ -228,7 +228,7 @@
       "brand_id": "24199511-376f-cc42-0cce-5662566baa1a",
       "vehicle_type": "car",
       "charging_voltage": 400,
-      "usable_battery_size": 92.0,
+      "usable_battery_size": 92,
       "energy_consumption": {
         "average_consumption": 14.9
       }
@@ -248,14 +248,14 @@
         ],
         "max_power": 11,
         "power_per_charging_point": {
-          "2.0": 2.0,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4,
-          "11": 11.0,
+          "11": 11,
           "16": 11,
           "22": 11,
-          "43": 11
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
         },
         "usable_phases": 3
       },
@@ -288,7 +288,7 @@
       "brand_id": "24199511-376f-cc42-0cce-5662566baa1a",
       "vehicle_type": "car",
       "charging_voltage": 400,
-      "usable_battery_size": 118.0,
+      "usable_battery_size": 118,
       "energy_consumption": {
         "average_consumption": 19.2
       }
@@ -308,14 +308,14 @@
         ],
         "max_power": 11,
         "power_per_charging_point": {
-          "2.0": 2.0,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4,
-          "11": 11.0,
+          "11": 11,
           "16": 11,
           "22": 11,
-          "43": 11
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
         },
         "usable_phases": 3
       },
@@ -348,7 +348,7 @@
       "brand_id": "24199511-376f-cc42-0cce-5662566baa1a",
       "vehicle_type": "car",
       "charging_voltage": 400,
-      "usable_battery_size": 92.0,
+      "usable_battery_size": 92,
       "energy_consumption": {
         "average_consumption": 15.6
       }

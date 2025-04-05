@@ -17,14 +17,14 @@
         ],
         "max_power": 11,
         "power_per_charging_point": {
-          "2.0": 2.0,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4,
-          "11": 11.0,
+          "11": 11,
           "16": 11,
           "22": 11,
-          "43": 11
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
         },
         "usable_phases": 3
       },
@@ -59,7 +59,7 @@
       "charging_voltage": 400,
       "usable_battery_size": 59.3,
       "energy_consumption": {
-        "average_consumption": 18.0
+        "average_consumption": 18
       }
     },
     {
@@ -77,14 +77,14 @@
         ],
         "max_power": 11,
         "power_per_charging_point": {
-          "2.0": 2.0,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4,
-          "11": 11.0,
+          "11": 11,
           "16": 11,
           "22": 11,
-          "43": 11
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
         },
         "usable_phases": 3
       },
@@ -117,7 +117,7 @@
       "brand_id": "9e8d7c6b-5a44-4382-a09f-8e7d6c543321",
       "vehicle_type": "car",
       "charging_voltage": 400,
-      "usable_battery_size": 48.0,
+      "usable_battery_size": 48,
       "energy_consumption": {
         "average_consumption": 17.5
       }
@@ -137,14 +137,14 @@
         ],
         "max_power": 11,
         "power_per_charging_point": {
-          "2.0": 2.0,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4,
-          "11": 11.0,
+          "11": 11,
           "16": 11,
           "22": 11,
-          "43": 11
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
         },
         "usable_phases": 3
       },
@@ -177,7 +177,7 @@
       "brand_id": "9e8d7c6b-5a44-4382-a09f-8e7d6c543321",
       "vehicle_type": "car",
       "charging_voltage": 400,
-      "usable_battery_size": 63.0,
+      "usable_battery_size": 63,
       "energy_consumption": {
         "average_consumption": 17.4
       }

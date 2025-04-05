@@ -3339,14 +3339,14 @@
         ],
         "max_power": 11,
         "power_per_charging_point": {
-          "2.0": 2.0,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4,
-          "11": 11.0,
+          "11": 11,
           "16": 11,
           "22": 11,
-          "43": 11
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
         },
         "usable_phases": 3
       },
@@ -3379,7 +3379,7 @@
       "brand_id": "f37896c3-6bc5-45e1-b442-b9cbc38e3a7c",
       "vehicle_type": "car",
       "charging_voltage": 400,
-      "usable_battery_size": 98.0,
+      "usable_battery_size": 98,
       "energy_consumption": {
         "average_consumption": 20.4
       }
@@ -3399,14 +3399,14 @@
         ],
         "max_power": 11,
         "power_per_charging_point": {
-          "2.0": 2.0,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4,
-          "11": 11.0,
+          "11": 11,
           "16": 11,
           "22": 11,
-          "43": 11
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
         },
         "usable_phases": 3
       },
@@ -3439,7 +3439,7 @@
       "brand_id": "f37896c3-6bc5-45e1-b442-b9cbc38e3a7c",
       "vehicle_type": "car",
       "charging_voltage": 400,
-      "usable_battery_size": 95.0,
+      "usable_battery_size": 95,
       "energy_consumption": {
         "average_consumption": 21.6
       }
@@ -3459,14 +3459,14 @@
         ],
         "max_power": 11,
         "power_per_charging_point": {
-          "2.0": 2.0,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4,
-          "11": 11.0,
+          "11": 11,
           "16": 11,
           "22": 11,
-          "43": 11
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
         },
         "usable_phases": 3
       },
@@ -3519,14 +3519,14 @@
         ],
         "max_power": 11,
         "power_per_charging_point": {
-          "2.0": 2.0,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4,
-          "11": 11.0,
+          "11": 11,
           "16": 11,
           "22": 11,
-          "43": 11
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
         },
         "usable_phases": 3
       },
@@ -3579,14 +3579,14 @@
         ],
         "max_power": 11,
         "power_per_charging_point": {
-          "2.0": 2.0,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4,
-          "11": 11.0,
+          "11": 11,
           "16": 11,
           "22": 11,
-          "43": 11
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
         },
         "usable_phases": 3
       },
@@ -3619,9 +3619,9 @@
       "brand_id": "f37896c3-6bc5-45e1-b442-b9cbc38e3a7c",
       "vehicle_type": "car",
       "charging_voltage": 400,
-      "usable_battery_size": 95.0,
+      "usable_battery_size": 95,
       "energy_consumption": {
-        "average_consumption": 17.0
+        "average_consumption": 17
       }
     },
     {
@@ -3639,14 +3639,14 @@
         ],
         "max_power": 11,
         "power_per_charging_point": {
-          "2.0": 2.0,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4,
-          "11": 11.0,
+          "11": 11,
           "16": 11,
           "22": 11,
-          "43": 11
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
         },
         "usable_phases": 3
       },
@@ -3679,7 +3679,7 @@
       "brand_id": "f37896c3-6bc5-45e1-b442-b9cbc38e3a7c",
       "vehicle_type": "car",
       "charging_voltage": 400,
-      "usable_battery_size": 51.0,
+      "usable_battery_size": 51,
       "energy_consumption": {
         "average_consumption": 14.6
       }
@@ -3699,14 +3699,14 @@
         ],
         "max_power": 11,
         "power_per_charging_point": {
-          "2.0": 2.0,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4,
-          "11": 11.0,
+          "11": 11,
           "16": 11,
           "22": 11,
-          "43": 11
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
         },
         "usable_phases": 3
       },
@@ -3739,7 +3739,7 @@
       "brand_id": "f37896c3-6bc5-45e1-b442-b9cbc38e3a7c",
       "vehicle_type": "car",
       "charging_voltage": 400,
-      "usable_battery_size": 95.0,
+      "usable_battery_size": 95,
       "energy_consumption": {
         "average_consumption": 16.5
       }
@@ -3759,14 +3759,14 @@
         ],
         "max_power": 11,
         "power_per_charging_point": {
-          "2.0": 2.0,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4,
-          "11": 11.0,
+          "11": 11,
           "16": 11,
           "22": 11,
-          "43": 11
+          "43": 11,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
         },
         "usable_phases": 3
       },
@@ -3799,7 +3799,7 @@
       "brand_id": "f37896c3-6bc5-45e1-b442-b9cbc38e3a7c",
       "vehicle_type": "car",
       "charging_voltage": 400,
-      "usable_battery_size": 75.0,
+      "usable_battery_size": 75,
       "energy_consumption": {
         "average_consumption": 16.7
       }
