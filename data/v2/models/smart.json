@@ -1298,6 +1298,354 @@
       "energy_consumption": {
         "average_consumption": 17.6
       }
+    },
+    {
+      "brand": "smart",
+      "model": "ForTwo Cabrio Electric",
+      "variant": "Drive",
+      "vehicle_type": "car",
+      "usable_battery_size": 16.7,
+      "energy_consumption": {
+        "average_consumption": 17.6
+      },
+      "charging_voltage": 400,
+      "release_year": 2017,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 16.7,
+        "power_per_charging_point": {
+          "2": 2,
+          "11": 11,
+          "16": 16,
+          "22": 16.7,
+          "43": 16.7,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "2.0": 2
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 100,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 100
+          },
+          {
+            "percentage": 70,
+            "power": 100
+          },
+          {
+            "percentage": 80,
+            "power": 70
+          },
+          {
+            "percentage": 100,
+            "power": 16.7
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "a462c115-33b4-438b-b590-bc4a33382d1c",
+      "type": "bev",
+      "id": "0463887d-0e86-4d37-ba39-ae6eba9f8ee0"
+    },
+    {
+      "brand": "smart",
+      "model": "ForFour Electric",
+      "variant": "Drive",
+      "vehicle_type": "car",
+      "usable_battery_size": 16.7,
+      "energy_consumption": {
+        "average_consumption": 17.6
+      },
+      "charging_voltage": 400,
+      "release_year": 2017,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 16.7,
+        "power_per_charging_point": {
+          "2": 2,
+          "11": 11,
+          "16": 16,
+          "22": 16.7,
+          "43": 16.7,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "2.0": 2
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 100,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 100
+          },
+          {
+            "percentage": 70,
+            "power": 100
+          },
+          {
+            "percentage": 80,
+            "power": 70
+          },
+          {
+            "percentage": 100,
+            "power": 16.7
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "a462c115-33b4-438b-b590-bc4a33382d1c",
+      "type": "bev",
+      "id": "1443881c-8094-4eec-b5bf-59741b790371"
+    },
+    {
+      "brand": "smart",
+      "model": "ForTwo Electric",
+      "variant": "Drive",
+      "vehicle_type": "car",
+      "usable_battery_size": 16.7,
+      "energy_consumption": {
+        "average_consumption": 16.7
+      },
+      "charging_voltage": 400,
+      "release_year": 2017,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 16.7,
+        "power_per_charging_point": {
+          "2": 2,
+          "11": 11,
+          "16": 16,
+          "22": 16.7,
+          "43": 16.7,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "2.0": 2
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 100,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 100
+          },
+          {
+            "percentage": 70,
+            "power": 100
+          },
+          {
+            "percentage": 80,
+            "power": 70
+          },
+          {
+            "percentage": 100,
+            "power": 16.7
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "a462c115-33b4-438b-b590-bc4a33382d1c",
+      "type": "bev",
+      "id": "fb8b55ba-e20b-4d0a-81bd-3053830faa71"
+    },
+    {
+      "brand": "smart",
+      "model": "fortwo coupe",
+      "variant": "",
+      "vehicle_type": "car",
+      "usable_battery_size": 16.7,
+      "energy_consumption": {
+        "average_consumption": 16.7
+      },
+      "charging_voltage": 400,
+      "release_year": 2018,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 16.7,
+        "power_per_charging_point": {
+          "2": 2,
+          "11": 11,
+          "16": 16,
+          "22": 16.7,
+          "43": 16.7,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "2.0": 2
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 100,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 100
+          },
+          {
+            "percentage": 70,
+            "power": 100
+          },
+          {
+            "percentage": 80,
+            "power": 70
+          },
+          {
+            "percentage": 100,
+            "power": 16.7
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "a462c115-33b4-438b-b590-bc4a33382d1c",
+      "type": "bev",
+      "id": "27fdfc4a-2159-43d0-b368-0444a3873f76"
+    },
+    {
+      "brand": "smart",
+      "model": "fortwo cabrio",
+      "variant": "",
+      "vehicle_type": "car",
+      "usable_battery_size": 16.7,
+      "energy_consumption": {
+        "average_consumption": 17.6
+      },
+      "charging_voltage": 400,
+      "release_year": 2018,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 16.7,
+        "power_per_charging_point": {
+          "2": 2,
+          "11": 11,
+          "16": 16,
+          "22": 16.7,
+          "43": 16.7,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "2.0": 2
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 100,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 100
+          },
+          {
+            "percentage": 70,
+            "power": 100
+          },
+          {
+            "percentage": 80,
+            "power": 70
+          },
+          {
+            "percentage": 100,
+            "power": 16.7
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "a462c115-33b4-438b-b590-bc4a33382d1c",
+      "type": "bev",
+      "id": "e4c4213b-6346-4c07-bbdd-2698f7314838"
+    },
+    {
+      "brand": "smart",
+      "model": "forfour",
+      "variant": "",
+      "vehicle_type": "car",
+      "usable_battery_size": 16.7,
+      "energy_consumption": {
+        "average_consumption": 17.6
+      },
+      "charging_voltage": 400,
+      "release_year": 2018,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 16.7,
+        "power_per_charging_point": {
+          "2": 2,
+          "11": 11,
+          "16": 16,
+          "22": 16.7,
+          "43": 16.7,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "2.0": 2
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 100,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 100
+          },
+          {
+            "percentage": 70,
+            "power": 100
+          },
+          {
+            "percentage": 80,
+            "power": 70
+          },
+          {
+            "percentage": 100,
+            "power": 16.7
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "a462c115-33b4-438b-b590-bc4a33382d1c",
+      "type": "bev",
+      "id": "490a59d9-e4ec-4716-99e8-6e7b38a6923c"
     }
   ]
 }

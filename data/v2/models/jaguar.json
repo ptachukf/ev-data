@@ -184,6 +184,68 @@
         "average_consumption": 23.2
       },
       "charging_voltage": 400
+    },
+    {
+      "brand": "Jaguar",
+      "model": "I-Pace",
+      "variant": "EV400",
+      "vehicle_type": "car",
+      "usable_battery_size": 84.7,
+      "energy_consumption": {
+        "average_consumption": 22.3
+      },
+      "charging_voltage": 400,
+      "release_year": 2018,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2": 2,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "2.0": 2
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 84.7,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 84.7
+          },
+          {
+            "percentage": 30,
+            "power": 84.7
+          },
+          {
+            "percentage": 60,
+            "power": 59.29
+          },
+          {
+            "percentage": 80,
+            "power": 33.88
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "61fc79a2-04ca-418e-9333-caf5f67ba02f",
+      "type": "bev",
+      "id": "2e7e245d-0372-4b68-a987-87d36f0daa5f"
     }
   ]
 }

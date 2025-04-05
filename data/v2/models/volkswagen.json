@@ -1056,72 +1056,6 @@
       "charging_voltage": 400
     },
     {
-      "id": "bad55b90-4b4f-4760-83ea-fa96280e7310",
-      "brand": "Volkswagen",
-      "vehicle_type": "car",
-      "type": "bev",
-      "brand_id": "481793f5-c8b0-4dc9-b3d4-cc615085ac07",
-      "model": "e-Golf",
-      "release_year": 2017,
-      "variant": "",
-      "usable_battery_size": 31.5,
-      "ac_charger": {
-        "usable_phases": 2,
-        "ports": [
-          "type2"
-        ],
-        "max_power": 7.2,
-        "power_per_charging_point": {
-          "11": 7.2,
-          "16": 7.2,
-          "22": 7.2,
-          "43": 7.2,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.2
-        }
-      },
-      "dc_charger": null,
-      "energy_consumption": {
-        "average_consumption": 16.4
-      },
-      "charging_voltage": 400
-    },
-    {
-      "id": "fda95cb7-d391-4344-851e-a1b5a548b42b",
-      "brand": "Volkswagen",
-      "vehicle_type": "car",
-      "type": "bev",
-      "brand_id": "481793f5-c8b0-4dc9-b3d4-cc615085ac07",
-      "model": "e-Golf",
-      "release_year": 2014,
-      "variant": "",
-      "usable_battery_size": 21.2,
-      "ac_charger": {
-        "usable_phases": 1,
-        "ports": [
-          "type2"
-        ],
-        "max_power": 3.6,
-        "power_per_charging_point": {
-          "11": 3.6,
-          "16": 3.6,
-          "22": 3.6,
-          "43": 3.6,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.6,
-          "7.4": 3.6
-        }
-      },
-      "dc_charger": null,
-      "energy_consumption": {
-        "average_consumption": 15.8
-      },
-      "charging_voltage": 400
-    },
-    {
       "id": "f1b46b0a-b101-4072-a246-0b52f0cc51f5",
       "brand": "Volkswagen",
       "vehicle_type": "car",
@@ -2611,6 +2545,354 @@
       "energy_consumption": {
         "average_consumption": 23.6
       }
+    },
+    {
+      "brand": "Volkswagen",
+      "model": "e-Up!",
+      "variant": "",
+      "vehicle_type": "car",
+      "usable_battery_size": 16,
+      "energy_consumption": {
+        "average_consumption": 16.8
+      },
+      "charging_voltage": 400,
+      "release_year": 2014,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 16,
+        "power_per_charging_point": {
+          "2": 2,
+          "11": 11,
+          "16": 16,
+          "22": 16,
+          "43": 16,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "2.0": 2
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 37,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 37
+          },
+          {
+            "percentage": 70,
+            "power": 37
+          },
+          {
+            "percentage": 80,
+            "power": 25.9
+          },
+          {
+            "percentage": 100,
+            "power": 16
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "481793f5-c8b0-4dc9-b3d4-cc615085ac07",
+      "type": "bev",
+      "id": "e2c9ad51-5b34-4436-83ef-84bc0e8720b7"
+    },
+    {
+      "brand": "Volkswagen",
+      "model": "e-Up!",
+      "variant": "",
+      "vehicle_type": "car",
+      "usable_battery_size": 16,
+      "energy_consumption": {
+        "average_consumption": 16
+      },
+      "charging_voltage": 400,
+      "release_year": 2016,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 16,
+        "power_per_charging_point": {
+          "2": 2,
+          "11": 11,
+          "16": 16,
+          "22": 16,
+          "43": 16,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "2.0": 2
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 37,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 37
+          },
+          {
+            "percentage": 70,
+            "power": 37
+          },
+          {
+            "percentage": 80,
+            "power": 25.9
+          },
+          {
+            "percentage": 100,
+            "power": 16
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "481793f5-c8b0-4dc9-b3d4-cc615085ac07",
+      "type": "bev",
+      "id": "9aef06e3-e08f-4d5d-8079-d6474f20d22e"
+    },
+    {
+      "id": "f1f34d44-ef7e-47f3-92ec-ddf250d3c74b",
+      "brand": "Volkswagen",
+      "vehicle_type": "car",
+      "type": "bev",
+      "brand_id": "481793f5-c8b0-4dc9-b3d4-cc615085ac07",
+      "model": "e-Golf",
+      "release_year": 2017,
+      "variant": "",
+      "usable_battery_size": 32,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 32,
+        "power_per_charging_point": {
+          "2": 2,
+          "11": 11,
+          "16": 16,
+          "22": 22,
+          "43": 32,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "2.0": 2
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 32,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 32
+          },
+          {
+            "percentage": 50,
+            "power": 32
+          },
+          {
+            "percentage": 80,
+            "power": 19.2
+          },
+          {
+            "percentage": 100,
+            "power": 32
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "energy_consumption": {
+        "average_consumption": 16.8
+      },
+      "charging_voltage": 400
+    },
+    {
+      "id": "fda95cb7-d391-4344-851e-a1b5a548b42b",
+      "brand": "Volkswagen",
+      "vehicle_type": "car",
+      "type": "bev",
+      "brand_id": "481793f5-c8b0-4dc9-b3d4-cc615085ac07",
+      "model": "e-Golf",
+      "release_year": 2014,
+      "variant": "",
+      "usable_battery_size": 21.2,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 20.5,
+        "power_per_charging_point": {
+          "2": 2,
+          "11": 11,
+          "16": 16,
+          "22": 20.5,
+          "43": 20.5,
+          "2.0": 2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 20.5,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 20.5
+          },
+          {
+            "percentage": 70,
+            "power": 20.5
+          },
+          {
+            "percentage": 80,
+            "power": 14.35
+          },
+          {
+            "percentage": 100,
+            "power": 20.5
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "energy_consumption": {
+        "average_consumption": 16.4
+      },
+      "charging_voltage": 400
+    },
+    {
+      "brand": "Volkswagen",
+      "model": "e-Golf",
+      "variant": "",
+      "vehicle_type": "car",
+      "usable_battery_size": 20.5,
+      "energy_consumption": {
+        "average_consumption": 16.4
+      },
+      "charging_voltage": 400,
+      "release_year": 2014,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 20.5,
+        "power_per_charging_point": {
+          "2": 2,
+          "11": 11,
+          "16": 16,
+          "22": 20.5,
+          "43": 20.5,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "2.0": 2
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 20.5,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 20.5
+          },
+          {
+            "percentage": 70,
+            "power": 20.5
+          },
+          {
+            "percentage": 80,
+            "power": 14.35
+          },
+          {
+            "percentage": 100,
+            "power": 20.5
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "481793f5-c8b0-4dc9-b3d4-cc615085ac07",
+      "type": "bev",
+      "id": "38ddc2c1-c86d-4e60-b536-04050996b864"
+    },
+    {
+      "brand": "Volkswagen",
+      "model": "ID.3 Pure",
+      "variant": "Performance",
+      "vehicle_type": "car",
+      "usable_battery_size": 45,
+      "energy_consumption": {
+        "average_consumption": 16.4
+      },
+      "charging_voltage": 400,
+      "release_year": 2021,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2": 2,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "2.0": 2
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 45,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 45
+          },
+          {
+            "percentage": 50,
+            "power": 45
+          },
+          {
+            "percentage": 80,
+            "power": 27
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "481793f5-c8b0-4dc9-b3d4-cc615085ac07",
+      "type": "bev",
+      "id": "1482733a-45ab-4c86-838a-d6f74c1ecbb8"
     }
   ]
 }

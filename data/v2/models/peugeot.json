@@ -2786,6 +2786,180 @@
       "energy_consumption": {
         "average_consumption": 25
       }
+    },
+    {
+      "brand": "Peugeot",
+      "model": "iOn",
+      "variant": "",
+      "vehicle_type": "car",
+      "usable_battery_size": 14.5,
+      "energy_consumption": {
+        "average_consumption": 17.1
+      },
+      "charging_voltage": 400,
+      "release_year": 2011,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2": 2,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "2.0": 2
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 100,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 100
+          },
+          {
+            "percentage": 50,
+            "power": 100
+          },
+          {
+            "percentage": 80,
+            "power": 60
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": true
+      },
+      "brand_id": "f458fe7d-f545-45f3-8c23-2ab8140b8b5d",
+      "type": "bev",
+      "id": "b53ea80a-d536-44f7-9612-d1f9268b0ae3"
+    },
+    {
+      "brand": "Peugeot",
+      "model": "iOn",
+      "variant": "",
+      "vehicle_type": "car",
+      "usable_battery_size": 14.5,
+      "energy_consumption": {
+        "average_consumption": 17.1
+      },
+      "charging_voltage": 400,
+      "release_year": 2016,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2": 2,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "2.0": 2
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 100,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 100
+          },
+          {
+            "percentage": 50,
+            "power": 100
+          },
+          {
+            "percentage": 80,
+            "power": 60
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": true
+      },
+      "brand_id": "f458fe7d-f545-45f3-8c23-2ab8140b8b5d",
+      "type": "bev",
+      "id": "4b144960-5aef-40d6-8331-eaf84a2423c0"
+    },
+    {
+      "brand": "Peugeot",
+      "model": "Partner Tepee",
+      "variant": "Electric",
+      "vehicle_type": "car",
+      "usable_battery_size": 20.5,
+      "energy_consumption": {
+        "average_consumption": 17.7
+      },
+      "charging_voltage": 400,
+      "release_year": 2017,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 20.5,
+        "power_per_charging_point": {
+          "2": 2,
+          "11": 11,
+          "16": 16,
+          "22": 20.5,
+          "43": 20.5,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "2.0": 2
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 20.5,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 20.5
+          },
+          {
+            "percentage": 70,
+            "power": 20.5
+          },
+          {
+            "percentage": 80,
+            "power": 14.35
+          },
+          {
+            "percentage": 100,
+            "power": 20.5
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "f458fe7d-f545-45f3-8c23-2ab8140b8b5d",
+      "type": "bev",
+      "id": "da5cd9ee-590f-4922-b641-690cbf6bd223"
     }
   ]
 }

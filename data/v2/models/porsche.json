@@ -927,6 +927,68 @@
       "energy_consumption": {
         "average_consumption": 19.6
       }
+    },
+    {
+      "brand": "Porsche",
+      "model": "Taycan Turbo",
+      "variant": "S",
+      "vehicle_type": "car",
+      "usable_battery_size": 83.7,
+      "energy_consumption": {
+        "average_consumption": 20.9
+      },
+      "charging_voltage": 800,
+      "release_year": 2020,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2": 2,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "2.0": 2
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 83.7,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 83.7
+          },
+          {
+            "percentage": 40,
+            "power": 83.7
+          },
+          {
+            "percentage": 70,
+            "power": 66.96000000000001
+          },
+          {
+            "percentage": 90,
+            "power": 33.480000000000004
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "68e11a25-d316-4d22-9444-45c7306c8ab7",
+      "type": "bev",
+      "id": "c28ec06b-2ab3-46d7-9f6e-a9abc63ad958"
     }
   ]
 }

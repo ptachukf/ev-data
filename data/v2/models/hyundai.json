@@ -979,6 +979,184 @@
       },
       "vehicle_type": "car",
       "charging_voltage": 400
+    },
+    {
+      "brand": "Hyundai",
+      "model": "IONIQ",
+      "variant": "Electric",
+      "vehicle_type": "car",
+      "usable_battery_size": 28,
+      "energy_consumption": {
+        "average_consumption": 14.7
+      },
+      "charging_voltage": 400,
+      "release_year": 2016,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 28,
+        "power_per_charging_point": {
+          "2": 2,
+          "11": 11,
+          "16": 16,
+          "22": 22,
+          "43": 28,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "2.0": 2
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 28,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 28
+          },
+          {
+            "percentage": 70,
+            "power": 28
+          },
+          {
+            "percentage": 80,
+            "power": 19.599999999999998
+          },
+          {
+            "percentage": 100,
+            "power": 28
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "9771afb8-9e25-4ae6-a5b3-b2a5b9f363f0",
+      "type": "bev",
+      "id": "8a18fe98-6df5-494d-b2b0-1fda8721461e"
+    },
+    {
+      "brand": "Hyundai",
+      "model": "Kona Electric 64",
+      "variant": "kWh",
+      "vehicle_type": "car",
+      "usable_battery_size": 64,
+      "energy_consumption": {
+        "average_consumption": 16.4
+      },
+      "charging_voltage": 400,
+      "release_year": 2018,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2": 2,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "2.0": 2
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 64,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 64
+          },
+          {
+            "percentage": 30,
+            "power": 64
+          },
+          {
+            "percentage": 60,
+            "power": 44.8
+          },
+          {
+            "percentage": 80,
+            "power": 25.6
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "9771afb8-9e25-4ae6-a5b3-b2a5b9f363f0",
+      "type": "bev",
+      "id": "6625530e-9505-4e0a-b252-467febc7229c"
+    },
+    {
+      "brand": "Hyundai",
+      "model": "Kona Electric 39",
+      "variant": "kWh",
+      "vehicle_type": "car",
+      "usable_battery_size": 39.2,
+      "energy_consumption": {
+        "average_consumption": 16
+      },
+      "charging_voltage": 400,
+      "release_year": 2018,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 39.2,
+        "power_per_charging_point": {
+          "2": 2,
+          "11": 11,
+          "16": 16,
+          "22": 22,
+          "43": 39.2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "2.0": 2
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 39.2,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 39.2
+          },
+          {
+            "percentage": 50,
+            "power": 39.2
+          },
+          {
+            "percentage": 80,
+            "power": 23.52
+          },
+          {
+            "percentage": 100,
+            "power": 39.2
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "9771afb8-9e25-4ae6-a5b3-b2a5b9f363f0",
+      "type": "bev",
+      "id": "37250d57-293d-4687-8e6e-6e9390f4f4bd"
     }
   ]
 }

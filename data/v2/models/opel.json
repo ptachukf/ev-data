@@ -422,12 +422,11 @@
       "type": "bev",
       "release_year": 2017,
       "range": 335,
-      "id": "1a351e91-6320-479c-9314-5b9de24bba61",
+      "id": "b8ba3f10-217d-4005-afca-de26bb9ded23",
       "brand_id": "3500fb3e-bd2c-478e-ae5e-ac9ee490594b",
       "usable_battery_size": 58,
       "energy_consumption": {
-        "average_consumption": 17.3,
-        "range": 335
+        "average_consumption": 17.3
       },
       "ac_charger": {
         "usable_phases": 3,
@@ -436,40 +435,41 @@
         ],
         "max_power": 11,
         "power_per_charging_point": {
+          "2": 2,
           "11": 11,
           "16": 11,
           "22": 11,
           "43": 11,
-          "2.0": 2,
           "2.3": 2.3,
           "3.7": 3.7,
-          "7.4": 7.4
+          "7.4": 7.4,
+          "2.0": 2
         }
       },
       "dc_charger": {
         "ports": [
           "ccs"
         ],
-        "max_power": 46,
-        "is_default_charging_curve": false,
+        "max_power": 58,
         "charging_curve": [
           {
             "percentage": 0,
-            "power": 46
+            "power": 58
           },
           {
             "percentage": 50,
-            "power": 46
+            "power": 58
           },
           {
             "percentage": 80,
-            "power": 27.599999999999998
+            "power": 34.8
           },
           {
             "percentage": 100,
-            "power": 13.799999999999999
+            "power": 11
           }
-        ]
+        ],
+        "is_default_charging_curve": false
       },
       "vehicle_type": "car",
       "charging_voltage": 400

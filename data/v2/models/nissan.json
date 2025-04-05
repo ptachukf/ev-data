@@ -1200,6 +1200,296 @@
       "energy_consumption": {
         "average_consumption": 21.5
       }
+    },
+    {
+      "brand": "Nissan",
+      "model": "Leaf 24",
+      "variant": "kWh",
+      "vehicle_type": "car",
+      "usable_battery_size": 22,
+      "energy_consumption": {
+        "average_consumption": 16.3
+      },
+      "charging_voltage": 400,
+      "release_year": 2013,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2": 2,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "2.0": 2
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 100,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 100
+          },
+          {
+            "percentage": 50,
+            "power": 100
+          },
+          {
+            "percentage": 80,
+            "power": 60
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": true
+      },
+      "brand_id": "dab5a47a-e8ce-4d34-9139-0701499205b1",
+      "type": "bev",
+      "id": "294fb510-34b8-49be-8cf8-419d1557585a"
+    },
+    {
+      "brand": "Nissan",
+      "model": "Leaf 30",
+      "variant": "kWh",
+      "vehicle_type": "car",
+      "usable_battery_size": 28,
+      "energy_consumption": {
+        "average_consumption": 16.5
+      },
+      "charging_voltage": 400,
+      "release_year": 2015,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2": 2,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "2.0": 2
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 100,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 100
+          },
+          {
+            "percentage": 50,
+            "power": 100
+          },
+          {
+            "percentage": 80,
+            "power": 60
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": true
+      },
+      "brand_id": "dab5a47a-e8ce-4d34-9139-0701499205b1",
+      "type": "bev",
+      "id": "a3b8ef1d-66e5-4527-8af4-7196012fc86f"
+    },
+    {
+      "brand": "Nissan",
+      "model": "e-NV200",
+      "variant": "Evalia",
+      "vehicle_type": "car",
+      "usable_battery_size": 22,
+      "energy_consumption": {
+        "average_consumption": 21
+      },
+      "charging_voltage": 400,
+      "release_year": 2014,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2": 2,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "2.0": 2
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 100,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 100
+          },
+          {
+            "percentage": 50,
+            "power": 100
+          },
+          {
+            "percentage": 80,
+            "power": 60
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": true
+      },
+      "brand_id": "dab5a47a-e8ce-4d34-9139-0701499205b1",
+      "type": "bev",
+      "id": "7b889dac-4cda-4435-a414-b7965de5c9d7"
+    },
+    {
+      "brand": "Nissan",
+      "model": "Leaf",
+      "variant": "",
+      "vehicle_type": "car",
+      "usable_battery_size": 39,
+      "energy_consumption": {
+        "average_consumption": 16.6
+      },
+      "charging_voltage": 400,
+      "release_year": 2018,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 39,
+        "power_per_charging_point": {
+          "2": 2,
+          "11": 11,
+          "16": 16,
+          "22": 22,
+          "43": 39,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "2.0": 2
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 39,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 39
+          },
+          {
+            "percentage": 50,
+            "power": 39
+          },
+          {
+            "percentage": 80,
+            "power": 23.4
+          },
+          {
+            "percentage": 100,
+            "power": 39
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "dab5a47a-e8ce-4d34-9139-0701499205b1",
+      "type": "bev",
+      "id": "df0bb489-c292-4039-8407-5929d234a8ab"
+    },
+    {
+      "brand": "Nissan",
+      "model": "e-NV200",
+      "variant": "Evalia",
+      "vehicle_type": "car",
+      "usable_battery_size": 37,
+      "energy_consumption": {
+        "average_consumption": 21.8
+      },
+      "charging_voltage": 400,
+      "release_year": 2018,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 37,
+        "power_per_charging_point": {
+          "2": 2,
+          "11": 11,
+          "16": 16,
+          "22": 22,
+          "43": 37,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "2.0": 2
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 37,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 37
+          },
+          {
+            "percentage": 50,
+            "power": 37
+          },
+          {
+            "percentage": 80,
+            "power": 22.2
+          },
+          {
+            "percentage": 100,
+            "power": 37
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "dab5a47a-e8ce-4d34-9139-0701499205b1",
+      "type": "bev",
+      "id": "18310c77-6bf8-4724-8d89-dd10bafb430d"
     }
   ]
 }

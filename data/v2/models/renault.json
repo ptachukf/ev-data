@@ -515,35 +515,60 @@
       "charging_voltage": 400
     },
     {
-      "id": "e604a056-9338-4044-93dd-5a595d4a3ef3",
+      "id": "a38c9b3b-ae0a-4e53-a5e5-502380ca60ec",
       "brand": "Renault",
       "vehicle_type": "car",
       "type": "bev",
       "brand_id": "c0d8a60c-34b8-44fe-8af7-9eeb62eedb4b",
       "model": "Zoe",
       "release_year": 2017,
-      "variant": "Q 90",
+      "variant": "Q90",
       "usable_battery_size": 41,
       "ac_charger": {
         "usable_phases": 3,
         "ports": [
           "type2"
         ],
-        "max_power": 30,
+        "max_power": 11,
         "power_per_charging_point": {
-          "11": 11.1,
-          "16": 16.2,
-          "22": 22.2,
-          "43": 30,
-          "2.0": 2,
+          "2": 2,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
           "2.3": 2.3,
           "3.7": 3.7,
-          "7.4": 7.4
+          "7.4": 7.4,
+          "2.0": 2
         }
       },
-      "dc_charger": null,
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 100,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 100
+          },
+          {
+            "percentage": 50,
+            "power": 100
+          },
+          {
+            "percentage": 80,
+            "power": 60
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": true
+      },
       "energy_consumption": {
-        "average_consumption": 16.4
+        "average_consumption": 16.7
       },
       "charging_voltage": 400
     },
@@ -581,33 +606,58 @@
       "charging_voltage": 400
     },
     {
-      "id": "737441e8-6b5f-4185-9b0b-e51585ab6ea8",
+      "id": "65359747-ec05-47f0-95cf-06e1e8f2b04f",
       "brand": "Renault",
       "vehicle_type": "car",
       "type": "bev",
       "brand_id": "c0d8a60c-34b8-44fe-8af7-9eeb62eedb4b",
       "model": "Zoe",
       "release_year": 2017,
-      "variant": "R 90",
+      "variant": "R90",
       "usable_battery_size": 41,
       "ac_charger": {
         "usable_phases": 3,
         "ports": [
           "type2"
         ],
-        "max_power": 22,
+        "max_power": 11,
         "power_per_charging_point": {
-          "11": 11.1,
-          "16": 16.2,
-          "22": 22,
-          "43": 22,
-          "2.0": 2,
+          "2": 2,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
           "2.3": 2.3,
           "3.7": 3.7,
-          "7.4": 7.4
+          "7.4": 7.4,
+          "2.0": 2
         }
       },
-      "dc_charger": null,
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 100,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 100
+          },
+          {
+            "percentage": 50,
+            "power": 100
+          },
+          {
+            "percentage": 80,
+            "power": 60
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": true
+      },
       "energy_consumption": {
         "average_consumption": 16.1
       },
@@ -1695,6 +1745,354 @@
       "brand_id": "c0d8a60c-34b8-44fe-8af7-9eeb62eedb4b",
       "vehicle_type": "car",
       "charging_voltage": 400
+    },
+    {
+      "brand": "Renault",
+      "model": "Zoe",
+      "variant": "Q210",
+      "vehicle_type": "car",
+      "usable_battery_size": 23.3,
+      "energy_consumption": {
+        "average_consumption": 17.9
+      },
+      "charging_voltage": 400,
+      "release_year": 2013,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2": 2,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "2.0": 2
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 100,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 100
+          },
+          {
+            "percentage": 50,
+            "power": 100
+          },
+          {
+            "percentage": 80,
+            "power": 60
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": true
+      },
+      "brand_id": "c0d8a60c-34b8-44fe-8af7-9eeb62eedb4b",
+      "type": "bev",
+      "id": "f86de6eb-6e47-4d87-8dfc-6a512118561e"
+    },
+    {
+      "brand": "Renault",
+      "model": "Zoe",
+      "variant": "R240",
+      "vehicle_type": "car",
+      "usable_battery_size": 23.3,
+      "energy_consumption": {
+        "average_consumption": 16.1
+      },
+      "charging_voltage": 400,
+      "release_year": 2015,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 23.3,
+        "power_per_charging_point": {
+          "2": 2,
+          "11": 11,
+          "16": 16,
+          "22": 22,
+          "43": 23.3,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "2.0": 2
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 23.3,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 23.3
+          },
+          {
+            "percentage": 70,
+            "power": 23.3
+          },
+          {
+            "percentage": 80,
+            "power": 16.31
+          },
+          {
+            "percentage": 100,
+            "power": 23.3
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "c0d8a60c-34b8-44fe-8af7-9eeb62eedb4b",
+      "type": "bev",
+      "id": "09f87767-b93d-4f7a-a957-e5b4a1b07a45"
+    },
+    {
+      "brand": "Renault",
+      "model": "Zoe R90",
+      "variant": "Entry",
+      "vehicle_type": "car",
+      "usable_battery_size": 23.3,
+      "energy_consumption": {
+        "average_consumption": 16.6
+      },
+      "charging_voltage": 400,
+      "release_year": 2017,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2": 2,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "2.0": 2
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 100,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 100
+          },
+          {
+            "percentage": 50,
+            "power": 100
+          },
+          {
+            "percentage": 80,
+            "power": 60
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": true
+      },
+      "brand_id": "c0d8a60c-34b8-44fe-8af7-9eeb62eedb4b",
+      "type": "bev",
+      "id": "37378681-ea22-48bc-a376-1c3d9ba304ca"
+    },
+    {
+      "brand": "Renault",
+      "model": "Kangoo Maxi ZE",
+      "variant": "33",
+      "vehicle_type": "car",
+      "usable_battery_size": 31,
+      "energy_consumption": {
+        "average_consumption": 19.4
+      },
+      "charging_voltage": 400,
+      "release_year": 2017,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 31,
+        "power_per_charging_point": {
+          "2": 2,
+          "11": 11,
+          "16": 16,
+          "22": 22,
+          "43": 31,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "2.0": 2
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 31,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 31
+          },
+          {
+            "percentage": 50,
+            "power": 31
+          },
+          {
+            "percentage": 80,
+            "power": 18.599999999999998
+          },
+          {
+            "percentage": 100,
+            "power": 31
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "c0d8a60c-34b8-44fe-8af7-9eeb62eedb4b",
+      "type": "bev",
+      "id": "2491b711-0440-4a1a-ba06-2db17fe33b64"
+    },
+    {
+      "brand": "Renault",
+      "model": "Zoe",
+      "variant": "R110",
+      "vehicle_type": "car",
+      "usable_battery_size": 41,
+      "energy_consumption": {
+        "average_consumption": 16.4
+      },
+      "charging_voltage": 400,
+      "release_year": 2018,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 41,
+        "power_per_charging_point": {
+          "2": 2,
+          "11": 11,
+          "16": 16,
+          "22": 22,
+          "43": 41,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "2.0": 2
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 41,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 41
+          },
+          {
+            "percentage": 50,
+            "power": 41
+          },
+          {
+            "percentage": 80,
+            "power": 24.599999999999998
+          },
+          {
+            "percentage": 100,
+            "power": 41
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "c0d8a60c-34b8-44fe-8af7-9eeb62eedb4b",
+      "type": "bev",
+      "id": "748de479-af53-4598-bf8b-8fd40f82396f"
+    },
+    {
+      "brand": "Renault",
+      "model": "q90",
+      "variant": "",
+      "vehicle_type": "car",
+      "usable_battery_size": 41,
+      "energy_consumption": {
+        "average_consumption": 16.7
+      },
+      "charging_voltage": 400,
+      "release_year": 2018,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 41,
+        "power_per_charging_point": {
+          "2": 2,
+          "11": 11,
+          "16": 16,
+          "22": 22,
+          "43": 41,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "2.0": 2
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 41,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 41
+          },
+          {
+            "percentage": 50,
+            "power": 41
+          },
+          {
+            "percentage": 80,
+            "power": 24.599999999999998
+          },
+          {
+            "percentage": 100,
+            "power": 41
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "c0d8a60c-34b8-44fe-8af7-9eeb62eedb4b",
+      "type": "bev",
+      "id": "11828f12-d7df-41a9-9b58-9367de77c5f0"
     }
   ]
 }

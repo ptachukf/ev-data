@@ -1,7 +1,7 @@
 {
   "meta": {
-    "updated_at": "2025-03-30T18:21:13.740Z",
-    "overall_count": 802
+    "updated_at": "2025-04-05T18:38:44.258Z",
+    "overall_count": 859
   },
   "brands": [
     {
@@ -98,11 +98,6 @@
       "id": "ef55e52a-51bd-740c-876d-92cbc6a6cac1",
       "name": "Energica",
       "models_file": "models/energica.json"
-    },
-    {
-      "id": "b7c3b515-9568-4a3b-a564-e630d5116d90",
-      "name": "exit",
-      "models_file": "models/exit.json"
     },
     {
       "id": "3291e5ba-862c-49fa-8437-71105743875e",

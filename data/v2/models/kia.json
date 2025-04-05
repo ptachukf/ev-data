@@ -1626,6 +1626,126 @@
       "energy_consumption": {
         "average_consumption": 14.8
       }
+    },
+    {
+      "brand": "Kia",
+      "model": "Soul",
+      "variant": "EV",
+      "vehicle_type": "car",
+      "usable_battery_size": 30,
+      "energy_consumption": {
+        "average_consumption": 17.6
+      },
+      "charging_voltage": 400,
+      "release_year": 2017,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 30,
+        "power_per_charging_point": {
+          "2": 2,
+          "11": 11,
+          "16": 16,
+          "22": 22,
+          "43": 30,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "2.0": 2
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 30,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 30
+          },
+          {
+            "percentage": 50,
+            "power": 30
+          },
+          {
+            "percentage": 80,
+            "power": 18
+          },
+          {
+            "percentage": 100,
+            "power": 30
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "3337d5f0-39de-4ded-831b-843dfec1ebbd",
+      "type": "bev",
+      "id": "3aae85e6-17b5-42d6-a0d1-513db7afe74d"
+    },
+    {
+      "brand": "Kia",
+      "model": "e-Niro 64",
+      "variant": "kWh",
+      "vehicle_type": "car",
+      "usable_battery_size": 64,
+      "energy_consumption": {
+        "average_consumption": 17.1
+      },
+      "charging_voltage": 400,
+      "release_year": 2018,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2": 2,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "2.0": 2
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 64,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 64
+          },
+          {
+            "percentage": 30,
+            "power": 64
+          },
+          {
+            "percentage": 60,
+            "power": 44.8
+          },
+          {
+            "percentage": 80,
+            "power": 25.6
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "3337d5f0-39de-4ded-831b-843dfec1ebbd",
+      "type": "bev",
+      "id": "51e5229e-ceaf-4d28-9392-d0566db5deb4"
     }
   ]
 }
