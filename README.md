@@ -53,7 +53,41 @@ The data is validated using Ruby-based validators that ensure:
 ## Scripts
 
 - `scripts/update_meta.rb`: Updates meta information in the v2 format
-- `scripts/split_data.rb`: Converts data from v1 to v2 format
+- `scripts/split_data.rb`: Converts data from v1 format (ev-data.json) to v2 format (multiple files)
+- `scripts/merge_data.rb`: Converts data from v2 format (multiple files) back to v1 format (ev-data.json)
+
+### Data Conversion Scripts
+
+#### Split Data (V1 → V2)
+
+The `split_data.rb` script splits the single v1 format file into the multi-file v2 format:
+
+```bash
+ruby scripts/split_data.rb
+```
+
+This creates:
+
+- `data/v2/brands.json` - Contains brand information and references to model files
+- `data/v2/models/*.json` - Individual files for each brand's models
+
+#### Merge Data (V2 → V1)
+
+The `merge_data.rb` script combines the v2 format files back into the single v1 format file:
+
+```bash
+ruby scripts/merge_data.rb [options]
+```
+
+Options:
+
+- `-i, --input DIRECTORY` - Input directory containing V2 format data (default: data/v2)
+- `-o, --output FILE` - Output file path for V1 format data (default: data/ev-data.json)
+- `-v, --verbose` - Enable verbose output
+- `-f, --fix-duplicates` - Fix duplicate IDs by generating new UUIDs
+- `-h, --help` - Show help message
+
+This is useful when you've been modifying data in the v2 format and need to update the v1 format file.
 
 ## Change Requests
 
