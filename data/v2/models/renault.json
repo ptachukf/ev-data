@@ -4,7 +4,6 @@
   "models": [
     {
       "id": "b1309023-ddeb-4642-acd3-ba6ab546bf5f",
-      "type": "bev",
       "brand": "Renault",
       "brand_id": "c0d8a60c-34b8-44fe-8af7-9eeb62eedb4b",
       "model": "5 E-Tech",
@@ -61,7 +60,6 @@
     },
     {
       "id": "53cae930-8a60-40cb-8062-3fd1f4fdd078",
-      "type": "bev",
       "brand": "Renault",
       "brand_id": "c0d8a60c-34b8-44fe-8af7-9eeb62eedb4b",
       "model": "5 E-Tech",
@@ -118,7 +116,6 @@
     },
     {
       "id": "db068f42-0987-4d3f-8858-4735b2d38dc4",
-      "type": "bev",
       "brand": "Renault",
       "brand_id": "c0d8a60c-34b8-44fe-8af7-9eeb62eedb4b",
       "model": "5 E-Tech",
@@ -177,7 +174,6 @@
       "id": "1c13fba9-2c09-4be1-b5c6-aecd2b253afb",
       "brand": "Renault",
       "vehicle_type": "car",
-      "type": "bev",
       "brand_id": "c0d8a60c-34b8-44fe-8af7-9eeb62eedb4b",
       "model": "Kangoo ZE",
       "release_year": 2011,
@@ -210,7 +206,6 @@
       "id": "30b30afb-9b70-7256-bf6e-cff89866b987",
       "brand": "Renault",
       "vehicle_type": "car",
-      "type": "bev",
       "brand_id": "c0d8a60c-34b8-44fe-8af7-9eeb62eedb4b",
       "model": "Megane E-Tech",
       "release_year": 2022,
@@ -263,7 +258,6 @@
       "id": "e47a090c-609b-dbc8-657c-15a518ad9ae4",
       "brand": "Renault",
       "vehicle_type": "car",
-      "type": "bev",
       "brand_id": "c0d8a60c-34b8-44fe-8af7-9eeb62eedb4b",
       "model": "Megane E-Tech",
       "release_year": 2022,
@@ -316,7 +310,6 @@
       "id": "5de7571c-a9e6-2847-9920-014a123f980b",
       "brand": "Renault",
       "vehicle_type": "car",
-      "type": "bev",
       "brand_id": "c0d8a60c-34b8-44fe-8af7-9eeb62eedb4b",
       "model": "Scenic",
       "release_year": 2023,
@@ -369,7 +362,6 @@
       "id": "d7947cd1-916b-f90e-eae1-9274a2ce9b54",
       "brand": "Renault",
       "vehicle_type": "car",
-      "type": "bev",
       "brand_id": "c0d8a60c-34b8-44fe-8af7-9eeb62eedb4b",
       "model": "Scenic",
       "release_year": 2023,
@@ -422,7 +414,6 @@
       "id": "46e4f46b-09d3-4beb-8649-f7a7f670bb45",
       "brand": "Renault",
       "vehicle_type": "car",
-      "type": "bev",
       "brand_id": "c0d8a60c-34b8-44fe-8af7-9eeb62eedb4b",
       "model": "Twingo Z.E.",
       "release_year": 2020,
@@ -453,7 +444,6 @@
     },
     {
       "id": "ebabe01b-8935-4597-9eb6-0f022a71fd14",
-      "type": "bev",
       "brand": "Renault",
       "brand_id": "c0d8a60c-34b8-44fe-8af7-9eeb62eedb4b",
       "model": "Twizy",
@@ -485,7 +475,6 @@
       "id": "9666138c-1d24-4fa8-9083-0ffba09ab1ef",
       "brand": "Renault",
       "vehicle_type": "car",
-      "type": "bev",
       "brand_id": "c0d8a60c-34b8-44fe-8af7-9eeb62eedb4b",
       "model": "Zoe",
       "release_year": 2013,
@@ -518,7 +507,6 @@
       "id": "a38c9b3b-ae0a-4e53-a5e5-502380ca60ec",
       "brand": "Renault",
       "vehicle_type": "car",
-      "type": "bev",
       "brand_id": "c0d8a60c-34b8-44fe-8af7-9eeb62eedb4b",
       "model": "Zoe",
       "release_year": 2017,
@@ -576,7 +564,6 @@
       "id": "b3fd3e84-4dd4-4ac0-914f-3c3c582fc600",
       "brand": "Renault",
       "vehicle_type": "car",
-      "type": "bev",
       "brand_id": "c0d8a60c-34b8-44fe-8af7-9eeb62eedb4b",
       "model": "Zoe",
       "release_year": 2015,
@@ -609,7 +596,6 @@
       "id": "65359747-ec05-47f0-95cf-06e1e8f2b04f",
       "brand": "Renault",
       "vehicle_type": "car",
-      "type": "bev",
       "brand_id": "c0d8a60c-34b8-44fe-8af7-9eeb62eedb4b",
       "model": "Zoe",
       "release_year": 2017,
@@ -667,7 +653,6 @@
       "id": "c53b5947-23a3-420c-9798-f3846732e41a",
       "brand": "Renault",
       "vehicle_type": "car",
-      "type": "bev",
       "brand_id": "c0d8a60c-34b8-44fe-8af7-9eeb62eedb4b",
       "model": "Zoe",
       "release_year": 2019,
@@ -724,7 +709,6 @@
       "id": "de3a8751-00c9-46d1-9e7a-ad830835c6a7",
       "brand": "Renault",
       "vehicle_type": "car",
-      "type": "bev",
       "brand_id": "c0d8a60c-34b8-44fe-8af7-9eeb62eedb4b",
       "model": "Zoe",
       "release_year": 2019,
@@ -781,7 +765,6 @@
       "id": "5079c683-69ba-44b3-b8c8-d31fa00c97a1",
       "brand": "Renault",
       "vehicle_type": "car",
-      "type": "bev",
       "brand_id": "c0d8a60c-34b8-44fe-8af7-9eeb62eedb4b",
       "model": "Zoe",
       "release_year": 2019,
@@ -838,7 +821,6 @@
       "brand": "Renault",
       "model": "4 E-Tech 52kWh 150hp",
       "variant": "",
-      "type": "bev",
       "release_year": 2025,
       "range": 315,
       "id": "af7b1ae7-fe86-4548-9219-bad34dbcae86",
@@ -897,7 +879,6 @@
       "brand": "Renault",
       "model": "Megane E-Tech EV60 220hp",
       "variant": "",
-      "type": "bev",
       "release_year": 2025,
       "range": 380,
       "id": "9883b3d1-55f8-4dd3-be76-b09f69ee3ab5",
@@ -956,7 +937,6 @@
       "brand": "Renault",
       "model": "Zoe ZE50 R135",
       "variant": "",
-      "type": "bev",
       "release_year": 2019,
       "range": 310,
       "id": "19cbc943-5149-407a-be9c-73c19aaf198c",
@@ -1015,7 +995,6 @@
       "brand": "Renault",
       "model": "Twingo Electric",
       "variant": "",
-      "type": "bev",
       "release_year": 2020,
       "range": 135,
       "dc_charger": null,
@@ -1050,7 +1029,6 @@
       "brand": "Renault",
       "model": "Megane E-Tech EV60 130hp",
       "variant": "",
-      "type": "bev",
       "release_year": 2025,
       "range": 380,
       "id": "468bac3a-0cc5-4fc8-bd76-e635897463cb",
@@ -1109,7 +1087,6 @@
       "brand": "Renault",
       "model": "Kangoo E-Tech Electric",
       "variant": "",
-      "type": "bev",
       "release_year": 2022,
       "range": 225,
       "id": "7330268f-f92e-402f-b401-ac78f37b6516",
@@ -1168,7 +1145,6 @@
       "brand": "Renault",
       "model": "Kangoo Maxi ZE 33",
       "variant": "",
-      "type": "bev",
       "release_year": 2017,
       "range": 160,
       "dc_charger": null,
@@ -1203,7 +1179,6 @@
       "brand": "Renault",
       "model": "Zoe R110",
       "variant": "",
-      "type": "bev",
       "release_year": 2018,
       "range": 250,
       "dc_charger": null,
@@ -1238,7 +1213,6 @@
       "brand": "Renault",
       "model": "Scenic E-Tech EV60 170hp",
       "variant": "",
-      "type": "bev",
       "release_year": 2023,
       "range": 340,
       "id": "884da45a-5607-46e3-9974-d3d57cb15194",
@@ -1297,7 +1271,6 @@
       "brand": "Renault",
       "model": "Zoe ZE40 R110",
       "variant": "",
-      "type": "bev",
       "release_year": 2019,
       "range": 255,
       "id": "5d224876-e1ac-4eaf-ae79-fb5db90c22cc",
@@ -1356,7 +1329,6 @@
       "brand": "Renault",
       "model": "4 E-Tech 40kWh 120hp",
       "variant": "",
-      "type": "bev",
       "release_year": 2025,
       "battery_size": 40,
       "range": 245,
@@ -1416,7 +1388,6 @@
       "brand": "Renault",
       "model": "Megane E-Tech EV40 130hp",
       "variant": "",
-      "type": "bev",
       "release_year": 2022,
       "battery_size": 40,
       "range": 260,
@@ -1476,7 +1447,6 @@
       "brand": "Renault",
       "model": "Kangoo Grand E-Tech Electric",
       "variant": "",
-      "type": "bev",
       "release_year": 2024,
       "battery_size": 45,
       "range": 220,
@@ -1536,7 +1506,6 @@
       "brand": "Renault",
       "model": "Zoe R90 Entry",
       "variant": "",
-      "type": "bev",
       "release_year": 2017,
       "battery_size": 23.3,
       "range": 140,
@@ -1572,7 +1541,6 @@
       "brand": "Renault",
       "model": "Scenic E-Tech EV87 220hp",
       "variant": "",
-      "type": "bev",
       "release_year": 2023,
       "battery_size": 87,
       "range": 480,
@@ -1632,7 +1600,6 @@
       "brand": "Renault",
       "model": "Zoe ZE50 R110",
       "variant": "",
-      "type": "bev",
       "release_year": 2019,
       "battery_size": 52,
       "range": 315,
@@ -1692,7 +1659,6 @@
       "brand": "Renault",
       "model": "Zoe Q210",
       "variant": "",
-      "type": "bev",
       "release_year": 2013,
       "usable_battery_size": 23.3,
       "range": 130,
@@ -1801,7 +1767,6 @@
         "is_default_charging_curve": true
       },
       "brand_id": "c0d8a60c-34b8-44fe-8af7-9eeb62eedb4b",
-      "type": "bev",
       "id": "f86de6eb-6e47-4d87-8dfc-6a512118561e"
     },
     {
@@ -1859,7 +1824,6 @@
         "is_default_charging_curve": false
       },
       "brand_id": "c0d8a60c-34b8-44fe-8af7-9eeb62eedb4b",
-      "type": "bev",
       "id": "09f87767-b93d-4f7a-a957-e5b4a1b07a45"
     },
     {
@@ -1917,7 +1881,6 @@
         "is_default_charging_curve": true
       },
       "brand_id": "c0d8a60c-34b8-44fe-8af7-9eeb62eedb4b",
-      "type": "bev",
       "id": "37378681-ea22-48bc-a376-1c3d9ba304ca"
     },
     {
@@ -1975,7 +1938,6 @@
         "is_default_charging_curve": false
       },
       "brand_id": "c0d8a60c-34b8-44fe-8af7-9eeb62eedb4b",
-      "type": "bev",
       "id": "2491b711-0440-4a1a-ba06-2db17fe33b64"
     },
     {
@@ -2033,7 +1995,6 @@
         "is_default_charging_curve": false
       },
       "brand_id": "c0d8a60c-34b8-44fe-8af7-9eeb62eedb4b",
-      "type": "bev",
       "id": "748de479-af53-4598-bf8b-8fd40f82396f"
     },
     {
@@ -2091,7 +2052,6 @@
         "is_default_charging_curve": false
       },
       "brand_id": "c0d8a60c-34b8-44fe-8af7-9eeb62eedb4b",
-      "type": "bev",
       "id": "11828f12-d7df-41a9-9b58-9367de77c5f0"
     },
     {
@@ -2149,7 +2109,6 @@
         "is_default_charging_curve": false
       },
       "brand_id": "c0d8a60c-34b8-44fe-8af7-9eeb62eedb4b",
-      "type": "bev",
       "id": "96627666-aa94-4f54-b62b-bdd22ae9bc9a"
     },
     {
@@ -2207,7 +2166,6 @@
         "is_default_charging_curve": false
       },
       "brand_id": "c0d8a60c-34b8-44fe-8af7-9eeb62eedb4b",
-      "type": "bev",
       "id": "c6a4e887-c335-4e6e-9346-b9c6640ed11d"
     }
   ]

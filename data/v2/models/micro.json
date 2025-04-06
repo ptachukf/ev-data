@@ -4,7 +4,6 @@
   "models": [
     {
       "id": "d246d92c-e472-42ee-b38f-2645a39d5ebf",
-      "type": "bev",
       "brand": "Micro",
       "brand_id": "26dd1abc-ea35-4f35-8ea6-e9310539331a",
       "model": "Microlino",

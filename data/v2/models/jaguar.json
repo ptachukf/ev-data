@@ -6,7 +6,6 @@
       "id": "8da12395-cf7a-4ccf-886f-e25ade426457",
       "brand": "Jaguar",
       "vehicle_type": "car",
-      "type": "bev",
       "brand_id": "61fc79a2-04ca-418e-9333-caf5f67ba02f",
       "model": "i-Pace",
       "release_year": 2018,
@@ -67,7 +66,6 @@
       "id": "755da8dd-f3d7-48de-a92a-bee65c5e6201",
       "brand": "Jaguar",
       "vehicle_type": "car",
-      "type": "bev",
       "brand_id": "61fc79a2-04ca-418e-9333-caf5f67ba02f",
       "model": "i-Pace",
       "release_year": 2020,
@@ -128,7 +126,6 @@
       "id": "f77ac610-ac67-48c7-af8a-f78e0bf31c70",
       "brand": "Jaguar",
       "vehicle_type": "car",
-      "type": "bev",
       "brand_id": "61fc79a2-04ca-418e-9333-caf5f67ba02f",
       "model": "i-Pace",
       "release_year": 2020,
@@ -244,7 +241,6 @@
         "is_default_charging_curve": false
       },
       "brand_id": "61fc79a2-04ca-418e-9333-caf5f67ba02f",
-      "type": "bev",
       "id": "2e7e245d-0372-4b68-a987-87d36f0daa5f"
     }
   ]

@@ -6,7 +6,6 @@
       "id": "2c7abcf4-0ba0-4feb-9e9b-b47661072feb",
       "brand": "Mitsubishi",
       "vehicle_type": "car",
-      "type": "bev",
       "brand_id": "3cf8cf51-60ac-4cac-9f25-131c21eda12e",
       "model": "i-Miev",
       "release_year": 2010,
@@ -110,7 +109,6 @@
         "is_default_charging_curve": true
       },
       "brand_id": "3cf8cf51-60ac-4cac-9f25-131c21eda12e",
-      "type": "bev",
       "id": "188b8e39-7454-408d-9d1a-ed59b83df498"
     },
     {
@@ -168,7 +166,6 @@
         "is_default_charging_curve": true
       },
       "brand_id": "3cf8cf51-60ac-4cac-9f25-131c21eda12e",
-      "type": "bev",
       "id": "88bd6f91-c32a-4a54-b6f3-fec006c60ac6"
     }
   ]

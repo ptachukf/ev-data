@@ -6,7 +6,6 @@
       "id": "603af6f7-121b-7063-c143-af9d62ca960b",
       "brand": "Nissan",
       "vehicle_type": "car",
-      "type": "bev",
       "brand_id": "dab5a47a-e8ce-4d34-9139-0701499205b1",
       "model": "Ariya",
       "release_year": 2022,
@@ -59,7 +58,6 @@
       "id": "2839152f-e855-705a-2e79-976d57e572b1",
       "brand": "Nissan",
       "vehicle_type": "car",
-      "type": "bev",
       "brand_id": "dab5a47a-e8ce-4d34-9139-0701499205b1",
       "model": "Ariya",
       "release_year": 2022,
@@ -112,7 +110,6 @@
       "id": "e4d03d93-517b-4c0b-1e6a-52fd74accf3e",
       "brand": "Nissan",
       "vehicle_type": "car",
-      "type": "bev",
       "brand_id": "dab5a47a-e8ce-4d34-9139-0701499205b1",
       "model": "Ariya",
       "release_year": 2022,
@@ -165,7 +162,6 @@
       "id": "1241ed45-6289-0c6d-9093-4ab9da6ca608",
       "brand": "Nissan",
       "vehicle_type": "car",
-      "type": "bev",
       "brand_id": "dab5a47a-e8ce-4d34-9139-0701499205b1",
       "model": "Ariya",
       "release_year": 2022,
@@ -218,7 +214,6 @@
       "id": "dc7d163b-29bc-45cf-8156-60eb3e3b1294",
       "brand": "Nissan",
       "vehicle_type": "car",
-      "type": "bev",
       "brand_id": "dab5a47a-e8ce-4d34-9139-0701499205b1",
       "model": "Leaf",
       "release_year": 2011,
@@ -271,7 +266,6 @@
       "id": "3b649ae3-935b-425b-b5d6-75c549b96d40",
       "brand": "Nissan",
       "vehicle_type": "car",
-      "type": "bev",
       "brand_id": "dab5a47a-e8ce-4d34-9139-0701499205b1",
       "model": "Leaf",
       "release_year": 2011,
@@ -324,7 +318,6 @@
       "id": "83ec0576-bfb8-400a-9af9-483b2684673c",
       "brand": "Nissan",
       "vehicle_type": "car",
-      "type": "bev",
       "brand_id": "dab5a47a-e8ce-4d34-9139-0701499205b1",
       "model": "Leaf",
       "release_year": 2015,
@@ -381,7 +374,6 @@
       "id": "74f2c3a5-f78f-459a-823a-dfc0a21e5aeb",
       "brand": "Nissan",
       "vehicle_type": "car",
-      "type": "bev",
       "brand_id": "dab5a47a-e8ce-4d34-9139-0701499205b1",
       "model": "Leaf",
       "release_year": 2015,
@@ -438,7 +430,6 @@
       "id": "77028f96-eb9b-4c65-b452-c92011b1fc1c",
       "brand": "Nissan",
       "vehicle_type": "car",
-      "type": "bev",
       "brand_id": "dab5a47a-e8ce-4d34-9139-0701499205b1",
       "model": "Leaf",
       "release_year": 2018,
@@ -495,7 +486,6 @@
       "id": "78b14a0f-5c62-4885-95ef-2e3f81197260",
       "brand": "Nissan",
       "vehicle_type": "car",
-      "type": "bev",
       "brand_id": "dab5a47a-e8ce-4d34-9139-0701499205b1",
       "model": "Leaf",
       "release_year": 2019,
@@ -548,7 +538,6 @@
       "id": "86290f48-f554-4db5-bd35-4a8b7828689a",
       "brand": "Nissan",
       "vehicle_type": "car",
-      "type": "bev",
       "brand_id": "dab5a47a-e8ce-4d34-9139-0701499205b1",
       "model": "e-NV 200",
       "release_year": 2014,
@@ -609,7 +598,6 @@
       "id": "2644bfd3-a593-4276-bb1f-c8965e33797e",
       "brand": "Nissan",
       "vehicle_type": "car",
-      "type": "bev",
       "brand_id": "dab5a47a-e8ce-4d34-9139-0701499205b1",
       "model": "e-NV 200",
       "release_year": 2014,
@@ -670,7 +658,6 @@
       "id": "daa3573d-60ea-4c7a-8048-79c575e3db4c",
       "brand": "Nissan",
       "vehicle_type": "car",
-      "type": "bev",
       "brand_id": "dab5a47a-e8ce-4d34-9139-0701499205b1",
       "model": "e-NV 200",
       "release_year": 2014,
@@ -727,7 +714,6 @@
       "brand": "Nissan",
       "model": "Leaf e+",
       "variant": "",
-      "type": "bev",
       "release_year": 2022,
       "range": 340,
       "id": "95e18b3b-c48a-4209-ac9d-134393aa313c",
@@ -786,7 +772,6 @@
       "brand": "Nissan",
       "model": "e-NV200 Evalia",
       "variant": "",
-      "type": "bev",
       "release_year": 2018,
       "range": 170,
       "id": "c83ca112-e008-4329-9739-72f8e3a61245",
@@ -845,7 +830,6 @@
       "brand": "Nissan",
       "model": "Leaf",
       "variant": "",
-      "type": "bev",
       "release_year": 2022,
       "battery_size": 39,
       "range": 235,
@@ -905,7 +889,6 @@
       "brand": "Nissan",
       "model": "Ariya e-4ORCE 87kWh - 225 kW",
       "variant": "",
-      "type": "bev",
       "release_year": 2022,
       "battery_size": 87,
       "range": 405,
@@ -965,7 +948,6 @@
       "brand": "Nissan",
       "model": "Townstar EV Passenger",
       "variant": "",
-      "type": "bev",
       "release_year": 2023,
       "battery_size": 45,
       "range": 225,
@@ -1025,7 +1007,6 @@
       "brand": "Nissan",
       "model": "Ariya e-4ORCE 87kWh - 320 kW Nismo",
       "variant": "",
-      "type": "bev",
       "release_year": 2024,
       "battery_size": 87,
       "range": 385,
@@ -1085,7 +1066,6 @@
       "brand": "Nissan",
       "model": "Townstar EV Passenger L2",
       "variant": "",
-      "type": "bev",
       "release_year": 2024,
       "battery_size": 45,
       "range": 220,
@@ -1145,7 +1125,6 @@
       "brand": "Nissan",
       "model": "Ariya e-4ORCE 87kWh - 290 kW",
       "variant": "",
-      "type": "bev",
       "release_year": 2023,
       "battery_size": 87,
       "range": 405,
@@ -1256,7 +1235,6 @@
         "is_default_charging_curve": true
       },
       "brand_id": "dab5a47a-e8ce-4d34-9139-0701499205b1",
-      "type": "bev",
       "id": "294fb510-34b8-49be-8cf8-419d1557585a"
     },
     {
@@ -1314,7 +1292,6 @@
         "is_default_charging_curve": true
       },
       "brand_id": "dab5a47a-e8ce-4d34-9139-0701499205b1",
-      "type": "bev",
       "id": "a3b8ef1d-66e5-4527-8af4-7196012fc86f"
     },
     {
@@ -1372,7 +1349,6 @@
         "is_default_charging_curve": true
       },
       "brand_id": "dab5a47a-e8ce-4d34-9139-0701499205b1",
-      "type": "bev",
       "id": "7b889dac-4cda-4435-a414-b7965de5c9d7"
     },
     {
@@ -1430,7 +1406,6 @@
         "is_default_charging_curve": false
       },
       "brand_id": "dab5a47a-e8ce-4d34-9139-0701499205b1",
-      "type": "bev",
       "id": "df0bb489-c292-4039-8407-5929d234a8ab"
     },
     {
@@ -1488,7 +1463,6 @@
         "is_default_charging_curve": false
       },
       "brand_id": "dab5a47a-e8ce-4d34-9139-0701499205b1",
-      "type": "bev",
       "id": "18310c77-6bf8-4724-8d89-dd10bafb430d"
     },
     {
@@ -1546,7 +1520,6 @@
         "is_default_charging_curve": false
       },
       "brand_id": "dab5a47a-e8ce-4d34-9139-0701499205b1",
-      "type": "bev",
       "id": "d3631ffd-f675-4ddd-8a1f-2bcf653f2ee5"
     }
   ]

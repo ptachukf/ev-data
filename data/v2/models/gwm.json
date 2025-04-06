@@ -4,7 +4,6 @@
   "models": [
     {
       "id": "888ae5b2-2c49-47b0-b45f-b40a1f7b93e9",
-      "type": "bev",
       "brand": "GWM",
       "brand_id": "80cb3fd7-d557-4d2f-b606-e6c0c84ab5c8",
       "model": "ORA 03",
@@ -57,7 +56,6 @@
     },
     {
       "id": "89df9485-f17f-4719-94f0-00f37ee5c9e8",
-      "type": "bev",
       "brand": "GWM",
       "brand_id": "80cb3fd7-d557-4d2f-b606-e6c0c84ab5c8",
       "model": "ORA 03",
@@ -110,7 +108,6 @@
     },
     {
       "id": "d12f7a17-06f2-446b-bfac-53334b453d12",
-      "type": "bev",
       "brand": "GWM",
       "brand_id": "80cb3fd7-d557-4d2f-b606-e6c0c84ab5c8",
       "model": "ORA 03",
@@ -163,7 +160,6 @@
     },
     {
       "id": "b9b1006b-4ac1-4f82-9067-72a53dcdcea3",
-      "type": "bev",
       "brand": "GWM",
       "brand_id": "80cb3fd7-d557-4d2f-b606-e6c0c84ab5c8",
       "model": "ORA 07",
@@ -216,7 +212,6 @@
     },
     {
       "id": "172f8907-4b81-475b-aa0a-5347c6fcc46c",
-      "type": "bev",
       "brand": "GWM",
       "brand_id": "80cb3fd7-d557-4d2f-b606-e6c0c84ab5c8",
       "model": "ORA 07",
@@ -269,7 +264,6 @@
     },
     {
       "id": "14e658c4-0776-4e52-a7ff-2e515165a384",
-      "type": "bev",
       "brand": "GWM",
       "brand_id": "80cb3fd7-d557-4d2f-b606-e6c0c84ab5c8",
       "model": "ORA 07",

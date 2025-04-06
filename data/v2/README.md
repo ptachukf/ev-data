@@ -50,7 +50,6 @@ Each brand has its own JSON file containing all models for that brand.
       "id": "fbffc80f-062d-ed16-d6df-5f621bb35848",    // UUID v4
       "brand": "Tesla",                                 // Must match brand_name
       "vehicle_type": "car",                           // One of: "car", "motorbike", "microcar"
-      "type": "bev",                                   // Currently only "bev" is supported
       "brand_id": "f37896c3-6bc5-45e1-b442-b9cbc38e3a7c",  // Must match the brand ID
       "model": "Model 3",                              // Model name
       "release_year": 2023,                            // Year between 2010 and current year + 1
@@ -105,9 +104,8 @@ Each brand has its own JSON file containing all models for that brand.
 
 ### Vehicle Rules
 
-- Required fields: id, brand, model, type, vehicle_type, brand_id, usable_battery_size, ac_charger, energy_consumption, charging_voltage
+- Required fields: id, brand, model, vehicle_type, brand_id, usable_battery_size, ac_charger, energy_consumption, charging_voltage
 - `vehicle_type` must be one of: "car", "motorbike", "microcar"
-- `type` must be "bev"
 - `release_year` must be between 2010 and current year + 1
 - `usable_battery_size` must be positive
 - `charging_voltage` must be appropriate for the vehicle type:

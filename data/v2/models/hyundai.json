@@ -6,7 +6,6 @@
       "id": "b58bc94d-d929-ad71-d95b-08b877bf76ba",
       "brand": "Hyundai",
       "vehicle_type": "car",
-      "type": "bev",
       "brand_id": "9771afb8-9e25-4ae6-a5b3-b2a5b9f363f0",
       "model": "IONIQ 5",
       "release_year": 2021,
@@ -83,7 +82,6 @@
       "id": "5cefadb7-a8e5-1f4d-ff3a-532384c19207",
       "brand": "Hyundai",
       "vehicle_type": "car",
-      "type": "bev",
       "brand_id": "9771afb8-9e25-4ae6-a5b3-b2a5b9f363f0",
       "model": "IONIQ 5",
       "release_year": 2021,
@@ -160,7 +158,6 @@
       "id": "e8777629-bb49-7ec7-6f09-d81457023b7c",
       "brand": "Hyundai",
       "vehicle_type": "car",
-      "type": "bev",
       "brand_id": "9771afb8-9e25-4ae6-a5b3-b2a5b9f363f0",
       "model": "IONIQ 5",
       "release_year": 2021,
@@ -213,7 +210,6 @@
       "id": "3038b11b-2dfc-4f9f-b22c-4bfdc08d0c4b",
       "brand": "Hyundai",
       "vehicle_type": "car",
-      "type": "bev",
       "brand_id": "9771afb8-9e25-4ae6-a5b3-b2a5b9f363f0",
       "model": "Ioniq",
       "release_year": 2019,
@@ -290,7 +286,6 @@
       "id": "c576bee8-8066-4174-bc69-5fe9f2e666ee",
       "brand": "Hyundai",
       "vehicle_type": "car",
-      "type": "bev",
       "brand_id": "9771afb8-9e25-4ae6-a5b3-b2a5b9f363f0",
       "model": "Ioniq",
       "release_year": 2016,
@@ -351,7 +346,6 @@
       "id": "e81564b0-46e3-41f6-b6a6-70370a37f685",
       "brand": "Hyundai",
       "vehicle_type": "car",
-      "type": "bev",
       "brand_id": "9771afb8-9e25-4ae6-a5b3-b2a5b9f363f0",
       "model": "Kona",
       "release_year": 2020,
@@ -404,7 +398,6 @@
       "id": "6cc437e9-b842-4c1b-9c08-9ca2d46d22a9",
       "brand": "Hyundai",
       "vehicle_type": "car",
-      "type": "bev",
       "brand_id": "9771afb8-9e25-4ae6-a5b3-b2a5b9f363f0",
       "model": "Kona",
       "release_year": 2018,
@@ -457,7 +450,6 @@
       "id": "c1fd1277-5d77-416b-bb25-84bd21f57963",
       "brand": "Hyundai",
       "vehicle_type": "car",
-      "type": "bev",
       "brand_id": "9771afb8-9e25-4ae6-a5b3-b2a5b9f363f0",
       "model": "Kona",
       "release_year": 2020,
@@ -542,7 +534,6 @@
       "id": "8df35b23-dcc6-4590-83c7-5578da4c4809",
       "brand": "Hyundai",
       "vehicle_type": "car",
-      "type": "bev",
       "brand_id": "9771afb8-9e25-4ae6-a5b3-b2a5b9f363f0",
       "model": "Kona",
       "release_year": 2018,
@@ -627,7 +618,6 @@
       "brand": "Hyundai",
       "model": "Kona Electric 48 kWh",
       "variant": "",
-      "type": "bev",
       "release_year": 2023,
       "range": 295,
       "id": "21442a76-9bde-4723-b35e-3c6179d20b36",
@@ -686,7 +676,6 @@
       "brand": "Hyundai",
       "model": "Kona Electric 39 kWh",
       "variant": "",
-      "type": "bev",
       "release_year": 2021,
       "range": 245,
       "id": "7a8b44ba-f0d4-4b51-930f-074a66e0cbac",
@@ -745,7 +734,6 @@
       "brand": "Hyundai",
       "model": "Kona Electric 64 kWh",
       "variant": "",
-      "type": "bev",
       "release_year": 2021,
       "range": 390,
       "id": "d405e843-fe80-4de9-ac30-bbaeb2f44e42",
@@ -804,7 +792,6 @@
       "brand": "Hyundai",
       "model": "Kona Electric 65 kWh",
       "variant": "",
-      "type": "bev",
       "release_year": 2023,
       "battery_size": 65.4,
       "range": 390,
@@ -864,7 +851,6 @@
       "brand": "Hyundai",
       "model": "INSTER Long Range",
       "variant": "",
-      "type": "bev",
       "release_year": 2024,
       "battery_size": 46,
       "range": 295,
@@ -924,7 +910,6 @@
       "brand": "Hyundai",
       "model": "INSTER Standard Range",
       "variant": "",
-      "type": "bev",
       "release_year": 2024,
       "battery_size": 39,
       "range": 250,
@@ -1035,7 +1020,6 @@
         "is_default_charging_curve": false
       },
       "brand_id": "9771afb8-9e25-4ae6-a5b3-b2a5b9f363f0",
-      "type": "bev",
       "id": "8a18fe98-6df5-494d-b2b0-1fda8721461e"
     },
     {
@@ -1097,7 +1081,6 @@
         "is_default_charging_curve": false
       },
       "brand_id": "9771afb8-9e25-4ae6-a5b3-b2a5b9f363f0",
-      "type": "bev",
       "id": "6625530e-9505-4e0a-b252-467febc7229c"
     },
     {
@@ -1155,7 +1138,6 @@
         "is_default_charging_curve": false
       },
       "brand_id": "9771afb8-9e25-4ae6-a5b3-b2a5b9f363f0",
-      "type": "bev",
       "id": "37250d57-293d-4687-8e6e-6e9390f4f4bd"
     },
     {
@@ -1213,7 +1195,6 @@
         "is_default_charging_curve": false
       },
       "brand_id": "9771afb8-9e25-4ae6-a5b3-b2a5b9f363f0",
-      "type": "bev",
       "id": "897abe0e-e57c-4932-a6f6-8c263d944e83"
     }
   ]

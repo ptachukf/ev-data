@@ -22,7 +22,6 @@ The v1 format stores all data in a single JSON file (`data/ev-data.json`) with t
       "id": "uuid",
       "brand": "Brand Name",
       "model": "Model Name",
-      "type": "bev",
       "vehicle_type": "car",
       "variant": "Variant Name",
       "release_year": 2024,
@@ -106,7 +105,6 @@ data/v2/
       "id": "uuid",
       "brand": "Brand Name",
       "model": "Model Name",
-      "type": "bev",
       "vehicle_type": "car",
       "variant": "Variant Name",
       "release_year": 2024,
@@ -152,7 +150,6 @@ Both formats enforce the same validation rules:
 
 ### Vehicle Rules
 
-- `type` must be "bev"
 - `vehicle_type` must be one of: "car", "motorbike", "microcar"
 - `release_year` must be between 2010 and next year
 - `usable_battery_size` must be positive

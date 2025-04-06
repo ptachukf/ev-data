@@ -83,7 +83,7 @@ module Validators
 
     def valid_vehicle_data?(data)
       required_fields = %w[
-        id brand model type vehicle_type brand_id
+        id brand model vehicle_type brand_id
         usable_battery_size ac_charger energy_consumption
         charging_voltage
       ]
@@ -94,7 +94,6 @@ module Validators
       # Validate individual fields
       valid_brand_name?(data["brand"]) &&
         valid_model_name?(data["model"]) &&
-        data["type"] == "bev" &&
         valid_vehicle_type?(data["vehicle_type"]) &&
         valid_battery_size?(data["usable_battery_size"]) &&
         valid_charging_voltage?(data["charging_voltage"], data["vehicle_type"]) &&
@@ -112,7 +111,6 @@ module Validators
       
       required_fields = {
         "id" => ->(v) { v.is_a?(String) && valid_uuid?(v) },
-        "type" => ->(v) { v == "bev" },
         "brand" => ->(v) { v.is_a?(String) && !v.empty? },
         "brand_id" => ->(v) { v.is_a?(String) && valid_uuid?(v) },
         "model" => ->(v) { v.is_a?(String) && valid_model_name?(v) },

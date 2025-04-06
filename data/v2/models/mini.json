@@ -4,7 +4,6 @@
   "models": [
     {
       "id": "be22705a-6cef-4d91-95ed-41891ccbbf8c",
-      "type": "bev",
       "brand": "Mini",
       "brand_id": "6d9d9248-de4a-4b13-976b-4e9f6688b0b1",
       "model": "Aceman",
@@ -61,7 +60,6 @@
     },
     {
       "id": "0eafc7e9-bbdd-4893-860b-b8f3b8388133",
-      "type": "bev",
       "brand": "Mini",
       "brand_id": "6d9d9248-de4a-4b13-976b-4e9f6688b0b1",
       "model": "Aceman",
@@ -118,7 +116,6 @@
     },
     {
       "id": "d5ccb7f8-797d-4450-b4ad-f74e8d6eba7d",
-      "type": "bev",
       "brand": "Mini",
       "brand_id": "6d9d9248-de4a-4b13-976b-4e9f6688b0b1",
       "model": "Aceman",
@@ -191,7 +188,6 @@
     },
     {
       "id": "3a50ddc0-c42d-4bf2-9bdb-48db144a5bcb",
-      "type": "bev",
       "brand": "Mini",
       "brand_id": "6d9d9248-de4a-4b13-976b-4e9f6688b0b1",
       "model": "Cooper",
@@ -246,7 +242,6 @@
     },
     {
       "id": "8e3fd711-8e1e-4518-a9f4-5dab84aa6668",
-      "type": "bev",
       "brand": "Mini",
       "brand_id": "6d9d9248-de4a-4b13-976b-4e9f6688b0b1",
       "model": "Cooper",
@@ -303,7 +298,6 @@
     },
     {
       "id": "91a05bbc-978f-4e36-9d36-5e59bee46c8d",
-      "type": "bev",
       "brand": "Mini",
       "brand_id": "6d9d9248-de4a-4b13-976b-4e9f6688b0b1",
       "model": "Cooper",
@@ -378,7 +372,6 @@
       "id": "d8c11860-a582-4784-9e58-d29e94a67fc2",
       "brand": "Mini",
       "vehicle_type": "car",
-      "type": "bev",
       "brand_id": "6d9d9248-de4a-4b13-976b-4e9f6688b0b1",
       "model": "Cooper SE",
       "release_year": 2020,
@@ -429,7 +422,6 @@
     },
     {
       "id": "1b30c350-78e2-4414-821f-4797d917508c",
-      "type": "bev",
       "brand": "Mini",
       "brand_id": "6d9d9248-de4a-4b13-976b-4e9f6688b0b1",
       "model": "Countryman",
@@ -486,7 +478,6 @@
     },
     {
       "id": "47b3546c-5bae-444a-bd7a-5a0739520f4a",
-      "type": "bev",
       "brand": "Mini",
       "brand_id": "6d9d9248-de4a-4b13-976b-4e9f6688b0b1",
       "model": "Countryman",
@@ -553,7 +544,6 @@
       "brand": "Mini",
       "model": "Cooper SE Convertible",
       "variant": "",
-      "type": "bev",
       "release_year": 2023,
       "battery_size": 28.9,
       "range": 165,
@@ -664,7 +654,6 @@
         "is_default_charging_curve": false
       },
       "brand_id": "6d9d9248-de4a-4b13-976b-4e9f6688b0b1",
-      "type": "bev",
       "id": "e49041a3-e2d3-45d4-bb7d-5d952bd8f7b2"
     }
   ]

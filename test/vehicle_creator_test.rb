@@ -13,7 +13,6 @@ class DataStoreTest < Minitest::Test
           "id" => "test-id-1",
           "brand" => "Test Brand",
           "model" => "Test Model",
-          "type" => "bev",
           "vehicle_type" => "car",
           "brand_id" => "test-brand-id-1"
         }
@@ -40,7 +39,6 @@ class DataStoreTest < Minitest::Test
       "id" => "test-id-2",
       "brand" => "New Brand",
       "model" => "New Model",
-      "type" => "bev",
       "vehicle_type" => "car"
     }
     

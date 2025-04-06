@@ -6,7 +6,6 @@
       "id": "9a8e280a-5f21-9a8d-0f82-9623f72f1ae0",
       "brand": "smart",
       "vehicle_type": "car",
-      "type": "bev",
       "brand_id": "a462c115-33b4-438b-b590-bc4a33382d1c",
       "model": "#1",
       "release_year": 2024,
@@ -59,7 +58,6 @@
       "id": "d07fd904-7020-eaf0-80d6-cee9d0a1aeba",
       "brand": "smart",
       "vehicle_type": "car",
-      "type": "bev",
       "brand_id": "a462c115-33b4-438b-b590-bc4a33382d1c",
       "model": "#1",
       "release_year": 2024,
@@ -112,7 +110,6 @@
       "id": "91b0b879-2d1d-10ef-ca7c-45c45991b4c4",
       "brand": "smart",
       "vehicle_type": "car",
-      "type": "bev",
       "brand_id": "a462c115-33b4-438b-b590-bc4a33382d1c",
       "model": "#3",
       "release_year": 2024,
@@ -165,7 +162,6 @@
       "id": "a73b3673-dd96-ce38-5ff4-7b025e4de2fd",
       "brand": "smart",
       "vehicle_type": "car",
-      "type": "bev",
       "brand_id": "a462c115-33b4-438b-b590-bc4a33382d1c",
       "model": "#3",
       "release_year": 2024,
@@ -218,7 +214,6 @@
       "id": "ab46b7de-739e-90ee-fad7-5480f2ffd0d8",
       "brand": "smart",
       "vehicle_type": "car",
-      "type": "bev",
       "brand_id": "a462c115-33b4-438b-b590-bc4a33382d1c",
       "model": "#3",
       "release_year": 2024,
@@ -271,7 +266,6 @@
       "id": "6a3a76f6-a0d0-41ff-afc9-5ad2f0879b4d",
       "brand": "smart",
       "vehicle_type": "car",
-      "type": "bev",
       "brand_id": "a462c115-33b4-438b-b590-bc4a33382d1c",
       "model": "forfour EQ",
       "release_year": 2017,
@@ -304,7 +298,6 @@
       "id": "805b5810-074c-449b-ad19-d6c852ebf8f6",
       "brand": "smart",
       "vehicle_type": "car",
-      "type": "bev",
       "brand_id": "a462c115-33b4-438b-b590-bc4a33382d1c",
       "model": "forfour EQ",
       "release_year": 2017,
@@ -337,7 +330,6 @@
       "id": "785c65be-3122-44ad-b574-9291c0793c37",
       "brand": "smart",
       "vehicle_type": "car",
-      "type": "bev",
       "brand_id": "a462c115-33b4-438b-b590-bc4a33382d1c",
       "model": "fortwo ED",
       "release_year": 2017,
@@ -370,7 +362,6 @@
       "id": "e3525b59-d3b9-4eef-9a01-1408358c5534",
       "brand": "smart",
       "vehicle_type": "car",
-      "type": "bev",
       "brand_id": "a462c115-33b4-438b-b590-bc4a33382d1c",
       "model": "fortwo ED",
       "release_year": 2017,
@@ -403,7 +394,6 @@
       "id": "f0b185de-9b9d-4a08-924f-450c4dadc7a6",
       "brand": "smart",
       "vehicle_type": "car",
-      "type": "bev",
       "brand_id": "a462c115-33b4-438b-b590-bc4a33382d1c",
       "model": "fortwo EQ",
       "release_year": 2017,
@@ -436,7 +426,6 @@
       "brand": "smart",
       "model": "EQ fortwo coupe",
       "variant": "",
-      "type": "bev",
       "release_year": 2020,
       "range": 100,
       "dc_charger": null,
@@ -471,7 +460,6 @@
       "brand": "smart",
       "model": "#1 Pro+",
       "variant": "",
-      "type": "bev",
       "release_year": 2023,
       "range": 335,
       "id": "7b8a8b63-5b87-48dc-a921-b6b2c9348915",
@@ -530,7 +518,6 @@
       "brand": "smart",
       "model": "#5 Summit Edition",
       "variant": "",
-      "type": "bev",
       "release_year": 2025,
       "range": 455,
       "id": "e62405a3-6147-4594-b173-51757a7dae56",
@@ -589,7 +576,6 @@
       "brand": "smart",
       "model": "#5 Pro+",
       "variant": "",
-      "type": "bev",
       "release_year": 2025,
       "range": 465,
       "id": "4416a83a-9121-4da5-99e6-b4f7be052167",
@@ -648,7 +634,6 @@
       "brand": "smart",
       "model": "#1 Brabus",
       "variant": "",
-      "type": "bev",
       "release_year": 2023,
       "range": 325,
       "id": "9f31eb55-a879-49ea-bbbd-c6f81b2a9eab",
@@ -707,7 +692,6 @@
       "brand": "smart",
       "model": "EQ forfour",
       "variant": "",
-      "type": "bev",
       "release_year": 2020,
       "range": 95,
       "dc_charger": null,
@@ -742,7 +726,6 @@
       "brand": "smart",
       "model": "#5 Premium",
       "variant": "",
-      "type": "bev",
       "release_year": 2025,
       "range": 465,
       "id": "8a2df956-eb5c-401d-9944-91199ec6c47b",
@@ -801,7 +784,6 @@
       "brand": "smart",
       "model": "#3 Premium",
       "variant": "",
-      "type": "bev",
       "release_year": 2024,
       "range": 355,
       "id": "474f02fc-bea6-461a-bf02-a54a7b2ac898",
@@ -860,7 +842,6 @@
       "brand": "smart",
       "model": "#5 Pro",
       "variant": "",
-      "type": "bev",
       "release_year": 2025,
       "range": 370,
       "id": "0720da11-25f4-4e74-9324-bc2eca611d0e",
@@ -919,7 +900,6 @@
       "brand": "smart",
       "model": "ForTwo Electric Drive",
       "variant": "",
-      "type": "bev",
       "release_year": 2017,
       "battery_size": 16.7,
       "range": 100,
@@ -955,7 +935,6 @@
       "brand": "smart",
       "model": "#5 Pulse",
       "variant": "",
-      "type": "bev",
       "release_year": 2025,
       "battery_size": 94,
       "range": 455,
@@ -1015,7 +994,6 @@
       "brand": "smart",
       "model": "#1 Premium",
       "variant": "",
-      "type": "bev",
       "release_year": 2023,
       "battery_size": 62,
       "range": 335,
@@ -1075,7 +1053,6 @@
       "brand": "smart",
       "model": "#1 Pro",
       "variant": "",
-      "type": "bev",
       "release_year": 2023,
       "battery_size": 47,
       "range": 250,
@@ -1135,7 +1112,6 @@
       "brand": "smart",
       "model": "EQ fortwo cabrio",
       "variant": "",
-      "type": "bev",
       "release_year": 2020,
       "battery_size": 16.7,
       "range": 95,
@@ -1171,7 +1147,6 @@
       "brand": "smart",
       "model": "#1 Pulse",
       "variant": "",
-      "type": "bev",
       "release_year": 2023,
       "battery_size": 62,
       "range": 325,
@@ -1231,7 +1206,6 @@
       "brand": "smart",
       "model": "ForFour Electric Drive",
       "variant": "",
-      "type": "bev",
       "release_year": 2017,
       "battery_size": 16.7,
       "range": 95,
@@ -1267,7 +1241,6 @@
       "brand": "smart",
       "model": "ForTwo Cabrio Electric Drive",
       "variant": "",
-      "type": "bev",
       "release_year": 2017,
       "battery_size": 16.7,
       "range": 95,
@@ -1354,7 +1327,6 @@
         "is_default_charging_curve": false
       },
       "brand_id": "a462c115-33b4-438b-b590-bc4a33382d1c",
-      "type": "bev",
       "id": "0463887d-0e86-4d37-ba39-ae6eba9f8ee0"
     },
     {
@@ -1412,7 +1384,6 @@
         "is_default_charging_curve": false
       },
       "brand_id": "a462c115-33b4-438b-b590-bc4a33382d1c",
-      "type": "bev",
       "id": "1443881c-8094-4eec-b5bf-59741b790371"
     },
     {
@@ -1470,7 +1441,6 @@
         "is_default_charging_curve": false
       },
       "brand_id": "a462c115-33b4-438b-b590-bc4a33382d1c",
-      "type": "bev",
       "id": "fb8b55ba-e20b-4d0a-81bd-3053830faa71"
     },
     {
@@ -1528,7 +1498,6 @@
         "is_default_charging_curve": false
       },
       "brand_id": "a462c115-33b4-438b-b590-bc4a33382d1c",
-      "type": "bev",
       "id": "27fdfc4a-2159-43d0-b368-0444a3873f76"
     },
     {
@@ -1586,7 +1555,6 @@
         "is_default_charging_curve": false
       },
       "brand_id": "a462c115-33b4-438b-b590-bc4a33382d1c",
-      "type": "bev",
       "id": "e4c4213b-6346-4c07-bbdd-2698f7314838"
     },
     {
@@ -1644,7 +1612,6 @@
         "is_default_charging_curve": false
       },
       "brand_id": "a462c115-33b4-438b-b590-bc4a33382d1c",
-      "type": "bev",
       "id": "490a59d9-e4ec-4716-99e8-6e7b38a6923c"
     }
   ]

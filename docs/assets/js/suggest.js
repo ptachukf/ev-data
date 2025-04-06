@@ -97,7 +97,7 @@ document.addEventListener('DOMContentLoaded', async function() {
 Vehicle Details:
 - Brand: ${formData.get('brand')}
 - Model: ${modelValue}
-- Type: ${formData.get('vehicleType')}
+- Vehicle Type: ${formData.get('vehicleType')}
 - Battery Capacity: ${formData.get('batteryCapacity')} kWh
 - AC Charging Power: ${formData.get('maxAcChargingPower')} kW
 - DC Charging Power: ${formData.get('maxDcChargingPower')} kW

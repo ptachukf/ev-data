@@ -101,6 +101,8 @@ brands.each do |brand|
       # Ensure brand name is set correctly
       vehicle['brand'] = brand['name'] if vehicle['brand'] != brand['name']
       
+      # Note: We do not add the "type": "bev" field as it's redundant
+      
       all_vehicles << vehicle
     end
     

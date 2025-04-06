@@ -4,7 +4,6 @@
   "models": [
     {
       "id": "3562e22d-8e61-4d1f-80ab-9026fad425de",
-      "type": "bev",
       "brand": "Zeekr",
       "brand_id": "71900a97-a91f-4b09-b78a-de7c654d41a0",
       "model": "001",
@@ -61,7 +60,6 @@
     },
     {
       "id": "94ad6678-5bb0-4096-b639-2d064fa71a68",
-      "type": "bev",
       "brand": "Zeekr",
       "brand_id": "71900a97-a91f-4b09-b78a-de7c654d41a0",
       "model": "001",
@@ -118,7 +116,6 @@
     },
     {
       "id": "62ca6cbf-ae2f-4311-a539-784cf3aed63e",
-      "type": "bev",
       "brand": "Zeekr",
       "brand_id": "71900a97-a91f-4b09-b78a-de7c654d41a0",
       "model": "001",
@@ -175,7 +172,6 @@
     },
     {
       "id": "2bda1788-0ea1-453b-8fac-7ea7a19a8598",
-      "type": "bev",
       "brand": "Zeekr",
       "brand_id": "71900a97-a91f-4b09-b78a-de7c654d41a0",
       "model": "X",
@@ -232,7 +228,6 @@
     },
     {
       "id": "132d0e67-9444-4efa-a639-707bd104247a",
-      "type": "bev",
       "brand": "Zeekr",
       "brand_id": "71900a97-a91f-4b09-b78a-de7c654d41a0",
       "model": "X",
@@ -291,7 +286,6 @@
       "brand": "Zeekr",
       "model": "7X Performance AWD",
       "variant": "",
-      "type": "bev",
       "release_year": 2025,
       "range": 475,
       "id": "b8840491-ecfb-41b6-b4b3-bc9af8a0e07e",
@@ -350,7 +344,6 @@
       "brand": "Zeekr",
       "model": "7X Premium RWD",
       "variant": "",
-      "type": "bev",
       "release_year": 2025,
       "range": 390,
       "id": "399a401a-035a-430f-8dcb-e5b3587970ec",
@@ -409,7 +402,6 @@
       "brand": "Zeekr",
       "model": "7X Long Range RWD",
       "variant": "",
-      "type": "bev",
       "release_year": 2025,
       "battery_size": 94,
       "range": 510,

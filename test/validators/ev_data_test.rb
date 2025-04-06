@@ -129,7 +129,6 @@ class EVDataTest < Minitest::Test
   def test_all_vehicles_have_required_fields
     required_fields = {
       "id" => ->(v) { v.is_a?(String) && !v.empty? },
-      "type" => ->(v) { v == "bev" },
       "brand" => ->(v) { v.is_a?(String) && !v.empty? },
       "brand_id" => ->(v) { v.is_a?(String) && !v.empty? },
       "model" => ->(v) { v.is_a?(String) && !v.empty? },
@@ -208,7 +207,7 @@ class EVDataTest < Minitest::Test
 
   def assert_vehicle_basic_fields(vehicle)
     required_fields = %w[
-      id brand vehicle_type type brand_id model
+      id brand vehicle_type brand_id model
       usable_battery_size ac_charger energy_consumption
       charging_voltage
     ]
@@ -221,7 +220,6 @@ class EVDataTest < Minitest::Test
     assert %w[car motorbike microcar].include?(vehicle["vehicle_type"]), 
       "Vehicle type should be 'car', 'motorbike', or 'microcar', got: #{vehicle["vehicle_type"]}"
     
-    assert_equal "bev", vehicle["type"], "Type should be 'bev'"
     assert vehicle["usable_battery_size"].is_a?(Numeric), "Battery size should be numeric"
     
     # Updated validation for charging voltage

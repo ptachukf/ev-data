@@ -6,7 +6,6 @@
       "id": "e59115ea-4d72-094c-2941-1494f8005ae2",
       "brand": "BMW",
       "vehicle_type": "car",
-      "type": "bev",
       "brand_id": "0742668c-bf59-4191-890e-2b0883508808",
       "model": "i3",
       "release_year": 2020,
@@ -83,7 +82,6 @@
       "id": "e67dc450-d658-4bee-bd0f-a750d445b2f9",
       "brand": "BMW",
       "vehicle_type": "car",
-      "type": "bev",
       "brand_id": "0742668c-bf59-4191-890e-2b0883508808",
       "model": "i3",
       "release_year": 2013,
@@ -144,7 +142,6 @@
       "id": "0ec3f440-136c-49f1-8917-c629a27146c7",
       "brand": "BMW",
       "vehicle_type": "car",
-      "type": "bev",
       "brand_id": "0742668c-bf59-4191-890e-2b0883508808",
       "model": "i3",
       "release_year": 2013,
@@ -201,7 +198,6 @@
       "id": "aceb9326-181f-cc73-0467-4c63ee47c0fb",
       "brand": "BMW",
       "vehicle_type": "car",
-      "type": "bev",
       "brand_id": "0742668c-bf59-4191-890e-2b0883508808",
       "model": "i3S",
       "release_year": 2020,
@@ -254,7 +250,6 @@
       "id": "2390340c-4405-4ca8-b0a5-1565dc842d5a",
       "brand": "BMW",
       "vehicle_type": "car",
-      "type": "bev",
       "brand_id": "0742668c-bf59-4191-890e-2b0883508808",
       "model": "i3S",
       "release_year": 2019,
@@ -315,7 +310,6 @@
       "id": "262ae184-9095-41ca-aaa0-9db46869f362",
       "brand": "BMW",
       "vehicle_type": "car",
-      "type": "bev",
       "brand_id": "0742668c-bf59-4191-890e-2b0883508808",
       "model": "i3S",
       "release_year": 2019,
@@ -376,7 +370,6 @@
       "id": "823d8294-a3b3-40ab-a140-fa1e11e44c4e",
       "brand": "BMW",
       "vehicle_type": "car",
-      "type": "bev",
       "brand_id": "0742668c-bf59-4191-890e-2b0883508808",
       "model": "i3S",
       "release_year": 2019,
@@ -437,7 +430,6 @@
       "id": "f11e225b-57d9-4872-1026-cef1a0b4af92",
       "brand": "BMW",
       "vehicle_type": "car",
-      "type": "bev",
       "brand_id": "0742668c-bf59-4191-890e-2b0883508808",
       "model": "i4",
       "release_year": 2022,
@@ -490,7 +482,6 @@
       "id": "6d89611f-5622-f983-8949-fc6dedaf4b1a",
       "brand": "BMW",
       "vehicle_type": "car",
-      "type": "bev",
       "brand_id": "0742668c-bf59-4191-890e-2b0883508808",
       "model": "i4",
       "release_year": 2021,
@@ -541,7 +532,6 @@
     },
     {
       "id": "6d9fbcce-c1dd-4768-bdb5-8bf2d33c7cff",
-      "type": "bev",
       "brand": "BMW",
       "brand_id": "0742668c-bf59-4191-890e-2b0883508808",
       "model": "i5",
@@ -594,7 +584,6 @@
     },
     {
       "id": "874fde81-5e0c-40b7-ae8e-b718c02d1cb3",
-      "type": "bev",
       "brand": "BMW",
       "brand_id": "0742668c-bf59-4191-890e-2b0883508808",
       "model": "i5",
@@ -647,7 +636,6 @@
     },
     {
       "id": "bb3b6b53-da51-45c9-a4c4-e557d432daf5",
-      "type": "bev",
       "brand": "BMW",
       "brand_id": "0742668c-bf59-4191-890e-2b0883508808",
       "model": "i5",
@@ -700,7 +688,6 @@
     },
     {
       "id": "93c552f1-ed23-463a-85b8-5503a2208ea2",
-      "type": "bev",
       "brand": "BMW",
       "brand_id": "0742668c-bf59-4191-890e-2b0883508808",
       "model": "i5",
@@ -753,7 +740,6 @@
     },
     {
       "id": "344c6f18-a465-4e7e-ae9c-351fb4bfaa24",
-      "type": "bev",
       "brand": "BMW",
       "brand_id": "0742668c-bf59-4191-890e-2b0883508808",
       "model": "i5",
@@ -808,7 +794,6 @@
       "id": "100a6579-45ee-f20f-2d50-8149f0f873a3",
       "brand": "BMW",
       "vehicle_type": "car",
-      "type": "bev",
       "brand_id": "0742668c-bf59-4191-890e-2b0883508808",
       "model": "i7",
       "release_year": 2022,
@@ -859,7 +844,6 @@
     },
     {
       "id": "5076b1d4-9b07-4f36-8050-64668d5b3634",
-      "type": "bev",
       "brand": "BMW",
       "brand_id": "0742668c-bf59-4191-890e-2b0883508808",
       "model": "iX",
@@ -916,7 +900,6 @@
     },
     {
       "id": "582da553-f32d-4675-bb60-44f3ad06cdad",
-      "type": "bev",
       "brand": "BMW",
       "brand_id": "0742668c-bf59-4191-890e-2b0883508808",
       "model": "iX",
@@ -973,7 +956,6 @@
     },
     {
       "id": "a1842597-2134-484a-98c8-8ddf13b27536",
-      "type": "bev",
       "brand": "BMW",
       "brand_id": "0742668c-bf59-4191-890e-2b0883508808",
       "model": "iX",
@@ -1032,7 +1014,6 @@
       "id": "edb4f12d-c8aa-3cb2-6c95-bb48c9f40d4f",
       "brand": "BMW",
       "vehicle_type": "car",
-      "type": "bev",
       "brand_id": "0742668c-bf59-4191-890e-2b0883508808",
       "model": "iX1",
       "release_year": 2022,
@@ -1085,7 +1066,6 @@
       "id": "cf9d35a6-8c61-44da-97fc-e1212b0f8fbd",
       "brand": "BMW",
       "vehicle_type": "car",
-      "type": "bev",
       "brand_id": "0742668c-bf59-4191-890e-2b0883508808",
       "model": "iX3",
       "release_year": 2020,
@@ -1146,7 +1126,6 @@
       "id": "555c0b5b-ba1e-741a-27e0-dee32087e2a2",
       "brand": "BMW",
       "vehicle_type": "car",
-      "type": "bev",
       "brand_id": "0742668c-bf59-4191-890e-2b0883508808",
       "model": "iX3",
       "release_year": 2020,
@@ -1199,7 +1178,6 @@
       "brand": "BMW",
       "model": "iX xDrive60",
       "variant": "",
-      "type": "bev",
       "release_year": 2025,
       "range": 525,
       "id": "6b5ef66f-099d-4b2d-8854-c584bfcaa255",
@@ -1258,7 +1236,6 @@
       "brand": "BMW",
       "model": "iX xDrive45",
       "variant": "",
-      "type": "bev",
       "release_year": 2025,
       "range": 470,
       "id": "aa16f915-7fee-4683-9d5a-9f7c18ffcf40",
@@ -1317,7 +1294,6 @@
       "brand": "BMW",
       "model": "iX2 eDrive20",
       "variant": "",
-      "type": "bev",
       "release_year": 2024,
       "range": 395,
       "id": "3e4af0ab-6489-487c-a08c-1b37ce8ee84c",
@@ -1376,7 +1352,6 @@
       "brand": "BMW",
       "model": "iX2 xDrive30",
       "variant": "",
-      "type": "bev",
       "release_year": 2023,
       "range": 385,
       "id": "c6e173f3-4b0b-418c-a2f6-d80f7b8917d7",
@@ -1435,7 +1410,6 @@
       "brand": "BMW",
       "model": "i4",
       "variant": "M50",
-      "type": "bev",
       "release_year": 2024,
       "range": 450,
       "id": "0bdb5819-8e84-4e98-bf40-a636d7ce4541",
@@ -1494,7 +1468,6 @@
       "brand": "BMW",
       "model": "i7",
       "variant": "M70 xDrive",
-      "type": "bev",
       "release_year": 2023,
       "range": 490,
       "id": "22d71a66-235b-4638-9438-20b857c4c037",
@@ -1553,7 +1526,6 @@
       "brand": "BMW",
       "model": "i4",
       "variant": "xDrive40",
-      "type": "bev",
       "release_year": 2024,
       "range": 490,
       "id": "98de05be-46af-4bfb-86b2-bafe00b54e79",
@@ -1612,7 +1584,6 @@
       "brand": "BMW",
       "model": "i7",
       "variant": "eDrive50",
-      "type": "bev",
       "release_year": 2023,
       "range": 520,
       "id": "c6713f60-d47a-4ab9-b4bb-8b40266589c3",
@@ -1671,7 +1642,6 @@
       "brand": "BMW",
       "model": "iX M70 xDrive",
       "variant": "",
-      "type": "bev",
       "release_year": 2025,
       "range": 500,
       "id": "08ac3b4b-cd57-485c-aa5d-8455ae8c5b38",
@@ -1730,7 +1700,6 @@
       "brand": "BMW",
       "model": "iX1 eDrive20",
       "variant": "",
-      "type": "bev",
       "release_year": 2023,
       "battery_size": 64.7,
       "range": 390,
@@ -1790,7 +1759,6 @@
       "brand": "BMW",
       "model": "i5 xDrive40 Touring",
       "variant": "",
-      "type": "bev",
       "release_year": 2025,
       "usable_battery_size": 81.2,
       "range": 515,
@@ -1901,7 +1869,6 @@
         "is_default_charging_curve": false
       },
       "brand_id": "0742668c-bf59-4191-890e-2b0883508808",
-      "type": "bev",
       "id": "01c7b5f8-263d-48c1-8a70-db1a6272246b"
     },
     {
@@ -1959,7 +1926,6 @@
         "is_default_charging_curve": false
       },
       "brand_id": "0742668c-bf59-4191-890e-2b0883508808",
-      "type": "bev",
       "id": "72572e52-fd8e-4017-affc-bdb933b7ddeb"
     },
     {
@@ -2017,7 +1983,6 @@
         "is_default_charging_curve": false
       },
       "brand_id": "0742668c-bf59-4191-890e-2b0883508808",
-      "type": "bev",
       "id": "e2ac7ccd-b521-4a26-a952-b981876e2a6e"
     },
     {
@@ -2075,7 +2040,6 @@
         "is_default_charging_curve": false
       },
       "brand_id": "0742668c-bf59-4191-890e-2b0883508808",
-      "type": "bev",
       "id": "5347361e-df01-4e53-8ddf-e715d38255a6"
     }
   ]

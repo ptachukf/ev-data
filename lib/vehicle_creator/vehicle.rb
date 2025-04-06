@@ -3,8 +3,7 @@ class Vehicle
 
   def initialize
     @data = {
-      "id" => SecureRandom.uuid,
-      "type" => "bev"
+      "id" => SecureRandom.uuid
     }
   end
 

@@ -6,7 +6,6 @@
       "id": "430ca2cd-bd4b-482a-8776-85a8c7d3435c",
       "brand": "DS",
       "vehicle_type": "car",
-      "type": "bev",
       "brand_id": "37bfdacf-1aca-4eb7-8daa-8dc5b14c59e9",
       "model": "3 Crossback E-Tense",
       "release_year": 2020,
@@ -91,7 +90,6 @@
       "id": "3b5bb8d1-0f34-4c05-861c-45d19a8883b9",
       "brand": "DS",
       "vehicle_type": "car",
-      "type": "bev",
       "brand_id": "37bfdacf-1aca-4eb7-8daa-8dc5b14c59e9",
       "model": "3 Crossback E-Tense",
       "release_year": 2020,
@@ -144,7 +142,6 @@
       "brand": "DS",
       "model": "N°8 FWD Long Range",
       "variant": "",
-      "type": "bev",
       "release_year": 2024,
       "range": 555,
       "id": "c4b087b3-3e2c-4723-ab25-cc9d5fe8a159",
@@ -203,7 +200,6 @@
       "brand": "DS",
       "model": "N°8 AWD Long Range",
       "variant": "",
-      "type": "bev",
       "release_year": 2024,
       "range": 535,
       "id": "76a9bb0f-4256-46d5-8795-5614a2733735",
@@ -262,7 +258,6 @@
       "brand": "DS",
       "model": "3 E-Tense",
       "variant": "",
-      "type": "bev",
       "release_year": 2022,
       "battery_size": 50.8,
       "range": 345,
@@ -324,7 +319,6 @@
       "brand": "DS",
       "model": "3 Crossback E-Tense",
       "variant": "",
-      "type": "bev",
       "release_year": 2021,
       "battery_size": 46.3,
       "range": 305,
@@ -386,7 +380,6 @@
       "brand": "DS",
       "model": "N°8 FWD",
       "variant": "",
-      "type": "bev",
       "release_year": 2024,
       "battery_size": 74,
       "range": 425,
@@ -497,7 +490,6 @@
         "is_default_charging_curve": false
       },
       "brand_id": "37bfdacf-1aca-4eb7-8daa-8dc5b14c59e9",
-      "type": "bev",
       "id": "a88f1ef2-5604-4401-8412-bc41c8b016eb"
     }
   ]
