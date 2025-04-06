@@ -1687,6 +1687,122 @@
       "energy_consumption": {
         "average_consumption": 17.5
       }
+    },
+    {
+      "brand": "Skoda",
+      "model": "iv 50",
+      "variant": "",
+      "vehicle_type": "car",
+      "usable_battery_size": 52,
+      "energy_consumption": {
+        "average_consumption": 17
+      },
+      "charging_voltage": 400,
+      "release_year": 2021,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2": 2,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "2.0": 2
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 52,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 52
+          },
+          {
+            "percentage": 50,
+            "power": 52
+          },
+          {
+            "percentage": 80,
+            "power": 31.2
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "43763587-6999-406b-8843-28977e1b82c3",
+      "type": "bev",
+      "id": "b70be6bf-1656-4e85-9b55-edc29ad90c22"
+    },
+    {
+      "brand": "Skoda",
+      "model": "iv",
+      "variant": "",
+      "vehicle_type": "car",
+      "usable_battery_size": 32.3,
+      "energy_consumption": {
+        "average_consumption": 15.8
+      },
+      "charging_voltage": 400,
+      "release_year": 2020,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 32.3,
+        "power_per_charging_point": {
+          "2": 2,
+          "11": 11,
+          "16": 16,
+          "22": 22,
+          "43": 32.3,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "2.0": 2
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 32.3,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 32.3
+          },
+          {
+            "percentage": 50,
+            "power": 32.3
+          },
+          {
+            "percentage": 80,
+            "power": 19.38
+          },
+          {
+            "percentage": 100,
+            "power": 32.3
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "43763587-6999-406b-8843-28977e1b82c3",
+      "type": "bev",
+      "id": "49e1116d-bfa0-4821-aee7-479b59cb70da"
     }
   ]
 }

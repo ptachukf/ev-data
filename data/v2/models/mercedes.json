@@ -234,7 +234,7 @@
           "2.0": 2,
           "2.3": 2.3,
           "3.7": 3.7,
-          "7.4": 7.2
+          "7.4": 7.4
         }
       },
       "dc_charger": {
@@ -1927,9 +1927,71 @@
         ],
         "is_default_charging_curve": false
       },
+      "brand_id": "b2282fbe-f5d9-48d9-943f-a9b66ec51423",
       "type": "bev",
-      "id": "03257e23-bb58-47d8-8cf7-0556e90d7c07",
-      "brand_id": "b2282fbe-f5d9-48d9-943f-a9b66ec51423"
+      "id": "03257e23-bb58-47d8-8cf7-0556e90d7c07"
+    },
+    {
+      "brand": "Mercedes",
+      "model": "250",
+      "variant": "",
+      "vehicle_type": "car",
+      "usable_battery_size": 66.5,
+      "energy_consumption": {
+        "average_consumption": 18.5
+      },
+      "charging_voltage": 400,
+      "release_year": 2021,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2": 2,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "2.0": 2
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 66.5,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 66.5
+          },
+          {
+            "percentage": 30,
+            "power": 66.5
+          },
+          {
+            "percentage": 60,
+            "power": 46.55
+          },
+          {
+            "percentage": 80,
+            "power": 26.6
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "b2282fbe-f5d9-48d9-943f-a9b66ec51423",
+      "type": "bev",
+      "id": "a0bd5a2f-0283-4923-bee8-1879848149d3"
     }
   ]
 }

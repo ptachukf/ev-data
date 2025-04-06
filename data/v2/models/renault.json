@@ -2093,6 +2093,122 @@
       "brand_id": "c0d8a60c-34b8-44fe-8af7-9eeb62eedb4b",
       "type": "bev",
       "id": "11828f12-d7df-41a9-9b58-9367de77c5f0"
+    },
+    {
+      "brand": "Renault",
+      "model": "r90",
+      "variant": "",
+      "vehicle_type": "car",
+      "usable_battery_size": 41,
+      "energy_consumption": {
+        "average_consumption": 16.1
+      },
+      "charging_voltage": 400,
+      "release_year": 2018,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 41,
+        "power_per_charging_point": {
+          "2": 2,
+          "11": 11,
+          "16": 16,
+          "22": 22,
+          "43": 41,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "2.0": 2
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 41,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 41
+          },
+          {
+            "percentage": 50,
+            "power": 41
+          },
+          {
+            "percentage": 80,
+            "power": 24.599999999999998
+          },
+          {
+            "percentage": 100,
+            "power": 41
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "c0d8a60c-34b8-44fe-8af7-9eeb62eedb4b",
+      "type": "bev",
+      "id": "96627666-aa94-4f54-b62b-bdd22ae9bc9a"
+    },
+    {
+      "brand": "Renault",
+      "model": "ze50 r110",
+      "variant": "",
+      "vehicle_type": "car",
+      "usable_battery_size": 52,
+      "energy_consumption": {
+        "average_consumption": 16.5
+      },
+      "charging_voltage": 400,
+      "release_year": 2019,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2": 2,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "2.0": 2
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 52,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 52
+          },
+          {
+            "percentage": 50,
+            "power": 52
+          },
+          {
+            "percentage": 80,
+            "power": 31.2
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "c0d8a60c-34b8-44fe-8af7-9eeb62eedb4b",
+      "type": "bev",
+      "id": "c6a4e887-c335-4e6e-9346-b9c6640ed11d"
     }
   ]
 }

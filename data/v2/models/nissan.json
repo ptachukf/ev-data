@@ -1490,6 +1490,64 @@
       "brand_id": "dab5a47a-e8ce-4d34-9139-0701499205b1",
       "type": "bev",
       "id": "18310c77-6bf8-4724-8d89-dd10bafb430d"
+    },
+    {
+      "brand": "Nissan",
+      "model": "e+",
+      "variant": "",
+      "vehicle_type": "car",
+      "usable_battery_size": 59,
+      "energy_consumption": {
+        "average_consumption": 17.1
+      },
+      "charging_voltage": 400,
+      "release_year": 2019,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2": 2,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "2.0": 2
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 59,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 59
+          },
+          {
+            "percentage": 50,
+            "power": 59
+          },
+          {
+            "percentage": 80,
+            "power": 35.4
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "dab5a47a-e8ce-4d34-9139-0701499205b1",
+      "type": "bev",
+      "id": "d3631ffd-f675-4ddd-8a1f-2bcf653f2ee5"
     }
   ]
 }

@@ -118,6 +118,64 @@
       "energy_consumption": {
         "average_consumption": 15.8
       }
+    },
+    {
+      "brand": "SEAT",
+      "model": "electric",
+      "variant": "",
+      "vehicle_type": "car",
+      "usable_battery_size": 32.3,
+      "energy_consumption": {
+        "average_consumption": 15.8
+      },
+      "charging_voltage": 400,
+      "release_year": 2020,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 32.3,
+        "power_per_charging_point": {
+          "2": 2,
+          "11": 11,
+          "16": 16,
+          "22": 22,
+          "43": 32.3,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "2.0": 2
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 32.3,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 32.3
+          },
+          {
+            "percentage": 50,
+            "power": 32.3
+          },
+          {
+            "percentage": 80,
+            "power": 19.38
+          },
+          {
+            "percentage": 100,
+            "power": 32.3
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "91c527ff-aa74-4dbb-9091-36fb5ddd44b6",
+      "type": "bev",
+      "id": "ee5a4d7d-df8c-4ea3-9203-c2c22d6710d7"
     }
   ]
 }

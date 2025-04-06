@@ -1157,6 +1157,64 @@
       "brand_id": "9771afb8-9e25-4ae6-a5b3-b2a5b9f363f0",
       "type": "bev",
       "id": "37250d57-293d-4687-8e6e-6e9390f4f4bd"
+    },
+    {
+      "brand": "Hyundai",
+      "model": "electric",
+      "variant": "",
+      "vehicle_type": "car",
+      "usable_battery_size": 38.3,
+      "energy_consumption": {
+        "average_consumption": 15.3
+      },
+      "charging_voltage": 400,
+      "release_year": 2019,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 38.3,
+        "power_per_charging_point": {
+          "2": 2,
+          "11": 11,
+          "16": 16,
+          "22": 22,
+          "43": 38.3,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "2.0": 2
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 38.3,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 38.3
+          },
+          {
+            "percentage": 50,
+            "power": 38.3
+          },
+          {
+            "percentage": 80,
+            "power": 22.979999999999997
+          },
+          {
+            "percentage": 100,
+            "power": 38.3
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "9771afb8-9e25-4ae6-a5b3-b2a5b9f363f0",
+      "type": "bev",
+      "id": "897abe0e-e57c-4932-a6f6-8c263d944e83"
     }
   ]
 }

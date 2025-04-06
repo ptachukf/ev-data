@@ -2019,6 +2019,64 @@
       "brand_id": "0742668c-bf59-4191-890e-2b0883508808",
       "type": "bev",
       "id": "e2ac7ccd-b521-4a26-a952-b981876e2a6e"
+    },
+    {
+      "brand": "BMW",
+      "model": "120 ah",
+      "variant": "",
+      "vehicle_type": "car",
+      "usable_battery_size": 37.9,
+      "energy_consumption": {
+        "average_consumption": 16.5
+      },
+      "charging_voltage": 400,
+      "release_year": 2018,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 37.9,
+        "power_per_charging_point": {
+          "2": 2,
+          "11": 11,
+          "16": 16,
+          "22": 22,
+          "43": 37.9,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "2.0": 2
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 37.9,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 37.9
+          },
+          {
+            "percentage": 50,
+            "power": 37.9
+          },
+          {
+            "percentage": 80,
+            "power": 22.74
+          },
+          {
+            "percentage": 100,
+            "power": 37.9
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "0742668c-bf59-4191-890e-2b0883508808",
+      "type": "bev",
+      "id": "5347361e-df01-4e53-8ddf-e715d38255a6"
     }
   ]
 }

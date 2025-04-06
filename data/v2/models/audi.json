@@ -2993,6 +2993,126 @@
       "brand_id": "89c2668c-0c50-4344-9386-93e4000f7673",
       "type": "bev",
       "id": "55908d1b-897e-4d3f-bc32-7dc423fdd2ab"
+    },
+    {
+      "brand": "Audi",
+      "model": "gt rs",
+      "variant": "",
+      "vehicle_type": "car",
+      "usable_battery_size": 85,
+      "energy_consumption": {
+        "average_consumption": 21
+      },
+      "charging_voltage": 800,
+      "release_year": 2021,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2": 2,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "2.0": 2
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 85,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 85
+          },
+          {
+            "percentage": 40,
+            "power": 85
+          },
+          {
+            "percentage": 70,
+            "power": 68
+          },
+          {
+            "percentage": 90,
+            "power": 34
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "89c2668c-0c50-4344-9386-93e4000f7673",
+      "type": "bev",
+      "id": "8423c5ad-2dba-4990-8656-25c15031a8ed"
+    },
+    {
+      "brand": "Audi",
+      "model": "etron 35",
+      "variant": "",
+      "vehicle_type": "car",
+      "usable_battery_size": 52,
+      "energy_consumption": {
+        "average_consumption": 18.2
+      },
+      "charging_voltage": 400,
+      "release_year": 2021,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2": 2,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "2.0": 2
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 52,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 52
+          },
+          {
+            "percentage": 50,
+            "power": 52
+          },
+          {
+            "percentage": 80,
+            "power": 31.2
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "89c2668c-0c50-4344-9386-93e4000f7673",
+      "type": "bev",
+      "id": "bf30bc91-c95d-43bf-aba8-8a2ad8f48a85"
     }
   ]
 }

@@ -441,6 +441,64 @@
       },
       "vehicle_type": "car",
       "charging_voltage": 400
+    },
+    {
+      "brand": "DS",
+      "model": "crossback e-tense",
+      "variant": "",
+      "vehicle_type": "car",
+      "usable_battery_size": 46.3,
+      "energy_consumption": {
+        "average_consumption": 18.2
+      },
+      "charging_voltage": 400,
+      "release_year": 2020,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 3,
+        "power_per_charging_point": {
+          "2": 2,
+          "11": 3,
+          "16": 3,
+          "22": 3,
+          "43": 3,
+          "2.3": 2.3,
+          "3.7": 3,
+          "7.4": 3,
+          "2.0": 2
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 46.3,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 46.3
+          },
+          {
+            "percentage": 50,
+            "power": 46.3
+          },
+          {
+            "percentage": 80,
+            "power": 27.779999999999998
+          },
+          {
+            "percentage": 100,
+            "power": 3
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "37bfdacf-1aca-4eb7-8daa-8dc5b14c59e9",
+      "type": "bev",
+      "id": "a88f1ef2-5604-4401-8412-bc41c8b016eb"
     }
   ]
 }

@@ -373,59 +373,6 @@
       "charging_voltage": 400
     },
     {
-      "id": "7f7bafcf-91e7-c0d6-3847-59abefc75ce4",
-      "brand": "Volkswagen",
-      "vehicle_type": "car",
-      "type": "bev",
-      "brand_id": "481793f5-c8b0-4dc9-b3d4-cc615085ac07",
-      "model": "ID.4",
-      "release_year": 2023,
-      "variant": "Pro",
-      "usable_battery_size": 77,
-      "ac_charger": {
-        "usable_phases": 3,
-        "ports": [
-          "type2"
-        ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
-      },
-      "dc_charger": {
-        "ports": [
-          "ccs"
-        ],
-        "max_power": 135,
-        "charging_curve": [
-          {
-            "percentage": 0,
-            "power": 128.3
-          },
-          {
-            "percentage": 75,
-            "power": 135
-          },
-          {
-            "percentage": 100,
-            "power": 11
-          }
-        ],
-        "is_default_charging_curve": true
-      },
-      "energy_consumption": {
-        "average_consumption": 177
-      },
-      "charging_voltage": 400
-    },
-    {
       "id": "cfe2ae21-4c85-5f4f-0603-52980ce580f2",
       "brand": "Volkswagen",
       "vehicle_type": "car",

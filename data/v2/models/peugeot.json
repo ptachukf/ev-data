@@ -2910,7 +2910,7 @@
       "vehicle_type": "car",
       "usable_battery_size": 20.5,
       "energy_consumption": {
-        "average_consumption": 17.7
+        "average_consumption": 20.5
       },
       "charging_voltage": 400,
       "release_year": 2017,
@@ -2959,7 +2959,7 @@
       },
       "brand_id": "f458fe7d-f545-45f3-8c23-2ab8140b8b5d",
       "type": "bev",
-      "id": "da5cd9ee-590f-4922-b641-690cbf6bd223"
+      "id": "c8bdf356-3c32-4242-82a7-a8863607424a"
     }
   ]
 }

@@ -1746,6 +1746,184 @@
       "brand_id": "3337d5f0-39de-4ded-831b-843dfec1ebbd",
       "type": "bev",
       "id": "51e5229e-ceaf-4d28-9392-d0566db5deb4"
+    },
+    {
+      "brand": "Kia",
+      "model": "39kwh",
+      "variant": "",
+      "vehicle_type": "car",
+      "usable_battery_size": 39.2,
+      "energy_consumption": {
+        "average_consumption": 16.7
+      },
+      "charging_voltage": 400,
+      "release_year": 2019,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 39.2,
+        "power_per_charging_point": {
+          "2": 2,
+          "11": 11,
+          "16": 16,
+          "22": 22,
+          "43": 39.2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "2.0": 2
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 39.2,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 39.2
+          },
+          {
+            "percentage": 50,
+            "power": 39.2
+          },
+          {
+            "percentage": 80,
+            "power": 23.52
+          },
+          {
+            "percentage": 100,
+            "power": 39.2
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "3337d5f0-39de-4ded-831b-843dfec1ebbd",
+      "type": "bev",
+      "id": "a70e902d-fcab-40b9-bb67-b08263fd9c89"
+    },
+    {
+      "brand": "Kia",
+      "model": "64kwh",
+      "variant": "",
+      "vehicle_type": "car",
+      "usable_battery_size": 64,
+      "energy_consumption": {
+        "average_consumption": 17.3
+      },
+      "charging_voltage": 400,
+      "release_year": 2020,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2": 2,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "2.0": 2
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 64,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 64
+          },
+          {
+            "percentage": 30,
+            "power": 64
+          },
+          {
+            "percentage": 60,
+            "power": 44.8
+          },
+          {
+            "percentage": 80,
+            "power": 25.6
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "3337d5f0-39de-4ded-831b-843dfec1ebbd",
+      "type": "bev",
+      "id": "6bf5bf7b-78c1-4247-9282-dc4e8661e2ed"
+    },
+    {
+      "brand": "Kia",
+      "model": "39kwh",
+      "variant": "",
+      "vehicle_type": "car",
+      "usable_battery_size": 39.2,
+      "energy_consumption": {
+        "average_consumption": 17
+      },
+      "charging_voltage": 400,
+      "release_year": 2020,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 39.2,
+        "power_per_charging_point": {
+          "2": 2,
+          "11": 11,
+          "16": 16,
+          "22": 22,
+          "43": 39.2,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "2.0": 2
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 39.2,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 39.2
+          },
+          {
+            "percentage": 50,
+            "power": 39.2
+          },
+          {
+            "percentage": 80,
+            "power": 23.52
+          },
+          {
+            "percentage": 100,
+            "power": 39.2
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "3337d5f0-39de-4ded-831b-843dfec1ebbd",
+      "type": "bev",
+      "id": "da0361e9-c2bd-4b71-b0f1-680bbf26266b"
     }
   ]
 }
