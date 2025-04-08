@@ -1127,6 +1127,311 @@
       "brand_id": "6cf9e9b6-28aa-44c7-b6c3-438d518ac12f",
       "vehicle_type": "car",
       "charging_voltage": 400
+    },
+    {
+      "brand": "Ford",
+      "model": "mach-e sr rwd",
+      "variant": "",
+      "vehicle_type": "car",
+      "usable_battery_size": 68,
+      "energy_consumption": {
+        "average_consumption": 18.6
+      },
+      "charging_voltage": 400,
+      "release_year": 2021,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2": 2,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "2.0": 2
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 68,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 68
+          },
+          {
+            "percentage": 30,
+            "power": 68
+          },
+          {
+            "percentage": 60,
+            "power": 47.599999999999994
+          },
+          {
+            "percentage": 80,
+            "power": 27.200000000000003
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "6cf9e9b6-28aa-44c7-b6c3-438d518ac12f",
+      "id": "5f539340-fd07-4203-bda3-173677ba3ffc"
+    },
+    {
+      "brand": "Ford",
+      "model": "mach-e er rwd",
+      "variant": "",
+      "vehicle_type": "car",
+      "usable_battery_size": 88,
+      "energy_consumption": {
+        "average_consumption": 18.9
+      },
+      "charging_voltage": 400,
+      "release_year": 2021,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2": 2,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "2.0": 2
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 88,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 88
+          },
+          {
+            "percentage": 30,
+            "power": 88
+          },
+          {
+            "percentage": 60,
+            "power": 61.599999999999994
+          },
+          {
+            "percentage": 80,
+            "power": 35.2
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "6cf9e9b6-28aa-44c7-b6c3-438d518ac12f",
+      "id": "af570127-584a-4fc1-92e1-21193a2d35ab"
+    },
+    {
+      "brand": "Ford",
+      "model": "mach-e sr",
+      "variant": "awd",
+      "vehicle_type": "car",
+      "usable_battery_size": 68,
+      "energy_consumption": {
+        "average_consumption": 20.3
+      },
+      "charging_voltage": 400,
+      "release_year": 2021,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2": 2,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "2.0": 2
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 68,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 68
+          },
+          {
+            "percentage": 30,
+            "power": 68
+          },
+          {
+            "percentage": 60,
+            "power": 47.599999999999994
+          },
+          {
+            "percentage": 80,
+            "power": 27.200000000000003
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "6cf9e9b6-28aa-44c7-b6c3-438d518ac12f",
+      "id": "461ed07d-7797-44a9-bf85-222c89cc1951"
+    },
+    {
+      "brand": "Ford",
+      "model": "mach-e er",
+      "variant": "awd",
+      "vehicle_type": "car",
+      "usable_battery_size": 88,
+      "energy_consumption": {
+        "average_consumption": 20.5
+      },
+      "charging_voltage": 400,
+      "release_year": 2021,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2": 2,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "2.0": 2
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 88,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 88
+          },
+          {
+            "percentage": 30,
+            "power": 88
+          },
+          {
+            "percentage": 60,
+            "power": 61.599999999999994
+          },
+          {
+            "percentage": 80,
+            "power": 35.2
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "6cf9e9b6-28aa-44c7-b6c3-438d518ac12f",
+      "id": "82087c97-f3d1-468c-b2ea-27e7493f96ca"
+    },
+    {
+      "brand": "Ford",
+      "model": "mach-e",
+      "variant": "gt",
+      "vehicle_type": "car",
+      "usable_battery_size": 88,
+      "energy_consumption": {
+        "average_consumption": 21.5
+      },
+      "charging_voltage": 400,
+      "release_year": 2021,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2": 2,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "2.0": 2
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 88,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 88
+          },
+          {
+            "percentage": 30,
+            "power": 88
+          },
+          {
+            "percentage": 60,
+            "power": 61.599999999999994
+          },
+          {
+            "percentage": 80,
+            "power": 35.2
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "6cf9e9b6-28aa-44c7-b6c3-438d518ac12f",
+      "id": "0dea0d5c-e3f8-452a-82bf-040192377e48"
     }
   ]
 }

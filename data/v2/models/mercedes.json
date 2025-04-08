@@ -1957,6 +1957,852 @@
       },
       "brand_id": "b2282fbe-f5d9-48d9-943f-a9b66ec51423",
       "id": "a0bd5a2f-0283-4923-bee8-1879848149d3"
+    },
+    {
+      "brand": "Mercedes",
+      "model": "300 long",
+      "variant": "",
+      "vehicle_type": "car",
+      "usable_battery_size": 90,
+      "energy_consumption": {
+        "average_consumption": 29
+      },
+      "charging_voltage": 400,
+      "release_year": 2020,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2": 2,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "2.0": 2
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 90,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 90
+          },
+          {
+            "percentage": 30,
+            "power": 90
+          },
+          {
+            "percentage": 60,
+            "power": 62.99999999999999
+          },
+          {
+            "percentage": 80,
+            "power": 36
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "b2282fbe-f5d9-48d9-943f-a9b66ec51423",
+      "id": "05e6e7f8-9fa7-49de-aa43-e0ff02c7abbe"
+    },
+    {
+      "brand": "Mercedes",
+      "model": "300 extra-long",
+      "variant": "",
+      "vehicle_type": "car",
+      "usable_battery_size": 90,
+      "energy_consumption": {
+        "average_consumption": 29
+      },
+      "charging_voltage": 400,
+      "release_year": 2020,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2": 2,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "2.0": 2
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 90,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 90
+          },
+          {
+            "percentage": 30,
+            "power": 90
+          },
+          {
+            "percentage": 60,
+            "power": 62.99999999999999
+          },
+          {
+            "percentage": 80,
+            "power": 36
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "b2282fbe-f5d9-48d9-943f-a9b66ec51423",
+      "id": "e376f1bc-61bf-4c53-b9aa-a0c734aca504"
+    },
+    {
+      "brand": "Mercedes",
+      "model": "400",
+      "variant": "4matic",
+      "vehicle_type": "car",
+      "usable_battery_size": 80,
+      "energy_consumption": {
+        "average_consumption": 21.6
+      },
+      "charging_voltage": 400,
+      "release_year": 2020,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2": 2,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "2.0": 2
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 80,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 80
+          },
+          {
+            "percentage": 30,
+            "power": 80
+          },
+          {
+            "percentage": 60,
+            "power": 56
+          },
+          {
+            "percentage": 80,
+            "power": 32
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "b2282fbe-f5d9-48d9-943f-a9b66ec51423",
+      "id": "8c082310-578a-4502-a7d3-8417c9786f38"
+    },
+    {
+      "brand": "Mercedes",
+      "model": "450+",
+      "variant": "",
+      "vehicle_type": "car",
+      "usable_battery_size": 107.8,
+      "energy_consumption": {
+        "average_consumption": 17
+      },
+      "charging_voltage": 400,
+      "release_year": 2021,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2": 2,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "2.0": 2
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 107.8,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 107.8
+          },
+          {
+            "percentage": 30,
+            "power": 107.8
+          },
+          {
+            "percentage": 60,
+            "power": 75.46
+          },
+          {
+            "percentage": 80,
+            "power": 43.120000000000005
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "b2282fbe-f5d9-48d9-943f-a9b66ec51423",
+      "id": "c6642b67-79c9-433e-b953-c3876887aef5"
+    },
+    {
+      "brand": "Mercedes",
+      "model": "580",
+      "variant": "4matic",
+      "vehicle_type": "car",
+      "usable_battery_size": 107.8,
+      "energy_consumption": {
+        "average_consumption": 18.1
+      },
+      "charging_voltage": 400,
+      "release_year": 2021,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2": 2,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "2.0": 2
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 107.8,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 107.8
+          },
+          {
+            "percentage": 30,
+            "power": 107.8
+          },
+          {
+            "percentage": 60,
+            "power": 75.46
+          },
+          {
+            "percentage": 80,
+            "power": 43.120000000000005
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "b2282fbe-f5d9-48d9-943f-a9b66ec51423",
+      "id": "ae6895f8-7fe1-463d-a43f-8988f641a27a"
+    },
+    {
+      "brand": "Mercedes",
+      "model": "350",
+      "variant": "4matic",
+      "vehicle_type": "car",
+      "usable_battery_size": 66.5,
+      "energy_consumption": {
+        "average_consumption": 19.6
+      },
+      "charging_voltage": 400,
+      "release_year": 2022,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2": 2,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "2.0": 2
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 66.5,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 66.5
+          },
+          {
+            "percentage": 30,
+            "power": 66.5
+          },
+          {
+            "percentage": 60,
+            "power": 46.55
+          },
+          {
+            "percentage": 80,
+            "power": 26.6
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "b2282fbe-f5d9-48d9-943f-a9b66ec51423",
+      "id": "a1824e00-09fb-408c-8e1e-c50ce47f8872"
+    },
+    {
+      "brand": "Mercedes",
+      "model": "300",
+      "variant": "4matic",
+      "vehicle_type": "car",
+      "usable_battery_size": 66.5,
+      "energy_consumption": {
+        "average_consumption": 19
+      },
+      "charging_voltage": 400,
+      "release_year": 2021,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2": 2,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "2.0": 2
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 66.5,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 66.5
+          },
+          {
+            "percentage": 30,
+            "power": 66.5
+          },
+          {
+            "percentage": 60,
+            "power": 46.55
+          },
+          {
+            "percentage": 80,
+            "power": 26.6
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "b2282fbe-f5d9-48d9-943f-a9b66ec51423",
+      "id": "213b923f-1751-494e-9061-8701ef476850"
+    },
+    {
+      "brand": "Mercedes",
+      "model": "350",
+      "variant": "4matic",
+      "vehicle_type": "car",
+      "usable_battery_size": 66.5,
+      "energy_consumption": {
+        "average_consumption": 19
+      },
+      "charging_voltage": 400,
+      "release_year": 2021,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2": 2,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "2.0": 2
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 66.5,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 66.5
+          },
+          {
+            "percentage": 30,
+            "power": 66.5
+          },
+          {
+            "percentage": 60,
+            "power": 46.55
+          },
+          {
+            "percentage": 80,
+            "power": 26.6
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "b2282fbe-f5d9-48d9-943f-a9b66ec51423",
+      "id": "a49ea1aa-c0a8-43b1-9a52-4069832f5997"
+    },
+    {
+      "brand": "Mercedes",
+      "model": "amg 53",
+      "variant": "4matic+",
+      "vehicle_type": "car",
+      "usable_battery_size": 107.8,
+      "energy_consumption": {
+        "average_consumption": 20
+      },
+      "charging_voltage": 400,
+      "release_year": 2022,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2": 2,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "2.0": 2
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 107.8,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 107.8
+          },
+          {
+            "percentage": 30,
+            "power": 107.8
+          },
+          {
+            "percentage": 60,
+            "power": 75.46
+          },
+          {
+            "percentage": 80,
+            "power": 43.120000000000005
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "b2282fbe-f5d9-48d9-943f-a9b66ec51423",
+      "id": "ecfd8cef-9c6d-4211-aab1-9cd7f8674bac"
+    },
+    {
+      "brand": "Mercedes",
+      "model": "350+",
+      "variant": "",
+      "vehicle_type": "car",
+      "usable_battery_size": 90.6,
+      "energy_consumption": {
+        "average_consumption": 17.3
+      },
+      "charging_voltage": 400,
+      "release_year": 2022,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2": 2,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "2.0": 2
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 90.6,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 90.6
+          },
+          {
+            "percentage": 30,
+            "power": 90.6
+          },
+          {
+            "percentage": 60,
+            "power": 63.419999999999995
+          },
+          {
+            "percentage": 80,
+            "power": 36.24
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "b2282fbe-f5d9-48d9-943f-a9b66ec51423",
+      "id": "9013dd03-0cb9-485a-b255-b7042298c075"
+    },
+    {
+      "brand": "Mercedes",
+      "model": "250 long",
+      "variant": "",
+      "vehicle_type": "car",
+      "usable_battery_size": 60,
+      "energy_consumption": {
+        "average_consumption": 29.3
+      },
+      "charging_voltage": 400,
+      "release_year": 2021,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2": 2,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "2.0": 2
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 60,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 60
+          },
+          {
+            "percentage": 50,
+            "power": 60
+          },
+          {
+            "percentage": 80,
+            "power": 36
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "b2282fbe-f5d9-48d9-943f-a9b66ec51423",
+      "id": "c353518d-0bcf-4cad-ac71-043bb124808c"
+    },
+    {
+      "brand": "Mercedes",
+      "model": "250 extra-long",
+      "variant": "",
+      "vehicle_type": "car",
+      "usable_battery_size": 60,
+      "energy_consumption": {
+        "average_consumption": 29.3
+      },
+      "charging_voltage": 400,
+      "release_year": 2021,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2": 2,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "2.0": 2
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 60,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 60
+          },
+          {
+            "percentage": 50,
+            "power": 60
+          },
+          {
+            "percentage": 80,
+            "power": 36
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "b2282fbe-f5d9-48d9-943f-a9b66ec51423",
+      "id": "54e200bd-6308-480f-b096-3b84b38e9a27"
+    },
+    {
+      "brand": "Mercedes",
+      "model": "300",
+      "variant": "4matic",
+      "vehicle_type": "car",
+      "usable_battery_size": 66.5,
+      "energy_consumption": {
+        "average_consumption": 19.6
+      },
+      "charging_voltage": 400,
+      "release_year": 2022,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2": 2,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "2.0": 2
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 66.5,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 66.5
+          },
+          {
+            "percentage": 30,
+            "power": 66.5
+          },
+          {
+            "percentage": 60,
+            "power": 46.55
+          },
+          {
+            "percentage": 80,
+            "power": 26.6
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "b2282fbe-f5d9-48d9-943f-a9b66ec51423",
+      "id": "e05cfb30-1b7d-4788-823e-f2c90f5adf6e"
+    },
+    {
+      "brand": "Mercedes",
+      "model": "350",
+      "variant": "",
+      "vehicle_type": "car",
+      "usable_battery_size": 90.6,
+      "energy_consumption": {
+        "average_consumption": 16.8
+      },
+      "charging_voltage": 400,
+      "release_year": 2021,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2": 2,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "2.0": 2
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 90.6,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 90.6
+          },
+          {
+            "percentage": 30,
+            "power": 90.6
+          },
+          {
+            "percentage": 60,
+            "power": 63.419999999999995
+          },
+          {
+            "percentage": 80,
+            "power": 36.24
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "b2282fbe-f5d9-48d9-943f-a9b66ec51423",
+      "id": "4481f790-0c16-490b-a0c9-c6002030d9c5"
     }
   ]
 }

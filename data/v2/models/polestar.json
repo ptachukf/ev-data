@@ -607,6 +607,189 @@
       },
       "vehicle_type": "car",
       "charging_voltage": 400
+    },
+    {
+      "brand": "Polestar",
+      "model": "standard range single motor",
+      "variant": "",
+      "vehicle_type": "car",
+      "usable_battery_size": 61,
+      "energy_consumption": {
+        "average_consumption": 17.7
+      },
+      "charging_voltage": 400,
+      "release_year": 2021,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2": 2,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "2.0": 2
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 61,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 61
+          },
+          {
+            "percentage": 30,
+            "power": 61
+          },
+          {
+            "percentage": 60,
+            "power": 42.699999999999996
+          },
+          {
+            "percentage": 80,
+            "power": 24.400000000000002
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "391f000f-d9d1-4c13-b744-95f0b9c8a2e1",
+      "id": "ed3df6d6-4661-4d2a-8a0a-93edc30372a6"
+    },
+    {
+      "brand": "Polestar",
+      "model": "long range single motor",
+      "variant": "",
+      "vehicle_type": "car",
+      "usable_battery_size": 75,
+      "energy_consumption": {
+        "average_consumption": 17.9
+      },
+      "charging_voltage": 400,
+      "release_year": 2021,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2": 2,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "2.0": 2
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 75,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 75
+          },
+          {
+            "percentage": 30,
+            "power": 75
+          },
+          {
+            "percentage": 60,
+            "power": 52.5
+          },
+          {
+            "percentage": 80,
+            "power": 30
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "391f000f-d9d1-4c13-b744-95f0b9c8a2e1",
+      "id": "d25c2658-5661-41f0-81b6-390871cf2f99"
+    },
+    {
+      "brand": "Polestar",
+      "model": "long range dual motor",
+      "variant": "",
+      "vehicle_type": "car",
+      "usable_battery_size": 75,
+      "energy_consumption": {
+        "average_consumption": 19.2
+      },
+      "charging_voltage": 400,
+      "release_year": 2021,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2": 2,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "2.0": 2
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 75,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 75
+          },
+          {
+            "percentage": 30,
+            "power": 75
+          },
+          {
+            "percentage": 60,
+            "power": 52.5
+          },
+          {
+            "percentage": 80,
+            "power": 30
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "391f000f-d9d1-4c13-b744-95f0b9c8a2e1",
+      "id": "a8e37f35-a97e-425d-a035-7d8d210fe140"
     }
   ]
 }

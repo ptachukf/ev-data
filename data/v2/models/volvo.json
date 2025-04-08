@@ -1855,6 +1855,128 @@
       },
       "brand_id": "2e55ea02-c829-4256-94fd-ffc971a1dd8e",
       "id": "238194ef-0943-4661-823b-83a02014970f"
+    },
+    {
+      "brand": "Volvo",
+      "model": "recharge twin pure electric",
+      "variant": "",
+      "vehicle_type": "car",
+      "usable_battery_size": 75,
+      "energy_consumption": {
+        "average_consumption": 22.4
+      },
+      "charging_voltage": 400,
+      "release_year": 2021,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2": 2,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "2.0": 2
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 75,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 75
+          },
+          {
+            "percentage": 30,
+            "power": 75
+          },
+          {
+            "percentage": 60,
+            "power": 52.5
+          },
+          {
+            "percentage": 80,
+            "power": 30
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "2e55ea02-c829-4256-94fd-ffc971a1dd8e",
+      "id": "07943307-23d5-4e6e-98c0-c56778733b74"
+    },
+    {
+      "brand": "Volvo",
+      "model": "recharge pure electric",
+      "variant": "",
+      "vehicle_type": "car",
+      "usable_battery_size": 67,
+      "energy_consumption": {
+        "average_consumption": 22
+      },
+      "charging_voltage": 400,
+      "release_year": 2021,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2": 2,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "2.0": 2
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 67,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 67
+          },
+          {
+            "percentage": 30,
+            "power": 67
+          },
+          {
+            "percentage": 60,
+            "power": 46.9
+          },
+          {
+            "percentage": 80,
+            "power": 26.8
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "2e55ea02-c829-4256-94fd-ffc971a1dd8e",
+      "id": "68b5d90d-e44f-4441-b0ae-267a28daa6e5"
     }
   ]
 }

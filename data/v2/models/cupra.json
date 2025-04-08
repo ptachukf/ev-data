@@ -629,6 +629,181 @@
       },
       "vehicle_type": "car",
       "charging_voltage": 400
+    },
+    {
+      "brand": "CUPRA",
+      "model": "150kw-",
+      "variant": "58kwh",
+      "vehicle_type": "car",
+      "usable_battery_size": 58,
+      "energy_consumption": {
+        "average_consumption": 16.6
+      },
+      "charging_voltage": 400,
+      "release_year": 2021,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2": 2,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "2.0": 2
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 58,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 58
+          },
+          {
+            "percentage": 50,
+            "power": 58
+          },
+          {
+            "percentage": 80,
+            "power": 34.8
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "df115651-4cef-01f0-14ef-fdeef60f674c",
+      "id": "d9b4f513-1d12-46f4-9dd0-bced19805297"
+    },
+    {
+      "brand": "CUPRA",
+      "model": "170kw-",
+      "variant": "58kwh",
+      "vehicle_type": "car",
+      "usable_battery_size": 58,
+      "energy_consumption": {
+        "average_consumption": 16.8
+      },
+      "charging_voltage": 400,
+      "release_year": 2022,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2": 2,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "2.0": 2
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 58,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 58
+          },
+          {
+            "percentage": 50,
+            "power": 58
+          },
+          {
+            "percentage": 80,
+            "power": 34.8
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "df115651-4cef-01f0-14ef-fdeef60f674c",
+      "id": "70888582-3d23-43cd-95ac-23073ae27302"
+    },
+    {
+      "brand": "CUPRA",
+      "model": "170kw-",
+      "variant": "77kwh",
+      "vehicle_type": "car",
+      "usable_battery_size": 77,
+      "energy_consumption": {
+        "average_consumption": 17.1
+      },
+      "charging_voltage": 400,
+      "release_year": 2022,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2": 2,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "2.0": 2
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 77,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 77
+          },
+          {
+            "percentage": 30,
+            "power": 77
+          },
+          {
+            "percentage": 60,
+            "power": 53.9
+          },
+          {
+            "percentage": 80,
+            "power": 30.8
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "df115651-4cef-01f0-14ef-fdeef60f674c",
+      "id": "66b048ee-7143-4a3f-ba88-1b1be1dc488d"
     }
   ]
 }

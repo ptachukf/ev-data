@@ -2041,6 +2041,250 @@
       },
       "brand_id": "0742668c-bf59-4191-890e-2b0883508808",
       "id": "5347361e-df01-4e53-8ddf-e715d38255a6"
+    },
+    {
+      "brand": "BMW",
+      "model": "edrive40",
+      "variant": "",
+      "vehicle_type": "car",
+      "usable_battery_size": 80.7,
+      "energy_consumption": {
+        "average_consumption": 15.7
+      },
+      "charging_voltage": 400,
+      "release_year": 2021,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2": 2,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "2.0": 2
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 80.7,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 80.7
+          },
+          {
+            "percentage": 30,
+            "power": 80.7
+          },
+          {
+            "percentage": 60,
+            "power": 56.489999999999995
+          },
+          {
+            "percentage": 80,
+            "power": 32.28
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "0742668c-bf59-4191-890e-2b0883508808",
+      "id": "727220d3-8aaf-4ca2-ac12-b0198cd1f615"
+    },
+    {
+      "brand": "BMW",
+      "model": "xdrive40",
+      "variant": "",
+      "vehicle_type": "car",
+      "usable_battery_size": 71,
+      "energy_consumption": {
+        "average_consumption": 19.7
+      },
+      "charging_voltage": 400,
+      "release_year": 2021,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2": 2,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "2.0": 2
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 71,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 71
+          },
+          {
+            "percentage": 30,
+            "power": 71
+          },
+          {
+            "percentage": 60,
+            "power": 49.699999999999996
+          },
+          {
+            "percentage": 80,
+            "power": 28.400000000000002
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "0742668c-bf59-4191-890e-2b0883508808",
+      "id": "e1dc2f23-6e26-45c7-b1cf-1b7d7417ff06"
+    },
+    {
+      "brand": "BMW",
+      "model": "xdrive50",
+      "variant": "",
+      "vehicle_type": "car",
+      "usable_battery_size": 105.2,
+      "energy_consumption": {
+        "average_consumption": 20.8
+      },
+      "charging_voltage": 400,
+      "release_year": 2021,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2": 2,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "2.0": 2
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 105.2,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 105.2
+          },
+          {
+            "percentage": 30,
+            "power": 105.2
+          },
+          {
+            "percentage": 60,
+            "power": 73.64
+          },
+          {
+            "percentage": 80,
+            "power": 42.080000000000005
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "0742668c-bf59-4191-890e-2b0883508808",
+      "id": "7a31c926-e922-4dbe-bc20-ae4049432eb7"
+    },
+    {
+      "brand": "BMW",
+      "model": "m50",
+      "variant": "",
+      "vehicle_type": "car",
+      "usable_battery_size": 80.7,
+      "energy_consumption": {
+        "average_consumption": 17.9
+      },
+      "charging_voltage": 400,
+      "release_year": 2021,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2": 2,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "2.0": 2
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 80.7,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 80.7
+          },
+          {
+            "percentage": 30,
+            "power": 80.7
+          },
+          {
+            "percentage": 60,
+            "power": 56.489999999999995
+          },
+          {
+            "percentage": 80,
+            "power": 32.28
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "0742668c-bf59-4191-890e-2b0883508808",
+      "id": "fbae9c10-0b19-450c-9ce1-1482acc11b77"
     }
   ]
 }

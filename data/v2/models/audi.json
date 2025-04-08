@@ -3059,6 +3059,856 @@
       },
       "brand_id": "89c2668c-0c50-4344-9386-93e4000f7673",
       "id": "bf30bc91-c95d-43bf-aba8-8a2ad8f48a85"
+    },
+    {
+      "brand": "Audi",
+      "model": "50",
+      "variant": "quattro",
+      "vehicle_type": "car",
+      "usable_battery_size": 64.7,
+      "energy_consumption": {
+        "average_consumption": 23.1
+      },
+      "charging_voltage": 400,
+      "release_year": 2019,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2": 2,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "2.0": 2
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 64.7,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 64.7
+          },
+          {
+            "percentage": 30,
+            "power": 64.7
+          },
+          {
+            "percentage": 60,
+            "power": 45.29
+          },
+          {
+            "percentage": 80,
+            "power": 25.880000000000003
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "89c2668c-0c50-4344-9386-93e4000f7673",
+      "id": "bb860940-5974-40b9-8858-8f06159c2e92"
+    },
+    {
+      "brand": "Audi",
+      "model": "sportback 50",
+      "variant": "quattro",
+      "vehicle_type": "car",
+      "usable_battery_size": 64.7,
+      "energy_consumption": {
+        "average_consumption": 21.9
+      },
+      "charging_voltage": 400,
+      "release_year": 2020,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2": 2,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "2.0": 2
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 64.7,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 64.7
+          },
+          {
+            "percentage": 30,
+            "power": 64.7
+          },
+          {
+            "percentage": 60,
+            "power": 45.29
+          },
+          {
+            "percentage": 80,
+            "power": 25.880000000000003
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "89c2668c-0c50-4344-9386-93e4000f7673",
+      "id": "a35202cb-3209-44e9-9974-e306a408dea9"
+    },
+    {
+      "brand": "Audi",
+      "model": "55",
+      "variant": "quattro",
+      "vehicle_type": "car",
+      "usable_battery_size": 86.5,
+      "energy_consumption": {
+        "average_consumption": 23.7
+      },
+      "charging_voltage": 400,
+      "release_year": 2019,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2": 2,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "2.0": 2
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 86.5,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 86.5
+          },
+          {
+            "percentage": 30,
+            "power": 86.5
+          },
+          {
+            "percentage": 60,
+            "power": 60.55
+          },
+          {
+            "percentage": 80,
+            "power": 34.6
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "89c2668c-0c50-4344-9386-93e4000f7673",
+      "id": "b297de72-827b-429f-85ca-dad99e51f12f"
+    },
+    {
+      "brand": "Audi",
+      "model": "s",
+      "variant": "",
+      "vehicle_type": "car",
+      "usable_battery_size": 86.5,
+      "energy_consumption": {
+        "average_consumption": 27
+      },
+      "charging_voltage": 400,
+      "release_year": 2020,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2": 2,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "2.0": 2
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 86.5,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 86.5
+          },
+          {
+            "percentage": 30,
+            "power": 86.5
+          },
+          {
+            "percentage": 60,
+            "power": 60.55
+          },
+          {
+            "percentage": 80,
+            "power": 34.6
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "89c2668c-0c50-4344-9386-93e4000f7673",
+      "id": "9b04a7f1-82e6-4d62-8372-e9578524c9a2"
+    },
+    {
+      "brand": "Audi",
+      "model": "s sportback",
+      "variant": "",
+      "vehicle_type": "car",
+      "usable_battery_size": 86.5,
+      "energy_consumption": {
+        "average_consumption": 25.8
+      },
+      "charging_voltage": 400,
+      "release_year": 2020,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2": 2,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "2.0": 2
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 86.5,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 86.5
+          },
+          {
+            "percentage": 30,
+            "power": 86.5
+          },
+          {
+            "percentage": 60,
+            "power": 60.55
+          },
+          {
+            "percentage": 80,
+            "power": 34.6
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "89c2668c-0c50-4344-9386-93e4000f7673",
+      "id": "82395464-7ec5-4235-88c7-aab31fbebcab"
+    },
+    {
+      "brand": "Audi",
+      "model": "sportbacketron 35",
+      "variant": "",
+      "vehicle_type": "car",
+      "usable_battery_size": 52,
+      "energy_consumption": {
+        "average_consumption": 17.6
+      },
+      "charging_voltage": 400,
+      "release_year": 2021,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 4,
+        "power_per_charging_point": {
+          "2": 2,
+          "11": 4,
+          "16": 4,
+          "22": 4,
+          "43": 4,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 4,
+          "2.0": 2
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 52,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 52
+          },
+          {
+            "percentage": 50,
+            "power": 52
+          },
+          {
+            "percentage": 80,
+            "power": 31.2
+          },
+          {
+            "percentage": 100,
+            "power": 4
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "89c2668c-0c50-4344-9386-93e4000f7673",
+      "id": "1fbd3517-7258-4772-bbec-19e7eecd8d9a"
+    },
+    {
+      "brand": "Audi",
+      "model": "55",
+      "variant": "quattro",
+      "vehicle_type": "car",
+      "usable_battery_size": 86.5,
+      "energy_consumption": {
+        "average_consumption": 23.7
+      },
+      "charging_voltage": 400,
+      "release_year": 2020,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2": 2,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "2.0": 2
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 86.5,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 86.5
+          },
+          {
+            "percentage": 30,
+            "power": 86.5
+          },
+          {
+            "percentage": 60,
+            "power": 60.55
+          },
+          {
+            "percentage": 80,
+            "power": 34.6
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "89c2668c-0c50-4344-9386-93e4000f7673",
+      "id": "9d12d960-831e-4faa-a3d7-3e5ad71618a6"
+    },
+    {
+      "brand": "Audi",
+      "model": "sportback 55",
+      "variant": "quattro",
+      "vehicle_type": "car",
+      "usable_battery_size": 86.5,
+      "energy_consumption": {
+        "average_consumption": 22.8
+      },
+      "charging_voltage": 400,
+      "release_year": 2020,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2": 2,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "2.0": 2
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 86.5,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 86.5
+          },
+          {
+            "percentage": 30,
+            "power": 86.5
+          },
+          {
+            "percentage": 60,
+            "power": 60.55
+          },
+          {
+            "percentage": 80,
+            "power": 34.6
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "89c2668c-0c50-4344-9386-93e4000f7673",
+      "id": "81ec5eab-3590-4e4e-9cad-72449183cbfd"
+    },
+    {
+      "brand": "Audi",
+      "model": "gt quattro",
+      "variant": "",
+      "vehicle_type": "car",
+      "usable_battery_size": 85,
+      "energy_consumption": {
+        "average_consumption": 20.2
+      },
+      "charging_voltage": 800,
+      "release_year": 2021,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2": 2,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "2.0": 2
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 85,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 85
+          },
+          {
+            "percentage": 40,
+            "power": 85
+          },
+          {
+            "percentage": 70,
+            "power": 68
+          },
+          {
+            "percentage": 90,
+            "power": 34
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "89c2668c-0c50-4344-9386-93e4000f7673",
+      "id": "7b1c3e1c-9557-4c97-91a0-36fbf66516ea"
+    },
+    {
+      "brand": "Audi",
+      "model": "etron 40",
+      "variant": "",
+      "vehicle_type": "car",
+      "usable_battery_size": 76.6,
+      "energy_consumption": {
+        "average_consumption": 18.9
+      },
+      "charging_voltage": 400,
+      "release_year": 2021,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2": 2,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "2.0": 2
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 76.6,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 76.6
+          },
+          {
+            "percentage": 30,
+            "power": 76.6
+          },
+          {
+            "percentage": 60,
+            "power": 53.61999999999999
+          },
+          {
+            "percentage": 80,
+            "power": 30.64
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "89c2668c-0c50-4344-9386-93e4000f7673",
+      "id": "b8011aff-b32d-4427-b0b1-dba3131766d5"
+    },
+    {
+      "brand": "Audi",
+      "model": "etron 50",
+      "variant": "quattro",
+      "vehicle_type": "car",
+      "usable_battery_size": 76.6,
+      "energy_consumption": {
+        "average_consumption": 19.9
+      },
+      "charging_voltage": 400,
+      "release_year": 2021,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2": 2,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "2.0": 2
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 76.6,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 76.6
+          },
+          {
+            "percentage": 30,
+            "power": 76.6
+          },
+          {
+            "percentage": 60,
+            "power": 53.61999999999999
+          },
+          {
+            "percentage": 80,
+            "power": 30.64
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "89c2668c-0c50-4344-9386-93e4000f7673",
+      "id": "775b258d-59dc-40fb-8f44-a3d732cee8f4"
+    },
+    {
+      "brand": "Audi",
+      "model": "sportbacketron 50",
+      "variant": "quattro",
+      "vehicle_type": "car",
+      "usable_battery_size": 76.6,
+      "energy_consumption": {
+        "average_consumption": 19.2
+      },
+      "charging_voltage": 400,
+      "release_year": 2021,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 4,
+        "power_per_charging_point": {
+          "2": 2,
+          "11": 4,
+          "16": 4,
+          "22": 4,
+          "43": 4,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 4,
+          "2.0": 2
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 76.6,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 76.6
+          },
+          {
+            "percentage": 30,
+            "power": 76.6
+          },
+          {
+            "percentage": 60,
+            "power": 53.61999999999999
+          },
+          {
+            "percentage": 80,
+            "power": 30.64
+          },
+          {
+            "percentage": 100,
+            "power": 4
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "89c2668c-0c50-4344-9386-93e4000f7673",
+      "id": "a2c69407-876c-41b5-96c8-e61020bafb5e"
+    },
+    {
+      "brand": "Audi",
+      "model": "etron 45",
+      "variant": "quattro",
+      "vehicle_type": "car",
+      "usable_battery_size": 76.6,
+      "energy_consumption": {
+        "average_consumption": 19.9
+      },
+      "charging_voltage": 400,
+      "release_year": 2021,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2": 2,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "2.0": 2
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 76.6,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 76.6
+          },
+          {
+            "percentage": 30,
+            "power": 76.6
+          },
+          {
+            "percentage": 60,
+            "power": 53.61999999999999
+          },
+          {
+            "percentage": 80,
+            "power": 30.64
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "89c2668c-0c50-4344-9386-93e4000f7673",
+      "id": "231b2a4e-b41d-428d-b416-d46fa583466a"
+    },
+    {
+      "brand": "Audi",
+      "model": "sportbacketron 40",
+      "variant": "",
+      "vehicle_type": "car",
+      "usable_battery_size": 76.6,
+      "energy_consumption": {
+        "average_consumption": 18
+      },
+      "charging_voltage": 400,
+      "release_year": 2021,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 4,
+        "power_per_charging_point": {
+          "2": 2,
+          "11": 4,
+          "16": 4,
+          "22": 4,
+          "43": 4,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 4,
+          "2.0": 2
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 76.6,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 76.6
+          },
+          {
+            "percentage": 30,
+            "power": 76.6
+          },
+          {
+            "percentage": 60,
+            "power": 53.61999999999999
+          },
+          {
+            "percentage": 80,
+            "power": 30.64
+          },
+          {
+            "percentage": 100,
+            "power": 4
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "89c2668c-0c50-4344-9386-93e4000f7673",
+      "id": "e92a2805-150c-46cd-b68c-e62552251f9b"
     }
   ]
 }

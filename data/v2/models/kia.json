@@ -1782,7 +1782,7 @@
       "vehicle_type": "car",
       "usable_battery_size": 64,
       "energy_consumption": {
-        "average_consumption": 17.3
+        "average_consumption": 17.1
       },
       "charging_voltage": 400,
       "release_year": 2020,
@@ -1843,7 +1843,7 @@
       "vehicle_type": "car",
       "usable_battery_size": 39.2,
       "energy_consumption": {
-        "average_consumption": 17
+        "average_consumption": 16.7
       },
       "charging_voltage": 400,
       "release_year": 2020,
@@ -1892,6 +1892,250 @@
       },
       "brand_id": "3337d5f0-39de-4ded-831b-843dfec1ebbd",
       "id": "da0361e9-c2bd-4b71-b0f1-680bbf26266b"
+    },
+    {
+      "brand": "Kia",
+      "model": "gt",
+      "variant": "",
+      "vehicle_type": "car",
+      "usable_battery_size": 74,
+      "energy_consumption": {
+        "average_consumption": 20.6
+      },
+      "charging_voltage": 800,
+      "release_year": 2022,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2": 2,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "2.0": 2
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 74,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 74
+          },
+          {
+            "percentage": 40,
+            "power": 74
+          },
+          {
+            "percentage": 70,
+            "power": 59.2
+          },
+          {
+            "percentage": 90,
+            "power": 29.6
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "3337d5f0-39de-4ded-831b-843dfec1ebbd",
+      "id": "3ba53997-2996-49a9-a5b9-2d2ceab595ad"
+    },
+    {
+      "brand": "Kia",
+      "model": "standard range 2wd",
+      "variant": "",
+      "vehicle_type": "car",
+      "usable_battery_size": 54,
+      "energy_consumption": {
+        "average_consumption": 17.7
+      },
+      "charging_voltage": 800,
+      "release_year": 2021,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2": 2,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "2.0": 2
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 54,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 54
+          },
+          {
+            "percentage": 40,
+            "power": 54
+          },
+          {
+            "percentage": 70,
+            "power": 43.2
+          },
+          {
+            "percentage": 90,
+            "power": 21.6
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "3337d5f0-39de-4ded-831b-843dfec1ebbd",
+      "id": "8235146f-8349-46ed-b7a3-dd1b88169426"
+    },
+    {
+      "brand": "Kia",
+      "model": "long range 2wd",
+      "variant": "",
+      "vehicle_type": "car",
+      "usable_battery_size": 74,
+      "energy_consumption": {
+        "average_consumption": 18
+      },
+      "charging_voltage": 800,
+      "release_year": 2021,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2": 2,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "2.0": 2
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 74,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 74
+          },
+          {
+            "percentage": 40,
+            "power": 74
+          },
+          {
+            "percentage": 70,
+            "power": 59.2
+          },
+          {
+            "percentage": 90,
+            "power": 29.6
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "3337d5f0-39de-4ded-831b-843dfec1ebbd",
+      "id": "c6bd16f8-ec66-4ae5-8603-531bee73b77a"
+    },
+    {
+      "brand": "Kia",
+      "model": "long range",
+      "variant": "awd",
+      "vehicle_type": "car",
+      "usable_battery_size": 74,
+      "energy_consumption": {
+        "average_consumption": 18.5
+      },
+      "charging_voltage": 800,
+      "release_year": 2021,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2": 2,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "2.0": 2
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 74,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 74
+          },
+          {
+            "percentage": 40,
+            "power": 74
+          },
+          {
+            "percentage": 70,
+            "power": 59.2
+          },
+          {
+            "percentage": 90,
+            "power": 29.6
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "3337d5f0-39de-4ded-831b-843dfec1ebbd",
+      "id": "eb468782-c1d9-4214-91b1-d92284d2b811"
     }
   ]
 }

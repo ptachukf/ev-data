@@ -442,7 +442,7 @@
       "vehicle_type": "car",
       "usable_battery_size": 46.3,
       "energy_consumption": {
-        "average_consumption": 18.2
+        "average_consumption": 18.4
       },
       "charging_voltage": 400,
       "release_year": 2020,

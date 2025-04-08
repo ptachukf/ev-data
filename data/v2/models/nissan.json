@@ -1521,6 +1521,250 @@
       },
       "brand_id": "dab5a47a-e8ce-4d34-9139-0701499205b1",
       "id": "d3631ffd-f675-4ddd-8a1f-2bcf653f2ee5"
+    },
+    {
+      "brand": "Nissan",
+      "model": "63kwh",
+      "variant": "",
+      "vehicle_type": "car",
+      "usable_battery_size": 63,
+      "energy_consumption": {
+        "average_consumption": 18.8
+      },
+      "charging_voltage": 400,
+      "release_year": 2022,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2": 2,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "2.0": 2
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 63,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 63
+          },
+          {
+            "percentage": 30,
+            "power": 63
+          },
+          {
+            "percentage": 60,
+            "power": 44.099999999999994
+          },
+          {
+            "percentage": 80,
+            "power": 25.200000000000003
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "dab5a47a-e8ce-4d34-9139-0701499205b1",
+      "id": "b2b28b58-9624-49a0-8f1d-7af7d2119240"
+    },
+    {
+      "brand": "Nissan",
+      "model": "87kwh",
+      "variant": "",
+      "vehicle_type": "car",
+      "usable_battery_size": 87,
+      "energy_consumption": {
+        "average_consumption": 19.3
+      },
+      "charging_voltage": 400,
+      "release_year": 2022,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2": 2,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "2.0": 2
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 87,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 87
+          },
+          {
+            "percentage": 30,
+            "power": 87
+          },
+          {
+            "percentage": 60,
+            "power": 60.9
+          },
+          {
+            "percentage": 80,
+            "power": 34.800000000000004
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "dab5a47a-e8ce-4d34-9139-0701499205b1",
+      "id": "be610dfc-609c-4e40-9231-132dc0945f21"
+    },
+    {
+      "brand": "Nissan",
+      "model": "e-4orce",
+      "variant": "87kwh-225kw",
+      "vehicle_type": "car",
+      "usable_battery_size": 87,
+      "energy_consumption": {
+        "average_consumption": 21.5
+      },
+      "charging_voltage": 400,
+      "release_year": 2022,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2": 2,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "2.0": 2
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 87,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 87
+          },
+          {
+            "percentage": 30,
+            "power": 87
+          },
+          {
+            "percentage": 60,
+            "power": 60.9
+          },
+          {
+            "percentage": 80,
+            "power": 34.800000000000004
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "dab5a47a-e8ce-4d34-9139-0701499205b1",
+      "id": "5c03d7f6-6deb-4289-87ab-9d3a49751955"
+    },
+    {
+      "brand": "Nissan",
+      "model": "e-4orce",
+      "variant": "87kwh-290kw",
+      "vehicle_type": "car",
+      "usable_battery_size": 87,
+      "energy_consumption": {
+        "average_consumption": 21.5
+      },
+      "charging_voltage": 400,
+      "release_year": 2023,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2": 2,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "2.0": 2
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 87,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 87
+          },
+          {
+            "percentage": 30,
+            "power": 87
+          },
+          {
+            "percentage": 60,
+            "power": 60.9
+          },
+          {
+            "percentage": 80,
+            "power": 34.800000000000004
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "dab5a47a-e8ce-4d34-9139-0701499205b1",
+      "id": "ab85bf5a-1ffe-413d-858a-e329142cb0b4"
     }
   ]
 }

@@ -817,6 +817,364 @@
       "energy_consumption": {
         "average_consumption": 25.7
       }
+    },
+    {
+      "brand": "Toyota",
+      "model": "verso m",
+      "variant": "50kwh",
+      "vehicle_type": "car",
+      "usable_battery_size": 46.3,
+      "energy_consumption": {
+        "average_consumption": 25
+      },
+      "charging_voltage": 400,
+      "release_year": 2021,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2": 2,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "2.0": 2
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 46.3,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 46.3
+          },
+          {
+            "percentage": 50,
+            "power": 46.3
+          },
+          {
+            "percentage": 80,
+            "power": 27.779999999999998
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "b586dda4-a6ba-54e4-ee6d-9d6a098d4751",
+      "id": "f252e1c0-63d7-4c97-9905-e6a141801137"
+    },
+    {
+      "brand": "Toyota",
+      "model": "verso l",
+      "variant": "50kwh",
+      "vehicle_type": "car",
+      "usable_battery_size": 46.3,
+      "energy_consumption": {
+        "average_consumption": 25.7
+      },
+      "charging_voltage": 400,
+      "release_year": 2021,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2": 2,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "2.0": 2
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 46.3,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 46.3
+          },
+          {
+            "percentage": 50,
+            "power": 46.3
+          },
+          {
+            "percentage": 80,
+            "power": 27.779999999999998
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "b586dda4-a6ba-54e4-ee6d-9d6a098d4751",
+      "id": "a123cfbd-49f5-4bdf-9a28-dcdc6a6e9fd7"
+    },
+    {
+      "brand": "Toyota",
+      "model": "verso m",
+      "variant": "75kwh",
+      "vehicle_type": "car",
+      "usable_battery_size": 68,
+      "energy_consumption": {
+        "average_consumption": 25.7
+      },
+      "charging_voltage": 400,
+      "release_year": 2021,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2": 2,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "2.0": 2
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 68,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 68
+          },
+          {
+            "percentage": 30,
+            "power": 68
+          },
+          {
+            "percentage": 60,
+            "power": 47.599999999999994
+          },
+          {
+            "percentage": 80,
+            "power": 27.200000000000003
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "b586dda4-a6ba-54e4-ee6d-9d6a098d4751",
+      "id": "1776a776-f853-429f-99c3-0159a4246524"
+    },
+    {
+      "brand": "Toyota",
+      "model": "verso l",
+      "variant": "75kwh",
+      "vehicle_type": "car",
+      "usable_battery_size": 68,
+      "energy_consumption": {
+        "average_consumption": 26.2
+      },
+      "charging_voltage": 400,
+      "release_year": 2021,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2": 2,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "2.0": 2
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 68,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 68
+          },
+          {
+            "percentage": 30,
+            "power": 68
+          },
+          {
+            "percentage": 60,
+            "power": 47.599999999999994
+          },
+          {
+            "percentage": 80,
+            "power": 27.200000000000003
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "b586dda4-a6ba-54e4-ee6d-9d6a098d4751",
+      "id": "19cd9f2b-a057-4575-b45b-ef665967b133"
+    },
+    {
+      "brand": "Toyota",
+      "model": "fwd",
+      "variant": "",
+      "vehicle_type": "car",
+      "usable_battery_size": 64,
+      "energy_consumption": {
+        "average_consumption": 18.3
+      },
+      "charging_voltage": 400,
+      "release_year": 2022,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2": 2,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "2.0": 2
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 64,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 64
+          },
+          {
+            "percentage": 30,
+            "power": 64
+          },
+          {
+            "percentage": 60,
+            "power": 44.8
+          },
+          {
+            "percentage": 80,
+            "power": 25.6
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "b586dda4-a6ba-54e4-ee6d-9d6a098d4751",
+      "id": "0ba6ae1c-ac18-4795-bd22-6b1042dfc19c"
+    },
+    {
+      "brand": "Toyota",
+      "model": "awd",
+      "variant": "",
+      "vehicle_type": "car",
+      "usable_battery_size": 64,
+      "energy_consumption": {
+        "average_consumption": 18.6
+      },
+      "charging_voltage": 400,
+      "release_year": 2022,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2": 2,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "2.0": 2
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 64,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 64
+          },
+          {
+            "percentage": 30,
+            "power": 64
+          },
+          {
+            "percentage": 60,
+            "power": 44.8
+          },
+          {
+            "percentage": 80,
+            "power": 25.6
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "b586dda4-a6ba-54e4-ee6d-9d6a098d4751",
+      "id": "9f98dfa5-8326-4dd4-b625-0cd1881fa8cf"
     }
   ]
 }

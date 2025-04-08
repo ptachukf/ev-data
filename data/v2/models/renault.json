@@ -2167,6 +2167,291 @@
       },
       "brand_id": "c0d8a60c-34b8-44fe-8af7-9eeb62eedb4b",
       "id": "c6a4e887-c335-4e6e-9346-b9c6640ed11d"
+    },
+    {
+      "brand": "Renault",
+      "model": "ze50 r135",
+      "variant": "",
+      "vehicle_type": "car",
+      "usable_battery_size": 52,
+      "energy_consumption": {
+        "average_consumption": 16.8
+      },
+      "charging_voltage": 400,
+      "release_year": 2019,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2": 2,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "2.0": 2
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 52,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 52
+          },
+          {
+            "percentage": 50,
+            "power": 52
+          },
+          {
+            "percentage": 80,
+            "power": 31.2
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "c0d8a60c-34b8-44fe-8af7-9eeb62eedb4b",
+      "id": "323d844a-6845-426d-9afd-96b22c7c71f6"
+    },
+    {
+      "brand": "Renault",
+      "model": "ze40 r110",
+      "variant": "",
+      "vehicle_type": "car",
+      "usable_battery_size": 41,
+      "energy_consumption": {
+        "average_consumption": 16.1
+      },
+      "charging_voltage": 400,
+      "release_year": 2019,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 41,
+        "power_per_charging_point": {
+          "2": 2,
+          "11": 11,
+          "16": 16,
+          "22": 22,
+          "43": 41,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "2.0": 2
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 41,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 41
+          },
+          {
+            "percentage": 50,
+            "power": 41
+          },
+          {
+            "percentage": 80,
+            "power": 24.599999999999998
+          },
+          {
+            "percentage": 100,
+            "power": 41
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "c0d8a60c-34b8-44fe-8af7-9eeb62eedb4b",
+      "id": "b9c44745-45c7-4645-8cb2-73963b24af34"
+    },
+    {
+      "brand": "Renault",
+      "model": "electric",
+      "variant": "",
+      "vehicle_type": "car",
+      "usable_battery_size": 21.3,
+      "energy_consumption": {
+        "average_consumption": 15.8
+      },
+      "charging_voltage": 400,
+      "release_year": 2020,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 21.3,
+        "power_per_charging_point": {
+          "2": 2,
+          "11": 11,
+          "16": 16,
+          "22": 21.3,
+          "43": 21.3,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "2.0": 2
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 21.3,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 21.3
+          },
+          {
+            "percentage": 70,
+            "power": 21.3
+          },
+          {
+            "percentage": 80,
+            "power": 14.91
+          },
+          {
+            "percentage": 100,
+            "power": 21.3
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "c0d8a60c-34b8-44fe-8af7-9eeb62eedb4b",
+      "id": "84abba88-8c4e-468e-852e-675d09d30497"
+    },
+    {
+      "brand": "Renault",
+      "model": "e-tech ev60 220hp",
+      "variant": "",
+      "vehicle_type": "car",
+      "usable_battery_size": 60,
+      "energy_consumption": {
+        "average_consumption": 15.8
+      },
+      "charging_voltage": 400,
+      "release_year": 2022,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2": 2,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "2.0": 2
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 60,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 60
+          },
+          {
+            "percentage": 50,
+            "power": 60
+          },
+          {
+            "percentage": 80,
+            "power": 36
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "c0d8a60c-34b8-44fe-8af7-9eeb62eedb4b",
+      "id": "41a62864-722c-4ed2-9a9d-bd3caf40c4bc"
+    },
+    {
+      "brand": "Renault",
+      "model": "e-tech ev40 130hp",
+      "variant": "",
+      "vehicle_type": "car",
+      "usable_battery_size": 40,
+      "energy_consumption": {
+        "average_consumption": 15.4
+      },
+      "charging_voltage": 400,
+      "release_year": 2022,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 40,
+        "power_per_charging_point": {
+          "2": 2,
+          "11": 11,
+          "16": 16,
+          "22": 22,
+          "43": 40,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "2.0": 2
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 40,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 40
+          },
+          {
+            "percentage": 50,
+            "power": 40
+          },
+          {
+            "percentage": 80,
+            "power": 24
+          },
+          {
+            "percentage": 100,
+            "power": 40
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "c0d8a60c-34b8-44fe-8af7-9eeb62eedb4b",
+      "id": "ec967c25-7eaf-4eb7-b829-690ed0870e3f"
     }
   ]
 }

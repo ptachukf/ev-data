@@ -1613,6 +1613,177 @@
       },
       "brand_id": "a462c115-33b4-438b-b590-bc4a33382d1c",
       "id": "490a59d9-e4ec-4716-99e8-6e7b38a6923c"
+    },
+    {
+      "brand": "smart",
+      "model": "fortwo coupe",
+      "variant": "",
+      "vehicle_type": "car",
+      "usable_battery_size": 16.7,
+      "energy_consumption": {
+        "average_consumption": 16.7
+      },
+      "charging_voltage": 400,
+      "release_year": 2020,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 16.7,
+        "power_per_charging_point": {
+          "2": 2,
+          "11": 11,
+          "16": 16,
+          "22": 16.7,
+          "43": 16.7,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "2.0": 2
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 100,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 100
+          },
+          {
+            "percentage": 70,
+            "power": 100
+          },
+          {
+            "percentage": 80,
+            "power": 70
+          },
+          {
+            "percentage": 100,
+            "power": 16.7
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "a462c115-33b4-438b-b590-bc4a33382d1c",
+      "id": "1f03d907-8573-45d6-b075-7fb05111d3cf"
+    },
+    {
+      "brand": "smart",
+      "model": "fortwo cabrio",
+      "variant": "",
+      "vehicle_type": "car",
+      "usable_battery_size": 16.7,
+      "energy_consumption": {
+        "average_consumption": 17.6
+      },
+      "charging_voltage": 400,
+      "release_year": 2020,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 16.7,
+        "power_per_charging_point": {
+          "2": 2,
+          "11": 11,
+          "16": 16,
+          "22": 16.7,
+          "43": 16.7,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "2.0": 2
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 100,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 100
+          },
+          {
+            "percentage": 70,
+            "power": 100
+          },
+          {
+            "percentage": 80,
+            "power": 70
+          },
+          {
+            "percentage": 100,
+            "power": 16.7
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "a462c115-33b4-438b-b590-bc4a33382d1c",
+      "id": "817b5710-988d-4271-962e-8bae53a426ce"
+    },
+    {
+      "brand": "smart",
+      "model": "forfour",
+      "variant": "",
+      "vehicle_type": "car",
+      "usable_battery_size": 16.7,
+      "energy_consumption": {
+        "average_consumption": 17.6
+      },
+      "charging_voltage": 400,
+      "release_year": 2020,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 16.7,
+        "power_per_charging_point": {
+          "2": 2,
+          "11": 11,
+          "16": 16,
+          "22": 16.7,
+          "43": 16.7,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "2.0": 2
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 100,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 100
+          },
+          {
+            "percentage": 70,
+            "power": 100
+          },
+          {
+            "percentage": 80,
+            "power": 70
+          },
+          {
+            "percentage": 100,
+            "power": 16.7
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "a462c115-33b4-438b-b590-bc4a33382d1c",
+      "id": "a2c06701-4c10-4e15-8f4a-0863fe7295b0"
     }
   ]
 }

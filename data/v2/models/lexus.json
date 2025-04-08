@@ -169,6 +169,63 @@
       },
       "vehicle_type": "car",
       "charging_voltage": 400
+    },
+    {
+      "brand": "Lexus",
+      "model": "300e",
+      "variant": "",
+      "vehicle_type": "car",
+      "usable_battery_size": 45,
+      "energy_consumption": {
+        "average_consumption": 19.1
+      },
+      "charging_voltage": 400,
+      "release_year": 2020,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2": 2,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "2.0": 2
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 45,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 45
+          },
+          {
+            "percentage": 50,
+            "power": 45
+          },
+          {
+            "percentage": 80,
+            "power": 27
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "9bb828a8-dc16-5090-42f3-2d26b2245f1f",
+      "id": "c75ccd49-e38c-4211-af0d-c6b590b543a4"
     }
   ]
 }

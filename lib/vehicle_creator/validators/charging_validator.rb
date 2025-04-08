@@ -90,7 +90,7 @@ module Validators
           end
 
           unless point['power'].is_a?(Numeric) && point['power'].positive? && point['power'] <= dc_charger['max_power']
-            errors << "Invalid charging curve power: #{point['power']}"
+            errors << "Invalid charging curve power: #{point['power']} kW exceeds the max power of #{dc_charger['max_power']} kW"
           end
         end
       end

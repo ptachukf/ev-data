@@ -536,6 +536,234 @@
       },
       "vehicle_type": "car",
       "charging_voltage": 400
+    },
+    {
+      "brand": "Fiat",
+      "model": "cabrio",
+      "variant": "42kwh",
+      "vehicle_type": "car",
+      "usable_battery_size": 37.3,
+      "energy_consumption": {
+        "average_consumption": 16.2
+      },
+      "charging_voltage": 400,
+      "release_year": 2020,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 37.3,
+        "power_per_charging_point": {
+          "2": 2,
+          "11": 11,
+          "16": 16,
+          "22": 22,
+          "43": 37.3,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "2.0": 2
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 37.3,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 37.3
+          },
+          {
+            "percentage": 50,
+            "power": 37.3
+          },
+          {
+            "percentage": 80,
+            "power": 22.38
+          },
+          {
+            "percentage": 100,
+            "power": 37.3
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "3291e5ba-862c-49fa-8437-71105743875e",
+      "id": "b54c6c6c-9033-42fc-b85b-540e0604abf9"
+    },
+    {
+      "brand": "Fiat",
+      "model": "hatchback",
+      "variant": "42kwh",
+      "vehicle_type": "car",
+      "usable_battery_size": 37.3,
+      "energy_consumption": {
+        "average_consumption": 15.9
+      },
+      "charging_voltage": 400,
+      "release_year": 2020,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 42,
+        "power_per_charging_point": {
+          "2": 2,
+          "11": 11,
+          "16": 16,
+          "22": 22,
+          "43": 42,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "2.0": 2
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 37.3,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 37.3
+          },
+          {
+            "percentage": 50,
+            "power": 37.3
+          },
+          {
+            "percentage": 80,
+            "power": 22.38
+          },
+          {
+            "percentage": 100,
+            "power": 37.3
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "3291e5ba-862c-49fa-8437-71105743875e",
+      "id": "d96cebaf-2c0f-4764-95d4-2e2e1de8e7ee"
+    },
+    {
+      "brand": "Fiat",
+      "model": "hatchback",
+      "variant": "24kwh",
+      "vehicle_type": "car",
+      "usable_battery_size": 21.3,
+      "energy_consumption": {
+        "average_consumption": 15.8
+      },
+      "charging_voltage": 400,
+      "release_year": 2020,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 24,
+        "power_per_charging_point": {
+          "2": 2,
+          "11": 11,
+          "16": 16,
+          "22": 22,
+          "43": 24,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "2.0": 2
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 21.3,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 21.3
+          },
+          {
+            "percentage": 70,
+            "power": 21.3
+          },
+          {
+            "percentage": 80,
+            "power": 14.91
+          },
+          {
+            "percentage": 100,
+            "power": 21.3
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "3291e5ba-862c-49fa-8437-71105743875e",
+      "id": "d5f83217-02c7-44e0-bb51-fc97f0c27733"
+    },
+    {
+      "brand": "Fiat",
+      "model": "3+1",
+      "variant": "42kwh",
+      "vehicle_type": "car",
+      "usable_battery_size": 37.3,
+      "energy_consumption": {
+        "average_consumption": 15.9
+      },
+      "charging_voltage": 400,
+      "release_year": 2020,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 37.3,
+        "power_per_charging_point": {
+          "2": 2,
+          "11": 11,
+          "16": 16,
+          "22": 22,
+          "43": 37.3,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "2.0": 2
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 37.3,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 37.3
+          },
+          {
+            "percentage": 50,
+            "power": 37.3
+          },
+          {
+            "percentage": 80,
+            "power": 22.38
+          },
+          {
+            "percentage": 100,
+            "power": 37.3
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "3291e5ba-862c-49fa-8437-71105743875e",
+      "id": "538be4cc-b539-4c13-bf61-fdeae5aa8333"
     }
   ]
 }
