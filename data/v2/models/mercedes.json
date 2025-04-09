@@ -28,7 +28,39 @@
           "7.4": 7.4
         }
       },
-      "dc_charger": null,
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 150,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 150
+          },
+          {
+            "percentage": 20,
+            "power": 150
+          },
+          {
+            "percentage": 40,
+            "power": 120
+          },
+          {
+            "percentage": 60,
+            "power": 90
+          },
+          {
+            "percentage": 80,
+            "power": 60
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": true
+      },
       "energy_consumption": {
         "average_consumption": 16.6
       },
@@ -812,7 +844,39 @@
           "7.4": 7.2
         }
       },
-      "dc_charger": null,
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 150,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 150
+          },
+          {
+            "percentage": 20,
+            "power": 150
+          },
+          {
+            "percentage": 40,
+            "power": 120
+          },
+          {
+            "percentage": 60,
+            "power": 90
+          },
+          {
+            "percentage": 80,
+            "power": 60
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": true
+      },
       "energy_consumption": {
         "average_consumption": 26.2
       },
@@ -969,28 +1033,39 @@
           "ccs"
         ],
         "max_power": 102,
-        "is_default_charging_curve": false,
+        "is_default_charging_curve": true,
         "charging_curve": [
           {
             "percentage": 0,
             "power": 102
           },
           {
-            "percentage": 50,
+            "percentage": 20,
             "power": 102
           },
           {
+            "percentage": 40,
+            "power": 82
+          },
+          {
+            "percentage": 60,
+            "power": 61
+          },
+          {
             "percentage": 80,
-            "power": 61.199999999999996
+            "power": 41
           },
           {
             "percentage": 100,
-            "power": 30.599999999999998
+            "power": 11
           }
         ]
       },
       "vehicle_type": "car",
-      "charging_voltage": 400
+      "charging_voltage": 400,
+      "_manually_fixed_fields": [
+        "charging_curve"
+      ]
     },
     {
       "brand": "Mercedes",
@@ -1230,7 +1305,39 @@
       "variant": "",
       "release_year": 2015,
       "range": 150,
-      "dc_charger": null,
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 150,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 150
+          },
+          {
+            "percentage": 20,
+            "power": 150
+          },
+          {
+            "percentage": 40,
+            "power": 120
+          },
+          {
+            "percentage": 60,
+            "power": 90
+          },
+          {
+            "percentage": 80,
+            "power": 60
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": true
+      },
       "id": "94766af6-063d-4516-9775-2246a3a01d1d",
       "brand_id": "b2282fbe-f5d9-48d9-943f-a9b66ec51423",
       "usable_battery_size": 28,
@@ -1998,12 +2105,16 @@
             "power": 90
           },
           {
-            "percentage": 30,
+            "percentage": 20,
             "power": 90
           },
           {
+            "percentage": 40,
+            "power": 72
+          },
+          {
             "percentage": 60,
-            "power": 62.99999999999999
+            "power": 54
           },
           {
             "percentage": 80,
@@ -2014,10 +2125,13 @@
             "power": 11
           }
         ],
-        "is_default_charging_curve": false
+        "is_default_charging_curve": true
       },
       "brand_id": "b2282fbe-f5d9-48d9-943f-a9b66ec51423",
-      "id": "05e6e7f8-9fa7-49de-aa43-e0ff02c7abbe"
+      "id": "05e6e7f8-9fa7-49de-aa43-e0ff02c7abbe",
+      "_manually_fixed_fields": [
+        "charging_curve"
+      ]
     },
     {
       "brand": "Mercedes",
@@ -2059,12 +2173,16 @@
             "power": 90
           },
           {
-            "percentage": 30,
+            "percentage": 20,
             "power": 90
           },
           {
+            "percentage": 40,
+            "power": 72
+          },
+          {
             "percentage": 60,
-            "power": 62.99999999999999
+            "power": 54
           },
           {
             "percentage": 80,
@@ -2075,10 +2193,13 @@
             "power": 11
           }
         ],
-        "is_default_charging_curve": false
+        "is_default_charging_curve": true
       },
       "brand_id": "b2282fbe-f5d9-48d9-943f-a9b66ec51423",
-      "id": "e376f1bc-61bf-4c53-b9aa-a0c734aca504"
+      "id": "e376f1bc-61bf-4c53-b9aa-a0c734aca504",
+      "_manually_fixed_fields": [
+        "charging_curve"
+      ]
     },
     {
       "brand": "Mercedes",
@@ -2181,26 +2302,33 @@
             "power": 107.8
           },
           {
-            "percentage": 30,
+            "percentage": 20,
             "power": 107.8
           },
           {
+            "percentage": 40,
+            "power": 86
+          },
+          {
             "percentage": 60,
-            "power": 75.46
+            "power": 65
           },
           {
             "percentage": 80,
-            "power": 43.120000000000005
+            "power": 43
           },
           {
             "percentage": 100,
             "power": 11
           }
         ],
-        "is_default_charging_curve": false
+        "is_default_charging_curve": true
       },
       "brand_id": "b2282fbe-f5d9-48d9-943f-a9b66ec51423",
-      "id": "c6642b67-79c9-433e-b953-c3876887aef5"
+      "id": "c6642b67-79c9-433e-b953-c3876887aef5",
+      "_manually_fixed_fields": [
+        "charging_curve"
+      ]
     },
     {
       "brand": "Mercedes",
@@ -2242,26 +2370,33 @@
             "power": 107.8
           },
           {
-            "percentage": 30,
+            "percentage": 20,
             "power": 107.8
           },
           {
+            "percentage": 40,
+            "power": 86
+          },
+          {
             "percentage": 60,
-            "power": 75.46
+            "power": 65
           },
           {
             "percentage": 80,
-            "power": 43.120000000000005
+            "power": 43
           },
           {
             "percentage": 100,
             "power": 11
           }
         ],
-        "is_default_charging_curve": false
+        "is_default_charging_curve": true
       },
       "brand_id": "b2282fbe-f5d9-48d9-943f-a9b66ec51423",
-      "id": "ae6895f8-7fe1-463d-a43f-8988f641a27a"
+      "id": "ae6895f8-7fe1-463d-a43f-8988f641a27a",
+      "_manually_fixed_fields": [
+        "charging_curve"
+      ]
     },
     {
       "brand": "Mercedes",
@@ -2486,26 +2621,34 @@
             "power": 107.8
           },
           {
-            "percentage": 30,
+            "percentage": 20,
             "power": 107.8
           },
           {
+            "percentage": 40,
+            "power": 86
+          },
+          {
             "percentage": 60,
-            "power": 75.46
+            "power": 65
           },
           {
             "percentage": 80,
-            "power": 43.120000000000005
+            "power": 43
           },
           {
             "percentage": 100,
             "power": 11
           }
         ],
-        "is_default_charging_curve": false
+        "is_default_charging_curve": true
       },
       "brand_id": "b2282fbe-f5d9-48d9-943f-a9b66ec51423",
-      "id": "ecfd8cef-9c6d-4211-aab1-9cd7f8674bac"
+      "id": "ecfd8cef-9c6d-4211-aab1-9cd7f8674bac",
+      "_manually_fixed_fields": [
+        "charging_curve"
+      ],
+      "_model_hash": "-2e231"
     },
     {
       "brand": "Mercedes",
@@ -2547,26 +2690,33 @@
             "power": 90.6
           },
           {
-            "percentage": 30,
+            "percentage": 20,
             "power": 90.6
           },
           {
+            "percentage": 40,
+            "power": 72
+          },
+          {
             "percentage": 60,
-            "power": 63.419999999999995
+            "power": 54
           },
           {
             "percentage": 80,
-            "power": 36.24
+            "power": 36
           },
           {
             "percentage": 100,
             "power": 11
           }
         ],
-        "is_default_charging_curve": false
+        "is_default_charging_curve": true
       },
       "brand_id": "b2282fbe-f5d9-48d9-943f-a9b66ec51423",
-      "id": "9013dd03-0cb9-485a-b255-b7042298c075"
+      "id": "9013dd03-0cb9-485a-b255-b7042298c075",
+      "_manually_fixed_fields": [
+        "charging_curve"
+      ]
     },
     {
       "brand": "Mercedes",
@@ -2783,16 +2933,330 @@
             "power": 90.6
           },
           {
-            "percentage": 30,
+            "percentage": 20,
             "power": 90.6
           },
           {
+            "percentage": 40,
+            "power": 72
+          },
+          {
             "percentage": 60,
-            "power": 63.419999999999995
+            "power": 54
           },
           {
             "percentage": 80,
-            "power": 36.24
+            "power": 36
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": true
+      },
+      "brand_id": "b2282fbe-f5d9-48d9-943f-a9b66ec51423",
+      "id": "4481f790-0c16-490b-a0c9-c6002030d9c5",
+      "_manually_fixed_fields": [
+        "charging_curve"
+      ]
+    },
+    {
+      "brand": "Mercedes",
+      "model": "tourer long",
+      "variant": "41kwh",
+      "vehicle_type": "car",
+      "usable_battery_size": 35,
+      "energy_consumption": {
+        "average_consumption": 29.2
+      },
+      "charging_voltage": 400,
+      "release_year": 2019,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 35,
+        "power_per_charging_point": {
+          "2": 2,
+          "11": 11,
+          "16": 16,
+          "22": 22,
+          "43": 35,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "2.0": 2
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 35,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 35
+          },
+          {
+            "percentage": 50,
+            "power": 35
+          },
+          {
+            "percentage": 80,
+            "power": 21
+          },
+          {
+            "percentage": 100,
+            "power": 35
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "b2282fbe-f5d9-48d9-943f-a9b66ec51423",
+      "id": "78c1b443-2a75-43fc-9e00-444150fe505a"
+    },
+    {
+      "brand": "Mercedes",
+      "model": "tourer extra-long",
+      "variant": "41kwh",
+      "vehicle_type": "car",
+      "usable_battery_size": 35,
+      "energy_consumption": {
+        "average_consumption": 29.2
+      },
+      "charging_voltage": 400,
+      "release_year": 2019,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 35,
+        "power_per_charging_point": {
+          "2": 2,
+          "11": 11,
+          "16": 16,
+          "22": 22,
+          "43": 35,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "2.0": 2
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 35,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 35
+          },
+          {
+            "percentage": 50,
+            "power": 35
+          },
+          {
+            "percentage": 80,
+            "power": 21
+          },
+          {
+            "percentage": 100,
+            "power": 35
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "b2282fbe-f5d9-48d9-943f-a9b66ec51423",
+      "id": "b6e48812-caa5-463a-ba6f-2c4dd4db8b9f"
+    },
+    {
+      "brand": "Mercedes",
+      "model": "tourer long",
+      "variant": "90kwh",
+      "vehicle_type": "car",
+      "usable_battery_size": 90,
+      "energy_consumption": {
+        "average_consumption": 29
+      },
+      "charging_voltage": 400,
+      "release_year": 2020,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2": 2,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "2.0": 2
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 90,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 90
+          },
+          {
+            "percentage": 20,
+            "power": 90
+          },
+          {
+            "percentage": 40,
+            "power": 72
+          },
+          {
+            "percentage": 60,
+            "power": 54
+          },
+          {
+            "percentage": 80,
+            "power": 36
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": true
+      },
+      "brand_id": "b2282fbe-f5d9-48d9-943f-a9b66ec51423",
+      "id": "8183f209-9b60-4ef0-ae5a-e858479e4b1c",
+      "_manually_fixed_fields": [
+        "charging_curve"
+      ]
+    },
+    {
+      "brand": "Mercedes",
+      "model": "tourer extra-long",
+      "variant": "90kwh",
+      "vehicle_type": "car",
+      "usable_battery_size": 90,
+      "energy_consumption": {
+        "average_consumption": 29.5
+      },
+      "charging_voltage": 400,
+      "release_year": 2020,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2": 2,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "2.0": 2
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 90,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 90
+          },
+          {
+            "percentage": 20,
+            "power": 90
+          },
+          {
+            "percentage": 40,
+            "power": 72
+          },
+          {
+            "percentage": 60,
+            "power": 54
+          },
+          {
+            "percentage": 80,
+            "power": 36
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": true
+      },
+      "brand_id": "b2282fbe-f5d9-48d9-943f-a9b66ec51423",
+      "id": "1254839c-4552-4b45-9c6e-df78a85f833f",
+      "_manually_fixed_fields": [
+        "charging_curve"
+      ]
+    },
+    {
+      "brand": "Mercedes",
+      "model": "tourer long",
+      "variant": "60kwh",
+      "vehicle_type": "car",
+      "usable_battery_size": 60,
+      "energy_consumption": {
+        "average_consumption": 28.6
+      },
+      "charging_voltage": 400,
+      "release_year": 2022,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2": 2,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "2.0": 2
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 60,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 60
+          },
+          {
+            "percentage": 50,
+            "power": 60
+          },
+          {
+            "percentage": 80,
+            "power": 36
           },
           {
             "percentage": 100,
@@ -2802,7 +3266,132 @@
         "is_default_charging_curve": false
       },
       "brand_id": "b2282fbe-f5d9-48d9-943f-a9b66ec51423",
-      "id": "4481f790-0c16-490b-a0c9-c6002030d9c5"
+      "id": "bd9067e1-3f1d-44c5-9819-6e74cbf88df3"
+    },
+    {
+      "brand": "Mercedes",
+      "model": "tourer extra-long",
+      "variant": "60kwh",
+      "vehicle_type": "car",
+      "usable_battery_size": 60,
+      "energy_consumption": {
+        "average_consumption": 29.3
+      },
+      "charging_voltage": 400,
+      "release_year": 2022,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2": 2,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "2.0": 2
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 60,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 60
+          },
+          {
+            "percentage": 50,
+            "power": 60
+          },
+          {
+            "percentage": 80,
+            "power": 36
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "b2282fbe-f5d9-48d9-943f-a9b66ec51423",
+      "id": "9e98b9fd-0ae9-4141-9477-b4fbbbd71116"
+    },
+    {
+      "brand": "Mercedes",
+      "model": "amg 43",
+      "variant": "4matic",
+      "vehicle_type": "car",
+      "usable_battery_size": 90.6,
+      "energy_consumption": {
+        "average_consumption": 19.9
+      },
+      "charging_voltage": 400,
+      "release_year": 2022,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2": 2,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "2.0": 2
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 90.6,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 90.6
+          },
+          {
+            "percentage": 20,
+            "power": 90.6
+          },
+          {
+            "percentage": 40,
+            "power": 72
+          },
+          {
+            "percentage": 60,
+            "power": 54
+          },
+          {
+            "percentage": 80,
+            "power": 36
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": true
+      },
+      "brand_id": "b2282fbe-f5d9-48d9-943f-a9b66ec51423",
+      "id": "465614c8-b1ad-4f6f-9a8f-75bb525736dc",
+      "_manually_fixed_fields": [
+        "charging_curve"
+      ]
     }
   ]
 }

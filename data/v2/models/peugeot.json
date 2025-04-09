@@ -3,6 +3,66 @@
   "brand_name": "Peugeot",
   "models": [
     {
+      "brand": "Peugeot",
+      "model": "Partner Tepee",
+      "variant": "Electric",
+      "vehicle_type": "car",
+      "usable_battery_size": 20.5,
+      "energy_consumption": {
+        "average_consumption": 20.4
+      },
+      "charging_voltage": 400,
+      "release_year": 2017,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 20.5,
+        "power_per_charging_point": {
+          "2": 2,
+          "11": 11,
+          "16": 16,
+          "22": 20.5,
+          "43": 20.5,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "2.0": 2
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 20.5,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 20.5
+          },
+          {
+            "percentage": 70,
+            "power": 20.5
+          },
+          {
+            "percentage": 80,
+            "power": 14.35
+          },
+          {
+            "percentage": 100,
+            "power": 20.5
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "f458fe7d-f545-45f3-8c23-2ab8140b8b5d",
+      "id": "c8bdf356-3c32-4242-82a7-a8863607424a",
+      "_manually_fixed_fields": [
+        "energy_consumption"
+      ]
+    },
+    {
       "id": "35acc9cb-95e7-b6de-5f64-a35089e3315a",
       "brand": "Peugeot",
       "vehicle_type": "car",
@@ -1075,28 +1135,39 @@
           "ccs"
         ],
         "max_power": 101,
-        "is_default_charging_curve": false,
+        "is_default_charging_curve": true,
         "charging_curve": [
           {
             "percentage": 0,
             "power": 101
           },
           {
-            "percentage": 50,
+            "percentage": 20,
             "power": 101
           },
           {
+            "percentage": 40,
+            "power": 81
+          },
+          {
+            "percentage": 60,
+            "power": 61
+          },
+          {
             "percentage": 80,
-            "power": 60.599999999999994
+            "power": 40
           },
           {
             "percentage": 100,
-            "power": 30.299999999999997
+            "power": 11
           }
         ]
       },
       "vehicle_type": "car",
-      "charging_voltage": 400
+      "charging_voltage": 400,
+      "_manually_fixed_fields": [
+        "charging_curve"
+      ]
     },
     {
       "brand": "Peugeot",
@@ -1307,28 +1378,39 @@
           "ccs"
         ],
         "max_power": 101,
-        "is_default_charging_curve": false,
+        "is_default_charging_curve": true,
         "charging_curve": [
           {
             "percentage": 0,
             "power": 101
           },
           {
-            "percentage": 50,
+            "percentage": 20,
             "power": 101
           },
           {
+            "percentage": 40,
+            "power": 81
+          },
+          {
+            "percentage": 60,
+            "power": 61
+          },
+          {
             "percentage": 80,
-            "power": 60.599999999999994
+            "power": 40
           },
           {
             "percentage": 100,
-            "power": 30.299999999999997
+            "power": 11
           }
         ]
       },
       "vehicle_type": "car",
-      "charging_voltage": 400
+      "charging_voltage": 400,
+      "_manually_fixed_fields": [
+        "charging_curve"
+      ]
     },
     {
       "brand": "Peugeot",
@@ -1953,19 +2035,27 @@
             "power": 101
           },
           {
-            "percentage": 50,
+            "percentage": 20,
             "power": 101
           },
           {
+            "percentage": 40,
+            "power": 81
+          },
+          {
+            "percentage": 60,
+            "power": 61
+          },
+          {
             "percentage": 80,
-            "power": 60.599999999999994
+            "power": 40
           },
           {
             "percentage": 100,
-            "power": 30.299999999999997
+            "power": 11
           }
         ],
-        "is_default_charging_curve": false
+        "is_default_charging_curve": true
       },
       "id": "262b7ab9-9dbe-49b5-a3b3-e1766c307a2b",
       "brand_id": "f458fe7d-f545-45f3-8c23-2ab8140b8b5d",
@@ -1974,7 +2064,10 @@
       "usable_battery_size": 50,
       "energy_consumption": {
         "average_consumption": 25
-      }
+      },
+      "_manually_fixed_fields": [
+        "charging_curve"
+      ]
     },
     {
       "brand": "Peugeot",
@@ -2071,19 +2164,27 @@
             "power": 101
           },
           {
-            "percentage": 50,
+            "percentage": 20,
             "power": 101
           },
           {
+            "percentage": 40,
+            "power": 81
+          },
+          {
+            "percentage": 60,
+            "power": 61
+          },
+          {
             "percentage": 80,
-            "power": 60.599999999999994
+            "power": 40
           },
           {
             "percentage": 100,
-            "power": 30.299999999999997
+            "power": 11
           }
         ],
-        "is_default_charging_curve": false
+        "is_default_charging_curve": true
       },
       "id": "f6bcc16d-fc3f-464b-bf7b-49c6e3378faf",
       "brand_id": "f458fe7d-f545-45f3-8c23-2ab8140b8b5d",
@@ -2092,7 +2193,10 @@
       "usable_battery_size": 50,
       "energy_consumption": {
         "average_consumption": 23.2
-      }
+      },
+      "_manually_fixed_fields": [
+        "charging_curve"
+      ]
     },
     {
       "brand": "Peugeot",
@@ -2130,19 +2234,27 @@
             "power": 101
           },
           {
-            "percentage": 50,
+            "percentage": 20,
             "power": 101
           },
           {
+            "percentage": 40,
+            "power": 81
+          },
+          {
+            "percentage": 60,
+            "power": 61
+          },
+          {
             "percentage": 80,
-            "power": 60.599999999999994
+            "power": 40
           },
           {
             "percentage": 100,
-            "power": 30.299999999999997
+            "power": 11
           }
         ],
-        "is_default_charging_curve": false
+        "is_default_charging_curve": true
       },
       "id": "c290b499-c9a5-476d-bd08-c162ac326bee",
       "brand_id": "f458fe7d-f545-45f3-8c23-2ab8140b8b5d",
@@ -2151,7 +2263,10 @@
       "usable_battery_size": 50,
       "energy_consumption": {
         "average_consumption": 25
-      }
+      },
+      "_manually_fixed_fields": [
+        "charging_curve"
+      ]
     },
     {
       "brand": "Peugeot",
@@ -2189,19 +2304,27 @@
             "power": 101
           },
           {
-            "percentage": 50,
+            "percentage": 20,
             "power": 101
           },
           {
+            "percentage": 40,
+            "power": 81
+          },
+          {
+            "percentage": 60,
+            "power": 61
+          },
+          {
             "percentage": 80,
-            "power": 60.599999999999994
+            "power": 40
           },
           {
             "percentage": 100,
-            "power": 30.299999999999997
+            "power": 11
           }
         ],
-        "is_default_charging_curve": false
+        "is_default_charging_curve": true
       },
       "id": "8a17417a-36ed-405b-bfb7-a7742afd87a9",
       "brand_id": "f458fe7d-f545-45f3-8c23-2ab8140b8b5d",
@@ -2210,7 +2333,10 @@
       "usable_battery_size": 50,
       "energy_consumption": {
         "average_consumption": 22.6
-      }
+      },
+      "_manually_fixed_fields": [
+        "charging_curve"
+      ]
     },
     {
       "brand": "Peugeot",
@@ -2307,19 +2433,27 @@
             "power": 101
           },
           {
-            "percentage": 50,
+            "percentage": 20,
             "power": 101
           },
           {
+            "percentage": 40,
+            "power": 81
+          },
+          {
+            "percentage": 60,
+            "power": 61
+          },
+          {
             "percentage": 80,
-            "power": 60.599999999999994
+            "power": 40
           },
           {
             "percentage": 100,
-            "power": 30.299999999999997
+            "power": 11
           }
         ],
-        "is_default_charging_curve": false
+        "is_default_charging_curve": true
       },
       "id": "c73895f9-0675-4893-88e3-4fda9926e102",
       "brand_id": "f458fe7d-f545-45f3-8c23-2ab8140b8b5d",
@@ -2328,7 +2462,10 @@
       "usable_battery_size": 50,
       "energy_consumption": {
         "average_consumption": 25.7
-      }
+      },
+      "_manually_fixed_fields": [
+        "charging_curve"
+      ]
     },
     {
       "brand": "Peugeot",
@@ -2425,19 +2562,27 @@
             "power": 101
           },
           {
-            "percentage": 50,
+            "percentage": 20,
             "power": 101
           },
           {
+            "percentage": 40,
+            "power": 81
+          },
+          {
+            "percentage": 60,
+            "power": 61
+          },
+          {
             "percentage": 80,
-            "power": 60.599999999999994
+            "power": 40
           },
           {
             "percentage": 100,
-            "power": 30.299999999999997
+            "power": 11
           }
         ],
-        "is_default_charging_curve": false
+        "is_default_charging_curve": true
       },
       "id": "f82da320-fbb2-4ca5-af7e-785d54dd2bf9",
       "brand_id": "f458fe7d-f545-45f3-8c23-2ab8140b8b5d",
@@ -2446,7 +2591,10 @@
       "usable_battery_size": 50,
       "energy_consumption": {
         "average_consumption": 25
-      }
+      },
+      "_manually_fixed_fields": [
+        "charging_curve"
+      ]
     },
     {
       "brand": "Peugeot",
@@ -2484,19 +2632,27 @@
             "power": 101
           },
           {
-            "percentage": 50,
+            "percentage": 20,
             "power": 101
           },
           {
+            "percentage": 40,
+            "power": 81
+          },
+          {
+            "percentage": 60,
+            "power": 61
+          },
+          {
             "percentage": 80,
-            "power": 60.599999999999994
+            "power": 40
           },
           {
             "percentage": 100,
-            "power": 30.299999999999997
+            "power": 11
           }
         ],
-        "is_default_charging_curve": false
+        "is_default_charging_curve": true
       },
       "id": "ea47d238-9eb0-4ee6-8fcb-7fc94b56dfdf",
       "brand_id": "f458fe7d-f545-45f3-8c23-2ab8140b8b5d",
@@ -2505,7 +2661,10 @@
       "usable_battery_size": 50,
       "energy_consumption": {
         "average_consumption": 25.7
-      }
+      },
+      "_manually_fixed_fields": [
+        "charging_curve"
+      ]
     },
     {
       "brand": "Peugeot",
@@ -2543,19 +2702,27 @@
             "power": 101
           },
           {
-            "percentage": 50,
+            "percentage": 20,
             "power": 101
           },
           {
+            "percentage": 40,
+            "power": 81
+          },
+          {
+            "percentage": 60,
+            "power": 61
+          },
+          {
             "percentage": 80,
-            "power": 60.599999999999994
+            "power": 40
           },
           {
             "percentage": 100,
-            "power": 30.299999999999997
+            "power": 11
           }
         ],
-        "is_default_charging_curve": false
+        "is_default_charging_curve": true
       },
       "id": "f87a9281-d7f4-47dc-9dab-9ee85a9fa2c5",
       "brand_id": "f458fe7d-f545-45f3-8c23-2ab8140b8b5d",
@@ -2564,7 +2731,10 @@
       "usable_battery_size": 50,
       "energy_consumption": {
         "average_consumption": 25
-      }
+      },
+      "_manually_fixed_fields": [
+        "charging_curve"
+      ]
     },
     {
       "brand": "Peugeot",
@@ -2602,19 +2772,27 @@
             "power": 101
           },
           {
-            "percentage": 50,
+            "percentage": 20,
             "power": 101
           },
           {
+            "percentage": 40,
+            "power": 81
+          },
+          {
+            "percentage": 60,
+            "power": 61
+          },
+          {
             "percentage": 80,
-            "power": 60.599999999999994
+            "power": 40
           },
           {
             "percentage": 100,
-            "power": 30.299999999999997
+            "power": 11
           }
         ],
-        "is_default_charging_curve": false
+        "is_default_charging_curve": true
       },
       "id": "12fa953c-24ec-4b5d-9310-060b49f5a859",
       "brand_id": "f458fe7d-f545-45f3-8c23-2ab8140b8b5d",
@@ -2623,7 +2801,10 @@
       "usable_battery_size": 50,
       "energy_consumption": {
         "average_consumption": 25
-      }
+      },
+      "_manually_fixed_fields": [
+        "charging_curve"
+      ]
     },
     {
       "brand": "Peugeot",
@@ -2720,19 +2901,27 @@
             "power": 101
           },
           {
-            "percentage": 50,
+            "percentage": 20,
             "power": 101
           },
           {
+            "percentage": 40,
+            "power": 81
+          },
+          {
+            "percentage": 60,
+            "power": 61
+          },
+          {
             "percentage": 80,
-            "power": 60.599999999999994
+            "power": 40
           },
           {
             "percentage": 100,
-            "power": 30.299999999999997
+            "power": 11
           }
         ],
-        "is_default_charging_curve": false
+        "is_default_charging_curve": true
       },
       "id": "fca5d551-bfdb-4fcf-9ab7-f7978678ff59",
       "brand_id": "f458fe7d-f545-45f3-8c23-2ab8140b8b5d",
@@ -2741,7 +2930,10 @@
       "usable_battery_size": 50,
       "energy_consumption": {
         "average_consumption": 25
-      }
+      },
+      "_manually_fixed_fields": [
+        "charging_curve"
+      ]
     },
     {
       "brand": "Peugeot",
@@ -2859,63 +3051,6 @@
     },
     {
       "brand": "Peugeot",
-      "model": "Partner Tepee",
-      "variant": "Electric",
-      "vehicle_type": "car",
-      "usable_battery_size": 20.5,
-      "energy_consumption": {
-        "average_consumption": 15.7
-      },
-      "charging_voltage": 400,
-      "release_year": 2017,
-      "ac_charger": {
-        "usable_phases": 3,
-        "ports": [
-          "type2"
-        ],
-        "max_power": 20.5,
-        "power_per_charging_point": {
-          "2": 2,
-          "11": 11,
-          "16": 16,
-          "22": 20.5,
-          "43": 20.5,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4,
-          "2.0": 2
-        }
-      },
-      "dc_charger": {
-        "ports": [
-          "ccs"
-        ],
-        "max_power": 20.5,
-        "charging_curve": [
-          {
-            "percentage": 0,
-            "power": 20.5
-          },
-          {
-            "percentage": 70,
-            "power": 20.5
-          },
-          {
-            "percentage": 80,
-            "power": 14.35
-          },
-          {
-            "percentage": 100,
-            "power": 20.5
-          }
-        ],
-        "is_default_charging_curve": false
-      },
-      "brand_id": "f458fe7d-f545-45f3-8c23-2ab8140b8b5d",
-      "id": "c8bdf356-3c32-4242-82a7-a8863607424a"
-    },
-    {
-      "brand": "Peugeot",
       "model": "suv",
       "variant": "",
       "vehicle_type": "car",
@@ -2954,22 +3089,33 @@
             "power": 46.3
           },
           {
-            "percentage": 50,
+            "percentage": 20,
             "power": 46.3
           },
           {
+            "percentage": 40,
+            "power": 37
+          },
+          {
+            "percentage": 60,
+            "power": 28
+          },
+          {
             "percentage": 80,
-            "power": 27.779999999999998
+            "power": 19
           },
           {
             "percentage": 100,
             "power": 11
           }
         ],
-        "is_default_charging_curve": false
+        "is_default_charging_curve": true
       },
       "brand_id": "f458fe7d-f545-45f3-8c23-2ab8140b8b5d",
-      "id": "45ef619a-1f24-4e47-a61a-c58169ade50e"
+      "id": "45ef619a-1f24-4e47-a61a-c58169ade50e",
+      "_manually_fixed_fields": [
+        "charging_curve"
+      ]
     },
     {
       "brand": "Peugeot",
@@ -3011,22 +3157,33 @@
             "power": 46.3
           },
           {
-            "percentage": 50,
+            "percentage": 20,
             "power": 46.3
           },
           {
+            "percentage": 40,
+            "power": 37
+          },
+          {
+            "percentage": 60,
+            "power": 28
+          },
+          {
             "percentage": 80,
-            "power": 27.779999999999998
+            "power": 19
           },
           {
             "percentage": 100,
             "power": 11
           }
         ],
-        "is_default_charging_curve": false
+        "is_default_charging_curve": true
       },
       "brand_id": "f458fe7d-f545-45f3-8c23-2ab8140b8b5d",
-      "id": "cef093ee-add7-4f9d-bf29-b484f36a4bca"
+      "id": "cef093ee-add7-4f9d-bf29-b484f36a4bca",
+      "_manually_fixed_fields": [
+        "charging_curve"
+      ]
     },
     {
       "brand": "Peugeot",
@@ -3068,22 +3225,33 @@
             "power": 46.3
           },
           {
-            "percentage": 50,
+            "percentage": 20,
             "power": 46.3
           },
           {
+            "percentage": 40,
+            "power": 37
+          },
+          {
+            "percentage": 60,
+            "power": 28
+          },
+          {
             "percentage": 80,
-            "power": 27.779999999999998
+            "power": 19
           },
           {
             "percentage": 100,
             "power": 11
           }
         ],
-        "is_default_charging_curve": false
+        "is_default_charging_curve": true
       },
       "brand_id": "f458fe7d-f545-45f3-8c23-2ab8140b8b5d",
-      "id": "911d1404-0962-4cd8-a674-5d6b61609a1d"
+      "id": "911d1404-0962-4cd8-a674-5d6b61609a1d",
+      "_manually_fixed_fields": [
+        "charging_curve"
+      ]
     },
     {
       "brand": "Peugeot",
@@ -3125,22 +3293,33 @@
             "power": 46.3
           },
           {
-            "percentage": 50,
+            "percentage": 20,
             "power": 46.3
           },
           {
+            "percentage": 40,
+            "power": 37
+          },
+          {
+            "percentage": 60,
+            "power": 28
+          },
+          {
             "percentage": 80,
-            "power": 27.779999999999998
+            "power": 19
           },
           {
             "percentage": 100,
             "power": 11
           }
         ],
-        "is_default_charging_curve": false
+        "is_default_charging_curve": true
       },
       "brand_id": "f458fe7d-f545-45f3-8c23-2ab8140b8b5d",
-      "id": "ad8b4ad6-9424-4b31-9c7c-2fe0cc3555f4"
+      "id": "ad8b4ad6-9424-4b31-9c7c-2fe0cc3555f4",
+      "_manually_fixed_fields": [
+        "charging_curve"
+      ]
     },
     {
       "brand": "Peugeot",
@@ -3182,26 +3361,33 @@
             "power": 68
           },
           {
-            "percentage": 30,
+            "percentage": 20,
             "power": 68
           },
           {
+            "percentage": 40,
+            "power": 54
+          },
+          {
             "percentage": 60,
-            "power": 47.599999999999994
+            "power": 41
           },
           {
             "percentage": 80,
-            "power": 27.200000000000003
+            "power": 27
           },
           {
             "percentage": 100,
             "power": 11
           }
         ],
-        "is_default_charging_curve": false
+        "is_default_charging_curve": true
       },
       "brand_id": "f458fe7d-f545-45f3-8c23-2ab8140b8b5d",
-      "id": "b0fd6384-dddf-4c1a-a2a7-83034b8144d1"
+      "id": "b0fd6384-dddf-4c1a-a2a7-83034b8144d1",
+      "_manually_fixed_fields": [
+        "charging_curve"
+      ]
     },
     {
       "brand": "Peugeot",
@@ -3243,26 +3429,33 @@
             "power": 68
           },
           {
-            "percentage": 30,
+            "percentage": 20,
             "power": 68
           },
           {
+            "percentage": 40,
+            "power": 54
+          },
+          {
             "percentage": 60,
-            "power": 47.599999999999994
+            "power": 41
           },
           {
             "percentage": 80,
-            "power": 27.200000000000003
+            "power": 27
           },
           {
             "percentage": 100,
             "power": 11
           }
         ],
-        "is_default_charging_curve": false
+        "is_default_charging_curve": true
       },
       "brand_id": "f458fe7d-f545-45f3-8c23-2ab8140b8b5d",
-      "id": "d7eb5eec-faa1-44b8-a791-e531671e1c87"
+      "id": "d7eb5eec-faa1-44b8-a791-e531671e1c87",
+      "_manually_fixed_fields": [
+        "charging_curve"
+      ]
     },
     {
       "brand": "Peugeot",
@@ -3304,22 +3497,33 @@
             "power": 46.3
           },
           {
-            "percentage": 50,
+            "percentage": 20,
             "power": 46.3
           },
           {
+            "percentage": 40,
+            "power": 37
+          },
+          {
+            "percentage": 60,
+            "power": 28
+          },
+          {
             "percentage": 80,
-            "power": 27.779999999999998
+            "power": 19
           },
           {
             "percentage": 100,
             "power": 11
           }
         ],
-        "is_default_charging_curve": false
+        "is_default_charging_curve": true
       },
       "brand_id": "f458fe7d-f545-45f3-8c23-2ab8140b8b5d",
-      "id": "4ca57bb5-7678-4fd5-a5ff-f513343c3bfa"
+      "id": "4ca57bb5-7678-4fd5-a5ff-f513343c3bfa",
+      "_manually_fixed_fields": [
+        "charging_curve"
+      ]
     },
     {
       "brand": "Peugeot",
@@ -3361,22 +3565,441 @@
             "power": 46.3
           },
           {
-            "percentage": 50,
+            "percentage": 20,
             "power": 46.3
           },
           {
+            "percentage": 40,
+            "power": 37
+          },
+          {
+            "percentage": 60,
+            "power": 28
+          },
+          {
             "percentage": 80,
-            "power": 27.779999999999998
+            "power": 19
           },
           {
             "percentage": 100,
             "power": 11
           }
         ],
-        "is_default_charging_curve": false
+        "is_default_charging_curve": true
       },
       "brand_id": "f458fe7d-f545-45f3-8c23-2ab8140b8b5d",
-      "id": "917b0571-eb1b-4534-b7a7-5e7dba76a896"
+      "id": "917b0571-eb1b-4534-b7a7-5e7dba76a896",
+      "_manually_fixed_fields": [
+        "charging_curve"
+      ]
+    },
+    {
+      "brand": "Peugeot",
+      "model": "suv",
+      "variant": "",
+      "vehicle_type": "car",
+      "usable_battery_size": 46.3,
+      "energy_consumption": {
+        "average_consumption": 17.1
+      },
+      "charging_voltage": 400,
+      "release_year": 2021,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2": 2,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "2.0": 2
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 46.3,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 46.3
+          },
+          {
+            "percentage": 20,
+            "power": 46.3
+          },
+          {
+            "percentage": 40,
+            "power": 37
+          },
+          {
+            "percentage": 60,
+            "power": 28
+          },
+          {
+            "percentage": 80,
+            "power": 19
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": true
+      },
+      "brand_id": "f458fe7d-f545-45f3-8c23-2ab8140b8b5d",
+      "id": "4b1144dd-c339-40bf-918e-ead376d3d06e",
+      "_manually_fixed_fields": [
+        "charging_curve"
+      ]
+    },
+    {
+      "brand": "Peugeot",
+      "model": "combi compact",
+      "variant": "50kwh",
+      "vehicle_type": "car",
+      "usable_battery_size": 46.3,
+      "energy_consumption": {
+        "average_consumption": 25
+      },
+      "charging_voltage": 400,
+      "release_year": 2021,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2": 2,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "2.0": 2
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 46.3,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 46.3
+          },
+          {
+            "percentage": 20,
+            "power": 46.3
+          },
+          {
+            "percentage": 40,
+            "power": 37
+          },
+          {
+            "percentage": 60,
+            "power": 28
+          },
+          {
+            "percentage": 80,
+            "power": 19
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": true
+      },
+      "brand_id": "f458fe7d-f545-45f3-8c23-2ab8140b8b5d",
+      "id": "50e2574f-761c-4cf2-9977-ca14e5443f4c",
+      "_manually_fixed_fields": [
+        "charging_curve"
+      ]
+    },
+    {
+      "brand": "Peugeot",
+      "model": "combi standard",
+      "variant": "50kwh",
+      "vehicle_type": "car",
+      "usable_battery_size": 46.3,
+      "energy_consumption": {
+        "average_consumption": 25
+      },
+      "charging_voltage": 400,
+      "release_year": 2021,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2": 2,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "2.0": 2
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 46.3,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 46.3
+          },
+          {
+            "percentage": 20,
+            "power": 46.3
+          },
+          {
+            "percentage": 40,
+            "power": 37
+          },
+          {
+            "percentage": 60,
+            "power": 28
+          },
+          {
+            "percentage": 80,
+            "power": 19
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": true
+      },
+      "brand_id": "f458fe7d-f545-45f3-8c23-2ab8140b8b5d",
+      "id": "f04dbf31-5780-473f-867f-3cce583d55ec",
+      "_manually_fixed_fields": [
+        "charging_curve"
+      ]
+    },
+    {
+      "brand": "Peugeot",
+      "model": "combi long",
+      "variant": "50kwh",
+      "vehicle_type": "car",
+      "usable_battery_size": 46.3,
+      "energy_consumption": {
+        "average_consumption": 25
+      },
+      "charging_voltage": 400,
+      "release_year": 2021,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2": 2,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "2.0": 2
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 46.3,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 46.3
+          },
+          {
+            "percentage": 20,
+            "power": 46.3
+          },
+          {
+            "percentage": 40,
+            "power": 37
+          },
+          {
+            "percentage": 60,
+            "power": 28
+          },
+          {
+            "percentage": 80,
+            "power": 19
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": true
+      },
+      "brand_id": "f458fe7d-f545-45f3-8c23-2ab8140b8b5d",
+      "id": "2dffe255-0142-4215-8deb-e51601b2509b",
+      "_manually_fixed_fields": [
+        "charging_curve"
+      ]
+    },
+    {
+      "brand": "Peugeot",
+      "model": "combi standard",
+      "variant": "75kwh",
+      "vehicle_type": "car",
+      "usable_battery_size": 68,
+      "energy_consumption": {
+        "average_consumption": 25.7
+      },
+      "charging_voltage": 400,
+      "release_year": 2021,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2": 2,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "2.0": 2
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 68,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 68
+          },
+          {
+            "percentage": 20,
+            "power": 68
+          },
+          {
+            "percentage": 40,
+            "power": 54
+          },
+          {
+            "percentage": 60,
+            "power": 41
+          },
+          {
+            "percentage": 80,
+            "power": 27
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": true
+      },
+      "brand_id": "f458fe7d-f545-45f3-8c23-2ab8140b8b5d",
+      "id": "f628bb0b-9ce8-445e-901c-5386fe088aa2",
+      "_manually_fixed_fields": [
+        "charging_curve"
+      ]
+    },
+    {
+      "brand": "Peugeot",
+      "model": "combi long",
+      "variant": "75kwh",
+      "vehicle_type": "car",
+      "usable_battery_size": 68,
+      "energy_consumption": {
+        "average_consumption": 26.2
+      },
+      "charging_voltage": 400,
+      "release_year": 2021,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2": 2,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "2.0": 2
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 68,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 68
+          },
+          {
+            "percentage": 20,
+            "power": 68
+          },
+          {
+            "percentage": 40,
+            "power": 54
+          },
+          {
+            "percentage": 60,
+            "power": 41
+          },
+          {
+            "percentage": 80,
+            "power": 27
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": true
+      },
+      "brand_id": "f458fe7d-f545-45f3-8c23-2ab8140b8b5d",
+      "id": "be7688fc-df40-4c32-a357-eb61441efe2c",
+      "_manually_fixed_fields": [
+        "charging_curve"
+      ]
     }
   ]
 }

@@ -80,7 +80,39 @@
           "7.4": 6.6
         }
       },
-      "dc_charger": null,
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 150,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 150
+          },
+          {
+            "percentage": 20,
+            "power": 150
+          },
+          {
+            "percentage": 40,
+            "power": 120
+          },
+          {
+            "percentage": 60,
+            "power": 90
+          },
+          {
+            "percentage": 80,
+            "power": 60
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": true
+      },
       "energy_consumption": {
         "average_consumption": 16.4
       },
@@ -1122,7 +1154,39 @@
           "7.4": 7.4
         }
       },
-      "dc_charger": null,
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 150,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 150
+          },
+          {
+            "percentage": 20,
+            "power": 150
+          },
+          {
+            "percentage": 40,
+            "power": 120
+          },
+          {
+            "percentage": 60,
+            "power": 90
+          },
+          {
+            "percentage": 80,
+            "power": 60
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": true
+      },
       "id": "95f31d11-6317-41d4-a144-695223ec9ca0",
       "brand_id": "6cf9e9b6-28aa-44c7-b6c3-438d518ac12f",
       "vehicle_type": "car",
@@ -1168,26 +1232,33 @@
             "power": 68
           },
           {
-            "percentage": 30,
+            "percentage": 20,
             "power": 68
           },
           {
+            "percentage": 40,
+            "power": 54
+          },
+          {
             "percentage": 60,
-            "power": 47.599999999999994
+            "power": 41
           },
           {
             "percentage": 80,
-            "power": 27.200000000000003
+            "power": 27
           },
           {
             "percentage": 100,
             "power": 11
           }
         ],
-        "is_default_charging_curve": false
+        "is_default_charging_curve": true
       },
       "brand_id": "6cf9e9b6-28aa-44c7-b6c3-438d518ac12f",
-      "id": "5f539340-fd07-4203-bda3-173677ba3ffc"
+      "id": "5f539340-fd07-4203-bda3-173677ba3ffc",
+      "_manually_fixed_fields": [
+        "charging_curve"
+      ]
     },
     {
       "brand": "Ford",
@@ -1229,26 +1300,33 @@
             "power": 88
           },
           {
-            "percentage": 30,
+            "percentage": 20,
             "power": 88
           },
           {
+            "percentage": 40,
+            "power": 70
+          },
+          {
             "percentage": 60,
-            "power": 61.599999999999994
+            "power": 53
           },
           {
             "percentage": 80,
-            "power": 35.2
+            "power": 35
           },
           {
             "percentage": 100,
             "power": 11
           }
         ],
-        "is_default_charging_curve": false
+        "is_default_charging_curve": true
       },
       "brand_id": "6cf9e9b6-28aa-44c7-b6c3-438d518ac12f",
-      "id": "af570127-584a-4fc1-92e1-21193a2d35ab"
+      "id": "af570127-584a-4fc1-92e1-21193a2d35ab",
+      "_manually_fixed_fields": [
+        "charging_curve"
+      ]
     },
     {
       "brand": "Ford",
@@ -1290,26 +1368,33 @@
             "power": 68
           },
           {
-            "percentage": 30,
+            "percentage": 20,
             "power": 68
           },
           {
+            "percentage": 40,
+            "power": 54
+          },
+          {
             "percentage": 60,
-            "power": 47.599999999999994
+            "power": 41
           },
           {
             "percentage": 80,
-            "power": 27.200000000000003
+            "power": 27
           },
           {
             "percentage": 100,
             "power": 11
           }
         ],
-        "is_default_charging_curve": false
+        "is_default_charging_curve": true
       },
       "brand_id": "6cf9e9b6-28aa-44c7-b6c3-438d518ac12f",
-      "id": "461ed07d-7797-44a9-bf85-222c89cc1951"
+      "id": "461ed07d-7797-44a9-bf85-222c89cc1951",
+      "_manually_fixed_fields": [
+        "charging_curve"
+      ]
     },
     {
       "brand": "Ford",
@@ -1351,26 +1436,33 @@
             "power": 88
           },
           {
-            "percentage": 30,
+            "percentage": 20,
             "power": 88
           },
           {
+            "percentage": 40,
+            "power": 70
+          },
+          {
             "percentage": 60,
-            "power": 61.599999999999994
+            "power": 53
           },
           {
             "percentage": 80,
-            "power": 35.2
+            "power": 35
           },
           {
             "percentage": 100,
             "power": 11
           }
         ],
-        "is_default_charging_curve": false
+        "is_default_charging_curve": true
       },
       "brand_id": "6cf9e9b6-28aa-44c7-b6c3-438d518ac12f",
-      "id": "82087c97-f3d1-468c-b2ea-27e7493f96ca"
+      "id": "82087c97-f3d1-468c-b2ea-27e7493f96ca",
+      "_manually_fixed_fields": [
+        "charging_curve"
+      ]
     },
     {
       "brand": "Ford",
@@ -1412,26 +1504,33 @@
             "power": 88
           },
           {
-            "percentage": 30,
+            "percentage": 20,
             "power": 88
           },
           {
+            "percentage": 40,
+            "power": 70
+          },
+          {
             "percentage": 60,
-            "power": 61.599999999999994
+            "power": 53
           },
           {
             "percentage": 80,
-            "power": 35.2
+            "power": 35
           },
           {
             "percentage": 100,
             "power": 11
           }
         ],
-        "is_default_charging_curve": false
+        "is_default_charging_curve": true
       },
       "brand_id": "6cf9e9b6-28aa-44c7-b6c3-438d518ac12f",
-      "id": "0dea0d5c-e3f8-452a-82bf-040192377e48"
+      "id": "0dea0d5c-e3f8-452a-82bf-040192377e48",
+      "_manually_fixed_fields": [
+        "charging_curve"
+      ]
     }
   ]
 }

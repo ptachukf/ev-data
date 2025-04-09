@@ -261,6 +261,189 @@
         "average_consumption": 21.1
       },
       "charging_voltage": 800
+    },
+    {
+      "brand": "Genesis",
+      "model": "premium",
+      "variant": "",
+      "vehicle_type": "car",
+      "usable_battery_size": 74,
+      "energy_consumption": {
+        "average_consumption": 19
+      },
+      "charging_voltage": 800,
+      "release_year": 2022,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2": 2,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "2.0": 2
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 74,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 74
+          },
+          {
+            "percentage": 40,
+            "power": 74
+          },
+          {
+            "percentage": 70,
+            "power": 59.2
+          },
+          {
+            "percentage": 90,
+            "power": 29.6
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "100b9345-4c0e-fb7b-4502-5535cf6359fd",
+      "id": "1ed45013-35a6-472a-87ab-e05b9c5900f2"
+    },
+    {
+      "brand": "Genesis",
+      "model": "sport",
+      "variant": "",
+      "vehicle_type": "car",
+      "usable_battery_size": 74,
+      "energy_consumption": {
+        "average_consumption": 19.5
+      },
+      "charging_voltage": 800,
+      "release_year": 2022,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2": 2,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "2.0": 2
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 74,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 74
+          },
+          {
+            "percentage": 40,
+            "power": 74
+          },
+          {
+            "percentage": 70,
+            "power": 59.2
+          },
+          {
+            "percentage": 90,
+            "power": 29.6
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "100b9345-4c0e-fb7b-4502-5535cf6359fd",
+      "id": "1b09875e-4435-4016-a468-629f0bf64ece"
+    },
+    {
+      "brand": "Genesis",
+      "model": "sport plus",
+      "variant": "",
+      "vehicle_type": "car",
+      "usable_battery_size": 74,
+      "energy_consumption": {
+        "average_consumption": 20.3
+      },
+      "charging_voltage": 800,
+      "release_year": 2022,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2": 2,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "2.0": 2
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 74,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 74
+          },
+          {
+            "percentage": 40,
+            "power": 74
+          },
+          {
+            "percentage": 70,
+            "power": 59.2
+          },
+          {
+            "percentage": 90,
+            "power": 29.6
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "100b9345-4c0e-fb7b-4502-5535cf6359fd",
+      "id": "a68f8486-1596-47a1-96f6-535d60f031f9"
     }
   ]
 }

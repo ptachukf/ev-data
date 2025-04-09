@@ -3,6 +3,75 @@
   "brand_name": "DS",
   "models": [
     {
+      "brand": "DS",
+      "model": "crossback e-tense",
+      "variant": "",
+      "vehicle_type": "car",
+      "usable_battery_size": 46.3,
+      "energy_consumption": {
+        "average_consumption": 81.1
+      },
+      "charging_voltage": 400,
+      "release_year": 2020,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 3,
+        "power_per_charging_point": {
+          "2": 2,
+          "11": 3,
+          "16": 3,
+          "22": 3,
+          "43": 3,
+          "2.3": 2.3,
+          "3.7": 3,
+          "7.4": 3,
+          "2.0": 2
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 46.3,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 46.3
+          },
+          {
+            "percentage": 20,
+            "power": 46.3
+          },
+          {
+            "percentage": 40,
+            "power": 37
+          },
+          {
+            "percentage": 60,
+            "power": 28
+          },
+          {
+            "percentage": 80,
+            "power": 19
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": true
+      },
+      "brand_id": "37bfdacf-1aca-4eb7-8daa-8dc5b14c59e9",
+      "id": "a88f1ef2-5604-4401-8412-bc41c8b016eb",
+      "_manually_fixed_fields": [
+        "energy_consumption",
+        "charging_curve"
+      ]
+    },
+    {
       "id": "430ca2cd-bd4b-482a-8776-85a8c7d3435c",
       "brand": "DS",
       "vehicle_type": "car",
@@ -351,19 +420,27 @@
             "power": 101
           },
           {
-            "percentage": 50,
+            "percentage": 20,
             "power": 101
           },
           {
+            "percentage": 40,
+            "power": 81
+          },
+          {
+            "percentage": 60,
+            "power": 61
+          },
+          {
             "percentage": 80,
-            "power": 60.599999999999994
+            "power": 40
           },
           {
             "percentage": 100,
-            "power": 30.299999999999997
+            "power": 11
           }
         ],
-        "is_default_charging_curve": false
+        "is_default_charging_curve": true
       },
       "id": "cf1010ad-5985-4d73-8d7f-47a4b922c49c",
       "brand_id": "37bfdacf-1aca-4eb7-8daa-8dc5b14c59e9",
@@ -374,7 +451,10 @@
         "average_consumption": 17.5
       },
       "vehicle_type": "car",
-      "charging_voltage": 400
+      "charging_voltage": 400,
+      "_manually_fixed_fields": [
+        "charging_curve"
+      ]
     },
     {
       "brand": "DS",
@@ -442,10 +522,10 @@
       "vehicle_type": "car",
       "usable_battery_size": 46.3,
       "energy_consumption": {
-        "average_consumption": 18.4
+        "average_consumption": 17.5
       },
       "charging_voltage": 400,
-      "release_year": 2020,
+      "release_year": 2021,
       "ac_charger": {
         "usable_phases": 3,
         "ports": [
@@ -475,22 +555,33 @@
             "power": 46.3
           },
           {
-            "percentage": 50,
+            "percentage": 20,
             "power": 46.3
           },
           {
+            "percentage": 40,
+            "power": 37
+          },
+          {
+            "percentage": 60,
+            "power": 28
+          },
+          {
             "percentage": 80,
-            "power": 27.779999999999998
+            "power": 19
           },
           {
             "percentage": 100,
-            "power": 3
+            "power": 11
           }
         ],
-        "is_default_charging_curve": false
+        "is_default_charging_curve": true
       },
       "brand_id": "37bfdacf-1aca-4eb7-8daa-8dc5b14c59e9",
-      "id": "a88f1ef2-5604-4401-8412-bc41c8b016eb"
+      "id": "839504c0-0f02-4e5f-b2ec-c5fbaf5808f8",
+      "_manually_fixed_fields": [
+        "charging_curve"
+      ]
     }
   ]
 }

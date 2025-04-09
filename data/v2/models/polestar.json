@@ -353,28 +353,39 @@
           "ccs"
         ],
         "max_power": 149,
-        "is_default_charging_curve": false,
+        "is_default_charging_curve": true,
         "charging_curve": [
           {
             "percentage": 0,
             "power": 149
           },
           {
-            "percentage": 50,
+            "percentage": 20,
             "power": 149
           },
           {
+            "percentage": 40,
+            "power": 119
+          },
+          {
+            "percentage": 60,
+            "power": 89
+          },
+          {
             "percentage": 80,
-            "power": 89.39999999999999
+            "power": 60
           },
           {
             "percentage": 100,
-            "power": 44.699999999999996
+            "power": 11
           }
         ]
       },
       "vehicle_type": "car",
-      "charging_voltage": 400
+      "charging_voltage": 400,
+      "_manually_fixed_fields": [
+        "charging_curve"
+      ]
     },
     {
       "brand": "Polestar",
@@ -648,26 +659,33 @@
             "power": 61
           },
           {
-            "percentage": 30,
+            "percentage": 20,
             "power": 61
           },
           {
+            "percentage": 40,
+            "power": 49
+          },
+          {
             "percentage": 60,
-            "power": 42.699999999999996
+            "power": 37
           },
           {
             "percentage": 80,
-            "power": 24.400000000000002
+            "power": 24
           },
           {
             "percentage": 100,
             "power": 11
           }
         ],
-        "is_default_charging_curve": false
+        "is_default_charging_curve": true
       },
       "brand_id": "391f000f-d9d1-4c13-b744-95f0b9c8a2e1",
-      "id": "ed3df6d6-4661-4d2a-8a0a-93edc30372a6"
+      "id": "ed3df6d6-4661-4d2a-8a0a-93edc30372a6",
+      "_manually_fixed_fields": [
+        "charging_curve"
+      ]
     },
     {
       "brand": "Polestar",
@@ -790,6 +808,67 @@
       },
       "brand_id": "391f000f-d9d1-4c13-b744-95f0b9c8a2e1",
       "id": "a8e37f35-a97e-425d-a035-7d8d210fe140"
+    },
+    {
+      "brand": "Polestar",
+      "model": "standard range single motor",
+      "variant": "",
+      "vehicle_type": "car",
+      "usable_battery_size": 67,
+      "energy_consumption": {
+        "average_consumption": 17.6
+      },
+      "charging_voltage": 400,
+      "release_year": 2022,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2": 2,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "2.0": 2
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 67,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 67
+          },
+          {
+            "percentage": 30,
+            "power": 67
+          },
+          {
+            "percentage": 60,
+            "power": 46.9
+          },
+          {
+            "percentage": 80,
+            "power": 26.8
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "391f000f-d9d1-4c13-b744-95f0b9c8a2e1",
+      "id": "2ca47345-8bf1-480d-8774-6776e8cbcb9c"
     }
   ]
 }

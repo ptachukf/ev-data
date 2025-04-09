@@ -765,28 +765,39 @@
           "ccs"
         ],
         "max_power": 77,
-        "is_default_charging_curve": false,
+        "is_default_charging_curve": true,
         "charging_curve": [
           {
             "percentage": 0,
             "power": 77
           },
           {
-            "percentage": 50,
+            "percentage": 20,
             "power": 77
           },
           {
+            "percentage": 40,
+            "power": 62
+          },
+          {
+            "percentage": 60,
+            "power": 46
+          },
+          {
             "percentage": 80,
-            "power": 46.199999999999996
+            "power": 31
           },
           {
             "percentage": 100,
-            "power": 23.099999999999998
+            "power": 11
           }
         ]
       },
       "vehicle_type": "car",
-      "charging_voltage": 400
+      "charging_voltage": 400,
+      "_manually_fixed_fields": [
+        "charging_curve"
+      ]
     },
     {
       "brand": "Hyundai",
@@ -1005,22 +1016,33 @@
             "power": 28
           },
           {
-            "percentage": 70,
+            "percentage": 20,
             "power": 28
+          },
+          {
+            "percentage": 40,
+            "power": 22
+          },
+          {
+            "percentage": 60,
+            "power": 17
           },
           {
             "percentage": 80,
-            "power": 19.599999999999998
+            "power": 11
           },
           {
             "percentage": 100,
-            "power": 28
+            "power": 11
           }
         ],
-        "is_default_charging_curve": false
+        "is_default_charging_curve": true
       },
       "brand_id": "9771afb8-9e25-4ae6-a5b3-b2a5b9f363f0",
-      "id": "8a18fe98-6df5-494d-b2b0-1fda8721461e"
+      "id": "8a18fe98-6df5-494d-b2b0-1fda8721461e",
+      "_manually_fixed_fields": [
+        "charging_curve"
+      ]
     },
     {
       "brand": "Hyundai",
@@ -1180,22 +1202,33 @@
             "power": 38.3
           },
           {
-            "percentage": 50,
+            "percentage": 20,
             "power": 38.3
+          },
+          {
+            "percentage": 40,
+            "power": 31
+          },
+          {
+            "percentage": 60,
+            "power": 23
           },
           {
             "percentage": 80,
-            "power": 22.979999999999997
+            "power": 15
           },
           {
             "percentage": 100,
-            "power": 38.3
+            "power": 11
           }
         ],
-        "is_default_charging_curve": false
+        "is_default_charging_curve": true
       },
       "brand_id": "9771afb8-9e25-4ae6-a5b3-b2a5b9f363f0",
-      "id": "897abe0e-e57c-4932-a6f6-8c263d944e83"
+      "id": "897abe0e-e57c-4932-a6f6-8c263d944e83",
+      "_manually_fixed_fields": [
+        "charging_curve"
+      ]
     },
     {
       "brand": "Hyundai",

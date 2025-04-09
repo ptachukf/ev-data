@@ -1037,28 +1037,39 @@
           "ccs"
         ],
         "max_power": 263,
-        "is_default_charging_curve": false,
+        "is_default_charging_curve": true,
         "charging_curve": [
           {
             "percentage": 0,
             "power": 263
           },
           {
-            "percentage": 50,
+            "percentage": 20,
             "power": 263
           },
           {
+            "percentage": 40,
+            "power": 210
+          },
+          {
+            "percentage": 60,
+            "power": 158
+          },
+          {
             "percentage": 80,
-            "power": 157.79999999999998
+            "power": 105
           },
           {
             "percentage": 100,
-            "power": 78.89999999999999
+            "power": 11
           }
         ]
       },
       "vehicle_type": "car",
-      "charging_voltage": 400
+      "charging_voltage": 400,
+      "_manually_fixed_fields": [
+        "charging_curve"
+      ]
     },
     {
       "brand": "Kia",
@@ -1095,28 +1106,39 @@
           "ccs"
         ],
         "max_power": 263,
-        "is_default_charging_curve": false,
+        "is_default_charging_curve": true,
         "charging_curve": [
           {
             "percentage": 0,
             "power": 263
           },
           {
-            "percentage": 50,
+            "percentage": 20,
             "power": 263
           },
           {
+            "percentage": 40,
+            "power": 210
+          },
+          {
+            "percentage": 60,
+            "power": 158
+          },
+          {
             "percentage": 80,
-            "power": 157.79999999999998
+            "power": 105
           },
           {
             "percentage": 100,
-            "power": 78.89999999999999
+            "power": 11
           }
         ]
       },
       "vehicle_type": "car",
-      "charging_voltage": 400
+      "charging_voltage": 400,
+      "_manually_fixed_fields": [
+        "charging_curve"
+      ]
     },
     {
       "brand": "Kia",
@@ -1153,28 +1175,39 @@
           "ccs"
         ],
         "max_power": 209,
-        "is_default_charging_curve": false,
+        "is_default_charging_curve": true,
         "charging_curve": [
           {
             "percentage": 0,
             "power": 209
           },
           {
-            "percentage": 50,
+            "percentage": 20,
             "power": 209
           },
           {
+            "percentage": 40,
+            "power": 167
+          },
+          {
+            "percentage": 60,
+            "power": 125
+          },
+          {
             "percentage": 80,
-            "power": 125.39999999999999
+            "power": 84
           },
           {
             "percentage": 100,
-            "power": 62.699999999999996
+            "power": 11
           }
         ]
       },
       "vehicle_type": "car",
-      "charging_voltage": 400
+      "charging_voltage": 400,
+      "_manually_fixed_fields": [
+        "charging_curve"
+      ]
     },
     {
       "brand": "Kia",
@@ -1834,7 +1867,8 @@
         "is_default_charging_curve": false
       },
       "brand_id": "3337d5f0-39de-4ded-831b-843dfec1ebbd",
-      "id": "6bf5bf7b-78c1-4247-9282-dc4e8661e2ed"
+      "id": "6bf5bf7b-78c1-4247-9282-dc4e8661e2ed",
+      "_model_hash": "g097cp"
     },
     {
       "brand": "Kia",
@@ -1891,7 +1925,8 @@
         "is_default_charging_curve": false
       },
       "brand_id": "3337d5f0-39de-4ded-831b-843dfec1ebbd",
-      "id": "da0361e9-c2bd-4b71-b0f1-680bbf26266b"
+      "id": "da0361e9-c2bd-4b71-b0f1-680bbf26266b",
+      "_model_hash": "-mycmnn"
     },
     {
       "brand": "Kia",

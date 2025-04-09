@@ -685,28 +685,39 @@
           "ccs"
         ],
         "max_power": 87,
-        "is_default_charging_curve": false,
+        "is_default_charging_curve": true,
         "charging_curve": [
           {
             "percentage": 0,
             "power": 87
           },
           {
-            "percentage": 50,
+            "percentage": 20,
             "power": 87
           },
           {
+            "percentage": 40,
+            "power": 70
+          },
+          {
+            "percentage": 60,
+            "power": 52
+          },
+          {
             "percentage": 80,
-            "power": 43.5
+            "power": 35
           },
           {
             "percentage": 100,
-            "power": 17.400000000000002
+            "power": 11
           }
         ]
       },
       "vehicle_type": "car",
-      "charging_voltage": 400
+      "charging_voltage": 400,
+      "_manually_fixed_fields": [
+        "charging_curve"
+      ]
     },
     {
       "brand": "MG",
@@ -743,28 +754,39 @@
           "ccs"
         ],
         "max_power": 87,
-        "is_default_charging_curve": false,
+        "is_default_charging_curve": true,
         "charging_curve": [
           {
             "percentage": 0,
             "power": 87
           },
           {
-            "percentage": 50,
+            "percentage": 20,
             "power": 87
           },
           {
+            "percentage": 40,
+            "power": 70
+          },
+          {
+            "percentage": 60,
+            "power": 52
+          },
+          {
             "percentage": 80,
-            "power": 52.199999999999996
+            "power": 35
           },
           {
             "percentage": 100,
-            "power": 26.099999999999998
+            "power": 11
           }
         ]
       },
       "vehicle_type": "car",
-      "charging_voltage": 400
+      "charging_voltage": 400,
+      "_manually_fixed_fields": [
+        "charging_curve"
+      ]
     },
     {
       "brand": "MG",
@@ -859,28 +881,39 @@
           "ccs"
         ],
         "max_power": 144,
-        "is_default_charging_curve": false,
+        "is_default_charging_curve": true,
         "charging_curve": [
           {
             "percentage": 0,
             "power": 144
           },
           {
-            "percentage": 50,
+            "percentage": 20,
             "power": 144
           },
           {
+            "percentage": 40,
+            "power": 115
+          },
+          {
+            "percentage": 60,
+            "power": 86
+          },
+          {
             "percentage": 80,
-            "power": 86.39999999999999
+            "power": 58
           },
           {
             "percentage": 100,
-            "power": 43.199999999999996
+            "power": 11
           }
         ]
       },
       "vehicle_type": "car",
-      "charging_voltage": 400
+      "charging_voltage": 400,
+      "_manually_fixed_fields": [
+        "charging_curve"
+      ]
     },
     {
       "brand": "MG",
@@ -1331,22 +1364,33 @@
             "power": 48.8
           },
           {
-            "percentage": 50,
+            "percentage": 20,
             "power": 48.8
           },
           {
+            "percentage": 40,
+            "power": 39
+          },
+          {
+            "percentage": 60,
+            "power": 29
+          },
+          {
             "percentage": 80,
-            "power": 29.279999999999998
+            "power": 20
           },
           {
             "percentage": 100,
             "power": 11
           }
         ],
-        "is_default_charging_curve": false
+        "is_default_charging_curve": true
       },
       "brand_id": "5663b87a-d940-4bab-9846-d74c8c0ae260",
-      "id": "08d4c0ba-59fe-43eb-a64d-8f7f3e6a272c"
+      "id": "08d4c0ba-59fe-43eb-a64d-8f7f3e6a272c",
+      "_manually_fixed_fields": [
+        "charging_curve"
+      ]
     },
     {
       "brand": "MG",
@@ -1681,26 +1725,101 @@
             "power": 68.3
           },
           {
-            "percentage": 30,
+            "percentage": 20,
             "power": 68.3
           },
           {
+            "percentage": 40,
+            "power": 55
+          },
+          {
             "percentage": 60,
-            "power": 47.809999999999995
+            "power": 41
           },
           {
             "percentage": 80,
-            "power": 27.32
+            "power": 27
           },
           {
             "percentage": 100,
             "power": 11
           }
         ],
-        "is_default_charging_curve": false
+        "is_default_charging_curve": true
       },
       "brand_id": "5663b87a-d940-4bab-9846-d74c8c0ae260",
-      "id": "8b6ed245-6212-490d-9ec7-5929db917a3e"
+      "id": "8b6ed245-6212-490d-9ec7-5929db917a3e",
+      "_manually_fixed_fields": [
+        "charging_curve"
+      ]
+    },
+    {
+      "brand": "MG",
+      "model": "electric standard range",
+      "variant": "",
+      "vehicle_type": "car",
+      "usable_battery_size": 46,
+      "energy_consumption": {
+        "average_consumption": 17.4
+      },
+      "charging_voltage": 400,
+      "release_year": 2022,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2": 2,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "2.0": 2
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 46,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 46
+          },
+          {
+            "percentage": 20,
+            "power": 46
+          },
+          {
+            "percentage": 40,
+            "power": 37
+          },
+          {
+            "percentage": 60,
+            "power": 28
+          },
+          {
+            "percentage": 80,
+            "power": 18
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": true
+      },
+      "brand_id": "5663b87a-d940-4bab-9846-d74c8c0ae260",
+      "id": "ae6d3bcb-c598-4fad-8675-becf7c87e2d4",
+      "_manually_fixed_fields": [
+        "charging_curve"
+      ]
     }
   ]
 }

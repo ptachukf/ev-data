@@ -89,28 +89,39 @@
           "ccs"
         ],
         "max_power": 147,
-        "is_default_charging_curve": false,
+        "is_default_charging_curve": true,
         "charging_curve": [
           {
             "percentage": 0,
             "power": 147
           },
           {
-            "percentage": 50,
+            "percentage": 20,
             "power": 147
           },
           {
+            "percentage": 40,
+            "power": 118
+          },
+          {
+            "percentage": 60,
+            "power": 88
+          },
+          {
             "percentage": 80,
-            "power": 73.5
+            "power": 59
           },
           {
             "percentage": 100,
-            "power": 29.400000000000002
+            "power": 11
           }
         ]
       },
       "vehicle_type": "car",
-      "charging_voltage": 400
+      "charging_voltage": 400,
+      "_manually_fixed_fields": [
+        "charging_curve"
+      ]
     },
     {
       "brand": "Lexus",

@@ -1128,7 +1128,39 @@
           "7.4": 3.6
         }
       },
-      "dc_charger": null,
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 150,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 150
+          },
+          {
+            "percentage": 20,
+            "power": 150
+          },
+          {
+            "percentage": 40,
+            "power": 120
+          },
+          {
+            "percentage": 60,
+            "power": 90
+          },
+          {
+            "percentage": 80,
+            "power": 60
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": true
+      },
       "energy_consumption": {
         "average_consumption": 16.8
       },
@@ -1160,7 +1192,39 @@
           "7.4": 7.2
         }
       },
-      "dc_charger": null,
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 150,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 150
+          },
+          {
+            "percentage": 20,
+            "power": 150
+          },
+          {
+            "percentage": 40,
+            "power": 120
+          },
+          {
+            "percentage": 60,
+            "power": 90
+          },
+          {
+            "percentage": 80,
+            "power": 60
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": true
+      },
       "energy_consumption": {
         "average_consumption": 16.6
       },
@@ -1956,19 +2020,27 @@
             "power": 101
           },
           {
-            "percentage": 50,
+            "percentage": 20,
             "power": 101
           },
           {
+            "percentage": 40,
+            "power": 81
+          },
+          {
+            "percentage": 60,
+            "power": 61
+          },
+          {
             "percentage": 80,
-            "power": 60.599999999999994
+            "power": 40
           },
           {
             "percentage": 100,
-            "power": 30.299999999999997
+            "power": 11
           }
         ],
-        "is_default_charging_curve": false
+        "is_default_charging_curve": true
       },
       "id": "22b86216-2ae4-431f-930c-bfbf83e7a1c6",
       "brand_id": "481793f5-c8b0-4dc9-b3d4-cc615085ac07",
@@ -1977,7 +2049,10 @@
       "usable_battery_size": 45,
       "energy_consumption": {
         "average_consumption": 16.4
-      }
+      },
+      "_manually_fixed_fields": [
+        "charging_curve"
+      ]
     },
     {
       "brand": "Volkswagen",
@@ -2623,14 +2698,16 @@
       "charging_voltage": 400
     },
     {
-      "id": "fda95cb7-d391-4344-851e-a1b5a548b42b",
       "brand": "Volkswagen",
-      "vehicle_type": "car",
-      "brand_id": "481793f5-c8b0-4dc9-b3d4-cc615085ac07",
       "model": "e-Golf",
-      "release_year": 2014,
       "variant": "",
-      "usable_battery_size": 21.2,
+      "vehicle_type": "car",
+      "usable_battery_size": 20.5,
+      "energy_consumption": {
+        "average_consumption": 16.4
+      },
+      "charging_voltage": 400,
+      "release_year": 2014,
       "ac_charger": {
         "usable_phases": 3,
         "ports": [
@@ -2643,10 +2720,10 @@
           "16": 16,
           "22": 20.5,
           "43": 20.5,
-          "2.0": 2,
           "2.3": 2.3,
           "3.7": 3.7,
-          "7.4": 7.4
+          "7.4": 7.4,
+          "2.0": 2
         }
       },
       "dc_charger": {
@@ -2674,10 +2751,9 @@
         ],
         "is_default_charging_curve": false
       },
-      "energy_consumption": {
-        "average_consumption": 16.4
-      },
-      "charging_voltage": 400
+      "brand_id": "481793f5-c8b0-4dc9-b3d4-cc615085ac07",
+      "id": "4185879e-14ae-453a-b774-63a52b8360a5",
+      "_model_hash": "-7yfye3"
     },
     {
       "brand": "Volkswagen",
@@ -2859,9 +2935,9 @@
       "model": "1st",
       "variant": "",
       "vehicle_type": "car",
-      "usable_battery_size": 77,
+      "usable_battery_size": 58,
       "energy_consumption": {
-        "average_consumption": 18.8
+        "average_consumption": 16.6
       },
       "charging_voltage": 400,
       "release_year": 2020,
@@ -2887,23 +2963,19 @@
         "ports": [
           "ccs"
         ],
-        "max_power": 77,
+        "max_power": 58,
         "charging_curve": [
           {
             "percentage": 0,
-            "power": 77
+            "power": 58
           },
           {
-            "percentage": 30,
-            "power": 77
-          },
-          {
-            "percentage": 60,
-            "power": 53.9
+            "percentage": 50,
+            "power": 58
           },
           {
             "percentage": 80,
-            "power": 30.8
+            "power": 34.8
           },
           {
             "percentage": 100,
@@ -2913,7 +2985,8 @@
         "is_default_charging_curve": false
       },
       "brand_id": "481793f5-c8b0-4dc9-b3d4-cc615085ac07",
-      "id": "75ef2863-e6a8-4c5e-9270-9bf34ca06a4b"
+      "id": "0c7c7597-02b5-4a43-99de-e6f11dd3c240",
+      "_model_hash": "ok2nqa"
     },
     {
       "brand": "Volkswagen",
@@ -2977,9 +3050,9 @@
       "model": "pro",
       "variant": "performance",
       "vehicle_type": "car",
-      "usable_battery_size": 77,
+      "usable_battery_size": 58,
       "energy_consumption": {
-        "average_consumption": 18.8
+        "average_consumption": 16.6
       },
       "charging_voltage": 400,
       "release_year": 2021,
@@ -3005,23 +3078,19 @@
         "ports": [
           "ccs"
         ],
-        "max_power": 77,
+        "max_power": 58,
         "charging_curve": [
           {
             "percentage": 0,
-            "power": 77
+            "power": 58
           },
           {
-            "percentage": 30,
-            "power": 77
-          },
-          {
-            "percentage": 60,
-            "power": 53.9
+            "percentage": 50,
+            "power": 58
           },
           {
             "percentage": 80,
-            "power": 30.8
+            "power": 34.8
           },
           {
             "percentage": 100,
@@ -3031,16 +3100,17 @@
         "is_default_charging_curve": false
       },
       "brand_id": "481793f5-c8b0-4dc9-b3d4-cc615085ac07",
-      "id": "c942e599-f424-47b2-9b2d-2bd66cdfb902"
+      "id": "5cf817a1-33ae-4894-9d54-950264db5ba9",
+      "_model_hash": "-uqz7u"
     },
     {
       "brand": "Volkswagen",
       "model": "pure",
       "variant": "performance",
       "vehicle_type": "car",
-      "usable_battery_size": 52,
+      "usable_battery_size": 45,
       "energy_consumption": {
-        "average_consumption": 18.2
+        "average_consumption": 16.4
       },
       "charging_voltage": 400,
       "release_year": 2021,
@@ -3066,19 +3136,19 @@
         "ports": [
           "ccs"
         ],
-        "max_power": 52,
+        "max_power": 45,
         "charging_curve": [
           {
             "percentage": 0,
-            "power": 52
+            "power": 45
           },
           {
             "percentage": 50,
-            "power": 52
+            "power": 45
           },
           {
             "percentage": 80,
-            "power": 31.2
+            "power": 27
           },
           {
             "percentage": 100,
@@ -3088,7 +3158,8 @@
         "is_default_charging_curve": false
       },
       "brand_id": "481793f5-c8b0-4dc9-b3d4-cc615085ac07",
-      "id": "b6912c1b-092d-4668-ab0e-d11514d06e61"
+      "id": "afe4bd8f-fb94-4d2f-8f9d-8a4c13853e05",
+      "_model_hash": "ho8roh"
     },
     {
       "brand": "Volkswagen",
@@ -3394,7 +3465,7 @@
       "vehicle_type": "car",
       "usable_battery_size": 77,
       "energy_consumption": {
-        "average_consumption": 17.9
+        "average_consumption": 18.8
       },
       "charging_voltage": 400,
       "release_year": 2022,
@@ -3446,7 +3517,8 @@
         "is_default_charging_curve": false
       },
       "brand_id": "481793f5-c8b0-4dc9-b3d4-cc615085ac07",
-      "id": "1f66dbd4-f8a4-4d44-b4d6-3a95b7616f05"
+      "id": "1f66dbd4-f8a4-4d44-b4d6-3a95b7616f05",
+      "_model_hash": "-82nza6"
     },
     {
       "brand": "Volkswagen",
@@ -3569,6 +3641,67 @@
       },
       "brand_id": "481793f5-c8b0-4dc9-b3d4-cc615085ac07",
       "id": "5f3c6936-7737-4db1-b941-1da7a223bf73"
+    },
+    {
+      "brand": "Volkswagen",
+      "model": "buzz pro",
+      "variant": "",
+      "vehicle_type": "car",
+      "usable_battery_size": 77,
+      "energy_consumption": {
+        "average_consumption": 22.3
+      },
+      "charging_voltage": 400,
+      "release_year": 2022,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2": 2,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "2.0": 2
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 77,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 77
+          },
+          {
+            "percentage": 30,
+            "power": 77
+          },
+          {
+            "percentage": 60,
+            "power": 53.9
+          },
+          {
+            "percentage": 80,
+            "power": 30.8
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "481793f5-c8b0-4dc9-b3d4-cc615085ac07",
+      "id": "5e90cf3f-d580-435d-a1a5-a9d693f238cc"
     }
   ]
 }

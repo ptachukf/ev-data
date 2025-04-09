@@ -98,19 +98,27 @@
             "power": 92
           },
           {
-            "percentage": 50,
+            "percentage": 20,
             "power": 92
           },
           {
+            "percentage": 40,
+            "power": 74
+          },
+          {
+            "percentage": 60,
+            "power": 55
+          },
+          {
             "percentage": 80,
-            "power": 55.199999999999996
+            "power": 37
           },
           {
             "percentage": 100,
-            "power": 27.599999999999998
+            "power": 11
           }
         ],
-        "is_default_charging_curve": false
+        "is_default_charging_curve": true
       },
       "id": "6b7e4753-42d2-4bf3-93fe-28e8f10e6fd8",
       "brand_id": "a43d2607-eead-46c2-9fd5-2ebd3c49d895",
@@ -119,7 +127,10 @@
         "average_consumption": 17.1
       },
       "vehicle_type": "car",
-      "charging_voltage": 400
+      "charging_voltage": 400,
+      "_manually_fixed_fields": [
+        "charging_curve"
+      ]
     }
   ]
 }

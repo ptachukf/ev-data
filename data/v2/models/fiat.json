@@ -337,19 +337,27 @@
             "power": 101
           },
           {
-            "percentage": 50,
+            "percentage": 20,
             "power": 101
           },
           {
+            "percentage": 40,
+            "power": 81
+          },
+          {
+            "percentage": 60,
+            "power": 61
+          },
+          {
             "percentage": 80,
-            "power": 60.599999999999994
+            "power": 40
           },
           {
             "percentage": 100,
-            "power": 30.299999999999997
+            "power": 11
           }
         ],
-        "is_default_charging_curve": false
+        "is_default_charging_curve": true
       },
       "id": "4b22bd00-15c6-448b-9ebb-4b5a6da57b07",
       "brand_id": "3291e5ba-862c-49fa-8437-71105743875e",
@@ -358,7 +366,10 @@
         "average_consumption": 25
       },
       "vehicle_type": "car",
-      "charging_voltage": 400
+      "charging_voltage": 400,
+      "_manually_fixed_fields": [
+        "charging_curve"
+      ]
     },
     {
       "brand": "Fiat",
@@ -455,19 +466,27 @@
             "power": 101
           },
           {
-            "percentage": 50,
+            "percentage": 20,
             "power": 101
           },
           {
+            "percentage": 40,
+            "power": 81
+          },
+          {
+            "percentage": 60,
+            "power": 61
+          },
+          {
             "percentage": 80,
-            "power": 60.599999999999994
+            "power": 40
           },
           {
             "percentage": 100,
-            "power": 30.299999999999997
+            "power": 11
           }
         ],
-        "is_default_charging_curve": false
+        "is_default_charging_curve": true
       },
       "id": "4f788c25-1cf9-4772-bf6c-dcec5a49df42",
       "brand_id": "3291e5ba-862c-49fa-8437-71105743875e",
@@ -476,7 +495,10 @@
         "average_consumption": 25.7
       },
       "vehicle_type": "car",
-      "charging_voltage": 400
+      "charging_voltage": 400,
+      "_manually_fixed_fields": [
+        "charging_curve"
+      ]
     },
     {
       "brand": "Fiat",
@@ -634,22 +656,33 @@
             "power": 37.3
           },
           {
-            "percentage": 50,
+            "percentage": 20,
             "power": 37.3
+          },
+          {
+            "percentage": 40,
+            "power": 30
+          },
+          {
+            "percentage": 60,
+            "power": 22
           },
           {
             "percentage": 80,
-            "power": 22.38
+            "power": 15
           },
           {
             "percentage": 100,
-            "power": 37.3
+            "power": 11
           }
         ],
-        "is_default_charging_curve": false
+        "is_default_charging_curve": true
       },
       "brand_id": "3291e5ba-862c-49fa-8437-71105743875e",
-      "id": "d96cebaf-2c0f-4764-95d4-2e2e1de8e7ee"
+      "id": "d96cebaf-2c0f-4764-95d4-2e2e1de8e7ee",
+      "_manually_fixed_fields": [
+        "charging_curve"
+      ]
     },
     {
       "brand": "Fiat",
@@ -691,22 +724,33 @@
             "power": 21.3
           },
           {
-            "percentage": 70,
+            "percentage": 20,
             "power": 21.3
+          },
+          {
+            "percentage": 40,
+            "power": 17
+          },
+          {
+            "percentage": 60,
+            "power": 13
           },
           {
             "percentage": 80,
-            "power": 14.91
+            "power": 9
           },
           {
             "percentage": 100,
-            "power": 21.3
+            "power": 11
           }
         ],
-        "is_default_charging_curve": false
+        "is_default_charging_curve": true
       },
       "brand_id": "3291e5ba-862c-49fa-8437-71105743875e",
-      "id": "d5f83217-02c7-44e0-bb51-fc97f0c27733"
+      "id": "d5f83217-02c7-44e0-bb51-fc97f0c27733",
+      "_manually_fixed_fields": [
+        "charging_curve"
+      ]
     },
     {
       "brand": "Fiat",

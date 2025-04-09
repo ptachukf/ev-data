@@ -28,7 +28,39 @@
           "7.4": 3.6
         }
       },
-      "dc_charger": null,
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 150,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 150
+          },
+          {
+            "percentage": 20,
+            "power": 150
+          },
+          {
+            "percentage": 40,
+            "power": 120
+          },
+          {
+            "percentage": 60,
+            "power": 90
+          },
+          {
+            "percentage": 80,
+            "power": 60
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": true
+      },
       "energy_consumption": {
         "average_consumption": 15.5
       },
@@ -60,7 +92,39 @@
           "7.4": 3.6
         }
       },
-      "dc_charger": null,
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 150,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 150
+          },
+          {
+            "percentage": 20,
+            "power": 150
+          },
+          {
+            "percentage": 40,
+            "power": 120
+          },
+          {
+            "percentage": 60,
+            "power": 90
+          },
+          {
+            "percentage": 80,
+            "power": 60
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": true
+      },
       "energy_consumption": {
         "average_consumption": 15.5
       },
@@ -92,7 +156,39 @@
           "7.4": 3.6
         }
       },
-      "dc_charger": null,
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 150,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 150
+          },
+          {
+            "percentage": 20,
+            "power": 150
+          },
+          {
+            "percentage": 40,
+            "power": 120
+          },
+          {
+            "percentage": 60,
+            "power": 90
+          },
+          {
+            "percentage": 80,
+            "power": 60
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": true
+      },
       "energy_consumption": {
         "average_consumption": 15.5
       },

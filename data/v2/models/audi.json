@@ -1193,28 +1193,39 @@
           "ccs"
         ],
         "max_power": 268,
-        "is_default_charging_curve": false,
+        "is_default_charging_curve": true,
         "charging_curve": [
           {
             "percentage": 0,
             "power": 268
           },
           {
-            "percentage": 50,
+            "percentage": 20,
             "power": 268
           },
           {
+            "percentage": 40,
+            "power": 214
+          },
+          {
+            "percentage": 60,
+            "power": 161
+          },
+          {
             "percentage": 80,
-            "power": 160.79999999999998
+            "power": 107
           },
           {
             "percentage": 100,
-            "power": 80.39999999999999
+            "power": 11
           }
         ]
       },
       "vehicle_type": "car",
-      "charging_voltage": 400
+      "charging_voltage": 400,
+      "_manually_fixed_fields": [
+        "charging_curve"
+      ]
     },
     {
       "brand": "Audi",
@@ -1938,7 +1949,39 @@
           "7.4": 7.4
         }
       },
-      "dc_charger": null,
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 150,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 150
+          },
+          {
+            "percentage": 20,
+            "power": 150
+          },
+          {
+            "percentage": 40,
+            "power": 120
+          },
+          {
+            "percentage": 60,
+            "power": 90
+          },
+          {
+            "percentage": 80,
+            "power": 60
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": true
+      },
       "id": "d5d31894-1a64-4c91-8ed0-066cc5744f8b",
       "brand_id": "89c2668c-0c50-4344-9386-93e4000f7673",
       "usable_battery_size": 77,
@@ -2209,7 +2252,39 @@
           "7.4": 7.4
         }
       },
-      "dc_charger": null,
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 150,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 150
+          },
+          {
+            "percentage": 20,
+            "power": 150
+          },
+          {
+            "percentage": 40,
+            "power": 120
+          },
+          {
+            "percentage": 60,
+            "power": 90
+          },
+          {
+            "percentage": 80,
+            "power": 60
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": true
+      },
       "id": "f813b472-d164-41b9-b599-a8347f04adce",
       "brand_id": "89c2668c-0c50-4344-9386-93e4000f7673",
       "usable_battery_size": 64.7,
@@ -2303,7 +2378,39 @@
           "7.4": 7.4
         }
       },
-      "dc_charger": null,
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 150,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 150
+          },
+          {
+            "percentage": 20,
+            "power": 150
+          },
+          {
+            "percentage": 40,
+            "power": 120
+          },
+          {
+            "percentage": 60,
+            "power": 90
+          },
+          {
+            "percentage": 80,
+            "power": 60
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": true
+      },
       "id": "22e9874b-60b1-43a1-b150-2d42181d6c7c",
       "brand_id": "89c2668c-0c50-4344-9386-93e4000f7673",
       "usable_battery_size": 77,
@@ -2338,7 +2445,39 @@
           "7.4": 7.4
         }
       },
-      "dc_charger": null,
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 150,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 150
+          },
+          {
+            "percentage": 20,
+            "power": 150
+          },
+          {
+            "percentage": 40,
+            "power": 120
+          },
+          {
+            "percentage": 60,
+            "power": 90
+          },
+          {
+            "percentage": 80,
+            "power": 60
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": true
+      },
       "id": "e767341e-a7dc-44e3-aa0f-4cd134b6d130",
       "brand_id": "89c2668c-0c50-4344-9386-93e4000f7673",
       "usable_battery_size": 77,
@@ -3100,26 +3239,33 @@
             "power": 64.7
           },
           {
-            "percentage": 30,
+            "percentage": 20,
             "power": 64.7
           },
           {
+            "percentage": 40,
+            "power": 52
+          },
+          {
             "percentage": 60,
-            "power": 45.29
+            "power": 39
           },
           {
             "percentage": 80,
-            "power": 25.880000000000003
+            "power": 26
           },
           {
             "percentage": 100,
             "power": 11
           }
         ],
-        "is_default_charging_curve": false
+        "is_default_charging_curve": true
       },
       "brand_id": "89c2668c-0c50-4344-9386-93e4000f7673",
-      "id": "bb860940-5974-40b9-8858-8f06159c2e92"
+      "id": "bb860940-5974-40b9-8858-8f06159c2e92",
+      "_manually_fixed_fields": [
+        "charging_curve"
+      ]
     },
     {
       "brand": "Audi",
@@ -3161,26 +3307,33 @@
             "power": 64.7
           },
           {
-            "percentage": 30,
+            "percentage": 20,
             "power": 64.7
           },
           {
+            "percentage": 40,
+            "power": 52
+          },
+          {
             "percentage": 60,
-            "power": 45.29
+            "power": 39
           },
           {
             "percentage": 80,
-            "power": 25.880000000000003
+            "power": 26
           },
           {
             "percentage": 100,
             "power": 11
           }
         ],
-        "is_default_charging_curve": false
+        "is_default_charging_curve": true
       },
       "brand_id": "89c2668c-0c50-4344-9386-93e4000f7673",
-      "id": "a35202cb-3209-44e9-9974-e306a408dea9"
+      "id": "a35202cb-3209-44e9-9974-e306a408dea9",
+      "_manually_fixed_fields": [
+        "charging_curve"
+      ]
     },
     {
       "brand": "Audi",
@@ -3645,26 +3798,33 @@
             "power": 76.6
           },
           {
-            "percentage": 30,
+            "percentage": 20,
             "power": 76.6
           },
           {
+            "percentage": 40,
+            "power": 61
+          },
+          {
             "percentage": 60,
-            "power": 53.61999999999999
+            "power": 46
           },
           {
             "percentage": 80,
-            "power": 30.64
+            "power": 31
           },
           {
             "percentage": 100,
             "power": 11
           }
         ],
-        "is_default_charging_curve": false
+        "is_default_charging_curve": true
       },
       "brand_id": "89c2668c-0c50-4344-9386-93e4000f7673",
-      "id": "b8011aff-b32d-4427-b0b1-dba3131766d5"
+      "id": "b8011aff-b32d-4427-b0b1-dba3131766d5",
+      "_manually_fixed_fields": [
+        "charging_curve"
+      ]
     },
     {
       "brand": "Audi",
@@ -3706,26 +3866,33 @@
             "power": 76.6
           },
           {
-            "percentage": 30,
+            "percentage": 20,
             "power": 76.6
           },
           {
+            "percentage": 40,
+            "power": 61
+          },
+          {
             "percentage": 60,
-            "power": 53.61999999999999
+            "power": 46
           },
           {
             "percentage": 80,
-            "power": 30.64
+            "power": 31
           },
           {
             "percentage": 100,
             "power": 11
           }
         ],
-        "is_default_charging_curve": false
+        "is_default_charging_curve": true
       },
       "brand_id": "89c2668c-0c50-4344-9386-93e4000f7673",
-      "id": "775b258d-59dc-40fb-8f44-a3d732cee8f4"
+      "id": "775b258d-59dc-40fb-8f44-a3d732cee8f4",
+      "_manually_fixed_fields": [
+        "charging_curve"
+      ]
     },
     {
       "brand": "Audi",
@@ -3767,26 +3934,33 @@
             "power": 76.6
           },
           {
-            "percentage": 30,
+            "percentage": 20,
             "power": 76.6
           },
           {
+            "percentage": 40,
+            "power": 61
+          },
+          {
             "percentage": 60,
-            "power": 53.61999999999999
+            "power": 46
           },
           {
             "percentage": 80,
-            "power": 30.64
+            "power": 31
           },
           {
             "percentage": 100,
-            "power": 4
+            "power": 11
           }
         ],
-        "is_default_charging_curve": false
+        "is_default_charging_curve": true
       },
       "brand_id": "89c2668c-0c50-4344-9386-93e4000f7673",
-      "id": "a2c69407-876c-41b5-96c8-e61020bafb5e"
+      "id": "a2c69407-876c-41b5-96c8-e61020bafb5e",
+      "_manually_fixed_fields": [
+        "charging_curve"
+      ]
     },
     {
       "brand": "Audi",
@@ -3828,26 +4002,33 @@
             "power": 76.6
           },
           {
-            "percentage": 30,
+            "percentage": 20,
             "power": 76.6
           },
           {
+            "percentage": 40,
+            "power": 61
+          },
+          {
             "percentage": 60,
-            "power": 53.61999999999999
+            "power": 46
           },
           {
             "percentage": 80,
-            "power": 30.64
+            "power": 31
           },
           {
             "percentage": 100,
             "power": 11
           }
         ],
-        "is_default_charging_curve": false
+        "is_default_charging_curve": true
       },
       "brand_id": "89c2668c-0c50-4344-9386-93e4000f7673",
-      "id": "231b2a4e-b41d-428d-b416-d46fa583466a"
+      "id": "231b2a4e-b41d-428d-b416-d46fa583466a",
+      "_manually_fixed_fields": [
+        "charging_curve"
+      ]
     },
     {
       "brand": "Audi",
@@ -3889,26 +4070,219 @@
             "power": 76.6
           },
           {
-            "percentage": 30,
+            "percentage": 20,
             "power": 76.6
           },
           {
+            "percentage": 40,
+            "power": 61
+          },
+          {
             "percentage": 60,
-            "power": 53.61999999999999
+            "power": 46
           },
           {
             "percentage": 80,
-            "power": 30.64
+            "power": 31
           },
           {
             "percentage": 100,
-            "power": 4
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": true
+      },
+      "brand_id": "89c2668c-0c50-4344-9386-93e4000f7673",
+      "id": "e92a2805-150c-46cd-b68c-e62552251f9b",
+      "_manually_fixed_fields": [
+        "charging_curve"
+      ]
+    },
+    {
+      "brand": "Audi",
+      "model": "s",
+      "variant": "",
+      "vehicle_type": "car",
+      "usable_battery_size": 86.5,
+      "energy_consumption": {
+        "average_consumption": 27
+      },
+      "charging_voltage": 400,
+      "release_year": 2021,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2": 2,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "2.0": 2
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 86.5,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 86.5
+          },
+          {
+            "percentage": 30,
+            "power": 86.5
+          },
+          {
+            "percentage": 60,
+            "power": 60.55
+          },
+          {
+            "percentage": 80,
+            "power": 34.6
+          },
+          {
+            "percentage": 100,
+            "power": 11
           }
         ],
         "is_default_charging_curve": false
       },
       "brand_id": "89c2668c-0c50-4344-9386-93e4000f7673",
-      "id": "e92a2805-150c-46cd-b68c-e62552251f9b"
+      "id": "f55f84e8-7b57-4bf5-ac5a-e7cd1a88e5cb",
+      "_model_hash": "-9drdf0"
+    },
+    {
+      "brand": "Audi",
+      "model": "s sportback",
+      "variant": "",
+      "vehicle_type": "car",
+      "usable_battery_size": 86.5,
+      "energy_consumption": {
+        "average_consumption": 26.2
+      },
+      "charging_voltage": 400,
+      "release_year": 2021,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2": 2,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "2.0": 2
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 86.5,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 86.5
+          },
+          {
+            "percentage": 30,
+            "power": 86.5
+          },
+          {
+            "percentage": 60,
+            "power": 60.55
+          },
+          {
+            "percentage": 80,
+            "power": 34.6
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "89c2668c-0c50-4344-9386-93e4000f7673",
+      "id": "86fde515-edb5-4043-a751-f46d2fda42f0",
+      "_model_hash": "-iskssn"
+    },
+    {
+      "brand": "Audi",
+      "model": "50",
+      "variant": "quattro",
+      "vehicle_type": "car",
+      "usable_battery_size": 64.7,
+      "energy_consumption": {
+        "average_consumption": 23.1
+      },
+      "charging_voltage": 400,
+      "release_year": 2021,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2": 2,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "2.0": 2
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 64.7,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 64.7
+          },
+          {
+            "percentage": 30,
+            "power": 64.7
+          },
+          {
+            "percentage": 60,
+            "power": 45.29
+          },
+          {
+            "percentage": 80,
+            "power": 25.88
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "89c2668c-0c50-4344-9386-93e4000f7673",
+      "id": "c488cfd1-98d3-403f-9b07-f352a908a2cb",
+      "_model_hash": "nazb5y"
     }
   ]
 }

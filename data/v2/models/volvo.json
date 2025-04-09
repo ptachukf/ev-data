@@ -1182,19 +1182,27 @@
             "power": 149
           },
           {
-            "percentage": 50,
+            "percentage": 20,
             "power": 149
           },
           {
+            "percentage": 40,
+            "power": 119
+          },
+          {
+            "percentage": 60,
+            "power": 89
+          },
+          {
             "percentage": 80,
-            "power": 89.39999999999999
+            "power": 60
           },
           {
             "percentage": 100,
-            "power": 44.699999999999996
+            "power": 11
           }
         ],
-        "is_default_charging_curve": false
+        "is_default_charging_curve": true
       },
       "id": "48f941d9-cfed-4b67-8b0e-1ff33e40f80f",
       "brand_id": "2e55ea02-c829-4256-94fd-ffc971a1dd8e",
@@ -1203,7 +1211,10 @@
       "usable_battery_size": 75,
       "energy_consumption": {
         "average_consumption": 22.4
-      }
+      },
+      "_manually_fixed_fields": [
+        "charging_curve"
+      ]
     },
     {
       "brand": "Volvo",
@@ -1654,19 +1665,27 @@
             "power": 149
           },
           {
-            "percentage": 50,
+            "percentage": 20,
             "power": 149
           },
           {
+            "percentage": 40,
+            "power": 119
+          },
+          {
+            "percentage": 60,
+            "power": 89
+          },
+          {
             "percentage": 80,
-            "power": 89.39999999999999
+            "power": 60
           },
           {
             "percentage": 100,
-            "power": 44.699999999999996
+            "power": 11
           }
         ],
-        "is_default_charging_curve": false
+        "is_default_charging_curve": true
       },
       "id": "ed38473a-d731-421c-9ca3-db7fdf4774d1",
       "brand_id": "2e55ea02-c829-4256-94fd-ffc971a1dd8e",
@@ -1675,7 +1694,10 @@
       "usable_battery_size": 75,
       "energy_consumption": {
         "average_consumption": 21.4
-      }
+      },
+      "_manually_fixed_fields": [
+        "charging_curve"
+      ]
     },
     {
       "brand": "Volvo",
@@ -1772,19 +1794,27 @@
             "power": 149
           },
           {
-            "percentage": 50,
+            "percentage": 20,
             "power": 149
           },
           {
+            "percentage": 40,
+            "power": 119
+          },
+          {
+            "percentage": 60,
+            "power": 89
+          },
+          {
             "percentage": 80,
-            "power": 89.39999999999999
+            "power": 60
           },
           {
             "percentage": 100,
-            "power": 44.699999999999996
+            "power": 11
           }
         ],
-        "is_default_charging_curve": false
+        "is_default_charging_curve": true
       },
       "id": "cd63310e-1045-4ff5-a9d3-ae75afdb40ad",
       "brand_id": "2e55ea02-c829-4256-94fd-ffc971a1dd8e",
@@ -1793,7 +1823,10 @@
       "usable_battery_size": 75,
       "energy_consumption": {
         "average_consumption": 20.8
-      }
+      },
+      "_manually_fixed_fields": [
+        "charging_curve"
+      ]
     },
     {
       "brand": "Volvo",
@@ -1854,7 +1887,8 @@
         "is_default_charging_curve": false
       },
       "brand_id": "2e55ea02-c829-4256-94fd-ffc971a1dd8e",
-      "id": "238194ef-0943-4661-823b-83a02014970f"
+      "id": "238194ef-0943-4661-823b-83a02014970f",
+      "_model_hash": "1sj2yl"
     },
     {
       "brand": "Volvo",
@@ -1915,7 +1949,8 @@
         "is_default_charging_curve": false
       },
       "brand_id": "2e55ea02-c829-4256-94fd-ffc971a1dd8e",
-      "id": "07943307-23d5-4e6e-98c0-c56778733b74"
+      "id": "07943307-23d5-4e6e-98c0-c56778733b74",
+      "_model_hash": "-1w56c9"
     },
     {
       "brand": "Volvo",
@@ -1977,6 +2012,129 @@
       },
       "brand_id": "2e55ea02-c829-4256-94fd-ffc971a1dd8e",
       "id": "68b5d90d-e44f-4441-b0ae-267a28daa6e5"
+    },
+    {
+      "brand": "Volvo",
+      "model": "recharge pure electric",
+      "variant": "",
+      "vehicle_type": "car",
+      "usable_battery_size": 67,
+      "energy_consumption": {
+        "average_consumption": 20
+      },
+      "charging_voltage": 400,
+      "release_year": 2022,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2": 2,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "2.0": 2
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 67,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 67
+          },
+          {
+            "percentage": 30,
+            "power": 67
+          },
+          {
+            "percentage": 60,
+            "power": 46.9
+          },
+          {
+            "percentage": 80,
+            "power": 26.8
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "2e55ea02-c829-4256-94fd-ffc971a1dd8e",
+      "id": "4b24fa58-3b0e-48e0-82c3-002a860ba4cf",
+      "_model_hash": "frm3n"
+    },
+    {
+      "brand": "Volvo",
+      "model": "recharge twin pure electric",
+      "variant": "",
+      "vehicle_type": "car",
+      "usable_battery_size": 75,
+      "energy_consumption": {
+        "average_consumption": 21.4
+      },
+      "charging_voltage": 400,
+      "release_year": 2022,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2": 2,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "2.0": 2
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 75,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 75
+          },
+          {
+            "percentage": 30,
+            "power": 75
+          },
+          {
+            "percentage": 60,
+            "power": 52.5
+          },
+          {
+            "percentage": 80,
+            "power": 30
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "2e55ea02-c829-4256-94fd-ffc971a1dd8e",
+      "id": "09f206e1-8af9-4c59-a345-3ec33936637d"
     }
   ]
 }

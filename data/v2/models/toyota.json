@@ -205,28 +205,39 @@
           "ccs"
         ],
         "max_power": 147,
-        "is_default_charging_curve": false,
+        "is_default_charging_curve": true,
         "charging_curve": [
           {
             "percentage": 0,
             "power": 147
           },
           {
-            "percentage": 50,
+            "percentage": 20,
             "power": 147
           },
           {
+            "percentage": 40,
+            "power": 118
+          },
+          {
+            "percentage": 60,
+            "power": 88
+          },
+          {
             "percentage": 80,
-            "power": 73.5
+            "power": 59
           },
           {
             "percentage": 100,
-            "power": 29.400000000000002
+            "power": 11
           }
         ]
       },
       "vehicle_type": "car",
-      "charging_voltage": 400
+      "charging_voltage": 400,
+      "_manually_fixed_fields": [
+        "charging_curve"
+      ]
     },
     {
       "brand": "Toyota",
@@ -441,19 +452,27 @@
             "power": 101
           },
           {
-            "percentage": 50,
+            "percentage": 20,
             "power": 101
           },
           {
+            "percentage": 40,
+            "power": 81
+          },
+          {
+            "percentage": 60,
+            "power": 61
+          },
+          {
             "percentage": 80,
-            "power": 60.599999999999994
+            "power": 40
           },
           {
             "percentage": 100,
-            "power": 30.299999999999997
+            "power": 11
           }
         ],
-        "is_default_charging_curve": false
+        "is_default_charging_curve": true
       },
       "id": "663e27df-6505-480a-ac25-c277b9686d38",
       "brand_id": "b586dda4-a6ba-54e4-ee6d-9d6a098d4751",
@@ -462,7 +481,10 @@
       "usable_battery_size": 50,
       "energy_consumption": {
         "average_consumption": 25.7
-      }
+      },
+      "_manually_fixed_fields": [
+        "charging_curve"
+      ]
     },
     {
       "brand": "Toyota",
@@ -559,19 +581,27 @@
             "power": 101
           },
           {
-            "percentage": 50,
+            "percentage": 20,
             "power": 101
           },
           {
+            "percentage": 40,
+            "power": 81
+          },
+          {
+            "percentage": 60,
+            "power": 61
+          },
+          {
             "percentage": 80,
-            "power": 60.599999999999994
+            "power": 40
           },
           {
             "percentage": 100,
-            "power": 30.299999999999997
+            "power": 11
           }
         ],
-        "is_default_charging_curve": false
+        "is_default_charging_curve": true
       },
       "id": "a08c3a34-ff8d-4485-a237-a3b1ec021bc1",
       "brand_id": "b586dda4-a6ba-54e4-ee6d-9d6a098d4751",
@@ -580,7 +610,10 @@
       "usable_battery_size": 50,
       "energy_consumption": {
         "average_consumption": 25.7
-      }
+      },
+      "_manually_fixed_fields": [
+        "charging_curve"
+      ]
     },
     {
       "brand": "Toyota",
@@ -618,19 +651,27 @@
             "power": 101
           },
           {
-            "percentage": 50,
+            "percentage": 20,
             "power": 101
           },
           {
+            "percentage": 40,
+            "power": 81
+          },
+          {
+            "percentage": 60,
+            "power": 61
+          },
+          {
             "percentage": 80,
-            "power": 60.599999999999994
+            "power": 40
           },
           {
             "percentage": 100,
-            "power": 30.299999999999997
+            "power": 11
           }
         ],
-        "is_default_charging_curve": false
+        "is_default_charging_curve": true
       },
       "id": "8322a6d5-60f0-4ff3-b18d-a6375bcf0649",
       "brand_id": "b586dda4-a6ba-54e4-ee6d-9d6a098d4751",
@@ -639,7 +680,10 @@
       "usable_battery_size": 50,
       "energy_consumption": {
         "average_consumption": 25
-      }
+      },
+      "_manually_fixed_fields": [
+        "charging_curve"
+      ]
     },
     {
       "brand": "Toyota",
@@ -795,19 +839,27 @@
             "power": 101
           },
           {
-            "percentage": 50,
+            "percentage": 20,
             "power": 101
           },
           {
+            "percentage": 40,
+            "power": 81
+          },
+          {
+            "percentage": 60,
+            "power": 61
+          },
+          {
             "percentage": 80,
-            "power": 60.599999999999994
+            "power": 40
           },
           {
             "percentage": 100,
-            "power": 30.299999999999997
+            "power": 11
           }
         ],
-        "is_default_charging_curve": false
+        "is_default_charging_curve": true
       },
       "id": "1a013921-4fc3-4826-9c8f-b5822ca98bb7",
       "brand_id": "b586dda4-a6ba-54e4-ee6d-9d6a098d4751",
@@ -816,7 +868,10 @@
       "usable_battery_size": 50,
       "energy_consumption": {
         "average_consumption": 25.7
-      }
+      },
+      "_manually_fixed_fields": [
+        "charging_curve"
+      ]
     },
     {
       "brand": "Toyota",
@@ -858,22 +913,33 @@
             "power": 46.3
           },
           {
-            "percentage": 50,
+            "percentage": 20,
             "power": 46.3
           },
           {
+            "percentage": 40,
+            "power": 37
+          },
+          {
+            "percentage": 60,
+            "power": 28
+          },
+          {
             "percentage": 80,
-            "power": 27.779999999999998
+            "power": 19
           },
           {
             "percentage": 100,
             "power": 11
           }
         ],
-        "is_default_charging_curve": false
+        "is_default_charging_curve": true
       },
       "brand_id": "b586dda4-a6ba-54e4-ee6d-9d6a098d4751",
-      "id": "f252e1c0-63d7-4c97-9905-e6a141801137"
+      "id": "f252e1c0-63d7-4c97-9905-e6a141801137",
+      "_manually_fixed_fields": [
+        "charging_curve"
+      ]
     },
     {
       "brand": "Toyota",
@@ -915,22 +981,33 @@
             "power": 46.3
           },
           {
-            "percentage": 50,
+            "percentage": 20,
             "power": 46.3
           },
           {
+            "percentage": 40,
+            "power": 37
+          },
+          {
+            "percentage": 60,
+            "power": 28
+          },
+          {
             "percentage": 80,
-            "power": 27.779999999999998
+            "power": 19
           },
           {
             "percentage": 100,
             "power": 11
           }
         ],
-        "is_default_charging_curve": false
+        "is_default_charging_curve": true
       },
       "brand_id": "b586dda4-a6ba-54e4-ee6d-9d6a098d4751",
-      "id": "a123cfbd-49f5-4bdf-9a28-dcdc6a6e9fd7"
+      "id": "a123cfbd-49f5-4bdf-9a28-dcdc6a6e9fd7",
+      "_manually_fixed_fields": [
+        "charging_curve"
+      ]
     },
     {
       "brand": "Toyota",
@@ -972,26 +1049,33 @@
             "power": 68
           },
           {
-            "percentage": 30,
+            "percentage": 20,
             "power": 68
           },
           {
+            "percentage": 40,
+            "power": 54
+          },
+          {
             "percentage": 60,
-            "power": 47.599999999999994
+            "power": 41
           },
           {
             "percentage": 80,
-            "power": 27.200000000000003
+            "power": 27
           },
           {
             "percentage": 100,
             "power": 11
           }
         ],
-        "is_default_charging_curve": false
+        "is_default_charging_curve": true
       },
       "brand_id": "b586dda4-a6ba-54e4-ee6d-9d6a098d4751",
-      "id": "1776a776-f853-429f-99c3-0159a4246524"
+      "id": "1776a776-f853-429f-99c3-0159a4246524",
+      "_manually_fixed_fields": [
+        "charging_curve"
+      ]
     },
     {
       "brand": "Toyota",
@@ -1033,26 +1117,33 @@
             "power": 68
           },
           {
-            "percentage": 30,
+            "percentage": 20,
             "power": 68
           },
           {
+            "percentage": 40,
+            "power": 54
+          },
+          {
             "percentage": 60,
-            "power": 47.599999999999994
+            "power": 41
           },
           {
             "percentage": 80,
-            "power": 27.200000000000003
+            "power": 27
           },
           {
             "percentage": 100,
             "power": 11
           }
         ],
-        "is_default_charging_curve": false
+        "is_default_charging_curve": true
       },
       "brand_id": "b586dda4-a6ba-54e4-ee6d-9d6a098d4751",
-      "id": "19cd9f2b-a057-4575-b45b-ef665967b133"
+      "id": "19cd9f2b-a057-4575-b45b-ef665967b133",
+      "_manually_fixed_fields": [
+        "charging_curve"
+      ]
     },
     {
       "brand": "Toyota",
@@ -1175,6 +1266,278 @@
       },
       "brand_id": "b586dda4-a6ba-54e4-ee6d-9d6a098d4751",
       "id": "9f98dfa5-8326-4dd4-b625-0cd1881fa8cf"
+    },
+    {
+      "brand": "Toyota",
+      "model": "shuttle m",
+      "variant": "50kwh",
+      "vehicle_type": "car",
+      "usable_battery_size": 46.3,
+      "energy_consumption": {
+        "average_consumption": 25
+      },
+      "charging_voltage": 400,
+      "release_year": 2021,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2": 2,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "2.0": 2
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 46.3,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 46.3
+          },
+          {
+            "percentage": 20,
+            "power": 46.3
+          },
+          {
+            "percentage": 40,
+            "power": 37
+          },
+          {
+            "percentage": 60,
+            "power": 28
+          },
+          {
+            "percentage": 80,
+            "power": 19
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": true
+      },
+      "brand_id": "b586dda4-a6ba-54e4-ee6d-9d6a098d4751",
+      "id": "fba30b68-0215-4605-91c9-ac7d1013e582",
+      "_manually_fixed_fields": [
+        "charging_curve"
+      ]
+    },
+    {
+      "brand": "Toyota",
+      "model": "shuttle l",
+      "variant": "50kwh",
+      "vehicle_type": "car",
+      "usable_battery_size": 46.3,
+      "energy_consumption": {
+        "average_consumption": 25.7
+      },
+      "charging_voltage": 400,
+      "release_year": 2021,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2": 2,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "2.0": 2
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 46.3,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 46.3
+          },
+          {
+            "percentage": 20,
+            "power": 46.3
+          },
+          {
+            "percentage": 40,
+            "power": 37
+          },
+          {
+            "percentage": 60,
+            "power": 28
+          },
+          {
+            "percentage": 80,
+            "power": 19
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": true
+      },
+      "brand_id": "b586dda4-a6ba-54e4-ee6d-9d6a098d4751",
+      "id": "a5a2bf01-c9fc-4422-845b-c46e94d701db",
+      "_manually_fixed_fields": [
+        "charging_curve"
+      ]
+    },
+    {
+      "brand": "Toyota",
+      "model": "shuttle m",
+      "variant": "75kwh",
+      "vehicle_type": "car",
+      "usable_battery_size": 68,
+      "energy_consumption": {
+        "average_consumption": 25.7
+      },
+      "charging_voltage": 400,
+      "release_year": 2021,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2": 2,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "2.0": 2
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 68,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 68
+          },
+          {
+            "percentage": 20,
+            "power": 68
+          },
+          {
+            "percentage": 40,
+            "power": 54
+          },
+          {
+            "percentage": 60,
+            "power": 41
+          },
+          {
+            "percentage": 80,
+            "power": 27
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": true
+      },
+      "brand_id": "b586dda4-a6ba-54e4-ee6d-9d6a098d4751",
+      "id": "d3d59eb6-6d28-42fc-8ddc-c6dfd2143ced",
+      "_manually_fixed_fields": [
+        "charging_curve"
+      ]
+    },
+    {
+      "brand": "Toyota",
+      "model": "shuttle l",
+      "variant": "75kwh",
+      "vehicle_type": "car",
+      "usable_battery_size": 68,
+      "energy_consumption": {
+        "average_consumption": 26.2
+      },
+      "charging_voltage": 400,
+      "release_year": 2021,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2": 2,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "2.0": 2
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 68,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 68
+          },
+          {
+            "percentage": 20,
+            "power": 68
+          },
+          {
+            "percentage": 40,
+            "power": 54
+          },
+          {
+            "percentage": 60,
+            "power": 41
+          },
+          {
+            "percentage": 80,
+            "power": 27
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": true
+      },
+      "brand_id": "b586dda4-a6ba-54e4-ee6d-9d6a098d4751",
+      "id": "491ff515-dcba-4df0-a7b9-b1f808484d18",
+      "_manually_fixed_fields": [
+        "charging_curve"
+      ]
     }
   ]
 }

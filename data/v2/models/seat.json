@@ -172,7 +172,8 @@
         "is_default_charging_curve": false
       },
       "brand_id": "91c527ff-aa74-4dbb-9091-36fb5ddd44b6",
-      "id": "ee5a4d7d-df8c-4ea3-9203-c2c22d6710d7"
+      "id": "ee5a4d7d-df8c-4ea3-9203-c2c22d6710d7",
+      "_model_hash": "a1h99s"
     }
   ]
 }

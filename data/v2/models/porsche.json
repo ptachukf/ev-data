@@ -951,26 +951,33 @@
             "power": 83.7
           },
           {
-            "percentage": 40,
+            "percentage": 20,
             "power": 83.7
           },
           {
-            "percentage": 70,
-            "power": 66.96000000000001
+            "percentage": 40,
+            "power": 67
           },
           {
-            "percentage": 90,
-            "power": 33.480000000000004
+            "percentage": 60,
+            "power": 50
+          },
+          {
+            "percentage": 80,
+            "power": 33
           },
           {
             "percentage": 100,
             "power": 11
           }
         ],
-        "is_default_charging_curve": false
+        "is_default_charging_curve": true
       },
       "brand_id": "68e11a25-d316-4d22-9444-45c7306c8ab7",
-      "id": "c28ec06b-2ab3-46d7-9f6e-a9abc63ad958"
+      "id": "c28ec06b-2ab3-46d7-9f6e-a9abc63ad958",
+      "_manually_fixed_fields": [
+        "charging_curve"
+      ]
     },
     {
       "brand": "Porsche",
@@ -1012,26 +1019,33 @@
             "power": 83.7
           },
           {
-            "percentage": 40,
+            "percentage": 20,
             "power": 83.7
           },
           {
-            "percentage": 70,
-            "power": 66.96000000000001
+            "percentage": 40,
+            "power": 67
           },
           {
-            "percentage": 90,
-            "power": 33.480000000000004
+            "percentage": 60,
+            "power": 50
+          },
+          {
+            "percentage": 80,
+            "power": 33
           },
           {
             "percentage": 100,
             "power": 11
           }
         ],
-        "is_default_charging_curve": false
+        "is_default_charging_curve": true
       },
       "brand_id": "68e11a25-d316-4d22-9444-45c7306c8ab7",
-      "id": "2f612fb5-4a4c-4c06-86f2-484b0e22fae4"
+      "id": "2f612fb5-4a4c-4c06-86f2-484b0e22fae4",
+      "_manually_fixed_fields": [
+        "charging_curve"
+      ]
     },
     {
       "brand": "Porsche",
@@ -1073,26 +1087,33 @@
             "power": 83.7
           },
           {
-            "percentage": 40,
+            "percentage": 20,
             "power": 83.7
           },
           {
-            "percentage": 70,
-            "power": 66.96000000000001
+            "percentage": 40,
+            "power": 67
           },
           {
-            "percentage": 90,
-            "power": 33.480000000000004
+            "percentage": 60,
+            "power": 50
+          },
+          {
+            "percentage": 80,
+            "power": 33
           },
           {
             "percentage": 100,
             "power": 11
           }
         ],
-        "is_default_charging_curve": false
+        "is_default_charging_curve": true
       },
       "brand_id": "68e11a25-d316-4d22-9444-45c7306c8ab7",
-      "id": "bd02520f-aa01-4462-9eda-a856fc4fda4e"
+      "id": "bd02520f-aa01-4462-9eda-a856fc4fda4e",
+      "_manually_fixed_fields": [
+        "charging_curve"
+      ]
     },
     {
       "brand": "Porsche",
@@ -1134,26 +1155,33 @@
             "power": 71
           },
           {
-            "percentage": 40,
+            "percentage": 20,
             "power": 71
           },
           {
-            "percentage": 70,
-            "power": 56.800000000000004
+            "percentage": 40,
+            "power": 57
           },
           {
-            "percentage": 90,
-            "power": 28.400000000000002
+            "percentage": 60,
+            "power": 43
+          },
+          {
+            "percentage": 80,
+            "power": 28
           },
           {
             "percentage": 100,
             "power": 11
           }
         ],
-        "is_default_charging_curve": false
+        "is_default_charging_curve": true
       },
       "brand_id": "68e11a25-d316-4d22-9444-45c7306c8ab7",
-      "id": "bc1224fa-11dd-4366-be13-08ae64857380"
+      "id": "bc1224fa-11dd-4366-be13-08ae64857380",
+      "_manually_fixed_fields": [
+        "charging_curve"
+      ]
     },
     {
       "brand": "Porsche",
@@ -1195,26 +1223,33 @@
             "power": 83.7
           },
           {
-            "percentage": 40,
+            "percentage": 20,
             "power": 83.7
           },
           {
-            "percentage": 70,
-            "power": 66.96000000000001
+            "percentage": 40,
+            "power": 67
           },
           {
-            "percentage": 90,
-            "power": 33.480000000000004
+            "percentage": 60,
+            "power": 50
+          },
+          {
+            "percentage": 80,
+            "power": 33
           },
           {
             "percentage": 100,
             "power": 11
           }
         ],
-        "is_default_charging_curve": false
+        "is_default_charging_curve": true
       },
       "brand_id": "68e11a25-d316-4d22-9444-45c7306c8ab7",
-      "id": "744c2323-0e4c-4ea3-832e-b01c182c2b45"
+      "id": "744c2323-0e4c-4ea3-832e-b01c182c2b45",
+      "_manually_fixed_fields": [
+        "charging_curve"
+      ]
     },
     {
       "brand": "Porsche",
@@ -1256,26 +1291,33 @@
             "power": 83.7
           },
           {
-            "percentage": 40,
+            "percentage": 20,
             "power": 83.7
           },
           {
-            "percentage": 70,
-            "power": 66.96000000000001
+            "percentage": 40,
+            "power": 67
           },
           {
-            "percentage": 90,
-            "power": 33.480000000000004
+            "percentage": 60,
+            "power": 50
+          },
+          {
+            "percentage": 80,
+            "power": 33
           },
           {
             "percentage": 100,
             "power": 11
           }
         ],
-        "is_default_charging_curve": false
+        "is_default_charging_curve": true
       },
       "brand_id": "68e11a25-d316-4d22-9444-45c7306c8ab7",
-      "id": "6e9cd80b-1517-4ee4-9503-432d40becb4d"
+      "id": "6e9cd80b-1517-4ee4-9503-432d40becb4d",
+      "_manually_fixed_fields": [
+        "charging_curve"
+      ]
     },
     {
       "brand": "Porsche",
@@ -1317,26 +1359,33 @@
             "power": 83.7
           },
           {
-            "percentage": 40,
+            "percentage": 20,
             "power": 83.7
           },
           {
-            "percentage": 70,
-            "power": 66.96000000000001
+            "percentage": 40,
+            "power": 67
           },
           {
-            "percentage": 90,
-            "power": 33.480000000000004
+            "percentage": 60,
+            "power": 50
+          },
+          {
+            "percentage": 80,
+            "power": 33
           },
           {
             "percentage": 100,
             "power": 11
           }
         ],
-        "is_default_charging_curve": false
+        "is_default_charging_curve": true
       },
       "brand_id": "68e11a25-d316-4d22-9444-45c7306c8ab7",
-      "id": "794590f2-9baf-41b6-991e-1a2f28e64e4c"
+      "id": "794590f2-9baf-41b6-991e-1a2f28e64e4c",
+      "_manually_fixed_fields": [
+        "charging_curve"
+      ]
     },
     {
       "brand": "Porsche",
@@ -1378,26 +1427,33 @@
             "power": 83.7
           },
           {
-            "percentage": 40,
+            "percentage": 20,
             "power": 83.7
           },
           {
-            "percentage": 70,
-            "power": 66.96000000000001
+            "percentage": 40,
+            "power": 67
           },
           {
-            "percentage": 90,
-            "power": 33.480000000000004
+            "percentage": 60,
+            "power": 50
+          },
+          {
+            "percentage": 80,
+            "power": 33
           },
           {
             "percentage": 100,
             "power": 11
           }
         ],
-        "is_default_charging_curve": false
+        "is_default_charging_curve": true
       },
       "brand_id": "68e11a25-d316-4d22-9444-45c7306c8ab7",
-      "id": "9ae5062d-07c5-4bff-bbd0-48fac1b6d59a"
+      "id": "9ae5062d-07c5-4bff-bbd0-48fac1b6d59a",
+      "_manually_fixed_fields": [
+        "charging_curve"
+      ]
     },
     {
       "brand": "Porsche",
@@ -1439,26 +1495,33 @@
             "power": 83.7
           },
           {
-            "percentage": 40,
+            "percentage": 20,
             "power": 83.7
           },
           {
-            "percentage": 70,
-            "power": 66.96000000000001
+            "percentage": 40,
+            "power": 67
           },
           {
-            "percentage": 90,
-            "power": 33.480000000000004
+            "percentage": 60,
+            "power": 50
+          },
+          {
+            "percentage": 80,
+            "power": 33
           },
           {
             "percentage": 100,
             "power": 11
           }
         ],
-        "is_default_charging_curve": false
+        "is_default_charging_curve": true
       },
       "brand_id": "68e11a25-d316-4d22-9444-45c7306c8ab7",
-      "id": "a032c468-bf0c-4b3c-8408-63234257c865"
+      "id": "a032c468-bf0c-4b3c-8408-63234257c865",
+      "_manually_fixed_fields": [
+        "charging_curve"
+      ]
     },
     {
       "brand": "Porsche",
@@ -1500,26 +1563,33 @@
             "power": 83.7
           },
           {
-            "percentage": 40,
+            "percentage": 20,
             "power": 83.7
           },
           {
-            "percentage": 70,
-            "power": 66.96000000000001
+            "percentage": 40,
+            "power": 67
           },
           {
-            "percentage": 90,
-            "power": 33.480000000000004
+            "percentage": 60,
+            "power": 50
+          },
+          {
+            "percentage": 80,
+            "power": 33
           },
           {
             "percentage": 100,
             "power": 11
           }
         ],
-        "is_default_charging_curve": false
+        "is_default_charging_curve": true
       },
       "brand_id": "68e11a25-d316-4d22-9444-45c7306c8ab7",
-      "id": "970835f9-7367-4ad8-9116-7c4dc3951c76"
+      "id": "970835f9-7367-4ad8-9116-7c4dc3951c76",
+      "_manually_fixed_fields": [
+        "charging_curve"
+      ]
     },
     {
       "brand": "Porsche",
@@ -1561,26 +1631,441 @@
             "power": 83.7
           },
           {
-            "percentage": 40,
+            "percentage": 20,
             "power": 83.7
           },
           {
-            "percentage": 70,
-            "power": 66.96000000000001
+            "percentage": 40,
+            "power": 67
           },
           {
-            "percentage": 90,
-            "power": 33.480000000000004
+            "percentage": 60,
+            "power": 50
+          },
+          {
+            "percentage": 80,
+            "power": 33
           },
           {
             "percentage": 100,
             "power": 11
           }
         ],
-        "is_default_charging_curve": false
+        "is_default_charging_curve": true
       },
       "brand_id": "68e11a25-d316-4d22-9444-45c7306c8ab7",
-      "id": "3f353b98-02c2-4c38-bdb2-3c9acf29c14c"
+      "id": "3f353b98-02c2-4c38-bdb2-3c9acf29c14c",
+      "_manually_fixed_fields": [
+        "charging_curve"
+      ]
+    },
+    {
+      "brand": "Porsche",
+      "model": "sport turismo",
+      "variant": "",
+      "vehicle_type": "car",
+      "usable_battery_size": 71,
+      "energy_consumption": {
+        "average_consumption": 18.7
+      },
+      "charging_voltage": 800,
+      "release_year": 2022,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2": 2,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "2.0": 2
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 71,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 71
+          },
+          {
+            "percentage": 20,
+            "power": 71
+          },
+          {
+            "percentage": 40,
+            "power": 57
+          },
+          {
+            "percentage": 60,
+            "power": 43
+          },
+          {
+            "percentage": 80,
+            "power": 28
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": true
+      },
+      "brand_id": "68e11a25-d316-4d22-9444-45c7306c8ab7",
+      "id": "2492c495-ba4c-4e6c-a752-da14672de0e4",
+      "_manually_fixed_fields": [
+        "charging_curve"
+      ]
+    },
+    {
+      "brand": "Porsche",
+      "model": "plus sport turismo",
+      "variant": "",
+      "vehicle_type": "car",
+      "usable_battery_size": 83.7,
+      "energy_consumption": {
+        "average_consumption": 18.8
+      },
+      "charging_voltage": 800,
+      "release_year": 2022,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2": 2,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "2.0": 2
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 83.7,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 83.7
+          },
+          {
+            "percentage": 20,
+            "power": 83.7
+          },
+          {
+            "percentage": 40,
+            "power": 67
+          },
+          {
+            "percentage": 60,
+            "power": 50
+          },
+          {
+            "percentage": 80,
+            "power": 33
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": true
+      },
+      "brand_id": "68e11a25-d316-4d22-9444-45c7306c8ab7",
+      "id": "56a8cfd0-552c-4086-879f-71a201264cea",
+      "_manually_fixed_fields": [
+        "charging_curve"
+      ]
+    },
+    {
+      "brand": "Porsche",
+      "model": "4s sport turismo",
+      "variant": "",
+      "vehicle_type": "car",
+      "usable_battery_size": 71,
+      "energy_consumption": {
+        "average_consumption": 19.2
+      },
+      "charging_voltage": 800,
+      "release_year": 2022,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2": 2,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "2.0": 2
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 71,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 71
+          },
+          {
+            "percentage": 20,
+            "power": 71
+          },
+          {
+            "percentage": 40,
+            "power": 57
+          },
+          {
+            "percentage": 60,
+            "power": 43
+          },
+          {
+            "percentage": 80,
+            "power": 28
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": true
+      },
+      "brand_id": "68e11a25-d316-4d22-9444-45c7306c8ab7",
+      "id": "9055c6e5-1801-4257-933f-e7223a29a17f",
+      "_manually_fixed_fields": [
+        "charging_curve"
+      ]
+    },
+    {
+      "brand": "Porsche",
+      "model": "4s plus sport turismo",
+      "variant": "",
+      "vehicle_type": "car",
+      "usable_battery_size": 83.7,
+      "energy_consumption": {
+        "average_consumption": 19.5
+      },
+      "charging_voltage": 800,
+      "release_year": 2022,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2": 2,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "2.0": 2
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 83.7,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 83.7
+          },
+          {
+            "percentage": 20,
+            "power": 83.7
+          },
+          {
+            "percentage": 40,
+            "power": 67
+          },
+          {
+            "percentage": 60,
+            "power": 50
+          },
+          {
+            "percentage": 80,
+            "power": 33
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": true
+      },
+      "brand_id": "68e11a25-d316-4d22-9444-45c7306c8ab7",
+      "id": "dbf22ec4-739d-4ef2-bb45-84f8a53c3c9a",
+      "_manually_fixed_fields": [
+        "charging_curve"
+      ]
+    },
+    {
+      "brand": "Porsche",
+      "model": "turbo sport turismo",
+      "variant": "",
+      "vehicle_type": "car",
+      "usable_battery_size": 83.7,
+      "energy_consumption": {
+        "average_consumption": 20.7
+      },
+      "charging_voltage": 800,
+      "release_year": 2022,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2": 2,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "2.0": 2
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 83.7,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 83.7
+          },
+          {
+            "percentage": 20,
+            "power": 83.7
+          },
+          {
+            "percentage": 40,
+            "power": 67
+          },
+          {
+            "percentage": 60,
+            "power": 50
+          },
+          {
+            "percentage": 80,
+            "power": 33
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": true
+      },
+      "brand_id": "68e11a25-d316-4d22-9444-45c7306c8ab7",
+      "id": "bce0fe82-1ffa-4701-a758-db296c47a108",
+      "_manually_fixed_fields": [
+        "charging_curve"
+      ]
+    },
+    {
+      "brand": "Porsche",
+      "model": "turbo s sport turismo",
+      "variant": "",
+      "vehicle_type": "car",
+      "usable_battery_size": 83.7,
+      "energy_consumption": {
+        "average_consumption": 21.2
+      },
+      "charging_voltage": 800,
+      "release_year": 2022,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2": 2,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "2.0": 2
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 83.7,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 83.7
+          },
+          {
+            "percentage": 20,
+            "power": 83.7
+          },
+          {
+            "percentage": 40,
+            "power": 67
+          },
+          {
+            "percentage": 60,
+            "power": 50
+          },
+          {
+            "percentage": 80,
+            "power": 33
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": true
+      },
+      "brand_id": "68e11a25-d316-4d22-9444-45c7306c8ab7",
+      "id": "4061b0a0-db12-4cb6-97bd-a6f1535ce063",
+      "_manually_fixed_fields": [
+        "charging_curve"
+      ]
     }
   ]
 }

@@ -745,28 +745,39 @@
           "chademo"
         ],
         "max_power": 46,
-        "is_default_charging_curve": false,
+        "is_default_charging_curve": true,
         "charging_curve": [
           {
             "percentage": 0,
             "power": 46
           },
           {
-            "percentage": 50,
+            "percentage": 20,
             "power": 46
           },
           {
+            "percentage": 40,
+            "power": 37
+          },
+          {
+            "percentage": 60,
+            "power": 28
+          },
+          {
             "percentage": 80,
-            "power": 27.599999999999998
+            "power": 18
           },
           {
             "percentage": 100,
-            "power": 13.799999999999999
+            "power": 11
           }
         ]
       },
       "vehicle_type": "car",
-      "charging_voltage": 400
+      "charging_voltage": 400,
+      "_manually_fixed_fields": [
+        "charging_curve"
+      ]
     },
     {
       "brand": "Nissan",
@@ -803,28 +814,39 @@
           "chademo"
         ],
         "max_power": 46,
-        "is_default_charging_curve": false,
+        "is_default_charging_curve": true,
         "charging_curve": [
           {
             "percentage": 0,
             "power": 46
           },
           {
-            "percentage": 50,
+            "percentage": 20,
             "power": 46
           },
           {
+            "percentage": 40,
+            "power": 37
+          },
+          {
+            "percentage": 60,
+            "power": 28
+          },
+          {
             "percentage": 80,
-            "power": 27.599999999999998
+            "power": 18
           },
           {
             "percentage": 100,
-            "power": 13.799999999999999
+            "power": 11
           }
         ]
       },
       "vehicle_type": "car",
-      "charging_voltage": 400
+      "charging_voltage": 400,
+      "_manually_fixed_fields": [
+        "charging_curve"
+      ]
     },
     {
       "brand": "Nissan",
@@ -862,19 +884,27 @@
             "power": 46
           },
           {
-            "percentage": 50,
+            "percentage": 20,
             "power": 46
           },
           {
+            "percentage": 40,
+            "power": 37
+          },
+          {
+            "percentage": 60,
+            "power": 28
+          },
+          {
             "percentage": 80,
-            "power": 27.599999999999998
+            "power": 18
           },
           {
             "percentage": 100,
-            "power": 13.799999999999999
+            "power": 11
           }
         ],
-        "is_default_charging_curve": false
+        "is_default_charging_curve": true
       },
       "id": "f9ab0b23-29cf-4deb-98b1-e3de3dd23716",
       "brand_id": "dab5a47a-e8ce-4d34-9139-0701499205b1",
@@ -883,7 +913,10 @@
       "usable_battery_size": 39,
       "energy_consumption": {
         "average_consumption": 16.6
-      }
+      },
+      "_manually_fixed_fields": [
+        "charging_curve"
+      ]
     },
     {
       "brand": "Nissan",
@@ -1562,26 +1595,33 @@
             "power": 63
           },
           {
-            "percentage": 30,
+            "percentage": 20,
             "power": 63
           },
           {
+            "percentage": 40,
+            "power": 50
+          },
+          {
             "percentage": 60,
-            "power": 44.099999999999994
+            "power": 38
           },
           {
             "percentage": 80,
-            "power": 25.200000000000003
+            "power": 25
           },
           {
             "percentage": 100,
             "power": 11
           }
         ],
-        "is_default_charging_curve": false
+        "is_default_charging_curve": true
       },
       "brand_id": "dab5a47a-e8ce-4d34-9139-0701499205b1",
-      "id": "b2b28b58-9624-49a0-8f1d-7af7d2119240"
+      "id": "b2b28b58-9624-49a0-8f1d-7af7d2119240",
+      "_manually_fixed_fields": [
+        "charging_curve"
+      ]
     },
     {
       "brand": "Nissan",
@@ -1623,26 +1663,33 @@
             "power": 87
           },
           {
-            "percentage": 30,
+            "percentage": 20,
             "power": 87
           },
           {
+            "percentage": 40,
+            "power": 70
+          },
+          {
             "percentage": 60,
-            "power": 60.9
+            "power": 52
           },
           {
             "percentage": 80,
-            "power": 34.800000000000004
+            "power": 35
           },
           {
             "percentage": 100,
             "power": 11
           }
         ],
-        "is_default_charging_curve": false
+        "is_default_charging_curve": true
       },
       "brand_id": "dab5a47a-e8ce-4d34-9139-0701499205b1",
-      "id": "be610dfc-609c-4e40-9231-132dc0945f21"
+      "id": "be610dfc-609c-4e40-9231-132dc0945f21",
+      "_manually_fixed_fields": [
+        "charging_curve"
+      ]
     },
     {
       "brand": "Nissan",
@@ -1684,26 +1731,33 @@
             "power": 87
           },
           {
-            "percentage": 30,
+            "percentage": 20,
             "power": 87
           },
           {
+            "percentage": 40,
+            "power": 70
+          },
+          {
             "percentage": 60,
-            "power": 60.9
+            "power": 52
           },
           {
             "percentage": 80,
-            "power": 34.800000000000004
+            "power": 35
           },
           {
             "percentage": 100,
             "power": 11
           }
         ],
-        "is_default_charging_curve": false
+        "is_default_charging_curve": true
       },
       "brand_id": "dab5a47a-e8ce-4d34-9139-0701499205b1",
-      "id": "5c03d7f6-6deb-4289-87ab-9d3a49751955"
+      "id": "5c03d7f6-6deb-4289-87ab-9d3a49751955",
+      "_manually_fixed_fields": [
+        "charging_curve"
+      ]
     },
     {
       "brand": "Nissan",
@@ -1745,26 +1799,91 @@
             "power": 87
           },
           {
-            "percentage": 30,
+            "percentage": 20,
             "power": 87
           },
           {
+            "percentage": 40,
+            "power": 70
+          },
+          {
             "percentage": 60,
-            "power": 60.9
+            "power": 52
           },
           {
             "percentage": 80,
-            "power": 34.800000000000004
+            "power": 35
           },
           {
             "percentage": 100,
             "power": 11
           }
         ],
+        "is_default_charging_curve": true
+      },
+      "brand_id": "dab5a47a-e8ce-4d34-9139-0701499205b1",
+      "id": "ab85bf5a-1ffe-413d-858a-e329142cb0b4",
+      "_manually_fixed_fields": [
+        "charging_curve"
+      ]
+    },
+    {
+      "brand": "Nissan",
+      "model": "e+",
+      "variant": "",
+      "vehicle_type": "car",
+      "usable_battery_size": 59,
+      "energy_consumption": {
+        "average_consumption": 17.4
+      },
+      "charging_voltage": 400,
+      "release_year": 2022,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 6.6,
+        "power_per_charging_point": {
+          "2": 2,
+          "11": 6.6,
+          "16": 6.6,
+          "22": 6.6,
+          "43": 6.6,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 6.6,
+          "2.0": 2
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 59,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 59
+          },
+          {
+            "percentage": 50,
+            "power": 59
+          },
+          {
+            "percentage": 80,
+            "power": 35.4
+          },
+          {
+            "percentage": 100,
+            "power": 6.6
+          }
+        ],
         "is_default_charging_curve": false
       },
       "brand_id": "dab5a47a-e8ce-4d34-9139-0701499205b1",
-      "id": "ab85bf5a-1ffe-413d-858a-e329142cb0b4"
+      "id": "5c16af25-386e-4232-a78e-dde7471a5d10",
+      "_model_hash": "2swht4"
     }
   ]
 }

@@ -95,28 +95,39 @@
           "ccs"
         ],
         "max_power": 57,
-        "is_default_charging_curve": false,
+        "is_default_charging_curve": true,
         "charging_curve": [
           {
             "percentage": 0,
             "power": 57
           },
           {
-            "percentage": 50,
+            "percentage": 20,
             "power": 57
           },
           {
+            "percentage": 40,
+            "power": 46
+          },
+          {
+            "percentage": 60,
+            "power": 34
+          },
+          {
             "percentage": 80,
-            "power": 34.199999999999996
+            "power": 23
           },
           {
             "percentage": 100,
-            "power": 17.099999999999998
+            "power": 11
           }
         ]
       },
       "vehicle_type": "car",
-      "charging_voltage": 400
+      "charging_voltage": 400,
+      "_manually_fixed_fields": [
+        "charging_curve"
+      ]
     }
   ]
 }

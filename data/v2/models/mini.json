@@ -639,22 +639,33 @@
             "power": 28.9
           },
           {
-            "percentage": 70,
+            "percentage": 20,
             "power": 28.9
+          },
+          {
+            "percentage": 40,
+            "power": 23
+          },
+          {
+            "percentage": 60,
+            "power": 17
           },
           {
             "percentage": 80,
-            "power": 20.229999999999997
+            "power": 12
           },
           {
             "percentage": 100,
-            "power": 28.9
+            "power": 11
           }
         ],
-        "is_default_charging_curve": false
+        "is_default_charging_curve": true
       },
       "brand_id": "6d9d9248-de4a-4b13-976b-4e9f6688b0b1",
-      "id": "e49041a3-e2d3-45d4-bb7d-5d952bd8f7b2"
+      "id": "e49041a3-e2d3-45d4-bb7d-5d952bd8f7b2",
+      "_manually_fixed_fields": [
+        "charging_curve"
+      ]
     },
     {
       "brand": "Mini",
@@ -696,22 +707,33 @@
             "power": 28.9
           },
           {
-            "percentage": 70,
+            "percentage": 20,
             "power": 28.9
+          },
+          {
+            "percentage": 40,
+            "power": 23
+          },
+          {
+            "percentage": 60,
+            "power": 17
           },
           {
             "percentage": 80,
-            "power": 20.229999999999997
+            "power": 12
           },
           {
             "percentage": 100,
-            "power": 28.9
+            "power": 11
           }
         ],
-        "is_default_charging_curve": false
+        "is_default_charging_curve": true
       },
       "brand_id": "6d9d9248-de4a-4b13-976b-4e9f6688b0b1",
-      "id": "cfaef60d-3f89-4415-a243-7d0c1f3d8975"
+      "id": "cfaef60d-3f89-4415-a243-7d0c1f3d8975",
+      "_manually_fixed_fields": [
+        "charging_curve"
+      ]
     }
   ]
 }

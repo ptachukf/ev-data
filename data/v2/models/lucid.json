@@ -89,28 +89,39 @@
           "ccs"
         ],
         "max_power": 253,
-        "is_default_charging_curve": false,
+        "is_default_charging_curve": true,
         "charging_curve": [
           {
             "percentage": 0,
             "power": 253
           },
           {
-            "percentage": 50,
+            "percentage": 20,
             "power": 253
           },
           {
+            "percentage": 40,
+            "power": 202
+          },
+          {
+            "percentage": 60,
+            "power": 152
+          },
+          {
             "percentage": 80,
-            "power": 151.79999999999998
+            "power": 101
           },
           {
             "percentage": 100,
-            "power": 75.89999999999999
+            "power": 11
           }
         ]
       },
       "vehicle_type": "car",
-      "charging_voltage": 400
+      "charging_voltage": 400,
+      "_manually_fixed_fields": [
+        "charging_curve"
+      ]
     },
     {
       "brand": "Lucid",
@@ -448,26 +459,33 @@
             "power": 112
           },
           {
-            "percentage": 40,
+            "percentage": 20,
             "power": 112
           },
           {
-            "percentage": 70,
-            "power": 89.60000000000001
+            "percentage": 40,
+            "power": 90
           },
           {
-            "percentage": 90,
-            "power": 44.800000000000004
+            "percentage": 60,
+            "power": 67
+          },
+          {
+            "percentage": 80,
+            "power": 45
           },
           {
             "percentage": 100,
             "power": 11
           }
         ],
-        "is_default_charging_curve": false
+        "is_default_charging_curve": true
       },
       "brand_id": "24199511-376f-cc42-0cce-5662566baa1a",
-      "id": "9835471b-3758-4603-a6d6-cf46567962be"
+      "id": "9835471b-3758-4603-a6d6-cf46567962be",
+      "_manually_fixed_fields": [
+        "charging_curve"
+      ]
     },
     {
       "brand": "Lucid",
@@ -509,26 +527,33 @@
             "power": 92
           },
           {
-            "percentage": 40,
+            "percentage": 20,
             "power": 92
           },
           {
-            "percentage": 70,
-            "power": 73.60000000000001
+            "percentage": 40,
+            "power": 74
           },
           {
-            "percentage": 90,
-            "power": 36.800000000000004
+            "percentage": 60,
+            "power": 55
+          },
+          {
+            "percentage": 80,
+            "power": 37
           },
           {
             "percentage": 100,
             "power": 11
           }
         ],
-        "is_default_charging_curve": false
+        "is_default_charging_curve": true
       },
       "brand_id": "24199511-376f-cc42-0cce-5662566baa1a",
-      "id": "04be3de7-078e-492c-90c9-594b0e95d204"
+      "id": "04be3de7-078e-492c-90c9-594b0e95d204",
+      "_manually_fixed_fields": [
+        "charging_curve"
+      ]
     },
     {
       "brand": "Lucid",
@@ -570,26 +595,33 @@
             "power": 92
           },
           {
-            "percentage": 40,
+            "percentage": 20,
             "power": 92
           },
           {
-            "percentage": 70,
-            "power": 73.60000000000001
+            "percentage": 40,
+            "power": 74
           },
           {
-            "percentage": 90,
-            "power": 36.800000000000004
+            "percentage": 60,
+            "power": 55
+          },
+          {
+            "percentage": 80,
+            "power": 37
           },
           {
             "percentage": 100,
             "power": 11
           }
         ],
-        "is_default_charging_curve": false
+        "is_default_charging_curve": true
       },
       "brand_id": "24199511-376f-cc42-0cce-5662566baa1a",
-      "id": "14569f25-7806-4b35-9a72-507ed36e6af2"
+      "id": "14569f25-7806-4b35-9a72-507ed36e6af2",
+      "_manually_fixed_fields": [
+        "charging_curve"
+      ]
     }
   ]
 }

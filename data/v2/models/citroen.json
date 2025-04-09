@@ -37,28 +37,39 @@
           "ccs"
         ],
         "max_power": 101,
-        "is_default_charging_curve": false,
+        "is_default_charging_curve": true,
         "charging_curve": [
           {
             "percentage": 0,
             "power": 101
           },
           {
-            "percentage": 50,
+            "percentage": 20,
             "power": 101
           },
           {
+            "percentage": 40,
+            "power": 81
+          },
+          {
+            "percentage": 60,
+            "power": 61
+          },
+          {
             "percentage": 80,
-            "power": 60.599999999999994
+            "power": 40
           },
           {
             "percentage": 100,
-            "power": 30.299999999999997
+            "power": 11
           }
         ]
       },
       "vehicle_type": "car",
-      "charging_voltage": 400
+      "charging_voltage": 400,
+      "_manually_fixed_fields": [
+        "charging_curve"
+      ]
     },
     {
       "brand": "Citroën",
@@ -435,7 +446,39 @@
           "7.4": 7.4
         }
       },
-      "dc_charger": null,
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 150,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 150
+          },
+          {
+            "percentage": 20,
+            "power": 150
+          },
+          {
+            "percentage": 40,
+            "power": 120
+          },
+          {
+            "percentage": 60,
+            "power": 90
+          },
+          {
+            "percentage": 80,
+            "power": 60
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": true
+      },
       "id": "ce5232bc-8651-4804-bea6-30c9dcdcbdec",
       "brand_id": "3b3fc191-f4c3-45da-bc3b-21efbe1b264f",
       "usable_battery_size": 50,
@@ -470,7 +513,39 @@
           "7.4": 7.4
         }
       },
-      "dc_charger": null,
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 150,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 150
+          },
+          {
+            "percentage": 20,
+            "power": 150
+          },
+          {
+            "percentage": 40,
+            "power": 120
+          },
+          {
+            "percentage": 60,
+            "power": 90
+          },
+          {
+            "percentage": 80,
+            "power": 60
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": true
+      },
       "id": "14f2e71a-a54e-4978-bb2b-7889441fbc0e",
       "brand_id": "3b3fc191-f4c3-45da-bc3b-21efbe1b264f",
       "usable_battery_size": 68,
@@ -564,7 +639,39 @@
           "7.4": 7.4
         }
       },
-      "dc_charger": null,
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 150,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 150
+          },
+          {
+            "percentage": 20,
+            "power": 150
+          },
+          {
+            "percentage": 40,
+            "power": 120
+          },
+          {
+            "percentage": 60,
+            "power": 90
+          },
+          {
+            "percentage": 80,
+            "power": 60
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": true
+      },
       "id": "d0d90cf3-404c-48a2-b352-f83f560fba9b",
       "brand_id": "3b3fc191-f4c3-45da-bc3b-21efbe1b264f",
       "usable_battery_size": 50,
@@ -599,7 +706,39 @@
           "7.4": 7.4
         }
       },
-      "dc_charger": null,
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 150,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 150
+          },
+          {
+            "percentage": 20,
+            "power": 150
+          },
+          {
+            "percentage": 40,
+            "power": 120
+          },
+          {
+            "percentage": 60,
+            "power": 90
+          },
+          {
+            "percentage": 80,
+            "power": 60
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": true
+      },
       "id": "eb9521ed-5c1b-4a3b-92de-76dc49f98aef",
       "brand_id": "3b3fc191-f4c3-45da-bc3b-21efbe1b264f",
       "usable_battery_size": 46.3,
@@ -752,7 +891,39 @@
           "7.4": 7.4
         }
       },
-      "dc_charger": null,
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 150,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 150
+          },
+          {
+            "percentage": 20,
+            "power": 150
+          },
+          {
+            "percentage": 40,
+            "power": 120
+          },
+          {
+            "percentage": 60,
+            "power": 90
+          },
+          {
+            "percentage": 80,
+            "power": 60
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": true
+      },
       "id": "ec83bb8c-b98c-481c-97f5-5e6f4241f00b",
       "brand_id": "3b3fc191-f4c3-45da-bc3b-21efbe1b264f",
       "usable_battery_size": 68,
@@ -787,7 +958,39 @@
           "7.4": 7.4
         }
       },
-      "dc_charger": null,
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 150,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 150
+          },
+          {
+            "percentage": 20,
+            "power": 150
+          },
+          {
+            "percentage": 40,
+            "power": 120
+          },
+          {
+            "percentage": 60,
+            "power": 90
+          },
+          {
+            "percentage": 80,
+            "power": 60
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": true
+      },
       "id": "0e8d1287-fac4-4815-ab4a-be11f64edcd1",
       "brand_id": "3b3fc191-f4c3-45da-bc3b-21efbe1b264f",
       "usable_battery_size": 46.3,
@@ -834,19 +1037,27 @@
             "power": 101
           },
           {
-            "percentage": 50,
+            "percentage": 20,
             "power": 101
           },
           {
+            "percentage": 40,
+            "power": 81
+          },
+          {
+            "percentage": 60,
+            "power": 61
+          },
+          {
             "percentage": 80,
-            "power": 60.599999999999994
+            "power": 40
           },
           {
             "percentage": 100,
-            "power": 30.299999999999997
+            "power": 11
           }
         ],
-        "is_default_charging_curve": false
+        "is_default_charging_curve": true
       },
       "id": "b1f790b0-2797-4a83-a8e9-d7bc48da32c4",
       "brand_id": "3b3fc191-f4c3-45da-bc3b-21efbe1b264f",
@@ -855,7 +1066,10 @@
       "usable_battery_size": 50,
       "energy_consumption": {
         "average_consumption": 25
-      }
+      },
+      "_manually_fixed_fields": [
+        "charging_curve"
+      ]
     },
     {
       "brand": "Citroën",
@@ -893,19 +1107,27 @@
             "power": 101
           },
           {
-            "percentage": 50,
+            "percentage": 20,
             "power": 101
           },
           {
+            "percentage": 40,
+            "power": 81
+          },
+          {
+            "percentage": 60,
+            "power": 61
+          },
+          {
             "percentage": 80,
-            "power": 60.599999999999994
+            "power": 40
           },
           {
             "percentage": 100,
-            "power": 30.299999999999997
+            "power": 11
           }
         ],
-        "is_default_charging_curve": false
+        "is_default_charging_curve": true
       },
       "id": "f4e91220-9c44-425b-a0d5-4866ac4ea1d7",
       "brand_id": "3b3fc191-f4c3-45da-bc3b-21efbe1b264f",
@@ -914,7 +1136,10 @@
         "average_consumption": 25.7
       },
       "vehicle_type": "car",
-      "charging_voltage": 400
+      "charging_voltage": 400,
+      "_manually_fixed_fields": [
+        "charging_curve"
+      ]
     },
     {
       "brand": "Citroën",
@@ -952,19 +1177,27 @@
             "power": 101
           },
           {
-            "percentage": 50,
+            "percentage": 20,
             "power": 101
           },
           {
+            "percentage": 40,
+            "power": 81
+          },
+          {
+            "percentage": 60,
+            "power": 61
+          },
+          {
             "percentage": 80,
-            "power": 60.599999999999994
+            "power": 40
           },
           {
             "percentage": 100,
-            "power": 30.299999999999997
+            "power": 11
           }
         ],
-        "is_default_charging_curve": false
+        "is_default_charging_curve": true
       },
       "id": "2bf9762d-0e09-44ac-852f-6f67ed5f9335",
       "brand_id": "3b3fc191-f4c3-45da-bc3b-21efbe1b264f",
@@ -973,7 +1206,10 @@
         "average_consumption": 25
       },
       "vehicle_type": "car",
-      "charging_voltage": 400
+      "charging_voltage": 400,
+      "_manually_fixed_fields": [
+        "charging_curve"
+      ]
     },
     {
       "brand": "Citroën",
@@ -1011,19 +1247,27 @@
             "power": 101
           },
           {
-            "percentage": 50,
+            "percentage": 20,
             "power": 101
           },
           {
+            "percentage": 40,
+            "power": 81
+          },
+          {
+            "percentage": 60,
+            "power": 61
+          },
+          {
             "percentage": 80,
-            "power": 60.599999999999994
+            "power": 40
           },
           {
             "percentage": 100,
-            "power": 30.299999999999997
+            "power": 11
           }
         ],
-        "is_default_charging_curve": false
+        "is_default_charging_curve": true
       },
       "id": "29f7e318-5f8e-4a14-9fe4-c354a03bbb84",
       "brand_id": "3b3fc191-f4c3-45da-bc3b-21efbe1b264f",
@@ -1032,7 +1276,10 @@
         "average_consumption": 25
       },
       "vehicle_type": "car",
-      "charging_voltage": 400
+      "charging_voltage": 400,
+      "_manually_fixed_fields": [
+        "charging_curve"
+      ]
     },
     {
       "brand": "Citroën",
@@ -1188,22 +1435,33 @@
             "power": 46.3
           },
           {
-            "percentage": 50,
+            "percentage": 20,
             "power": 46.3
           },
           {
+            "percentage": 40,
+            "power": 37
+          },
+          {
+            "percentage": 60,
+            "power": 28
+          },
+          {
             "percentage": 80,
-            "power": 27.779999999999998
+            "power": 19
           },
           {
             "percentage": 100,
             "power": 11
           }
         ],
-        "is_default_charging_curve": false
+        "is_default_charging_curve": true
       },
       "brand_id": "3b3fc191-f4c3-45da-bc3b-21efbe1b264f",
-      "id": "e6ad3a10-48f8-4226-bbad-2bc899b597f0"
+      "id": "e6ad3a10-48f8-4226-bbad-2bc899b597f0",
+      "_manually_fixed_fields": [
+        "charging_curve"
+      ]
     },
     {
       "brand": "Citroën",
@@ -1245,22 +1503,33 @@
             "power": 46.3
           },
           {
-            "percentage": 50,
+            "percentage": 20,
             "power": 46.3
           },
           {
+            "percentage": 40,
+            "power": 37
+          },
+          {
+            "percentage": 60,
+            "power": 28
+          },
+          {
             "percentage": 80,
-            "power": 27.779999999999998
+            "power": 19
           },
           {
             "percentage": 100,
             "power": 11
           }
         ],
-        "is_default_charging_curve": false
+        "is_default_charging_curve": true
       },
       "brand_id": "3b3fc191-f4c3-45da-bc3b-21efbe1b264f",
-      "id": "c8c9788b-e78f-48eb-8b0b-362be4755300"
+      "id": "c8c9788b-e78f-48eb-8b0b-362be4755300",
+      "_manually_fixed_fields": [
+        "charging_curve"
+      ]
     },
     {
       "brand": "Citroën",
@@ -1302,26 +1571,33 @@
             "power": 68
           },
           {
-            "percentage": 30,
+            "percentage": 20,
             "power": 68
           },
           {
+            "percentage": 40,
+            "power": 54
+          },
+          {
             "percentage": 60,
-            "power": 47.599999999999994
+            "power": 41
           },
           {
             "percentage": 80,
-            "power": 27.200000000000003
+            "power": 27
           },
           {
             "percentage": 100,
             "power": 11
           }
         ],
-        "is_default_charging_curve": false
+        "is_default_charging_curve": true
       },
       "brand_id": "3b3fc191-f4c3-45da-bc3b-21efbe1b264f",
-      "id": "6944d19b-e3e0-4cbd-af29-9afde00e1783"
+      "id": "6944d19b-e3e0-4cbd-af29-9afde00e1783",
+      "_manually_fixed_fields": [
+        "charging_curve"
+      ]
     },
     {
       "brand": "Citroën",
@@ -1363,26 +1639,33 @@
             "power": 68
           },
           {
-            "percentage": 30,
+            "percentage": 20,
             "power": 68
           },
           {
+            "percentage": 40,
+            "power": 54
+          },
+          {
             "percentage": 60,
-            "power": 47.599999999999994
+            "power": 41
           },
           {
             "percentage": 80,
-            "power": 27.200000000000003
+            "power": 27
           },
           {
             "percentage": 100,
             "power": 11
           }
         ],
-        "is_default_charging_curve": false
+        "is_default_charging_curve": true
       },
       "brand_id": "3b3fc191-f4c3-45da-bc3b-21efbe1b264f",
-      "id": "eee4481e-dc24-438e-84e5-40d6cde6f405"
+      "id": "eee4481e-dc24-438e-84e5-40d6cde6f405",
+      "_manually_fixed_fields": [
+        "charging_curve"
+      ]
     },
     {
       "brand": "Citroën",
@@ -1424,22 +1707,33 @@
             "power": 46.3
           },
           {
-            "percentage": 50,
+            "percentage": 20,
             "power": 46.3
           },
           {
+            "percentage": 40,
+            "power": 37
+          },
+          {
+            "percentage": 60,
+            "power": 28
+          },
+          {
             "percentage": 80,
-            "power": 27.779999999999998
+            "power": 19
           },
           {
             "percentage": 100,
             "power": 11
           }
         ],
-        "is_default_charging_curve": false
+        "is_default_charging_curve": true
       },
       "brand_id": "3b3fc191-f4c3-45da-bc3b-21efbe1b264f",
-      "id": "09ed5346-a145-4121-9ceb-4bb9eb257acb"
+      "id": "09ed5346-a145-4121-9ceb-4bb9eb257acb",
+      "_manually_fixed_fields": [
+        "charging_curve"
+      ]
     },
     {
       "brand": "Citroën",
@@ -1481,22 +1775,373 @@
             "power": 46.3
           },
           {
-            "percentage": 50,
+            "percentage": 20,
             "power": 46.3
           },
           {
+            "percentage": 40,
+            "power": 37
+          },
+          {
+            "percentage": 60,
+            "power": 28
+          },
+          {
             "percentage": 80,
-            "power": 27.779999999999998
+            "power": 19
           },
           {
             "percentage": 100,
             "power": 11
           }
         ],
-        "is_default_charging_curve": false
+        "is_default_charging_curve": true
       },
       "brand_id": "3b3fc191-f4c3-45da-bc3b-21efbe1b264f",
-      "id": "9fde8973-4c70-4580-81f9-c64b01612f1c"
+      "id": "9fde8973-4c70-4580-81f9-c64b01612f1c",
+      "_manually_fixed_fields": [
+        "charging_curve"
+      ]
+    },
+    {
+      "brand": "Citroën",
+      "model": "combi xs",
+      "variant": "50kwh",
+      "vehicle_type": "car",
+      "usable_battery_size": 46.3,
+      "energy_consumption": {
+        "average_consumption": 25
+      },
+      "charging_voltage": 400,
+      "release_year": 2020,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2": 2,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "2.0": 2
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 46.3,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 46.3
+          },
+          {
+            "percentage": 20,
+            "power": 46.3
+          },
+          {
+            "percentage": 40,
+            "power": 37
+          },
+          {
+            "percentage": 60,
+            "power": 28
+          },
+          {
+            "percentage": 80,
+            "power": 19
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": true
+      },
+      "brand_id": "3b3fc191-f4c3-45da-bc3b-21efbe1b264f",
+      "id": "76385029-18a0-4111-8549-846ea2f59ddb",
+      "_manually_fixed_fields": [
+        "charging_curve"
+      ]
+    },
+    {
+      "brand": "Citroën",
+      "model": "combi m",
+      "variant": "50kwh",
+      "vehicle_type": "car",
+      "usable_battery_size": 46.3,
+      "energy_consumption": {
+        "average_consumption": 25
+      },
+      "charging_voltage": 400,
+      "release_year": 2020,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2": 2,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "2.0": 2
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 46.3,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 46.3
+          },
+          {
+            "percentage": 20,
+            "power": 46.3
+          },
+          {
+            "percentage": 40,
+            "power": 37
+          },
+          {
+            "percentage": 60,
+            "power": 28
+          },
+          {
+            "percentage": 80,
+            "power": 19
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": true
+      },
+      "brand_id": "3b3fc191-f4c3-45da-bc3b-21efbe1b264f",
+      "id": "b79ffff2-ed7e-4ef9-aa77-bad449a42d04",
+      "_manually_fixed_fields": [
+        "charging_curve"
+      ]
+    },
+    {
+      "brand": "Citroën",
+      "model": "combi xl",
+      "variant": "50kwh",
+      "vehicle_type": "car",
+      "usable_battery_size": 46.3,
+      "energy_consumption": {
+        "average_consumption": 25.7
+      },
+      "charging_voltage": 400,
+      "release_year": 2020,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2": 2,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "2.0": 2
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 46.3,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 46.3
+          },
+          {
+            "percentage": 20,
+            "power": 46.3
+          },
+          {
+            "percentage": 40,
+            "power": 37
+          },
+          {
+            "percentage": 60,
+            "power": 28
+          },
+          {
+            "percentage": 80,
+            "power": 19
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": true
+      },
+      "brand_id": "3b3fc191-f4c3-45da-bc3b-21efbe1b264f",
+      "id": "7099639a-dbab-425a-9a2f-0af2682e5e54",
+      "_manually_fixed_fields": [
+        "charging_curve"
+      ]
+    },
+    {
+      "brand": "Citroën",
+      "model": "combi m",
+      "variant": "75kwh",
+      "vehicle_type": "car",
+      "usable_battery_size": 68,
+      "energy_consumption": {
+        "average_consumption": 25.7
+      },
+      "charging_voltage": 400,
+      "release_year": 2020,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2": 2,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "2.0": 2
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 68,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 68
+          },
+          {
+            "percentage": 20,
+            "power": 68
+          },
+          {
+            "percentage": 40,
+            "power": 54
+          },
+          {
+            "percentage": 60,
+            "power": 41
+          },
+          {
+            "percentage": 80,
+            "power": 27
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": true
+      },
+      "brand_id": "3b3fc191-f4c3-45da-bc3b-21efbe1b264f",
+      "id": "85775695-743e-482d-9fcd-c2ec2cf00e14",
+      "_manually_fixed_fields": [
+        "charging_curve"
+      ]
+    },
+    {
+      "brand": "Citroën",
+      "model": "combi xl",
+      "variant": "75kwh",
+      "vehicle_type": "car",
+      "usable_battery_size": 68,
+      "energy_consumption": {
+        "average_consumption": 26.2
+      },
+      "charging_voltage": 400,
+      "release_year": 2020,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2": 2,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "2.0": 2
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 68,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 68
+          },
+          {
+            "percentage": 20,
+            "power": 68
+          },
+          {
+            "percentage": 40,
+            "power": 54
+          },
+          {
+            "percentage": 60,
+            "power": 41
+          },
+          {
+            "percentage": 80,
+            "power": 27
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": true
+      },
+      "brand_id": "3b3fc191-f4c3-45da-bc3b-21efbe1b264f",
+      "id": "5465545a-fd26-4126-9193-33070bb9760d",
+      "_manually_fixed_fields": [
+        "charging_curve"
+      ]
     }
   ]
 }

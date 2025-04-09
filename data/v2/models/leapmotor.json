@@ -97,19 +97,27 @@
             "power": 48
           },
           {
-            "percentage": 50,
+            "percentage": 20,
             "power": 48
           },
           {
+            "percentage": 40,
+            "power": 38
+          },
+          {
+            "percentage": 60,
+            "power": 29
+          },
+          {
             "percentage": 80,
-            "power": 24
+            "power": 19
           },
           {
             "percentage": 100,
-            "power": 9.600000000000001
+            "power": 11
           }
         ],
-        "is_default_charging_curve": false
+        "is_default_charging_curve": true
       },
       "id": "48d99eed-87fe-41d1-8ad1-9e649cdf4163",
       "brand_id": "c0bfaf9e-8d7c-46b5-a2b1-a09f8e7d6c54",
@@ -118,7 +126,10 @@
       "usable_battery_size": 37.3,
       "energy_consumption": {
         "average_consumption": 13.6
-      }
+      },
+      "_manually_fixed_fields": [
+        "charging_curve"
+      ]
     }
   ]
 }

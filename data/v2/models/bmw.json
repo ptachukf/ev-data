@@ -1441,28 +1441,39 @@
           "ccs"
         ],
         "max_power": 207,
-        "is_default_charging_curve": false,
+        "is_default_charging_curve": true,
         "charging_curve": [
           {
             "percentage": 0,
             "power": 207
           },
           {
-            "percentage": 50,
+            "percentage": 20,
             "power": 207
           },
           {
+            "percentage": 40,
+            "power": 166
+          },
+          {
+            "percentage": 60,
+            "power": 124
+          },
+          {
             "percentage": 80,
-            "power": 103.5
+            "power": 83
           },
           {
             "percentage": 100,
-            "power": 41.400000000000006
+            "power": 11
           }
         ]
       },
       "vehicle_type": "car",
-      "charging_voltage": 400
+      "charging_voltage": 400,
+      "_manually_fixed_fields": [
+        "charging_curve"
+      ]
     },
     {
       "brand": "BMW",
@@ -1557,28 +1568,39 @@
           "ccs"
         ],
         "max_power": 207,
-        "is_default_charging_curve": false,
+        "is_default_charging_curve": true,
         "charging_curve": [
           {
             "percentage": 0,
             "power": 207
           },
           {
-            "percentage": 50,
+            "percentage": 20,
             "power": 207
           },
           {
+            "percentage": 40,
+            "power": 166
+          },
+          {
+            "percentage": 60,
+            "power": 124
+          },
+          {
             "percentage": 80,
-            "power": 103.5
+            "power": 83
           },
           {
             "percentage": 100,
-            "power": 41.400000000000006
+            "power": 11
           }
         ]
       },
       "vehicle_type": "car",
-      "charging_voltage": 400
+      "charging_voltage": 400,
+      "_manually_fixed_fields": [
+        "charging_curve"
+      ]
     },
     {
       "brand": "BMW",
@@ -2040,7 +2062,8 @@
         "is_default_charging_curve": false
       },
       "brand_id": "0742668c-bf59-4191-890e-2b0883508808",
-      "id": "5347361e-df01-4e53-8ddf-e715d38255a6"
+      "id": "5347361e-df01-4e53-8ddf-e715d38255a6",
+      "_model_hash": "-hwdfpe"
     },
     {
       "brand": "BMW",
@@ -2082,26 +2105,33 @@
             "power": 80.7
           },
           {
-            "percentage": 30,
+            "percentage": 20,
             "power": 80.7
           },
           {
+            "percentage": 40,
+            "power": 65
+          },
+          {
             "percentage": 60,
-            "power": 56.489999999999995
+            "power": 48
           },
           {
             "percentage": 80,
-            "power": 32.28
+            "power": 32
           },
           {
             "percentage": 100,
             "power": 11
           }
         ],
-        "is_default_charging_curve": false
+        "is_default_charging_curve": true
       },
       "brand_id": "0742668c-bf59-4191-890e-2b0883508808",
-      "id": "727220d3-8aaf-4ca2-ac12-b0198cd1f615"
+      "id": "727220d3-8aaf-4ca2-ac12-b0198cd1f615",
+      "_manually_fixed_fields": [
+        "charging_curve"
+      ]
     },
     {
       "brand": "BMW",
@@ -2143,26 +2173,33 @@
             "power": 71
           },
           {
-            "percentage": 30,
+            "percentage": 20,
             "power": 71
           },
           {
+            "percentage": 40,
+            "power": 57
+          },
+          {
             "percentage": 60,
-            "power": 49.699999999999996
+            "power": 43
           },
           {
             "percentage": 80,
-            "power": 28.400000000000002
+            "power": 28
           },
           {
             "percentage": 100,
             "power": 11
           }
         ],
-        "is_default_charging_curve": false
+        "is_default_charging_curve": true
       },
       "brand_id": "0742668c-bf59-4191-890e-2b0883508808",
-      "id": "e1dc2f23-6e26-45c7-b1cf-1b7d7417ff06"
+      "id": "e1dc2f23-6e26-45c7-b1cf-1b7d7417ff06",
+      "_manually_fixed_fields": [
+        "charging_curve"
+      ]
     },
     {
       "brand": "BMW",
@@ -2204,26 +2241,33 @@
             "power": 105.2
           },
           {
-            "percentage": 30,
+            "percentage": 20,
             "power": 105.2
           },
           {
+            "percentage": 40,
+            "power": 84
+          },
+          {
             "percentage": 60,
-            "power": 73.64
+            "power": 63
           },
           {
             "percentage": 80,
-            "power": 42.080000000000005
+            "power": 42
           },
           {
             "percentage": 100,
             "power": 11
           }
         ],
-        "is_default_charging_curve": false
+        "is_default_charging_curve": true
       },
       "brand_id": "0742668c-bf59-4191-890e-2b0883508808",
-      "id": "7a31c926-e922-4dbe-bc20-ae4049432eb7"
+      "id": "7a31c926-e922-4dbe-bc20-ae4049432eb7",
+      "_manually_fixed_fields": [
+        "charging_curve"
+      ]
     },
     {
       "brand": "BMW",
@@ -2265,26 +2309,101 @@
             "power": 80.7
           },
           {
-            "percentage": 30,
+            "percentage": 20,
             "power": 80.7
           },
           {
+            "percentage": 40,
+            "power": 65
+          },
+          {
             "percentage": 60,
-            "power": 56.489999999999995
+            "power": 48
           },
           {
             "percentage": 80,
-            "power": 32.28
+            "power": 32
           },
           {
             "percentage": 100,
             "power": 11
           }
         ],
-        "is_default_charging_curve": false
+        "is_default_charging_curve": true
       },
       "brand_id": "0742668c-bf59-4191-890e-2b0883508808",
-      "id": "fbae9c10-0b19-450c-9ce1-1482acc11b77"
+      "id": "fbae9c10-0b19-450c-9ce1-1482acc11b77",
+      "_manually_fixed_fields": [
+        "charging_curve"
+      ]
+    },
+    {
+      "brand": "BMW",
+      "model": "m60",
+      "variant": "",
+      "vehicle_type": "car",
+      "usable_battery_size": 105.2,
+      "energy_consumption": {
+        "average_consumption": 21.7
+      },
+      "charging_voltage": 400,
+      "release_year": 2022,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2": 2,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "2.0": 2
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 105.2,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 105.2
+          },
+          {
+            "percentage": 20,
+            "power": 105.2
+          },
+          {
+            "percentage": 40,
+            "power": 84
+          },
+          {
+            "percentage": 60,
+            "power": 63
+          },
+          {
+            "percentage": 80,
+            "power": 42
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": true
+      },
+      "brand_id": "0742668c-bf59-4191-890e-2b0883508808",
+      "id": "474b9b54-e9f3-4f3a-8451-201bf8d4470a",
+      "_manually_fixed_fields": [
+        "charging_curve"
+      ]
     }
   ]
 }

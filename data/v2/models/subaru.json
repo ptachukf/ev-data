@@ -69,6 +69,67 @@
         "average_consumption": 20
       },
       "charging_voltage": 400
+    },
+    {
+      "brand": "Subaru",
+      "model": "awd",
+      "variant": "",
+      "vehicle_type": "car",
+      "usable_battery_size": 64,
+      "energy_consumption": {
+        "average_consumption": 20
+      },
+      "charging_voltage": 400,
+      "release_year": 2022,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2": 2,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "2.0": 2
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 64,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 64
+          },
+          {
+            "percentage": 30,
+            "power": 64
+          },
+          {
+            "percentage": 60,
+            "power": 44.8
+          },
+          {
+            "percentage": 80,
+            "power": 25.6
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "b6aceebb-eeff-f9a9-4bf6-cbe56475172b",
+      "id": "1a1dee6f-b8cc-434d-9e29-d49d30444927"
     }
   ]
 }

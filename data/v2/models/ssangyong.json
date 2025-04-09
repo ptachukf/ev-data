@@ -53,6 +53,63 @@
         "average_consumption": 19.3
       },
       "charging_voltage": 400
+    },
+    {
+      "brand": "SsangYong",
+      "model": "e-motion",
+      "variant": "",
+      "vehicle_type": "car",
+      "usable_battery_size": 56,
+      "energy_consumption": {
+        "average_consumption": 19.3
+      },
+      "charging_voltage": 400,
+      "release_year": 2022,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2": 2,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "2.0": 2
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 56,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 56
+          },
+          {
+            "percentage": 50,
+            "power": 56
+          },
+          {
+            "percentage": 80,
+            "power": 33.6
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "982074e7-7bc9-757a-ac2d-13229192dc0c",
+      "id": "9d844745-09ea-45aa-b232-831cd0783be8"
     }
   ]
 }

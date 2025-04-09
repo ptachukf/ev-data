@@ -3,6 +3,134 @@
   "brand_name": "Tesla",
   "models": [
     {
+      "brand": "Tesla",
+      "model": "Model S",
+      "variant": "70D",
+      "vehicle_type": "car",
+      "usable_battery_size": 69,
+      "energy_consumption": {
+        "average_consumption": 20
+      },
+      "charging_voltage": 400,
+      "release_year": 2016,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2": 2,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "2.0": 2
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 69,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 69
+          },
+          {
+            "percentage": 30,
+            "power": 69
+          },
+          {
+            "percentage": 60,
+            "power": 48.3
+          },
+          {
+            "percentage": 80,
+            "power": 27.6
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "f37896c3-6bc5-45e1-b442-b9cbc38e3a7c",
+      "id": "637c6a6c-efee-47e2-b44a-74f0fb4d9ae5",
+      "_manually_fixed_fields": [
+        "energy_consumption"
+      ]
+    },
+    {
+      "brand": "Tesla",
+      "model": "Model S",
+      "variant": "100D",
+      "vehicle_type": "car",
+      "usable_battery_size": 95,
+      "energy_consumption": {
+        "average_consumption": 20
+      },
+      "charging_voltage": 400,
+      "release_year": 2017,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2": 2,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "2.0": 2
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "tesla_suc"
+        ],
+        "max_power": 95,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 95
+          },
+          {
+            "percentage": 30,
+            "power": 95
+          },
+          {
+            "percentage": 60,
+            "power": 66.5
+          },
+          {
+            "percentage": 80,
+            "power": 38
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "f37896c3-6bc5-45e1-b442-b9cbc38e3a7c",
+      "id": "318c1a44-9229-4959-a093-13575fc7f081",
+      "_manually_fixed_fields": [
+        "energy_consumption"
+      ]
+    },
+    {
       "id": "fbffc80f-062d-ed16-d6df-5f621bb35848",
       "brand": "Tesla",
       "vehicle_type": "car",
@@ -788,7 +916,7 @@
         "is_default_charging_curve": false
       },
       "energy_consumption": {
-        "average_consumption": 19.8
+        "average_consumption": 19
       },
       "charging_voltage": 400
     },
@@ -1362,28 +1490,35 @@
             "power": 80.8
           },
           {
-            "percentage": 30,
+            "percentage": 20,
             "power": 80.8
           },
           {
+            "percentage": 40,
+            "power": 65
+          },
+          {
             "percentage": 60,
-            "power": 56.559999999999995
+            "power": 48
           },
           {
             "percentage": 80,
-            "power": 32.32
+            "power": 32
           },
           {
             "percentage": 100,
             "power": 11
           }
         ],
-        "is_default_charging_curve": false
+        "is_default_charging_curve": true
       },
       "energy_consumption": {
         "average_consumption": 20.7
       },
-      "charging_voltage": 400
+      "charging_voltage": 400,
+      "_manually_fixed_fields": [
+        "charging_curve"
+      ]
     },
     {
       "id": "6f30c707-a785-42e7-80dc-fff32e16bfcc",
@@ -2813,23 +2948,27 @@
             "power": 85.5
           },
           {
-            "percentage": 30,
+            "percentage": 20,
             "power": 85.5
           },
           {
+            "percentage": 40,
+            "power": 68
+          },
+          {
             "percentage": 60,
-            "power": 59.849999999999994
+            "power": 51
           },
           {
             "percentage": 80,
-            "power": 34.2
+            "power": 34
           },
           {
             "percentage": 100,
             "power": 11
           }
         ],
-        "is_default_charging_curve": false
+        "is_default_charging_curve": true
       },
       "id": "38c69a9c-a291-4186-9ea8-56c2809ba5c5",
       "brand_id": "f37896c3-6bc5-45e1-b442-b9cbc38e3a7c",
@@ -2838,7 +2977,10 @@
       "usable_battery_size": 85.5,
       "energy_consumption": {
         "average_consumption": 21.1
-      }
+      },
+      "_manually_fixed_fields": [
+        "charging_curve"
+      ]
     },
     {
       "brand": "Tesla",
@@ -2877,23 +3019,27 @@
             "power": 85.5
           },
           {
-            "percentage": 30,
+            "percentage": 20,
             "power": 85.5
           },
           {
+            "percentage": 40,
+            "power": 68
+          },
+          {
             "percentage": 60,
-            "power": 59.849999999999994
+            "power": 51
           },
           {
             "percentage": 80,
-            "power": 34.2
+            "power": 34
           },
           {
             "percentage": 100,
             "power": 11
           }
         ],
-        "is_default_charging_curve": false
+        "is_default_charging_curve": true
       },
       "id": "d8107074-99d3-477a-861e-25f06117ea61",
       "brand_id": "f37896c3-6bc5-45e1-b442-b9cbc38e3a7c",
@@ -2902,7 +3048,10 @@
       "usable_battery_size": 85.5,
       "energy_consumption": {
         "average_consumption": 22.8
-      }
+      },
+      "_manually_fixed_fields": [
+        "charging_curve"
+      ]
     },
     {
       "brand": "Tesla",
@@ -3180,26 +3329,33 @@
             "power": 80.8
           },
           {
-            "percentage": 30,
+            "percentage": 20,
             "power": 80.8
           },
           {
+            "percentage": 40,
+            "power": 65
+          },
+          {
             "percentage": 60,
-            "power": 56.559999999999995
+            "power": 48
           },
           {
             "percentage": 80,
-            "power": 32.32
+            "power": 32
           },
           {
             "percentage": 100,
             "power": 11
           }
         ],
-        "is_default_charging_curve": false
+        "is_default_charging_curve": true
       },
       "brand_id": "f37896c3-6bc5-45e1-b442-b9cbc38e3a7c",
-      "id": "378eda92-28ff-488e-b5ec-bf9eb60b0743"
+      "id": "378eda92-28ff-488e-b5ec-bf9eb60b0743",
+      "_manually_fixed_fields": [
+        "charging_curve"
+      ]
     },
     {
       "brand": "Tesla",
@@ -3241,26 +3397,33 @@
             "power": 80.8
           },
           {
-            "percentage": 30,
+            "percentage": 20,
             "power": 80.8
           },
           {
+            "percentage": 40,
+            "power": 65
+          },
+          {
             "percentage": 60,
-            "power": 56.559999999999995
+            "power": 48
           },
           {
             "percentage": 80,
-            "power": 32.32
+            "power": 32
           },
           {
             "percentage": 100,
             "power": 11
           }
         ],
-        "is_default_charging_curve": false
+        "is_default_charging_curve": true
       },
       "brand_id": "f37896c3-6bc5-45e1-b442-b9cbc38e3a7c",
-      "id": "4156c410-245a-48fd-a66a-5f4633f6d4ed"
+      "id": "4156c410-245a-48fd-a66a-5f4633f6d4ed",
+      "_manually_fixed_fields": [
+        "charging_curve"
+      ]
     },
     {
       "brand": "Tesla",
@@ -3302,26 +3465,33 @@
             "power": 85.5
           },
           {
-            "percentage": 30,
+            "percentage": 20,
             "power": 85.5
           },
           {
+            "percentage": 40,
+            "power": 68
+          },
+          {
             "percentage": 60,
-            "power": 59.849999999999994
+            "power": 51
           },
           {
             "percentage": 80,
-            "power": 34.2
+            "power": 34
           },
           {
             "percentage": 100,
             "power": 11
           }
         ],
-        "is_default_charging_curve": false
+        "is_default_charging_curve": true
       },
       "brand_id": "f37896c3-6bc5-45e1-b442-b9cbc38e3a7c",
-      "id": "7fce2dd8-2f10-4a7e-8958-eb44cbca1a27"
+      "id": "7fce2dd8-2f10-4a7e-8958-eb44cbca1a27",
+      "_manually_fixed_fields": [
+        "charging_curve"
+      ]
     },
     {
       "brand": "Tesla",
@@ -3485,26 +3655,33 @@
             "power": 73.5
           },
           {
-            "percentage": 30,
+            "percentage": 20,
             "power": 73.5
           },
           {
+            "percentage": 40,
+            "power": 59
+          },
+          {
             "percentage": 60,
-            "power": 51.449999999999996
+            "power": 44
           },
           {
             "percentage": 80,
-            "power": 29.400000000000002
+            "power": 29
           },
           {
             "percentage": 100,
             "power": 11
           }
         ],
-        "is_default_charging_curve": false
+        "is_default_charging_curve": true
       },
       "brand_id": "f37896c3-6bc5-45e1-b442-b9cbc38e3a7c",
-      "id": "3921eadc-dbe7-4cba-aada-5b2637a536b5"
+      "id": "3921eadc-dbe7-4cba-aada-5b2637a536b5",
+      "_manually_fixed_fields": [
+        "charging_curve"
+      ]
     },
     {
       "id": "32ddeb4f-26e8-4100-b536-011b94a4b01a",
@@ -3605,28 +3782,35 @@
             "power": 85.5
           },
           {
-            "percentage": 30,
+            "percentage": 20,
             "power": 85.5
           },
           {
+            "percentage": 40,
+            "power": 68
+          },
+          {
             "percentage": 60,
-            "power": 59.849999999999994
+            "power": 51
           },
           {
             "percentage": 80,
-            "power": 34.2
+            "power": 34
           },
           {
             "percentage": 100,
             "power": 11
           }
         ],
-        "is_default_charging_curve": false
+        "is_default_charging_curve": true
       },
       "energy_consumption": {
         "average_consumption": 19.2
       },
-      "charging_voltage": 400
+      "charging_voltage": 400,
+      "_manually_fixed_fields": [
+        "charging_curve"
+      ]
     },
     {
       "brand": "Tesla",
@@ -3668,26 +3852,33 @@
             "power": 85.5
           },
           {
-            "percentage": 30,
+            "percentage": 20,
             "power": 85.5
           },
           {
+            "percentage": 40,
+            "power": 68
+          },
+          {
             "percentage": 60,
-            "power": 59.849999999999994
+            "power": 51
           },
           {
             "percentage": 80,
-            "power": 34.2
+            "power": 34
           },
           {
             "percentage": 100,
             "power": 11
           }
         ],
-        "is_default_charging_curve": false
+        "is_default_charging_curve": true
       },
       "brand_id": "f37896c3-6bc5-45e1-b442-b9cbc38e3a7c",
-      "id": "b373b864-f112-48af-a612-59ea12fc3bed"
+      "id": "b373b864-f112-48af-a612-59ea12fc3bed",
+      "_manually_fixed_fields": [
+        "charging_curve"
+      ]
     },
     {
       "id": "ce3f35a5-61e1-4179-b42a-65d26289f68e",
@@ -3851,26 +4042,33 @@
             "power": 85.5
           },
           {
-            "percentage": 30,
+            "percentage": 20,
             "power": 85.5
           },
           {
+            "percentage": 40,
+            "power": 68
+          },
+          {
             "percentage": 60,
-            "power": 59.849999999999994
+            "power": 51
           },
           {
             "percentage": 80,
-            "power": 34.2
+            "power": 34
           },
           {
             "percentage": 100,
             "power": 11
           }
         ],
-        "is_default_charging_curve": false
+        "is_default_charging_curve": true
       },
       "brand_id": "f37896c3-6bc5-45e1-b442-b9cbc38e3a7c",
-      "id": "074252b2-7733-4150-a06b-de7bd9e661c9"
+      "id": "074252b2-7733-4150-a06b-de7bd9e661c9",
+      "_manually_fixed_fields": [
+        "charging_curve"
+      ]
     },
     {
       "brand": "Tesla",
@@ -3971,28 +4169,35 @@
             "power": 85.5
           },
           {
-            "percentage": 30,
+            "percentage": 20,
             "power": 85.5
           },
           {
+            "percentage": 40,
+            "power": 68
+          },
+          {
             "percentage": 60,
-            "power": 59.849999999999994
+            "power": 51
           },
           {
             "percentage": 80,
-            "power": 34.2
+            "power": 34
           },
           {
             "percentage": 100,
             "power": 11
           }
         ],
-        "is_default_charging_curve": false
+        "is_default_charging_curve": true
       },
       "energy_consumption": {
         "average_consumption": 20.6
       },
-      "charging_voltage": 400
+      "charging_voltage": 400,
+      "_manually_fixed_fields": [
+        "charging_curve"
+      ]
     },
     {
       "id": "908e578f-f890-4716-93e8-7c0f75e46bb5",
@@ -4031,31 +4236,39 @@
         "charging_curve": [
           {
             "percentage": 0,
-            "power": 85.5
+            "power": 140
           },
           {
-            "percentage": 30,
-            "power": 85.5
+            "percentage": 20,
+            "power": 140
+          },
+          {
+            "percentage": 40,
+            "power": 112
           },
           {
             "percentage": 60,
-            "power": 59.849999999999994
+            "power": 84
           },
           {
             "percentage": 80,
-            "power": 34.2
+            "power": 56
           },
           {
             "percentage": 100,
             "power": 11
           }
         ],
-        "is_default_charging_curve": false
+        "is_default_charging_curve": true
       },
       "energy_consumption": {
         "average_consumption": 22.79296875
       },
-      "charging_voltage": 400
+      "charging_voltage": 400,
+      "_manually_fixed_fields": [
+        "charging_curve"
+      ],
+      "_model_hash": "gfgl8e"
     },
     {
       "id": "d03d6e42-d6f8-4e3f-b527-a3c1d1e40f9d",
@@ -4094,286 +4307,48 @@
         "charging_curve": [
           {
             "percentage": 0,
-            "power": 85.5
+            "power": 140
           },
           {
-            "percentage": 30,
-            "power": 85.5
+            "percentage": 20,
+            "power": 140
+          },
+          {
+            "percentage": 40,
+            "power": 112
           },
           {
             "percentage": 60,
-            "power": 59.849999999999994
+            "power": 84
           },
           {
             "percentage": 80,
-            "power": 34.2
+            "power": 56
           },
           {
             "percentage": 100,
             "power": 11
           }
         ],
-        "is_default_charging_curve": false
+        "is_default_charging_curve": true
       },
       "energy_consumption": {
         "average_consumption": 21.6
       },
-      "charging_voltage": 400
-    },
-    {
-      "id": "7490520f-fe11-4148-a9b6-3882f06ee082",
-      "brand": "Tesla",
-      "vehicle_type": "car",
-      "brand_id": "f37896c3-6bc5-45e1-b442-b9cbc38e3a7c",
-      "model": "Model X",
-      "release_year": 2017,
-      "variant": "100D",
-      "usable_battery_size": 100,
-      "ac_charger": {
-        "usable_phases": 3,
-        "ports": [
-          "type2"
-        ],
-        "max_power": 16.5,
-        "power_per_charging_point": {
-          "2": 2,
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
-      },
-      "dc_charger": {
-        "ports": [
-          "ccs",
-          "chademo",
-          "tesla_suc"
-        ],
-        "max_power": 140,
-        "charging_curve": [
-          {
-            "percentage": 0,
-            "power": 95
-          },
-          {
-            "percentage": 30,
-            "power": 95
-          },
-          {
-            "percentage": 60,
-            "power": 66.5
-          },
-          {
-            "percentage": 80,
-            "power": 38
-          },
-          {
-            "percentage": 100,
-            "power": 11
-          }
-        ],
-        "is_default_charging_curve": false
-      },
-      "energy_consumption": {
-        "average_consumption": 21.8
-      },
-      "charging_voltage": 400
-    },
-    {
-      "id": "0aa5220a-6da7-4dc0-a0a1-714bea4fded3",
-      "brand": "Tesla",
-      "vehicle_type": "car",
-      "brand_id": "f37896c3-6bc5-45e1-b442-b9cbc38e3a7c",
-      "model": "Model X",
-      "release_year": 2017,
-      "variant": "P100D",
-      "usable_battery_size": 100,
-      "ac_charger": {
-        "usable_phases": 3,
-        "ports": [
-          "type2"
-        ],
-        "max_power": 16.5,
-        "power_per_charging_point": {
-          "2": 2,
-          "11": 11.1,
-          "16": 16.2,
-          "22": 16.5,
-          "43": 16.5,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
-      },
-      "dc_charger": {
-        "ports": [
-          "ccs",
-          "chademo",
-          "tesla_suc"
-        ],
-        "max_power": 140,
-        "charging_curve": [
-          {
-            "percentage": 0,
-            "power": 125
-          },
-          {
-            "percentage": 43,
-            "power": 140
-          },
-          {
-            "percentage": 80,
-            "power": 37
-          },
-          {
-            "percentage": 100,
-            "power": 12
-          }
-        ],
-        "is_default_charging_curve": false
-      },
-      "energy_consumption": {
-        "average_consumption": 22.5999267578125
-      },
-      "charging_voltage": 400
-    },
-    {
-      "id": "5f6b0607-8844-4484-8030-f1479d0b4fe9",
-      "brand": "Tesla",
-      "vehicle_type": "car",
-      "brand_id": "f37896c3-6bc5-45e1-b442-b9cbc38e3a7c",
-      "model": "Model S",
-      "release_year": 2016,
-      "variant": "P100D",
-      "usable_battery_size": 98,
-      "ac_charger": {
-        "usable_phases": 3,
-        "ports": [
-          "type2"
-        ],
-        "max_power": 16.5,
-        "power_per_charging_point": {
-          "2": 2,
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
-      },
-      "dc_charger": {
-        "ports": [
-          "ccs",
-          "chademo",
-          "tesla_suc"
-        ],
-        "max_power": 197,
-        "charging_curve": [
-          {
-            "percentage": 0,
-            "power": 197
-          },
-          {
-            "percentage": 30,
-            "power": 149
-          },
-          {
-            "percentage": 50,
-            "power": 133
-          },
-          {
-            "percentage": 80,
-            "power": 73
-          },
-          {
-            "percentage": 100,
-            "power": 10
-          }
-        ],
-        "is_default_charging_curve": false
-      },
-      "energy_consumption": {
-        "average_consumption": 20
-      },
-      "charging_voltage": 400
-    },
-    {
-      "brand": "Tesla",
-      "model": "Model S",
-      "variant": "70D",
-      "vehicle_type": "car",
-      "usable_battery_size": 69,
-      "energy_consumption": {
-        "average_consumption": 19.8
-      },
       "charging_voltage": 400,
-      "release_year": 2016,
-      "ac_charger": {
-        "usable_phases": 3,
-        "ports": [
-          "type2"
-        ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "2": 2,
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4,
-          "2.0": 2
-        }
-      },
-      "dc_charger": {
-        "ports": [
-          "ccs"
-        ],
-        "max_power": 69,
-        "charging_curve": [
-          {
-            "percentage": 0,
-            "power": 69
-          },
-          {
-            "percentage": 30,
-            "power": 69
-          },
-          {
-            "percentage": 60,
-            "power": 48.3
-          },
-          {
-            "percentage": 80,
-            "power": 27.6
-          },
-          {
-            "percentage": 100,
-            "power": 11
-          }
-        ],
-        "is_default_charging_curve": false
-      },
-      "brand_id": "f37896c3-6bc5-45e1-b442-b9cbc38e3a7c",
-      "id": "637c6a6c-efee-47e2-b44a-74f0fb4d9ae5"
+      "_manually_fixed_fields": [
+        "charging_curve"
+      ],
+      "_model_hash": "-yq8egi"
     },
     {
       "brand": "Tesla",
-      "model": "Model S",
+      "model": "Model X",
       "variant": "100D",
       "vehicle_type": "car",
       "usable_battery_size": 95,
       "energy_consumption": {
-        "average_consumption": 19.8
+        "average_consumption": 21.8
       },
       "charging_voltage": 400,
       "release_year": 2017,
@@ -4425,7 +4400,124 @@
         "is_default_charging_curve": false
       },
       "brand_id": "f37896c3-6bc5-45e1-b442-b9cbc38e3a7c",
-      "id": "318c1a44-9229-4959-a093-13575fc7f081"
+      "id": "dccc3e63-9996-494a-824b-c2a8cbd5980e",
+      "_model_hash": "-5y72vp"
+    },
+    {
+      "brand": "Tesla",
+      "model": "Model X",
+      "variant": "P100D",
+      "vehicle_type": "car",
+      "usable_battery_size": 95,
+      "energy_consumption": {
+        "average_consumption": 22.6
+      },
+      "charging_voltage": 400,
+      "release_year": 2017,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2": 2,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "2.0": 2
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 100,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 100
+          },
+          {
+            "percentage": 50,
+            "power": 100
+          },
+          {
+            "percentage": 80,
+            "power": 60
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": true
+      },
+      "brand_id": "f37896c3-6bc5-45e1-b442-b9cbc38e3a7c",
+      "id": "03660dee-199b-4574-a21b-48b9320d73a4",
+      "_model_hash": "gblm2j"
+    },
+    {
+      "brand": "Tesla",
+      "model": "Model S",
+      "variant": "P100D",
+      "vehicle_type": "car",
+      "usable_battery_size": 95,
+      "energy_consumption": {
+        "average_consumption": 20
+      },
+      "charging_voltage": 400,
+      "release_year": 2016,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2": 2,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "2.0": 2
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 100,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 100
+          },
+          {
+            "percentage": 50,
+            "power": 100
+          },
+          {
+            "percentage": 80,
+            "power": 60
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": true
+      },
+      "brand_id": "f37896c3-6bc5-45e1-b442-b9cbc38e3a7c",
+      "id": "6a3876d6-2607-43d1-84d5-0956c40974e4",
+      "_model_hash": "xq0qxj"
     },
     {
       "brand": "Tesla",
@@ -4467,26 +4559,33 @@
             "power": 73.5
           },
           {
-            "percentage": 30,
+            "percentage": 20,
             "power": 73.5
           },
           {
+            "percentage": 40,
+            "power": 59
+          },
+          {
             "percentage": 60,
-            "power": 51.449999999999996
+            "power": 44
           },
           {
             "percentage": 80,
-            "power": 29.400000000000002
+            "power": 29
           },
           {
             "percentage": 100,
             "power": 11
           }
         ],
-        "is_default_charging_curve": false
+        "is_default_charging_curve": true
       },
       "brand_id": "f37896c3-6bc5-45e1-b442-b9cbc38e3a7c",
-      "id": "8fcdaebc-49b0-4794-b355-2bd448ec02b7"
+      "id": "8fcdaebc-49b0-4794-b355-2bd448ec02b7",
+      "_manually_fixed_fields": [
+        "charging_curve"
+      ]
     },
     {
       "brand": "Tesla",
@@ -4528,26 +4627,33 @@
             "power": 73.5
           },
           {
-            "percentage": 30,
+            "percentage": 20,
             "power": 73.5
           },
           {
+            "percentage": 40,
+            "power": 59
+          },
+          {
             "percentage": 60,
-            "power": 51.449999999999996
+            "power": 44
           },
           {
             "percentage": 80,
-            "power": 29.400000000000002
+            "power": 29
           },
           {
             "percentage": 100,
             "power": 11
           }
         ],
-        "is_default_charging_curve": false
+        "is_default_charging_curve": true
       },
       "brand_id": "f37896c3-6bc5-45e1-b442-b9cbc38e3a7c",
-      "id": "02f746ce-7cb0-4ea6-9848-a61aa2c33120"
+      "id": "02f746ce-7cb0-4ea6-9848-a61aa2c33120",
+      "_manually_fixed_fields": [
+        "charging_curve"
+      ]
     },
     {
       "brand": "Tesla",
@@ -4608,7 +4714,8 @@
         "is_default_charging_curve": false
       },
       "brand_id": "f37896c3-6bc5-45e1-b442-b9cbc38e3a7c",
-      "id": "d3530b47-48cc-4622-a7b3-ff0309cae2bb"
+      "id": "d3530b47-48cc-4622-a7b3-ff0309cae2bb",
+      "_model_hash": "ozmo7g"
     },
     {
       "brand": "Tesla",
@@ -4669,7 +4776,8 @@
         "is_default_charging_curve": false
       },
       "brand_id": "f37896c3-6bc5-45e1-b442-b9cbc38e3a7c",
-      "id": "d80fd320-0899-4bd8-a2ed-8ac3b0334733"
+      "id": "d80fd320-0899-4bd8-a2ed-8ac3b0334733",
+      "_model_hash": "-tonaxf"
     },
     {
       "brand": "Tesla",
@@ -4909,7 +5017,8 @@
         "is_default_charging_curve": false
       },
       "brand_id": "f37896c3-6bc5-45e1-b442-b9cbc38e3a7c",
-      "id": "9e7ca4a1-c601-43e4-bdac-e7d3ac84c9a2"
+      "id": "9e7ca4a1-c601-43e4-bdac-e7d3ac84c9a2",
+      "_model_hash": "-999t43"
     },
     {
       "brand": "Tesla",
@@ -5313,26 +5422,33 @@
             "power": 76
           },
           {
-            "percentage": 30,
+            "percentage": 20,
             "power": 76
           },
           {
+            "percentage": 40,
+            "power": 61
+          },
+          {
             "percentage": 60,
-            "power": 53.199999999999996
+            "power": 46
           },
           {
             "percentage": 80,
-            "power": 30.400000000000002
+            "power": 30
           },
           {
             "percentage": 100,
             "power": 11
           }
         ],
-        "is_default_charging_curve": false
+        "is_default_charging_curve": true
       },
       "brand_id": "f37896c3-6bc5-45e1-b442-b9cbc38e3a7c",
-      "id": "cc612db3-643d-435d-946a-d8a0a397fb51"
+      "id": "cc612db3-643d-435d-946a-d8a0a397fb51",
+      "_manually_fixed_fields": [
+        "charging_curve"
+      ]
     },
     {
       "brand": "Tesla",
@@ -5862,22 +5978,33 @@
             "power": 51
           },
           {
-            "percentage": 50,
+            "percentage": 20,
             "power": 51
           },
           {
+            "percentage": 40,
+            "power": 41
+          },
+          {
+            "percentage": 60,
+            "power": 31
+          },
+          {
             "percentage": 80,
-            "power": 30.599999999999998
+            "power": 20
           },
           {
             "percentage": 100,
             "power": 11
           }
         ],
-        "is_default_charging_curve": false
+        "is_default_charging_curve": true
       },
       "brand_id": "f37896c3-6bc5-45e1-b442-b9cbc38e3a7c",
-      "id": "4a6128d4-eceb-4d5d-b040-b65bf5d160c4"
+      "id": "4a6128d4-eceb-4d5d-b040-b65bf5d160c4",
+      "_manually_fixed_fields": [
+        "charging_curve"
+      ]
     },
     {
       "brand": "Tesla",
@@ -5919,26 +6046,34 @@
             "power": 76
           },
           {
-            "percentage": 30,
+            "percentage": 20,
             "power": 76
           },
           {
+            "percentage": 40,
+            "power": 61
+          },
+          {
             "percentage": 60,
-            "power": 53.199999999999996
+            "power": 46
           },
           {
             "percentage": 80,
-            "power": 30.400000000000002
+            "power": 30
           },
           {
             "percentage": 100,
             "power": 11
           }
         ],
-        "is_default_charging_curve": false
+        "is_default_charging_curve": true
       },
       "brand_id": "f37896c3-6bc5-45e1-b442-b9cbc38e3a7c",
-      "id": "f76a386f-467d-41b5-85fd-0afa5e5dcd5c"
+      "id": "f76a386f-467d-41b5-85fd-0afa5e5dcd5c",
+      "_manually_fixed_fields": [
+        "charging_curve"
+      ],
+      "_model_hash": "-hnfsp5"
     },
     {
       "brand": "Tesla",
@@ -5996,6 +6131,128 @@
       },
       "brand_id": "f37896c3-6bc5-45e1-b442-b9cbc38e3a7c",
       "id": "bdfe005e-bca2-4203-82b1-1de8c2363289"
+    },
+    {
+      "brand": "Tesla",
+      "model": "y long range dual motor",
+      "variant": "",
+      "vehicle_type": "car",
+      "usable_battery_size": 75,
+      "energy_consumption": {
+        "average_consumption": 16.9
+      },
+      "charging_voltage": 400,
+      "release_year": 2022,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2": 2,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "2.0": 2
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 75,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 75
+          },
+          {
+            "percentage": 30,
+            "power": 75
+          },
+          {
+            "percentage": 60,
+            "power": 52.5
+          },
+          {
+            "percentage": 80,
+            "power": 30
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "f37896c3-6bc5-45e1-b442-b9cbc38e3a7c",
+      "id": "f2576f27-d640-47db-9b5f-69727b694128"
+    },
+    {
+      "brand": "Tesla",
+      "model": "3",
+      "variant": "performance",
+      "vehicle_type": "car",
+      "usable_battery_size": 75,
+      "energy_consumption": {
+        "average_consumption": 16.3
+      },
+      "charging_voltage": 400,
+      "release_year": 2022,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2": 2,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "2.0": 2
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 75,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 75
+          },
+          {
+            "percentage": 30,
+            "power": 75
+          },
+          {
+            "percentage": 60,
+            "power": 52.5
+          },
+          {
+            "percentage": 80,
+            "power": 30
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "f37896c3-6bc5-45e1-b442-b9cbc38e3a7c",
+      "id": "2614cb47-98f3-4e9f-82ef-508a56660a8b"
     }
   ]
 }

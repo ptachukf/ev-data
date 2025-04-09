@@ -95,28 +95,39 @@
           "ccs"
         ],
         "max_power": 101,
-        "is_default_charging_curve": false,
+        "is_default_charging_curve": true,
         "charging_curve": [
           {
             "percentage": 0,
             "power": 101
           },
           {
-            "percentage": 50,
+            "percentage": 20,
             "power": 101
           },
           {
+            "percentage": 40,
+            "power": 81
+          },
+          {
+            "percentage": 60,
+            "power": 61
+          },
+          {
             "percentage": 80,
-            "power": 60.599999999999994
+            "power": 40
           },
           {
             "percentage": 100,
-            "power": 30.299999999999997
+            "power": 11
           }
         ]
       },
       "vehicle_type": "car",
-      "charging_voltage": 400
+      "charging_voltage": 400,
+      "_manually_fixed_fields": [
+        "charging_curve"
+      ]
     },
     {
       "brand": "Opel / Vauxhall",
@@ -211,28 +222,39 @@
           "ccs"
         ],
         "max_power": 101,
-        "is_default_charging_curve": false,
+        "is_default_charging_curve": true,
         "charging_curve": [
           {
             "percentage": 0,
             "power": 101
           },
           {
-            "percentage": 50,
+            "percentage": 20,
             "power": 101
           },
           {
+            "percentage": 40,
+            "power": 81
+          },
+          {
+            "percentage": 60,
+            "power": 61
+          },
+          {
             "percentage": 80,
-            "power": 60.599999999999994
+            "power": 40
           },
           {
             "percentage": 100,
-            "power": 30.299999999999997
+            "power": 11
           }
         ]
       },
       "vehicle_type": "car",
-      "charging_voltage": 400
+      "charging_voltage": 400,
+      "_manually_fixed_fields": [
+        "charging_curve"
+      ]
     },
     {
       "brand": "Opel / Vauxhall",
@@ -501,28 +523,39 @@
           "ccs"
         ],
         "max_power": 101,
-        "is_default_charging_curve": false,
+        "is_default_charging_curve": true,
         "charging_curve": [
           {
             "percentage": 0,
             "power": 101
           },
           {
-            "percentage": 50,
+            "percentage": 20,
             "power": 101
           },
           {
+            "percentage": 40,
+            "power": 81
+          },
+          {
+            "percentage": 60,
+            "power": 61
+          },
+          {
             "percentage": 80,
-            "power": 60.599999999999994
+            "power": 40
           },
           {
             "percentage": 100,
-            "power": 30.299999999999997
+            "power": 11
           }
         ]
       },
       "vehicle_type": "car",
-      "charging_voltage": 400
+      "charging_voltage": 400,
+      "_manually_fixed_fields": [
+        "charging_curve"
+      ]
     },
     {
       "brand": "Opel / Vauxhall",
@@ -796,19 +829,27 @@
             "power": 101
           },
           {
-            "percentage": 50,
+            "percentage": 20,
             "power": 101
           },
           {
+            "percentage": 40,
+            "power": 81
+          },
+          {
+            "percentage": 60,
+            "power": 61
+          },
+          {
             "percentage": 80,
-            "power": 60.599999999999994
+            "power": 40
           },
           {
             "percentage": 100,
-            "power": 30.299999999999997
+            "power": 11
           }
         ],
-        "is_default_charging_curve": false
+        "is_default_charging_curve": true
       },
       "id": "17ad1dce-304e-4eac-9161-096d74d3e90f",
       "brand_id": "3500fb3e-bd2c-478e-ae5e-ac9ee490594b",
@@ -817,7 +858,10 @@
       "usable_battery_size": 46.3,
       "energy_consumption": {
         "average_consumption": 18.2
-      }
+      },
+      "_manually_fixed_fields": [
+        "charging_curve"
+      ]
     },
     {
       "brand": "Opel / Vauxhall",
@@ -1091,19 +1135,27 @@
             "power": 101
           },
           {
-            "percentage": 50,
+            "percentage": 20,
             "power": 101
           },
           {
+            "percentage": 40,
+            "power": 81
+          },
+          {
+            "percentage": 60,
+            "power": 61
+          },
+          {
             "percentage": 80,
-            "power": 60.599999999999994
+            "power": 40
           },
           {
             "percentage": 100,
-            "power": 30.299999999999997
+            "power": 11
           }
         ],
-        "is_default_charging_curve": false
+        "is_default_charging_curve": true
       },
       "id": "733a3097-bb2f-4fb3-b25e-84cf60b25afe",
       "brand_id": "3500fb3e-bd2c-478e-ae5e-ac9ee490594b",
@@ -1112,7 +1164,10 @@
       "usable_battery_size": 50,
       "energy_consumption": {
         "average_consumption": 25.7
-      }
+      },
+      "_manually_fixed_fields": [
+        "charging_curve"
+      ]
     },
     {
       "brand": "Opel / Vauxhall",
@@ -1150,19 +1205,27 @@
             "power": 101
           },
           {
-            "percentage": 50,
+            "percentage": 20,
             "power": 101
           },
           {
+            "percentage": 40,
+            "power": 81
+          },
+          {
+            "percentage": 60,
+            "power": 61
+          },
+          {
             "percentage": 80,
-            "power": 60.599999999999994
+            "power": 40
           },
           {
             "percentage": 100,
-            "power": 30.299999999999997
+            "power": 11
           }
         ],
-        "is_default_charging_curve": false
+        "is_default_charging_curve": true
       },
       "id": "bb67e750-5552-4a75-bfee-2bd9ae32616b",
       "brand_id": "3500fb3e-bd2c-478e-ae5e-ac9ee490594b",
@@ -1171,7 +1234,10 @@
       "usable_battery_size": 50,
       "energy_consumption": {
         "average_consumption": 25.7
-      }
+      },
+      "_manually_fixed_fields": [
+        "charging_curve"
+      ]
     },
     {
       "brand": "Opel / Vauxhall",
@@ -1209,19 +1275,27 @@
             "power": 101
           },
           {
-            "percentage": 50,
+            "percentage": 20,
             "power": 101
           },
           {
+            "percentage": 40,
+            "power": 81
+          },
+          {
+            "percentage": 60,
+            "power": 61
+          },
+          {
             "percentage": 80,
-            "power": 60.599999999999994
+            "power": 40
           },
           {
             "percentage": 100,
-            "power": 30.299999999999997
+            "power": 11
           }
         ],
-        "is_default_charging_curve": false
+        "is_default_charging_curve": true
       },
       "id": "885f16c3-6a75-4c33-a992-bf99834fe29f",
       "brand_id": "3500fb3e-bd2c-478e-ae5e-ac9ee490594b",
@@ -1230,7 +1304,10 @@
       "usable_battery_size": 50,
       "energy_consumption": {
         "average_consumption": 25
-      }
+      },
+      "_manually_fixed_fields": [
+        "charging_curve"
+      ]
     },
     {
       "brand": "Opel / Vauxhall",
@@ -1327,19 +1404,27 @@
             "power": 101
           },
           {
-            "percentage": 50,
+            "percentage": 20,
             "power": 101
           },
           {
+            "percentage": 40,
+            "power": 81
+          },
+          {
+            "percentage": 60,
+            "power": 61
+          },
+          {
             "percentage": 80,
-            "power": 60.599999999999994
+            "power": 40
           },
           {
             "percentage": 100,
-            "power": 30.299999999999997
+            "power": 11
           }
         ],
-        "is_default_charging_curve": false
+        "is_default_charging_curve": true
       },
       "id": "29a072e0-79bc-4d15-a676-689621a225be",
       "brand_id": "3500fb3e-bd2c-478e-ae5e-ac9ee490594b",
@@ -1348,7 +1433,10 @@
       "usable_battery_size": 50,
       "energy_consumption": {
         "average_consumption": 25.7
-      }
+      },
+      "_manually_fixed_fields": [
+        "charging_curve"
+      ]
     },
     {
       "brand": "Opel / Vauxhall",
@@ -1386,19 +1474,27 @@
             "power": 101
           },
           {
-            "percentage": 50,
+            "percentage": 20,
             "power": 101
           },
           {
+            "percentage": 40,
+            "power": 81
+          },
+          {
+            "percentage": 60,
+            "power": 61
+          },
+          {
             "percentage": 80,
-            "power": 60.599999999999994
+            "power": 40
           },
           {
             "percentage": 100,
-            "power": 30.299999999999997
+            "power": 11
           }
         ],
-        "is_default_charging_curve": false
+        "is_default_charging_curve": true
       },
       "id": "1e04957d-c9f3-4b94-8749-9288ec97df8b",
       "brand_id": "3500fb3e-bd2c-478e-ae5e-ac9ee490594b",
@@ -1407,7 +1503,10 @@
       "usable_battery_size": 50,
       "energy_consumption": {
         "average_consumption": 25
-      }
+      },
+      "_manually_fixed_fields": [
+        "charging_curve"
+      ]
     },
     {
       "brand": "Opel / Vauxhall",
@@ -1445,19 +1544,27 @@
             "power": 101
           },
           {
-            "percentage": 50,
+            "percentage": 20,
             "power": 101
           },
           {
+            "percentage": 40,
+            "power": 81
+          },
+          {
+            "percentage": 60,
+            "power": 61
+          },
+          {
             "percentage": 80,
-            "power": 60.599999999999994
+            "power": 40
           },
           {
             "percentage": 100,
-            "power": 30.299999999999997
+            "power": 11
           }
         ],
-        "is_default_charging_curve": false
+        "is_default_charging_curve": true
       },
       "id": "ce65331e-9cf0-455e-b02e-d0f7f5752ae3",
       "brand_id": "3500fb3e-bd2c-478e-ae5e-ac9ee490594b",
@@ -1466,7 +1573,10 @@
       "usable_battery_size": 50,
       "energy_consumption": {
         "average_consumption": 25
-      }
+      },
+      "_manually_fixed_fields": [
+        "charging_curve"
+      ]
     },
     {
       "brand": "Opel / Vauxhall",
@@ -1504,19 +1614,27 @@
             "power": 101
           },
           {
-            "percentage": 50,
+            "percentage": 20,
             "power": 101
           },
           {
+            "percentage": 40,
+            "power": 81
+          },
+          {
+            "percentage": 60,
+            "power": 61
+          },
+          {
             "percentage": 80,
-            "power": 60.599999999999994
+            "power": 40
           },
           {
             "percentage": 100,
-            "power": 30.299999999999997
+            "power": 11
           }
         ],
-        "is_default_charging_curve": false
+        "is_default_charging_curve": true
       },
       "id": "799b0b36-4c93-451c-80c8-d29c2b5b7d8d",
       "brand_id": "3500fb3e-bd2c-478e-ae5e-ac9ee490594b",
@@ -1525,7 +1643,10 @@
       "usable_battery_size": 50,
       "energy_consumption": {
         "average_consumption": 25.7
-      }
+      },
+      "_manually_fixed_fields": [
+        "charging_curve"
+      ]
     },
     {
       "brand": "Opel / Vauxhall",
@@ -1563,19 +1684,27 @@
             "power": 101
           },
           {
-            "percentage": 50,
+            "percentage": 20,
             "power": 101
           },
           {
+            "percentage": 40,
+            "power": 81
+          },
+          {
+            "percentage": 60,
+            "power": 61
+          },
+          {
             "percentage": 80,
-            "power": 60.599999999999994
+            "power": 40
           },
           {
             "percentage": 100,
-            "power": 30.299999999999997
+            "power": 11
           }
         ],
-        "is_default_charging_curve": false
+        "is_default_charging_curve": true
       },
       "id": "ec111c07-25de-42ac-876b-c1b8694eec95",
       "brand_id": "3500fb3e-bd2c-478e-ae5e-ac9ee490594b",
@@ -1584,7 +1713,10 @@
       "usable_battery_size": 50,
       "energy_consumption": {
         "average_consumption": 25
-      }
+      },
+      "_manually_fixed_fields": [
+        "charging_curve"
+      ]
     },
     {
       "brand": "Opel / Vauxhall",
@@ -1744,22 +1876,33 @@
             "power": 46.3
           },
           {
-            "percentage": 50,
+            "percentage": 20,
             "power": 46.3
           },
           {
+            "percentage": 40,
+            "power": 37
+          },
+          {
+            "percentage": 60,
+            "power": 28
+          },
+          {
             "percentage": 80,
-            "power": 27.779999999999998
+            "power": 19
           },
           {
             "percentage": 100,
             "power": 11
           }
         ],
-        "is_default_charging_curve": false
+        "is_default_charging_curve": true
       },
       "brand_id": "3500fb3e-bd2c-478e-ae5e-ac9ee490594b",
-      "id": "5eff85cb-f439-441f-98df-dbce48bf31ba"
+      "id": "5eff85cb-f439-441f-98df-dbce48bf31ba",
+      "_manually_fixed_fields": [
+        "charging_curve"
+      ]
     },
     {
       "brand": "Opel / Vauxhall",
@@ -1801,22 +1944,33 @@
             "power": 46.3
           },
           {
-            "percentage": 50,
+            "percentage": 20,
             "power": 46.3
           },
           {
+            "percentage": 40,
+            "power": 37
+          },
+          {
+            "percentage": 60,
+            "power": 28
+          },
+          {
             "percentage": 80,
-            "power": 27.779999999999998
+            "power": 19
           },
           {
             "percentage": 100,
             "power": 11
           }
         ],
-        "is_default_charging_curve": false
+        "is_default_charging_curve": true
       },
       "brand_id": "3500fb3e-bd2c-478e-ae5e-ac9ee490594b",
-      "id": "3aee01de-a314-413a-9abf-4cae1555503c"
+      "id": "3aee01de-a314-413a-9abf-4cae1555503c",
+      "_manually_fixed_fields": [
+        "charging_curve"
+      ]
     },
     {
       "brand": "Opel / Vauxhall",
@@ -1858,22 +2012,33 @@
             "power": 46.3
           },
           {
-            "percentage": 50,
+            "percentage": 20,
             "power": 46.3
           },
           {
+            "percentage": 40,
+            "power": 37
+          },
+          {
+            "percentage": 60,
+            "power": 28
+          },
+          {
             "percentage": 80,
-            "power": 27.779999999999998
+            "power": 19
           },
           {
             "percentage": 100,
             "power": 11
           }
         ],
-        "is_default_charging_curve": false
+        "is_default_charging_curve": true
       },
       "brand_id": "3500fb3e-bd2c-478e-ae5e-ac9ee490594b",
-      "id": "930c907d-0d57-46c6-99cb-ff0fe95c7a04"
+      "id": "930c907d-0d57-46c6-99cb-ff0fe95c7a04",
+      "_manually_fixed_fields": [
+        "charging_curve"
+      ]
     },
     {
       "brand": "Opel / Vauxhall",
@@ -1915,26 +2080,33 @@
             "power": 68
           },
           {
-            "percentage": 30,
+            "percentage": 20,
             "power": 68
           },
           {
+            "percentage": 40,
+            "power": 54
+          },
+          {
             "percentage": 60,
-            "power": 47.599999999999994
+            "power": 41
           },
           {
             "percentage": 80,
-            "power": 27.200000000000003
+            "power": 27
           },
           {
             "percentage": 100,
             "power": 11
           }
         ],
-        "is_default_charging_curve": false
+        "is_default_charging_curve": true
       },
       "brand_id": "3500fb3e-bd2c-478e-ae5e-ac9ee490594b",
-      "id": "bc4ede51-2e92-4f8b-ba24-241c1e0bff29"
+      "id": "bc4ede51-2e92-4f8b-ba24-241c1e0bff29",
+      "_manually_fixed_fields": [
+        "charging_curve"
+      ]
     },
     {
       "brand": "Opel / Vauxhall",
@@ -1976,26 +2148,33 @@
             "power": 68
           },
           {
-            "percentage": 30,
+            "percentage": 20,
             "power": 68
           },
           {
+            "percentage": 40,
+            "power": 54
+          },
+          {
             "percentage": 60,
-            "power": 47.599999999999994
+            "power": 41
           },
           {
             "percentage": 80,
-            "power": 27.200000000000003
+            "power": 27
           },
           {
             "percentage": 100,
             "power": 11
           }
         ],
-        "is_default_charging_curve": false
+        "is_default_charging_curve": true
       },
       "brand_id": "3500fb3e-bd2c-478e-ae5e-ac9ee490594b",
-      "id": "ef292bd6-dc4c-40ef-9b4f-d52b83a032c4"
+      "id": "ef292bd6-dc4c-40ef-9b4f-d52b83a032c4",
+      "_manually_fixed_fields": [
+        "charging_curve"
+      ]
     },
     {
       "brand": "Opel / Vauxhall",
@@ -2037,22 +2216,33 @@
             "power": 46.3
           },
           {
-            "percentage": 50,
+            "percentage": 20,
             "power": 46.3
           },
           {
+            "percentage": 40,
+            "power": 37
+          },
+          {
+            "percentage": 60,
+            "power": 28
+          },
+          {
             "percentage": 80,
-            "power": 27.779999999999998
+            "power": 19
           },
           {
             "percentage": 100,
             "power": 11
           }
         ],
-        "is_default_charging_curve": false
+        "is_default_charging_curve": true
       },
       "brand_id": "3500fb3e-bd2c-478e-ae5e-ac9ee490594b",
-      "id": "f4fc1ac6-a67e-4068-8d30-b5973233e6f6"
+      "id": "f4fc1ac6-a67e-4068-8d30-b5973233e6f6",
+      "_manually_fixed_fields": [
+        "charging_curve"
+      ]
     },
     {
       "brand": "Opel / Vauxhall",
@@ -2094,22 +2284,441 @@
             "power": 46.3
           },
           {
-            "percentage": 50,
+            "percentage": 20,
             "power": 46.3
           },
           {
+            "percentage": 40,
+            "power": 37
+          },
+          {
+            "percentage": 60,
+            "power": 28
+          },
+          {
             "percentage": 80,
-            "power": 27.779999999999998
+            "power": 19
           },
           {
             "percentage": 100,
             "power": 11
           }
         ],
-        "is_default_charging_curve": false
+        "is_default_charging_curve": true
       },
       "brand_id": "3500fb3e-bd2c-478e-ae5e-ac9ee490594b",
-      "id": "807277e9-0299-4d25-8789-4097c0cb6770"
+      "id": "807277e9-0299-4d25-8789-4097c0cb6770",
+      "_manually_fixed_fields": [
+        "charging_curve"
+      ]
+    },
+    {
+      "brand": "Opel / Vauxhall",
+      "model": "50kwh",
+      "variant": "",
+      "vehicle_type": "car",
+      "usable_battery_size": 46.3,
+      "energy_consumption": {
+        "average_consumption": 17.8
+      },
+      "charging_voltage": 400,
+      "release_year": 2021,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2": 2,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "2.0": 2
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 46.3,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 46.3
+          },
+          {
+            "percentage": 20,
+            "power": 46.3
+          },
+          {
+            "percentage": 40,
+            "power": 37
+          },
+          {
+            "percentage": 60,
+            "power": 28
+          },
+          {
+            "percentage": 80,
+            "power": 19
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": true
+      },
+      "brand_id": "3500fb3e-bd2c-478e-ae5e-ac9ee490594b",
+      "id": "5c8f03a6-6353-46da-9ac0-3dbf88b507fb",
+      "_manually_fixed_fields": [
+        "charging_curve"
+      ]
+    },
+    {
+      "brand": "Opel / Vauxhall",
+      "model": "combi s",
+      "variant": "50kwh",
+      "vehicle_type": "car",
+      "usable_battery_size": 46.3,
+      "energy_consumption": {
+        "average_consumption": 25
+      },
+      "charging_voltage": 400,
+      "release_year": 2020,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2": 2,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "2.0": 2
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 46.3,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 46.3
+          },
+          {
+            "percentage": 20,
+            "power": 46.3
+          },
+          {
+            "percentage": 40,
+            "power": 37
+          },
+          {
+            "percentage": 60,
+            "power": 28
+          },
+          {
+            "percentage": 80,
+            "power": 19
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": true
+      },
+      "brand_id": "3500fb3e-bd2c-478e-ae5e-ac9ee490594b",
+      "id": "79ac0158-ccff-4a8c-8e26-b25b9c8aa443",
+      "_manually_fixed_fields": [
+        "charging_curve"
+      ]
+    },
+    {
+      "brand": "Opel / Vauxhall",
+      "model": "combi m",
+      "variant": "50kwh",
+      "vehicle_type": "car",
+      "usable_battery_size": 46.3,
+      "energy_consumption": {
+        "average_consumption": 25
+      },
+      "charging_voltage": 400,
+      "release_year": 2020,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2": 2,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "2.0": 2
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 46.3,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 46.3
+          },
+          {
+            "percentage": 20,
+            "power": 46.3
+          },
+          {
+            "percentage": 40,
+            "power": 37
+          },
+          {
+            "percentage": 60,
+            "power": 28
+          },
+          {
+            "percentage": 80,
+            "power": 19
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": true
+      },
+      "brand_id": "3500fb3e-bd2c-478e-ae5e-ac9ee490594b",
+      "id": "f2e18c07-7d03-450b-9970-dbf6ec6be22a",
+      "_manually_fixed_fields": [
+        "charging_curve"
+      ]
+    },
+    {
+      "brand": "Opel / Vauxhall",
+      "model": "combi l",
+      "variant": "50kwh",
+      "vehicle_type": "car",
+      "usable_battery_size": 46.3,
+      "energy_consumption": {
+        "average_consumption": 25.7
+      },
+      "charging_voltage": 400,
+      "release_year": 2020,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2": 2,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "2.0": 2
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 46.3,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 46.3
+          },
+          {
+            "percentage": 20,
+            "power": 46.3
+          },
+          {
+            "percentage": 40,
+            "power": 37
+          },
+          {
+            "percentage": 60,
+            "power": 28
+          },
+          {
+            "percentage": 80,
+            "power": 19
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": true
+      },
+      "brand_id": "3500fb3e-bd2c-478e-ae5e-ac9ee490594b",
+      "id": "b53c4629-2f9c-4ae1-a490-b61e2706902c",
+      "_manually_fixed_fields": [
+        "charging_curve"
+      ]
+    },
+    {
+      "brand": "Opel / Vauxhall",
+      "model": "combi m",
+      "variant": "75kwh",
+      "vehicle_type": "car",
+      "usable_battery_size": 68,
+      "energy_consumption": {
+        "average_consumption": 25.7
+      },
+      "charging_voltage": 400,
+      "release_year": 2020,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2": 2,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "2.0": 2
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 68,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 68
+          },
+          {
+            "percentage": 20,
+            "power": 68
+          },
+          {
+            "percentage": 40,
+            "power": 54
+          },
+          {
+            "percentage": 60,
+            "power": 41
+          },
+          {
+            "percentage": 80,
+            "power": 27
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": true
+      },
+      "brand_id": "3500fb3e-bd2c-478e-ae5e-ac9ee490594b",
+      "id": "e873fdea-2227-4cf7-b7c2-c96195c98557",
+      "_manually_fixed_fields": [
+        "charging_curve"
+      ]
+    },
+    {
+      "brand": "Opel / Vauxhall",
+      "model": "combi l",
+      "variant": "75kwh",
+      "vehicle_type": "car",
+      "usable_battery_size": 68,
+      "energy_consumption": {
+        "average_consumption": 26.2
+      },
+      "charging_voltage": 400,
+      "release_year": 2020,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11,
+        "power_per_charging_point": {
+          "2": 2,
+          "11": 11,
+          "16": 11,
+          "22": 11,
+          "43": 11,
+          "2.3": 2.3,
+          "3.7": 3.7,
+          "7.4": 7.4,
+          "2.0": 2
+        }
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 68,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 68
+          },
+          {
+            "percentage": 20,
+            "power": 68
+          },
+          {
+            "percentage": 40,
+            "power": 54
+          },
+          {
+            "percentage": 60,
+            "power": 41
+          },
+          {
+            "percentage": 80,
+            "power": 27
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": true
+      },
+      "brand_id": "3500fb3e-bd2c-478e-ae5e-ac9ee490594b",
+      "id": "2e376427-8a4b-4498-8b95-f910d32d26ec",
+      "_manually_fixed_fields": [
+        "charging_curve"
+      ]
     }
   ]
 }
