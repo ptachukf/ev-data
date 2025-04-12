@@ -17,17 +17,7 @@
       "ac_charger": {
         "ports": [],
         "usable_phases": 1,
-        "max_power": 2.3,
-        "power_per_charging_point": {
-          "11": 2.3,
-          "16": 2.3,
-          "22": 2.3,
-          "43": 2.3,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 2.3,
-          "7.4": 2.3
-        }
+        "max_power": 2.3
       },
       "charging_voltage": 48,
       "dc_charger": {

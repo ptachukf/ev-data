@@ -19,17 +19,7 @@
           "type2"
         ],
         "usable_phases": 3,
-        "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -71,17 +61,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -130,17 +110,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -189,17 +159,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -248,17 +208,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -293,6 +243,147 @@
       },
       "vehicle_type": "car",
       "charging_voltage": 400
+    },
+    {
+      "brand": "Abarth",
+      "model": "scorpionissima",
+      "variant": "",
+      "vehicle_type": "car",
+      "usable_battery_size": 37.8,
+      "energy_consumption": {
+        "average_consumption": 16.8
+      },
+      "charging_voltage": 400,
+      "release_year": 2023,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 37.8,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 37.8
+          },
+          {
+            "percentage": 50,
+            "power": 37.8
+          },
+          {
+            "percentage": 80,
+            "power": 22.68
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "3fcb4e15-c510-4453-a0cd-6a8d1a980e8d",
+      "id": "c596c2eb-b868-49b5-b1e4-c83cac46ad84",
+      "_model_hash": "5bk8c6"
+    },
+    {
+      "brand": "Abarth",
+      "model": "hatchback",
+      "variant": "",
+      "vehicle_type": "car",
+      "usable_battery_size": 37.8,
+      "energy_consumption": {
+        "average_consumption": 16.8
+      },
+      "charging_voltage": 400,
+      "release_year": 2023,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 37.8,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 37.8
+          },
+          {
+            "percentage": 50,
+            "power": 37.8
+          },
+          {
+            "percentage": 80,
+            "power": 22.68
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "3fcb4e15-c510-4453-a0cd-6a8d1a980e8d",
+      "id": "e270a688-4e2a-4017-a856-82cdfba1816f",
+      "_model_hash": "-83fjdy"
+    },
+    {
+      "brand": "Abarth",
+      "model": "convertible",
+      "variant": "",
+      "vehicle_type": "car",
+      "usable_battery_size": 37.8,
+      "energy_consumption": {
+        "average_consumption": 16.8
+      },
+      "charging_voltage": 400,
+      "release_year": 2023,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 37.8,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 37.8
+          },
+          {
+            "percentage": 50,
+            "power": 37.8
+          },
+          {
+            "percentage": 80,
+            "power": 22.68
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "3fcb4e15-c510-4453-a0cd-6a8d1a980e8d",
+      "id": "2bc3791c-f0bd-4a0d-82bc-80ab11e57657",
+      "_model_hash": "yn6u7w"
     }
   ]
 }

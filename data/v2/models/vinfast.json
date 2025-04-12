@@ -16,17 +16,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -68,17 +58,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -120,17 +100,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -157,6 +127,159 @@
         "average_consumption": 23.7
       },
       "charging_voltage": 400
+    },
+    {
+      "brand": "Vinfast",
+      "model": "8 eco extended range",
+      "variant": "",
+      "vehicle_type": "car",
+      "usable_battery_size": 87.7,
+      "energy_consumption": {
+        "average_consumption": 21.7
+      },
+      "charging_voltage": 400,
+      "release_year": 2023,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 87.7,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 87.7
+          },
+          {
+            "percentage": 30,
+            "power": 87.7
+          },
+          {
+            "percentage": 60,
+            "power": 61.39
+          },
+          {
+            "percentage": 80,
+            "power": 35.08
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "104f4958-a505-ab2a-f96c-9f98cd599341",
+      "id": "9b24b64a-5c49-4bae-a45d-abd9b85bce08",
+      "_model_hash": "isw9xv"
+    },
+    {
+      "brand": "Vinfast",
+      "model": "8 plus extended range",
+      "variant": "",
+      "vehicle_type": "car",
+      "usable_battery_size": 87.7,
+      "energy_consumption": {
+        "average_consumption": 21.9
+      },
+      "charging_voltage": 400,
+      "release_year": 2023,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 87.7,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 87.7
+          },
+          {
+            "percentage": 30,
+            "power": 87.7
+          },
+          {
+            "percentage": 60,
+            "power": 61.39
+          },
+          {
+            "percentage": 80,
+            "power": 35.08
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "104f4958-a505-ab2a-f96c-9f98cd599341",
+      "id": "bad372cc-4813-48b7-83f4-fe656381b20e",
+      "_model_hash": "-1smze2"
+    },
+    {
+      "brand": "Vinfast",
+      "model": "9 extended range",
+      "variant": "",
+      "vehicle_type": "car",
+      "usable_battery_size": 123,
+      "energy_consumption": {
+        "average_consumption": 23.9
+      },
+      "charging_voltage": 400,
+      "release_year": 2025,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 123,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 123
+          },
+          {
+            "percentage": 30,
+            "power": 123
+          },
+          {
+            "percentage": 60,
+            "power": 86.1
+          },
+          {
+            "percentage": 80,
+            "power": 49.2
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "104f4958-a505-ab2a-f96c-9f98cd599341",
+      "id": "7d767304-7a81-4864-94d3-4109e976747c",
+      "_model_hash": "-7xsosn"
     }
   ]
 }

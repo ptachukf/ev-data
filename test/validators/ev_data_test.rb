@@ -32,17 +32,8 @@ class EVDataTest < Minitest::Test
       "ac_charger" => {
         "ports" => ["type2"],
         "max_power" => 11.0,
-        "usable_phases" => 3,
-        "power_per_charging_point" => {
-          "2.0" => 2.0,
-          "2.3" => 2.3,
-          "3.7" => 3.7,
-          "7.4" => 7.4,
-          "11" => 11.0,
-          "16" => 11.0,
-          "22" => 11.0,
-          "43" => 11.0
-        }
+        "usable_phases" => 3
+        # power_per_charging_point is now optional
       },
       "dc_charger" => {
         "ports" => ["ccs"],
@@ -63,17 +54,8 @@ class EVDataTest < Minitest::Test
       "ac_charger" => {
         "ports" => "type2",  # Should be an array
         "max_power" => 11.0,
-        "usable_phases" => 3,
-        "power_per_charging_point" => {
-          "2.0" => 2.0,
-          "2.3" => 2.3,
-          "3.7" => 3.7,
-          "7.4" => 7.4,
-          "11" => 11.0,
-          "16" => 11.0,
-          "22" => 11.0,
-          "43" => 11.0
-        }
+        "usable_phases" => 3
+        # power_per_charging_point is now optional
       }
     }
 
@@ -86,17 +68,8 @@ class EVDataTest < Minitest::Test
       "ac_charger" => {
         "ports" => ["type2"],
         "max_power" => 11.0,
-        "usable_phases" => 3,
-        "power_per_charging_point" => {
-          "2.0" => 2.0,
-          "2.3" => 2.3,
-          "3.7" => 3.7,
-          "7.4" => 7.4,
-          "11" => 11.0,
-          "16" => 11.0,
-          "22" => 11.0,
-          "43" => 11.0
-        }
+        "usable_phases" => 3
+        # power_per_charging_point is now optional
       },
       "dc_charger" => {
         "ports" => [],  # Empty DC ports are not valid
@@ -141,7 +114,7 @@ class EVDataTest < Minitest::Test
         v["ports"].is_a?(Array) && 
         v["usable_phases"].is_a?(Integer) && 
         v["max_power"].is_a?(Numeric) && 
-        v["power_per_charging_point"].is_a?(Hash)
+        (!v.key?("power_per_charging_point") || v["power_per_charging_point"].is_a?(Hash))
       },
       "charging_voltage" => ->(v) { [48, 400, 800].include?(v) },
       "energy_consumption" => ->(v) { 

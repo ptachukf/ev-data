@@ -15,16 +15,6 @@
           "type2"
         ],
         "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        },
         "usable_phases": 3
       },
       "dc_charger": {
@@ -74,16 +64,6 @@
           "type2"
         ],
         "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        },
         "usable_phases": 3
       },
       "dc_charger": {
@@ -133,16 +113,6 @@
           "type2"
         ],
         "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        },
         "usable_phases": 3
       },
       "dc_charger": {
@@ -178,6 +148,147 @@
       "energy_consumption": {
         "average_consumption": 17.4
       }
+    },
+    {
+      "brand": "ORA",
+      "model": "cat",
+      "variant": "48kwh",
+      "vehicle_type": "car",
+      "usable_battery_size": 45.4,
+      "energy_consumption": {
+        "average_consumption": 17.5
+      },
+      "charging_voltage": 400,
+      "release_year": 2022,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 45.4,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 45.4
+          },
+          {
+            "percentage": 50,
+            "power": 45.4
+          },
+          {
+            "percentage": 80,
+            "power": 27.24
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "9e8d7c6b-5a44-4382-a09f-8e7d6c543321",
+      "id": "fe35ac2a-4671-4a67-a7d1-e71a479178dc",
+      "_model_hash": "5if3od"
+    },
+    {
+      "brand": "ORA",
+      "model": "cat",
+      "variant": "63kwh",
+      "vehicle_type": "car",
+      "usable_battery_size": 59.3,
+      "energy_consumption": {
+        "average_consumption": 17.4
+      },
+      "charging_voltage": 400,
+      "release_year": 2023,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 59.3,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 59.3
+          },
+          {
+            "percentage": 50,
+            "power": 59.3
+          },
+          {
+            "percentage": 80,
+            "power": 35.58
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "9e8d7c6b-5a44-4382-a09f-8e7d6c543321",
+      "id": "ef473799-fd54-4f88-87ec-97fa07405598",
+      "_model_hash": "qmgwjp"
+    },
+    {
+      "brand": "ORA",
+      "model": "cat",
+      "variant": "gt",
+      "vehicle_type": "car",
+      "usable_battery_size": 59.3,
+      "energy_consumption": {
+        "average_consumption": 18
+      },
+      "charging_voltage": 400,
+      "release_year": 2023,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 59.3,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 59.3
+          },
+          {
+            "percentage": 50,
+            "power": 59.3
+          },
+          {
+            "percentage": 80,
+            "power": 35.58
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "9e8d7c6b-5a44-4382-a09f-8e7d6c543321",
+      "id": "234a8455-c9ed-4cc3-9c82-9a4ed64d88c1",
+      "_model_hash": "-y9bd45"
     }
   ]
 }

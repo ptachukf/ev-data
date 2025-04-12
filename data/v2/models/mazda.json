@@ -8,59 +8,53 @@
       "vehicle_type": "car",
       "brand_id": "9b829849-1219-48b8-964e-90ddc1a4fa85",
       "model": "MX-30",
-      "release_year": 2020,
+      "release_year": 2022,
       "variant": "",
-      "usable_battery_size": 32,
+      "usable_battery_size": 30,
       "ac_charger": {
-        "usable_phases": 1,
+        "usable_phases": 3,
         "ports": [
           "type2"
         ],
-        "max_power": 6.6,
-        "power_per_charging_point": {
-          "11": 3.7,
-          "16": 5.4,
-          "22": 6.6,
-          "43": 6.6,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 6.6
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
           "ccs"
         ],
-        "max_power": 38,
+        "max_power": 30,
         "charging_curve": [
           {
             "percentage": 0,
             "power": 30
           },
           {
-            "percentage": 55,
-            "power": 38
-          },
-          {
-            "percentage": 70,
+            "percentage": 50,
             "power": 30
           },
           {
-            "percentage": 90,
+            "percentage": 80,
             "power": 18
           },
           {
             "percentage": 100,
-            "power": 12
+            "power": 11
           }
         ],
         "is_default_charging_curve": false
       },
       "energy_consumption": {
-        "average_consumption": 17.8
+        "average_consumption": 17.6
       },
-      "charging_voltage": 400
+      "charging_voltage": 400,
+      "url": "https://ev-database.org/car/1680/Mazda-MX-30",
+      "status": "pending",
+      "error": "empty model name",
+      "updated_at": "2025-04-11T13:42:35.691Z",
+      "isFixingEmptyName": true,
+      "_manually_fixed_fields": [
+        "energy_consumption"
+      ]
     },
     {
       "brand": "Mazda",
@@ -80,17 +74,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -133,16 +117,6 @@
           "type2"
         ],
         "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        },
         "usable_phases": 3
       },
       "dc_charger": {

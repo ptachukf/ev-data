@@ -16,17 +16,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 7.4,
-        "power_per_charging_point": {
-          "11": 7.4,
-          "16": 7.4,
-          "22": 7.4,
-          "43": 7.4,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
+        "max_power": 7.4
       },
       "dc_charger": {
         "ports": [
@@ -68,17 +58,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 22,
-        "power_per_charging_point": {
-          "11": 11.1,
-          "16": 16.2,
-          "22": 22,
-          "43": 22,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
+        "max_power": 22
       },
       "dc_charger": {
         "ports": [
@@ -120,17 +100,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 22,
-        "power_per_charging_point": {
-          "11": 11.1,
-          "16": 16.2,
-          "22": 22,
-          "43": 22,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
+        "max_power": 22
       },
       "dc_charger": {
         "ports": [
@@ -172,17 +142,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 7.4,
-        "power_per_charging_point": {
-          "11": 7.4,
-          "16": 7.4,
-          "22": 7.4,
-          "43": 7.4,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
+        "max_power": 7.4
       },
       "dc_charger": {
         "ports": [
@@ -224,17 +184,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 22,
-        "power_per_charging_point": {
-          "11": 11.1,
-          "16": 16.2,
-          "22": 22,
-          "43": 22,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
+        "max_power": 22
       },
       "dc_charger": {
         "ports": [
@@ -276,17 +226,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 3.6,
-        "power_per_charging_point": {
-          "11": 3.6,
-          "16": 3.6,
-          "22": 3.6,
-          "43": 3.6,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.6,
-          "7.4": 3.6
-        }
+        "max_power": 3.6
       },
       "dc_charger": {
         "ports": [
@@ -340,17 +280,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 22,
-        "power_per_charging_point": {
-          "11": 11.1,
-          "16": 16.2,
-          "22": 22,
-          "43": 22,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
+        "max_power": 22
       },
       "dc_charger": {
         "ports": [
@@ -404,17 +334,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 3.6,
-        "power_per_charging_point": {
-          "11": 3.6,
-          "16": 3.6,
-          "22": 3.6,
-          "43": 3.6,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.6,
-          "7.4": 3.6
-        }
+        "max_power": 3.6
       },
       "dc_charger": {
         "ports": [
@@ -468,17 +388,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 22,
-        "power_per_charging_point": {
-          "11": 11.1,
-          "16": 16.2,
-          "22": 22,
-          "43": 22,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
+        "max_power": 22
       },
       "dc_charger": {
         "ports": [
@@ -532,17 +442,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 22,
-        "power_per_charging_point": {
-          "11": 11.1,
-          "16": 16.2,
-          "22": 22,
-          "43": 22,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
+        "max_power": 22
       },
       "dc_charger": {
         "ports": [
@@ -633,17 +533,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
+        "max_power": 11
       },
       "vehicle_type": "car",
       "charging_voltage": 400
@@ -666,17 +556,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -724,17 +604,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -782,17 +652,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -840,17 +700,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -931,17 +781,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
+        "max_power": 11
       },
       "vehicle_type": "car",
       "charging_voltage": 400
@@ -964,17 +804,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -1022,17 +852,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -1080,17 +900,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -1133,16 +943,6 @@
           "type2"
         ],
         "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        },
         "usable_phases": 3
       },
       "dc_charger": {
@@ -1200,16 +1000,6 @@
           "type2"
         ],
         "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        },
         "usable_phases": 3
       },
       "dc_charger": {
@@ -1259,16 +1049,6 @@
           "type2"
         ],
         "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        },
         "usable_phases": 3
       },
       "dc_charger": {
@@ -1318,16 +1098,6 @@
           "type2"
         ],
         "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        },
         "usable_phases": 3
       },
       "dc_charger": {
@@ -1377,16 +1147,6 @@
           "type2"
         ],
         "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        },
         "usable_phases": 3
       },
       "dc_charger": {
@@ -1444,16 +1204,6 @@
           "type2"
         ],
         "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        },
         "usable_phases": 3
       },
       "dc_charger": {
@@ -1503,16 +1253,6 @@
           "type2"
         ],
         "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        },
         "usable_phases": 3
       },
       "dc_charger": {
@@ -1570,16 +1310,6 @@
           "type2"
         ],
         "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        },
         "usable_phases": 3
       },
       "dc_charger": {
@@ -1640,18 +1370,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 16.7,
-        "power_per_charging_point": {
-          "2": 2,
-          "11": 11,
-          "16": 16,
-          "22": 16.7,
-          "43": 16.7,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4,
-          "2.0": 2
-        }
+        "max_power": 16.7
       },
       "dc_charger": {
         "ports": [
@@ -1697,18 +1416,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 16.7,
-        "power_per_charging_point": {
-          "2": 2,
-          "11": 11,
-          "16": 16,
-          "22": 16.7,
-          "43": 16.7,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4,
-          "2.0": 2
-        }
+        "max_power": 16.7
       },
       "dc_charger": {
         "ports": [
@@ -1754,18 +1462,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 16.7,
-        "power_per_charging_point": {
-          "2": 2,
-          "11": 11,
-          "16": 16,
-          "22": 16.7,
-          "43": 16.7,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4,
-          "2.0": 2
-        }
+        "max_power": 16.7
       },
       "dc_charger": {
         "ports": [
@@ -1811,18 +1508,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 16.7,
-        "power_per_charging_point": {
-          "2": 2,
-          "11": 11,
-          "16": 16,
-          "22": 16.7,
-          "43": 16.7,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4,
-          "2.0": 2
-        }
+        "max_power": 16.7
       },
       "dc_charger": {
         "ports": [
@@ -1868,18 +1554,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 16.7,
-        "power_per_charging_point": {
-          "2": 2,
-          "11": 11,
-          "16": 16,
-          "22": 16.7,
-          "43": 16.7,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4,
-          "2.0": 2
-        }
+        "max_power": 16.7
       },
       "dc_charger": {
         "ports": [
@@ -1925,18 +1600,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 16.7,
-        "power_per_charging_point": {
-          "2": 2,
-          "11": 11,
-          "16": 16,
-          "22": 16.7,
-          "43": 16.7,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4,
-          "2.0": 2
-        }
+        "max_power": 16.7
       },
       "dc_charger": {
         "ports": [
@@ -1982,18 +1646,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 16.7,
-        "power_per_charging_point": {
-          "2": 2,
-          "11": 11,
-          "16": 16,
-          "22": 16.7,
-          "43": 16.7,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4,
-          "2.0": 2
-        }
+        "max_power": 16.7
       },
       "dc_charger": {
         "ports": [
@@ -2039,18 +1692,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 16.7,
-        "power_per_charging_point": {
-          "2": 2,
-          "11": 11,
-          "16": 16,
-          "22": 16.7,
-          "43": 16.7,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4,
-          "2.0": 2
-        }
+        "max_power": 16.7
       },
       "dc_charger": {
         "ports": [
@@ -2096,18 +1738,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 16.7,
-        "power_per_charging_point": {
-          "2": 2,
-          "11": 11,
-          "16": 16,
-          "22": 16.7,
-          "43": 16.7,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4,
-          "2.0": 2
-        }
+        "max_power": 16.7
       },
       "dc_charger": {
         "ports": [
@@ -2136,6 +1767,457 @@
       },
       "brand_id": "a462c115-33b4-438b-b590-bc4a33382d1c",
       "id": "a2c06701-4c10-4e15-8f4a-0863fe7295b0"
+    },
+    {
+      "brand": "smart",
+      "model": "pro+",
+      "variant": "",
+      "vehicle_type": "car",
+      "usable_battery_size": 62,
+      "energy_consumption": {
+        "average_consumption": 18.5
+      },
+      "charging_voltage": 400,
+      "release_year": 2023,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 22
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 62,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 62
+          },
+          {
+            "percentage": 30,
+            "power": 62
+          },
+          {
+            "percentage": 60,
+            "power": 43.4
+          },
+          {
+            "percentage": 80,
+            "power": 24.8
+          },
+          {
+            "percentage": 100,
+            "power": 22
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "a462c115-33b4-438b-b590-bc4a33382d1c",
+      "id": "e01d4301-2fa0-47b6-bc23-9651fcf13ffb",
+      "_model_hash": "r3uyh4"
+    },
+    {
+      "brand": "smart",
+      "model": "brabus",
+      "variant": "",
+      "vehicle_type": "car",
+      "usable_battery_size": 62,
+      "energy_consumption": {
+        "average_consumption": 19.1
+      },
+      "charging_voltage": 400,
+      "release_year": 2023,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 22
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 62,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 62
+          },
+          {
+            "percentage": 30,
+            "power": 62
+          },
+          {
+            "percentage": 60,
+            "power": 43.4
+          },
+          {
+            "percentage": 80,
+            "power": 24.8
+          },
+          {
+            "percentage": 100,
+            "power": 22
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "a462c115-33b4-438b-b590-bc4a33382d1c",
+      "id": "ea3d0666-c2c2-47ad-b1b3-2c15435a90fc",
+      "_model_hash": "v92nnb"
+    },
+    {
+      "brand": "smart",
+      "model": "pulse",
+      "variant": "",
+      "vehicle_type": "car",
+      "usable_battery_size": 62,
+      "energy_consumption": {
+        "average_consumption": 19.1
+      },
+      "charging_voltage": 400,
+      "release_year": 2023,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 22
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 62,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 62
+          },
+          {
+            "percentage": 30,
+            "power": 62
+          },
+          {
+            "percentage": 60,
+            "power": 43.4
+          },
+          {
+            "percentage": 80,
+            "power": 24.8
+          },
+          {
+            "percentage": 100,
+            "power": 22
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "a462c115-33b4-438b-b590-bc4a33382d1c",
+      "id": "698db25a-107f-4a40-b776-9b798f99b9af",
+      "_model_hash": "-7r5ggd"
+    },
+    {
+      "brand": "smart",
+      "model": "pro+",
+      "variant": "",
+      "vehicle_type": "car",
+      "usable_battery_size": 62,
+      "energy_consumption": {
+        "average_consumption": 17.5
+      },
+      "charging_voltage": 400,
+      "release_year": 2024,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 22
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 62,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 62
+          },
+          {
+            "percentage": 30,
+            "power": 62
+          },
+          {
+            "percentage": 60,
+            "power": 43.4
+          },
+          {
+            "percentage": 80,
+            "power": 24.8
+          },
+          {
+            "percentage": 100,
+            "power": 22
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "a462c115-33b4-438b-b590-bc4a33382d1c",
+      "id": "fa6c9c77-4310-4d9f-aeda-d8830da2c52a",
+      "_model_hash": "r3vlgn"
+    },
+    {
+      "brand": "smart",
+      "model": "brabus",
+      "variant": "",
+      "vehicle_type": "car",
+      "usable_battery_size": 62,
+      "energy_consumption": {
+        "average_consumption": 18.5
+      },
+      "charging_voltage": 400,
+      "release_year": 2024,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 22
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 62,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 62
+          },
+          {
+            "percentage": 30,
+            "power": 62
+          },
+          {
+            "percentage": 60,
+            "power": 43.4
+          },
+          {
+            "percentage": 80,
+            "power": 24.8
+          },
+          {
+            "percentage": 100,
+            "power": 22
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "a462c115-33b4-438b-b590-bc4a33382d1c",
+      "id": "7d98758f-01aa-4381-ade2-28e87d323f43",
+      "_model_hash": "v93amu"
+    },
+    {
+      "brand": "smart",
+      "model": "pro",
+      "variant": "",
+      "vehicle_type": "car",
+      "usable_battery_size": 47,
+      "energy_consumption": {
+        "average_consumption": 18.8
+      },
+      "charging_voltage": 400,
+      "release_year": 2023,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 7.4
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 47,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 47
+          },
+          {
+            "percentage": 50,
+            "power": 47
+          },
+          {
+            "percentage": 80,
+            "power": 28.2
+          },
+          {
+            "percentage": 100,
+            "power": 7.4
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "a462c115-33b4-438b-b590-bc4a33382d1c",
+      "id": "633f8fd1-dea0-4789-8230-693141a6b649",
+      "_model_hash": "s2cspy"
+    },
+    {
+      "brand": "smart",
+      "model": "pro",
+      "variant": "",
+      "vehicle_type": "car",
+      "usable_battery_size": 47,
+      "energy_consumption": {
+        "average_consumption": 17.7
+      },
+      "charging_voltage": 400,
+      "release_year": 2024,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 7.4
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 47,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 47
+          },
+          {
+            "percentage": 50,
+            "power": 47
+          },
+          {
+            "percentage": 80,
+            "power": 28.2
+          },
+          {
+            "percentage": 100,
+            "power": 7.4
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "a462c115-33b4-438b-b590-bc4a33382d1c",
+      "id": "e087caf0-4daf-47e0-b279-a1235be0934e",
+      "_model_hash": "s2dfph"
+    },
+    {
+      "brand": "smart",
+      "model": "premium",
+      "variant": "",
+      "vehicle_type": "car",
+      "usable_battery_size": 62,
+      "energy_consumption": {
+        "average_consumption": 18.5
+      },
+      "charging_voltage": 400,
+      "release_year": 2023,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 22
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 62,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 62
+          },
+          {
+            "percentage": 30,
+            "power": 62
+          },
+          {
+            "percentage": 60,
+            "power": 43.4
+          },
+          {
+            "percentage": 80,
+            "power": 24.8
+          },
+          {
+            "percentage": 100,
+            "power": 22
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "a462c115-33b4-438b-b590-bc4a33382d1c",
+      "id": "00c9be9e-e266-494f-a990-7769325e52a8",
+      "_model_hash": "-nj4x1n"
+    },
+    {
+      "brand": "smart",
+      "model": "premium",
+      "variant": "",
+      "vehicle_type": "car",
+      "usable_battery_size": 62,
+      "energy_consumption": {
+        "average_consumption": 17.5
+      },
+      "charging_voltage": 400,
+      "release_year": 2024,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 22
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 62,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 62
+          },
+          {
+            "percentage": 30,
+            "power": 62
+          },
+          {
+            "percentage": 60,
+            "power": 43.4
+          },
+          {
+            "percentage": 80,
+            "power": 24.8
+          },
+          {
+            "percentage": 100,
+            "power": 22
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "a462c115-33b4-438b-b590-bc4a33382d1c",
+      "id": "506e60d7-3dbd-4d6c-9023-5bd5bcb8c50d",
+      "_model_hash": "-nj4a24"
     }
   ]
 }

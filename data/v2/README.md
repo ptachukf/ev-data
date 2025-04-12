@@ -59,17 +59,7 @@ Each brand has its own JSON file containing all models for that brand.
       "ac_charger": {
         "usable_phases": 3,                           // Number of usable phases (1-3)
         "ports": ["type2"],                           // Array of AC port types
-        "max_power": 11,                              // Maximum AC charging power in kW
-        "power_per_charging_point": {                 // Power available at different charging points
-          "2.0": 2.0,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4,
-          "11": 11.0,
-          "16": 11.0,
-          "22": 11.0,
-          "43": 11.0
-        }
+        "max_power": 11                               // Maximum AC charging power in kW
       },
       "dc_charger": {                                // Optional DC charging capabilities
         "ports": ["ccs"],                            // Array of DC port types (must not be empty if present)
@@ -118,7 +108,7 @@ Each brand has its own JSON file containing all models for that brand.
   - `usable_phases`: 1-3
   - `ports`: Array of supported port types
   - `max_power`: Positive number
-  - `power_per_charging_point`: Must include all standard power levels
+  - `power_per_charging_point`: Optional field (no longer required)
 - DC charger is optional but if present must have:
   - `ports`: Non-empty array of supported port types
   - `max_power`: Positive number

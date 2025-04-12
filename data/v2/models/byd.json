@@ -3,6 +3,127 @@
   "brand_name": "BYD",
   "models": [
     {
+      "id": "801fc1e2-b73c-fcb7-0321-6e27b3c2d234",
+      "brand": "BYD",
+      "vehicle_type": "car",
+      "brand_id": "591fd9d3-d14f-4d55-f498-594f4a9d2f1f",
+      "model": "HAN",
+      "release_year": 2023,
+      "variant": "",
+      "usable_battery_size": 85.4,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 6.6
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 85.4,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 85.4
+          },
+          {
+            "percentage": 20,
+            "power": 85.4
+          },
+          {
+            "percentage": 40,
+            "power": 68
+          },
+          {
+            "percentage": 60,
+            "power": 51
+          },
+          {
+            "percentage": 80,
+            "power": 34
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": true
+      },
+      "energy_consumption": {
+        "average_consumption": 18
+      },
+      "charging_voltage": 800,
+      "url": "https://ev-database.org/car/1784/BYD-HAN",
+      "status": "pending",
+      "error": "empty model name",
+      "updated_at": "2025-04-11T13:44:58.140Z",
+      "isFixingEmptyName": true,
+      "_manually_fixed_fields": [
+        "energy_consumption",
+        "charging_curve"
+      ]
+    },
+    {
+      "id": "73eb170d-dc3d-e4bb-1552-1f65a0843d16",
+      "brand": "BYD",
+      "vehicle_type": "car",
+      "brand_id": "591fd9d3-d14f-4d55-f498-594f4a9d2f1f",
+      "model": "TANG",
+      "release_year": 2022,
+      "variant": "",
+      "usable_battery_size": 86.4,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 7.4
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 86.4,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 86.4
+          },
+          {
+            "percentage": 40,
+            "power": 86.4
+          },
+          {
+            "percentage": 70,
+            "power": 69.12
+          },
+          {
+            "percentage": 90,
+            "power": 34.56
+          },
+          {
+            "percentage": 100,
+            "power": 7.4
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "energy_consumption": {
+        "average_consumption": 24.3
+      },
+      "charging_voltage": 800,
+      "url": "https://ev-database.org/car/1783/BYD-TANG",
+      "status": "pending",
+      "error": "empty model name",
+      "updated_at": "2025-04-11T13:44:40.107Z",
+      "isFixingEmptyName": true,
+      "_manually_fixed_fields": [
+        "energy_consumption"
+      ]
+    },
+    {
       "id": "352427b1-f39e-03e1-606f-bd34c653166e",
       "brand": "BYD",
       "vehicle_type": "car",
@@ -16,17 +137,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -68,17 +179,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 7.4,
-        "power_per_charging_point": {
-          "11": 7.4,
-          "16": 7.4,
-          "22": 7.4,
-          "43": 7.4,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
+        "max_power": 7.4
       },
       "dc_charger": {
         "ports": [
@@ -120,17 +221,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 7.4,
-        "power_per_charging_point": {
-          "11": 7.4,
-          "16": 7.4,
-          "22": 7.4,
-          "43": 7.4,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
+        "max_power": 7.4
       },
       "dc_charger": {
         "ports": [
@@ -159,58 +250,6 @@
       "charging_voltage": 400
     },
     {
-      "id": "801fc1e2-b73c-fcb7-0321-6e27b3c2d234",
-      "brand": "BYD",
-      "vehicle_type": "car",
-      "brand_id": "591fd9d3-d14f-4d55-f498-594f4a9d2f1f",
-      "model": "HAN",
-      "release_year": 2023,
-      "variant": "",
-      "usable_battery_size": 83,
-      "ac_charger": {
-        "usable_phases": 3,
-        "ports": [
-          "type2"
-        ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
-      },
-      "dc_charger": {
-        "ports": [
-          "ccs"
-        ],
-        "max_power": 120,
-        "charging_curve": [
-          {
-            "percentage": 0,
-            "power": 114
-          },
-          {
-            "percentage": 75,
-            "power": 120
-          },
-          {
-            "percentage": 100,
-            "power": 11
-          }
-        ],
-        "is_default_charging_curve": true
-      },
-      "energy_consumption": {
-        "average_consumption": 17.8
-      },
-      "charging_voltage": 400
-    },
-    {
       "id": "1af288ad-76d7-da19-60c3-a183e2e5ba76",
       "brand": "BYD",
       "vehicle_type": "car",
@@ -224,17 +263,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -276,17 +305,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -315,58 +334,6 @@
       "charging_voltage": 800
     },
     {
-      "id": "73eb170d-dc3d-e4bb-1552-1f65a0843d16",
-      "brand": "BYD",
-      "vehicle_type": "car",
-      "brand_id": "591fd9d3-d14f-4d55-f498-594f4a9d2f1f",
-      "model": "TANG",
-      "release_year": 2022,
-      "variant": "",
-      "usable_battery_size": 84,
-      "ac_charger": {
-        "usable_phases": 3,
-        "ports": [
-          "type2"
-        ],
-        "max_power": 7.4,
-        "power_per_charging_point": {
-          "11": 7.4,
-          "16": 7.4,
-          "22": 7.4,
-          "43": 7.4,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
-      },
-      "dc_charger": {
-        "ports": [
-          "ccs"
-        ],
-        "max_power": 120,
-        "charging_curve": [
-          {
-            "percentage": 0,
-            "power": 114
-          },
-          {
-            "percentage": 75,
-            "power": 120
-          },
-          {
-            "percentage": 100,
-            "power": 7.4
-          }
-        ],
-        "is_default_charging_curve": true
-      },
-      "energy_consumption": {
-        "average_consumption": 24
-      },
-      "charging_voltage": 400
-    },
-    {
       "brand": "BYD",
       "model": "SEAL",
       "variant": "U 71.8 kWh Comfort",
@@ -384,17 +351,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -442,17 +399,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -500,17 +447,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -554,17 +491,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -609,17 +536,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -668,17 +585,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -727,17 +634,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -772,6 +669,457 @@
       },
       "vehicle_type": "car",
       "charging_voltage": 400
+    },
+    {
+      "brand": "BYD",
+      "model": "3",
+      "variant": "",
+      "vehicle_type": "car",
+      "usable_battery_size": 60.5,
+      "energy_consumption": {
+        "average_consumption": 18.3
+      },
+      "charging_voltage": 400,
+      "release_year": 2022,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 60.5,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 60.5
+          },
+          {
+            "percentage": 30,
+            "power": 60.5
+          },
+          {
+            "percentage": 60,
+            "power": 42.35
+          },
+          {
+            "percentage": 80,
+            "power": 24.2
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "591fd9d3-d14f-4d55-f498-594f4a9d2f1f",
+      "id": "86af5836-55f8-473a-a1dd-aabe159856c0",
+      "_model_hash": "1vynaz"
+    },
+    {
+      "brand": "BYD",
+      "model": "44.",
+      "variant": "9kwh active",
+      "vehicle_type": "car",
+      "usable_battery_size": 44.9,
+      "energy_consumption": {
+        "average_consumption": 16.9
+      },
+      "charging_voltage": 400,
+      "release_year": 2023,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 7.4
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 44.9,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 44.9
+          },
+          {
+            "percentage": 50,
+            "power": 44.9
+          },
+          {
+            "percentage": 80,
+            "power": 26.94
+          },
+          {
+            "percentage": 100,
+            "power": 7.4
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "591fd9d3-d14f-4d55-f498-594f4a9d2f1f",
+      "id": "d0abdb70-fa96-4b3e-89fb-5a84107c040d",
+      "_model_hash": "n9cq4y"
+    },
+    {
+      "brand": "BYD",
+      "model": "44.",
+      "variant": "9kwh boost",
+      "vehicle_type": "car",
+      "usable_battery_size": 44.9,
+      "energy_consumption": {
+        "average_consumption": 17.3
+      },
+      "charging_voltage": 400,
+      "release_year": 2023,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 7.4
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 44.9,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 44.9
+          },
+          {
+            "percentage": 50,
+            "power": 44.9
+          },
+          {
+            "percentage": 80,
+            "power": 26.94
+          },
+          {
+            "percentage": 100,
+            "power": 7.4
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "591fd9d3-d14f-4d55-f498-594f4a9d2f1f",
+      "id": "dec7b944-6a0b-4287-86f5-721a176632f4",
+      "_model_hash": "5ensrz"
+    },
+    {
+      "brand": "BYD",
+      "model": "60.",
+      "variant": "4kwh",
+      "vehicle_type": "car",
+      "usable_battery_size": 60.5,
+      "energy_consumption": {
+        "average_consumption": 17.3
+      },
+      "charging_voltage": 400,
+      "release_year": 2023,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 60.5,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 60.5
+          },
+          {
+            "percentage": 30,
+            "power": 60.5
+          },
+          {
+            "percentage": 60,
+            "power": 42.35
+          },
+          {
+            "percentage": 80,
+            "power": 24.2
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "591fd9d3-d14f-4d55-f498-594f4a9d2f1f",
+      "id": "b8f8e4bd-4b1b-4afe-9a80-133e58e253a1",
+      "_model_hash": "-3p7qf3"
+    },
+    {
+      "brand": "BYD",
+      "model": "82.",
+      "variant": "5kwh rwd design",
+      "vehicle_type": "car",
+      "usable_battery_size": 82.5,
+      "energy_consumption": {
+        "average_consumption": 17.2
+      },
+      "charging_voltage": 800,
+      "release_year": 2023,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 82.5,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 82.5
+          },
+          {
+            "percentage": 40,
+            "power": 82.5
+          },
+          {
+            "percentage": 70,
+            "power": 66
+          },
+          {
+            "percentage": 90,
+            "power": 33
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "591fd9d3-d14f-4d55-f498-594f4a9d2f1f",
+      "id": "bff2e305-4637-4b77-9a6b-13c245e43e49",
+      "_model_hash": "pctcoz"
+    },
+    {
+      "brand": "BYD",
+      "model": "82.",
+      "variant": "5kwh awd excellence",
+      "vehicle_type": "car",
+      "usable_battery_size": 82.5,
+      "energy_consumption": {
+        "average_consumption": 18.5
+      },
+      "charging_voltage": 800,
+      "release_year": 2023,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 82.5,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 82.5
+          },
+          {
+            "percentage": 40,
+            "power": 82.5
+          },
+          {
+            "percentage": 70,
+            "power": 66
+          },
+          {
+            "percentage": 90,
+            "power": 33
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "591fd9d3-d14f-4d55-f498-594f4a9d2f1f",
+      "id": "7f742bcc-1fa0-4b90-a407-f019a0317445",
+      "_model_hash": "mttal2"
+    },
+    {
+      "brand": "BYD",
+      "model": "SEAL U 87 kWh Design",
+      "variant": "87kwh design",
+      "vehicle_type": "car",
+      "usable_battery_size": 87,
+      "energy_consumption": {
+        "average_consumption": 20.5
+      },
+      "charging_voltage": 400,
+      "release_year": 2024,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 87,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 87
+          },
+          {
+            "percentage": 30,
+            "power": 87
+          },
+          {
+            "percentage": 60,
+            "power": 60.9
+          },
+          {
+            "percentage": 80,
+            "power": 34.8
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "591fd9d3-d14f-4d55-f498-594f4a9d2f1f",
+      "id": "7c7fb7d2-a1e4-4de7-b82e-95baf4f43be1",
+      "_model_hash": "-1vzh9k"
+    },
+    {
+      "brand": "BYD",
+      "model": "u 71.",
+      "variant": "8kwh comfort",
+      "vehicle_type": "car",
+      "usable_battery_size": 71.8,
+      "energy_consumption": {
+        "average_consumption": 19.9
+      },
+      "charging_voltage": 400,
+      "release_year": 2024,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 71.8,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 71.8
+          },
+          {
+            "percentage": 30,
+            "power": 71.8
+          },
+          {
+            "percentage": 60,
+            "power": 50.26
+          },
+          {
+            "percentage": 80,
+            "power": 28.72
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "591fd9d3-d14f-4d55-f498-594f4a9d2f1f",
+      "id": "164de895-3bec-4e7e-ae7d-e964f3c08e40",
+      "_model_hash": "gl0uhi"
+    },
+    {
+      "brand": "BYD",
+      "model": "flagship",
+      "variant": "",
+      "vehicle_type": "car",
+      "usable_battery_size": 108.8,
+      "energy_consumption": {
+        "average_consumption": 23.7
+      },
+      "charging_voltage": 800,
+      "release_year": 2024,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 108.8,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 108.8
+          },
+          {
+            "percentage": 40,
+            "power": 108.8
+          },
+          {
+            "percentage": 70,
+            "power": 87.04
+          },
+          {
+            "percentage": 90,
+            "power": 43.52
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "591fd9d3-d14f-4d55-f498-594f4a9d2f1f",
+      "id": "1031fd4c-0241-43a6-afea-f8cdebb6ecc4",
+      "_model_hash": "-p5rpmq"
     }
   ]
 }

@@ -1,5 +1,70 @@
 {
   "brand_id": "7c6b5a44-3827-4160-8e7d-6c5433210a9f",
   "brand_name": "Rolls-Royce",
-  "models": []
+  "models": [
+    {
+      "id": "d8883554-35e1-4277-b0fb-45457c2cd65e",
+      "brand_id": "7c6b5a44-3827-4160-8e7d-6c5433210a9f",
+      "brand": "Rolls-Royce",
+      "model": "Spectre",
+      "variant": "",
+      "type": "bev",
+      "release_year": 2023,
+      "usable_battery_size": 102,
+      "energy_consumption": {
+        "average_consumption": 21.9
+      },
+      "url": "https://ev-database.org/car/1765/Rolls-Royce-Spectre",
+      "status": "pending",
+      "error": "empty model name",
+      "vehicle_type": "car",
+      "charging_voltage": 400,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 22
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 102,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 102
+          },
+          {
+            "percentage": 20,
+            "power": 102
+          },
+          {
+            "percentage": 40,
+            "power": 82
+          },
+          {
+            "percentage": 60,
+            "power": 61
+          },
+          {
+            "percentage": 80,
+            "power": 41
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": true
+      },
+      "updated_at": "2025-04-11T13:43:53.470Z",
+      "isFixingEmptyName": true,
+      "_manually_fixed_fields": [
+        "energy_consumption",
+        "charging_curve"
+      ]
+    }
+  ]
 }

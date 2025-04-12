@@ -111,7 +111,9 @@ class ChargingValidatorTest < Minitest::Test
   end
 
   def test_missing_power_points
-    invalid_data = {
+    # Since power_per_charging_point is now optional, this test now verifies
+    # that no errors are returned when it's missing
+    valid_data = {
       "ac_charger" => {
         "ports" => ["type2"],
         "max_power" => 11.0,
@@ -119,8 +121,8 @@ class ChargingValidatorTest < Minitest::Test
       }
     }
 
-    errors = Validators::ChargingValidator.validate_charging_details(invalid_data)
-    assert_includes errors, "Missing power per charging point"
+    errors = Validators::ChargingValidator.validate_charging_details(valid_data)
+    assert_empty errors, "Expected no validation errors for missing power_per_charging_point"
   end
 
   def test_invalid_power_values

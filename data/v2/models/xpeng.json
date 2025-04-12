@@ -16,17 +16,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -72,17 +62,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -130,17 +110,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -188,17 +158,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -246,17 +206,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -304,17 +254,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -362,17 +302,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -420,17 +350,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -473,16 +393,6 @@
           "type2"
         ],
         "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        },
         "usable_phases": 3
       },
       "dc_charger": {
@@ -532,16 +442,6 @@
           "type2"
         ],
         "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        },
         "usable_phases": 3
       },
       "dc_charger": {
@@ -577,6 +477,210 @@
       "energy_consumption": {
         "average_consumption": 18.2
       }
+    },
+    {
+      "brand": "XPENG",
+      "model": "rwd long range",
+      "variant": "",
+      "vehicle_type": "car",
+      "usable_battery_size": 82.7,
+      "energy_consumption": {
+        "average_consumption": 16.7
+      },
+      "charging_voltage": 400,
+      "release_year": 2023,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 82.7,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 82.7
+          },
+          {
+            "percentage": 30,
+            "power": 82.7
+          },
+          {
+            "percentage": 60,
+            "power": 57.89
+          },
+          {
+            "percentage": 80,
+            "power": 33.08
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "ea09bbcb-55a3-1ba4-c516-03869a5c497a",
+      "id": "e4cb15db-b014-43b7-accf-8c4e14336757",
+      "_model_hash": "-582vow"
+    },
+    {
+      "brand": "XPENG",
+      "model": "awd",
+      "variant": "performance",
+      "vehicle_type": "car",
+      "usable_battery_size": 82.7,
+      "energy_consumption": {
+        "average_consumption": 18
+      },
+      "charging_voltage": 400,
+      "release_year": 2023,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 82.7,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 82.7
+          },
+          {
+            "percentage": 30,
+            "power": 82.7
+          },
+          {
+            "percentage": 60,
+            "power": 57.89
+          },
+          {
+            "percentage": 80,
+            "power": 33.08
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "ea09bbcb-55a3-1ba4-c516-03869a5c497a",
+      "id": "91855a5a-8f53-4943-aaae-0f9cffb23d23",
+      "_model_hash": "-dspkvk"
+    },
+    {
+      "brand": "XPENG",
+      "model": "wing edition",
+      "variant": "",
+      "vehicle_type": "car",
+      "usable_battery_size": 82.7,
+      "energy_consumption": {
+        "average_consumption": 18.2
+      },
+      "charging_voltage": 400,
+      "release_year": 2023,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 82.7,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 82.7
+          },
+          {
+            "percentage": 30,
+            "power": 82.7
+          },
+          {
+            "percentage": 60,
+            "power": 57.89
+          },
+          {
+            "percentage": 80,
+            "power": 33.08
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "ea09bbcb-55a3-1ba4-c516-03869a5c497a",
+      "id": "f745d4ba-f13f-490c-9847-f2675dc63914",
+      "_model_hash": "tqizhd"
+    },
+    {
+      "brand": "XPENG",
+      "model": "rwd standard range",
+      "variant": "",
+      "vehicle_type": "car",
+      "usable_battery_size": 75.8,
+      "energy_consumption": {
+        "average_consumption": 19.2
+      },
+      "charging_voltage": 800,
+      "release_year": 2023,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 75.8,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 75.8
+          },
+          {
+            "percentage": 40,
+            "power": 75.8
+          },
+          {
+            "percentage": 70,
+            "power": 60.64
+          },
+          {
+            "percentage": 90,
+            "power": 30.32
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "ea09bbcb-55a3-1ba4-c516-03869a5c497a",
+      "id": "73a290fc-029b-412f-ad2a-2b1fff25b705",
+      "_model_hash": "-kjuox8"
     }
   ]
 }

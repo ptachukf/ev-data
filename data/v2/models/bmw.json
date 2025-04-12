@@ -3,6 +3,64 @@
   "brand_name": "BMW",
   "models": [
     {
+      "id": "cf9d35a6-8c61-44da-97fc-e1212b0f8fbd",
+      "brand": "BMW",
+      "vehicle_type": "car",
+      "brand_id": "0742668c-bf59-4191-890e-2b0883508808",
+      "model": "iX3",
+      "release_year": 2021,
+      "variant": "",
+      "usable_battery_size": 74,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 74,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 74
+          },
+          {
+            "percentage": 30,
+            "power": 74
+          },
+          {
+            "percentage": 60,
+            "power": 51.8
+          },
+          {
+            "percentage": 80,
+            "power": 29.6
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "energy_consumption": {
+        "average_consumption": 19.2
+      },
+      "charging_voltage": 400,
+      "url": "https://ev-database.org/car/1535/BMW-iX3",
+      "status": "pending",
+      "error": "empty model name",
+      "updated_at": "2025-04-11T13:34:29.047Z",
+      "isFixingEmptyName": true,
+      "_manually_fixed_fields": [
+        "energy_consumption"
+      ]
+    },
+    {
       "id": "e59115ea-4d72-094c-2941-1494f8005ae2",
       "brand": "BMW",
       "vehicle_type": "car",
@@ -16,17 +74,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -92,17 +140,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 7.4,
-        "power_per_charging_point": {
-          "11": 3.7,
-          "16": 5.4,
-          "22": 7.4,
-          "43": 7.4,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
+        "max_power": 7.4
       },
       "dc_charger": {
         "ports": [
@@ -152,17 +190,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -208,17 +236,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -260,17 +278,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -320,17 +328,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -380,17 +378,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -440,17 +428,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -492,17 +470,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -547,17 +515,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -599,17 +557,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -651,17 +599,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -703,17 +641,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -755,17 +683,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -804,17 +722,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -859,17 +767,7 @@
           "type2"
         ],
         "usable_phases": 3,
-        "max_power": 22,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 16,
-          "22": 22,
-          "43": 22,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
+        "max_power": 22
       },
       "dc_charger": {
         "ports": [
@@ -915,17 +813,7 @@
           "type2"
         ],
         "usable_phases": 3,
-        "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -971,17 +859,7 @@
           "type2"
         ],
         "usable_phases": 3,
-        "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -1024,17 +902,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -1063,66 +931,6 @@
       "charging_voltage": 400
     },
     {
-      "id": "cf9d35a6-8c61-44da-97fc-e1212b0f8fbd",
-      "brand": "BMW",
-      "vehicle_type": "car",
-      "brand_id": "0742668c-bf59-4191-890e-2b0883508808",
-      "model": "iX3",
-      "release_year": 2020,
-      "variant": "",
-      "usable_battery_size": 74,
-      "ac_charger": {
-        "usable_phases": 1,
-        "ports": [
-          "type2"
-        ],
-        "max_power": 7.4,
-        "power_per_charging_point": {
-          "11": 3.7,
-          "16": 5.4,
-          "22": 7.4,
-          "43": 7.4,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
-      },
-      "dc_charger": {
-        "ports": [
-          "ccs"
-        ],
-        "max_power": 148,
-        "charging_curve": [
-          {
-            "percentage": 0,
-            "power": 148
-          },
-          {
-            "percentage": 35,
-            "power": 147
-          },
-          {
-            "percentage": 60,
-            "power": 118
-          },
-          {
-            "percentage": 75,
-            "power": 86
-          },
-          {
-            "percentage": 100,
-            "power": 44
-          }
-        ],
-        "is_default_charging_curve": false
-      },
-      "energy_consumption": {
-        "average_consumption": 18.5
-      },
-      "charging_voltage": 400
-    },
-    {
       "id": "555c0b5b-ba1e-741a-27e0-dee32087e2a2",
       "brand": "BMW",
       "vehicle_type": "car",
@@ -1136,17 +944,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -1192,17 +990,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -1250,17 +1038,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -1308,17 +1086,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -1366,17 +1134,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -1424,17 +1182,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -1493,17 +1241,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -1551,17 +1289,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -1620,17 +1348,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -1678,17 +1396,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -1731,17 +1439,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -1792,17 +1490,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 136,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 16,
-          "22": 22,
-          "43": 43,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
+        "max_power": 136
       },
       "dc_charger": {
         "ports": [
@@ -1852,18 +1540,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 27.2,
-        "power_per_charging_point": {
-          "2": 2,
-          "11": 11,
-          "16": 16,
-          "22": 22,
-          "43": 27.2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4,
-          "2.0": 2
-        }
+        "max_power": 27.2
       },
       "dc_charger": {
         "ports": [
@@ -1909,18 +1586,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 27.2,
-        "power_per_charging_point": {
-          "2": 2,
-          "11": 11,
-          "16": 16,
-          "22": 22,
-          "43": 27.2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4,
-          "2.0": 2
-        }
+        "max_power": 27.2
       },
       "dc_charger": {
         "ports": [
@@ -1966,18 +1632,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 27.2,
-        "power_per_charging_point": {
-          "2": 2,
-          "11": 11,
-          "16": 16,
-          "22": 22,
-          "43": 27.2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4,
-          "2.0": 2
-        }
+        "max_power": 27.2
       },
       "dc_charger": {
         "ports": [
@@ -2023,18 +1678,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 37.9,
-        "power_per_charging_point": {
-          "2": 2,
-          "11": 11,
-          "16": 16,
-          "22": 22,
-          "43": 37.9,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4,
-          "2.0": 2
-        }
+        "max_power": 37.9
       },
       "dc_charger": {
         "ports": [
@@ -2081,18 +1725,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "2": 2,
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4,
-          "2.0": 2
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -2149,18 +1782,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "2": 2,
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4,
-          "2.0": 2
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -2217,18 +1839,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "2": 2,
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4,
-          "2.0": 2
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -2285,18 +1896,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "2": 2,
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4,
-          "2.0": 2
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -2353,18 +1953,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "2": 2,
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4,
-          "2.0": 2
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -2404,6 +1993,567 @@
       "_manually_fixed_fields": [
         "charging_curve"
       ]
+    },
+    {
+      "brand": "BMW",
+      "model": "xdrive60",
+      "variant": "",
+      "vehicle_type": "car",
+      "usable_battery_size": 101.7,
+      "energy_consumption": {
+        "average_consumption": 19.9
+      },
+      "charging_voltage": 400,
+      "release_year": 2022,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 101.7,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 101.7
+          },
+          {
+            "percentage": 30,
+            "power": 101.7
+          },
+          {
+            "percentage": 60,
+            "power": 71.19
+          },
+          {
+            "percentage": 80,
+            "power": 40.68
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "0742668c-bf59-4191-890e-2b0883508808",
+      "id": "62ced2ab-7803-4c87-b220-0ad161fcafe9",
+      "_model_hash": "hl68t5"
+    },
+    {
+      "brand": "BMW",
+      "model": "xdrive30",
+      "variant": "",
+      "vehicle_type": "car",
+      "usable_battery_size": 64.7,
+      "energy_consumption": {
+        "average_consumption": 17
+      },
+      "charging_voltage": 400,
+      "release_year": 2022,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 64.7,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 64.7
+          },
+          {
+            "percentage": 30,
+            "power": 64.7
+          },
+          {
+            "percentage": 60,
+            "power": 45.29
+          },
+          {
+            "percentage": 80,
+            "power": 25.88
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "0742668c-bf59-4191-890e-2b0883508808",
+      "id": "fc1cc847-a941-41ff-9429-d37ced446848",
+      "_model_hash": "-gy972y"
+    },
+    {
+      "brand": "BMW",
+      "model": "edrive35",
+      "variant": "",
+      "vehicle_type": "car",
+      "usable_battery_size": 67,
+      "energy_consumption": {
+        "average_consumption": 15.6
+      },
+      "charging_voltage": 400,
+      "release_year": 2022,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 67,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 67
+          },
+          {
+            "percentage": 30,
+            "power": 67
+          },
+          {
+            "percentage": 60,
+            "power": 46.9
+          },
+          {
+            "percentage": 80,
+            "power": 26.8
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "0742668c-bf59-4191-890e-2b0883508808",
+      "id": "9eef1637-1bad-4531-a77a-a5ea40358bdd",
+      "_model_hash": "-qhjajc"
+    },
+    {
+      "brand": "BMW",
+      "model": "m70 xdrive",
+      "variant": "",
+      "vehicle_type": "car",
+      "usable_battery_size": 101.7,
+      "energy_consumption": {
+        "average_consumption": 20.8
+      },
+      "charging_voltage": 400,
+      "release_year": 2023,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 22
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 101.7,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 101.7
+          },
+          {
+            "percentage": 30,
+            "power": 101.7
+          },
+          {
+            "percentage": 60,
+            "power": 71.19
+          },
+          {
+            "percentage": 80,
+            "power": 40.68
+          },
+          {
+            "percentage": 100,
+            "power": 22
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "0742668c-bf59-4191-890e-2b0883508808",
+      "id": "417963b5-ba9d-4bd1-87bd-d7bb377c33e5",
+      "_model_hash": "99k3ui"
+    },
+    {
+      "brand": "BMW",
+      "model": "edrive50",
+      "variant": "",
+      "vehicle_type": "car",
+      "usable_battery_size": 101.7,
+      "energy_consumption": {
+        "average_consumption": 19.6
+      },
+      "charging_voltage": 400,
+      "release_year": 2023,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 101.7,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 101.7
+          },
+          {
+            "percentage": 30,
+            "power": 101.7
+          },
+          {
+            "percentage": 60,
+            "power": 71.19
+          },
+          {
+            "percentage": 80,
+            "power": 40.68
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "0742668c-bf59-4191-890e-2b0883508808",
+      "id": "32662a64-30dc-4385-9a95-e876a5d65472",
+      "_model_hash": "r107n2"
+    },
+    {
+      "brand": "BMW",
+      "model": "edrive40 sedan",
+      "variant": "",
+      "vehicle_type": "car",
+      "usable_battery_size": 81.2,
+      "energy_consumption": {
+        "average_consumption": 17.3
+      },
+      "charging_voltage": 400,
+      "release_year": 2023,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 81.2,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 81.2
+          },
+          {
+            "percentage": 30,
+            "power": 81.2
+          },
+          {
+            "percentage": 60,
+            "power": 56.84
+          },
+          {
+            "percentage": 80,
+            "power": 32.48
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "0742668c-bf59-4191-890e-2b0883508808",
+      "id": "58b94748-abe3-4447-a67c-60e087817e23",
+      "_model_hash": "vmqcoa"
+    },
+    {
+      "brand": "BMW",
+      "model": "m60 xdrive sedan",
+      "variant": "",
+      "vehicle_type": "car",
+      "usable_battery_size": 81.2,
+      "energy_consumption": {
+        "average_consumption": 19.3
+      },
+      "charging_voltage": 400,
+      "release_year": 2023,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 81.2,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 81.2
+          },
+          {
+            "percentage": 30,
+            "power": 81.2
+          },
+          {
+            "percentage": 60,
+            "power": 56.84
+          },
+          {
+            "percentage": 80,
+            "power": 32.48
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "0742668c-bf59-4191-890e-2b0883508808",
+      "id": "6cfe71f4-5ea2-4734-9f60-1555ac0d326e",
+      "_model_hash": "i9ips"
+    },
+    {
+      "brand": "BMW",
+      "model": "edrive20",
+      "variant": "",
+      "vehicle_type": "car",
+      "usable_battery_size": 64.7,
+      "energy_consumption": {
+        "average_consumption": 16.6
+      },
+      "charging_voltage": 400,
+      "release_year": 2023,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 64.7,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 64.7
+          },
+          {
+            "percentage": 30,
+            "power": 64.7
+          },
+          {
+            "percentage": 60,
+            "power": 45.29
+          },
+          {
+            "percentage": 80,
+            "power": 25.88
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "0742668c-bf59-4191-890e-2b0883508808",
+      "id": "9885b268-a64e-4ce5-8264-36ab91501356",
+      "_model_hash": "-ue7uq7"
+    },
+    {
+      "brand": "BMW",
+      "model": "xdrive30",
+      "variant": "",
+      "vehicle_type": "car",
+      "usable_battery_size": 64.7,
+      "energy_consumption": {
+        "average_consumption": 16.8
+      },
+      "charging_voltage": 400,
+      "release_year": 2023,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 64.7,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 64.7
+          },
+          {
+            "percentage": 30,
+            "power": 64.7
+          },
+          {
+            "percentage": 60,
+            "power": 45.29
+          },
+          {
+            "percentage": 80,
+            "power": 25.88
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "0742668c-bf59-4191-890e-2b0883508808",
+      "id": "a8a6f174-ce77-4f3d-b904-b4607086c6db",
+      "_model_hash": "-gh7kor"
+    },
+    {
+      "brand": "BMW",
+      "model": "xdrive40 sedan",
+      "variant": "",
+      "vehicle_type": "car",
+      "usable_battery_size": 81.2,
+      "energy_consumption": {
+        "average_consumption": 17.8
+      },
+      "charging_voltage": 400,
+      "release_year": 2024,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 81.2,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 81.2
+          },
+          {
+            "percentage": 30,
+            "power": 81.2
+          },
+          {
+            "percentage": 60,
+            "power": 56.84
+          },
+          {
+            "percentage": 80,
+            "power": 32.48
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "0742668c-bf59-4191-890e-2b0883508808",
+      "id": "7c97c5ec-9bea-4e55-83be-93afbe8f0b53",
+      "_model_hash": "io663g"
+    },
+    {
+      "brand": "BMW",
+      "model": "edrive20",
+      "variant": "",
+      "vehicle_type": "car",
+      "usable_battery_size": 64.7,
+      "energy_consumption": {
+        "average_consumption": 16.4
+      },
+      "charging_voltage": 400,
+      "release_year": 2024,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 64.7,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 64.7
+          },
+          {
+            "percentage": 30,
+            "power": 64.7
+          },
+          {
+            "percentage": 60,
+            "power": 45.29
+          },
+          {
+            "percentage": 80,
+            "power": 25.88
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "0742668c-bf59-4191-890e-2b0883508808",
+      "id": "1001a576-5a22-4434-91b5-8ae7b44a8f6f",
+      "_model_hash": "-tx68c0"
     }
   ]
 }

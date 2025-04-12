@@ -3,6 +3,64 @@
   "brand_name": "Nissan",
   "models": [
     {
+      "brand": "Nissan",
+      "model": "Leaf",
+      "variant": "",
+      "release_year": 2022,
+      "battery_size": 39,
+      "range": 235,
+      "consumption": 16.6,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 3.6
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 39,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 39
+          },
+          {
+            "percentage": 50,
+            "power": 39
+          },
+          {
+            "percentage": 80,
+            "power": 23.4
+          },
+          {
+            "percentage": 100,
+            "power": 3.6
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "id": "f9ab0b23-29cf-4deb-98b1-e3de3dd23716",
+      "brand_id": "dab5a47a-e8ce-4d34-9139-0701499205b1",
+      "vehicle_type": "car",
+      "charging_voltage": 400,
+      "usable_battery_size": 39,
+      "energy_consumption": {
+        "average_consumption": 16.6
+      },
+      "_manually_fixed_fields": [
+        "charging_curve",
+        "energy_consumption"
+      ],
+      "url": "https://ev-database.org/car/1656/Nissan-Leaf",
+      "status": "pending",
+      "error": "empty model name",
+      "updated_at": "2025-04-11T13:40:52.685Z",
+      "isFixingEmptyName": true
+    },
+    {
       "id": "603af6f7-121b-7063-c143-af9d62ca960b",
       "brand": "Nissan",
       "vehicle_type": "car",
@@ -16,17 +74,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 7.4,
-        "power_per_charging_point": {
-          "11": 7.4,
-          "16": 7.4,
-          "22": 7.4,
-          "43": 7.4,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
+        "max_power": 7.4
       },
       "dc_charger": {
         "ports": [
@@ -68,17 +116,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 22,
-        "power_per_charging_point": {
-          "11": 11.1,
-          "16": 16.2,
-          "22": 22,
-          "43": 22,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
+        "max_power": 22
       },
       "dc_charger": {
         "ports": [
@@ -120,17 +158,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 22,
-        "power_per_charging_point": {
-          "11": 11.1,
-          "16": 16.2,
-          "22": 22,
-          "43": 22,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
+        "max_power": 22
       },
       "dc_charger": {
         "ports": [
@@ -172,17 +200,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 22,
-        "power_per_charging_point": {
-          "11": 11.1,
-          "16": 16.2,
-          "22": 22,
-          "43": 22,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
+        "max_power": 22
       },
       "dc_charger": {
         "ports": [
@@ -224,17 +242,7 @@
         "ports": [
           "type1"
         ],
-        "max_power": 3.6,
-        "power_per_charging_point": {
-          "11": 3.6,
-          "16": 3.6,
-          "22": 3.6,
-          "43": 3.6,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.6,
-          "7.4": 3.6
-        }
+        "max_power": 3.6
       },
       "dc_charger": {
         "ports": [
@@ -276,17 +284,7 @@
         "ports": [
           "type1"
         ],
-        "max_power": 6.6,
-        "power_per_charging_point": {
-          "11": 3.7,
-          "16": 5.4,
-          "22": 6.6,
-          "43": 6.6,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 6.6
-        }
+        "max_power": 6.6
       },
       "dc_charger": {
         "ports": [
@@ -328,17 +326,7 @@
         "ports": [
           "type1"
         ],
-        "max_power": 3.6,
-        "power_per_charging_point": {
-          "11": 3.6,
-          "16": 3.6,
-          "22": 3.6,
-          "43": 3.6,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.6,
-          "7.4": 3.6
-        }
+        "max_power": 3.6
       },
       "dc_charger": {
         "ports": [
@@ -384,17 +372,7 @@
         "ports": [
           "type1"
         ],
-        "max_power": 6.6,
-        "power_per_charging_point": {
-          "11": 3.7,
-          "16": 5.4,
-          "22": 6.6,
-          "43": 6.6,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 6.6
-        }
+        "max_power": 6.6
       },
       "dc_charger": {
         "ports": [
@@ -440,17 +418,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 6.6,
-        "power_per_charging_point": {
-          "11": 3.7,
-          "16": 5.4,
-          "22": 6.6,
-          "43": 6.6,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 6.6
-        }
+        "max_power": 6.6
       },
       "dc_charger": {
         "ports": [
@@ -496,17 +464,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 6.6,
-        "power_per_charging_point": {
-          "11": 3.7,
-          "16": 5.4,
-          "22": 6.6,
-          "43": 6.6,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 6.6
-        }
+        "max_power": 6.6
       },
       "dc_charger": {
         "ports": [
@@ -548,17 +506,7 @@
         "ports": [
           "type1"
         ],
-        "max_power": 3.6,
-        "power_per_charging_point": {
-          "11": 3.6,
-          "16": 3.6,
-          "22": 3.6,
-          "43": 3.6,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.6,
-          "7.4": 3.6
-        }
+        "max_power": 3.6
       },
       "dc_charger": {
         "ports": [
@@ -608,17 +556,7 @@
         "ports": [
           "type1"
         ],
-        "max_power": 6.6,
-        "power_per_charging_point": {
-          "11": 3.7,
-          "16": 5.4,
-          "22": 6.6,
-          "43": 6.6,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 6.6
-        }
+        "max_power": 6.6
       },
       "dc_charger": {
         "ports": [
@@ -668,17 +606,7 @@
         "ports": [
           "type1"
         ],
-        "max_power": 6.6,
-        "power_per_charging_point": {
-          "11": 3.7,
-          "16": 5.4,
-          "22": 6.6,
-          "43": 6.6,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 6.6
-        }
+        "max_power": 6.6
       },
       "dc_charger": {
         "ports": [
@@ -728,17 +656,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -797,17 +715,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -850,76 +758,6 @@
     },
     {
       "brand": "Nissan",
-      "model": "Leaf",
-      "variant": "",
-      "release_year": 2022,
-      "battery_size": 39,
-      "range": 235,
-      "consumption": 16.6,
-      "ac_charger": {
-        "ports": [
-          "type2"
-        ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        },
-        "usable_phases": 3
-      },
-      "dc_charger": {
-        "ports": [
-          "chademo"
-        ],
-        "max_power": 46,
-        "charging_curve": [
-          {
-            "percentage": 0,
-            "power": 46
-          },
-          {
-            "percentage": 20,
-            "power": 46
-          },
-          {
-            "percentage": 40,
-            "power": 37
-          },
-          {
-            "percentage": 60,
-            "power": 28
-          },
-          {
-            "percentage": 80,
-            "power": 18
-          },
-          {
-            "percentage": 100,
-            "power": 11
-          }
-        ],
-        "is_default_charging_curve": true
-      },
-      "id": "f9ab0b23-29cf-4deb-98b1-e3de3dd23716",
-      "brand_id": "dab5a47a-e8ce-4d34-9139-0701499205b1",
-      "vehicle_type": "car",
-      "charging_voltage": 400,
-      "usable_battery_size": 39,
-      "energy_consumption": {
-        "average_consumption": 16.6
-      },
-      "_manually_fixed_fields": [
-        "charging_curve"
-      ]
-    },
-    {
-      "brand": "Nissan",
       "model": "Ariya e-4ORCE 87kWh - 225 kW",
       "variant": "",
       "release_year": 2022,
@@ -931,16 +769,6 @@
           "type2"
         ],
         "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        },
         "usable_phases": 3
       },
       "dc_charger": {
@@ -990,16 +818,6 @@
           "type2"
         ],
         "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        },
         "usable_phases": 3
       },
       "dc_charger": {
@@ -1049,16 +867,6 @@
           "type2"
         ],
         "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        },
         "usable_phases": 3
       },
       "dc_charger": {
@@ -1108,16 +916,6 @@
           "type2"
         ],
         "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        },
         "usable_phases": 3
       },
       "dc_charger": {
@@ -1167,16 +965,6 @@
           "type2"
         ],
         "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        },
         "usable_phases": 3
       },
       "dc_charger": {
@@ -1229,18 +1017,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "2": 2,
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4,
-          "2.0": 2
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -1286,18 +1063,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "2": 2,
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4,
-          "2.0": 2
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -1343,18 +1109,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "2": 2,
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4,
-          "2.0": 2
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -1400,18 +1155,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 39,
-        "power_per_charging_point": {
-          "2": 2,
-          "11": 11,
-          "16": 16,
-          "22": 22,
-          "43": 39,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4,
-          "2.0": 2
-        }
+        "max_power": 39
       },
       "dc_charger": {
         "ports": [
@@ -1457,18 +1201,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 37,
-        "power_per_charging_point": {
-          "2": 2,
-          "11": 11,
-          "16": 16,
-          "22": 22,
-          "43": 37,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4,
-          "2.0": 2
-        }
+        "max_power": 37
       },
       "dc_charger": {
         "ports": [
@@ -1514,18 +1247,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "2": 2,
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4,
-          "2.0": 2
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -1571,18 +1293,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "2": 2,
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4,
-          "2.0": 2
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -1639,18 +1350,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "2": 2,
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4,
-          "2.0": 2
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -1707,18 +1407,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "2": 2,
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4,
-          "2.0": 2
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -1775,18 +1464,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "2": 2,
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4,
-          "2.0": 2
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -1843,18 +1521,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 6.6,
-        "power_per_charging_point": {
-          "2": 2,
-          "11": 6.6,
-          "16": 6.6,
-          "22": 6.6,
-          "43": 6.6,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 6.6,
-          "2.0": 2
-        }
+        "max_power": 6.6
       },
       "dc_charger": {
         "ports": [
@@ -1884,6 +1551,53 @@
       "brand_id": "dab5a47a-e8ce-4d34-9139-0701499205b1",
       "id": "5c16af25-386e-4232-a78e-dde7471a5d10",
       "_model_hash": "2swht4"
+    },
+    {
+      "brand": "Nissan",
+      "model": "ev passenger",
+      "variant": "",
+      "vehicle_type": "car",
+      "usable_battery_size": 45,
+      "energy_consumption": {
+        "average_consumption": 20
+      },
+      "charging_voltage": 400,
+      "release_year": 2023,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 45,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 45
+          },
+          {
+            "percentage": 50,
+            "power": 45
+          },
+          {
+            "percentage": 80,
+            "power": 27
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "dab5a47a-e8ce-4d34-9139-0701499205b1",
+      "id": "a7772da3-50d2-4c51-987a-f71670abd7d1",
+      "_model_hash": "ob4zun"
     }
   ]
 }

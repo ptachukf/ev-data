@@ -16,17 +16,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -68,17 +58,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -120,17 +100,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 7.2,
-        "power_per_charging_point": {
-          "11": 7.2,
-          "16": 7.2,
-          "22": 7.2,
-          "43": 7.2,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.2
-        }
+        "max_power": 7.2
       },
       "dc_charger": {
         "ports": [
@@ -172,17 +142,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -232,17 +192,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 7.2,
-        "power_per_charging_point": {
-          "11": 7.2,
-          "16": 7.2,
-          "22": 7.2,
-          "43": 7.2,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.2
-        }
+        "max_power": 7.2
       },
       "dc_charger": {
         "ports": [
@@ -284,17 +234,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -348,17 +288,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -400,17 +330,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -464,17 +384,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -516,17 +426,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -568,17 +468,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -620,17 +510,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -672,17 +552,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -724,17 +594,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -776,17 +636,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -844,17 +694,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 22,
-        "power_per_charging_point": {
-          "11": 11.1,
-          "16": 16.2,
-          "22": 22,
-          "43": 22,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
+        "max_power": 22
       },
       "dc_charger": {
         "ports": [
@@ -912,17 +752,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -976,17 +806,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 22,
-        "power_per_charging_point": {
-          "11": 11.1,
-          "16": 16.2,
-          "22": 22,
-          "43": 22,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
+        "max_power": 22
       },
       "dc_charger": {
         "ports": [
@@ -1040,17 +860,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 22,
-        "power_per_charging_point": {
-          "11": 11.1,
-          "16": 16.2,
-          "22": 22,
-          "43": 22,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
+        "max_power": 22
       },
       "dc_charger": {
         "ports": [
@@ -1108,17 +918,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 22,
-        "power_per_charging_point": {
-          "11": 11.1,
-          "16": 16.2,
-          "22": 22,
-          "43": 22,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
+        "max_power": 22
       },
       "dc_charger": {
         "ports": [
@@ -1176,17 +976,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -1245,17 +1035,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -1303,17 +1083,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -1361,17 +1131,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -1419,17 +1179,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -1477,17 +1227,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -1535,17 +1275,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -1593,17 +1323,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -1651,17 +1371,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -1709,17 +1419,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -1767,17 +1467,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -1825,17 +1515,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -1878,17 +1558,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -1937,17 +1607,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -2004,17 +1664,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -2063,17 +1713,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -2122,17 +1762,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -2181,17 +1811,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -2240,17 +1860,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -2307,17 +1917,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -2366,17 +1966,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -2433,17 +2023,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -2500,17 +2080,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -2559,17 +2129,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -2618,17 +2178,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -2677,17 +2227,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -2736,17 +2276,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -2795,17 +2325,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -2854,17 +2374,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -2913,17 +2423,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -2975,18 +2475,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "2": 2,
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4,
-          "2.0": 2
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -3036,18 +2525,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "2": 2,
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4,
-          "2.0": 2
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -3097,18 +2575,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "2": 2,
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4,
-          "2.0": 2
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -3158,18 +2625,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "2": 2,
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4,
-          "2.0": 2
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -3215,18 +2671,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "2": 2,
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4,
-          "2.0": 2
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -3283,18 +2728,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "2": 2,
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4,
-          "2.0": 2
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -3351,18 +2785,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "2": 2,
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4,
-          "2.0": 2
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -3412,18 +2835,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "2": 2,
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4,
-          "2.0": 2
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -3473,18 +2885,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "2": 2,
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4,
-          "2.0": 2
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -3534,18 +2935,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 4,
-        "power_per_charging_point": {
-          "2": 2,
-          "11": 4,
-          "16": 4,
-          "22": 4,
-          "43": 4,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 4,
-          "2.0": 2
-        }
+        "max_power": 4
       },
       "dc_charger": {
         "ports": [
@@ -3591,18 +2981,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "2": 2,
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4,
-          "2.0": 2
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -3652,18 +3031,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "2": 2,
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4,
-          "2.0": 2
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -3713,18 +3081,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "2": 2,
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4,
-          "2.0": 2
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -3774,18 +3131,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "2": 2,
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4,
-          "2.0": 2
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -3842,18 +3188,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "2": 2,
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4,
-          "2.0": 2
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -3910,18 +3245,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 4,
-        "power_per_charging_point": {
-          "2": 2,
-          "11": 4,
-          "16": 4,
-          "22": 4,
-          "43": 4,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 4,
-          "2.0": 2
-        }
+        "max_power": 4
       },
       "dc_charger": {
         "ports": [
@@ -3978,18 +3302,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "2": 2,
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4,
-          "2.0": 2
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -4046,18 +3359,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 4,
-        "power_per_charging_point": {
-          "2": 2,
-          "11": 4,
-          "16": 4,
-          "22": 4,
-          "43": 4,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 4,
-          "2.0": 2
-        }
+        "max_power": 4
       },
       "dc_charger": {
         "ports": [
@@ -4114,18 +3416,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "2": 2,
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4,
-          "2.0": 2
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -4176,18 +3467,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "2": 2,
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4,
-          "2.0": 2
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -4238,18 +3518,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "2": 2,
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4,
-          "2.0": 2
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -4283,6 +3552,720 @@
       "brand_id": "89c2668c-0c50-4344-9386-93e4000f7673",
       "id": "c488cfd1-98d3-403f-9b07-f352a908a2cb",
       "_model_hash": "nazb5y"
+    },
+    {
+      "brand": "Audi",
+      "model": "sportback 50",
+      "variant": "quattro",
+      "vehicle_type": "car",
+      "usable_battery_size": 64.7,
+      "energy_consumption": {
+        "average_consumption": 21.9
+      },
+      "charging_voltage": 400,
+      "release_year": 2021,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 64.7,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 64.7
+          },
+          {
+            "percentage": 30,
+            "power": 64.7
+          },
+          {
+            "percentage": 60,
+            "power": 45.29
+          },
+          {
+            "percentage": 80,
+            "power": 25.88
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "89c2668c-0c50-4344-9386-93e4000f7673",
+      "id": "bd0a861a-9eb5-4ff1-8d40-ffd0a479489c",
+      "_model_hash": "ilzcbv"
+    },
+    {
+      "brand": "Audi",
+      "model": "sportbacketron 45",
+      "variant": "quattro",
+      "vehicle_type": "car",
+      "usable_battery_size": 76.6,
+      "energy_consumption": {
+        "average_consumption": 19.2
+      },
+      "charging_voltage": 400,
+      "release_year": 2022,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 76.6,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 76.6
+          },
+          {
+            "percentage": 30,
+            "power": 76.6
+          },
+          {
+            "percentage": 60,
+            "power": 53.62
+          },
+          {
+            "percentage": 80,
+            "power": 30.64
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "89c2668c-0c50-4344-9386-93e4000f7673",
+      "id": "cb46e201-11c1-4f9f-b008-52fa76ac97af",
+      "_model_hash": "-bc1p4y"
+    },
+    {
+      "brand": "Audi",
+      "model": "etron 50",
+      "variant": "quattro",
+      "vehicle_type": "car",
+      "usable_battery_size": 89,
+      "energy_consumption": {
+        "average_consumption": 20.9
+      },
+      "charging_voltage": 400,
+      "release_year": 2022,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 89,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 89
+          },
+          {
+            "percentage": 30,
+            "power": 89
+          },
+          {
+            "percentage": 60,
+            "power": 62.3
+          },
+          {
+            "percentage": 80,
+            "power": 35.6
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "89c2668c-0c50-4344-9386-93e4000f7673",
+      "id": "79dbb8f4-78f7-4844-aa41-11e448e3a6b7",
+      "_model_hash": "-jiet37"
+    },
+    {
+      "brand": "Audi",
+      "model": "etron 55",
+      "variant": "quattro",
+      "vehicle_type": "car",
+      "usable_battery_size": 106,
+      "energy_consumption": {
+        "average_consumption": 21
+      },
+      "charging_voltage": 400,
+      "release_year": 2022,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 106,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 106
+          },
+          {
+            "percentage": 30,
+            "power": 106
+          },
+          {
+            "percentage": 60,
+            "power": 74.2
+          },
+          {
+            "percentage": 80,
+            "power": 42.4
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "89c2668c-0c50-4344-9386-93e4000f7673",
+      "id": "070b1895-3d80-4717-bc4c-23569a82fc4d",
+      "_model_hash": "n07qvq"
+    },
+    {
+      "brand": "Audi",
+      "model": "etron sportback 50",
+      "variant": "quattro",
+      "vehicle_type": "car",
+      "usable_battery_size": 89,
+      "energy_consumption": {
+        "average_consumption": 20
+      },
+      "charging_voltage": 400,
+      "release_year": 2022,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 89,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 89
+          },
+          {
+            "percentage": 30,
+            "power": 89
+          },
+          {
+            "percentage": 60,
+            "power": 62.3
+          },
+          {
+            "percentage": 80,
+            "power": 35.6
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "89c2668c-0c50-4344-9386-93e4000f7673",
+      "id": "21576aad-14d5-42dc-a0ec-8a96005ca574",
+      "_model_hash": "g18hk2"
+    },
+    {
+      "brand": "Audi",
+      "model": "etron sportback 55",
+      "variant": "quattro",
+      "vehicle_type": "car",
+      "usable_battery_size": 106,
+      "energy_consumption": {
+        "average_consumption": 20.2
+      },
+      "charging_voltage": 400,
+      "release_year": 2022,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 106,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 106
+          },
+          {
+            "percentage": 30,
+            "power": 106
+          },
+          {
+            "percentage": 60,
+            "power": 74.2
+          },
+          {
+            "percentage": 80,
+            "power": 42.4
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "89c2668c-0c50-4344-9386-93e4000f7673",
+      "id": "ce9e5c81-96f9-42ab-a569-859431c47df4",
+      "_model_hash": "-bkiypb"
+    },
+    {
+      "brand": "Audi",
+      "model": "etron",
+      "variant": "",
+      "vehicle_type": "car",
+      "usable_battery_size": 106,
+      "energy_consumption": {
+        "average_consumption": 23.3
+      },
+      "charging_voltage": 400,
+      "release_year": 2023,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 106,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 106
+          },
+          {
+            "percentage": 30,
+            "power": 106
+          },
+          {
+            "percentage": 60,
+            "power": 74.2
+          },
+          {
+            "percentage": 80,
+            "power": 42.4
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "89c2668c-0c50-4344-9386-93e4000f7673",
+      "id": "685585ca-e8ca-4c42-81fd-fc0b5996e4a3",
+      "_model_hash": "-2zvmxz"
+    },
+    {
+      "brand": "Audi",
+      "model": "etron sportback",
+      "variant": "",
+      "vehicle_type": "car",
+      "usable_battery_size": 106,
+      "energy_consumption": {
+        "average_consumption": 22.1
+      },
+      "charging_voltage": 400,
+      "release_year": 2023,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 106,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 106
+          },
+          {
+            "percentage": 30,
+            "power": 106
+          },
+          {
+            "percentage": 60,
+            "power": 74.2
+          },
+          {
+            "percentage": 80,
+            "power": 42.4
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "89c2668c-0c50-4344-9386-93e4000f7673",
+      "id": "2f6a6d3c-0c7e-44a6-8d8b-c925a270385b",
+      "_model_hash": "-8y008c"
+    },
+    {
+      "brand": "Audi",
+      "model": "etron 45",
+      "variant": "",
+      "vehicle_type": "car",
+      "usable_battery_size": 77,
+      "energy_consumption": {
+        "average_consumption": 18.3
+      },
+      "charging_voltage": 400,
+      "release_year": 2023,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 77,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 77
+          },
+          {
+            "percentage": 30,
+            "power": 77
+          },
+          {
+            "percentage": 60,
+            "power": 53.9
+          },
+          {
+            "percentage": 80,
+            "power": 30.8
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "89c2668c-0c50-4344-9386-93e4000f7673",
+      "id": "5b43a58f-64c0-4c6f-bf84-87c17492447a",
+      "_model_hash": "r634r"
+    },
+    {
+      "brand": "Audi",
+      "model": "etron 45",
+      "variant": "quattro",
+      "vehicle_type": "car",
+      "usable_battery_size": 77,
+      "energy_consumption": {
+        "average_consumption": 19.5
+      },
+      "charging_voltage": 400,
+      "release_year": 2023,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 77,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 77
+          },
+          {
+            "percentage": 30,
+            "power": 77
+          },
+          {
+            "percentage": 60,
+            "power": 53.9
+          },
+          {
+            "percentage": 80,
+            "power": 30.8
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "89c2668c-0c50-4344-9386-93e4000f7673",
+      "id": "5409ff78-d91e-4868-8906-4b0c4ee3c81c",
+      "_model_hash": "-x6cxwf"
+    },
+    {
+      "brand": "Audi",
+      "model": "etron 55",
+      "variant": "quattro",
+      "vehicle_type": "car",
+      "usable_battery_size": 77,
+      "energy_consumption": {
+        "average_consumption": 19.5
+      },
+      "charging_voltage": 400,
+      "release_year": 2023,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 77,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 77
+          },
+          {
+            "percentage": 30,
+            "power": 77
+          },
+          {
+            "percentage": 60,
+            "power": 53.9
+          },
+          {
+            "percentage": 80,
+            "power": 30.8
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "89c2668c-0c50-4344-9386-93e4000f7673",
+      "id": "5c8679af-fa28-440e-bd5b-389b5eb80847",
+      "_model_hash": "ld4e4g"
+    },
+    {
+      "brand": "Audi",
+      "model": "sportbacketron 45",
+      "variant": "",
+      "vehicle_type": "car",
+      "usable_battery_size": 77,
+      "energy_consumption": {
+        "average_consumption": 17.7
+      },
+      "charging_voltage": 400,
+      "release_year": 2023,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 77,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 77
+          },
+          {
+            "percentage": 30,
+            "power": 77
+          },
+          {
+            "percentage": 60,
+            "power": 53.9
+          },
+          {
+            "percentage": 80,
+            "power": 30.8
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "89c2668c-0c50-4344-9386-93e4000f7673",
+      "id": "cf863d9c-4145-4854-80ef-519847813687",
+      "_model_hash": "-w4vsca"
+    },
+    {
+      "brand": "Audi",
+      "model": "sportbacketron 45",
+      "variant": "quattro",
+      "vehicle_type": "car",
+      "usable_battery_size": 77,
+      "energy_consumption": {
+        "average_consumption": 18.8
+      },
+      "charging_voltage": 400,
+      "release_year": 2023,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 77,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 77
+          },
+          {
+            "percentage": 30,
+            "power": 77
+          },
+          {
+            "percentage": 60,
+            "power": 53.9
+          },
+          {
+            "percentage": 80,
+            "power": 30.8
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "89c2668c-0c50-4344-9386-93e4000f7673",
+      "id": "e6243d3c-86b3-475c-8492-30cc3e3fb79c",
+      "_model_hash": "-gcgnze"
+    },
+    {
+      "brand": "Audi",
+      "model": "sportbacketron 55",
+      "variant": "quattro",
+      "vehicle_type": "car",
+      "usable_battery_size": 77,
+      "energy_consumption": {
+        "average_consumption": 18.6
+      },
+      "charging_voltage": 400,
+      "release_year": 2023,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 77,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 77
+          },
+          {
+            "percentage": 30,
+            "power": 77
+          },
+          {
+            "percentage": 60,
+            "power": 53.9
+          },
+          {
+            "percentage": 80,
+            "power": 30.8
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "89c2668c-0c50-4344-9386-93e4000f7673",
+      "id": "663ff6d3-318e-4bbb-ab92-65f4cb75d8c7",
+      "_model_hash": "-wu3dxn"
     }
   ]
 }

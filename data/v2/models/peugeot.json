@@ -4,6 +4,134 @@
   "models": [
     {
       "brand": "Peugeot",
+      "model": "e-208",
+      "variant": "",
+      "release_year": 2021,
+      "range": 285,
+      "id": "f252509a-673d-44b2-92d5-7b42dd38ba6d",
+      "brand_id": "f458fe7d-f545-45f3-8c23-2ab8140b8b5d",
+      "usable_battery_size": 46.3,
+      "energy_consumption": {
+        "average_consumption": 16.2
+      },
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 7.4
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 46.3,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 46.3
+          },
+          {
+            "percentage": 20,
+            "power": 46.3
+          },
+          {
+            "percentage": 40,
+            "power": 37
+          },
+          {
+            "percentage": 60,
+            "power": 28
+          },
+          {
+            "percentage": 80,
+            "power": 19
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": true
+      },
+      "vehicle_type": "car",
+      "charging_voltage": 400,
+      "_manually_fixed_fields": [
+        "charging_curve",
+        "energy_consumption"
+      ],
+      "url": "https://ev-database.org/car/1583/Peugeot-e-208",
+      "status": "pending",
+      "error": "empty model name",
+      "updated_at": "2025-04-11T13:35:16.651Z",
+      "isFixingEmptyName": true
+    },
+    {
+      "brand": "Peugeot",
+      "model": "e-308",
+      "variant": "",
+      "release_year": 2023,
+      "range": 300,
+      "id": "6717cf3f-cf4b-401b-9280-caa4bee8be4b",
+      "brand_id": "f458fe7d-f545-45f3-8c23-2ab8140b8b5d",
+      "usable_battery_size": 50.8,
+      "energy_consumption": {
+        "average_consumption": 16.9
+      },
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 50.8,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 50.8
+          },
+          {
+            "percentage": 20,
+            "power": 50.8
+          },
+          {
+            "percentage": 40,
+            "power": 41
+          },
+          {
+            "percentage": 60,
+            "power": 30
+          },
+          {
+            "percentage": 80,
+            "power": 20
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": true
+      },
+      "vehicle_type": "car",
+      "charging_voltage": 400,
+      "url": "https://ev-database.org/car/1744/Peugeot-e-308",
+      "status": "pending",
+      "error": "empty model name",
+      "updated_at": "2025-04-11T13:42:50.862Z",
+      "isFixingEmptyName": true,
+      "_manually_fixed_fields": [
+        "energy_consumption",
+        "charging_curve"
+      ]
+    },
+    {
+      "brand": "Peugeot",
       "model": "Partner Tepee",
       "variant": "Electric",
       "vehicle_type": "car",
@@ -18,18 +146,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 20.5,
-        "power_per_charging_point": {
-          "2": 2,
-          "11": 11,
-          "16": 16,
-          "22": 20.5,
-          "43": 20.5,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4,
-          "2.0": 2
-        }
+        "max_power": 20.5
       },
       "dc_charger": {
         "ports": [
@@ -76,17 +193,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -148,17 +255,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -236,17 +333,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 7.4,
-        "power_per_charging_point": {
-          "11": 7.4,
-          "16": 7.4,
-          "22": 7.4,
-          "43": 7.4,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
+        "max_power": 7.4
       },
       "dc_charger": {
         "ports": [
@@ -324,17 +411,7 @@
         "ports": [
           "type1"
         ],
-        "max_power": 3.6,
-        "power_per_charging_point": {
-          "11": 3.6,
-          "16": 3.6,
-          "22": 3.6,
-          "43": 3.6,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.6,
-          "7.4": 3.6
-        }
+        "max_power": 3.6
       },
       "dc_charger": {
         "ports": [
@@ -376,17 +453,7 @@
         "ports": [
           "type1"
         ],
-        "max_power": 3.2,
-        "power_per_charging_point": {
-          "11": 3.2,
-          "16": 3.2,
-          "22": 3.2,
-          "43": 3.2,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.2,
-          "7.4": 3.2
-        }
+        "max_power": 3.2
       },
       "dc_charger": {
         "ports": [
@@ -428,17 +495,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -512,17 +569,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -564,17 +611,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 7.4,
-        "power_per_charging_point": {
-          "11": 3.7,
-          "16": 5.4,
-          "22": 7.4,
-          "43": 7.4,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
+        "max_power": 7.4
       },
       "dc_charger": {
         "ports": [
@@ -648,17 +685,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -732,17 +759,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -784,17 +801,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 7.4,
-        "power_per_charging_point": {
-          "11": 3.7,
-          "16": 5.4,
-          "22": 7.4,
-          "43": 7.4,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
+        "max_power": 7.4
       },
       "dc_charger": {
         "ports": [
@@ -868,17 +875,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -920,17 +917,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -972,17 +959,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -1060,17 +1037,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -1118,17 +1085,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -1187,17 +1144,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -1245,17 +1192,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -1303,17 +1240,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -1345,75 +1272,6 @@
     },
     {
       "brand": "Peugeot",
-      "model": "e-208",
-      "variant": "",
-      "release_year": 2021,
-      "range": 285,
-      "id": "f252509a-673d-44b2-92d5-7b42dd38ba6d",
-      "brand_id": "f458fe7d-f545-45f3-8c23-2ab8140b8b5d",
-      "usable_battery_size": 46.3,
-      "energy_consumption": {
-        "average_consumption": 16.2,
-        "range": 285
-      },
-      "ac_charger": {
-        "usable_phases": 3,
-        "ports": [
-          "type2"
-        ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
-      },
-      "dc_charger": {
-        "ports": [
-          "ccs"
-        ],
-        "max_power": 101,
-        "is_default_charging_curve": true,
-        "charging_curve": [
-          {
-            "percentage": 0,
-            "power": 101
-          },
-          {
-            "percentage": 20,
-            "power": 101
-          },
-          {
-            "percentage": 40,
-            "power": 81
-          },
-          {
-            "percentage": 60,
-            "power": 61
-          },
-          {
-            "percentage": 80,
-            "power": 40
-          },
-          {
-            "percentage": 100,
-            "power": 11
-          }
-        ]
-      },
-      "vehicle_type": "car",
-      "charging_voltage": 400,
-      "_manually_fixed_fields": [
-        "charging_curve"
-      ]
-    },
-    {
-      "brand": "Peugeot",
       "model": "e-208 51 kWh",
       "variant": "",
       "release_year": 2023,
@@ -1430,75 +1288,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
-      },
-      "dc_charger": {
-        "ports": [
-          "ccs"
-        ],
-        "max_power": 100,
-        "is_default_charging_curve": false,
-        "charging_curve": [
-          {
-            "percentage": 0,
-            "power": 100
-          },
-          {
-            "percentage": 50,
-            "power": 100
-          },
-          {
-            "percentage": 80,
-            "power": 60
-          },
-          {
-            "percentage": 100,
-            "power": 30
-          }
-        ]
-      },
-      "vehicle_type": "car",
-      "charging_voltage": 400
-    },
-    {
-      "brand": "Peugeot",
-      "model": "e-308",
-      "variant": "",
-      "release_year": 2023,
-      "range": 300,
-      "id": "6717cf3f-cf4b-401b-9280-caa4bee8be4b",
-      "brand_id": "f458fe7d-f545-45f3-8c23-2ab8140b8b5d",
-      "usable_battery_size": 50.8,
-      "energy_consumption": {
-        "average_consumption": 16.9,
-        "range": 300
-      },
-      "ac_charger": {
-        "usable_phases": 3,
-        "ports": [
-          "type2"
-        ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -1546,17 +1336,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -1599,16 +1379,6 @@
           "type2"
         ],
         "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        },
         "usable_phases": 3
       },
       "dc_charger": {
@@ -1658,16 +1428,6 @@
           "type2"
         ],
         "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        },
         "usable_phases": 3
       },
       "dc_charger": {
@@ -1717,16 +1477,6 @@
           "type2"
         ],
         "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        },
         "usable_phases": 3
       },
       "dc_charger": {
@@ -1776,16 +1526,6 @@
           "type2"
         ],
         "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        },
         "usable_phases": 3
       },
       "dc_charger": {
@@ -1835,16 +1575,6 @@
           "type2"
         ],
         "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        },
         "usable_phases": 3
       },
       "dc_charger": {
@@ -1894,16 +1624,6 @@
           "type2"
         ],
         "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        },
         "usable_phases": 3
       },
       "dc_charger": {
@@ -1953,16 +1673,6 @@
           "type2"
         ],
         "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        },
         "usable_phases": 3
       },
       "dc_charger": {
@@ -2012,16 +1722,6 @@
           "type2"
         ],
         "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        },
         "usable_phases": 3
       },
       "dc_charger": {
@@ -2082,16 +1782,6 @@
           "type2"
         ],
         "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        },
         "usable_phases": 3
       },
       "dc_charger": {
@@ -2141,16 +1831,6 @@
           "type2"
         ],
         "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        },
         "usable_phases": 3
       },
       "dc_charger": {
@@ -2211,16 +1891,6 @@
           "type2"
         ],
         "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        },
         "usable_phases": 3
       },
       "dc_charger": {
@@ -2281,16 +1951,6 @@
           "type2"
         ],
         "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        },
         "usable_phases": 3
       },
       "dc_charger": {
@@ -2351,16 +2011,6 @@
           "type2"
         ],
         "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        },
         "usable_phases": 3
       },
       "dc_charger": {
@@ -2410,16 +2060,6 @@
           "type2"
         ],
         "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        },
         "usable_phases": 3
       },
       "dc_charger": {
@@ -2480,16 +2120,6 @@
           "type2"
         ],
         "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        },
         "usable_phases": 3
       },
       "dc_charger": {
@@ -2539,16 +2169,6 @@
           "type2"
         ],
         "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        },
         "usable_phases": 3
       },
       "dc_charger": {
@@ -2609,16 +2229,6 @@
           "type2"
         ],
         "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        },
         "usable_phases": 3
       },
       "dc_charger": {
@@ -2679,16 +2289,6 @@
           "type2"
         ],
         "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        },
         "usable_phases": 3
       },
       "dc_charger": {
@@ -2749,16 +2349,6 @@
           "type2"
         ],
         "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        },
         "usable_phases": 3
       },
       "dc_charger": {
@@ -2819,16 +2409,6 @@
           "type2"
         ],
         "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        },
         "usable_phases": 3
       },
       "dc_charger": {
@@ -2878,16 +2458,6 @@
           "type2"
         ],
         "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        },
         "usable_phases": 3
       },
       "dc_charger": {
@@ -2951,18 +2521,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "2": 2,
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4,
-          "2.0": 2
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -3008,18 +2567,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "2": 2,
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4,
-          "2.0": 2
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -3065,18 +2613,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "2": 2,
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4,
-          "2.0": 2
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -3133,18 +2670,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "2": 2,
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4,
-          "2.0": 2
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -3201,18 +2727,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "2": 2,
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4,
-          "2.0": 2
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -3269,18 +2784,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "2": 2,
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4,
-          "2.0": 2
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -3337,18 +2841,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "2": 2,
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4,
-          "2.0": 2
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -3405,18 +2898,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "2": 2,
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4,
-          "2.0": 2
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -3473,18 +2955,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "2": 2,
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4,
-          "2.0": 2
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -3541,18 +3012,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "2": 2,
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4,
-          "2.0": 2
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -3609,18 +3069,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "2": 2,
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4,
-          "2.0": 2
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -3677,18 +3126,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "2": 2,
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4,
-          "2.0": 2
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -3745,18 +3183,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "2": 2,
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4,
-          "2.0": 2
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -3813,18 +3240,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "2": 2,
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4,
-          "2.0": 2
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -3881,18 +3297,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "2": 2,
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4,
-          "2.0": 2
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -3949,18 +3354,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "2": 2,
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4,
-          "2.0": 2
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -4000,6 +3394,394 @@
       "_manually_fixed_fields": [
         "charging_curve"
       ]
+    },
+    {
+      "brand": "Peugeot",
+      "model": "sw",
+      "variant": "",
+      "vehicle_type": "car",
+      "usable_battery_size": 50.8,
+      "energy_consumption": {
+        "average_consumption": 16.9
+      },
+      "charging_voltage": 400,
+      "release_year": 2023,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 50.8,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 50.8
+          },
+          {
+            "percentage": 50,
+            "power": 50.8
+          },
+          {
+            "percentage": 80,
+            "power": 30.48
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "f458fe7d-f545-45f3-8c23-2ab8140b8b5d",
+      "id": "00a17b72-7a7d-4132-8c13-14a59512bb7e",
+      "_model_hash": "wmvh2d"
+    },
+    {
+      "brand": "Peugeot",
+      "model": "51kwh",
+      "variant": "",
+      "vehicle_type": "car",
+      "usable_battery_size": 48.1,
+      "energy_consumption": {
+        "average_consumption": 15.8
+      },
+      "charging_voltage": 400,
+      "release_year": 2022,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 48.1,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 48.1
+          },
+          {
+            "percentage": 50,
+            "power": 48.1
+          },
+          {
+            "percentage": 80,
+            "power": 28.86
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "f458fe7d-f545-45f3-8c23-2ab8140b8b5d",
+      "id": "62fcf058-feb8-4dbf-8ca0-e7421fbf8267",
+      "_model_hash": "asz8la"
+    },
+    {
+      "brand": "Peugeot",
+      "model": "50kwh",
+      "variant": "",
+      "vehicle_type": "car",
+      "usable_battery_size": 46.3,
+      "energy_consumption": {
+        "average_consumption": 16
+      },
+      "charging_voltage": 400,
+      "release_year": 2023,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 7.4
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 46.3,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 46.3
+          },
+          {
+            "percentage": 50,
+            "power": 46.3
+          },
+          {
+            "percentage": 80,
+            "power": 27.78
+          },
+          {
+            "percentage": 100,
+            "power": 7.4
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "f458fe7d-f545-45f3-8c23-2ab8140b8b5d",
+      "id": "32169454-4adc-4fd4-b4e7-ccf35c84f023",
+      "_model_hash": "-dnj8x0"
+    },
+    {
+      "brand": "Peugeot",
+      "model": "54kwh",
+      "variant": "",
+      "vehicle_type": "car",
+      "usable_battery_size": 50.8,
+      "energy_consumption": {
+        "average_consumption": 16.9
+      },
+      "charging_voltage": 400,
+      "release_year": 2023,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 7.4
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 50.8,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 50.8
+          },
+          {
+            "percentage": 50,
+            "power": 50.8
+          },
+          {
+            "percentage": 80,
+            "power": 30.48
+          },
+          {
+            "percentage": 100,
+            "power": 7.4
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "f458fe7d-f545-45f3-8c23-2ab8140b8b5d",
+      "id": "613102c0-80cf-43df-9ce1-8c15b947b02e",
+      "_model_hash": "f1lhby"
+    },
+    {
+      "brand": "Peugeot",
+      "model": "51kwh",
+      "variant": "",
+      "vehicle_type": "car",
+      "usable_battery_size": 48.1,
+      "energy_consumption": {
+        "average_consumption": 15.5
+      },
+      "charging_voltage": 400,
+      "release_year": 2023,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 7.4
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 48.1,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 48.1
+          },
+          {
+            "percentage": 50,
+            "power": 48.1
+          },
+          {
+            "percentage": 80,
+            "power": 28.86
+          },
+          {
+            "percentage": 100,
+            "power": 7.4
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "f458fe7d-f545-45f3-8c23-2ab8140b8b5d",
+      "id": "6ea2a2f5-529d-4ce1-8473-d7f5e25e211a",
+      "_model_hash": "ba0uzh"
+    },
+    {
+      "brand": "Peugeot",
+      "model": "73kwh",
+      "variant": "",
+      "vehicle_type": "car",
+      "usable_battery_size": 73,
+      "energy_consumption": {
+        "average_consumption": 19.2
+      },
+      "charging_voltage": 400,
+      "release_year": 2023,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 73,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 73
+          },
+          {
+            "percentage": 30,
+            "power": 73
+          },
+          {
+            "percentage": 60,
+            "power": 51.1
+          },
+          {
+            "percentage": 80,
+            "power": 29.2
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "f458fe7d-f545-45f3-8c23-2ab8140b8b5d",
+      "id": "2c522087-c714-488c-9b6a-f92d63019d22",
+      "_model_hash": "ru5gdu"
+    },
+    {
+      "brand": "Peugeot",
+      "model": "73kwh dual motor",
+      "variant": "",
+      "vehicle_type": "car",
+      "usable_battery_size": 73,
+      "energy_consumption": {
+        "average_consumption": 19.5
+      },
+      "charging_voltage": 400,
+      "release_year": 2025,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 73,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 73
+          },
+          {
+            "percentage": 30,
+            "power": 73
+          },
+          {
+            "percentage": 60,
+            "power": 51.1
+          },
+          {
+            "percentage": 80,
+            "power": 29.2
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "f458fe7d-f545-45f3-8c23-2ab8140b8b5d",
+      "id": "bedd5cce-2e21-4509-9b4d-5bf824468eed",
+      "_model_hash": "2d6sy5"
+    },
+    {
+      "brand": "Peugeot",
+      "model": "97kwh long range",
+      "variant": "",
+      "vehicle_type": "car",
+      "usable_battery_size": 96.9,
+      "energy_consumption": {
+        "average_consumption": 19.4
+      },
+      "charging_voltage": 400,
+      "release_year": 2024,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 96.9,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 96.9
+          },
+          {
+            "percentage": 30,
+            "power": 96.9
+          },
+          {
+            "percentage": 60,
+            "power": 67.83
+          },
+          {
+            "percentage": 80,
+            "power": 38.76
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "f458fe7d-f545-45f3-8c23-2ab8140b8b5d",
+      "id": "66986860-d7f3-41f5-99dc-f6a88f2896b5",
+      "_model_hash": "t0ewq8"
     }
   ]
 }

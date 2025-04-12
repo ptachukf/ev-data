@@ -20,17 +20,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -73,17 +63,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -132,17 +112,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -191,17 +161,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -236,6 +196,210 @@
       },
       "vehicle_type": "car",
       "charging_voltage": 400
+    },
+    {
+      "brand": "Fisker",
+      "model": "sport",
+      "variant": "",
+      "vehicle_type": "car",
+      "usable_battery_size": 71,
+      "energy_consumption": {
+        "average_consumption": 20.3
+      },
+      "charging_voltage": 400,
+      "release_year": 2023,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 71,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 71
+          },
+          {
+            "percentage": 30,
+            "power": 71
+          },
+          {
+            "percentage": 60,
+            "power": 49.7
+          },
+          {
+            "percentage": 80,
+            "power": 28.4
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "a4f3e2d1-c0bf-4ae9-6d5e-4f3a2b1a09f8",
+      "id": "9daec225-510f-4aa6-a408-7d07eae2b91a",
+      "_model_hash": "-il3p7t"
+    },
+    {
+      "brand": "Fisker",
+      "model": "ultra",
+      "variant": "",
+      "vehicle_type": "car",
+      "usable_battery_size": 106.5,
+      "energy_consumption": {
+        "average_consumption": 20.9
+      },
+      "charging_voltage": 400,
+      "release_year": 2023,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 106.5,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 106.5
+          },
+          {
+            "percentage": 30,
+            "power": 106.5
+          },
+          {
+            "percentage": 60,
+            "power": 74.55
+          },
+          {
+            "percentage": 80,
+            "power": 42.6
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "a4f3e2d1-c0bf-4ae9-6d5e-4f3a2b1a09f8",
+      "id": "65b5e08f-a334-480f-8450-707b5e5a60c5",
+      "_model_hash": "-41whbb"
+    },
+    {
+      "brand": "Fisker",
+      "model": "extreme",
+      "variant": "",
+      "vehicle_type": "car",
+      "usable_battery_size": 106.5,
+      "energy_consumption": {
+        "average_consumption": 21.7
+      },
+      "charging_voltage": 400,
+      "release_year": 2023,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 106.5,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 106.5
+          },
+          {
+            "percentage": 30,
+            "power": 106.5
+          },
+          {
+            "percentage": 60,
+            "power": 74.55
+          },
+          {
+            "percentage": 80,
+            "power": 42.6
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "a4f3e2d1-c0bf-4ae9-6d5e-4f3a2b1a09f8",
+      "id": "f3adc497-465f-468b-934a-18d9e3dcbdd2",
+      "_model_hash": "-apqpwn"
+    },
+    {
+      "brand": "Fisker",
+      "model": "one",
+      "variant": "",
+      "vehicle_type": "car",
+      "usable_battery_size": 106.5,
+      "energy_consumption": {
+        "average_consumption": 20.1
+      },
+      "charging_voltage": 400,
+      "release_year": 2023,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 106.5,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 106.5
+          },
+          {
+            "percentage": 30,
+            "power": 106.5
+          },
+          {
+            "percentage": 60,
+            "power": 74.55
+          },
+          {
+            "percentage": 80,
+            "power": 42.6
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "a4f3e2d1-c0bf-4ae9-6d5e-4f3a2b1a09f8",
+      "id": "3a69c89e-0309-48ad-aadc-1d5b68505760",
+      "_model_hash": "-bj8jxp"
     }
   ]
 }

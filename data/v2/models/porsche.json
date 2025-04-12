@@ -16,31 +16,33 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
           "ccs"
         ],
-        "max_power": 223,
+        "max_power": 71,
         "charging_curve": [
           {
             "percentage": 0,
-            "power": 211.9
+            "power": 71
           },
           {
-            "percentage": 75,
-            "power": 223
+            "percentage": 20,
+            "power": 71
+          },
+          {
+            "percentage": 40,
+            "power": 57
+          },
+          {
+            "percentage": 60,
+            "power": 43
+          },
+          {
+            "percentage": 80,
+            "power": 28
           },
           {
             "percentage": 100,
@@ -50,9 +52,18 @@
         "is_default_charging_curve": true
       },
       "energy_consumption": {
-        "average_consumption": 16.9
+        "average_consumption": 20.4
       },
-      "charging_voltage": 800
+      "charging_voltage": 800,
+      "url": "https://ev-database.org/car/1923/Porsche-Taycan",
+      "status": "pending",
+      "error": "empty model name",
+      "updated_at": "2025-04-11T13:48:03.055Z",
+      "isFixingEmptyName": true,
+      "_manually_fixed_fields": [
+        "energy_consumption",
+        "charging_curve"
+      ]
     },
     {
       "id": "d1dbbadd-45aa-3eb6-ee8d-dbfb1af7c946",
@@ -68,17 +79,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -120,17 +121,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -172,17 +163,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -224,17 +205,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -276,17 +247,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -328,17 +289,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -380,17 +331,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -432,17 +373,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -484,17 +415,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -536,17 +457,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -588,17 +499,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -640,17 +541,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -696,17 +587,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -754,17 +635,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -812,17 +683,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -865,16 +726,6 @@
           "type2"
         ],
         "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        },
         "usable_phases": 3
       },
       "dc_charger": {
@@ -927,18 +778,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "2": 2,
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4,
-          "2.0": 2
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -995,18 +835,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "2": 2,
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4,
-          "2.0": 2
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -1063,18 +892,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "2": 2,
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4,
-          "2.0": 2
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -1131,18 +949,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "2": 2,
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4,
-          "2.0": 2
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -1199,18 +1006,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "2": 2,
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4,
-          "2.0": 2
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -1267,18 +1063,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "2": 2,
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4,
-          "2.0": 2
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -1335,18 +1120,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "2": 2,
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4,
-          "2.0": 2
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -1403,18 +1177,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "2": 2,
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4,
-          "2.0": 2
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -1471,18 +1234,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "2": 2,
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4,
-          "2.0": 2
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -1539,18 +1291,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "2": 2,
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4,
-          "2.0": 2
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -1607,18 +1348,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "2": 2,
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4,
-          "2.0": 2
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -1675,18 +1405,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "2": 2,
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4,
-          "2.0": 2
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -1743,18 +1462,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "2": 2,
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4,
-          "2.0": 2
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -1811,18 +1519,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "2": 2,
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4,
-          "2.0": 2
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -1879,18 +1576,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "2": 2,
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4,
-          "2.0": 2
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -1947,18 +1633,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "2": 2,
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4,
-          "2.0": 2
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -2015,18 +1690,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "2": 2,
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4,
-          "2.0": 2
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -2066,6 +1730,924 @@
       "_manually_fixed_fields": [
         "charging_curve"
       ]
+    },
+    {
+      "brand": "Porsche",
+      "model": "plus",
+      "variant": "",
+      "vehicle_type": "car",
+      "usable_battery_size": 83.7,
+      "energy_consumption": {
+        "average_consumption": 17.3
+      },
+      "charging_voltage": 800,
+      "release_year": 2023,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 83.7,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 83.7
+          },
+          {
+            "percentage": 40,
+            "power": 83.7
+          },
+          {
+            "percentage": 70,
+            "power": 66.96
+          },
+          {
+            "percentage": 90,
+            "power": 33.48
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "68e11a25-d316-4d22-9444-45c7306c8ab7",
+      "id": "4126c56c-2e0a-4a4c-832e-0da84837ce63",
+      "_model_hash": "l5fp1n"
+    },
+    {
+      "brand": "Porsche",
+      "model": "4s",
+      "variant": "",
+      "vehicle_type": "car",
+      "usable_battery_size": 71,
+      "energy_consumption": {
+        "average_consumption": 17.1
+      },
+      "charging_voltage": 800,
+      "release_year": 2023,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 71,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 71
+          },
+          {
+            "percentage": 40,
+            "power": 71
+          },
+          {
+            "percentage": 70,
+            "power": 56.8
+          },
+          {
+            "percentage": 90,
+            "power": 28.4
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "68e11a25-d316-4d22-9444-45c7306c8ab7",
+      "id": "b651a7d9-8b25-4f28-a003-f5c60ddc7a4d",
+      "_model_hash": "-9i3rz8"
+    },
+    {
+      "brand": "Porsche",
+      "model": "4s plus",
+      "variant": "",
+      "vehicle_type": "car",
+      "usable_battery_size": 83.7,
+      "energy_consumption": {
+        "average_consumption": 17.4
+      },
+      "charging_voltage": 800,
+      "release_year": 2023,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 83.7,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 83.7
+          },
+          {
+            "percentage": 40,
+            "power": 83.7
+          },
+          {
+            "percentage": 70,
+            "power": 66.96
+          },
+          {
+            "percentage": 90,
+            "power": 33.48
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "68e11a25-d316-4d22-9444-45c7306c8ab7",
+      "id": "ee36d24a-871d-4510-abda-19e6ca17db89",
+      "_model_hash": "-sremhq"
+    },
+    {
+      "brand": "Porsche",
+      "model": "turbo",
+      "variant": "",
+      "vehicle_type": "car",
+      "usable_battery_size": 83.7,
+      "energy_consumption": {
+        "average_consumption": 18.8
+      },
+      "charging_voltage": 800,
+      "release_year": 2023,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 83.7,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 83.7
+          },
+          {
+            "percentage": 40,
+            "power": 83.7
+          },
+          {
+            "percentage": 70,
+            "power": 66.96
+          },
+          {
+            "percentage": 90,
+            "power": 33.48
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "68e11a25-d316-4d22-9444-45c7306c8ab7",
+      "id": "ccb8cb04-f507-459d-96b5-cd8d86bb4424",
+      "_model_hash": "mruf3z"
+    },
+    {
+      "brand": "Porsche",
+      "model": "turbo s",
+      "variant": "",
+      "vehicle_type": "car",
+      "usable_battery_size": 83.7,
+      "energy_consumption": {
+        "average_consumption": 19.5
+      },
+      "charging_voltage": 800,
+      "release_year": 2023,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 83.7,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 83.7
+          },
+          {
+            "percentage": 40,
+            "power": 83.7
+          },
+          {
+            "percentage": 70,
+            "power": 66.96
+          },
+          {
+            "percentage": 90,
+            "power": 33.48
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "68e11a25-d316-4d22-9444-45c7306c8ab7",
+      "id": "0bb916c9-284b-4434-af87-326a9ac0fd2d",
+      "_model_hash": "bd4ggc"
+    },
+    {
+      "brand": "Porsche",
+      "model": "4 cross turismo",
+      "variant": "",
+      "vehicle_type": "car",
+      "usable_battery_size": 83.7,
+      "energy_consumption": {
+        "average_consumption": 19
+      },
+      "charging_voltage": 800,
+      "release_year": 2023,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 83.7,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 83.7
+          },
+          {
+            "percentage": 40,
+            "power": 83.7
+          },
+          {
+            "percentage": 70,
+            "power": 66.96
+          },
+          {
+            "percentage": 90,
+            "power": 33.48
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "68e11a25-d316-4d22-9444-45c7306c8ab7",
+      "id": "4d0e7c7c-4e21-4193-ba80-99ae7aa3eadb",
+      "_model_hash": "-bd21uc"
+    },
+    {
+      "brand": "Porsche",
+      "model": "4s cross turismo",
+      "variant": "",
+      "vehicle_type": "car",
+      "usable_battery_size": 83.7,
+      "energy_consumption": {
+        "average_consumption": 19
+      },
+      "charging_voltage": 800,
+      "release_year": 2023,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 83.7,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 83.7
+          },
+          {
+            "percentage": 40,
+            "power": 83.7
+          },
+          {
+            "percentage": 70,
+            "power": 66.96
+          },
+          {
+            "percentage": 90,
+            "power": 33.48
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "68e11a25-d316-4d22-9444-45c7306c8ab7",
+      "id": "d074954b-26e4-4fb1-aa85-3a0a4d6f8b11",
+      "_model_hash": "-tru3xz"
+    },
+    {
+      "brand": "Porsche",
+      "model": "turbo cross turismo",
+      "variant": "",
+      "vehicle_type": "car",
+      "usable_battery_size": 83.7,
+      "energy_consumption": {
+        "average_consumption": 19.7
+      },
+      "charging_voltage": 800,
+      "release_year": 2023,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 83.7,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 83.7
+          },
+          {
+            "percentage": 40,
+            "power": 83.7
+          },
+          {
+            "percentage": 70,
+            "power": 66.96
+          },
+          {
+            "percentage": 90,
+            "power": 33.48
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "68e11a25-d316-4d22-9444-45c7306c8ab7",
+      "id": "cf68058c-d7d1-4574-a3ef-5d810c998208",
+      "_model_hash": "-pzkoe6"
+    },
+    {
+      "brand": "Porsche",
+      "model": "turbo s cross turismo",
+      "variant": "",
+      "vehicle_type": "car",
+      "usable_battery_size": 83.7,
+      "energy_consumption": {
+        "average_consumption": 20.4
+      },
+      "charging_voltage": 800,
+      "release_year": 2023,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 83.7,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 83.7
+          },
+          {
+            "percentage": 40,
+            "power": 83.7
+          },
+          {
+            "percentage": 70,
+            "power": 66.96
+          },
+          {
+            "percentage": 90,
+            "power": 33.48
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "68e11a25-d316-4d22-9444-45c7306c8ab7",
+      "id": "e665851e-9e5b-482b-bb60-51f4c9a9bbfb",
+      "_model_hash": "6dy7m7"
+    },
+    {
+      "brand": "Porsche",
+      "model": "electric",
+      "variant": "",
+      "vehicle_type": "car",
+      "usable_battery_size": 95,
+      "energy_consumption": {
+        "average_consumption": 18.6
+      },
+      "charging_voltage": 800,
+      "release_year": 2024,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 95,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 95
+          },
+          {
+            "percentage": 40,
+            "power": 95
+          },
+          {
+            "percentage": 70,
+            "power": 76
+          },
+          {
+            "percentage": 90,
+            "power": 38
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "68e11a25-d316-4d22-9444-45c7306c8ab7",
+      "id": "f66c3fd5-d6ef-4023-b376-c8deebd97268",
+      "_model_hash": "-7p4dd"
+    },
+    {
+      "brand": "Porsche",
+      "model": "4 electric",
+      "variant": "",
+      "vehicle_type": "car",
+      "usable_battery_size": 95,
+      "energy_consumption": {
+        "average_consumption": 19.6
+      },
+      "charging_voltage": 800,
+      "release_year": 2024,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 95,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 95
+          },
+          {
+            "percentage": 40,
+            "power": 95
+          },
+          {
+            "percentage": 70,
+            "power": 76
+          },
+          {
+            "percentage": 90,
+            "power": 38
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "68e11a25-d316-4d22-9444-45c7306c8ab7",
+      "id": "91acbc98-856c-4f57-a7e3-291885df2094",
+      "_model_hash": "ip18z7"
+    },
+    {
+      "brand": "Porsche",
+      "model": "turbo electric",
+      "variant": "",
+      "vehicle_type": "car",
+      "usable_battery_size": 95,
+      "energy_consumption": {
+        "average_consumption": 20.2
+      },
+      "charging_voltage": 800,
+      "release_year": 2024,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 95,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 95
+          },
+          {
+            "percentage": 40,
+            "power": 95
+          },
+          {
+            "percentage": 70,
+            "power": 76
+          },
+          {
+            "percentage": 90,
+            "power": 38
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "68e11a25-d316-4d22-9444-45c7306c8ab7",
+      "id": "443e359b-d942-40fd-b202-1cf363acfed9",
+      "_model_hash": "khgdnh"
+    },
+    {
+      "brand": "Porsche",
+      "model": "Taycan",
+      "variant": "",
+      "vehicle_type": "car",
+      "usable_battery_size": 82.3,
+      "energy_consumption": {
+        "average_consumption": 16.6
+      },
+      "charging_voltage": 800,
+      "release_year": 2024,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 82.3,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 82.3
+          },
+          {
+            "percentage": 40,
+            "power": 82.3
+          },
+          {
+            "percentage": 70,
+            "power": 65.84
+          },
+          {
+            "percentage": 90,
+            "power": 32.92
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "68e11a25-d316-4d22-9444-45c7306c8ab7",
+      "id": "0905f36e-df59-47b5-ae1b-047678b453d1",
+      "_model_hash": "s895h7"
+    },
+    {
+      "brand": "Porsche",
+      "model": "plus",
+      "variant": "",
+      "vehicle_type": "car",
+      "usable_battery_size": 97,
+      "energy_consumption": {
+        "average_consumption": 16.9
+      },
+      "charging_voltage": 800,
+      "release_year": 2024,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 97,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 97
+          },
+          {
+            "percentage": 40,
+            "power": 97
+          },
+          {
+            "percentage": 70,
+            "power": 77.6
+          },
+          {
+            "percentage": 90,
+            "power": 38.8
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "68e11a25-d316-4d22-9444-45c7306c8ab7",
+      "id": "0886fc31-94d8-4a78-9655-f74db91ced7c",
+      "_model_hash": "8w472c"
+    },
+    {
+      "brand": "Porsche",
+      "model": "Taycan 4S",
+      "variant": "",
+      "vehicle_type": "car",
+      "usable_battery_size": 82.3,
+      "energy_consumption": {
+        "average_consumption": 16.8
+      },
+      "charging_voltage": 800,
+      "release_year": 2024,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 82.3,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 82.3
+          },
+          {
+            "percentage": 40,
+            "power": 82.3
+          },
+          {
+            "percentage": 70,
+            "power": 65.84
+          },
+          {
+            "percentage": 90,
+            "power": 32.92
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "68e11a25-d316-4d22-9444-45c7306c8ab7",
+      "id": "d53f838d-a398-44ce-8b71-d92ee2a1edee",
+      "_model_hash": "-2ivoh0"
+    },
+    {
+      "brand": "Porsche",
+      "model": "4s plus",
+      "variant": "",
+      "vehicle_type": "car",
+      "usable_battery_size": 97,
+      "energy_consumption": {
+        "average_consumption": 17.2
+      },
+      "charging_voltage": 800,
+      "release_year": 2024,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 97,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 97
+          },
+          {
+            "percentage": 40,
+            "power": 97
+          },
+          {
+            "percentage": 70,
+            "power": 77.6
+          },
+          {
+            "percentage": 90,
+            "power": 38.8
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "68e11a25-d316-4d22-9444-45c7306c8ab7",
+      "id": "e47fdfaa-1f5d-4ea9-a30f-6df68e6bae8a",
+      "_model_hash": "-bs52ed"
+    },
+    {
+      "brand": "Porsche",
+      "model": "turbo",
+      "variant": "",
+      "vehicle_type": "car",
+      "usable_battery_size": 97,
+      "energy_consumption": {
+        "average_consumption": 18.1
+      },
+      "charging_voltage": 800,
+      "release_year": 2024,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 97,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 97
+          },
+          {
+            "percentage": 40,
+            "power": 97
+          },
+          {
+            "percentage": 70,
+            "power": 77.6
+          },
+          {
+            "percentage": 90,
+            "power": 38.8
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "68e11a25-d316-4d22-9444-45c7306c8ab7",
+      "id": "22566d2a-2f2c-45ef-b50c-b56bbf46ba82",
+      "_model_hash": "-bfkedk"
+    },
+    {
+      "brand": "Porsche",
+      "model": "turbo s",
+      "variant": "",
+      "vehicle_type": "car",
+      "usable_battery_size": 97,
+      "energy_consumption": {
+        "average_consumption": 18.5
+      },
+      "charging_voltage": 800,
+      "release_year": 2024,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 97,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 97
+          },
+          {
+            "percentage": 40,
+            "power": 97
+          },
+          {
+            "percentage": 70,
+            "power": 77.6
+          },
+          {
+            "percentage": 90,
+            "power": 38.8
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "68e11a25-d316-4d22-9444-45c7306c8ab7",
+      "id": "609e339a-52f9-4118-968c-c08b1efc0ee6",
+      "_model_hash": "-8495bv"
     }
   ]
 }

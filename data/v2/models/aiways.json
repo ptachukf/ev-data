@@ -7,64 +7,58 @@
       "brand": "Aiways",
       "vehicle_type": "car",
       "brand_id": "a43d2607-eead-46c2-9fd5-2ebd3c49d895",
-      "model": "U5",
-      "release_year": 2020,
+      "model": "U5.",
+      "release_year": 2022,
       "variant": "",
-      "usable_battery_size": 63,
+      "usable_battery_size": 60,
       "ac_charger": {
-        "usable_phases": 1,
+        "usable_phases": 3,
         "ports": [
           "type2"
         ],
-        "max_power": 6.6,
-        "power_per_charging_point": {
-          "11": 3.7,
-          "16": 5.4,
-          "22": 6.6,
-          "43": 6.6,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 6.6
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
           "ccs"
         ],
-        "max_power": 95,
+        "max_power": 60,
         "charging_curve": [
           {
             "percentage": 0,
-            "power": 95
+            "power": 60
           },
           {
-            "percentage": 18,
-            "power": 90
-          },
-          {
-            "percentage": 40,
-            "power": 90
+            "percentage": 50,
+            "power": 60
           },
           {
             "percentage": 80,
-            "power": 50
+            "power": 36
           },
           {
             "percentage": 100,
-            "power": 6.6
+            "power": 11
           }
         ],
         "is_default_charging_curve": false
       },
       "energy_consumption": {
-        "average_consumption": 18.8
+        "average_consumption": 19
       },
-      "charging_voltage": 400
+      "charging_voltage": 400,
+      "url": "https://ev-database.org/car/1678/Aiways-U5",
+      "status": "pending",
+      "error": "empty model name",
+      "updated_at": "2025-04-11T13:42:18.814Z",
+      "isFixingEmptyName": true,
+      "_manually_fixed_fields": [
+        "energy_consumption"
+      ]
     },
     {
       "brand": "Aiways",
-      "model": "U6",
+      "model": "U6.",
       "variant": "",
       "release_year": 2022,
       "battery_size": 60,
@@ -75,50 +69,32 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
           "ccs"
         ],
-        "max_power": 92,
+        "max_power": 60,
         "charging_curve": [
           {
             "percentage": 0,
-            "power": 92
+            "power": 60
           },
           {
-            "percentage": 20,
-            "power": 92
-          },
-          {
-            "percentage": 40,
-            "power": 74
-          },
-          {
-            "percentage": 60,
-            "power": 55
+            "percentage": 50,
+            "power": 60
           },
           {
             "percentage": 80,
-            "power": 37
+            "power": 36
           },
           {
             "percentage": 100,
             "power": 11
           }
         ],
-        "is_default_charging_curve": true
+        "is_default_charging_curve": false
       },
       "id": "6b7e4753-42d2-4bf3-93fe-28e8f10e6fd8",
       "brand_id": "a43d2607-eead-46c2-9fd5-2ebd3c49d895",
@@ -129,8 +105,14 @@
       "vehicle_type": "car",
       "charging_voltage": 400,
       "_manually_fixed_fields": [
-        "charging_curve"
-      ]
+        "charging_curve",
+        "energy_consumption"
+      ],
+      "url": "https://ev-database.org/car/1766/Aiways-U6",
+      "status": "pending",
+      "error": "empty model name",
+      "updated_at": "2025-04-11T13:44:07.319Z",
+      "isFixingEmptyName": true
     }
   ]
 }

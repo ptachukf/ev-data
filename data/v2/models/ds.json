@@ -18,18 +18,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 3,
-        "power_per_charging_point": {
-          "2": 2,
-          "11": 3,
-          "16": 3,
-          "22": 3,
-          "43": 3,
-          "2.3": 2.3,
-          "3.7": 3,
-          "7.4": 3,
-          "2.0": 2
-        }
+        "max_power": 3
       },
       "dc_charger": {
         "ports": [
@@ -85,17 +74,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -169,17 +148,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 7.4,
-        "power_per_charging_point": {
-          "11": 3.7,
-          "16": 5.4,
-          "22": 7.4,
-          "43": 7.4,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
+        "max_power": 7.4
       },
       "dc_charger": {
         "ports": [
@@ -225,17 +194,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -283,17 +242,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -336,17 +285,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 85,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 16,
-          "22": 22,
-          "43": 43,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
+        "max_power": 85
       },
       "dc_charger": {
         "ports": [
@@ -397,17 +336,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 78,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 16,
-          "22": 22,
-          "43": 43,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
+        "max_power": 78
       },
       "dc_charger": {
         "ports": [
@@ -469,17 +398,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -531,18 +450,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 3,
-        "power_per_charging_point": {
-          "2": 2,
-          "11": 3,
-          "16": 3,
-          "22": 3,
-          "43": 3,
-          "2.3": 2.3,
-          "3.7": 3,
-          "7.4": 3,
-          "2.0": 2
-        }
+        "max_power": 3
       },
       "dc_charger": {
         "ports": [
@@ -582,6 +490,53 @@
       "_manually_fixed_fields": [
         "charging_curve"
       ]
+    },
+    {
+      "brand": "DS",
+      "model": "e-tense",
+      "variant": "",
+      "vehicle_type": "car",
+      "usable_battery_size": 50.8,
+      "energy_consumption": {
+        "average_consumption": 16.9
+      },
+      "charging_voltage": 400,
+      "release_year": 2022,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 50.8,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 50.8
+          },
+          {
+            "percentage": 50,
+            "power": 50.8
+          },
+          {
+            "percentage": 80,
+            "power": 30.48
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "37bfdacf-1aca-4eb7-8daa-8dc5b14c59e9",
+      "id": "5140fed6-190c-4bd0-89d6-c64136a2e395",
+      "_model_hash": "iw7nwp"
     }
   ]
 }

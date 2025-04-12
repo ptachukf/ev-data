@@ -16,17 +16,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -72,17 +62,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -125,17 +105,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -170,6 +140,100 @@
       },
       "vehicle_type": "car",
       "charging_voltage": 400
+    },
+    {
+      "brand": "Jeep",
+      "model": "electric 1st edition",
+      "variant": "",
+      "vehicle_type": "car",
+      "usable_battery_size": 50.8,
+      "energy_consumption": {
+        "average_consumption": 16.4
+      },
+      "charging_voltage": 400,
+      "release_year": 2023,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 50.8,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 50.8
+          },
+          {
+            "percentage": 50,
+            "power": 50.8
+          },
+          {
+            "percentage": 80,
+            "power": 30.48
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "3f1649fc-a64c-fd11-53a6-56031d7757aa",
+      "id": "fda909f5-15b0-4dd6-83a9-477cea02996e",
+      "_model_hash": "ny2k73"
+    },
+    {
+      "brand": "Jeep",
+      "model": "electric",
+      "variant": "",
+      "vehicle_type": "car",
+      "usable_battery_size": 50.8,
+      "energy_consumption": {
+        "average_consumption": 16.4
+      },
+      "charging_voltage": 400,
+      "release_year": 2023,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 50.8,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 50.8
+          },
+          {
+            "percentage": 50,
+            "power": 50.8
+          },
+          {
+            "percentage": 80,
+            "power": 30.48
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "3f1649fc-a64c-fd11-53a6-56031d7757aa",
+      "id": "52dd947f-4253-4cda-802b-9328ba36ae66",
+      "_model_hash": "-kvjbht"
     }
   ]
 }

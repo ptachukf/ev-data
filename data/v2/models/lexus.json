@@ -16,17 +16,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -72,17 +62,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -141,17 +121,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -197,18 +167,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "2": 2,
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4,
-          "2.0": 2
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -237,6 +196,108 @@
       },
       "brand_id": "9bb828a8-dc16-5090-42f3-2d26b2245f1f",
       "id": "c75ccd49-e38c-4211-af0d-c6b590b543a4"
+    },
+    {
+      "brand": "Lexus",
+      "model": "450e",
+      "variant": "",
+      "vehicle_type": "car",
+      "usable_battery_size": 64,
+      "energy_consumption": {
+        "average_consumption": 18.3
+      },
+      "charging_voltage": 400,
+      "release_year": 2023,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 6.6
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 64,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 64
+          },
+          {
+            "percentage": 30,
+            "power": 64
+          },
+          {
+            "percentage": 60,
+            "power": 44.8
+          },
+          {
+            "percentage": 80,
+            "power": 25.6
+          },
+          {
+            "percentage": 100,
+            "power": 6.6
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "9bb828a8-dc16-5090-42f3-2d26b2245f1f",
+      "id": "b3c5efc5-3380-4547-9280-1c69a8c16147",
+      "_model_hash": "tkxn0m"
+    },
+    {
+      "brand": "Lexus",
+      "model": "300e",
+      "variant": "",
+      "vehicle_type": "car",
+      "usable_battery_size": 64,
+      "energy_consumption": {
+        "average_consumption": 18.8
+      },
+      "charging_voltage": 400,
+      "release_year": 2023,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 6.6
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 64,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 64
+          },
+          {
+            "percentage": 30,
+            "power": 64
+          },
+          {
+            "percentage": 60,
+            "power": 44.8
+          },
+          {
+            "percentage": 80,
+            "power": 25.6
+          },
+          {
+            "percentage": 100,
+            "power": 6.6
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "9bb828a8-dc16-5090-42f3-2d26b2245f1f",
+      "id": "c745725a-c3f0-4f60-8e7c-227fd14a6a54",
+      "_model_hash": "nrctwq"
     }
   ]
 }

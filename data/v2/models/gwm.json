@@ -19,17 +19,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -71,17 +61,7 @@
           "type2"
         ],
         "usable_phases": 3,
-        "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -123,17 +103,7 @@
           "type2"
         ],
         "usable_phases": 3,
-        "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -175,17 +145,7 @@
           "type2"
         ],
         "usable_phases": 3,
-        "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -227,17 +187,7 @@
           "type2"
         ],
         "usable_phases": 3,
-        "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -279,17 +229,7 @@
           "type2"
         ],
         "usable_phases": 3,
-        "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -313,6 +253,147 @@
         "is_default_charging_curve": true
       },
       "charging_voltage": 400
+    },
+    {
+      "brand": "GWM",
+      "model": "ORA 03 48 kWh",
+      "variant": "48kwh",
+      "vehicle_type": "car",
+      "usable_battery_size": 45.4,
+      "energy_consumption": {
+        "average_consumption": 17.5
+      },
+      "charging_voltage": 400,
+      "release_year": 2024,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 45.4,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 45.4
+          },
+          {
+            "percentage": 50,
+            "power": 45.4
+          },
+          {
+            "percentage": 80,
+            "power": 27.24
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "80cb3fd7-d557-4d2f-b606-e6c0c84ab5c8",
+      "id": "af69107b-d7e0-4586-8636-0d2b0db02294",
+      "_model_hash": "vp1mdb"
+    },
+    {
+      "brand": "GWM",
+      "model": "ORA 03 63 kWh",
+      "variant": "63kwh",
+      "vehicle_type": "car",
+      "usable_battery_size": 59.3,
+      "energy_consumption": {
+        "average_consumption": 17.4
+      },
+      "charging_voltage": 400,
+      "release_year": 2024,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 59.3,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 59.3
+          },
+          {
+            "percentage": 50,
+            "power": 59.3
+          },
+          {
+            "percentage": 80,
+            "power": 35.58
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "80cb3fd7-d557-4d2f-b606-e6c0c84ab5c8",
+      "id": "1201ace4-e67b-453c-a8a8-3958e9ebbe6b",
+      "_model_hash": "-wjxcsf"
+    },
+    {
+      "brand": "GWM",
+      "model": "ORA 03 GT",
+      "variant": "gt",
+      "vehicle_type": "car",
+      "usable_battery_size": 59.3,
+      "energy_consumption": {
+        "average_consumption": 18.2
+      },
+      "charging_voltage": 400,
+      "release_year": 2024,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 59.3,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 59.3
+          },
+          {
+            "percentage": 50,
+            "power": 59.3
+          },
+          {
+            "percentage": 80,
+            "power": 35.58
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "80cb3fd7-d557-4d2f-b606-e6c0c84ab5c8",
+      "id": "d6d82c76-1617-46e7-b73a-3f3f7e1034b9",
+      "_model_hash": "-2zgrlj"
     }
   ]
 }

@@ -16,17 +16,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 22,
-        "power_per_charging_point": {
-          "11": 11.1,
-          "16": 16.2,
-          "22": 22,
-          "43": 22,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
+        "max_power": 22
       },
       "dc_charger": {
         "ports": [
@@ -68,17 +58,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 22,
-        "power_per_charging_point": {
-          "11": 11.1,
-          "16": 16.2,
-          "22": 22,
-          "43": 22,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
+        "max_power": 22
       },
       "dc_charger": {
         "ports": [
@@ -119,16 +99,6 @@
           "type2"
         ],
         "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        },
         "usable_phases": 3
       },
       "dc_charger": {
@@ -164,6 +134,57 @@
       "energy_consumption": {
         "average_consumption": 22.7
       }
+    },
+    {
+      "brand": "Maserati",
+      "model": "folgore",
+      "variant": "",
+      "vehicle_type": "car",
+      "usable_battery_size": 83,
+      "energy_consumption": {
+        "average_consumption": 19.8
+      },
+      "charging_voltage": 800,
+      "release_year": 2024,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 22
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 83,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 83
+          },
+          {
+            "percentage": 40,
+            "power": 83
+          },
+          {
+            "percentage": 70,
+            "power": 66.4
+          },
+          {
+            "percentage": 90,
+            "power": 33.2
+          },
+          {
+            "percentage": 100,
+            "power": 22
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "60f3085b-d0c0-cffd-e904-ffe9f6ea7c2a",
+      "id": "48a80c9f-35c4-463e-994f-1c6722e46394",
+      "_model_hash": "-cz26s5"
     }
   ]
 }

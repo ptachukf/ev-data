@@ -34,17 +34,6 @@ def vehicle_key(vehicle)
   ]
 end
 
-# Helper function to fix power points that exceed max power
-def fix_power_points(vehicle)
-  if vehicle['ac_charger'] && vehicle['ac_charger']['power_per_charging_point']
-    max_power = vehicle['ac_charger']['max_power']
-    vehicle['ac_charger']['power_per_charging_point'].transform_values! do |power|
-      [power.to_f, max_power.to_f].min
-    end
-  end
-  vehicle
-end
-
 # Process all brands to get total count
 processed_vehicles = {}
 brands.each do |brand|
@@ -59,8 +48,8 @@ brands.each do |brand|
        (vehicle['dc_charger'] && !unique_vehicles[key]['dc_charger']) ||
        (vehicle['ac_charger'] && !unique_vehicles[key]['ac_charger']) ||
        (vehicle['energy_consumption'] && !unique_vehicles[key]['energy_consumption'])
-      # Fix power points before storing
-      unique_vehicles[key] = fix_power_points(vehicle.dup)
+      # Simply store the vehicle without modifying power points
+      unique_vehicles[key] = vehicle.dup
     end
   end
   

@@ -19,17 +19,7 @@
           "type2"
         ],
         "usable_phases": 3,
-        "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -75,17 +65,7 @@
           "type2"
         ],
         "usable_phases": 3,
-        "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -131,17 +111,7 @@
           "type2"
         ],
         "usable_phases": 3,
-        "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -201,17 +171,7 @@
       "ac_charger": {
         "ports": [],
         "usable_phases": 3,
-        "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -257,17 +217,7 @@
           "type2"
         ],
         "usable_phases": 3,
-        "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -313,17 +263,7 @@
           "type2"
         ],
         "usable_phases": 3,
-        "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -382,17 +322,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -437,17 +367,7 @@
           "type2"
         ],
         "usable_phases": 3,
-        "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -493,17 +413,7 @@
           "type2"
         ],
         "usable_phases": 3,
-        "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -553,16 +463,6 @@
           "type2"
         ],
         "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        },
         "usable_phases": 3
       },
       "dc_charger": {
@@ -615,18 +515,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 28.9,
-        "power_per_charging_point": {
-          "2": 2,
-          "11": 11,
-          "16": 16,
-          "22": 22,
-          "43": 28.9,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4,
-          "2.0": 2
-        }
+        "max_power": 28.9
       },
       "dc_charger": {
         "ports": [
@@ -683,18 +572,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 28.9,
-        "power_per_charging_point": {
-          "2": 2,
-          "11": 11,
-          "16": 16,
-          "22": 22,
-          "43": 28.9,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4,
-          "2.0": 2
-        }
+        "max_power": 28.9
       },
       "dc_charger": {
         "ports": [
@@ -734,6 +612,249 @@
       "_manually_fixed_fields": [
         "charging_curve"
       ]
+    },
+    {
+      "brand": "Mini",
+      "model": "se convertible",
+      "variant": "",
+      "vehicle_type": "car",
+      "usable_battery_size": 28.9,
+      "energy_consumption": {
+        "average_consumption": 17.5
+      },
+      "charging_voltage": 400,
+      "release_year": 2023,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 28.9,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 28.9
+          },
+          {
+            "percentage": 70,
+            "power": 28.9
+          },
+          {
+            "percentage": 80,
+            "power": 20.23
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "6d9d9248-de4a-4b13-976b-4e9f6688b0b1",
+      "id": "2bbee053-47b9-469f-9105-e0032cbdc2ea",
+      "_model_hash": "bo6x02"
+    },
+    {
+      "brand": "Mini",
+      "model": "Countryman E",
+      "variant": "",
+      "vehicle_type": "car",
+      "usable_battery_size": 64.6,
+      "energy_consumption": {
+        "average_consumption": 17
+      },
+      "charging_voltage": 400,
+      "release_year": 2024,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 64.6,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 64.6
+          },
+          {
+            "percentage": 30,
+            "power": 64.6
+          },
+          {
+            "percentage": 60,
+            "power": 45.22
+          },
+          {
+            "percentage": 80,
+            "power": 25.84
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "6d9d9248-de4a-4b13-976b-4e9f6688b0b1",
+      "id": "ba47b777-a9b7-4fc5-8e0f-5ea84a47121b",
+      "_model_hash": "-xrlsh8"
+    },
+    {
+      "brand": "Mini",
+      "model": "se all4",
+      "variant": "",
+      "vehicle_type": "car",
+      "usable_battery_size": 64.6,
+      "energy_consumption": {
+        "average_consumption": 17.7
+      },
+      "charging_voltage": 400,
+      "release_year": 2024,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 64.6,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 64.6
+          },
+          {
+            "percentage": 30,
+            "power": 64.6
+          },
+          {
+            "percentage": 60,
+            "power": 45.22
+          },
+          {
+            "percentage": 80,
+            "power": 25.84
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "6d9d9248-de4a-4b13-976b-4e9f6688b0b1",
+      "id": "9e09fe3e-f22f-4e01-bfac-682911c25d28",
+      "_model_hash": "-2trr96"
+    },
+    {
+      "brand": "Mini",
+      "model": "Cooper E",
+      "variant": "",
+      "vehicle_type": "car",
+      "usable_battery_size": 36.6,
+      "energy_consumption": {
+        "average_consumption": 14.6
+      },
+      "charging_voltage": 400,
+      "release_year": 2023,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 36.6,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 36.6
+          },
+          {
+            "percentage": 50,
+            "power": 36.6
+          },
+          {
+            "percentage": 80,
+            "power": 21.96
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "6d9d9248-de4a-4b13-976b-4e9f6688b0b1",
+      "id": "0b755450-ceea-4370-99de-30ea8e1bef20",
+      "_model_hash": "-r5brq4"
+    },
+    {
+      "brand": "Mini",
+      "model": "Cooper SE",
+      "variant": "",
+      "vehicle_type": "car",
+      "usable_battery_size": 49.2,
+      "energy_consumption": {
+        "average_consumption": 14.9
+      },
+      "charging_voltage": 400,
+      "release_year": 2023,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 49.2,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 49.2
+          },
+          {
+            "percentage": 50,
+            "power": 49.2
+          },
+          {
+            "percentage": 80,
+            "power": 29.52
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "6d9d9248-de4a-4b13-976b-4e9f6688b0b1",
+      "id": "3c71fe88-1c2d-4ccf-a2a8-c99f6c53e207",
+      "_model_hash": "-cdc2a5"
     }
   ]
 }

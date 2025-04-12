@@ -29,14 +29,7 @@ The v1 format stores all data in a single JSON file (`data/ev-data.json`) with t
       "ac_charger": {
         "ports": ["type2"],
         "max_power": 11.0,
-        "usable_phases": 3,
-        "power_per_charging_point": {
-          "2.0": 2.0,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4,
-          "11": 11.0
-        }
+        "usable_phases": 3
       },
       "dc_charger": {
         "ports": ["ccs"],
@@ -112,14 +105,7 @@ data/v2/
       "ac_charger": {
         "ports": ["type2"],
         "max_power": 11.0,
-        "usable_phases": 3,
-        "power_per_charging_point": {
-          "2.0": 2.0,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4,
-          "11": 11.0
-        }
+        "usable_phases": 3
       },
       "dc_charger": {
         "ports": ["ccs"],

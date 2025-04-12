@@ -16,17 +16,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 3.6,
-        "power_per_charging_point": {
-          "11": 3.6,
-          "16": 3.6,
-          "22": 3.6,
-          "43": 3.6,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.6,
-          "7.4": 3.6
-        }
+        "max_power": 3.6
       },
       "dc_charger": {
         "ports": [
@@ -80,17 +70,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 3.6,
-        "power_per_charging_point": {
-          "11": 3.6,
-          "16": 3.6,
-          "22": 3.6,
-          "43": 3.6,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.6,
-          "7.4": 3.6
-        }
+        "max_power": 3.6
       },
       "dc_charger": {
         "ports": [
@@ -144,17 +124,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 3.6,
-        "power_per_charging_point": {
-          "11": 3.6,
-          "16": 3.6,
-          "22": 3.6,
-          "43": 3.6,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.6,
-          "7.4": 3.6
-        }
+        "max_power": 3.6
       },
       "dc_charger": {
         "ports": [
@@ -193,6 +163,53 @@
         "average_consumption": 15.5
       },
       "charging_voltage": 400
+    },
+    {
+      "brand": "e.GO Mobile",
+      "model": "x",
+      "variant": "",
+      "vehicle_type": "car",
+      "usable_battery_size": 27,
+      "energy_consumption": {
+        "average_consumption": 18
+      },
+      "charging_voltage": 400,
+      "release_year": 2022,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 27,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 27
+          },
+          {
+            "percentage": 70,
+            "power": 27
+          },
+          {
+            "percentage": 80,
+            "power": 18.9
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "771bb157-23a2-4917-908c-810d241718d5",
+      "id": "ca7bb6f1-a46a-4477-a532-c0fa4cbd5bd3",
+      "_model_hash": "-dnxeiy"
     }
   ]
 }

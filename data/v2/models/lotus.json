@@ -3,6 +3,65 @@
   "brand_name": "Lotus",
   "models": [
     {
+      "brand": "Lotus",
+      "model": "Eletre",
+      "variant": "",
+      "release_year": 2023,
+      "range": 495,
+      "id": "e61aca2c-1657-4905-a839-8b303e9c532d",
+      "brand_id": "c1ca0a1d-4762-0e9b-005e-5791ed0a040e",
+      "usable_battery_size": 109,
+      "energy_consumption": {
+        "average_consumption": 22
+      },
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 22
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 109,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 109
+          },
+          {
+            "percentage": 40,
+            "power": 109
+          },
+          {
+            "percentage": 70,
+            "power": 87.2
+          },
+          {
+            "percentage": 90,
+            "power": 43.6
+          },
+          {
+            "percentage": 100,
+            "power": 22
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "vehicle_type": "car",
+      "charging_voltage": 800,
+      "url": "https://ev-database.org/car/1767/Lotus-Eletre",
+      "status": "pending",
+      "error": "empty model name",
+      "updated_at": "2025-04-11T13:44:24.274Z",
+      "isFixingEmptyName": true,
+      "_manually_fixed_fields": [
+        "energy_consumption"
+      ]
+    },
+    {
       "id": "ea9a6477-dc80-839c-d804-0918df4aebca",
       "brand": "Lotus",
       "vehicle_type": "car",
@@ -16,17 +75,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 22,
-        "power_per_charging_point": {
-          "11": 11.1,
-          "16": 16.2,
-          "22": 22,
-          "43": 22,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
+        "max_power": 22
       },
       "dc_charger": {
         "ports": [
@@ -76,64 +125,6 @@
     },
     {
       "brand": "Lotus",
-      "model": "Eletre",
-      "variant": "",
-      "release_year": 2023,
-      "range": 495,
-      "id": "e61aca2c-1657-4905-a839-8b303e9c532d",
-      "brand_id": "c1ca0a1d-4762-0e9b-005e-5791ed0a040e",
-      "usable_battery_size": 109,
-      "energy_consumption": {
-        "average_consumption": 22,
-        "range": 495
-      },
-      "ac_charger": {
-        "usable_phases": 3,
-        "ports": [
-          "type2"
-        ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
-      },
-      "dc_charger": {
-        "ports": [
-          "ccs"
-        ],
-        "max_power": 367,
-        "is_default_charging_curve": false,
-        "charging_curve": [
-          {
-            "percentage": 0,
-            "power": 367
-          },
-          {
-            "percentage": 50,
-            "power": 367
-          },
-          {
-            "percentage": 80,
-            "power": 220.2
-          },
-          {
-            "percentage": 100,
-            "power": 110.1
-          }
-        ]
-      },
-      "vehicle_type": "car",
-      "charging_voltage": 400
-    },
-    {
-      "brand": "Lotus",
       "model": "Emeya",
       "variant": "",
       "release_year": 2024,
@@ -145,16 +136,6 @@
           "type2"
         ],
         "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        },
         "usable_phases": 3
       },
       "dc_charger": {
@@ -204,16 +185,6 @@
           "type2"
         ],
         "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        },
         "usable_phases": 3
       },
       "dc_charger": {
@@ -263,16 +234,6 @@
           "type2"
         ],
         "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        },
         "usable_phases": 3
       },
       "dc_charger": {
@@ -322,16 +283,6 @@
           "type2"
         ],
         "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        },
         "usable_phases": 3
       },
       "dc_charger": {
@@ -367,6 +318,108 @@
       "energy_consumption": {
         "average_consumption": 17.9
       }
+    },
+    {
+      "brand": "Lotus",
+      "model": "r",
+      "variant": "",
+      "vehicle_type": "car",
+      "usable_battery_size": 109,
+      "energy_consumption": {
+        "average_consumption": 24
+      },
+      "charging_voltage": 800,
+      "release_year": 2023,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 22
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 109,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 109
+          },
+          {
+            "percentage": 40,
+            "power": 109
+          },
+          {
+            "percentage": 70,
+            "power": 87.2
+          },
+          {
+            "percentage": 90,
+            "power": 43.6
+          },
+          {
+            "percentage": 100,
+            "power": 22
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "c1ca0a1d-4762-0e9b-005e-5791ed0a040e",
+      "id": "4b2a6312-e3c7-4372-b451-070e57aa902e",
+      "_model_hash": "-uofmke"
+    },
+    {
+      "brand": "Lotus",
+      "model": "Eletre S",
+      "variant": "",
+      "vehicle_type": "car",
+      "usable_battery_size": 109,
+      "energy_consumption": {
+        "average_consumption": 22.7
+      },
+      "charging_voltage": 800,
+      "release_year": 2023,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 22
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 109,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 109
+          },
+          {
+            "percentage": 40,
+            "power": 109
+          },
+          {
+            "percentage": 70,
+            "power": 87.2
+          },
+          {
+            "percentage": 90,
+            "power": 43.6
+          },
+          {
+            "percentage": 100,
+            "power": 22
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "c1ca0a1d-4762-0e9b-005e-5791ed0a040e",
+      "id": "488446ec-af8d-4bfc-beeb-bc1780dd1e1c",
+      "_model_hash": "-kw9t7e"
     }
   ]
 }

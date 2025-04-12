@@ -34,7 +34,7 @@ module Validators
         errors << "AC charger must have positive max power"
       end
 
-      # Validate power per charging point
+      # Validate power per charging point if present, but it's optional
       if points = ac_charger['power_per_charging_point']
         unless points.is_a?(Hash) && points.values.all? { |v| v.is_a?(Numeric) && v.positive? }
           errors << "Invalid power per charging point structure"
@@ -46,17 +46,11 @@ module Validators
               errors << "Invalid power value for point #{point}"
             end
           end
-
-          # Validate required power points
-          required_points = ["2.0", "2.3", "3.7", "7.4", "11", "16", "22", "43"]
-          missing_points = required_points - points.keys
-          unless missing_points.empty?
-            errors << "Missing required power points: #{missing_points.join(', ')}"
-          end
+          
+          # Removed validation for required power points as it's no longer needed
         end
-      else
-        errors << "Missing power per charging point"
       end
+      # Removed the error for missing power_per_charging_point as it's now optional
 
       errors
     end

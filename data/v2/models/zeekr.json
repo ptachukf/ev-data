@@ -19,17 +19,7 @@
           "type2"
         ],
         "usable_phases": 3,
-        "max_power": 22,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 16,
-          "22": 22,
-          "43": 22,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
+        "max_power": 22
       },
       "dc_charger": {
         "ports": [
@@ -75,17 +65,7 @@
           "type2"
         ],
         "usable_phases": 3,
-        "max_power": 22,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 16,
-          "22": 22,
-          "43": 22,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
+        "max_power": 22
       },
       "dc_charger": {
         "ports": [
@@ -131,17 +111,7 @@
           "type2"
         ],
         "usable_phases": 3,
-        "max_power": 22,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 16,
-          "22": 22,
-          "43": 22,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
+        "max_power": 22
       },
       "dc_charger": {
         "ports": [
@@ -187,17 +157,7 @@
           "type2"
         ],
         "usable_phases": 3,
-        "max_power": 22,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 16,
-          "22": 22,
-          "43": 22,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
+        "max_power": 22
       },
       "dc_charger": {
         "ports": [
@@ -243,17 +203,7 @@
           "type2"
         ],
         "usable_phases": 3,
-        "max_power": 22,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 16,
-          "22": 22,
-          "43": 22,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
+        "max_power": 22
       },
       "dc_charger": {
         "ports": [
@@ -300,17 +250,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -358,17 +298,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -411,16 +341,6 @@
           "type2"
         ],
         "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        },
         "usable_phases": 3
       },
       "dc_charger": {
@@ -456,6 +376,159 @@
       "energy_consumption": {
         "average_consumption": 18.4
       }
+    },
+    {
+      "brand": "Zeekr",
+      "model": "long range rwd",
+      "variant": "",
+      "vehicle_type": "car",
+      "usable_battery_size": 94,
+      "energy_consumption": {
+        "average_consumption": 18.6
+      },
+      "charging_voltage": 400,
+      "release_year": 2023,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 22
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 94,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 94
+          },
+          {
+            "percentage": 30,
+            "power": 94
+          },
+          {
+            "percentage": 60,
+            "power": 65.8
+          },
+          {
+            "percentage": 80,
+            "power": 37.6
+          },
+          {
+            "percentage": 100,
+            "power": 22
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "71900a97-a91f-4b09-b78a-de7c654d41a0",
+      "id": "77e4dcbc-4967-4a4a-85ae-c1ad9f12eb34",
+      "_model_hash": "-h8clgb"
+    },
+    {
+      "brand": "Zeekr",
+      "model": "performance awd",
+      "variant": "",
+      "vehicle_type": "car",
+      "usable_battery_size": 94,
+      "energy_consumption": {
+        "average_consumption": 19.6
+      },
+      "charging_voltage": 400,
+      "release_year": 2023,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 22
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 94,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 94
+          },
+          {
+            "percentage": 30,
+            "power": 94
+          },
+          {
+            "percentage": 60,
+            "power": 65.8
+          },
+          {
+            "percentage": 80,
+            "power": 37.6
+          },
+          {
+            "percentage": 100,
+            "power": 22
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "71900a97-a91f-4b09-b78a-de7c654d41a0",
+      "id": "d021e9ea-e8b0-4c8b-9797-560f8e495768",
+      "_model_hash": "24ow51"
+    },
+    {
+      "brand": "Zeekr",
+      "model": "privilege",
+      "variant": "awd",
+      "vehicle_type": "car",
+      "usable_battery_size": 94,
+      "energy_consumption": {
+        "average_consumption": 19.6
+      },
+      "charging_voltage": 400,
+      "release_year": 2023,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 22
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 94,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 94
+          },
+          {
+            "percentage": 30,
+            "power": 94
+          },
+          {
+            "percentage": 60,
+            "power": 65.8
+          },
+          {
+            "percentage": 80,
+            "power": 37.6
+          },
+          {
+            "percentage": 100,
+            "power": 22
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "71900a97-a91f-4b09-b78a-de7c654d41a0",
+      "id": "467b053b-724a-42a8-9475-49c3d444b7bd",
+      "_model_hash": "w6nrwk"
     }
   ]
 }

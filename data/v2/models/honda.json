@@ -10,101 +10,102 @@
       "model": "e",
       "release_year": 2020,
       "variant": "",
-      "usable_battery_size": 32,
+      "usable_battery_size": 28.5,
       "ac_charger": {
-        "usable_phases": 1,
+        "usable_phases": 3,
         "ports": [
           "type2"
         ],
-        "max_power": 6.6,
-        "power_per_charging_point": {
-          "11": 3.7,
-          "16": 5.4,
-          "22": 6.6,
-          "43": 6.6,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 6.6
-        }
+        "max_power": 6.6
       },
       "dc_charger": {
         "ports": [
           "ccs"
         ],
-        "max_power": 60,
+        "max_power": 28.5,
         "charging_curve": [
           {
             "percentage": 0,
-            "power": 57
+            "power": 28.5
           },
           {
-            "percentage": 75,
-            "power": 60
+            "percentage": 70,
+            "power": 28.5
+          },
+          {
+            "percentage": 80,
+            "power": 19.95
           },
           {
             "percentage": 100,
             "power": 6.6
           }
         ],
-        "is_default_charging_curve": true
+        "is_default_charging_curve": false
       },
       "energy_consumption": {
-        "average_consumption": 16
+        "average_consumption": 16.8
       },
-      "charging_voltage": 400
+      "charging_voltage": 400,
+      "url": "https://ev-database.org/car/1171/Honda-e",
+      "status": "pending",
+      "error": "empty model name",
+      "updated_at": "2025-04-11T13:31:30.130Z",
+      "isFixingEmptyName": true,
+      "_manually_fixed_fields": [
+        "energy_consumption"
+      ]
     },
     {
-      "id": "89ef5a3e-dd5c-af06-ada1-50a5d1abdada",
       "brand": "Honda",
-      "vehicle_type": "car",
-      "brand_id": "9ca5e092-76e2-4868-afc1-c06abeedf81b",
       "model": "e:Ny1",
-      "release_year": 2023,
       "variant": "",
-      "usable_battery_size": 62,
+      "vehicle_type": "car",
+      "usable_battery_size": 61.9,
+      "energy_consumption": {
+        "average_consumption": 18.5
+      },
+      "charging_voltage": 400,
+      "release_year": 2023,
       "ac_charger": {
         "usable_phases": 3,
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
           "ccs"
         ],
-        "max_power": 78,
+        "max_power": 61.9,
         "charging_curve": [
           {
             "percentage": 0,
-            "power": 74.1
+            "power": 61.9
           },
           {
-            "percentage": 75,
-            "power": 78
+            "percentage": 30,
+            "power": 61.9
+          },
+          {
+            "percentage": 60,
+            "power": 43.33
+          },
+          {
+            "percentage": 80,
+            "power": 24.76
           },
           {
             "percentage": 100,
             "power": 11
           }
         ],
-        "is_default_charging_curve": true
+        "is_default_charging_curve": false
       },
-      "energy_consumption": {
-        "average_consumption": 17.2
-      },
-      "charging_voltage": 400
+      "brand_id": "9ca5e092-76e2-4868-afc1-c06abeedf81b",
+      "id": "89ef5a3e-dd5c-af06-ada1-50a5d1abdada",
+      "_model_hash": "-myzqeu"
     },
     {
       "brand": "Honda",
@@ -122,18 +123,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 28.5,
-        "power_per_charging_point": {
-          "2": 2,
-          "11": 11,
-          "16": 16,
-          "22": 22,
-          "43": 28.5,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4,
-          "2.0": 2
-        }
+        "max_power": 28.5
       },
       "dc_charger": {
         "ports": [

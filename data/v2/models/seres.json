@@ -12,53 +12,59 @@
       "brand_id": "6b5a4438-2716-405f-7d6c-5433210a9f8e",
       "usable_battery_size": 51,
       "energy_consumption": {
-        "average_consumption": 19.6,
-        "range": 260
+        "average_consumption": 19.6
       },
       "ac_charger": {
         "usable_phases": 3,
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
+        "max_power": 6.6
       },
       "dc_charger": {
         "ports": [
           "ccs"
         ],
-        "max_power": 56,
-        "is_default_charging_curve": false,
+        "max_power": 51,
         "charging_curve": [
           {
             "percentage": 0,
-            "power": 56
+            "power": 51
           },
           {
-            "percentage": 50,
-            "power": 56
+            "percentage": 20,
+            "power": 51
+          },
+          {
+            "percentage": 40,
+            "power": 41
+          },
+          {
+            "percentage": 60,
+            "power": 31
           },
           {
             "percentage": 80,
-            "power": 33.6
+            "power": 20
           },
           {
             "percentage": 100,
-            "power": 16.8
+            "power": 11
           }
-        ]
+        ],
+        "is_default_charging_curve": true
       },
       "vehicle_type": "car",
-      "charging_voltage": 400
+      "charging_voltage": 400,
+      "url": "https://ev-database.org/car/1804/Seres-3",
+      "status": "pending",
+      "error": "empty model name",
+      "updated_at": "2025-04-11T13:46:06.406Z",
+      "isFixingEmptyName": true,
+      "_manually_fixed_fields": [
+        "energy_consumption",
+        "charging_curve"
+      ]
     }
   ]
 }

@@ -16,17 +16,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -68,17 +58,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -120,17 +100,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -172,17 +142,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -224,17 +184,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -276,17 +226,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -328,17 +268,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -380,17 +310,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -436,17 +356,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -494,17 +404,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -552,17 +452,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -610,17 +500,7 @@
         "ports": [
           "type2"
         ],
-        "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        }
+        "max_power": 11
       },
       "dc_charger": {
         "ports": [
@@ -663,16 +543,6 @@
           "type2"
         ],
         "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        },
         "usable_phases": 3
       },
       "dc_charger": {
@@ -722,16 +592,6 @@
           "type2"
         ],
         "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        },
         "usable_phases": 3
       },
       "dc_charger": {
@@ -781,16 +641,6 @@
           "type2"
         ],
         "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        },
         "usable_phases": 3
       },
       "dc_charger": {
@@ -840,16 +690,6 @@
           "type2"
         ],
         "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        },
         "usable_phases": 3
       },
       "dc_charger": {
@@ -899,16 +739,6 @@
           "type2"
         ],
         "max_power": 11,
-        "power_per_charging_point": {
-          "11": 11,
-          "16": 11,
-          "22": 11,
-          "43": 11,
-          "2.0": 2,
-          "2.3": 2.3,
-          "3.7": 3.7,
-          "7.4": 7.4
-        },
         "usable_phases": 3
       },
       "dc_charger": {
@@ -944,6 +774,312 @@
       "energy_consumption": {
         "average_consumption": 20.5
       }
+    },
+    {
+      "brand": "NIO",
+      "model": "standard range",
+      "variant": "",
+      "vehicle_type": "car",
+      "usable_battery_size": 73.5,
+      "energy_consumption": {
+        "average_consumption": 20.7
+      },
+      "charging_voltage": 400,
+      "release_year": 2022,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 73.5,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 73.5
+          },
+          {
+            "percentage": 30,
+            "power": 73.5
+          },
+          {
+            "percentage": 60,
+            "power": 51.45
+          },
+          {
+            "percentage": 80,
+            "power": 29.4
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "2763ca2c-43b8-d4e4-f0ac-60f664743d72",
+      "id": "3192cf6c-e411-49ed-bd98-ba45cca32c80",
+      "_model_hash": "-t0tblt"
+    },
+    {
+      "brand": "NIO",
+      "model": "long range",
+      "variant": "",
+      "vehicle_type": "car",
+      "usable_battery_size": 90,
+      "energy_consumption": {
+        "average_consumption": 20.9
+      },
+      "charging_voltage": 400,
+      "release_year": 2022,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 90,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 90
+          },
+          {
+            "percentage": 30,
+            "power": 90
+          },
+          {
+            "percentage": 60,
+            "power": 63
+          },
+          {
+            "percentage": 80,
+            "power": 36
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "2763ca2c-43b8-d4e4-f0ac-60f664743d72",
+      "id": "16f84a97-8e16-4088-ba1f-0f78772f3c45",
+      "_model_hash": "2peo5w"
+    },
+    {
+      "brand": "NIO",
+      "model": "touring standard range",
+      "variant": "",
+      "vehicle_type": "car",
+      "usable_battery_size": 73.5,
+      "energy_consumption": {
+        "average_consumption": 18.4
+      },
+      "charging_voltage": 400,
+      "release_year": 2023,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 73.5,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 73.5
+          },
+          {
+            "percentage": 30,
+            "power": 73.5
+          },
+          {
+            "percentage": 60,
+            "power": 51.45
+          },
+          {
+            "percentage": 80,
+            "power": 29.4
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "2763ca2c-43b8-d4e4-f0ac-60f664743d72",
+      "id": "20d2077d-8938-4320-bf85-db1ede2c6b34",
+      "_model_hash": "-8farnc"
+    },
+    {
+      "brand": "NIO",
+      "model": "touring long range",
+      "variant": "",
+      "vehicle_type": "car",
+      "usable_battery_size": 90,
+      "energy_consumption": {
+        "average_consumption": 18.6
+      },
+      "charging_voltage": 400,
+      "release_year": 2023,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 90,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 90
+          },
+          {
+            "percentage": 30,
+            "power": 90
+          },
+          {
+            "percentage": 60,
+            "power": 63
+          },
+          {
+            "percentage": 80,
+            "power": 36
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "2763ca2c-43b8-d4e4-f0ac-60f664743d72",
+      "id": "98bd8523-351e-4ef3-9dc8-83c04dd6c04d",
+      "_model_hash": "-rnyqub"
+    },
+    {
+      "brand": "NIO",
+      "model": "standard range",
+      "variant": "",
+      "vehicle_type": "car",
+      "usable_battery_size": 73.5,
+      "energy_consumption": {
+        "average_consumption": 20.1
+      },
+      "charging_voltage": 400,
+      "release_year": 2023,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 73.5,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 73.5
+          },
+          {
+            "percentage": 30,
+            "power": 73.5
+          },
+          {
+            "percentage": 60,
+            "power": 51.45
+          },
+          {
+            "percentage": 80,
+            "power": 29.4
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "2763ca2c-43b8-d4e4-f0ac-60f664743d72",
+      "id": "eca1e9b9-f0cb-49be-9e6a-a443706fe570",
+      "_model_hash": "-sjrp7m"
+    },
+    {
+      "brand": "NIO",
+      "model": "long range",
+      "variant": "",
+      "vehicle_type": "car",
+      "usable_battery_size": 90,
+      "energy_consumption": {
+        "average_consumption": 20.7
+      },
+      "charging_voltage": 400,
+      "release_year": 2023,
+      "ac_charger": {
+        "usable_phases": 3,
+        "ports": [
+          "type2"
+        ],
+        "max_power": 11
+      },
+      "dc_charger": {
+        "ports": [
+          "ccs"
+        ],
+        "max_power": 90,
+        "charging_curve": [
+          {
+            "percentage": 0,
+            "power": 90
+          },
+          {
+            "percentage": 30,
+            "power": 90
+          },
+          {
+            "percentage": 60,
+            "power": 63
+          },
+          {
+            "percentage": 80,
+            "power": 36
+          },
+          {
+            "percentage": 100,
+            "power": 11
+          }
+        ],
+        "is_default_charging_curve": false
+      },
+      "brand_id": "2763ca2c-43b8-d4e4-f0ac-60f664743d72",
+      "id": "79b97311-feb4-49c2-806a-063a0e4fb6cc",
+      "_model_hash": "2pfb5f"
     }
   ]
 }
