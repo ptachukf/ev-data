@@ -1,0 +1,6 @@
+pandas
+requests
+matplotlib
+jupyter
+python-dateutil
+tqdm
