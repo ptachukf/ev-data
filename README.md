@@ -1,9 +1,5 @@
 # Open EV Data
 
-[![Ruby Tests](https://github.com/KilowattApp/open-ev-data/actions/workflows/test.yml/badge.svg)](https://github.com/KilowattApp/open-ev-data/actions/workflows/test.yml)
-[![Sponsor](https://img.shields.io/github/sponsors/KilowattApp?label=Sponsor&logo=GitHub)](https://github.com/sponsors/KilowattApp)
-[![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=flat&logo=buy-me-a-coffee&logoColor=black)](https://www.buymeacoffee.com/xoCRGwybBs)
-
 A comprehensive database of electric vehicle specifications, focusing on charging capabilities and energy consumption.
 
 In contrast to ICE cars, electric vehicles have very different behaviors in terms of charging and charging speed. Having reliable data about a car is key for developing EV-related applications.
