@@ -1,42 +1,45 @@
-# EV Data (Fork of Open EV Data)
+# EV Popularity Analysis (based on Open EV Data)
 
-This repository is a fork of [Open EV Data](https://github.com/KilowattApp/open-ev-data), 
-a comprehensive database of electric vehicle specifications focusing on charging capabilities 
-and energy consumption. 
+This repository is a **fork of [Open EV Data](https://github.com/KilowattApp/open-ev-data)**, 
+a dataset of electric vehicle specifications.  
 
-In this fork I am extending the dataset with **additional EV specifications** such as:
-
-- Top speed (`top_speed_kmh`)
-- Driving range by cycle (`range_wltp_km`, `range_epa_km`, `range_cltc_km`)
-- Other technical details relevant for research and applications
-
-The goal is to create a richer, more complete dataset for use in my bachelor thesis and 
-potential EV-related projects.
+The purpose of this fork is not to extend the dataset itself, but to **use it as a foundation 
+for analyses of electric vehicle popularity worldwide**.
 
 ---
 
-## Upstream project
+## Project goal
 
-The original project was created and maintained by Kilowatt (the *Kilowatt – Electric Car Timer* app).  
-Data is released under the MIT License with Attribution Requirement. Please see 
-[LICENSE](LICENSE) for full terms.
+This repository is part of my bachelor thesis:  
+**"Analysis of the popularity of electric cars worldwide using Wikipedia and other open data sources."**
 
-Original repository: [KilowattApp/open-ev-data](https://github.com/KilowattApp/open-ev-data)
+Using Open EV Data as a reference for vehicle models, I will:
+
+- Cross-reference EV models with Wikipedia pageviews and other open statistics,
+- Explore trends in EV popularity across different regions,
+- Present data visualizations and comparative statistics.
 
 ---
 
-## Current extensions
+## Data sources
 
-- Added new fields for EV performance specs (top speed, ranges).
-- Work in progress: scripts for automated data extraction and enrichment.
-- Plan: convert enriched data into convenient formats (CSV, XLSX, SQLite).
+- **[Open EV Data](https://github.com/KilowattApp/open-ev-data)** – base dataset of EV specifications (MIT License with Attribution).
+- **Wikipedia** (via [Wikimedia API](https://wikitech.wikimedia.org/wiki/Analytics/AQS/Pageviews)) – for pageview statistics.
+- **Other open datasets** (market reports, government statistics, etc.) where available.
+
+---
+
+## Planned outputs
+
+- Cleaned and merged datasets (CSV/XLSX) linking EV specs to popularity metrics,
+- Jupyter notebooks with data analysis,
+- Visualizations (plots, charts, maps) showing trends in EV adoption and interest.
 
 ---
 
 ## License and attribution
 
-This fork retains the original MIT License with Attribution.  
-If you use this dataset, please include attribution to both:
+- Original dataset: [Open EV Data](https://github.com/KilowattApp/open-ev-data), MIT License with Attribution.  
+- Analysis and code in this repository: released under MIT License.  
 
-- [Open EV Data](https://github.com/KilowattApp/open-ev-data) (original dataset)
-- This repository (extended dataset)
+When reusing, please include attribution to both sources.
